@@ -1,0 +1,59 @@
+{
+  "dataset": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L64.h5",
+  "integrity_status": "pass",
+  "physics_training_status": "not_ready",
+  "groups": {
+    "d_wave_altermagnet": {
+      "shape": [
+        90,
+        101,
+        2,
+        64,
+        64,
+        3
+      ],
+      "finite": true,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "initial_matches_first_frame_max_abs": 0.0,
+      "trajectory_seeds_unique": true,
+      "all_sample_weights_equal_one": true,
+      "split_counts_by_condition": {
+        "0": [
+          24,
+          3,
+          3
+        ],
+        "1": [
+          24,
+          3,
+          3
+        ],
+        "2": [
+          24,
+          3,
+          3
+        ]
+      },
+      "split_policy": "balanced_8_1_1",
+      "split_matches_policy": true,
+      "has_dimensionless_model_conditions": true,
+      "has_joint_rotation_vectors": true
+    }
+  },
+  "checks": {
+    "schema_v2": true,
+    "write_completed": true,
+    "time_strictly_increasing": true,
+    "periodic_xy_recorded": true,
+    "all_groups_finite": true,
+    "spin_norm_error_below_1e-6": true,
+    "initial_matches_first_frame": true,
+    "trajectory_seeds_independently_replayable": true,
+    "unbiased_equal_weights": true,
+    "split_matches_declared_policy": true,
+    "conditioning_complete": true,
+    "manifest_sha256_matches": true,
+    "convergence_gate_passed": false
+  },
+  "claim_boundary": "integrity pass means the file is numerically usable; only a passed convergence gate permits nonuniform-mechanism training claims"
+}

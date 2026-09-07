@@ -1,0 +1,19 @@
+{
+  "input": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG\\data\\standard_v2\\train\\d_wave_altermagnet_L32.h5",
+  "definition_warning": "These are pre-registered geometric descriptors, not ground-truth semantic labels. Threshold robustness and size convergence are required.",
+  "groups": {
+    "d_wave_altermagnet": {
+      "n_trajectories": 90,
+      "outcome_counts": {
+        "no_crossing": 57,
+        "negative_endpoint": 33
+      },
+      "switched_mechanism_counts": {
+        "coherent_like": 33
+      },
+      "mean_max_spatial_std": 0.12021740525960922,
+      "mean_max_periodic_wall_density": 0.13500434027777777,
+      "mechanism_threshold": "coherent_like if max spatial std during |global order|<0.5 is below 0.25"
+    }
+  }
+}

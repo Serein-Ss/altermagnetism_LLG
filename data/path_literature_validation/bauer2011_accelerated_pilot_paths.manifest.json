@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "profile": "accelerated_pilot",
+  "scientific_role": "pipeline_and_mechanism_pilot_not_a_quantitative_Fig2_reproduction",
+  "source": {
+    "model": "Bauer2011_open_uniaxial_chain_Fig2",
+    "doi": "10.1088/0953-8984/23/39/394204",
+    "parameters": {
+      "exchange_j": 1.0,
+      "anisotropy_k": 0.1,
+      "moment": 1.0,
+      "gamma": 1.0,
+      "boltzmann": 1.0
+    },
+    "unit_system": "Bauer2011_dimensionless_energy_J_time_hbar_over_J",
+    "boundary": "open_chain",
+    "published_fig2": {
+      "length": 100,
+      "temperature_kBT_over_J": 0.11,
+      "damping_lambda": 0.1,
+      "duration_hbar_over_J": 750000.0
+    }
+  },
+  "equation": "Bauer Eq.(2): LL precession with noise, deterministic damping; Stratonovich stochastic Heun",
+  "thermal_noise": "epsilon^2=2 lambda k_B T; isotropic/site/time independent",
+  "parameters": {
+    "length": 40,
+    "temperature": 0.2,
+    "duration": 500.0,
+    "dt": 0.02,
+    "trajectories": 40,
+    "save_every": 25,
+    "alpha_lambda": 0.1,
+    "steps": 25000,
+    "seed": 20260907
+  },
+  "selection": "none; every trajectory has unit sample weight",
+  "split": "whole trajectories 80:10:10",
+  "limitations": [
+    "The paper does not report its numerical timestep or random seed.",
+    "The accelerated profile changes length and temperature and is not Fig. 2 reproduction."
+  ],
+  "file": "bauer2011_accelerated_pilot_paths.h5",
+  "bytes": 19235016
+}

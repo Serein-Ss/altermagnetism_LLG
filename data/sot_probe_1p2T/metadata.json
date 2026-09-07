@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "ensemble": "unbiased_equal_weight_given_finite_time_preparation",
+  "hamiltonian": "Gomonay2024_supplementary_equation_S1",
+  "units": "energy=J, field=T, time=s, temperature=K",
+  "parameters": {
+    "j1_mev": 11.1,
+    "j2_mev": 1.88,
+    "j_tilde_mev": 0.8,
+    "anisotropy_mev": 0.047,
+    "mu_s_mu_b": 1.0,
+    "lattice_nm": 0.448,
+    "gamma": 176085963023.0
+  },
+  "temperature_K": 0.0,
+  "size": [
+    4,
+    4
+  ],
+  "alpha": 0.01,
+  "dt_s": 1e-16,
+  "equilibration_steps": 0,
+  "drive_steps": 10000,
+  "save_every": 100,
+  "boundary": "periodic_xy",
+  "sot": {
+    "damping_like_T": 1.2,
+    "pulse_ps": 0.5,
+    "polarization": [
+      0.7071067811865476,
+      0.7071067811865476,
+      0.0
+    ]
+  },
+  "noise": "classical Gaussian white field with fluctuation-dissipation amplitude",
+  "integrator": "projected stochastic Heun, Stratonovich, same noise in predictor/corrector",
+  "split_unit": "whole_trajectory",
+  "production_warning": "certify equilibration, timestep convergence and ordered phase before scientific use",
+  "trajectories": [
+    {
+      "trajectory_id": 0,
+      "file": "trajectory_000000.npz",
+      "seed": 1,
+      "statistical_weight": 1.0,
+      "selected_by_outcome": false
+    }
+  ]
+}

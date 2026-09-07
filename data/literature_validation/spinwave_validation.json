@@ -1,0 +1,37 @@
+{
+  "reference": "Gomonay et al., npj Spintronics 2, 35 (2024), Supplementary Eq. S.1/S.9",
+  "purpose": "small-amplitude deterministic LLG spin-wave validation",
+  "parameters": {
+    "J1_meV": 11.1,
+    "J2_meV": 1.88,
+    "J_tilde_meV": 0.8,
+    "K_meV": 0.0,
+    "mu_s_muB": 1.0,
+    "a0_nm": 0.448
+  },
+  "lattice": [
+    16,
+    16
+  ],
+  "mode": [
+    2,
+    2
+  ],
+  "dt_s": 2e-16,
+  "steps": 20000,
+  "expected_frequency_THz": [
+    12.356290356470414,
+    13.9055980483708
+  ],
+  "measured_frequency_THz": [
+    12.24938753062347,
+    13.99930003499825
+  ],
+  "relative_error": [
+    0.008651692600519482,
+    0.006738436297490095
+  ],
+  "max_norm_error": 0.0,
+  "relative_energy_drift": 2.1705349602771107e-15,
+  "status": "pass"
+}

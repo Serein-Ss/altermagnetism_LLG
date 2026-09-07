@@ -1,0 +1,57 @@
+{
+  "question": "Are equal-weight finite-temperature paths multimodal at one fixed condition?",
+  "protocol_registered_from": "independent zero-temperature SOT scan",
+  "parameters": {
+    "j1_mev": 11.1,
+    "j2_mev": 1.88,
+    "j_tilde_mev": 0.8,
+    "anisotropy_mev": 0.047,
+    "mu_s_mu_b": 1.0,
+    "lattice_nm": 0.448,
+    "gamma": 176085963023.0
+  },
+  "condition": {
+    "temperature_K": 5.0,
+    "sot_damping_like_T": 0.8,
+    "pulse_ps": 0.5,
+    "total_ps": 1.0,
+    "preparation_ps": 0.2,
+    "dt_fs": 0.1,
+    "alpha": 0.01,
+    "lattice": [
+      8,
+      8
+    ],
+    "periodic_boundary": true,
+    "trajectories": 256,
+    "seed": 20260907
+  },
+  "physical_path_classes": {
+    "no_zero_crossing": 102,
+    "cross_and_return_positive": 15,
+    "negative_at_final_time": 139
+  },
+  "crossing_fraction": 0.6015625,
+  "gmm_bic_components_1_to_4": [
+    7435.3530390512215,
+    6971.481478424666,
+    6849.751663722664,
+    6736.912633023323
+  ],
+  "best_gmm_components": 4,
+  "bic_gain_over_one_component": 698.4404060278985,
+  "path_PCA_explained_variance": [
+    0.6145809788480701,
+    0.17828762471701518,
+    0.10945083840408652,
+    0.06638584243338752,
+    0.014693050333862487,
+    0.007428903843963124
+  ],
+  "pre_registered_pass_rules": {
+    "both_crossing_and_non_crossing_at_least_10_percent": true,
+    "best_GMM_has_at_least_2_components_and_DeltaBIC_at_least_10": true
+  },
+  "status": "pass",
+  "scope_warning": "This establishes finite-size path bifurcation for the stated protocol only; larger lattices and timestep/seed replication are required before a physics claim."
+}

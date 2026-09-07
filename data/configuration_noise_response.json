@@ -1,0 +1,65 @@
+{
+  "purpose": "configuration-dependent directional response check",
+  "warning": "axis-restricted noise is not a physical production bath; it is a paired susceptibility diagnostic. The planar spiral is imposed and is not a validated equilibrium phase of this easy-axis Hamiltonian.",
+  "estimator": "antithetic +/- field pairs cancel odd-in-noise energy response",
+  "production_noise": "isotropic Cartesian FDT field",
+  "parameters": {
+    "temperature_K": 5.0,
+    "alpha": 0.01,
+    "dt_s": 1e-16,
+    "samples": 32768,
+    "lattice": [
+      8,
+      8
+    ],
+    "thermal_field_component_std_T": 91.9486783464644
+  },
+  "states": [
+    {
+      "state": "collinear_neel_z",
+      "initial_energy_meV_per_spin": -26.007,
+      "zero_noise_delta_meV_per_spin": 0.0,
+      "rms_deterministic_torque_T": 0.0,
+      "directional_response": {
+        "x": {
+          "mean_excess_energy_meV_per_spin": 6.817345864280612e-05,
+          "sem_meV_per_spin": 7.2486287653321e-08,
+          "positive_fraction": 1.0
+        },
+        "y": {
+          "mean_excess_energy_meV_per_spin": 6.81734586427981e-05,
+          "sem_meV_per_spin": 7.248628765354643e-08,
+          "positive_fraction": 1.0
+        },
+        "z": {
+          "mean_excess_energy_meV_per_spin": 0.0,
+          "sem_meV_per_spin": 0.0,
+          "positive_fraction": 0.0
+        }
+      }
+    },
+    {
+      "state": "imposed_planar_spiral_xy",
+      "initial_energy_meV_per_spin": -22.158246019801386,
+      "zero_noise_delta_meV_per_spin": -0.0007493739168465889,
+      "rms_deterministic_torque_T": 271.1944558663142,
+      "directional_response": {
+        "x": {
+          "mean_excess_energy_meV_per_spin": 2.8967674217618562e-05,
+          "sem_meV_per_spin": 3.879880091641e-08,
+          "positive_fraction": 0.938079833984375
+        },
+        "y": {
+          "mean_excess_energy_meV_per_spin": 2.899866711005866e-05,
+          "sem_meV_per_spin": 3.880092455638982e-08,
+          "positive_fraction": 0.9376220703125
+        },
+        "z": {
+          "mean_excess_energy_meV_per_spin": 5.808943064010079e-05,
+          "sem_meV_per_spin": 6.186719385962811e-08,
+          "positive_fraction": 0.510284423828125
+        }
+      }
+    }
+  ]
+}

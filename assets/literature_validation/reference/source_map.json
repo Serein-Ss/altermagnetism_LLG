@@ -1,0 +1,16 @@
+{
+  "source": "Gomonay et al., npj Spintronics 2, 35 (2024)",
+  "doi": "10.1038/s44306-024-00042-3",
+  "license": "CC BY 4.0",
+  "blocks": [
+    {
+      "id": "F001",
+      "type": "figure",
+      "label": "Fig. 2",
+      "pdf_page": 3,
+      "asset": "gomonay_2024_fig2.png",
+      "crop_pixels_at_180dpi": [545, 88, 1415, 700],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "published_hamiltonian_static_barrier_validation",
+  "source": {
+    "model": "Bauer2011_open_uniaxial_chain_Fig2",
+    "doi": "10.1088/0953-8984/23/39/394204",
+    "parameters": {
+      "exchange_j": 1.0,
+      "anisotropy_k": 0.1,
+      "moment": 1.0,
+      "gamma": 1.0,
+      "boltzmann": 1.0
+    },
+    "unit_system": "Bauer2011_dimensionless_energy_J_time_hbar_over_J",
+    "boundary": "open_chain",
+    "published_fig2": {
+      "length": 100,
+      "temperature_kBT_over_J": 0.11,
+      "damping_lambda": 0.1,
+      "duration_hbar_over_J": 750000.0
+    }
+  },
+  "checks": [
+    {
+      "K_over_J": 0.01,
+      "length": 100,
+      "continuum_wall_width_sites": 20.0,
+      "continuum_barrier_J": 0.282842712474619,
+      "optimized_discrete_wall_energy_J": 0.2826072220556455,
+      "relative_difference": 0.0008325843608032122
+    },
+    {
+      "K_over_J": 0.1,
+      "length": 100,
+      "continuum_wall_width_sites": 6.324555320336759,
+      "continuum_barrier_J": 0.8944271909999159,
+      "optimized_discrete_wall_energy_J": 0.8867248749788814,
+      "relative_difference": 0.008611451103609353
+    }
+  ],
+  "scope": "This validates the Hamiltonian and the domain-wall energy scale. It does not reproduce the paper's stochastic lifetime without a long run."
+}

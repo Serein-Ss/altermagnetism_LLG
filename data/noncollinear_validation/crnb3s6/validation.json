@@ -1,0 +1,49 @@
+{
+  "status": "literature_period_and_stationarity_validation",
+  "source": {
+    "model": "Laliena2020_CrNb3S6_monoaxial_helimagnet",
+    "doi": "10.1038/s41598-020-76989-2",
+    "parameters": {
+      "exchange_a_j_per_m": 1.42e-12,
+      "dmi_d_j_per_m2": 0.000369,
+      "anisotropy_k_j_per_m3": -124000.0,
+      "saturation_magnetization_a_per_m": 129000.0,
+      "cell_m": 6e-10,
+      "gamma": 176085963023.0
+    },
+    "field_t": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+    "boundary": "periodic_chiral_axis",
+    "published_zero_field_period_nm": 48.0,
+    "continuum_period_nm_from_parameters": 48.35839098208679
+  },
+  "discretization": {
+    "length_cells": 80,
+    "cell_nm": 0.6,
+    "periodic_length_nm": 48.0,
+    "winding": 1
+  },
+  "period": {
+    "published_nm": 48.0,
+    "continuum_from_parameters_nm": 48.35839098208679,
+    "discrete_unconstrained_from_parameters_nm": 48.4561973133641,
+    "discrete_parameter_prediction_relative_error": 0.009504110695085425,
+    "simulated_commensurate_nm": 47.999999999999986,
+    "commensurability_note": "The 80-cell periodic box is deliberately one published 48 nm period; the independent checks are the parameter-predicted pitch, stationarity, and energy ordering of winding sectors."
+  },
+  "stationarity": {
+    "initial_max_torque_T": 6.848341338461239e-14,
+    "relative_energy_drift": 2.273840496204904e-16,
+    "spin_norm_max_error": 0.0
+  },
+  "winding_sector_energies_J": {
+    "0": 0.0,
+    "1": -4.1357143661895957e-22,
+    "2": 1.5865063195283802e-23
+  },
+  "one_turn_is_lowest_of_tested_sectors": true
+}

@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "dataset_role": "trainable_pilot_benchmark_not_production_scale",
+  "full_spatial_state": true,
+  "spin_layout": "trajectory,time,sublattice,x,y,xyz",
+  "storage": "HDF5 float32 spins, per-trajectory gzip chunks, lazy loading",
+  "split": "80:10:10 within every system-condition; whole trajectories only",
+  "split_codes": {
+    "0": "train",
+    "1": "validation",
+    "2": "test"
+  },
+  "selection": "none; every generated trajectory retained with equal weight",
+  "rng": "one seeded PyTorch counter stream per system-condition; each trajectory occupies a distinct tensor lane and receives disjoint Gaussian draws",
+  "device": "cuda",
+  "size": [
+    8,
+    8
+  ],
+  "trajectories_per_condition": 20,
+  "systems": {
+    "ordinary_free_moments": {
+      "system_id": 0,
+      "model": {
+        "model": "Nishino2015_noninteracting_moments_Fig1",
+        "doi": "10.1103/PhysRevB.91.134411",
+        "parameters": {
+          "field_h": 2.0,
+          "moment_m": 1.0,
+          "gamma": 1.0,
+          "boltzmann": 1.0
+        },
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1",
+        "boundary": "irrelevant_noninteracting"
+      },
+      "run_spec": {
+        "name": "ordinary_free_moments",
+        "system_id": 0,
+        "temperatures": [
+          1.0,
+          2.0,
+          5.0
+        ],
+        "drives": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "alpha": 0.05,
+        "dt": 0.005,
+        "equilibration_steps": 10000,
+        "steps": 2000,
+        "save_every": 40,
+        "pulse_end": 0.0,
+        "sublattices": 1,
+        "antiferromagnetic": false,
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1"
+      },
+      "conditions": [
+        {
+          "condition_id": 0,
+          "temperature": 1.0,
+          "drive": 0.0
+        },
+        {
+          "condition_id": 1,
+          "temperature": 2.0,
+          "drive": 0.0
+        },
+        {
+          "condition_id": 2,
+          "temperature": 5.0,
+          "drive": 0.0
+        }
+      ]
+    },
+    "conventional_afm_control": {
+      "system_id": 1,
+      "model": {
+        "model": "Gomonay2024_Jtilde_zero_control",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.0,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "controlled_ablation_not_a_separate_material_claim"
+      },
+      "run_spec": {
+        "name": "conventional_afm_control",
+        "system_id": 1,
+        "temperatures": [
+          5.0,
+          5.0,
+          5.0
+        ],
+        "drives": [
+          0.6,
+          0.8,
+          1.0
+        ],
+        "alpha": 0.01,
+        "dt": 1e-16,
+        "equilibration_steps": 2000,
+        "steps": 10000,
+        "save_every": 200,
+        "pulse_end": 5e-13,
+        "sublattices": 2,
+        "antiferromagnetic": true,
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K"
+      },
+      "conditions": [
+        {
+          "condition_id": 0,
+          "temperature": 5.0,
+          "drive": 0.6
+        },
+        {
+          "condition_id": 1,
+          "temperature": 5.0,
+          "drive": 0.8
+        },
+        {
+          "condition_id": 2,
+          "temperature": 5.0,
+          "drive": 1.0
+        }
+      ]
+    },
+    "d_wave_altermagnet": {
+      "system_id": 2,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      },
+      "run_spec": {
+        "name": "d_wave_altermagnet",
+        "system_id": 2,
+        "temperatures": [
+          5.0,
+          5.0,
+          5.0
+        ],
+        "drives": [
+          0.6,
+          0.8,
+          1.0
+        ],
+        "alpha": 0.01,
+        "dt": 1e-16,
+        "equilibration_steps": 2000,
+        "steps": 10000,
+        "save_every": 200,
+        "pulse_end": 5e-13,
+        "sublattices": 2,
+        "antiferromagnetic": true,
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K"
+      },
+      "conditions": [
+        {
+          "condition_id": 0,
+          "temperature": 5.0,
+          "drive": 0.6
+        },
+        {
+          "condition_id": 1,
+          "temperature": 5.0,
+          "drive": 0.8
+        },
+        {
+          "condition_id": 2,
+          "temperature": 5.0,
+          "drive": 1.0
+        }
+      ]
+    }
+  },
+  "file": "llg_spatial_paths.h5",
+  "bytes": 11634502
+}

@@ -1,0 +1,8 @@
+numpy
+torch
+matplotlib
+h5py
+pillow
+pytest
+scipy
+scikit-learn

@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "dataset_role": "size_scalable_full_spatial_paths",
+  "status": "generated_not_convergence_certified",
+  "size": [
+    48,
+    48
+  ],
+  "initial_state": "collinear",
+  "split": "80:10:10 within each physical condition, whole trajectories",
+  "randomness": "one stored and independently replayable PyTorch seed per trajectory",
+  "thermal_noise": "Stratonovich stochastic Heun; FDT covariance 2 alpha kBT/(gamma mu_s) delta(t-t')",
+  "training_gate": "requires separate dt/save-cadence/size convergence and mechanism audit",
+  "systems": {
+    "d_wave_altermagnet": {
+      "model": "Gomonay2024_double_layer_altermagnet",
+      "doi": "10.1038/s44306-024-00042-3",
+      "parameters": {
+        "j1_mev": 11.1,
+        "j2_mev": 1.88,
+        "j_tilde_mev": 0.8,
+        "anisotropy_mev": 0.047,
+        "mu_s_mu_b": 1.0,
+        "lattice_nm": 0.448,
+        "gamma": 176085963023.0
+      },
+      "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+      "boundary": "periodic_xy",
+      "certification_role": "published_hamiltonian"
+    }
+  },
+  "file": "d_wave_altermagnet_48x48_drive_scan.h5",
+  "bytes": 453448589,
+  "sha256": "8cfae205f20fc9b2c68fa70915cf00b097f14638b67a3d5aa4b50a4c9af12468"
+}

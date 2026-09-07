@@ -1,0 +1,81 @@
+{
+  "class_order": [
+    "no_zero_crossing",
+    "cross_and_return_positive",
+    "negative_at_final_time"
+  ],
+  "ensembles": {
+    "altermagnet_dt_0.10_fs": {
+      "counts": [
+        102,
+        15,
+        139
+      ],
+      "fractions": [
+        0.3984375,
+        0.05859375,
+        0.54296875
+      ],
+      "crossing_fraction": 0.6015625,
+      "crossing_fraction_wilson_95pct": [
+        0.540515032751419,
+        0.6596069964120759
+      ],
+      "bic_gain_over_one_component": 698.4404060278985
+    },
+    "altermagnet_dt_0.05_fs": {
+      "counts": [
+        50,
+        8,
+        70
+      ],
+      "fractions": [
+        0.390625,
+        0.0625,
+        0.546875
+      ],
+      "crossing_fraction": 0.609375,
+      "crossing_fraction_wilson_95pct": [
+        0.5228464818201277,
+        0.6895298089950423
+      ],
+      "bic_gain_over_one_component": 227.19716399293657
+    },
+    "afm_control_jtilde_0": {
+      "counts": [
+        50,
+        6,
+        72
+      ],
+      "fractions": [
+        0.390625,
+        0.046875,
+        0.5625
+      ],
+      "crossing_fraction": 0.609375,
+      "crossing_fraction_wilson_95pct": [
+        0.5228464818201277,
+        0.6895298089950423
+      ],
+      "bic_gain_over_one_component": 231.80317986449427
+    }
+  },
+  "chi_square_class_fraction_tests": {
+    "dt_0.10_vs_0.05_fs": {
+      "chi2": 0.037289369669232374,
+      "dof": 2,
+      "p_value": 0.9815280520939
+    },
+    "altermagnet_vs_afm_control_at_this_small_uniform_protocol": {
+      "chi2": 0.28668531518369383,
+      "dof": 2,
+      "p_value": 0.866457119912335
+    }
+  },
+  "interpretation": {
+    "multimodality_exists": true,
+    "stable_to_halving_timestep": true,
+    "altermagnet_specificity_demonstrated": false,
+    "reason": "The small near-uniform test shows indistinguishable class fractions when j_tilde is set to zero. Spatial textures and crystal direction must be tested to establish an altermagnetic effect."
+  }
+}

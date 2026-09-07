@@ -1,0 +1,21 @@
+{
+  "input": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG\\data\\path_literature_validation\\bauer2011_accelerated_pilot_paths.h5",
+  "definition_warning": "These are pre-registered geometric descriptors, not ground-truth semantic labels. Threshold robustness and size convergence are required.",
+  "groups": {
+    "bauer_chain": {
+      "kind": "open_chain",
+      "n_trajectories": 40,
+      "outcome_counts": {
+        "no_crossing": 28,
+        "negative_endpoint": 7,
+        "crossing_return": 5
+      },
+      "first_resolved_nucleation_counts": {
+        "bulk": 28,
+        "edge": 12
+      },
+      "mean_max_domain_walls": 11.325,
+      "interpretation": "Distinct endpoint and return classes are present. Nucleation location in the accelerated pilot is not expected to match the lower-temperature paper."
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "dataset": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG\\data\\training_benchmark\\llg_spatial_paths.h5",
+  "certification_scope": "schema/numerics/split + Nishino exact equilibrium + existing Gomonay spin-wave",
+  "systems": {
+    "conventional_afm_control": {
+      "shape": [
+        60,
+        51,
+        2,
+        8,
+        8,
+        3
+      ],
+      "finite": true,
+      "max_spin_norm_error": 5.960464477539063e-08,
+      "conditions": [
+        {
+          "condition_id": 0,
+          "condition": [
+            5.0,
+            0.01,
+            0.6,
+            0.0,
+            1e-16,
+            1e-12
+          ],
+          "split_counts_train_validation_test": [
+            16,
+            2,
+            2
+          ],
+          "drive_T": 0.6,
+          "no_crossing_fraction": 0.95,
+          "cross_and_return_fraction": 0.0,
+          "final_negative_fraction": 0.05,
+          "mean_final_neel_z": 0.8016160130500793,
+          "std_final_neel_z": 0.3775891959667206,
+          "mean_peak_spatial_incoherence": 0.011463475413620472
+        },
+        {
+          "condition_id": 1,
+          "condition": [
+            5.0,
+            0.01,
+            0.8,
+            0.0,
+            1e-16,
+            1e-12
+          ],
+          "split_counts_train_validation_test": [
+            16,
+            2,
+            2
+          ],
+          "drive_T": 0.8,
+          "no_crossing_fraction": 0.55,
+          "cross_and_return_fraction": 0.0,
+          "final_negative_fraction": 0.45,
+          "mean_final_neel_z": 0.08884892612695694,
+          "std_final_neel_z": 0.7725855708122253,
+          "mean_peak_spatial_incoherence": 0.011839175596833229
+        },
+        {
+          "condition_id": 2,
+          "condition": [
+            5.0,
+            0.01,
+            1.0,
+            0.0,
+            1e-16,
+            1e-12
+          ],
+          "split_counts_train_validation_test": [
+            16,
+            2,
+            2
+          ],
+          "drive_T": 1.0,
+          "no_crossing_fraction": 0.0,
+          "cross_and_return_fraction": 0.6,
+          "final_negative_fraction": 0.4,
+          "mean_final_neel_z": 0.12370079755783081,
+          "std_final_neel_z": 0.7379345297813416,
+          "mean_peak_spatial_incoherence": 0.01179419457912445
+        }
+      ]
+    },
+    "d_wave_altermagnet": {
+      "shape": [
+        60,
+        51,
+        2,
+        8,
+        8,
+        3
+      ],
+      "finite": true,
+      "max_spin_norm_error": 5.960464477539063e-08,
+      "conditions": [
+        {
+          "condition_id": 0,
+          "condition": [
+            5.0,
+            0.01,
+            0.6,
+            0.0,
+            1e-16,
+            1e-12
+          ],
+          "split_counts_train_validation_test": [
+            16,
+            2,
+            2
+          ],
+          "drive_T": 0.6,
+          "no_crossing_fraction": 1.0,
+          "cross_and_return_fraction": 0.0,
+          "final_negative_fraction": 0.0,
+          "mean_final_neel_z": 0.8722146153450012,
+          "std_final_neel_z": 0.09303444623947144,
+          "mean_peak_spatial_incoherence": 0.01135239563882351
+        },
+        {
+          "condition_id": 1,
+          "condition": [
+            5.0,
+            0.01,
+            0.8,
+            0.0,
+            1e-16,
+            1e-12
+          ],
+          "split_counts_train_validation_test": [
+            16,
+            2,
+            2
+          ],
+          "drive_T": 0.8,
+          "no_crossing_fraction": 0.65,
+          "cross_and_return_fraction": 0.0,
+          "final_negative_fraction": 0.35,
+          "mean_final_neel_z": 0.21880169212818146,
+          "std_final_neel_z": 0.8048786520957947,
+          "mean_peak_spatial_incoherence": 0.011338639073073864
+        },
+        {
+          "condition_id": 2,
+          "condition": [
+            5.0,
+            0.01,
+            1.0,
+            0.0,
+            1e-16,
+            1e-12
+          ],
+          "split_counts_train_validation_test": [
+            16,
+            2,
+            2
+          ],
+          "drive_T": 1.0,
+          "no_crossing_fraction": 0.1,
+          "cross_and_return_fraction": 0.45,
+          "final_negative_fraction": 0.45,
+          "mean_final_neel_z": 0.06223862245678902,
+          "std_final_neel_z": 0.7323400974273682,
+          "mean_peak_spatial_incoherence": 0.01170776505023241
+        }
+      ]
+    },
+    "ordinary_free_moments": {
+      "shape": [
+        60,
+        51,
+        1,
+        8,
+        8,
+        3
+      ],
+      "finite": true,
+      "max_spin_norm_error": 5.960464477539063e-08,
+      "conditions": [
+        {
+          "condition_id": 0,
+          "condition": [
+            1.0,
+            0.05,
+            0.0,
+            2.0,
+            0.005,
+            10.0
+          ],
+          "split_counts_train_validation_test": [
+            16,
+            2,
+            2
+          ],
+          "temperature": 1.0,
+          "measured_mean_mz": 0.5473806262016296,
+          "trajectory_sem": 0.007996084168553352,
+          "exact_langevin_mz": 0.5373147207275482,
+          "absolute_error": 0.010065905474081482
+        },
+        {
+          "condition_id": 1,
+          "condition": [
+            2.0,
+            0.05,
+            0.0,
+            2.0,
+            0.005,
+            10.0
+          ],
+          "split_counts_train_validation_test": [
+            16,
+            2,
+            2
+          ],
+          "temperature": 2.0,
+          "measured_mean_mz": 0.31490129232406616,
+          "trajectory_sem": 0.011147304438054562,
+          "exact_langevin_mz": 0.31303528549933146,
+          "absolute_error": 0.0018660068247347006
+        },
+        {
+          "condition_id": 2,
+          "condition": [
+            5.0,
+            0.05,
+            0.0,
+            2.0,
+            0.005,
+            10.0
+          ],
+          "split_counts_train_validation_test": [
+            16,
+            2,
+            2
+          ],
+          "temperature": 5.0,
+          "measured_mean_mz": 0.1141672283411026,
+          "trajectory_sem": 0.005507113877683878,
+          "exact_langevin_mz": 0.1319324418321881,
+          "absolute_error": 0.017765213491085508
+        }
+      ]
+    }
+  },
+  "hdf5_status": "complete",
+  "storage": {
+    "file_bytes": 11634502,
+    "raw_spin_bytes_only": 11750400,
+    "file_to_raw_spin_ratio": 0.9901366761982571,
+    "loader_smoke_test": {
+      "train": {
+        "trajectories": 144,
+        "sample_spin_shape_after_padding": [
+          51,
+          2,
+          8,
+          8,
+          3
+        ]
+      },
+      "validation": {
+        "trajectories": 18,
+        "sample_spin_shape_after_padding": [
+          51,
+          2,
+          8,
+          8,
+          3
+        ]
+      },
+      "test": {
+        "trajectories": 18,
+        "sample_spin_shape_after_padding": [
+          51,
+          2,
+          8,
+          8,
+          3
+        ]
+      }
+    }
+  },
+  "checks": {
+    "hdf5_complete": true,
+    "all_spins_finite": true,
+    "max_norm_error_below_1e-6": true,
+    "split_is_exact_8_1_1_per_condition": true,
+    "nishino_langevin_max_abs_error_below_0p03": true,
+    "gomonay_spinwave_existing_validation_pass": true
+  },
+  "certification_tiers": {
+    "ordinary_free_moments": "analytic equilibrium observable certified at three temperatures; paper parameters used, pilot ensemble rather than exact paper run length",
+    "d_wave_altermagnet": "published Hamiltonian and spin-wave frequencies certified; finite-temperature switching remains a benchmark dataset, not a literature reproduction",
+    "conventional_afm_control": "numerically certified J_tilde=0 ablation of the published model; not a separate published material parameterization"
+  },
+  "overall_status": "pass_as_partially_literature_certified_training_benchmark"
+}

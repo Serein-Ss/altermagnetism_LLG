@@ -1,0 +1,45 @@
+{
+  "input": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG\\data\\training_benchmark\\llg_spatial_paths.h5",
+  "definition_warning": "These are pre-registered geometric descriptors, not ground-truth semantic labels. Threshold robustness and size convergence are required.",
+  "groups": {
+    "conventional_afm_control": {
+      "n_trajectories": 60,
+      "outcome_counts": {
+        "no_crossing": 30,
+        "negative_endpoint": 18,
+        "crossing_return": 12
+      },
+      "switched_mechanism_counts": {
+        "coherent_like": 18
+      },
+      "mean_max_spatial_std": 0.0918545201420784,
+      "mean_max_periodic_wall_density": 0.20442708333333334,
+      "mechanism_threshold": "coherent_like if max spatial std during |global order|<0.5 is below 0.25"
+    },
+    "d_wave_altermagnet": {
+      "n_trajectories": 60,
+      "outcome_counts": {
+        "no_crossing": 35,
+        "negative_endpoint": 16,
+        "crossing_return": 9
+      },
+      "switched_mechanism_counts": {
+        "coherent_like": 16
+      },
+      "mean_max_spatial_std": 0.08865959197282791,
+      "mean_max_periodic_wall_density": 0.15833333333333333,
+      "mechanism_threshold": "coherent_like if max spatial std during |global order|<0.5 is below 0.25"
+    },
+    "ordinary_free_moments": {
+      "n_trajectories": 60,
+      "outcome_counts": {
+        "no_crossing": 53,
+        "crossing_return": 7
+      },
+      "switched_mechanism_counts": {},
+      "mean_max_spatial_std": 0.5611174702644348,
+      "mean_max_periodic_wall_density": 0.45364583333333336,
+      "mechanism_threshold": "coherent_like if max spatial std during |global order|<0.5 is below 0.25"
+    }
+  }
+}

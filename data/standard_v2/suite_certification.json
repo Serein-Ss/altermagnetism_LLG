@@ -1,0 +1,354 @@
+{
+  "schema_version": 2,
+  "status": "ready_for_phase1_model_training",
+  "scope": "literature-Hamiltonian, unbiased finite-temperature path suite for model development and size-held-out evaluation",
+  "train_trajectories": 216,
+  "validation_trajectories": 27,
+  "test_trajectories_including_large_holdout": 87,
+  "files": [
+    {
+      "path": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L16.h5",
+      "bytes": 46890482,
+      "sha256": "dbebf2d30eabd42197888b179b1e239247cc1da0e4bb14fe9f9ff2b0a66e60a4",
+      "size": [
+        16,
+        16
+      ],
+      "frames": 101,
+      "split_policy": "balanced_8_1_1",
+      "split_train_validation_test": [
+        72,
+        9,
+        9
+      ],
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "conditions": [
+        {
+          "paths": 30,
+          "no_crossing": 26,
+          "crossing_return": 0,
+          "negative_endpoint": 4,
+          "coherent_like_switch": 4,
+          "spatially_nonuniform_switch": 0,
+          "switching_fraction": 0.13333333333333333,
+          "nonuniform_fraction_all_paths": 0.0,
+          "mean_peak_spatial_std": 0.10508915036916733,
+          "mean_peak_wall_density": 0.055338541666666664,
+          "median_first_passage_ps": 0.55,
+          "condition_id": 0,
+          "temperature_K": 5.0,
+          "drive_T": 0.7,
+          "split_train_validation_test": [
+            24,
+            3,
+            3
+          ]
+        },
+        {
+          "paths": 30,
+          "no_crossing": 15,
+          "crossing_return": 0,
+          "negative_endpoint": 15,
+          "coherent_like_switch": 15,
+          "spatially_nonuniform_switch": 0,
+          "switching_fraction": 0.5,
+          "nonuniform_fraction_all_paths": 0.0,
+          "mean_peak_spatial_std": 0.11046209186315536,
+          "mean_peak_wall_density": 0.19791666666666666,
+          "median_first_passage_ps": 0.5499999999999999,
+          "condition_id": 1,
+          "temperature_K": 5.0,
+          "drive_T": 0.78,
+          "split_train_validation_test": [
+            24,
+            3,
+            3
+          ]
+        },
+        {
+          "paths": 30,
+          "no_crossing": 9,
+          "crossing_return": 0,
+          "negative_endpoint": 21,
+          "coherent_like_switch": 21,
+          "spatially_nonuniform_switch": 0,
+          "switching_fraction": 0.7,
+          "nonuniform_fraction_all_paths": 0.0,
+          "mean_peak_spatial_std": 0.11215533316135406,
+          "mean_peak_wall_density": 0.251953125,
+          "median_first_passage_ps": 0.5099999999999999,
+          "condition_id": 2,
+          "temperature_K": 5.0,
+          "drive_T": 0.8,
+          "split_train_validation_test": [
+            24,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L32.h5",
+      "bytes": 183037690,
+      "sha256": "e83f69b382d3c5893860ec96ba6ad330c3d872c661e48076cf5bd572e03a7558",
+      "size": [
+        32,
+        32
+      ],
+      "frames": 101,
+      "split_policy": "balanced_8_1_1",
+      "split_train_validation_test": [
+        72,
+        9,
+        9
+      ],
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "conditions": [
+        {
+          "paths": 30,
+          "no_crossing": 29,
+          "crossing_return": 0,
+          "negative_endpoint": 1,
+          "coherent_like_switch": 1,
+          "spatially_nonuniform_switch": 0,
+          "switching_fraction": 0.03333333333333333,
+          "nonuniform_fraction_all_paths": 0.0,
+          "mean_peak_spatial_std": 0.10536762326955795,
+          "mean_peak_wall_density": 0.016634114583333335,
+          "median_first_passage_ps": 0.68,
+          "condition_id": 0,
+          "temperature_K": 5.0,
+          "drive_T": 0.7,
+          "split_train_validation_test": [
+            24,
+            3,
+            3
+          ]
+        },
+        {
+          "paths": 30,
+          "no_crossing": 17,
+          "crossing_return": 0,
+          "negative_endpoint": 13,
+          "coherent_like_switch": 13,
+          "spatially_nonuniform_switch": 0,
+          "switching_fraction": 0.43333333333333335,
+          "nonuniform_fraction_all_paths": 0.0,
+          "mean_peak_spatial_std": 0.12634406983852386,
+          "mean_peak_wall_density": 0.17164713541666668,
+          "median_first_passage_ps": 0.58,
+          "condition_id": 1,
+          "temperature_K": 5.0,
+          "drive_T": 0.78,
+          "split_train_validation_test": [
+            24,
+            3,
+            3
+          ]
+        },
+        {
+          "paths": 30,
+          "no_crossing": 11,
+          "crossing_return": 0,
+          "negative_endpoint": 19,
+          "coherent_like_switch": 19,
+          "spatially_nonuniform_switch": 0,
+          "switching_fraction": 0.6333333333333333,
+          "nonuniform_fraction_all_paths": 0.0,
+          "mean_peak_spatial_std": 0.12894055247306824,
+          "mean_peak_wall_density": 0.21673177083333334,
+          "median_first_passage_ps": 0.54,
+          "condition_id": 2,
+          "temperature_K": 5.0,
+          "drive_T": 0.8,
+          "split_train_validation_test": [
+            24,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L64.h5",
+      "bytes": 729270319,
+      "sha256": "505fc2b42dda683f39bf8f11cd2342052c9c75fceb97e9e57fcf963e0449a4e7",
+      "size": [
+        64,
+        64
+      ],
+      "frames": 101,
+      "split_policy": "balanced_8_1_1",
+      "split_train_validation_test": [
+        72,
+        9,
+        9
+      ],
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "conditions": [
+        {
+          "paths": 30,
+          "no_crossing": 30,
+          "crossing_return": 0,
+          "negative_endpoint": 0,
+          "coherent_like_switch": 0,
+          "spatially_nonuniform_switch": 0,
+          "switching_fraction": 0.0,
+          "nonuniform_fraction_all_paths": 0.0,
+          "mean_peak_spatial_std": 0.11375690251588821,
+          "mean_peak_wall_density": 0.0005289713541666666,
+          "median_first_passage_ps": null,
+          "condition_id": 0,
+          "temperature_K": 5.0,
+          "drive_T": 0.7,
+          "split_train_validation_test": [
+            24,
+            3,
+            3
+          ]
+        },
+        {
+          "paths": 30,
+          "no_crossing": 16,
+          "crossing_return": 0,
+          "negative_endpoint": 14,
+          "coherent_like_switch": 11,
+          "spatially_nonuniform_switch": 3,
+          "switching_fraction": 0.4666666666666667,
+          "nonuniform_fraction_all_paths": 0.1,
+          "mean_peak_spatial_std": 0.2343110889196396,
+          "mean_peak_wall_density": 0.16575520833333332,
+          "median_first_passage_ps": 0.61,
+          "condition_id": 1,
+          "temperature_K": 5.0,
+          "drive_T": 0.78,
+          "split_train_validation_test": [
+            24,
+            3,
+            3
+          ]
+        },
+        {
+          "paths": 30,
+          "no_crossing": 3,
+          "crossing_return": 0,
+          "negative_endpoint": 27,
+          "coherent_like_switch": 19,
+          "spatially_nonuniform_switch": 8,
+          "switching_fraction": 0.9,
+          "nonuniform_fraction_all_paths": 0.26666666666666666,
+          "mean_peak_spatial_std": 0.2078772485256195,
+          "mean_peak_wall_density": 0.21761881510416667,
+          "median_first_passage_ps": 0.59,
+          "condition_id": 2,
+          "temperature_K": 5.0,
+          "drive_T": 0.8,
+          "split_train_validation_test": [
+            24,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/test_large/d_wave_altermagnet_L96.h5",
+      "bytes": 1093913880,
+      "sha256": "50cae92437e1f6cd4e85c8b7c56f0e95409c85a0eabc42335599e2c4f6776f41",
+      "size": [
+        96,
+        96
+      ],
+      "frames": 101,
+      "split_policy": "all_test",
+      "split_train_validation_test": [
+        0,
+        0,
+        60
+      ],
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "conditions": [
+        {
+          "paths": 20,
+          "no_crossing": 20,
+          "crossing_return": 0,
+          "negative_endpoint": 0,
+          "coherent_like_switch": 0,
+          "spatially_nonuniform_switch": 0,
+          "switching_fraction": 0.0,
+          "nonuniform_fraction_all_paths": 0.0,
+          "mean_peak_spatial_std": 0.12185446172952652,
+          "mean_peak_wall_density": 0.0005479600694444444,
+          "median_first_passage_ps": null,
+          "condition_id": 0,
+          "temperature_K": 5.0,
+          "drive_T": 0.7,
+          "split_train_validation_test": [
+            0,
+            0,
+            20
+          ]
+        },
+        {
+          "paths": 20,
+          "no_crossing": 12,
+          "crossing_return": 0,
+          "negative_endpoint": 8,
+          "coherent_like_switch": 1,
+          "spatially_nonuniform_switch": 7,
+          "switching_fraction": 0.4,
+          "nonuniform_fraction_all_paths": 0.35,
+          "mean_peak_spatial_std": 0.5092481970787048,
+          "mean_peak_wall_density": 0.14810655381944443,
+          "median_first_passage_ps": 0.635,
+          "condition_id": 1,
+          "temperature_K": 5.0,
+          "drive_T": 0.78,
+          "split_train_validation_test": [
+            0,
+            0,
+            20
+          ]
+        },
+        {
+          "paths": 20,
+          "no_crossing": 1,
+          "crossing_return": 0,
+          "negative_endpoint": 19,
+          "coherent_like_switch": 8,
+          "spatially_nonuniform_switch": 11,
+          "switching_fraction": 0.95,
+          "nonuniform_fraction_all_paths": 0.55,
+          "mean_peak_spatial_std": 0.313807874917984,
+          "mean_peak_wall_density": 0.19266493055555556,
+          "median_first_passage_ps": 0.57,
+          "condition_id": 2,
+          "temperature_K": 5.0,
+          "drive_T": 0.8,
+          "split_train_validation_test": [
+            0,
+            0,
+            20
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "all_file_integrity_certificates_pass": true,
+    "all_trajectory_seeds_unique_across_suite": true,
+    "same_protocol_except_drive_and_size": true,
+    "expected_train_sizes_16_32_64": true,
+    "large_size_96_is_all_test": true,
+    "time_grid_101_frames_10fs_to_1ps": true,
+    "training_contains_nonuniform_paths": true,
+    "large_test_contains_nonuniform_paths": true
+  },
+  "physics_limits": [
+    "phase-1 sample counts are sufficient for model development, not percent-level rare-event probabilities",
+    "0.05 fs was selected conservatively because 0.1 vs 0.05 fs switching fractions were not resolved to absolute 0.05 precision",
+    "mechanism labels use a spatial-std threshold of 0.25 and still require threshold-sensitivity analysis",
+    "the suite contains only the Gomonay d-wave altermagnet at 5 K and three drive values"
+  ]
+}

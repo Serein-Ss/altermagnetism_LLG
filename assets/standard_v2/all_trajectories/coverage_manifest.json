@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "source_trajectory_count": 330,
+  "visualized_trajectory_count": 330,
+  "per_trajectory_png_count": 330,
+  "condition_overview_png_count": 12,
+  "condition_gif_count": 12,
+  "all_source_trajectories_visualized_once": true,
+  "mechanism_threshold": 0.25,
+  "note": "Mechanism labels are geometric QA descriptors, not supervised targets or definitive microscopic mechanisms."
+}
