@@ -19,6 +19,7 @@ from altermagnetism_LLG.model.baseline import DeterministicPathModel  # noqa: E4
 from altermagnetism_LLG.model.data import (  # noqa: E402
     ScalablePathDataset,
     SizeBucketBatchSampler,
+    scalar_condition_statistics,
 )
 from altermagnetism_LLG.model.network import PeriodicEquivariantFlowNet  # noqa: E402
 from altermagnetism_LLG.model.sphere import (  # noqa: E402
@@ -34,6 +35,14 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--output", type=Path, default=None)
     p.add_argument("--epochs", type=int, default=50)
     p.add_argument("--batch-size", type=int, default=2)
+    p.add_argument(
+        "--crop-sizes", type=int, nargs="+", default=None,
+        help="per-input crop; use 0 for the complete lattice",
+    )
+    p.add_argument("--gradient-accumulation", type=int, default=1)
+    p.add_argument(
+        "--architecture-version", type=int, choices=(1, 2), default=2
+    )
     p.add_argument("--crop-size", type=int, default=None)
     p.add_argument("--hidden", type=int, default=64)
     p.add_argument("--blocks", type=int, default=8)
@@ -79,14 +88,17 @@ def epoch_loss(
     *,
     optimizer=None,
     generator: torch.Generator | None = None,
+    gradient_accumulation: int = 1,
 ) -> float:
     training = optimizer is not None
     model.train(training)
     weighted_total = 0.0
     weight_total = 0.0
     context = torch.enable_grad() if training else torch.no_grad()
+    if training:
+        optimizer.zero_grad(set_to_none=True)
     with context:
-        for batch in loader:
+        for batch_index, batch in enumerate(loader):
             target = batch["spins"].to(device)
             initial = batch["initial"].to(device)
             physical_time = batch["physical_time"].to(device)
@@ -122,10 +134,23 @@ def epoch_loss(
             per_sample = error.mean(dim=(1, 2, 3, 4))
             loss = (per_sample * weights).sum() / weights.sum()
             if training:
-                optimizer.zero_grad(set_to_none=True)
-                loss.backward()
-                torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-                optimizer.step()
+                group_start = (
+                    batch_index // gradient_accumulation
+                ) * gradient_accumulation
+                group_size = min(
+                    gradient_accumulation, len(loader) - group_start
+                )
+                (loss / group_size).backward()
+                update = (
+                    (batch_index + 1) % gradient_accumulation == 0
+                    or batch_index + 1 == len(loader)
+                )
+                if update:
+                    torch.nn.utils.clip_grad_norm_(
+                        model.parameters(), 1.0
+                    )
+                    optimizer.step()
+                    optimizer.zero_grad(set_to_none=True)
             weighted_total += float((per_sample.detach() * weights).sum())
             weight_total += float(weights.sum())
     return weighted_total / weight_total
@@ -141,6 +166,21 @@ def main() -> None:
     args = parser().parse_args()
     if args.epochs < 1 or args.patience < 1 or args.num_workers < 0:
         raise ValueError("epochs and patience must be positive; num-workers nonnegative")
+    if args.gradient_accumulation < 1:
+        raise ValueError("gradient-accumulation must be positive")
+    if args.crop_size is not None and args.crop_sizes is not None:
+        raise ValueError("use crop-size or crop-sizes, not both")
+    if (
+        args.crop_sizes is not None
+        and len(args.crop_sizes) != len(args.input)
+    ):
+        raise ValueError("crop-sizes must match the number of inputs")
+    if args.crop_sizes is not None and min(args.crop_sizes) < 0:
+        raise ValueError("crop-sizes entries must be nonnegative")
+    crop_sizes = (
+        [None if size == 0 else size for size in args.crop_sizes]
+        if args.crop_sizes is not None else None
+    )
     if args.device.startswith("cuda") and not torch.cuda.is_available():
         raise RuntimeError("CUDA requested but unavailable; submit through a GPU allocation")
     random.seed(args.seed)
@@ -157,13 +197,25 @@ def main() -> None:
         )
 
     train_data = ScalablePathDataset(
-        args.input, "train", args.crop_size, random_crop=True
+        args.input,
+        "train",
+        args.crop_size,
+        random_crop=True,
+        crop_sizes=crop_sizes,
     )
     validation_data = ScalablePathDataset(
-        args.input, "validation", args.crop_size, random_crop=False
+        args.input,
+        "validation",
+        args.crop_size,
+        random_crop=False,
+        crop_sizes=crop_sizes,
     )
     test_data = ScalablePathDataset(
-        args.input, "test", args.crop_size, random_crop=False
+        args.input,
+        "test",
+        args.crop_size,
+        random_crop=False,
+        crop_sizes=crop_sizes,
     )
     if not len(train_data) or not len(validation_data) or not len(test_data):
         raise ValueError("train, validation and test splits must all be non-empty")
@@ -190,11 +242,17 @@ def main() -> None:
         num_workers=args.num_workers,
     )
 
+    condition_mean, condition_std = scalar_condition_statistics(
+        args.input, "train"
+    )
     model_config = {
         "hidden": args.hidden,
         "blocks": args.blocks,
         "scalar_condition_dim": 10,
         "vector_condition_count": 5,
+        "architecture_version": args.architecture_version,
+        "condition_mean": condition_mean.tolist(),
+        "condition_std": condition_std.tolist(),
     }
     model = build_model(args.model_type, model_config).to(args.device)
     optimizer = torch.optim.AdamW(
@@ -214,6 +272,7 @@ def main() -> None:
             args.device,
             optimizer=optimizer,
             generator=training_generator,
+            gradient_accumulation=args.gradient_accumulation,
         )
         validation_generator = make_generator(args.device, args.seed + 2)
         validation_loss = epoch_loss(
@@ -249,6 +308,9 @@ def main() -> None:
                         "epochs": args.epochs,
                         "batch_size": args.batch_size,
                         "crop_size": args.crop_size,
+                        "crop_sizes": args.crop_sizes,
+                        "gradient_accumulation": args.gradient_accumulation,
+                        "architecture_version": args.architecture_version,
                         "hidden": args.hidden,
                         "blocks": args.blocks,
                         "lr": args.lr,

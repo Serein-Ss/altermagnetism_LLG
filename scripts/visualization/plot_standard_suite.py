@@ -24,19 +24,23 @@ def main() -> None:
     colors = plt.cm.viridis(np.linspace(0.15, 0.85, len(drives)))
     for drive, color in zip(drives, colors):
         rows = [next(row for row in item["conditions"] if row["drive_T"] == drive) for item in report["files"]]
-        axes[0].plot(sizes, [row["switching_fraction"] for row in rows], "o-", color=color, label=f"{drive:.2f} T")
+        endpoint = [
+            row.get("negative_endpoint_fraction", row.get("switching_fraction"))
+            for row in rows
+        ]
+        axes[0].plot(sizes, endpoint, "o-", color=color, label=f"{drive:.2f} T")
         axes[1].plot(sizes, [row["nonuniform_fraction_all_paths"] for row in rows], "s-", color=color, label=f"{drive:.2f} T")
-    axes[0].set(xlabel="linear size (cells)", ylabel="switching fraction", ylim=(-0.03, 1.03))
+    axes[0].set(xlabel="linear size (cells)", ylabel="negative endpoint fraction", ylim=(-0.03, 1.03))
     axes[1].set(xlabel="linear size (cells)", ylabel="nonuniform fraction", ylim=(-0.03, 1.03))
     axes[0].legend(fontsize=8)
     axes[1].legend(fontsize=8)
     labels = [f"L={size}" for size in sizes]
-    coherent = [sum(row["coherent_like_switch"] for row in item["conditions"]) for item in report["files"]]
-    nonuniform = [sum(row["spatially_nonuniform_switch"] for row in item["conditions"]) for item in report["files"]]
+    coherent = [sum(row.get("coherent_like_negative_endpoint", row.get("coherent_like_switch")) for row in item["conditions"]) for item in report["files"]]
+    nonuniform = [sum(row.get("spatially_nonuniform_negative_endpoint", row.get("spatially_nonuniform_switch")) for row in item["conditions"]) for item in report["files"]]
     no_crossing = [sum(row["no_crossing"] for row in item["conditions"]) for item in report["files"]]
     axes[2].bar(labels, no_crossing, label="no crossing")
-    axes[2].bar(labels, coherent, bottom=no_crossing, label="coherent switch")
-    axes[2].bar(labels, nonuniform, bottom=np.asarray(no_crossing) + np.asarray(coherent), label="nonuniform switch")
+    axes[2].bar(labels, coherent, bottom=no_crossing, label="coherent negative endpoint")
+    axes[2].bar(labels, nonuniform, bottom=np.asarray(no_crossing) + np.asarray(coherent), label="nonuniform negative endpoint")
     axes[2].set(ylabel="trajectory count", title="Unbiased retained paths")
     axes[2].legend(fontsize=8)
     fig.suptitle(f"Standard LLG suite: {report['status'].replace('_', ' ')}")

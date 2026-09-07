@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "status": "extended_observation_not_retrained",
+  "source": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/test_large/d_wave_altermagnet_L96.h5",
+  "source_sha256": "50cae92437e1f6cd4e85c8b7c56f0e95409c85a0eabc42335599e2c4f6776f41",
+  "output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5",
+  "output_sha256": "f6ff1163c275283a5f212997f95cdafb08867dc2b51b736d1678162398c33506",
+  "target_duration_ps": 2.0,
+  "continuation": "exact stored state at 1 ps; statistically valid independent white-noise continuation from that Markov state"
+}

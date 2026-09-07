@@ -24,8 +24,8 @@ THRESHOLD = 0.25
 LABELS = ("no_crossing", "coherent_like", "spatially_nonuniform")
 DISPLAY = {
     "no_crossing": "No crossing",
-    "coherent_like": "Coherent-like switch",
-    "spatially_nonuniform": "Spatially nonuniform switch",
+    "coherent_like": "Coherent-like negative endpoint",
+    "spatially_nonuniform": "Spatially nonuniform negative endpoint",
 }
 COLORS = {
     "no_crossing": "#3B6FB6",
@@ -59,18 +59,18 @@ def path_descriptors(spins: np.ndarray, time: np.ndarray) -> dict:
         + (sign != np.roll(sign, -1, axis=2)).mean(axis=(1, 2))
     )
     crossings = np.flatnonzero(order < 0)
-    switched = bool(order[-1] < 0)
+    negative_endpoint = bool(order[-1] < 0)
     transition = np.flatnonzero(np.abs(order) < 0.5)
     transition_std = float(spatial_std[transition].max()) if len(transition) else 0.0
     if not len(crossings):
         label = "no_crossing"
         representative_frame = int(np.argmin(order))
         first_passage_ps = None
-    elif switched and transition_std < THRESHOLD:
+    elif negative_endpoint and transition_std < THRESHOLD:
         label = "coherent_like"
         representative_frame = int(transition[np.argmax(spatial_std[transition])])
         first_passage_ps = float(time[crossings[0]] * 1e12)
-    elif switched:
+    elif negative_endpoint:
         label = "spatially_nonuniform"
         representative_frame = int(transition[np.argmax(spatial_std[transition])])
         first_passage_ps = float(time[crossings[0]] * 1e12)

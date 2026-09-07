@@ -1,0 +1,20 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+NVIDIA GeForce RTX 3090
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+integration steps=16
+integration steps=32
+integration steps=64
+integration steps=128
+condition sensitivity complete
+same-initial diversity complete
+{
+  "status": "pretraining_diagnostics_complete",
+  "diagnosis": {
+    "sampling_integration_error": true,
+    "condition_failure": true,
+    "mode_collapse": false,
+    "rule": "32-step error is compared with paired 128-step paths; condition and diversity floors detect near-invariance, not full physical calibration"
+  },
+  "output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/outputs/diagnostics_v2/ablations"
+}

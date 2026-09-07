@@ -1,0 +1,27 @@
+{
+  "status": "preproduction_ready",
+  "registry": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v3/registry.yaml",
+  "candidate_protocol": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v3/altermagnet_gomonay2024/protocol.candidate.yaml",
+  "frozen_protocol": null,
+  "preparation_checks": {
+    "registry_schema_v3": true,
+    "registry_preproduction": true,
+    "generator_cannot_self_certify": true,
+    "crnb3s6_doi_corrected": true,
+    "mn2au_explicitly_blocked": true,
+    "gomonay_not_prematurely_enabled": true,
+    "dt_scan_preregistered": true,
+    "save_scan_preregistered": true,
+    "duration_scan_preregistered": true,
+    "size_scan_and_holdouts_preregistered": true,
+    "production_fields_remain_unset": true
+  },
+  "production_checks": {
+    "frozen_protocol_exists": false,
+    "frozen_protocol_status": false,
+    "frozen_protocol_enabled": false,
+    "all_certification_inputs_present": false
+  },
+  "production_ready": false,
+  "action": "run and certify the registered pilots before freezing protocol.yaml"
+}

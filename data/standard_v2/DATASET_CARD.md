@@ -48,11 +48,14 @@ threshold selection.
 
 ## Observed outcome coverage
 
-The following counts use the preregistered geometric rule: a switched path is
-called spatially nonuniform when the maximum spatial standard deviation of the
-local Neel order during `|global order| < 0.5` is at least 0.25.
+These historical counts use the endpoint-only geometric rule. A
+`negative_endpoint` path ends with global Neel-z below zero; this is not the
+same as a `committed_switch`, which now requires residence in a
+data-calibrated reverse basin. The old mechanism table calls a negative endpoint
+spatially nonuniform when the maximum spatial standard deviation of the local
+Neel order during `|global order| < 0.5` is at least 0.25.
 
-| Size | No crossing | Coherent-like switch | Nonuniform switch |
+| Size | No crossing | Coherent-like negative endpoint | Nonuniform negative endpoint |
 |---:|---:|---:|---:|
 | 16 | 50 | 40 | 0 |
 | 32 | 57 | 33 | 0 |

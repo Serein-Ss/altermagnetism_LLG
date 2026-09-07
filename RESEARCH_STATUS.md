@@ -53,7 +53,7 @@ reported observables, not identical noise realizations.
   It contains 28 no-crossing, 5 crossing-return and 7 negative-endpoint paths.
   This pilot changes the published length and temperature and is not a Fig. 2
   quantitative reproduction.
-- Applied the spatial descriptors to the existing 8x8 benchmark. Every switched
+- Applied the spatial descriptors to the existing 8x8 benchmark. Every negative-endpoint
   AFM/altermagnet path is currently classified coherent-like, proving that the
   present lattice is too small to support the intended nucleation/domain-wall
   study.

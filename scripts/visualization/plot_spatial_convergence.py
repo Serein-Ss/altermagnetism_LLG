@@ -22,8 +22,12 @@ def main() -> None:
     sizes = np.asarray([item["size"] for item in results])
     limit = report["published_scale_anchor"]["minimum_periodic_pair_no_overlap_cells"]
     fig, axes = plt.subplots(1, 3, figsize=(12, 3.7), constrained_layout=True)
-    axes[0].plot(sizes, [item["switching_fraction"] for item in results], "o-", label="all switching")
-    axes[0].plot(sizes, [item["nonuniform_switch_fraction"] for item in results], "s-", label="nonuniform")
+    endpoint = [
+        item.get("negative_endpoint_fraction", item.get("switching_fraction"))
+        for item in results
+    ]
+    axes[0].plot(sizes, endpoint, "o-", label="negative endpoint")
+    axes[0].plot(sizes, [item.get("nonuniform_negative_endpoint_fraction", item.get("nonuniform_switch_fraction")) for item in results], "s-", label="nonuniform")
     axes[0].axvline(limit, color="0.4", linestyle="--", label="4 wall widths")
     axes[0].set(xlabel="linear size (cells)", ylabel="path fraction", ylim=(-0.03, 1.03))
     axes[0].legend(fontsize=8)

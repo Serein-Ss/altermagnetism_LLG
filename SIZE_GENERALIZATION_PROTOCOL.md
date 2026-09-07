@@ -26,21 +26,21 @@ wall mechanism absent from its training support.
 For each final physical condition:
 
 1. Generate the same physical duration at `dt`, `dt/2`, and a coarser screening
-   step. Require switching-fraction change <=0.05 and peak-spatial-std relative
+   step. Require negative-endpoint-fraction change <=0.05 and peak-spatial-std relative
    change <=10%; use at least 100 paths because this is weak convergence.
 2. Save a fine-cadence path once, subsample it by factors two and four, and require
    identical mechanism labels plus first-passage error no larger than one coarse
    saved interval.
-3. Compare consecutive sizes, at minimum 48/64/96. Require switching-fraction
+3. Compare consecutive sizes, at minimum 48/64/96. Require negative-endpoint-fraction
    change <=0.05 and peak-spatial-std relative change <=10% for the final pair.
-4. Require at least three nonuniform switched paths in the screening ensemble and
+4. Require at least three nonuniform negative-endpoint paths in the screening ensemble and
    then determine the production count from a Wilson/binomial interval for the
    rarest class. Three events is only a detection gate, not a precise probability.
 5. Repeat the accepted condition with an independent master seed and scan the
    spatial-std threshold around 0.25 before freezing labels.
 
 The current short pilot fails steps 3-5 because it used ten paths, stopped at
-48x48 and 0.1 ps, and observed no switch. This is a useful negative result: the
+48x48 and 0.1 ps, and observed no negative endpoint. This is a useful negative result: the
 existing protocol must not be silently promoted into a mechanism-training set.
 
 ## Production commands

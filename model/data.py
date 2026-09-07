@@ -11,6 +11,36 @@ from torch.utils.data import Dataset, Sampler
 
 SPLIT_CODES = {"train": 0, "validation": 1, "test": 2}
 
+def scalar_condition_statistics(
+    paths: list[str | Path],
+    split: str = "train",
+) -> tuple[np.ndarray, np.ndarray]:
+    """Return training-split mean/std without loading trajectory tensors."""
+    if split not in SPLIT_CODES:
+        raise ValueError(f"split must be one of {tuple(SPLIT_CODES)}")
+    values = []
+    for path in paths:
+        with h5py.File(Path(path).resolve(), "r", swmr=True) as h5:
+            for group in h5.values():
+                if (
+                    isinstance(group, h5py.Group)
+                    and "model_condition" in group
+                ):
+                    indices = np.flatnonzero(
+                        group["split"][:] == SPLIT_CODES[split]
+                    )
+                    values.append(
+                        group["model_condition"][indices].astype(np.float64)
+                    )
+    if not values:
+        raise ValueError("no scalar conditions found for requested split")
+    stacked = np.concatenate(values)
+    mean = stacked.mean(axis=0)
+    std = stacked.std(axis=0)
+    std[std < 1e-12] = 1.0
+    return mean, std
+
+
 
 class ScalablePathDataset(Dataset):
     def __init__(
@@ -20,16 +50,26 @@ class ScalablePathDataset(Dataset):
         crop_size: int | None = None,
         *,
         random_crop: bool = True,
+        crop_sizes: list[int | None] | None = None,
     ):
         if split not in SPLIT_CODES:
             raise ValueError(f"split must be one of {tuple(SPLIT_CODES)}")
+        if crop_size is not None and crop_sizes is not None:
+            raise ValueError("use crop_size or crop_sizes, not both")
+        if crop_sizes is not None and len(crop_sizes) != len(paths):
+            raise ValueError("crop_sizes must match the number of paths")
         self.paths = [str(Path(path).resolve()) for path in paths]
         self.crop_size = crop_size
+        self.crop_sizes = crop_sizes
         self.random_crop = random_crop
-        self.index: list[tuple[int, str, int]] = []
+        self.index: list[tuple[int, str, int, int | None]] = []
         self._batch_keys: list[tuple[int, int, int, int, int]] = []
         self._files: dict[int, h5py.File] = {}
         for file_index, path in enumerate(self.paths):
+            source_crop = (
+                crop_sizes[file_index]
+                if crop_sizes is not None else crop_size
+            )
             with h5py.File(path, "r") as h5:
                 if int(h5.attrs.get("schema_version", 0)) != 2:
                     raise ValueError(f"{path} is not a schema-v2 scalable dataset")
@@ -37,18 +77,20 @@ class ScalablePathDataset(Dataset):
                     if not isinstance(group, h5py.Group) or "spins" not in group:
                         continue
                     frames, sublattices, nx, ny, components = group["spins"].shape[1:]
-                    if crop_size is not None:
-                        if min(nx, ny) < crop_size:
+                    if source_crop is not None:
+                        if min(nx, ny) < source_crop:
                             raise ValueError(
-                                f"crop_size={crop_size} exceeds {name} lattice {nx}x{ny}"
+                                f"crop_size={source_crop} exceeds {name} lattice {nx}x{ny}"
                             )
-                        nx = ny = crop_size
+                        nx = ny = source_crop
                     batch_key = (frames, sublattices, nx, ny, components)
                     matches = np.flatnonzero(
                         group["split"][:] == SPLIT_CODES[split]
                     )
                     for match in matches:
-                        self.index.append((file_index, name, int(match)))
+                        self.index.append(
+                            (file_index, name, int(match), source_crop)
+                        )
                         self._batch_keys.append(batch_key)
 
     def __len__(self) -> int:
@@ -64,19 +106,19 @@ class ScalablePathDataset(Dataset):
         return self._files[index]
 
     def __getitem__(self, item: int) -> dict[str, torch.Tensor]:
-        file_index, system, trajectory = self.index[item]
+        file_index, system, trajectory, crop_size = self.index[item]
         h5 = self._file(file_index)
         group = h5[system]
         spins = torch.from_numpy(group["spins"][trajectory])
         initial = torch.from_numpy(group["initial_spins"][trajectory])
-        if self.crop_size is not None:
+        if crop_size is not None:
             nx, ny = spins.shape[-3:-1]
             shift_x = int(torch.randint(nx, ()).item()) if self.random_crop else 0
             shift_y = int(torch.randint(ny, ()).item()) if self.random_crop else 0
             spins = torch.roll(spins, (-shift_x, -shift_y), dims=(-3, -2))
             initial = torch.roll(initial, (-shift_x, -shift_y), dims=(-3, -2))
-            spins = spins[..., : self.crop_size, : self.crop_size, :]
-            initial = initial[..., : self.crop_size, : self.crop_size, :]
+            spins = spins[..., :crop_size, :crop_size, :]
+            initial = initial[..., :crop_size, :crop_size, :]
         weight = (
             float(group["sample_weight"][trajectory])
             if "sample_weight" in group

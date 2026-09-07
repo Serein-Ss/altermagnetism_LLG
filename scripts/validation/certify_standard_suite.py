@@ -33,9 +33,9 @@ def outcome_metrics(spins: np.ndarray, time: np.ndarray) -> dict:
     order = local.mean(axis=(2, 3))
     spatial_std = local.std(axis=(2, 3))
     crossed = (order < 0).any(axis=1)
-    switched = order[:, -1] < 0
+    negative_endpoint = order[:, -1] < 0
     transition_std = np.where(np.abs(order) < 0.5, spatial_std, 0.0).max(axis=1)
-    nonuniform = switched & (transition_std >= 0.25)
+    nonuniform = negative_endpoint & (transition_std >= 0.25)
     first_passage = []
     for path in order:
         hits = np.flatnonzero(path < 0)
@@ -49,11 +49,11 @@ def outcome_metrics(spins: np.ndarray, time: np.ndarray) -> dict:
     return {
         "paths": int(len(order)),
         "no_crossing": int((~crossed).sum()),
-        "crossing_return": int((crossed & ~switched).sum()),
-        "negative_endpoint": int(switched.sum()),
-        "coherent_like_switch": int((switched & ~nonuniform).sum()),
-        "spatially_nonuniform_switch": int(nonuniform.sum()),
-        "switching_fraction": float(switched.mean()),
+        "crossing_return": int((crossed & ~negative_endpoint).sum()),
+        "negative_endpoint": int(negative_endpoint.sum()),
+        "coherent_like_negative_endpoint": int((negative_endpoint & ~nonuniform).sum()),
+        "spatially_nonuniform_negative_endpoint": int(nonuniform.sum()),
+        "negative_endpoint_fraction": float(negative_endpoint.mean()),
         "nonuniform_fraction_all_paths": float(nonuniform.mean()),
         "mean_peak_spatial_std": float(spatial_std.max(axis=1).mean()),
         "mean_peak_wall_density": float(wall_density.max(axis=1).mean()),
@@ -144,8 +144,8 @@ def main() -> None:
         "time_grid_101_frames_10fs_to_1ps": all(
             item["frames"] == 101 for item in files
         ) and reference[4] == 5e-17 and reference[5] == 1e-14 and reference[6] == 1e-12,
-        "training_contains_nonuniform_paths": sum(c["spatially_nonuniform_switch"] for c in l64["conditions"]) >= 3,
-        "large_test_contains_nonuniform_paths": sum(c["spatially_nonuniform_switch"] for c in l96["conditions"]) >= 3,
+        "training_contains_nonuniform_paths": sum(c["spatially_nonuniform_negative_endpoint"] for c in l64["conditions"]) >= 3,
+        "large_test_contains_nonuniform_paths": sum(c["spatially_nonuniform_negative_endpoint"] for c in l96["conditions"]) >= 3,
     }
     checks = {key: bool(value) for key, value in checks.items()}
     report = {
@@ -159,7 +159,7 @@ def main() -> None:
         "checks": checks,
         "physics_limits": [
             "phase-1 sample counts are sufficient for model development, not percent-level rare-event probabilities",
-            "0.05 fs was selected conservatively because 0.1 vs 0.05 fs switching fractions were not resolved to absolute 0.05 precision",
+            "0.05 fs was selected conservatively because 0.1 vs 0.05 fs negative-endpoint fractions were not resolved to absolute 0.05 precision",
             "mechanism labels use a spatial-std threshold of 0.25 and still require threshold-sensitivity analysis",
             "the suite contains only the Gomonay d-wave altermagnet at 5 K and three drive values",
         ],

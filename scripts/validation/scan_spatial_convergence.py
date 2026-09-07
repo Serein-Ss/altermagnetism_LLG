@@ -100,9 +100,9 @@ def simulate(args, size: int, dt: float, steps: int, seed_offset: int) -> dict:
     wall_density = np.stack(wall_density, axis=1)
     time = np.asarray(saved_steps) * dt
     crossed = (order < 0).any(axis=1)
-    switched = order[:, -1] < 0
+    negative_endpoint = order[:, -1] < 0
     transition_std = np.where(np.abs(order) < 0.5, spatial_std, 0.0).max(axis=1)
-    nonuniform = switched & (transition_std >= 0.25)
+    nonuniform = negative_endpoint & (transition_std >= 0.25)
     first_passage = np.full(args.paths, np.nan)
     for i in range(args.paths):
         hits = np.flatnonzero(order[i] < 0)
@@ -145,12 +145,12 @@ def simulate(args, size: int, dt: float, steps: int, seed_offset: int) -> dict:
         "final_neel_z_mean": float(order[:, -1].mean()),
         "final_neel_z_std": float(order[:, -1].std(ddof=1)) if args.paths > 1 else 0.0,
         "crossing_fraction": float(crossed.mean()),
-        "switching_fraction": float(switched.mean()),
-        "nonuniform_switch_count": int(nonuniform.sum()),
-        "nonuniform_switch_fraction": float(nonuniform.mean()),
+        "negative_endpoint_fraction": float(negative_endpoint.mean()),
+        "nonuniform_negative_endpoint_count": int(nonuniform.sum()),
+        "nonuniform_negative_endpoint_fraction": float(nonuniform.mean()),
         "nonuniform_fraction_wilson95": [low, high],
-        "switching_rate_per_cell_per_ps_regularized": regularized_rate_per_cell_ps(
-            int(switched.sum()), args.paths, size, duration_s
+        "negative_endpoint_rate_per_cell_per_ps_regularized": regularized_rate_per_cell_ps(
+            int(negative_endpoint.sum()), args.paths, size, duration_s
         ),
         "nonuniform_rate_per_cell_per_ps_regularized": regularized_rate_per_cell_ps(
             int(nonuniform.sum()), args.paths, size, duration_s
@@ -170,12 +170,12 @@ def relative_change(a: float, b: float, floor: float = 1e-8) -> float:
 
 def classify_paths(order: np.ndarray, spatial_std: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     crossed = (order < 0).any(axis=1)
-    switched = order[:, -1] < 0
+    negative_endpoint = order[:, -1] < 0
     transition_std = np.where(np.abs(order) < 0.5, spatial_std, 0.0).max(axis=1)
     labels = np.full(len(order), 0, dtype=np.int8)
-    labels[crossed & ~switched] = 1
-    labels[switched & (transition_std < 0.25)] = 2
-    labels[switched & (transition_std >= 0.25)] = 3
+    labels[crossed & ~negative_endpoint] = 1
+    labels[negative_endpoint & (transition_std < 0.25)] = 2
+    labels[negative_endpoint & (transition_std >= 0.25)] = 3
     first_passage = np.full(len(order), np.nan)
     for i, path in enumerate(order):
         hits = np.flatnonzero(path < 0)
@@ -199,7 +199,7 @@ def main() -> None:
     for index, size in enumerate(args.sizes):
         result = simulate(args, size, args.dt, args.steps, index * 10_000_000)
         size_results.append(result)
-        print(f"size={size} done: nonuniform={result['nonuniform_switch_count']}/{args.paths}")
+        print(f"size={size} done: nonuniform={result['nonuniform_negative_endpoint_count']}/{args.paths}")
 
     last = size_results[-1]
     size_changes = None
@@ -207,7 +207,7 @@ def main() -> None:
         previous = size_results[-2]
         size_changes = {
             "final_neel_z_mean": relative_change(last["final_neel_z_mean"], previous["final_neel_z_mean"]),
-            "switching_fraction_absolute": abs(last["switching_fraction"] - previous["switching_fraction"]),
+            "negative_endpoint_fraction_absolute": abs(last["negative_endpoint_fraction"] - previous["negative_endpoint_fraction"]),
             "mean_peak_spatial_std": relative_change(last["mean_peak_spatial_std"], previous["mean_peak_spatial_std"]),
             "mean_peak_wall_density": relative_change(last["mean_peak_wall_density"], previous["mean_peak_wall_density"]),
             "nonuniform_rate_per_cell_per_ps_regularized": relative_change(
@@ -231,18 +231,18 @@ def main() -> None:
         fine, nominal = dt_results[-1], dt_results[-2]
         dt_change = {
             "final_neel_z_mean": relative_change(fine["final_neel_z_mean"], nominal["final_neel_z_mean"]),
-            "switching_fraction_absolute": abs(fine["switching_fraction"] - nominal["switching_fraction"]),
+            "negative_endpoint_fraction_absolute": abs(fine["negative_endpoint_fraction"] - nominal["negative_endpoint_fraction"]),
             "mean_peak_spatial_std": relative_change(fine["mean_peak_spatial_std"], nominal["mean_peak_spatial_std"]),
         }
 
     checks = {
         "largest_size_at_least_4_wall_widths": args.sizes[-1] >= no_overlap_cells,
         "ensemble_at_least_100_paths": args.paths >= 100,
-        "nonuniform_paths_observed": last["nonuniform_switch_count"] >= 3,
+        "nonuniform_paths_observed": last["nonuniform_negative_endpoint_count"] >= 3,
         "last_two_sizes_peak_spatial_std_rel_change_le_0p10": size_changes is not None and size_changes["mean_peak_spatial_std"] <= 0.10,
         "last_two_sizes_peak_wall_density_rel_change_le_0p10": size_changes is not None and size_changes["mean_peak_wall_density"] <= 0.10,
         "last_two_sizes_nonuniform_rate_rel_change_le_0p25": size_changes is not None and size_changes["nonuniform_rate_per_cell_per_ps_regularized"] <= 0.25,
-        "nominal_vs_half_dt_switch_fraction_abs_change_le_0p05": dt_change is not None and dt_change["switching_fraction_absolute"] <= 0.05,
+        "nominal_vs_half_dt_negative_endpoint_fraction_abs_change_le_0p05": dt_change is not None and dt_change["negative_endpoint_fraction_absolute"] <= 0.05,
         "nominal_vs_half_dt_peak_spatial_std_rel_change_le_0p10": dt_change is not None and dt_change["mean_peak_spatial_std"] <= 0.10,
         "fourfold_coarser_save_mechanism_labels_identical": last["save_cadence_subsampling"][-1]["mechanism_label_agreement"] == 1.0,
         "fourfold_coarser_save_fpt_error_le_one_interval": (

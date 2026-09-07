@@ -110,3 +110,60 @@ def test_deterministic_baseline_is_covariant_periodic_and_on_sphere():
     assert torch.allclose(output[:, 0], initial, atol=1e-9)
     assert torch.allclose(shifted, torch.roll(output, (1, -2), dims=(3, 4)), atol=1e-9, rtol=1e-7)
     assert torch.allclose(rotated, rotate(output), atol=1e-9, rtol=1e-7)
+
+def test_v2_uses_pointwise_norm_and_film_without_breaking_equivariance():
+    torch.manual_seed(12)
+    model = PeriodicEquivariantFlowNet(
+        hidden=16,
+        blocks=2,
+        architecture_version=2,
+        condition_mean=[0.0] * 10,
+        condition_std=[1.0] * 10,
+    ).double().eval()
+    assert not any(
+        isinstance(module, torch.nn.GroupNorm)
+        for module in model.modules()
+    )
+    assert all(block.film is not None for block in model.blocks)
+    state = normalized((1, 3, 2, 4, 5, 3))
+    initial = state[:, 0].clone()
+    scalar = torch.randn((1, 10), dtype=torch.float64)
+    vector = torch.randn((1, 5, 3), dtype=torch.float64)
+    tau = torch.tensor([0.4], dtype=torch.float64)
+    output = model(state, tau, initial, scalar, vector)
+    shifted = model(
+        torch.roll(state, (1, -2), dims=(3, 4)),
+        tau,
+        torch.roll(initial, (1, -2), dims=(2, 3)),
+        scalar,
+        vector,
+    )
+    q, _ = torch.linalg.qr(torch.randn((3, 3), dtype=torch.float64))
+    if torch.det(q) < 0:
+        q[:, 0] *= -1
+    rotate = lambda value: torch.einsum("...i,ji->...j", value, q)
+    rotated = model(
+        rotate(state), tau, rotate(initial), scalar, rotate(vector)
+    )
+    assert torch.allclose(
+        (output * state).sum(dim=-1),
+        torch.zeros_like(output[..., 0]),
+        atol=1e-9,
+        rtol=1e-7,
+    )
+    assert torch.allclose(output[:, 0], torch.zeros_like(output[:, 0]))
+    assert torch.allclose(
+        rotated, rotate(output), atol=1e-9, rtol=1e-7
+    )
+    assert torch.allclose(
+        shifted,
+        torch.roll(output, (1, -2), dims=(3, 4)),
+        atol=1e-9,
+        rtol=1e-7,
+    )
+
+
+def test_v1_state_dict_remains_strictly_loadable():
+    original = PeriodicEquivariantFlowNet(hidden=16, blocks=1)
+    restored = PeriodicEquivariantFlowNet(hidden=16, blocks=1)
+    restored.load_state_dict(original.state_dict(), strict=True)

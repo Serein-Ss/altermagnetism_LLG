@@ -31,6 +31,10 @@ Use a **periodic equivariant Riemannian flow-matching model** (PE-RFM):
    joint proper-rotation covariance without an `e3nn` dependency.
 6. Project every predicted vector to the local tangent plane,
    `v_tan = v - (v dot S) S`, before evaluating the flow loss or integrating.
+7. Architecture version 2 standardizes all ten scalar conditions from the
+   training split, injects temperature, damping and both drive amplitudes into
+   every residual block with FiLM, and normalizes channels independently at
+   each lattice site and time rather than pooling statistics across space.
 
 This is more appropriate than a plain 3-D U-Net: treating `(mx,my,mz)` as three
 unrelated image channels breaks joint spin/field/crystal-frame rotation
@@ -115,6 +119,11 @@ only after the interpolation model closes.
 ## Required evaluation
 
 The acceptance test is distributional closure against held-out stochastic LLG:
+
+- distinguish `negative_endpoint`, `crossed_zero`, `committed_switch`,
+  `crossing_return` and `unresolved_transition`; infer stable-basin thresholds
+  from real LLG terminal residence distributions and extend the observation
+  window if unresolved paths remain common;
 
 - path-class fractions with binomial/multinomial uncertainty;
 - first-passage and residence-time distributions;

@@ -116,14 +116,14 @@ def summarize_group(
     wall_density = periodic_wall_density(local)
     transition = np.abs(order) < 0.5
     transition_std = np.where(transition, spatial_std, 0.0).max(axis=1)
-    mechanism = np.full(len(order), "not_switched", dtype="U32")
-    switched = labels == "negative_endpoint"
-    mechanism[switched & (transition_std < 0.25)] = "coherent_like"
-    mechanism[switched & (transition_std >= 0.25)] = "spatially_nonuniform"
+    mechanism = np.full(len(order), "not_negative_endpoint", dtype="U32")
+    negative_endpoint = labels == "negative_endpoint"
+    mechanism[negative_endpoint & (transition_std < 0.25)] = "coherent_like"
+    mechanism[negative_endpoint & (transition_std >= 0.25)] = "spatially_nonuniform"
     summary = {
         "n_trajectories": len(order),
         "outcome_counts": dict(Counter(labels.tolist())),
-        "switched_mechanism_counts": dict(Counter(mechanism[switched].tolist())),
+        "negative_endpoint_mechanism_counts": dict(Counter(mechanism[negative_endpoint].tolist())),
         "mean_max_spatial_std": float(spatial_std.max(axis=1).mean()),
         "mean_max_periodic_wall_density": float(wall_density.max(axis=1).mean()),
         "mechanism_threshold": (

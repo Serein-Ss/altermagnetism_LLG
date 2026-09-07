@@ -247,7 +247,7 @@ class CrNb3S6Helimagnet:
     def metadata(self) -> dict:
         return {
             "model": "Laliena2020_CrNb3S6_monoaxial_helimagnet",
-            "doi": "10.1038/s41598-020-76989-2",
+            "doi": "10.1038/s41598-020-76903-8",
             "parameters": asdict(self.parameters),
             "field_t": self.field_t,
             "unit_system": self.unit_system,

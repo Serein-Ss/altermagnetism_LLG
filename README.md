@@ -108,7 +108,7 @@ switching basins have been fixed.
 
 - The Hamiltonian/field, periodic-translation, combined C4/sublattice,
   zero-temperature damping, thermal-amplitude, independent trajectory RNG,
-  variable-size, lazy-batching, deterministic-baseline and joint-rotation tests pass (`21 passed`).
+  variable-size, lazy-batching, deterministic-baseline and joint-rotation tests pass (`33 passed`).
 - For the `[110]` Fourier mode `(2, 2)` on a `16 x 16` lattice, the two LLG
   peaks are `12.2494 THz` and `13.9993 THz`; Supplementary Eq. (S.9) predicts
   `12.3563 THz` and `13.9056 THz`.  The relative errors are `0.87%` and
@@ -249,3 +249,41 @@ path coverage in both L64 training data and L96 test data.
 Read `data/standard_v2/DATASET_CARD.md` before training.  The suite is suitable
 for phase-1 model development, not yet for percent-level rare-event estimates
 or a definitive physical mechanism phase diagram.
+
+## Path-distribution evaluation and v2 training
+
+Endpoint sign is no longer reported as a completed reversal. The common evaluator
+in `model/evaluate.py` reports `negative_endpoint`, `crossed_zero`,
+`committed_switch`, `crossing_return` and `unresolved_transition`.
+Stable-basin thresholds are fitted from the terminal residence distribution of
+real train/validation LLG paths. A condition with more than 20% unresolved real
+paths fails the observation-window gate rather than receiving a forced label.
+Each evaluation stores every generated spin path in HDF5 together with endpoint
+histograms, each per-path `n_z(t)` curve with its ensemble mean, per-path spatial
+standard deviations and animations.
+
+The original checkpoint fails already on the L16 full test distribution:
+all generated size-condition groups have zero committed switches and are
+unresolved at the endpoint. The 16/32/64/128-step diagnostic also shows that
+32 integration steps are not converged; 64 is closer and formal evaluation uses
+128. At fixed initial state and latent seed the generated paths are effectively
+unchanged across 0.70/0.78/0.80 T, while 16 latent seeds remain diverse. This
+locates the primary failure in condition use/training rather than L96-only size
+generalization or simple latent mode collapse.
+
+Architecture version 2 standardizes all ten scalar conditions using the training
+split, applies temperature/damping/drive FiLM modulation in every residual block,
+and replaces spatial GroupNorm with per-site channel normalization. Its training
+schedule uses complete L16 and L32 paths, 48x48 L64 crops, batch size one and
+gradient accumulation. Formal runs use three independent training seeds and
+common evaluation latent seeds; summary tables report the sample mean and sample
+standard deviation. The current data
+contain only one temperature and damping value, so they cannot establish
+temperature- or damping-generalization even though those variables are wired
+into the model.
+
+## Methodological tooling
+
+Scientific-figure integrity and accessibility review followed Kassis et al.,
+*Scientific Agent Skills: A Library of Procedural Knowledge for Research
+Agents* (2026), [arXiv:2609.00065](https://doi.org/10.48550/arXiv.2609.00065).

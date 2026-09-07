@@ -14,6 +14,7 @@ sys.path.insert(0, str(ROOT.parent))
 from altermagnetism_LLG.model.data import (  # noqa: E402
     ScalablePathDataset,
     SizeBucketBatchSampler,
+    scalar_condition_statistics,
 )
 
 
@@ -102,3 +103,34 @@ def test_fixed_crop_allows_mixed_source_sizes(tmp_path):
     batch = next(iter(loader))
     assert tuple(batch["spins"].shape) == (4, 3, 2, 4, 4, 3)
     dataset.close()
+
+def test_per_source_crop_sizes_keep_small_full_and_crop_large(tmp_path):
+    small = tmp_path / "small.h5"
+    large = tmp_path / "large.h5"
+    write_dataset(small, 4, 0)
+    write_dataset(large, 6, 10)
+    dataset = ScalablePathDataset(
+        [small, large],
+        "train",
+        random_crop=False,
+        crop_sizes=[None, 5],
+    )
+    assert {dataset.batch_key(index) for index in range(len(dataset))} == {
+        (3, 2, 4, 4, 3),
+        (3, 2, 5, 5, 3),
+    }
+    assert tuple(dataset[0]["spins"].shape[-3:-1]) == (4, 4)
+    assert tuple(dataset[2]["spins"].shape[-3:-1]) == (5, 5)
+    dataset.close()
+
+
+def test_scalar_condition_statistics_use_only_requested_split(tmp_path):
+    path = tmp_path / "data.h5"
+    write_dataset(path, 4, 0)
+    with h5py.File(path, "r+") as h5:
+        group = h5["d_wave_altermagnet"]
+        group["split"][:] = [0, 2]
+        group["model_condition"][1] = 99.0
+    mean, std = scalar_condition_statistics([path], "train")
+    assert np.array_equal(mean, np.ones(10))
+    assert np.array_equal(std, np.ones(10))

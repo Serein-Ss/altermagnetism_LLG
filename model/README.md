@@ -27,8 +27,8 @@ Recommended workflow:
 1. Run `scripts/validation/scan_spatial_convergence.py` and do not train mechanism
    claims until its gate passes with at least 100 paths per condition.
 2. Generate separate schema-v2 files with `scripts/datasets/generate_scalable_hdf5.py`.
-3. Pretrain local fluctuations on 16/32-cell crops, but include converged 48/64-cell
-   trajectories before claiming nonuniform mechanism learning.
+3. Train complete L16/L32 trajectories and include at least 32x32 or 48x48
+   crops from converged L64 data before claiming nonuniform mechanism learning.
 4. Train with `bash run_zrs_mag.sh -m altermagnetism_LLG.model.train --input FILES...`.
 5. Generate 96/128-cell held-out samples with `bash run_zrs_mag.sh -m altermagnetism_LLG.model.sample`.
 6. Compare distributions against new LLG ensembles at exactly the same large sizes.

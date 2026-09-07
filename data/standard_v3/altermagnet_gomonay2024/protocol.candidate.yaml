@@ -1,0 +1,66 @@
+{
+  "schema_version": 3,
+  "system_id": "gomonay2024_d_wave_altermagnet",
+  "hamiltonian_id": "gomonay2024_supplement_eq_S1_table_I_domain_wall_set",
+  "status": "candidate_not_frozen",
+  "production_enabled": false,
+  "source": {
+    "doi": "10.1038/s44306-024-00042-3",
+    "location": "Supplementary Eq. S.1, Fig. S1 and Table I"
+  },
+  "literature_parameters": {
+    "J1_meV": 11.1,
+    "J2_meV": 1.88,
+    "J_tilde_meV": 0.8,
+    "K_meV": 0.047,
+    "mu_s_mu_B": 1.0,
+    "lattice_nm": 0.448,
+    "gamma_rad_per_s_T": 176085963023.0,
+    "sublattices": 2,
+    "periodic_axes": ["x", "y"]
+  },
+  "protocol_choices": {
+    "temperature_K": 5.0,
+    "alpha": 0.01,
+    "pulse_duration_ps": 0.5,
+    "field_like_T": 0.0,
+    "base_seed": 20260908,
+    "production_shard_paths": 50,
+    "pilot_paths_per_condition": 128,
+    "production_paths_near_threshold": 1000,
+    "production_paths_other_conditions_minimum": 500
+  },
+  "candidate_scans": {
+    "integration_dt_fs": [0.1, 0.05, 0.025],
+    "full_spin_saved_dt_fs": [2.5, 5.0, 10.0],
+    "duration_ps": [1.0, 2.0, 4.0, 8.0],
+    "lattice_L": [32, 48, 64, 96, 128],
+    "drive_damping_like_T": [0.6, 0.7, 0.78, 0.8, 0.9],
+    "polarization_directions": {
+      "100": [1.0, 0.0, 0.0],
+      "010": [0.0, 1.0, 0.0],
+      "110": [0.7071067811865476, 0.7071067811865476, 0.0],
+      "1-10": [0.7071067811865476, -0.7071067811865476, 0.0]
+    }
+  },
+  "acceptance": {
+    "dt_rule": "0.05 fs and 0.025 fs agree within preregistered 95% confidence intervals",
+    "save_rule": "mechanism label unchanged and first-passage error <= one coarse saved interval",
+    "duration_rule": "doubling changes committed probability <=0.03, mechanism fractions <=0.05, unresolved <=0.05",
+    "basin_tail_quantiles": [0.01, 0.05],
+    "steady_windows_minimum": 3,
+    "tail_autocorrelation_multiples": 10,
+    "rhat_maximum": 1.05,
+    "spin_norm_max_error": 1e-6
+  },
+  "unfrozen_production_fields": {
+    "integration_dt_fs": null,
+    "full_spin_saved_dt_fs": null,
+    "fixed_duration_ps": null,
+    "tail_duration_ps": null,
+    "equilibration_duration_ps": null,
+    "initial_pool_certification": null,
+    "frozen_drive_damping_like_T": null,
+    "condition_table": null
+  }
+}

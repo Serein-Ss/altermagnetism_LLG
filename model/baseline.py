@@ -17,6 +17,9 @@ class DeterministicPathModel(nn.Module):
         vector_condition_count: int = 5,
         hidden: int = 64,
         blocks: int = 8,
+        architecture_version: int = 1,
+        condition_mean: list[float] | None = None,
+        condition_std: list[float] | None = None,
     ):
         super().__init__()
         self.backbone = PeriodicEquivariantFlowNet(
@@ -24,6 +27,9 @@ class DeterministicPathModel(nn.Module):
             vector_condition_count=vector_condition_count,
             hidden=hidden,
             blocks=blocks,
+            architecture_version=architecture_version,
+            condition_mean=condition_mean,
+            condition_std=condition_std,
         )
 
     def forward(

@@ -76,3 +76,4 @@ def test_crnb3s6_one_turn_helix_is_stationary_on_matching_period():
     torque = torch.linalg.cross(spins, model.field(spins), dim=-1)
     assert torch.max(torch.linalg.vector_norm(torque, dim=-1)) < 1e-10
     assert model.continuum_period_m * 1e9 == pytest.approx(48.37, rel=2e-3)
+    assert model.metadata()["doi"] == "10.1038/s41598-020-76903-8"

@@ -27,17 +27,78 @@ class PeriodicConv3d(nn.Module):
         return self.conv(inputs)
 
 
+class PointwiseChannelNorm(nn.Module):
+    """Normalize across channels separately at every time and lattice site."""
+
+    def __init__(self, channels: int, eps: float = 1e-5):
+        super().__init__()
+        self.eps = eps
+        self.weight = nn.Parameter(torch.ones(channels))
+        self.bias = nn.Parameter(torch.zeros(channels))
+
+    def forward(self, inputs: torch.Tensor) -> torch.Tensor:
+        mean = inputs.mean(dim=1, keepdim=True)
+        variance = (inputs - mean).square().mean(dim=1, keepdim=True)
+        normalized = (inputs - mean) * torch.rsqrt(variance + self.eps)
+        weight = self.weight[None, :, None, None, None]
+        bias = self.bias[None, :, None, None, None]
+        return normalized * weight + bias
+
+
 class ResidualScalarBlock(nn.Module):
-    def __init__(self, channels: int):
+    def __init__(
+        self,
+        channels: int,
+        *,
+        architecture_version: int = 1,
+        film_condition_dim: int = 4,
+    ):
         super().__init__()
         self.first = PeriodicConv3d(channels, channels)
         self.second = PeriodicConv3d(channels, channels)
-        self.norm1 = nn.GroupNorm(8 if channels % 8 == 0 else 1, channels)
-        self.norm2 = nn.GroupNorm(8 if channels % 8 == 0 else 1, channels)
+        if architecture_version == 1:
+            groups = 8 if channels % 8 == 0 else 1
+            self.norm1 = nn.GroupNorm(groups, channels)
+            self.norm2 = nn.GroupNorm(groups, channels)
+            self.film = None
+        else:
+            self.norm1 = PointwiseChannelNorm(channels)
+            self.norm2 = PointwiseChannelNorm(channels)
+            self.film = nn.Linear(film_condition_dim, 4 * channels)
+            nn.init.zeros_(self.film.weight)
+            nn.init.zeros_(self.film.bias)
 
-    def forward(self, inputs: torch.Tensor) -> torch.Tensor:
-        hidden = F.silu(self.norm1(self.first(inputs)))
-        return inputs + self.norm2(self.second(hidden))
+    @staticmethod
+    def _modulate(
+        inputs: torch.Tensor,
+        scale: torch.Tensor,
+        shift: torch.Tensor,
+    ) -> torch.Tensor:
+        scale = scale[:, :, None, None, None]
+        shift = shift[:, :, None, None, None]
+        return inputs * (1.0 + scale) + shift
+
+    def forward(
+        self,
+        inputs: torch.Tensor,
+        condition: torch.Tensor | None = None,
+    ) -> torch.Tensor:
+        if self.film is None:
+            hidden = F.silu(self.norm1(self.first(inputs)))
+            return inputs + self.norm2(self.second(hidden))
+        if condition is None:
+            raise ValueError("FiLM residual block requires a condition")
+        scale1, shift1, scale2, shift2 = self.film(condition).chunk(
+            4, dim=1
+        )
+        hidden = self._modulate(
+            self.norm1(self.first(inputs)), scale1, shift1
+        )
+        hidden = F.silu(hidden)
+        residual = self._modulate(
+            self.norm2(self.second(hidden)), scale2, shift2
+        )
+        return inputs + residual
 
 
 class PeriodicEquivariantFlowNet(nn.Module):
@@ -49,18 +110,65 @@ class PeriodicEquivariantFlowNet(nn.Module):
     equivariance.  This first implementation intentionally avoids an e3nn dependency.
     """
 
-    def __init__(self, scalar_condition_dim: int = 10, vector_condition_count: int = 5, hidden: int = 64, blocks: int = 8):
+    def __init__(
+        self,
+        scalar_condition_dim: int = 10,
+        vector_condition_count: int = 5,
+        hidden: int = 64,
+        blocks: int = 8,
+        architecture_version: int = 1,
+        condition_mean: list[float] | None = None,
+        condition_std: list[float] | None = None,
+    ):
         super().__init__()
+        if architecture_version not in (1, 2):
+            raise ValueError("architecture_version must be 1 or 2")
         self.scalar_condition_dim = scalar_condition_dim
         self.vector_condition_count = vector_condition_count
+        self.architecture_version = architecture_version
         self.local_basis_count = 6 + vector_condition_count
+        if condition_mean is None:
+            condition_mean = [0.0] * scalar_condition_dim
+        if condition_std is None:
+            condition_std = [1.0] * scalar_condition_dim
+        if (
+            len(condition_mean) != scalar_condition_dim
+            or len(condition_std) != scalar_condition_dim
+        ):
+            raise ValueError("condition statistics have the wrong length")
+        if min(condition_std) <= 0:
+            raise ValueError(
+                "condition standard deviations must be positive"
+            )
+        self.register_buffer(
+            "condition_mean",
+            torch.tensor(condition_mean, dtype=torch.float32),
+            persistent=False,
+        )
+        self.register_buffer(
+            "condition_std",
+            torch.tensor(condition_std, dtype=torch.float32),
+            persistent=False,
+        )
         # Two frame-wise scalar channels identify physical progress and whether
         # the finite-duration drive pulse is active.  They preserve SO(3)
         # covariance because they only modulate invariant coefficients.
-        invariant_channels = 2 * self.local_basis_count + scalar_condition_dim + 5 + 2
+        invariant_channels = (
+            2 * self.local_basis_count + scalar_condition_dim + 5 + 2
+        )
         self.input = PeriodicConv3d(invariant_channels, hidden)
-        self.blocks = nn.Sequential(*[ResidualScalarBlock(hidden) for _ in range(blocks)])
-        self.output = PeriodicConv3d(hidden, 2 * self.local_basis_count)
+        self.blocks = nn.ModuleList(
+            [
+                ResidualScalarBlock(
+                    hidden,
+                    architecture_version=architecture_version,
+                )
+                for _ in range(blocks)
+            ]
+        )
+        self.output = PeriodicConv3d(
+            hidden, 2 * self.local_basis_count
+        )
 
     @staticmethod
     def _spatial_bases(state: torch.Tensor) -> tuple[torch.Tensor, torch.Tensor]:
@@ -145,12 +253,19 @@ class PeriodicEquivariantFlowNet(nn.Module):
         dot = (state.unsqueeze(-2) * basis).sum(dim=-1)
         norm2 = basis.square().sum(dim=-1)
 
+        standardized_condition = (
+            scalar_condition - self.condition_mean.to(scalar_condition)
+        ) / self.condition_std.to(scalar_condition)
         tau_features = torch.stack(
             (tau, torch.sin(math.pi * tau), torch.cos(math.pi * tau), torch.sin(2 * math.pi * tau), torch.cos(2 * math.pi * tau)),
             dim=1,
         )
-        scalar = torch.cat((scalar_condition, tau_features), dim=1)
+        scalar = torch.cat((standardized_condition, tau_features), dim=1)
         scalar = scalar[:, None, None, None, None, :].expand(-1, frames, sublattices, nx, ny, -1)
+        film_condition = standardized_condition[:, :4]
+        film_condition = film_condition.repeat_interleave(
+            sublattices, dim=0
+        )
         if physical_time is None:
             normalized_time = torch.linspace(
                 0.0, 1.0, frames, device=state.device, dtype=state.dtype
@@ -166,7 +281,13 @@ class PeriodicEquivariantFlowNet(nn.Module):
         invariants = torch.cat((dot, norm2, scalar, time_feature, pulse_active), dim=-1)
         invariants = invariants.permute(0, 2, 5, 1, 3, 4).reshape(batch * sublattices, -1, frames, nx, ny)
         hidden = F.silu(self.input(invariants))
-        coefficients = self.output(self.blocks(hidden))
+        for block in self.blocks:
+            hidden = block(
+                hidden,
+                film_condition
+                if self.architecture_version == 2 else None,
+            )
+        coefficients = self.output(hidden)
         coefficients = coefficients.reshape(batch, sublattices, 2 * self.local_basis_count, frames, nx, ny)
         coefficients = coefficients.permute(0, 3, 1, 4, 5, 2)
         direct, crossed = coefficients.split(self.local_basis_count, dim=-1)

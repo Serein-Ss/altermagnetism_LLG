@@ -33,8 +33,8 @@ LABELS = ("no_crossing", "crossing_return", "coherent_like", "spatially_nonunifo
 DISPLAY = {
     "no_crossing": "No crossing",
     "crossing_return": "Crossing and return",
-    "coherent_like": "Coherent-like switch",
-    "spatially_nonuniform": "Spatially nonuniform switch",
+    "coherent_like": "Coherent-like negative endpoint",
+    "spatially_nonuniform": "Spatially nonuniform negative endpoint",
 }
 SHORT_LABEL = {
     "no_crossing": "NC",
