@@ -54,6 +54,24 @@
         }
       ],
       "reassemble": "cat generated_trajectories.h5.part-* > generated_trajectories.h5"
+    },
+    {
+      "source": "data/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5",
+      "source_bytes": 3311076104,
+      "source_sha256": "6832338e4051246e24c5f5c2ef9827a2f936ecca8549a809201169bc7f7b3c9e",
+      "parts": [
+        {
+          "path": "data/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5.part-00",
+          "bytes": 1887436800,
+          "sha256": "3544d3b6a1051476c9eb4120522e5e318bec3383ba9e7f2ed4b36d3980522480"
+        },
+        {
+          "path": "data/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5.part-01",
+          "bytes": 1423639304,
+          "sha256": "cdf29c6f31fc7d834cbe5631476f4c6658e48bd8e4237cbc248e6d70f973e7e9"
+        }
+      ],
+      "reassemble": "cat d_wave_altermagnet_L96.h5.part-* > d_wave_altermagnet_L96.h5"
     }
   ]
 }
