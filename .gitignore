@@ -2,3 +2,6 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 *.partial
+data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5
+outputs/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5
+outputs/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5

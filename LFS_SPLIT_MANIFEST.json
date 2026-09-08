@@ -1,0 +1,59 @@
+{
+  "chunk_size_bytes": 1887436800,
+  "files": [
+    {
+      "source": "data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5",
+      "source_bytes": 2192841624,
+      "source_sha256": "f6ff1163c275283a5f212997f95cdafb08867dc2b51b736d1678162398c33506",
+      "parts": [
+        {
+          "path": "data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5.part-00",
+          "bytes": 1887436800,
+          "sha256": "cca51ad14674709e167cc90bfe1fb44bd6414687604e6d0f4e8c4ff3590a73c6"
+        },
+        {
+          "path": "data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5.part-01",
+          "bytes": 305404824,
+          "sha256": "84d7d31f26eac8605ecff1ddf8fc782398dc9a14bf44f06a19ded923c323f78c"
+        }
+      ],
+      "reassemble": "cat d_wave_altermagnet_L96.h5.part-* > d_wave_altermagnet_L96.h5"
+    },
+    {
+      "source": "outputs/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5",
+      "source_bytes": 2130343707,
+      "source_sha256": "815bf0c0887588471a95cbe0ab8a57bb621a8fdbd8b5815f5fcf2b464ccf1be4",
+      "parts": [
+        {
+          "path": "outputs/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5.part-00",
+          "bytes": 1887436800,
+          "sha256": "c46bc69bdf56b6411225a123bb45481db5b74ef580eb7ac09aa26bfec073efbe"
+        },
+        {
+          "path": "outputs/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5.part-01",
+          "bytes": 242906907,
+          "sha256": "4b257dd45ea9c432cd3a4762f95655e4441e4b1957b4633d2f59a8d2c468d1ac"
+        }
+      ],
+      "reassemble": "cat generated_trajectories.h5.part-* > generated_trajectories.h5"
+    },
+    {
+      "source": "outputs/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5",
+      "source_bytes": 2130393296,
+      "source_sha256": "bfe289a79e2c0ce30122b315144b1b1f0fb8daa92a0db9d230435470410ca53e",
+      "parts": [
+        {
+          "path": "outputs/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5.part-00",
+          "bytes": 1887436800,
+          "sha256": "5e49b18abe20e279b6f022b7d353b1f98cc72a9a6355a78a4d6fc91a7f746580"
+        },
+        {
+          "path": "outputs/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5.part-01",
+          "bytes": 242956496,
+          "sha256": "fc8440d6c5d2675e0231ec3acf11c4049ceda3edfe356ff9dc87f194c99d35d0"
+        }
+      ],
+      "reassemble": "cat generated_trajectories.h5.part-* > generated_trajectories.h5"
+    }
+  ]
+}
