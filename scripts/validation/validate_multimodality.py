@@ -40,7 +40,7 @@ from altermagnet_dynamics import (  # noqa: E402
 def parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(description="Pre-registered path multimodality test")
     p.add_argument("--output-dir", type=Path,
-                   default=ROOT / "data" / "multimodality_validation")
+                   default=ROOT / "data" / "research" / "multimodality_validation")
     p.add_argument("--temperature-k", type=float, default=5.0)
     p.add_argument("--sot-dl-t", type=float, default=0.8)
     p.add_argument("--pulse-ps", type=float, default=0.5)

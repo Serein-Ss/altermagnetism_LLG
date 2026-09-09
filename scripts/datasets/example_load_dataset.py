@@ -12,7 +12,7 @@ from hdf5_trajectory_dataset import LLGTrajectoryDataset  # noqa: E402
 
 
 def main() -> None:
-    path = ROOT / "data" / "training_benchmark" / "llg_spatial_paths.h5"
+    path = ROOT / "data" / "datasets" / "training_benchmark" / "llg_spatial_paths.h5"
     dataset = LLGTrajectoryDataset(path, "train")
     batch = next(iter(DataLoader(dataset, batch_size=4, shuffle=True, num_workers=0)))
     print("spins:", tuple(batch["spins"].shape))

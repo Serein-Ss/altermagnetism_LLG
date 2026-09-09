@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=32G
 #SBATCH --time=00:15:00
-#SBATCH --output=altermagnetism_LLG/slurm/logs/%x-%j-smoke-v2-3ps-memory.out
+#SBATCH --output=altermagnetism_LLG/logs/slurm/%x-%j-smoke-v2-3ps-memory.out
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"
@@ -17,9 +17,9 @@ bash run_zrs_mag.sh - <<'PY'
 import gc
 import torch
 
-from altermagnetism_LLG.model.baseline import DeterministicPathModel
-from altermagnetism_LLG.model.network import PeriodicEquivariantFlowNet
-from altermagnetism_LLG.model.sphere import geodesic_interpolate, sample_reference_path
+from altermagnetism_LLG.scripts.model.baseline import DeterministicPathModel
+from altermagnetism_LLG.scripts.model.network import PeriodicEquivariantFlowNet
+from altermagnetism_LLG.scripts.model.sphere import geodesic_interpolate, sample_reference_path
 
 device = "cuda"
 assert torch.cuda.is_available()

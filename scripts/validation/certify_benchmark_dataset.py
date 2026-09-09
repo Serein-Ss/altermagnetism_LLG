@@ -24,12 +24,12 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--input",
         type=Path,
-        default=ROOT / "data" / "training_benchmark" / "llg_spatial_paths.h5",
+        default=ROOT / "data" / "datasets" / "training_benchmark" / "llg_spatial_paths.h5",
     )
     p.add_argument(
         "--output",
         type=Path,
-        default=ROOT / "data" / "training_benchmark" / "benchmark_certification.json",
+        default=ROOT / "data" / "datasets" / "training_benchmark" / "benchmark_certification.json",
     )
     return p
 
@@ -122,7 +122,7 @@ def main() -> None:
         c["absolute_error"]
         for c in metrics["systems"]["ordinary_free_moments"]["conditions"]
     ]
-    spinwave_path = ROOT / "data" / "literature_validation" / "spinwave_validation.json"
+    spinwave_path = ROOT / "data" / "literature" / "literature_validation" / "spinwave_validation.json"
     spinwave = json.loads(spinwave_path.read_text(encoding="utf-8"))
     loaders = {}
     for split in ("train", "validation", "test"):

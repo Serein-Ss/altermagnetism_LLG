@@ -6,7 +6,7 @@
 #SBATCH --mem=64G
 #SBATCH --time=08:00:00
 #SBATCH --array=0-11
-#SBATCH --output=altermagnetism_LLG/slurm/logs/%x-%A_%a-evaluate-v2.out
+#SBATCH --output=altermagnetism_LLG/logs/slurm/%x-%A_%a-evaluate-v2.out
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"
@@ -18,10 +18,10 @@ unset PYTHONPATH PYTHONHOME
 
 SEEDS=(20260908 20260909 20260910)
 INPUTS=(
-  altermagnetism_LLG/data/standard_v2_extended_3ps/train/d_wave_altermagnet_L16.h5
-  altermagnetism_LLG/data/standard_v2_extended_3ps/train/d_wave_altermagnet_L32.h5
-  altermagnetism_LLG/data/standard_v2_extended_3ps/train/d_wave_altermagnet_L64.h5
-  altermagnetism_LLG/data/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5
+  altermagnetism_LLG/data/datasets/standard_v2_extended_3ps/train/d_wave_altermagnet_L16.h5
+  altermagnetism_LLG/data/datasets/standard_v2_extended_3ps/train/d_wave_altermagnet_L32.h5
+  altermagnetism_LLG/data/datasets/standard_v2_extended_3ps/train/d_wave_altermagnet_L64.h5
+  altermagnetism_LLG/data/datasets/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5
 )
 SIZES=(16 32 64 96)
 EVALUATION_SEED=20260911
@@ -36,11 +36,11 @@ SEED_INDEX=$((TASK / 4))
 SIZE_INDEX=$((TASK % 4))
 SEED="${SEEDS[$SEED_INDEX]}"
 SIZE="${SIZES[$SIZE_INDEX]}"
-ROOT="altermagnetism_LLG/outputs/production_v2/seed_$SEED"
+ROOT="altermagnetism_LLG/output/production/production_v2/seed_$SEED"
 OUT="$ROOT/evaluation/L$SIZE"
 
 bash run_zrs_mag.sh -c 'import torch; assert torch.cuda.is_available(); print(torch.cuda.get_device_name(0))'
-bash run_zrs_mag.sh -m altermagnetism_LLG.model.evaluate \
+bash run_zrs_mag.sh -m altermagnetism_LLG.scripts.analysis.evaluate \
   --input "${INPUTS[$SIZE_INDEX]}" \
   --calibration-input "${CALIBRATION[@]}" \
   --flow-checkpoint "$ROOT/flow/best_checkpoint.pt" \

@@ -132,7 +132,7 @@ frames. It must enforce or test:
 - comparisons of path-class weights, first-passage times, spatial correlations,
   energy/work distributions, and failure probabilities against held-out LLG.
 
-The current HDF5 file is a runnable pilot for model/data-interface development.
+The current HDF5 file is a runnable pilot for scripts/model/data-interface development.
 Publication-scale physical claims require larger lattices, longer preparation,
 timestep and size convergence, more trajectories, and preregistered held-out
 conditions.

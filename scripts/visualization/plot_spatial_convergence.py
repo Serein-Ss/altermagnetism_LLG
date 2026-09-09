@@ -8,14 +8,18 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input", type=Path, default=ROOT / "data" / "size_convergence" / "spatial_convergence.json")
-    parser.add_argument("--output", type=Path, default=ROOT / "assets" / "size_convergence" / "spatial_convergence.png")
+    parser.add_argument("--input", type=Path, default=ROOT / "data" / "research" / "size_convergence" / "spatial_convergence.json")
+    parser.add_argument("--output", type=Path, default=ROOT / "assets" / "research" / "size_convergence" / "spatial_convergence.png")
     args = parser.parse_args()
     report = json.loads(args.input.read_text(encoding="utf-8"))
     results = report["size_results"]
@@ -40,7 +44,7 @@ def main() -> None:
     axes[2].legend(fontsize=8)
     fig.suptitle(f"Convergence gate: {report['status'].replace('_', ' ')}")
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(args.output, dpi=220)
+    fig.savefig(asset_path(args.output), dpi=220)
     plt.close(fig)
     print(args.output.resolve())
 

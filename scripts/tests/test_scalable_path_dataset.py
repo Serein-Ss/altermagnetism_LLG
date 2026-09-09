@@ -11,7 +11,7 @@ from torch.utils.data import DataLoader
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT.parent))
 
-from altermagnetism_LLG.model.data import (  # noqa: E402
+from altermagnetism_LLG.scripts.datasets.path_data import (  # noqa: E402
     ScalablePathDataset,
     SizeBucketBatchSampler,
     scalar_condition_statistics,

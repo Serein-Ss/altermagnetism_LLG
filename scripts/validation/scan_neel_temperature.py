@@ -14,7 +14,7 @@ ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT))
 sys.path.insert(0,str(ROOT/"scripts"/"core"))
 from unified_llg import GomonayModelAdapter, UnifiedLLGSolver, collinear_state, common_observables
-from scripts.datasets.generate_v3_gomonay_shard import energy_components, spatial_summaries
+from scripts.generation.generate_v3_gomonay_shard import energy_components, spatial_summaries
 
 
 def main():

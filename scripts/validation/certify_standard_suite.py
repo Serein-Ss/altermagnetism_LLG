@@ -12,10 +12,10 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_FILES = (
-    ROOT / "data" / "standard_v2" / "train" / "d_wave_altermagnet_L16.h5",
-    ROOT / "data" / "standard_v2" / "train" / "d_wave_altermagnet_L32.h5",
-    ROOT / "data" / "standard_v2" / "train" / "d_wave_altermagnet_L64.h5",
-    ROOT / "data" / "standard_v2" / "test_large" / "d_wave_altermagnet_L96.h5",
+    ROOT / "data" / "datasets" / "standard_v2" / "train" / "d_wave_altermagnet_L16.h5",
+    ROOT / "data" / "datasets" / "standard_v2" / "train" / "d_wave_altermagnet_L32.h5",
+    ROOT / "data" / "datasets" / "standard_v2" / "train" / "d_wave_altermagnet_L64.h5",
+    ROOT / "data" / "datasets" / "standard_v2" / "test_large" / "d_wave_altermagnet_L96.h5",
 )
 
 
@@ -64,7 +64,7 @@ def outcome_metrics(spins: np.ndarray, time: np.ndarray) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--inputs", type=Path, nargs="+", default=DEFAULT_FILES)
-    parser.add_argument("--output", type=Path, default=ROOT / "data" / "standard_v2" / "suite_certification.json")
+    parser.add_argument("--output", type=Path, default=ROOT / "data" / "datasets" / "standard_v2" / "suite_certification.json")
     args = parser.parse_args()
     files = []
     all_seeds = []

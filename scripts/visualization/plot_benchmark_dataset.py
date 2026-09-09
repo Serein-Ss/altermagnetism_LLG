@@ -10,6 +10,10 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
 COLORS = {"ordinary": "#4c78a8", "afm": "#f28e2b", "am": "#7a5195"}
@@ -20,17 +24,17 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--input",
         type=Path,
-        default=ROOT / "data" / "training_benchmark" / "llg_spatial_paths.h5",
+        default=ROOT / "data" / "datasets" / "training_benchmark" / "llg_spatial_paths.h5",
     )
     p.add_argument(
         "--metrics",
         type=Path,
-        default=ROOT / "data" / "training_benchmark" / "benchmark_certification.json",
+        default=ROOT / "data" / "datasets" / "training_benchmark" / "benchmark_certification.json",
     )
     p.add_argument(
         "--output-dir",
         type=Path,
-        default=ROOT / "assets" / "training_benchmark",
+        default=ROOT / "assets" / "research" / "training_benchmark",
     )
     return p
 
@@ -113,7 +117,7 @@ def plot_certification(metrics: dict, output: Path) -> None:
     axes[2].set_xticks([])
     axes[2].set_title("c  benchmark gates")
     fig.suptitle("Unified LLG benchmark: data integrity and two literature anchors", weight="bold")
-    fig.savefig(output, dpi=240, bbox_inches="tight")
+    fig.savefig(asset_path(output), dpi=240, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -144,7 +148,7 @@ def plot_path_ensembles(h5: h5py.File, output: Path) -> None:
         "Every finite-temperature trajectory is retained | red: negative final basin | dashed: pulse end",
         weight="bold",
     )
-    fig.savefig(output, dpi=240, bbox_inches="tight")
+    fig.savefig(asset_path(output), dpi=240, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -184,7 +188,7 @@ def plot_endpoints(h5: h5py.File, output: Path) -> None:
     axes[1].set_ylabel("peak spatial incoherence")
     axes[1].set_title("b  spatial nonuniformity remains small at 8 x 8")
     axes[1].legend(fontsize=8)
-    fig.savefig(output, dpi=240, bbox_inches="tight")
+    fig.savefig(asset_path(output), dpi=240, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -228,7 +232,7 @@ def plot_spatial_examples(h5: h5py.File, output: Path) -> None:
         "Full spatial states | deterministic representative = trajectory nearest median endpoint",
         weight="bold",
     )
-    fig.savefig(output, dpi=240, bbox_inches="tight")
+    fig.savefig(asset_path(output), dpi=240, bbox_inches="tight")
     plt.close(fig)
 
 

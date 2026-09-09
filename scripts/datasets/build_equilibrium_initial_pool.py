@@ -11,6 +11,10 @@ from pathlib import Path
 import h5py
 import numpy as np
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import resolve_recorded_path
+
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
@@ -21,7 +25,7 @@ def main():
     if args.output.exists():
         raise FileExistsError(args.output)
     report=json.loads(args.diagnostics.read_text())
-    row=next(r for r in report["rows"] if Path(r["source"]).resolve()==args.input.resolve())
+    row=next(r for r in report["rows"] if resolve_recorded_path(r["source"]).resolve()==args.input.resolve())
     if not row["equilibrium_even_observables_passed"]:
         raise ValueError("equilibrium diagnostics failed; do not create a pool")
     stride=max(1,int(np.ceil(5*row["tau_max_saved_samples"])))

@@ -28,22 +28,20 @@ Eq. (S.1) and Table I:
 This is a literature-constrained model, not a claim of parameter-free
 quantitative prediction for bulk RuO2.
 
-## Directory contract
+## Directory contract (restructured)
 
-- `scripts/core/`: Hamiltonian, deterministic LLG, stochastic Heun and physical
-  observables.
-- `scripts/validation/`: deterministic literature reproduction and numerical
-  validation.
-- `scripts/datasets/`: unbiased stochastic-LLG trajectory generation.
-- `scripts/visualization/`: plotting only; static outputs are PNG.
-- `scripts/tests/`: unit and physics-regression tests.
-- `model/`: size-agnostic periodic Riemannian flow model, loader, trainer and sampler.
-- `outputs/`: checkpoints and generated-model results only.
-- `data/literature_validation/`: raw validation trajectories and metrics.
-- `data/unbiased/`: production stochastic trajectories after the protocol is
-  frozen.
-- `assets/literature_validation/`: literature-reproduction figures.
-- `assets/unbiased/`: stochastic-path diagnostic figures.
+See [DIRECTORY_STRUCTURE.md](DIRECTORY_STRUCTURE.md) for the current layout,
+data inventory, entry points and provenance rules. Historical scientific status
+below is not a new certification. GUIDE plans and historical report payloads
+retain their original text; use DIRECTORY_MIGRATION.json for old path lookup.
+
+- `GUIDE/`: user research/work plans, including the V3 requirements.
+- `scripts/`: all live code by responsibility; `archive/` is frozen evidence only.
+- `data/`: literature, research, datasets, audit and generated trajectory arrays.
+- `assets/literature/`, `assets/research/`: plots and animations by task.
+- `output/smoke/`, `output/production/`, `output/diagnostics/`: checkpoints and metrics.
+- `slurm/`: current submission scripts; `archive/` retains historical batch snapshots.
+- `logs/`: scheduler/process logs and environment captures.
 
 ## Research stages and gates
 
@@ -76,7 +74,7 @@ bash run_zrs_mag.sh -m pytest altermagnetism_LLG/scripts/tests -q
 Generate the deterministic spin-wave validation data:
 
 ```bash
-bash run_zrs_mag.sh altermagnetism_LLG/scripts/validation/validate_spinwave.py
+bash run_zrs_mag.sh altermagnetism_LLG/scripts/literature/validate_spinwave.py
 ```
 
 Plot the validation result:
@@ -94,7 +92,7 @@ bash run_zrs_mag.sh altermagnetism_LLG/scripts/visualization/animate_spinwave_tr
 Generate and certify the compact full-spatial training benchmark:
 
 ```bash
-bash run_zrs_mag.sh altermagnetism_LLG/scripts/datasets/generate_benchmark_hdf5.py
+bash run_zrs_mag.sh altermagnetism_LLG/scripts/generation/generate_benchmark_hdf5.py
 bash run_zrs_mag.sh altermagnetism_LLG/scripts/validation/certify_benchmark_dataset.py
 bash run_zrs_mag.sh altermagnetism_LLG/scripts/visualization/plot_benchmark_dataset.py
 bash run_zrs_mag.sh altermagnetism_LLG/scripts/datasets/example_load_dataset.py
@@ -113,7 +111,7 @@ switching basins have been fixed.
   peaks are `12.2494 THz` and `13.9993 THz`; Supplementary Eq. (S.9) predicts
   `12.3563 THz` and `13.9056 THz`.  The relative errors are `0.87%` and
   `0.67%`, with relative energy drift `2.17e-15`.
-- `data/unbiased_smoke/` contains four equal-weight, unselected `10 K` paths
+- `data/research/unbiased_smoke/` contains four equal-weight, unselected `10 K` paths
   only for end-to-end pipeline QA.  Its `4 x 4` lattice, short preparation and
   four trajectories are not an equilibrium certificate and must not be used
   for scientific switching claims.
@@ -149,7 +147,7 @@ from `example/微磁学.txt`.
 
 ## Unified benchmark checkpoint
 
-`data/training_benchmark/llg_spatial_paths.h5` now stores 180 complete
+`data/datasets/training_benchmark/llg_spatial_paths.h5` now stores 180 complete
 trajectories from an analytically checkable ordinary-spin system, a controlled
 conventional-AFM ablation, and the published d-wave altermagnet. Each of nine
 system-condition groups contains 20 paths split 16/2/2, so the global
@@ -193,7 +191,7 @@ regeneration.
 that resolves the one-step response into global x, y and z noise directions.
 It is not a production thermal bath: production data always uses all three
 isotropic components.  The diagnostic output is stored in
-`data/configuration_noise_response.json`.
+`data/research/configuration_noise_response.json`.
 
 ## Next-stage literature path validation
 
@@ -201,10 +199,10 @@ The stable noncollinear benchmark is now the published monoaxial CrNb3S6 model,
 not the earlier imposed spiral. Run:
 
 ```bash
-bash run_zrs_mag.sh altermagnetism_LLG/scripts/validation/validate_crnb3s6_helix.py
-bash run_zrs_mag.sh altermagnetism_LLG/scripts/validation/validate_bauer2011_chain.py
-bash run_zrs_mag.sh altermagnetism_LLG/scripts/datasets/generate_bauer2011_paths.py
-bash run_zrs_mag.sh altermagnetism_LLG/scripts/validation/analyze_spatial_path_mechanisms.py altermagnetism_LLG/data/path_literature_validation/bauer2011_accelerated_pilot_paths.h5
+bash run_zrs_mag.sh altermagnetism_LLG/scripts/literature/validate_crnb3s6_helix.py
+bash run_zrs_mag.sh altermagnetism_LLG/scripts/literature/validate_bauer2011_chain.py
+bash run_zrs_mag.sh altermagnetism_LLG/scripts/literature/generate_bauer2011_paths.py
+bash run_zrs_mag.sh altermagnetism_LLG/scripts/analysis/analyze_spatial_path_mechanisms.py altermagnetism_LLG/data/literature/path_literature_validation/bauer2011_accelerated_pilot_paths.h5
 bash run_zrs_mag.sh altermagnetism_LLG/scripts/visualization/plot_next_stage_validation.py
 ```
 
@@ -220,40 +218,40 @@ architecture.
 
 ## Size-scalable data and model smoke test
 
-`scripts/datasets/generate_scalable_hdf5.py` is the schema-v2 generator. It
+`scripts/generation/generate_scalable_hdf5.py` is the schema-v2 generator. It
 stores independently replayable trajectory seeds, explicit initial states,
 dimensionless scalar conditions, vector/crystal-frame conditions, spatial/time
 chunks and exact 8:1:1 whole-trajectory splits. Use
 `scripts/validation/certify_scalable_dataset.py` as the final data gate.
 
-`data/scalable_paths/software_smoke_16x16.h5` is retained as a lightweight
+`data/research/scalable_paths/software_smoke_16x16.h5` is retained as a lightweight
 interface fixture.  The current CUDA smoke gate is
 `slurm/gpu_smoke.sbatch`; it tests both model types and an L96 inference pass
 inside a Slurm GPU allocation.  Smoke results are not physical evidence.
 
-`data/size_convergence/pilot_spatial_convergence.json` records a 0.1-ps,
+`data/research/size_convergence/pilot_spatial_convergence.json` records a 0.1-ps,
 10-path pilot over 8/16/32/48 cells and three time steps. It passes the tested
 dt and late-size observable tolerances but observes no reversal or nonuniform
 path and has too few paths, so its status is correctly `not_certified`.
 
 ## Phase-1 standard dataset
 
-The corrected schema-v2 suite is under `data/standard_v2/`.  It contains 330
+The corrected schema-v2 suite is under `data/datasets/standard_v2/`.  It contains 330
 unbiased 1-ps paths at 5 K and 0.70/0.78/0.80 T: L16/L32/L64 use condition-wise
 8:1:1 splits, and all L96 paths are reserved for the large-size test.  The
-cross-file certificate is `data/standard_v2/suite_certification.json`; its
+cross-file certificate is `data/datasets/standard_v2/suite_certification.json`; its
 status is `ready_for_phase1_model_training`.  It verifies exact file hashes,
 global seed uniqueness, protocol consistency, split isolation and nonuniform
 path coverage in both L64 training data and L96 test data.
 
-Read `data/standard_v2/DATASET_CARD.md` before training.  The suite is suitable
+Read `data/datasets/standard_v2/DATASET_CARD.md` before training.  The suite is suitable
 for phase-1 model development, not yet for percent-level rare-event estimates
 or a definitive physical mechanism phase diagram.
 
 ## Path-distribution evaluation and v2 training
 
 Endpoint sign is no longer reported as a completed reversal. The common evaluator
-in `model/evaluate.py` reports `negative_endpoint`, `crossed_zero`,
+in `scripts/analysis/evaluate.py` reports `negative_endpoint`, `crossed_zero`,
 `committed_switch`, `crossing_return` and `unresolved_transition`.
 Stable-basin thresholds are fitted from the terminal residence distribution of
 real train/validation LLG paths. A condition with more than 20% unresolved real

@@ -9,7 +9,7 @@ from torch import nn
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT.parent))
 
-from altermagnetism_LLG.model.train import epoch_loss
+from altermagnetism_LLG.scripts.training.train import epoch_loss
 
 
 class ConstantPath(nn.Module):

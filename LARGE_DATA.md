@@ -13,14 +13,14 @@ From the repository root, reconstruct only a missing original using the
 corresponding command below. These commands write the original file path.
 
 ```bash
-cat data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5.part-* > data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5
-cat outputs/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5.part-* > outputs/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5
-cat outputs/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5.part-* > outputs/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5
-cat data/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5.part-* > data/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5
-cat data/standard_v2_extended_3ps/train/d_wave_altermagnet_L64.h5.part-* > data/standard_v2_extended_3ps/train/d_wave_altermagnet_L64.h5
-cat outputs/production_v2/seed_20260908/evaluation/L96/generated_trajectories.h5.part-* > outputs/production_v2/seed_20260908/evaluation/L96/generated_trajectories.h5
-cat outputs/production_v2/seed_20260909/evaluation/L96/generated_trajectories.h5.part-* > outputs/production_v2/seed_20260909/evaluation/L96/generated_trajectories.h5
-cat outputs/production_v2/seed_20260910/evaluation/L96/generated_trajectories.h5.part-* > outputs/production_v2/seed_20260910/evaluation/L96/generated_trajectories.h5
+cat data/datasets/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5.part-* > data/datasets/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5
+cat data/generated/diagnostics/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5.part-* > data/generated/diagnostics/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5
+cat data/generated/diagnostics/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5.part-* > data/generated/diagnostics/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5
+cat data/datasets/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5.part-* > data/datasets/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5
+cat data/datasets/standard_v2_extended_3ps/train/d_wave_altermagnet_L64.h5.part-* > data/datasets/standard_v2_extended_3ps/train/d_wave_altermagnet_L64.h5
+cat data/generated/production/production_v2/seed_20260908/evaluation/L96/generated_trajectories.h5.part-* > data/generated/production/production_v2/seed_20260908/evaluation/L96/generated_trajectories.h5
+cat data/generated/production/production_v2/seed_20260909/evaluation/L96/generated_trajectories.h5.part-* > data/generated/production/production_v2/seed_20260909/evaluation/L96/generated_trajectories.h5
+cat data/generated/production/production_v2/seed_20260910/evaluation/L96/generated_trajectories.h5.part-* > data/generated/production/production_v2/seed_20260910/evaluation/L96/generated_trajectories.h5
 ```
 
 Verify the reconstructed files against each `source_sha256` in the manifest

@@ -9,12 +9,16 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
-HELIX_DIR = ROOT / "data" / "noncollinear_validation" / "crnb3s6"
-CHAIN_FILE = ROOT / "data" / "path_literature_validation" / "bauer2011_accelerated_pilot_paths.h5"
+HELIX_DIR = ROOT / "data" / "literature" / "noncollinear_validation" / "crnb3s6"
+CHAIN_FILE = ROOT / "data" / "literature" / "path_literature_validation" / "bauer2011_accelerated_pilot_paths.h5"
 MECHANISM_FILE = CHAIN_FILE.with_name(CHAIN_FILE.stem + "_mechanisms.npz")
-OUTPUT = ROOT / "assets" / "next_stage_validation" / "literature_path_validation.png"
+OUTPUT = ROOT / "assets" / "literature" / "next_stage_validation" / "literature_path_validation.png"
 
 
 def representative(labels: np.ndarray, name: str) -> int:
@@ -133,7 +137,7 @@ def main() -> None:
     )
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(OUTPUT, dpi=300, bbox_inches="tight", facecolor="white")
+    fig.savefig(asset_path(OUTPUT), dpi=300, bbox_inches="tight", facecolor="white")
     plt.close(fig)
     print(OUTPUT.resolve())
 

@@ -18,15 +18,19 @@ import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
 FILES = {
-    16: ROOT / "data" / "standard_v2" / "train" / "d_wave_altermagnet_L16.h5",
-    32: ROOT / "data" / "standard_v2" / "train" / "d_wave_altermagnet_L32.h5",
-    64: ROOT / "data" / "standard_v2" / "train" / "d_wave_altermagnet_L64.h5",
-    96: ROOT / "data" / "standard_v2" / "test_large" / "d_wave_altermagnet_L96.h5",
+    16: ROOT / "data" / "datasets" / "standard_v2" / "train" / "d_wave_altermagnet_L16.h5",
+    32: ROOT / "data" / "datasets" / "standard_v2" / "train" / "d_wave_altermagnet_L32.h5",
+    64: ROOT / "data" / "datasets" / "standard_v2" / "train" / "d_wave_altermagnet_L64.h5",
+    96: ROOT / "data" / "datasets" / "standard_v2" / "test_large" / "d_wave_altermagnet_L96.h5",
 }
-DEFAULT_OUTPUT = ROOT / "assets" / "standard_v2" / "all_trajectories"
+DEFAULT_OUTPUT = ROOT / "assets" / "research" / "standard_v2" / "all_trajectories"
 THRESHOLD = 0.25
 PULSE_END_PS = 0.5
 LABELS = ("no_crossing", "crossing_return", "coherent_like", "spatially_nonuniform")
@@ -200,7 +204,7 @@ def plot_trajectory(
         fontsize=11,
         fontweight="bold",
     )
-    fig.savefig(output, dpi=170, bbox_inches="tight")
+    fig.savefig(asset_path(output), dpi=170, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -226,7 +230,7 @@ def condition_overview(output: Path, size: int, drive_t: float, time_s: np.ndarr
     counts = {label: sum(row["label"] == label for row in rows) for label in LABELS}
     count_text = ", ".join(f"{DISPLAY[k]}={v}" for k, v in counts.items() if v)
     fig.suptitle(f"L={size}, T=5 K, drive={drive_t:.2f} T, n={len(rows)}\n{count_text}", fontsize=11, fontweight="bold")
-    fig.savefig(output, dpi=190, bbox_inches="tight")
+    fig.savefig(asset_path(output), dpi=190, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -291,7 +295,7 @@ def create_condition_gif(
         )
         frames.append(canvas)
     frames[0].save(
-        output,
+        asset_path(output),
         save_all=True,
         append_images=frames[1:],
         duration=90,
@@ -332,7 +336,7 @@ def plot_dataset_overview(output: Path, grouped: dict[tuple[int, float], list[di
         ax.set_xlabel("time (ps)")
     axes[0, 0].text(0.02, 0.91, "counts: no / coherent / nonuniform", transform=axes[0, 0].transAxes, fontsize=7)
     fig.suptitle("All 330 finite-temperature LLG paths\nblack: ensemble mean; colored: individual trajectories", fontsize=14, fontweight="bold")
-    fig.savefig(output, dpi=200, bbox_inches="tight")
+    fig.savefig(asset_path(output), dpi=200, bbox_inches="tight")
     plt.close(fig)
 
 

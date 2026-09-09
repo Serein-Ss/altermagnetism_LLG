@@ -9,15 +9,19 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
 
 
 def main() -> None:
     p = argparse.ArgumentParser()
-    p.add_argument("--input-dir", type=Path, default=ROOT / "data" / "unbiased")
+    p.add_argument("--input-dir", type=Path, default=ROOT / "data" / "research" / "unbiased")
     p.add_argument("--output", type=Path,
-                   default=ROOT / "assets" / "unbiased" / "ensemble_summary.png")
+                   default=ROOT / "assets" / "research" / "unbiased" / "ensemble_summary.png")
     args = p.parse_args()
     paths = sorted(args.input_dir.glob("trajectory_*.npz"))
     if not paths:
@@ -42,7 +46,7 @@ def main() -> None:
         ax.spines[["top", "right"]].set_visible(False)
         ax.grid(alpha=0.18)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(args.output, dpi=220, facecolor="white")
+    fig.savefig(asset_path(args.output), dpi=220, facecolor="white")
     plt.close(fig)
     print(args.output.resolve())
 

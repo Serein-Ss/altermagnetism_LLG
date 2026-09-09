@@ -40,7 +40,7 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--output",
         type=Path,
-        default=ROOT / "data" / "configuration_noise_response.json",
+        default=ROOT / "data" / "research" / "configuration_noise_response.json",
     )
     return p
 

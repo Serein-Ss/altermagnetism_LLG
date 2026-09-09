@@ -9,6 +9,10 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -33,10 +37,10 @@ def analytic_spinwave_frequency(kx: np.ndarray, ky: np.ndarray
 def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--input", type=Path,
-                   default=ROOT / "data" / "literature_validation" /
+                   default=ROOT / "data" / "literature" / "literature_validation" /
                    "spinwave_trajectory.npz")
     p.add_argument("--output", type=Path,
-                   default=ROOT / "assets" / "literature_validation" /
+                   default=ROOT / "assets" / "literature" / "literature_validation" /
                    "spinwave_reproduction.png")
     args = p.parse_args()
     data = np.load(args.input, allow_pickle=False)
@@ -96,7 +100,7 @@ def main() -> None:
         ax.grid(alpha=0.18)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(args.output, dpi=220, facecolor="white")
+    fig.savefig(asset_path(args.output), dpi=220, facecolor="white")
     plt.close(fig)
     print(args.output.resolve())
 

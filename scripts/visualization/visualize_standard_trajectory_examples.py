@@ -10,15 +10,19 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
 import numpy as np
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
 FILES = {
-    16: ROOT / "data" / "standard_v2" / "train" / "d_wave_altermagnet_L16.h5",
-    32: ROOT / "data" / "standard_v2" / "train" / "d_wave_altermagnet_L32.h5",
-    64: ROOT / "data" / "standard_v2" / "train" / "d_wave_altermagnet_L64.h5",
-    96: ROOT / "data" / "standard_v2" / "test_large" / "d_wave_altermagnet_L96.h5",
+    16: ROOT / "data" / "datasets" / "standard_v2" / "train" / "d_wave_altermagnet_L16.h5",
+    32: ROOT / "data" / "datasets" / "standard_v2" / "train" / "d_wave_altermagnet_L32.h5",
+    64: ROOT / "data" / "datasets" / "standard_v2" / "train" / "d_wave_altermagnet_L64.h5",
+    96: ROOT / "data" / "datasets" / "standard_v2" / "test_large" / "d_wave_altermagnet_L96.h5",
 }
-OUTPUT = ROOT / "assets" / "standard_v2" / "trajectory_examples"
+OUTPUT = ROOT / "assets" / "research" / "standard_v2" / "trajectory_examples"
 CONDITION_ID = 1  # 5 K, 0.78 T: all three outcomes coexist at large size.
 THRESHOLD = 0.25
 LABELS = ("no_crossing", "coherent_like", "spatially_nonuniform")
@@ -210,7 +214,7 @@ def plot_size_examples(size: int, time: np.ndarray, selected: dict[str, dict | N
         fontsize=15,
         fontweight="bold",
     )
-    fig.savefig(OUTPUT / f"L{size}_representative_paths.png", dpi=220, bbox_inches="tight")
+    fig.savefig(asset_path(OUTPUT / f"L{size}_representative_paths.png"), dpi=220, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -249,7 +253,7 @@ def plot_size_matrix(all_selected: dict[int, dict[str, dict | None]]) -> None:
     if last_image is not None:
         fig.colorbar(last_image, ax=axes, shrink=0.65, pad=0.025, label=r"local $n_z(x,y)$")
     fig.suptitle("What the three path classes look like as system size grows\n(all examples: 5 K, 0.78 T)", fontsize=14, fontweight="bold")
-    fig.savefig(OUTPUT / "all_sizes_path_class_matrix.png", dpi=240, bbox_inches="tight")
+    fig.savefig(asset_path(OUTPUT / "all_sizes_path_class_matrix.png"), dpi=240, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -291,7 +295,7 @@ def plot_mechanism_explainer(time: np.ndarray, selected: dict[str, dict | None])
         fontsize=14,
         fontweight="bold",
     )
-    fig.savefig(OUTPUT / "mechanism_definitions_same_condition.png", dpi=240, bbox_inches="tight")
+    fig.savefig(asset_path(OUTPUT / "mechanism_definitions_same_condition.png"), dpi=240, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -339,7 +343,7 @@ def animate_size(size: int, time: np.ndarray, selected: dict[str, dict | None]) 
         return [*images, *cursors, title]
 
     animation = FuncAnimation(fig, update, frames=frame_indices, interval=85, blit=False)
-    animation.save(OUTPUT / f"L{size}_representative_paths.gif", writer=PillowWriter(fps=12), dpi=105)
+    animation.save(asset_path(OUTPUT / f"L{size}_representative_paths.gif"), writer=PillowWriter(fps=12), dpi=105)
     plt.close(fig)
 
 

@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=64G
 #SBATCH --time=04:00:00
-#SBATCH --output=altermagnetism_LLG/slurm/logs/%x-%j-evaluate-current.out
+#SBATCH --output=altermagnetism_LLG/logs/slurm/%x-%j-evaluate-current.out
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"
@@ -16,24 +16,24 @@ export OPENBLAS_NUM_THREADS=1
 unset PYTHONPATH PYTHONHOME
 
 CALIBRATION=(
-  altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L16.h5
-  altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L32.h5
-  altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L64.h5
+  altermagnetism_LLG/data/datasets/standard_v2/train/d_wave_altermagnet_L16.h5
+  altermagnetism_LLG/data/datasets/standard_v2/train/d_wave_altermagnet_L32.h5
+  altermagnetism_LLG/data/datasets/standard_v2/train/d_wave_altermagnet_L64.h5
 )
 INPUTS=(
-  altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L16.h5
-  altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L32.h5
-  altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L64.h5
-  altermagnetism_LLG/data/standard_v2/test_large/d_wave_altermagnet_L96.h5
+  altermagnetism_LLG/data/datasets/standard_v2/train/d_wave_altermagnet_L16.h5
+  altermagnetism_LLG/data/datasets/standard_v2/train/d_wave_altermagnet_L32.h5
+  altermagnetism_LLG/data/datasets/standard_v2/train/d_wave_altermagnet_L64.h5
+  altermagnetism_LLG/data/datasets/standard_v2/test_large/d_wave_altermagnet_L96.h5
 )
 SIZES=(16 32 64 96)
-FLOW=altermagnetism_LLG/outputs/production_v1/flow/best_checkpoint.pt
-BASELINE=altermagnetism_LLG/outputs/production_v1/baseline/best_checkpoint.pt
-OUT=altermagnetism_LLG/outputs/diagnostics_v2/current_checkpoint_128
+FLOW=altermagnetism_LLG/output/production/production_v1/flow/best_checkpoint.pt
+BASELINE=altermagnetism_LLG/output/production/production_v1/baseline/best_checkpoint.pt
+OUT=altermagnetism_LLG/output/diagnostics/diagnostics_v2/current_checkpoint_128
 
 bash run_zrs_mag.sh -c 'import torch; assert torch.cuda.is_available(); print(torch.cuda.get_device_name(0))'
 bash run_zrs_mag.sh -m pytest   altermagnetism_LLG/scripts/tests/test_path_evaluation.py   altermagnetism_LLG/scripts/tests/test_size_equivariant_model.py   altermagnetism_LLG/scripts/tests/test_scalable_path_dataset.py -q
 
 for index in "${!SIZES[@]}"; do
-  bash run_zrs_mag.sh -m altermagnetism_LLG.model.evaluate     --input "${INPUTS[$index]}"     --calibration-input "${CALIBRATION[@]}"     --flow-checkpoint "$FLOW"     --baseline-checkpoint "$BASELINE"     --integration-steps 128     --device cuda     --output-dir "$OUT/L${SIZES[$index]}"
+  bash run_zrs_mag.sh -m altermagnetism_LLG.scripts.analysis.evaluate     --input "${INPUTS[$index]}"     --calibration-input "${CALIBRATION[@]}"     --flow-checkpoint "$FLOW"     --baseline-checkpoint "$BASELINE"     --integration-steps 128     --device cuda     --output-dir "$OUT/L${SIZES[$index]}"
 done

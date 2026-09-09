@@ -3,7 +3,8 @@ import sys
 
 import h5py
 
-from scripts.validation import validate_nishino_full, audit_nishino_ensemble
+from scripts.literature import validate_nishino_full
+from scripts.analysis import audit_nishino_ensemble
 
 
 def test_small_reference_run_writes_report_and_is_not_certified(tmp_path,monkeypatch):

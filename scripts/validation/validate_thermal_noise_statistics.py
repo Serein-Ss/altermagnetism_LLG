@@ -12,6 +12,9 @@ ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/"scripts"/"core"))
 from unified_llg import GomonayModelAdapter, NishinoFreeMomentHamiltonian, UnifiedLLGSolver
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 def inspect_noise(solver,temperature,dt,count,seed):
     state=torch.zeros((2,1,(count+5)//6,1,3),dtype=torch.float64)
@@ -83,7 +86,7 @@ def main():
     axes[1].set_ylabel("variance / theoretical variance")
     for ax in axes:
         ax.set_xlabel("preregistered condition index")
-    fig.tight_layout();fig.savefig(args.output.with_suffix(".png"));plt.close(fig)
+    fig.tight_layout();fig.savefig(asset_path(args.output.with_suffix(".png")));plt.close(fig)
     print(json.dumps({"passed":report["passed"],"conditions":len(rows)}),flush=True)
     if not report["passed"]:
         raise SystemExit(2)

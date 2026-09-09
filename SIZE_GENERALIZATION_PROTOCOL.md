@@ -56,10 +56,10 @@ After the JSON says `certified_for_nonuniform_path_training`, generate one file
 per size so a failed large run cannot corrupt smaller completed data:
 
 ```bash
-bash run_zrs_mag.sh altermagnetism_LLG/scripts/datasets/generate_scalable_hdf5.py --size 48 48 --paths-per-condition 100
-bash run_zrs_mag.sh altermagnetism_LLG/scripts/datasets/generate_scalable_hdf5.py --size 64 64 --paths-per-condition 100
+bash run_zrs_mag.sh altermagnetism_LLG/scripts/generation/generate_scalable_hdf5.py --size 48 48 --paths-per-condition 100
+bash run_zrs_mag.sh altermagnetism_LLG/scripts/generation/generate_scalable_hdf5.py --size 64 64 --paths-per-condition 100
 ```
 
 Train with fixed periodic crops or same-size batches and reserve 96/128 for direct
 comparison against newly generated LLG ensembles. All model checkpoints and samples
-belong under `outputs/`; all solver trajectories remain under `data/`.
+belong under `output/`; all solver trajectories remain under `data/`.

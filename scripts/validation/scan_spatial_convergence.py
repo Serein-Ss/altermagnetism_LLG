@@ -33,7 +33,7 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
     p.add_argument("--afm-control", action="store_true")
     p.add_argument("--skip-dt-scan", action="store_true")
-    p.add_argument("--output", type=Path, default=ROOT / "data" / "size_convergence" / "spatial_convergence.json")
+    p.add_argument("--output", type=Path, default=ROOT / "data" / "research" / "size_convergence" / "spatial_convergence.json")
     return p
 
 

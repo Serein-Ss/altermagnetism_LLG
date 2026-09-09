@@ -9,6 +9,10 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
 import numpy as np
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -18,12 +22,12 @@ def parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--input",
         type=Path,
-        default=ROOT / "data" / "literature_validation" / "spinwave_trajectory.npz",
+        default=ROOT / "data" / "literature" / "literature_validation" / "spinwave_trajectory.npz",
     )
     p.add_argument(
         "--output-dir",
         type=Path,
-        default=ROOT / "assets" / "literature_validation" / "trajectory_animation",
+        default=ROOT / "assets" / "literature" / "literature_validation" / "trajectory_animation",
     )
     p.add_argument("--fps", type=int, default=20)
     return p
@@ -63,7 +67,7 @@ def save_initial_final(snapshots: np.ndarray, output: Path) -> None:
             axes[row, col].set_ylabel("lattice y")
             fig.colorbar(im, ax=axes[row, col], shrink=0.82)
     fig.suptitle("LLG spin-wave state: the final field is a later phase, not a relaxed endpoint")
-    fig.savefig(output, dpi=220, bbox_inches="tight")
+    fig.savefig(asset_path(output), dpi=220, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -167,7 +171,7 @@ def main() -> None:
 
     animation = FuncAnimation(fig, update, frames=len(snapshots), interval=1000 / args.fps)
     animation.save(
-        args.output_dir / "spinwave_trajectory.gif",
+        asset_path(args.output_dir / "spinwave_trajectory.gif"),
         writer=PillowWriter(fps=args.fps),
         dpi=110,
     )

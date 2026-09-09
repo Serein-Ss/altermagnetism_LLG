@@ -5,7 +5,7 @@
 #SBATCH --cpus-per-task=6
 #SBATCH --mem=48G
 #SBATCH --time=02:00:00
-#SBATCH --output=altermagnetism_LLG/slurm/logs/%x-%j-smoke-v2.out
+#SBATCH --output=altermagnetism_LLG/logs/slurm/%x-%j-smoke-v2.out
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"
@@ -15,12 +15,12 @@ export OMP_NUM_THREADS="$SLURM_CPUS_PER_TASK"
 export OPENBLAS_NUM_THREADS=1
 unset PYTHONPATH PYTHONHOME
 
-INPUT=altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L16.h5
-OUT=altermagnetism_LLG/outputs/gpu_smoke_v2
+INPUT=altermagnetism_LLG/data/datasets/standard_v2_extended_2ps/train/d_wave_altermagnet_L16.h5
+OUT=altermagnetism_LLG/output/smoke/gpu_smoke_v2
 
 bash run_zrs_mag.sh -c 'import torch; assert torch.cuda.is_available(); print(torch.cuda.get_device_name(0))'
 for MODEL in deterministic flow; do
-  bash run_zrs_mag.sh -m altermagnetism_LLG.model.train \
+  bash run_zrs_mag.sh -m altermagnetism_LLG.scripts.training.train \
     --model-type "$MODEL" \
     --input "$INPUT" \
     --output "$OUT/$MODEL" \

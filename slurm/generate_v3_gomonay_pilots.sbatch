@@ -7,7 +7,7 @@
 #SBATCH --mem=192G
 #SBATCH --time=2-00:00:00
 #SBATCH --array=0-59%5
-#SBATCH --output=altermagnetism_LLG/slurm/logs/%x-%A_%a-v3-pilot.out
+#SBATCH --output=altermagnetism_LLG/logs/slurm/%x-%A_%a-v3-pilot.out
 
 set -euo pipefail
 cd "$SLURM_SUBMIT_DIR"
@@ -17,9 +17,9 @@ export OMP_NUM_THREADS="$SLURM_CPUS_PER_TASK"
 export OPENBLAS_NUM_THREADS=1
 unset PYTHONPATH PYTHONHOME
 
-PROTOCOL=altermagnetism_LLG/data/standard_v3/altermagnet_gomonay2024/protocol.candidate.yaml
-GENERATOR=altermagnetism_LLG/scripts/datasets/generate_v3_gomonay_shard.py
-ROOT=altermagnetism_LLG/data/standard_v3/altermagnet_gomonay2024/convergence
+PROTOCOL=altermagnetism_LLG/data/datasets/standard_v3/altermagnet_gomonay2024/protocol.candidate.yaml
+GENERATOR=altermagnetism_LLG/scripts/generation/generate_v3_gomonay_shard.py
+ROOT=altermagnetism_LLG/data/datasets/standard_v3/altermagnet_gomonay2024/convergence
 TASK="$SLURM_ARRAY_TASK_ID"
 
 bash run_zrs_mag.sh altermagnetism_LLG/scripts/validation/preflight_standard_v3.py

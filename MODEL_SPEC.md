@@ -22,7 +22,7 @@ Use a **periodic equivariant Riemannian flow-matching model** (PE-RFM):
 3. Connect reference and data paths by shortest spherical geodesics and train a
    conditional velocity field with Riemannian conditional flow matching.
 4. Parameterize the velocity with the PyTorch-only
-   `model/network.py::PeriodicEquivariantFlowNet`. It is fully convolutional,
+   `scripts/model/network.py::PeriodicEquivariantFlowNet`. It is fully convolutional,
    circular in both spatial axes and accepts sizes not seen during training.
 5. Form covariant vector bases from the initial state, spatial/temporal
    differences, the other sublattice, vector conditions, and the complete

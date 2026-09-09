@@ -6,19 +6,23 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from PIL import Image
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
 
 
 def main() -> None:
     generated = Image.open(
-        ROOT / "assets" / "literature_validation" / "spinwave_reproduction.png"
+        ROOT / "assets" / "literature" / "literature_validation" / "spinwave_reproduction.png"
     )
     reference = Image.open(
-        ROOT / "assets" / "literature_validation" / "reference" /
+        ROOT / "assets" / "literature" / "literature_validation" / "reference" /
         "gomonay_2024_fig2.png"
     )
-    output = (ROOT / "assets" / "literature_validation" /
+    output = (ROOT / "assets" / "literature" / "literature_validation" /
               "spinwave_paper_side_by_side.png")
 
     fig, axes = plt.subplots(1, 2, figsize=(14.5, 5.3),
@@ -38,7 +42,7 @@ def main() -> None:
         fontsize=9,
     )
     fig.subplots_adjust(left=0.015, right=0.995, top=0.92, bottom=0.08, wspace=0.025)
-    fig.savefig(output, dpi=220, facecolor="white")
+    fig.savefig(asset_path(output), dpi=220, facecolor="white")
     plt.close(fig)
     print(output.resolve())
 

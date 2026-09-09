@@ -9,12 +9,16 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from altermagnetism_LLG.scripts.core.project_paths import asset_path
+
 
 ROOT = Path(__file__).resolve().parents[2]
-PRIMARY = ROOT / "data" / "multimodality_validation"
-REPLICATION = ROOT / "data" / "multimodality_validation_dt0p05"
-AFM_CONTROL = ROOT / "data" / "multimodality_afm_control"
-OUTPUT = ROOT / "assets" / "multimodality_validation" / "path_multimodality.png"
+PRIMARY = ROOT / "data" / "research" / "multimodality_validation"
+REPLICATION = ROOT / "data" / "research" / "multimodality_validation_dt0p05"
+AFM_CONTROL = ROOT / "data" / "research" / "multimodality_afm_control"
+OUTPUT = ROOT / "assets" / "research" / "multimodality_validation" / "path_multimodality.png"
 
 COLORS = ["#3978A8", "#E58A33", "#7851A9"]
 LABELS = ["No crossing", "Cross and return", "Negative at 1 ps"]
@@ -116,7 +120,7 @@ def main() -> None:
         fontsize=12, fontweight="bold"
     )
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(OUTPUT, dpi=240, facecolor="white")
+    fig.savefig(asset_path(OUTPUT), dpi=240, facecolor="white")
     plt.close(fig)
     print(OUTPUT.resolve())
 

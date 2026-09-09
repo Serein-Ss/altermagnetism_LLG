@@ -10,9 +10,9 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT.parent))
 sys.path.insert(0, str(ROOT / "scripts" / "core"))
 
-from altermagnetism_LLG.model.baseline import DeterministicPathModel  # noqa: E402
-from altermagnetism_LLG.model.network import PeriodicEquivariantFlowNet  # noqa: E402
-from altermagnetism_LLG.model.sphere import geodesic_interpolate, sample_reference_path  # noqa: E402
+from altermagnetism_LLG.scripts.model.baseline import DeterministicPathModel  # noqa: E402
+from altermagnetism_LLG.scripts.model.network import PeriodicEquivariantFlowNet  # noqa: E402
+from altermagnetism_LLG.scripts.model.sphere import geodesic_interpolate, sample_reference_path  # noqa: E402
 from unified_llg import GomonayModelAdapter, UnifiedLLGSolver, collinear_state  # noqa: E402
 
 
