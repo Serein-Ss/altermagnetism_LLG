@@ -1,0 +1,149 @@
+{
+  "status": "trained_and_internal_tested",
+  "model_type": "deterministic",
+  "parameters": 277270,
+  "train_trajectories": 216,
+  "validation_trajectories": 27,
+  "test_trajectories": 27,
+  "best_epoch": 17,
+  "best_validation_loss": 0.9218826398805335,
+  "test_loss": 1.009306059943305,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.9580913460640996,
+      "validation_loss": 1.9951906910649053
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.9242907086456265,
+      "validation_loss": 1.6290018492274814
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.5088742903813168,
+      "validation_loss": 1.5136087647190801
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.5259760979700971,
+      "validation_loss": 1.7835398779975042
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.257259467271743,
+      "validation_loss": 1.4206558675677687
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.2844918428195848,
+      "validation_loss": 1.5592087948763813
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.4749978595861681,
+      "validation_loss": 2.129707623411108
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.3751932146648567,
+      "validation_loss": 1.106417675813039
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.2263196106586192,
+      "validation_loss": 1.0329348974757724
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.4818383040665477,
+      "validation_loss": 1.2727252090418781
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.2723890471237678,
+      "validation_loss": 1.0328303895614765
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.2682799633454394,
+      "validation_loss": 1.1208721752519961
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.562410303701957,
+      "validation_loss": 0.9754878459153352
+    },
+    {
+      "epoch": 14,
+      "train_loss": 1.2148928540172401,
+      "validation_loss": 1.1913803043188873
+    },
+    {
+      "epoch": 15,
+      "train_loss": 1.1506188563588593,
+      "validation_loss": 1.0253371309351038
+    },
+    {
+      "epoch": 16,
+      "train_loss": 1.0785420065124829,
+      "validation_loss": 1.3622117351602625
+    },
+    {
+      "epoch": 17,
+      "train_loss": 1.0979665166663903,
+      "validation_loss": 0.9218826398805335
+    },
+    {
+      "epoch": 18,
+      "train_loss": 1.2138595794913944,
+      "validation_loss": 1.0251123452628101
+    },
+    {
+      "epoch": 19,
+      "train_loss": 1.1362023219052289,
+      "validation_loss": 1.0419405003388722
+    },
+    {
+      "epoch": 20,
+      "train_loss": 1.3199404858190704,
+      "validation_loss": 1.0109867652257283
+    },
+    {
+      "epoch": 21,
+      "train_loss": 1.1369512150133099,
+      "validation_loss": 1.2804090005380135
+    },
+    {
+      "epoch": 22,
+      "train_loss": 1.1447793871026348,
+      "validation_loss": 1.3121787795314082
+    },
+    {
+      "epoch": 23,
+      "train_loss": 1.1236753736933072,
+      "validation_loss": 0.9769897615468061
+    },
+    {
+      "epoch": 24,
+      "train_loss": 1.2093946679184835,
+      "validation_loss": 1.2272320080686498
+    },
+    {
+      "epoch": 25,
+      "train_loss": 1.213939891645202,
+      "validation_loss": 1.461238181149518
+    },
+    {
+      "epoch": 26,
+      "train_loss": 1.1602248109325215,
+      "validation_loss": 1.4155103299352858
+    },
+    {
+      "epoch": 27,
+      "train_loss": 1.1631735376323815,
+      "validation_loss": 1.0515679121017456
+    }
+  ],
+  "claim_boundary": "training/test loss alone does not establish path-distribution or large-size physical generalization"
+}

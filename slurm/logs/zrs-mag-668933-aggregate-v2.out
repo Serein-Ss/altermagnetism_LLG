@@ -1,0 +1,6 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+{
+  "status": "three_seed_evaluation_aggregated",
+  "output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/outputs/production_v2/three_seed_summary.json"
+}

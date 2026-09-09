@@ -1,0 +1,2338 @@
+{
+  "status": "three_seed_evaluation_aggregated",
+  "seeds": [
+    20260908,
+    20260909,
+    20260910
+  ],
+  "sizes": [
+    16,
+    32,
+    64,
+    96
+  ],
+  "evaluation_statuses": {
+    "seed_20260908/L16": "observation_window_insufficient",
+    "seed_20260908/L32": "observation_window_insufficient",
+    "seed_20260908/L64": "evaluation_complete",
+    "seed_20260908/L96": "evaluation_complete",
+    "seed_20260909/L16": "observation_window_insufficient",
+    "seed_20260909/L32": "observation_window_insufficient",
+    "seed_20260909/L64": "evaluation_complete",
+    "seed_20260909/L96": "evaluation_complete",
+    "seed_20260910/L16": "observation_window_insufficient",
+    "seed_20260910/L32": "observation_window_insufficient",
+    "seed_20260910/L64": "evaluation_complete",
+    "seed_20260910/L96": "evaluation_complete"
+  },
+  "evaluation_seed_bases": {
+    "seed_20260908/L16": 20260911,
+    "seed_20260908/L32": 20260911,
+    "seed_20260908/L64": 20260911,
+    "seed_20260908/L96": 20260911,
+    "seed_20260909/L16": 20260911,
+    "seed_20260909/L32": 20260911,
+    "seed_20260909/L64": 20260911,
+    "seed_20260909/L96": 20260911,
+    "seed_20260910/L16": 20260911,
+    "seed_20260910/L32": 20260911,
+    "seed_20260910/L64": 20260911,
+    "seed_20260910/L96": 20260911
+  },
+  "reference_fractions": {
+    "L16/H0.70": {
+      "crossed_zero_fraction": 0.3333333333333333,
+      "negative_endpoint_fraction": 0.3333333333333333,
+      "committed_switch_fraction": 0.0,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.3333333333333333
+    },
+    "L16/H0.78": {
+      "crossed_zero_fraction": 0.3333333333333333,
+      "negative_endpoint_fraction": 0.3333333333333333,
+      "committed_switch_fraction": 0.3333333333333333,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0
+    },
+    "L16/H0.80": {
+      "crossed_zero_fraction": 0.6666666666666666,
+      "negative_endpoint_fraction": 0.6666666666666666,
+      "committed_switch_fraction": 0.6666666666666666,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0
+    },
+    "L32/H0.70": {
+      "crossed_zero_fraction": 0.0,
+      "negative_endpoint_fraction": 0.0,
+      "committed_switch_fraction": 0.0,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0
+    },
+    "L32/H0.78": {
+      "crossed_zero_fraction": 1.0,
+      "negative_endpoint_fraction": 1.0,
+      "committed_switch_fraction": 0.6666666666666666,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.3333333333333333
+    },
+    "L32/H0.80": {
+      "crossed_zero_fraction": 1.0,
+      "negative_endpoint_fraction": 1.0,
+      "committed_switch_fraction": 1.0,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0
+    },
+    "L64/H0.70": {
+      "crossed_zero_fraction": 0.0,
+      "negative_endpoint_fraction": 0.0,
+      "committed_switch_fraction": 0.0,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0
+    },
+    "L64/H0.78": {
+      "crossed_zero_fraction": 0.0,
+      "negative_endpoint_fraction": 0.0,
+      "committed_switch_fraction": 0.0,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0
+    },
+    "L64/H0.80": {
+      "crossed_zero_fraction": 0.6666666666666666,
+      "negative_endpoint_fraction": 0.6666666666666666,
+      "committed_switch_fraction": 0.6666666666666666,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0
+    },
+    "L96/H0.70": {
+      "crossed_zero_fraction": 0.0,
+      "negative_endpoint_fraction": 0.0,
+      "committed_switch_fraction": 0.0,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0
+    },
+    "L96/H0.78": {
+      "crossed_zero_fraction": 0.4,
+      "negative_endpoint_fraction": 0.4,
+      "committed_switch_fraction": 0.4,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.05
+    },
+    "L96/H0.80": {
+      "crossed_zero_fraction": 0.95,
+      "negative_endpoint_fraction": 0.95,
+      "committed_switch_fraction": 0.95,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0
+    }
+  },
+  "aggregate": {
+    "L16/H0.70/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.6551472743352255,
+        "std": 0.00591598004326068,
+        "count": 3,
+        "values": [
+          0.6619783639907837,
+          0.6517004172007242,
+          0.6517630418141683
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.588563882515672,
+        "std": 0.03037175814624332,
+        "count": 3,
+        "values": [
+          0.5535685363693732,
+          0.604077115121223,
+          0.60804599605642
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.026959488594241257,
+        "std": 0.00441373026800268,
+        "count": 3,
+        "values": [
+          0.03205377233750062,
+          0.024543570714532024,
+          0.024281122730691124
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.016210743536551792,
+        "std": 0.0001250969832955223,
+        "count": 3,
+        "values": [
+          0.01618480185667674,
+          0.016346777478853863,
+          0.016100651274124782
+        ]
+      }
+    },
+    "L16/H0.70/flow": {
+      "crossed_zero_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.1111111111111111,
+        "std": 0.19245008972987526,
+        "count": 3,
+        "values": [
+          0.3333333333333333,
+          0.0,
+          0.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.6490974227587382,
+        "std": 0.001049938556855435,
+        "count": 3,
+        "values": [
+          0.648038367430369,
+          0.6491159001986185,
+          0.6501380006472269
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.5748839497308869,
+        "std": 0.021325920459070863,
+        "count": 3,
+        "values": [
+          0.5895771569054576,
+          0.5846509994829815,
+          0.5504236928042214
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.019549711528734578,
+        "std": 0.0013311517510070617,
+        "count": 3,
+        "values": [
+          0.020507090953991735,
+          0.02011243117907517,
+          0.018029612453136817
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 2.0700481856862702,
+        "std": 0.0463683050504846,
+        "count": 3,
+        "values": [
+          2.09714787080884,
+          2.096488654613495,
+          2.0165080316364765
+        ]
+      }
+    },
+    "L16/H0.78/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 1.2028912901878357,
+        "std": 0.06202968604618526,
+        "count": 3,
+        "values": [
+          1.215186337629954,
+          1.2578527331352234,
+          1.1356347997983296
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.6561213222603313,
+        "std": 0.13960646503021285,
+        "count": 3,
+        "values": [
+          0.6883780254743856,
+          0.7767759882452272,
+          0.5032099530613809
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.02679609245039893,
+        "std": 0.006838999240392715,
+        "count": 3,
+        "values": [
+          0.03430107266521539,
+          0.02091560690326292,
+          0.025171597782718477
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.016037639644410875,
+        "std": 1.291062368713378e-05,
+        "count": 3,
+        "values": [
+          0.016023453325033188,
+          0.016048700859149296,
+          0.01604076474905014
+        ]
+      }
+    },
+    "L16/H0.78/flow": {
+      "crossed_zero_fraction": {
+        "mean": 0.6666666666666666,
+        "std": 0.33333333333333337,
+        "count": 3,
+        "values": [
+          0.3333333333333333,
+          1.0,
+          0.6666666666666666
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.1111111111111111,
+        "std": 0.19245008972987526,
+        "count": 3,
+        "values": [
+          0.3333333333333333,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.7777777777777777,
+        "std": 0.3849001794597505,
+        "count": 3,
+        "values": [
+          0.3333333333333333,
+          1.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.8029892047246298,
+        "std": 0.30965161849932593,
+        "count": 3,
+        "values": [
+          0.6547899842262268,
+          1.158889929453532,
+          0.5952877004941305
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.5510069600365464,
+        "std": 0.18036863927931357,
+        "count": 3,
+        "values": [
+          0.47647782938589833,
+          0.7566962935784695,
+          0.41984675714527137
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.11957028636521026,
+        "std": 0.054386227402684055,
+        "count": 3,
+        "values": [
+          0.08088890198830281,
+          0.18175575195849036,
+          0.09606620514883762
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 1.9430321235623624,
+        "std": 0.005207724961012665,
+        "count": 3,
+        "values": [
+          1.9377496143182118,
+          1.9481616951525211,
+          1.9431850612163544
+        ]
+      }
+    },
+    "L16/H0.80/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.3333333333333333,
+        "count": 3,
+        "values": [
+          0.3333333333333333,
+          0.6666666666666666,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.6666666666666666,
+        "std": 0.33333333333333337,
+        "count": 3,
+        "values": [
+          0.6666666666666666,
+          0.3333333333333333,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.6565995415051779,
+        "std": 0.003101638299972334,
+        "count": 3,
+        "values": [
+          0.6530186533927917,
+          0.6583343942960104,
+          0.6584455768267313
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.5349736237186199,
+        "std": 0.0797558345755577,
+        "count": 3,
+        "values": [
+          0.5690494215443822,
+          0.5920310900504492,
+          0.4438403595610282
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.02254696981018504,
+        "std": 0.004049408714045896,
+        "count": 3,
+        "values": [
+          0.024719102512848645,
+          0.02504686087283703,
+          0.017874946044869448
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.015996470633480284,
+        "std": 9.1971643853439e-05,
+        "count": 3,
+        "values": [
+          0.015961154053608578,
+          0.016100866099198658,
+          0.015927391747633617
+        ]
+      }
+    },
+    "L16/H0.80/flow": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.7777777777777777,
+        "std": 0.1924500897298753,
+        "count": 3,
+        "values": [
+          0.6666666666666666,
+          1.0,
+          0.6666666666666666
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.3333333333333333,
+        "count": 3,
+        "values": [
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.6666666666666666,
+        "std": 0.33333333333333337,
+        "count": 3,
+        "values": [
+          1.0,
+          0.3333333333333333,
+          0.6666666666666666
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.44999213847849107,
+        "std": 0.17668832717867738,
+        "count": 3,
+        "values": [
+          0.3529462218284607,
+          0.6539349555969238,
+          0.3430952380100886
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.5063700751159727,
+        "std": 0.009352149304067579,
+        "count": 3,
+        "values": [
+          0.5166302621236762,
+          0.5041570209554935,
+          0.4983229422687481
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.15782301146438452,
+        "std": 0.05794403909918492,
+        "count": 3,
+        "values": [
+          0.20375972058914427,
+          0.09272538283730847,
+          0.1769839309667008
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 1.9409700338211324,
+        "std": 0.008119269444071667,
+        "count": 3,
+        "values": [
+          1.932672131806612,
+          1.9488980260988076,
+          1.9413399435579777
+        ]
+      }
+    },
+    "L32/H0.70/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.019147184160020616,
+        "std": 0.019291702583422447,
+        "count": 3,
+        "values": [
+          0.040604213873545326,
+          0.0032353599866231284,
+          0.013601978619893393
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.1335828624172233,
+        "std": 0.007164302758998112,
+        "count": 3,
+        "values": [
+          0.12551612287285568,
+          0.139204633544572,
+          0.13602783083424227
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.02823103817665297,
+        "std": 0.0032781921541914063,
+        "count": 3,
+        "values": [
+          0.024510135849183327,
+          0.029489236734021214,
+          0.03069374194675437
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.05120323929521773,
+        "std": 0.00014919943692450857,
+        "count": 3,
+        "values": [
+          0.05110663299759229,
+          0.05137507741649946,
+          0.05112800747156143
+        ]
+      }
+    },
+    "L32/H0.70/flow": {
+      "crossed_zero_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.0093271533648173,
+        "std": 0.0007532829538419884,
+        "count": 3,
+        "values": [
+          0.008647104104359945,
+          0.010136842727661133,
+          0.009197513262430826
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.10952468031290541,
+        "std": 0.02401003099198283,
+        "count": 3,
+        "values": [
+          0.12570501171057477,
+          0.1209314180895504,
+          0.08193761113859102
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.01844577946982973,
+        "std": 0.00032416510068488936,
+        "count": 3,
+        "values": [
+          0.01869800279809393,
+          0.018559189322500485,
+          0.01808014628889477
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 6.428538249598609,
+        "std": 0.04386035301164152,
+        "count": 3,
+        "values": [
+          6.428098237762849,
+          6.472616953154405,
+          6.384899557878573
+        ]
+      }
+    },
+    "L32/H0.78/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.2746288047896491,
+        "std": 0.17512373704570064,
+        "count": 3,
+        "values": [
+          0.23183713356653848,
+          0.12486688296000163,
+          0.4671823978424072
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.4688388206572178,
+        "std": 0.12571740452393107,
+        "count": 3,
+        "values": [
+          0.427574509761221,
+          0.3689396180072399,
+          0.6100023342031926
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.035687873606243016,
+        "std": 0.010578244863452987,
+        "count": 3,
+        "values": [
+          0.04709426001058209,
+          0.026200499345065992,
+          0.03376886146308096
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.050433979680140816,
+        "std": 0.00033823106929618043,
+        "count": 3,
+        "values": [
+          0.05017567301789919,
+          0.050309443225463234,
+          0.05081682279706001
+        ]
+      }
+    },
+    "L32/H0.78/flow": {
+      "crossed_zero_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 1.014125496149063,
+        "std": 0.8613504322776472,
+        "count": 3,
+        "values": [
+          1.6793541312217712,
+          0.04117711385091146,
+          1.3218452433745067
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 1.276338341453399,
+        "std": 0.524026560695062,
+        "count": 3,
+        "values": [
+          1.6045916758759597,
+          0.6719945145990076,
+          1.55242883388523
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.21439678558459715,
+        "std": 0.11521935813679197,
+        "count": 3,
+        "values": [
+          0.11425915196559916,
+          0.3403262723050904,
+          0.18860493248310192
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 6.3358538920680685,
+        "std": 0.004333776307447805,
+        "count": 3,
+        "values": [
+          6.3399645773073035,
+          6.336270050456126,
+          6.331327048440774
+        ]
+      }
+    },
+    "L32/H0.80/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.4444444444444444,
+        "std": 0.3849001794597505,
+        "count": 3,
+        "values": [
+          0.6666666666666666,
+          0.6666666666666666,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.5555555555555555,
+        "std": 0.3849001794597505,
+        "count": 3,
+        "values": [
+          0.3333333333333333,
+          0.3333333333333333,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.018612325191497803,
+        "std": 0.001270508482468698,
+        "count": 3,
+        "values": [
+          0.017753620942433674,
+          0.020071804523468018,
+          0.018011550108591717
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.17955984037544004,
+        "std": 0.0161016394343013,
+        "count": 3,
+        "values": [
+          0.16709543218134612,
+          0.17384458914716772,
+          0.19773949979780628
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.02825743591195512,
+        "std": 0.004437260274290157,
+        "count": 3,
+        "values": [
+          0.02996732936703328,
+          0.03158536821936364,
+          0.023219610149468432
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.05032427650358942,
+        "std": 0.00017607406812885406,
+        "count": 3,
+        "values": [
+          0.050519285102685295,
+          0.05017696445186933,
+          0.05027657995621363
+        ]
+      }
+    },
+    "L32/H0.80/flow": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.6666666666666666,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          1.0,
+          0.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.16134115060170492,
+        "std": 0.17559803420312042,
+        "count": 3,
+        "values": [
+          0.35092326005299884,
+          0.004271388053894043,
+          0.12882880369822183
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.7142523760771046,
+        "std": 0.4779617339118089,
+        "count": 3,
+        "values": [
+          1.0339864821473685,
+          0.16480221875539067,
+          0.9439684273285543
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.3522224400894065,
+        "std": 0.1939506253361544,
+        "count": 3,
+        "values": [
+          0.4775421564649954,
+          0.12882032988322767,
+          0.45030483391999643
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 6.342980772670772,
+        "std": 0.008209210853788496,
+        "count": 3,
+        "values": [
+          6.3501807277401285,
+          6.344720423221588,
+          6.3340411670506
+        ]
+      }
+    },
+    "L64/H0.70/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.02346951431698269,
+        "std": 0.023769040782020332,
+        "count": 3,
+        "values": [
+          0.05084697405497233,
+          0.01146105925242106,
+          0.008100509643554688
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.11109457723738614,
+        "std": 0.005219604872794224,
+        "count": 3,
+        "values": [
+          0.10522517641099599,
+          0.11521539547039306,
+          0.11284315983076937
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.026765716298447522,
+        "std": 0.0018257156143859253,
+        "count": 3,
+        "values": [
+          0.02851829459053917,
+          0.02487474025380715,
+          0.02690411405099625
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.2020175357659658,
+        "std": 0.0008157742552720455,
+        "count": 3,
+        "values": [
+          0.20292759065826735,
+          0.2013519431153933,
+          0.20177307352423668
+        ]
+      }
+    },
+    "L64/H0.70/flow": {
+      "crossed_zero_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.0043107668558756505,
+        "std": 0.0025233740682923545,
+        "count": 3,
+        "values": [
+          0.005334218343098958,
+          0.006161630153656006,
+          0.001436452070871989
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.08970275942831411,
+        "std": 0.012375853048956966,
+        "count": 3,
+        "values": [
+          0.09991176153211656,
+          0.0932581628633455,
+          0.0759383538894803
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.030151506290281554,
+        "std": 0.017575594003468486,
+        "count": 3,
+        "values": [
+          0.01973170197732438,
+          0.020279224813926435,
+          0.050443592079593834
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 25.241751321074034,
+        "std": 0.22975756702782743,
+        "count": 3,
+        "values": [
+          25.507039261360962,
+          25.106811450173456,
+          25.111403251687687
+        ]
+      }
+    },
+    "L64/H0.78/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 1.6746658914619024,
+        "std": 0.17599618605205242,
+        "count": 3,
+        "values": [
+          1.717444121837616,
+          1.825329601764679,
+          1.4812239507834117
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 1.1567982071950564,
+        "std": 0.13459044209193288,
+        "count": 3,
+        "values": [
+          1.193804039456523,
+          1.269014506891527,
+          1.0075760752371195
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.07465798921597912,
+        "std": 0.005211925810180636,
+        "count": 3,
+        "values": [
+          0.06873758003501894,
+          0.07668238560050628,
+          0.07855400201241215
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.20082052879863313,
+        "std": 0.0010669410520860755,
+        "count": 3,
+        "values": [
+          0.2017898919681708,
+          0.20099434132377306,
+          0.1996773531039556
+        ]
+      }
+    },
+    "L64/H0.78/flow": {
+      "crossed_zero_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.7754633161756727,
+        "std": 0.8896751015976646,
+        "count": 3,
+        "values": [
+          0.173870583375295,
+          1.7974298596382141,
+          0.3550895055135091
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.5256279708751419,
+        "std": 0.4996534324686114,
+        "count": 3,
+        "values": [
+          0.26296696941642556,
+          1.1018297465955849,
+          0.21208719661341532
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.24461777899315787,
+        "std": 0.1095582725439795,
+        "count": 3,
+        "values": [
+          0.15062697452214907,
+          0.3649433359331925,
+          0.21828302652413212
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 25.2061117535664,
+        "std": 0.2200437156079462,
+        "count": 3,
+        "values": [
+          25.45290373514096,
+          25.135056236137945,
+          25.030375289420288
+        ]
+      }
+    },
+    "L64/H0.80/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.6666666666666666,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          1.0,
+          0.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.657394289970398,
+        "std": 0.0014703999136836835,
+        "count": 3,
+        "values": [
+          0.6568315823872884,
+          0.6562883456548055,
+          0.6590629418691
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.5982326175227689,
+        "std": 0.08768529981516153,
+        "count": 3,
+        "values": [
+          0.6356510860722046,
+          0.6610010210527639,
+          0.49804574544333857
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.07696702320918308,
+        "std": 0.0068343884268819936,
+        "count": 3,
+        "values": [
+          0.0728825566976854,
+          0.08485705221690881,
+          0.07316146071295503
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.2018526370326678,
+        "std": 0.0013926267370893872,
+        "count": 3,
+        "values": [
+          0.20305818070967993,
+          0.20217149828871092,
+          0.20032823209961256
+        ]
+      }
+    },
+    "L64/H0.80/flow": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.6666666666666666,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          1.0,
+          0.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.6689572731653849,
+        "std": 0.026575631790498308,
+        "count": 3,
+        "values": [
+          0.69960884253184,
+          0.6523566643397013,
+          0.6549063126246134
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.43683294590923666,
+        "std": 0.07649045853724248,
+        "count": 3,
+        "values": [
+          0.399305756745856,
+          0.5248393942908643,
+          0.3863536866909897
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.32547676068389514,
+        "std": 0.18239397489294856,
+        "count": 3,
+        "values": [
+          0.43698157248465574,
+          0.11499048717138778,
+          0.42445822239564196
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 25.195017936742968,
+        "std": 0.20831055101215906,
+        "count": 3,
+        "values": [
+          25.432251463333767,
+          25.11080286030968,
+          25.041999486585457
+        ]
+      }
+    },
+    "L96/H0.70/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.022847747802734377,
+        "std": 0.02343697503193788,
+        "count": 3,
+        "values": [
+          0.049909061193466185,
+          0.009080898761749268,
+          0.009553283452987671
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.12444370708565045,
+        "std": 0.00628676442967738,
+        "count": 3,
+        "values": [
+          0.11740286181423931,
+          0.12949490742967695,
+          0.1264333520130351
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.0325182534184719,
+        "std": 0.0005819168622408527,
+        "count": 3,
+        "values": [
+          0.032114669614499956,
+          0.03225478483488136,
+          0.03318530580603438
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.4680292968327801,
+        "std": 0.0007766225884757069,
+        "count": 3,
+        "values": [
+          0.4676266469061375,
+          0.467536685615778,
+          0.4689245579764247
+        ]
+      }
+    },
+    "L96/H0.70/flow": {
+      "crossed_zero_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.0053375969330469765,
+        "std": 0.0019017951980354454,
+        "count": 3,
+        "values": [
+          0.005773201584815979,
+          0.006983798742294311,
+          0.0032557904720306396
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.10114118859180349,
+        "std": 0.018117941203634035,
+        "count": 3,
+        "values": [
+          0.11441201339269484,
+          0.10851197839917899,
+          0.08049957398353662
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.027003674325554006,
+        "std": 0.011502056139083913,
+        "count": 3,
+        "values": [
+          0.02093945382502143,
+          0.019802690336181525,
+          0.04026887881545907
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 55.94016797735045,
+        "std": 0.36145292055058176,
+        "count": 3,
+        "values": [
+          55.897217381373046,
+          55.60210934299975,
+          56.32117720767856
+        ]
+      }
+    },
+    "L96/H0.78/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 1.1133288512627284,
+        "std": 0.03608771345873517,
+        "count": 3,
+        "values": [
+          1.1212135702371597,
+          1.1448222994804382,
+          1.0739506840705872
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.5328101253988816,
+        "std": 0.13113952330986683,
+        "count": 3,
+        "values": [
+          0.5682787082189528,
+          0.6425672427130849,
+          0.3875844252646072
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.17236931127833824,
+        "std": 0.011405680923979875,
+        "count": 3,
+        "values": [
+          0.15925930696092835,
+          0.1800130730238017,
+          0.17783555385028474
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.46734563633799553,
+        "std": 0.0005858333219470979,
+        "count": 3,
+        "values": [
+          0.4667622333392501,
+          0.467340805567801,
+          0.4679338701069355
+        ]
+      }
+    },
+    "L96/H0.78/flow": {
+      "crossed_zero_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.8883521830042204,
+        "std": 0.17486594035098837,
+        "count": 3,
+        "values": [
+          0.7796106189489365,
+          1.0900645792484283,
+          0.7953813508152962
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.6153477185931049,
+        "std": 0.05988120721115155,
+        "count": 3,
+        "values": [
+          0.6734668577332257,
+          0.5538476923944252,
+          0.6187286056516639
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.25647472295490986,
+        "std": 0.06017184632520593,
+        "count": 3,
+        "values": [
+          0.19917856075114163,
+          0.31915974630670546,
+          0.2510858618068826
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 55.94593552413087,
+        "std": 0.35240860730074697,
+        "count": 3,
+        "values": [
+          55.91000204347074,
+          55.61287033539266,
+          56.31493419352919
+        ]
+      }
+    },
+    "L96/H0.80/deterministic": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.5499999999999999,
+        "std": 0.49244289008980524,
+        "count": 3,
+        "values": [
+          0.7,
+          0.95,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.45,
+        "std": 0.4924428900898053,
+        "count": 3,
+        "values": [
+          0.3,
+          0.05,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.11249125997225444,
+        "std": 0.0027869205884600077,
+        "count": 3,
+        "values": [
+          0.11149524748325348,
+          0.11033919155597686,
+          0.11563934087753296
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.20820305896691382,
+        "std": 0.043805517488857706,
+        "count": 3,
+        "values": [
+          0.2238273197800664,
+          0.2420542843781129,
+          0.15872757274256216
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.08825360920483803,
+        "std": 0.007731357252697523,
+        "count": 3,
+        "values": [
+          0.08391126805200452,
+          0.09717992152315369,
+          0.08366963803935587
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 0.46826268186171854,
+        "std": 0.0021255505856249248,
+        "count": 3,
+        "values": [
+          0.4663019202649593,
+          0.46796457692980764,
+          0.4705215483903885
+        ]
+      }
+    },
+    "L96/H0.80/flow": {
+      "crossed_zero_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "negative_endpoint_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "committed_switch_fraction": {
+        "mean": 0.3333333333333333,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "crossing_return_fraction": {
+        "mean": 0.0,
+        "std": 0.0,
+        "count": 3,
+        "values": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unresolved_transition_fraction": {
+        "mean": 0.6666666666666666,
+        "std": 0.5773502691896258,
+        "count": 3,
+        "values": [
+          1.0,
+          0.0,
+          1.0
+        ]
+      },
+      "endpoint_wasserstein_equal_count": {
+        "mean": 0.3063347046573957,
+        "std": 0.2207706653134396,
+        "count": 3,
+        "values": [
+          0.5386054888367653,
+          0.09921910166740418,
+          0.28117952346801756
+        ]
+      },
+      "mean_neel_z_path_rmse": {
+        "mean": 0.5677077438755648,
+        "std": 0.3824247893484087,
+        "count": 3,
+        "values": [
+          0.8330337715394599,
+          0.12934832216277842,
+          0.7407411379244563
+        ]
+      },
+      "mean_spatial_std_path_rmse": {
+        "mean": 0.3371267833408129,
+        "std": 0.20615992783623682,
+        "count": 3,
+        "values": [
+          0.4632371128662433,
+          0.09921723791898215,
+          0.4489259992372134
+        ]
+      },
+      "seconds_per_path": {
+        "mean": 55.93403983004391,
+        "std": 0.3711500799761307,
+        "count": 3,
+        "values": [
+          55.89005825091154,
+          55.58684015739709,
+          56.32522108182311
+        ]
+      }
+    }
+  }
+}

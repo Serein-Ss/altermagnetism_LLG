@@ -1,0 +1,24 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+NVIDIA GeForce RTX 3090
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+L=32 condition=0 path=1/3
+L=32 condition=0 path=2/3
+L=32 condition=0 path=3/3
+L=32 condition=1 path=1/3
+L=32 condition=1 path=2/3
+L=32 condition=1 path=3/3
+L=32 condition=2 path=1/3
+L=32 condition=2 path=2/3
+L=32 condition=2 path=3/3
+{
+  "status": "observation_window_insufficient",
+  "lattice_size": [
+    32,
+    32
+  ],
+  "output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/outputs/production_v2/seed_20260909/evaluation/L32",
+  "insufficient_condition_ids": [
+    1
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "task": 61,
+  "temperature": 3.5,
+  "seed": 28143462383295105,
+  "formal_settings": true,
+  "status": "raw_reference_run_awaiting_ensemble_audit",
+  "elapsed_seconds": 2046.711532343179,
+  "runtime": {
+    "seconds_per_10000_coarse_steps": 258.59808637946844,
+    "estimated_compute_seconds": 2068.7846910357475,
+    "required_walltime_with_margin": 3103.1770365536213
+  },
+  "rows": [
+    {
+      "method": "heun",
+      "factor": 1,
+      "dt": 0.005,
+      "mean": 0.18903811387769454,
+      "mean_se": 0.0028907520722943063,
+      "exact_mean": 0.18645463997122125,
+      "second_moment": 0.34762077852399537,
+      "second_se": 0.000979846983725808,
+      "exact_second": 0.34740876010072563,
+      "tau_saved_samples": 21.563754700296222,
+      "effective_time_samples": 46.37411313096893,
+      "norm_error": 3.3306690738754696e-16,
+      "checks": {
+        "mean": true,
+        "second_moment": true,
+        "spin_norm": true,
+        "finite": true
+      }
+    },
+    {
+      "method": "heun",
+      "factor": 2,
+      "dt": 0.0025,
+      "mean": 0.18898934686457006,
+      "mean_se": 0.0028848984612136336,
+      "exact_mean": 0.18645463997122125,
+      "second_moment": 0.3475928131076237,
+      "second_se": 0.0009707111098494075,
+      "exact_second": 0.34740876010072563,
+      "tau_saved_samples": 21.271467321859323,
+      "effective_time_samples": 47.01133141729081,
+      "norm_error": 3.3306690738754696e-16,
+      "checks": {
+        "mean": true,
+        "second_moment": true,
+        "spin_norm": true,
+        "finite": true
+      }
+    },
+    {
+      "method": "heun",
+      "factor": 4,
+      "dt": 0.00125,
+      "mean": 0.1888795612462413,
+      "mean_se": 0.002889419093654819,
+      "exact_mean": 0.18645463997122125,
+      "second_moment": 0.34763917497729374,
+      "second_se": 0.0009670886422431369,
+      "exact_second": 0.34740876010072563,
+      "tau_saved_samples": 20.86723135218531,
+      "effective_time_samples": 47.92202583670859,
+      "norm_error": 3.3306690738754696e-16,
+      "checks": {
+        "mean": true,
+        "second_moment": true,
+        "spin_norm": true,
+        "finite": true
+      }
+    },
+    {
+      "method": "midpoint",
+      "factor": 1,
+      "dt": 0.005,
+      "mean": 0.18862448554643205,
+      "mean_se": 0.0028935546729581384,
+      "exact_mean": 0.18645463997122125,
+      "second_moment": 0.347511448128908,
+      "second_se": 0.0009804962996265215,
+      "exact_second": 0.34740876010072563,
+      "tau_saved_samples": 21.69462824322613,
+      "effective_time_samples": 46.09435980135945,
+      "norm_error": 5.81534820298657e-13,
+      "checks": {
+        "mean": true,
+        "second_moment": true,
+        "spin_norm": true,
+        "finite": true
+      }
+    },
+    {
+      "method": "midpoint",
+      "factor": 2,
+      "dt": 0.0025,
+      "mean": 0.1888032632430497,
+      "mean_se": 0.002885000413677256,
+      "exact_mean": 0.18645463997122125,
+      "second_moment": 0.3475415786327541,
+      "second_se": 0.0009716473795266011,
+      "exact_second": 0.34740876010072563,
+      "tau_saved_samples": 21.335430292409008,
+      "effective_time_samples": 46.87039287676297,
+      "norm_error": 1.9200196987867457e-12,
+      "checks": {
+        "mean": true,
+        "second_moment": true,
+        "spin_norm": true,
+        "finite": true
+      }
+    },
+    {
+      "method": "midpoint",
+      "factor": 4,
+      "dt": 0.00125,
+      "mean": 0.1887847316581608,
+      "mean_se": 0.002889598478447599,
+      "exact_mean": 0.18645463997122125,
+      "second_moment": 0.3476132269417617,
+      "second_se": 0.000967323299675471,
+      "exact_second": 0.34740876010072563,
+      "tau_saved_samples": 20.900934535234082,
+      "effective_time_samples": 47.844750593052865,
+      "norm_error": 1.0169642905566434e-13,
+      "checks": {
+        "mean": true,
+        "second_moment": true,
+        "spin_norm": true,
+        "finite": true
+      }
+    }
+  ],
+  "basic_checks_passed": true,
+  "sha256": "efb82e009f48ab46221b7953eaa2606599a9cdffaa292b9bf8ca9307704b9da5"
+}

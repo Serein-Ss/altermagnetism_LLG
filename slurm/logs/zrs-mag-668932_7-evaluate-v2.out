@@ -1,0 +1,73 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+NVIDIA GeForce RTX 3090
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+L=96 condition=0 path=1/20
+L=96 condition=0 path=2/20
+L=96 condition=0 path=3/20
+L=96 condition=0 path=4/20
+L=96 condition=0 path=5/20
+L=96 condition=0 path=6/20
+L=96 condition=0 path=7/20
+L=96 condition=0 path=8/20
+L=96 condition=0 path=9/20
+L=96 condition=0 path=10/20
+L=96 condition=0 path=11/20
+L=96 condition=0 path=12/20
+L=96 condition=0 path=13/20
+L=96 condition=0 path=14/20
+L=96 condition=0 path=15/20
+L=96 condition=0 path=16/20
+L=96 condition=0 path=17/20
+L=96 condition=0 path=18/20
+L=96 condition=0 path=19/20
+L=96 condition=0 path=20/20
+L=96 condition=1 path=1/20
+L=96 condition=1 path=2/20
+L=96 condition=1 path=3/20
+L=96 condition=1 path=4/20
+L=96 condition=1 path=5/20
+L=96 condition=1 path=6/20
+L=96 condition=1 path=7/20
+L=96 condition=1 path=8/20
+L=96 condition=1 path=9/20
+L=96 condition=1 path=10/20
+L=96 condition=1 path=11/20
+L=96 condition=1 path=12/20
+L=96 condition=1 path=13/20
+L=96 condition=1 path=14/20
+L=96 condition=1 path=15/20
+L=96 condition=1 path=16/20
+L=96 condition=1 path=17/20
+L=96 condition=1 path=18/20
+L=96 condition=1 path=19/20
+L=96 condition=1 path=20/20
+L=96 condition=2 path=1/20
+L=96 condition=2 path=2/20
+L=96 condition=2 path=3/20
+L=96 condition=2 path=4/20
+L=96 condition=2 path=5/20
+L=96 condition=2 path=6/20
+L=96 condition=2 path=7/20
+L=96 condition=2 path=8/20
+L=96 condition=2 path=9/20
+L=96 condition=2 path=10/20
+L=96 condition=2 path=11/20
+L=96 condition=2 path=12/20
+L=96 condition=2 path=13/20
+L=96 condition=2 path=14/20
+L=96 condition=2 path=15/20
+L=96 condition=2 path=16/20
+L=96 condition=2 path=17/20
+L=96 condition=2 path=18/20
+L=96 condition=2 path=19/20
+L=96 condition=2 path=20/20
+{
+  "status": "evaluation_complete",
+  "lattice_size": [
+    96,
+    96
+  ],
+  "output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/outputs/production_v2/seed_20260909/evaluation/L96",
+  "insufficient_condition_ids": []
+}
