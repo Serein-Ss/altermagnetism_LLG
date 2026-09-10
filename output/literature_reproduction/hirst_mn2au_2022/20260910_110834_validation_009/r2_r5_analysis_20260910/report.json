@@ -1,0 +1,87 @@
+{
+  "index": 9,
+  "paper": "hirst_mn2au_2022",
+  "run_id": "20260910_110834_validation_009",
+  "protocol": "llb_afmr",
+  "parameters": {
+    "theta_key": "theta_300",
+    "published_fit_exponent": 0.34,
+    "alpha": 0.01,
+    "tilt_degrees": 20,
+    "dt": 0.002,
+    "steps": 100000,
+    "save_every": 50
+  },
+  "production_certified": false,
+  "raw_sha256": {
+    "trajectory.h5": "518a69f6544a3c5081fbf5f098b35331cb3a1fbc893587c45eb2d1c4c4cc9e45"
+  },
+  "configuration_sha256": "f71ab0bcbfc2053570d3abf15f96b7109f5e2299fd9ecd2e3c511e8f3cd3ca69",
+  "saved_frames": 2001,
+  "duration": 200.0,
+  "finite": true,
+  "max_saved_norm_error": null,
+  "projection_predictor_error_saved": false,
+  "norm_gate": "not_applicable_LLB",
+  "afmr": [
+    {
+      "resolved": true,
+      "parameters_order": [
+        "amplitude",
+        "omega",
+        "tau",
+        "phase",
+        "offset"
+      ],
+      "parameters": [
+        0.3161661273617856,
+        0.08184468506202308,
+        108.67350673438699,
+        -0.15791793753828004,
+        -0.000509314126969163
+      ],
+      "fit_covariance": [
+        [
+          1.0023268813457103e-08,
+          -8.108182417131509e-11,
+          -4.175965039502519e-06,
+          7.2797243710642555e-09,
+          -1.9616761189491115e-10
+        ],
+        [
+          -8.108182417131509e-11,
+          2.992152929281166e-11,
+          2.6558780319602504e-08,
+          -1.6017477585152808e-09,
+          -1.2866287775011627e-11
+        ],
+        [
+          -4.175965039502519e-06,
+          2.6558780319602504e-08,
+          0.0032718137870764484,
+          -2.5398237908725595e-06,
+          1.5067224413999644e-07
+        ],
+        [
+          7.279724371064254e-09,
+          -1.6017477585152812e-09,
+          -2.539823790872559e-06,
+          1.391120760151204e-07,
+          1.741404104264034e-09
+        ],
+        [
+          -1.9616761189491112e-10,
+          -1.286628777501163e-11,
+          1.5067224413999641e-07,
+          1.741404104264034e-09,
+          6.735248896497621e-10
+        ]
+      ],
+      "residual_rmse": 0.0011266786438886376,
+      "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+    }
+  ],
+  "resolved_cycles": [
+    2.605197238684076
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "index": 54,
+  "paper": "gomonay_2024",
+  "run_id": "20260910_110834_validation_054",
+  "protocol": "control",
+  "parameters": {
+    "wavevectors": [
+      [
+        -0.5,
+        0.25
+      ]
+    ],
+    "shape": [
+      64,
+      64
+    ],
+    "periodic": [
+      true,
+      true
+    ],
+    "orientation": "100",
+    "batch": 1,
+    "alpha": 0.0,
+    "dt": 0.005,
+    "steps": 40000,
+    "save_every": 20,
+    "seed": 20260910,
+    "method": "rk4",
+    "field_amplitude": 0.001,
+    "field_direction": [
+      1,
+      0,
+      0
+    ],
+    "wavevector_cutoff": [
+      0.5,
+      0.5
+    ],
+    "frequency_cutoff": 2.0,
+    "pulse_center": 100.0
+  },
+  "production_certified": false,
+  "raw_sha256": {
+    "trajectory.h5": "cc50892c89db689df9a02eb7fb1ebb145b7f793add5ba7e6506d6dae0ee68c16"
+  },
+  "configuration_sha256": "c8f7ced337c7592647f04cf7c00847a8cac1328dbfb96ac9779fdd3502f8662d",
+  "saved_frames": 2001,
+  "duration": 200.0,
+  "finite": true,
+  "max_saved_norm_error": 2.220446049250313e-16,
+  "projection_predictor_error_saved": false,
+  "norm_gate": "pass",
+  "energy": {
+    "initial": [
+      -2.338738738738739
+    ],
+    "final": [
+      -2.338738737730233
+    ],
+    "maximum_saved_increase": [
+      4.741687043008369e-10
+    ],
+    "relative_excursion": [
+      4.614839686558201e-10
+    ]
+  },
+  "spectral_peaks": [
+    {
+      "k": [
+        1.5707963267948966,
+        0.0
+      ],
+      "positive_peak": 3.2970237743820916,
+      "negative_peak": -3.2970237743820916,
+      "signed_splitting": 0.0,
+      "predicted_branches": [
+        3.290084169596915,
+        3.290084169596915
+      ],
+      "unordered_max_abs_error": 0.006939604785176634,
+      "peak_power": [
+        8.78244921337873e-17,
+        8.782449215128335e-17
+      ],
+      "power_fraction": 8.427243367712094e-12,
+      "note": "Global maxima in each frequency half-plane, no reference-guided peak selection; weakly excited modes not certified."
+    },
+    {
+      "k": [
+        0.0,
+        1.5707963267948966
+      ],
+      "positive_peak": 3.2970237743820916,
+      "negative_peak": -3.2970237743820916,
+      "signed_splitting": 0.0,
+      "predicted_branches": [
+        3.290084169596915,
+        3.290084169596915
+      ],
+      "unordered_max_abs_error": 0.006939604785176634,
+      "peak_power": [
+        1.9344364615857676e-10,
+        1.9344364615858188e-10
+      ],
+      "power_fraction": 1.862879535752301e-05,
+      "note": "Global maxima in each frequency half-plane, no reference-guided peak selection; weakly excited modes not certified."
+    },
+    {
+      "k": [
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "positive_peak": 4.239030567062689,
+      "negative_peak": -4.239030567062689,
+      "signed_splitting": 0.0,
+      "predicted_branches": [
+        4.228332478922284,
+        4.228332478922284
+      ],
+      "unordered_max_abs_error": 0.010698088140404849,
+      "peak_power": [
+        3.44894220753594e-10,
+        3.448942207536174e-10
+      ],
+      "power_fraction": 3.413694498270464e-05,
+      "note": "Global maxima in each frequency half-plane, no reference-guided peak selection; weakly excited modes not certified."
+    },
+    {
+      "k": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "positive_peak": 4.239030567062689,
+      "negative_peak": -4.239030567062689,
+      "signed_splitting": 0.0,
+      "predicted_branches": [
+        4.228332478922284,
+        4.228332478922284
+      ],
+      "unordered_max_abs_error": 0.010698088140404849,
+      "peak_power": [
+        1.846708491724917e-10,
+        1.846708491724991e-10
+      ],
+      "power_fraction": 1.8261168679564765e-05,
+      "note": "Global maxima in each frequency half-plane, no reference-guided peak selection; weakly excited modes not certified."
+    }
+  ],
+  "frequency_bin": 0.031400226422686583,
+  "nyquist": 31.415926535890787,
+  "reference_type": "Internal analytic formula; external digitized curve comparison still missing."
+}

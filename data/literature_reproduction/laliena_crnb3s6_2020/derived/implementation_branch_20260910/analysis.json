@@ -1,0 +1,7 @@
+{
+  "fold_bracketed": true,
+  "sampled_gamma_max": 1.2080093138167958,
+  "max_BVP_residual": 9.99330438397364e-07,
+  "critical_gamma_certified": false,
+  "remaining": "Converge arclength step, extent, collocation mesh and compare corrected reference."
+}

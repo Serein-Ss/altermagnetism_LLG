@@ -1,0 +1,11 @@
+{
+  "paper_id": "laliena_crnb3s6_2020",
+  "provenance": {
+    "doi": "10.1038/s41598-020-76903-8",
+    "erratum_doi": "10.1038/s41598-022-06147-1",
+    "target": "corrected_equations_13_14_and_Fig2b_3a_3b",
+    "status": "blocked_corrected_BVP_and_current_drive_implementation"
+  },
+  "files": {},
+  "audit_status": "candidate_only; full paper-specific audit remains required"
+}

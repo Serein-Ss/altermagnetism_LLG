@@ -1,0 +1,79 @@
+{
+  "index": 33,
+  "paper": "hirst_mn2au_2022",
+  "run_id": "20260910_110834_validation_033",
+  "protocol": "equilibrium",
+  "parameters": {
+    "shape": [
+      12,
+      12,
+      12
+    ],
+    "periodic": [
+      true,
+      true,
+      true
+    ],
+    "batch": 1,
+    "theta_key": "theta_300",
+    "alpha": 1.0,
+    "dt": 0.002,
+    "steps": 100000,
+    "save_every": 500,
+    "discard_fraction": 0.5,
+    "seed": 20260910,
+    "method": "heun_projected_predictor"
+  },
+  "production_certified": false,
+  "raw_sha256": {
+    "trajectory.h5": "9021074e27a835cd44193bb51c8153dfb54c76ce862f9ef480167266843bea90"
+  },
+  "configuration_sha256": "e11716d5dfca0a17c7a2734fc06a81427552f6067ef5934492fde911fce6a111",
+  "saved_frames": 201,
+  "duration": 200.0,
+  "finite": true,
+  "max_saved_norm_error": 3.3306690738754696e-16,
+  "projection_predictor_error_saved": false,
+  "norm_gate": "pass",
+  "energy": {
+    "initial": [
+      -0.5421795872499998
+    ],
+    "final": [
+      -0.47932000258199164
+    ],
+    "maximum_saved_increase": [
+      0.038316725202292234
+    ],
+    "relative_excursion": [
+      0.12313418520214528
+    ]
+  },
+  "late_windows": {
+    "intervals": [
+      [
+        100.0,
+        150.0
+      ],
+      [
+        150.0,
+        200.0
+      ]
+    ],
+    "first": [
+      0.9160731029298931
+    ],
+    "second": [
+      0.9148405220255944
+    ],
+    "change": [
+      -0.0012325809042986746
+    ],
+    "certified": false
+  },
+  "late_length_by_replica": [
+    0.9154507105920789
+  ],
+  "independent_trajectories": 1,
+  "uncertainty": "One trajectory per condition; no independent-replicate CI."
+}

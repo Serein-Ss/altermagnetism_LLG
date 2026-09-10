@@ -1,0 +1,9 @@
+{
+  "paper_id": "hirst_mn2au_2022",
+  "status": "ASD_and_AFM_LLB_implemented_candidates",
+  "config": "conf/literature/hirst_mn2au_2022.yaml",
+  "implemented": ["3D_displacement_templates", "energy_and_field", "projected_predictor_Heun", "equilibrium", "equilibrated_AFMR", "pinned_end_wall", "AFM_LLB_transverse_and_longitudinal_RHS", "LLB_AFMR_entry", "analysis", "plot"],
+  "verified": ["neighbor_counts", "exchange_sums", "autograd_field", "periodic_translation", "AFM_ground_state_vs_FM", "small_CPU_smoke", "LLB_length_conservation", "LLB_longitudinal_relaxation_direction", "fixed_wall_ends", "pi_delta0_width_definition"],
+  "remaining": ["independent_neighbor_table_audit", "internal_Mn_z_for_metric_dependent_comparisons", "formal_convergence", "reference_curve_comparison", "LLB_thermodynamic_input_calibration", "LLB_full_thermal_gradient_wall_protocol"],
+  "production_enabled": false
+}

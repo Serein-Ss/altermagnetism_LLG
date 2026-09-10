@@ -1,0 +1,108 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+{"phase": "convergence", "task": 3, "exit_code": 0}
+{"phase": "convergence", "task": 1, "exit_code": 0}
+{"phase": "convergence", "task": 0, "exit_code": 0}
+{"phase": "convergence", "task": 7, "exit_code": 0}
+{"phase": "convergence", "task": 5, "exit_code": 0}
+{"phase": "convergence", "task": 4, "exit_code": 0}
+{"phase": "convergence", "task": 9, "exit_code": 0}
+{"phase": "convergence", "task": 12, "exit_code": 0}
+{"phase": "convergence", "task": 14, "exit_code": 0}
+{"phase": "convergence", "task": 2, "exit_code": 0}
+{"phase": "convergence", "task": 17, "exit_code": 0}
+{"phase": "convergence", "task": 18, "exit_code": 0}
+{"phase": "convergence", "task": 16, "exit_code": 0}
+{"phase": "convergence", "task": 10, "exit_code": 0}
+{"phase": "convergence", "task": 8, "exit_code": 0}
+{"phase": "convergence", "task": 6, "exit_code": 0}
+{"phase": "convergence", "task": 15, "exit_code": 0}
+{"phase": "convergence", "task": 19, "exit_code": 0}
+{"phase": "convergence", "task": 11, "exit_code": 0}
+{"phase": "convergence", "task": 13, "exit_code": 0}
+{"phase": "convergence", "task": 20, "exit_code": 0}
+{"phase": "convergence", "task": 21, "exit_code": 0}
+{"phase": "convergence", "task": 22, "exit_code": 0}
+{"phase": "convergence", "task": 24, "exit_code": 0}
+{"phase": "convergence", "task": 23, "exit_code": 0}
+{"phase": "convergence", "task": 25, "exit_code": 0}
+{"phase": "convergence", "task": 26, "exit_code": 0}
+{"phase": "convergence", "task": 27, "exit_code": 0}
+{"phase": "convergence", "task": 30, "exit_code": 0}
+{"phase": "convergence", "task": 31, "exit_code": 0}
+{"phase": "convergence", "task": 32, "exit_code": 0}
+{"phase": "convergence", "task": 34, "exit_code": 0}
+{"phase": "convergence", "task": 29, "exit_code": 0}
+{"phase": "convergence", "task": 28, "exit_code": 0}
+{"phase": "convergence", "task": 33, "exit_code": 0}
+{"phase": "convergence", "task": 36, "exit_code": 0}
+{"phase": "convergence", "task": 35, "exit_code": 0}
+{"phase": "convergence", "task": 38, "exit_code": 0}
+{"phase": "convergence", "task": 37, "exit_code": 0}
+{"phase": "convergence", "task": 39, "exit_code": 0}
+{"phase": "convergence", "task": 41, "exit_code": 0}
+{"phase": "convergence", "task": 42, "exit_code": 0}
+{"phase": "convergence", "task": 40, "exit_code": 0}
+{"phase": "convergence", "task": 43, "exit_code": 0}
+{"phase": "convergence", "task": 44, "exit_code": 0}
+{"phase": "convergence", "task": 45, "exit_code": 0}
+{"phase": "convergence", "task": 47, "exit_code": 0}
+{"phase": "convergence", "task": 46, "exit_code": 0}
+{"phase": "convergence", "task": 49, "exit_code": 0}
+{"phase": "convergence", "task": 48, "exit_code": 0}
+{"phase": "convergence", "task": 51, "exit_code": 0}
+{"phase": "convergence", "task": 50, "exit_code": 0}
+{"phase": "convergence", "task": 52, "exit_code": 0}
+{"phase": "convergence", "task": 54, "exit_code": 0}
+{"phase": "convergence", "task": 53, "exit_code": 0}
+{"phase": "convergence", "task": 55, "exit_code": 0}
+{"phase": "convergence", "task": 57, "exit_code": 0}
+{"phase": "convergence", "task": 56, "exit_code": 0}
+{"phase": "convergence", "task": 59, "exit_code": 0}
+{"phase": "convergence", "task": 58, "exit_code": 0}
+{"phase": "convergence", "task": 60, "exit_code": 0}
+{"phase": "convergence", "task": 61, "exit_code": 0}
+{"phase": "convergence", "task": 62, "exit_code": 0}
+{"phase": "convergence", "task": 63, "exit_code": 0}
+{"phase": "convergence", "task": 65, "exit_code": 0}
+{"phase": "convergence", "task": 64, "exit_code": 0}
+{"phase": "convergence", "task": 67, "exit_code": 0}
+{"phase": "convergence", "task": 68, "exit_code": 0}
+{"phase": "convergence", "task": 69, "exit_code": 0}
+{"phase": "convergence", "task": 70, "exit_code": 0}
+{"phase": "convergence", "task": 66, "exit_code": 0}
+{"phase": "convergence", "task": 72, "exit_code": 0}
+{"phase": "convergence", "task": 71, "exit_code": 0}
+{"phase": "convergence", "task": 73, "exit_code": 0}
+{"phase": "convergence", "task": 74, "exit_code": 0}
+{"phase": "convergence", "task": 75, "exit_code": 0}
+{"phase": "convergence", "task": 78, "exit_code": 0}
+{"phase": "convergence", "task": 76, "exit_code": 0}
+{"phase": "convergence", "task": 77, "exit_code": 0}
+{"phase": "convergence", "task": 79, "exit_code": 0}
+{"phase": "convergence", "task": 80, "exit_code": 0}
+{"phase": "convergence", "task": 81, "exit_code": 0}
+{"phase": "convergence", "task": 82, "exit_code": 0}
+{"phase": "convergence", "task": 83, "exit_code": 0}
+{"phase": "convergence", "task": 85, "exit_code": 0}
+{"phase": "convergence", "task": 84, "exit_code": 0}
+{"phase": "convergence", "task": 86, "exit_code": 0}
+{"phase": "convergence", "task": 87, "exit_code": 0}
+{"phase": "convergence", "task": 88, "exit_code": 0}
+{"phase": "convergence", "task": 90, "exit_code": 0}
+{"phase": "convergence", "task": 89, "exit_code": 0}
+{"phase": "convergence", "task": 91, "exit_code": 0}
+{"phase": "convergence", "task": 93, "exit_code": 0}
+{"phase": "convergence", "task": 92, "exit_code": 0}
+{"phase": "convergence", "task": 94, "exit_code": 0}
+{"phase": "convergence", "task": 95, "exit_code": 0}
+{"status": "fail", "report": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/report.json"}
+["/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/animations/independent_moment_paths.gif", "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/figures/equilibrium_diagnostics.png", "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/figures/figure1_comparison.png"]
+Traceback (most recent call last):
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r0_20260909_8df33ac_6fd7226f/code/altermagnetism_LLG/scripts/workflow/run_reduced_literature_campaign.py", line 171, in <module>
+    if __name__=='__main__': main()
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r0_20260909_8df33ac_6fd7226f/code/altermagnetism_LLG/scripts/workflow/run_reduced_literature_campaign.py", line 160, in main
+    convergence=run_phase(root,base,'convergence',config_dir,snapshot,a.workers)
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r0_20260909_8df33ac_6fd7226f/code/altermagnetism_LLG/scripts/workflow/run_reduced_literature_campaign.py", line 139, in run_phase
+    if report['status']!='pass': raise RuntimeError(f'{phase} statistical/convergence gate failed; no primary production')
+RuntimeError: convergence statistical/convergence gate failed; no primary production

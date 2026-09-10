@@ -1,0 +1,30 @@
+{
+  "measurement_start_reduced": 0.04,
+  "sites_per_sublattice": 54,
+  "sublattice_a_mean_length": [
+    0.9962297801695547,
+    0.9964437347927936
+  ],
+  "sublattice_b_mean_length": [
+    0.9968889984346981,
+    0.9964116208310593
+  ],
+  "theta_times_longitudinal_susceptibility": [
+    0.00021648216252623617,
+    0.0010074184438636947
+  ],
+  "susceptibility_definition": "N_sub [Var(m_a,x)+Var(m_a,y)]/(2 theta); reported numerator, published in-plane average",
+  "afmr": [
+    {
+      "resolved": false,
+      "reason": "insufficient temporal samples or amplitude"
+    },
+    {
+      "resolved": false,
+      "reason": "insufficient temporal samples or amplitude"
+    }
+  ],
+  "max_norm_error": 2.220446049250313e-16,
+  "certified": false,
+  "remaining": "Independent seeds, equilibration/time/size convergence and reference comparison."
+}

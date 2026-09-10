@@ -1,0 +1,24 @@
+{
+  "index": 19,
+  "paper": "laliena_crnb3s6_2020",
+  "run_id": "20260910_110834_validation_019",
+  "protocol": "branch",
+  "parameters": {
+    "extent": 25,
+    "points": 501,
+    "tolerance": 1e-06,
+    "continuation_steps": 120,
+    "ds": 0.1
+  },
+  "production_certified": false,
+  "raw_sha256": {
+    "branch.npz": "d74435904f62dc71554b73029bf8bfc3d8ba9511c95d93a7ad82e78a4e0b18ac"
+  },
+  "configuration_sha256": "bad08e5dbd6c2aa224d17f1ce023def96578e606bd576b175e8557d47038a31b",
+  "fold_bracketed": true,
+  "sampled_gamma_max": 1.2080093138167958,
+  "reference_gamma_from_GUIDE": 1.2405,
+  "reference_relative_error": -0.026191605145670427,
+  "max_BVP_residual": 9.99330438397364e-07,
+  "branch_points": 24
+}

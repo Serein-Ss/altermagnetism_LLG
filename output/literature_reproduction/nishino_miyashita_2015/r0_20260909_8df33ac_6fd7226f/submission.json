@@ -1,0 +1,32 @@
+{
+  "job_id": "669025",
+  "job_name": "zrs-mag",
+  "partition": "fat",
+  "cpus": 20,
+  "memory_GiB": 64,
+  "walltime_minutes": 975,
+  "state": "released_pending_scheduler",
+  "campaign": "scripts/archive/r0_20260909_8df33ac_6fd7226f",
+  "frozen_smoke": {
+    "status": "pass",
+    "formal_settings": false,
+    "sha256": "e16a08e3ed8410239f2f5404d69f67a1d324bd80717fd55062c268a28558f5e4"
+  },
+  "regression_tests": 72,
+  "frozen_snapshot_tests": 21,
+  "convergence_tasks": 96,
+  "primary_tasks_only_if_convergence_passes": 240,
+  "other_paper_production_enabled": false,
+  "training_dataset_production_enabled": false,
+  "monitoring_policy": "Stop monitoring after release and one scheduler acceptance check; user will report completion.",
+  "last_observed_slurm_state": "PENDING",
+  "last_observed_slurm_reason": "None",
+  "cleanup": {
+    "completed": true,
+    "files": 362,
+    "bytes": 5902346943,
+    "recovery_commit": "8df33aca80fa0b6dfe943804400398dad5d31470"
+  },
+  "monitoring_stopped": true,
+  "log": "logs/literature_reproduction/r0_669025.log"
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": "hirst_mn2au_2022",
+  "legacy_run_id": "legacy_before_reduced_20260909",
+  "legacy_status": "not_strictly_certified",
+  "strict_status": "blocked_until_R0_and_paper_model_audit",
+  "legacy_paths": [],
+  "config": "conf/literature/hirst_mn2au_2022.yaml"
+}

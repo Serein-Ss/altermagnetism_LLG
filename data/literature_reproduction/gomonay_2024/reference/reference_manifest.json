@@ -1,0 +1,27 @@
+{
+  "paper_id": "gomonay_2024",
+  "provenance": {
+    "doi": "10.1038/s44306-024-00042-3",
+    "target": "Fig.2/S2, Fig.3/S4 and Fig.5/S5",
+    "status": "blocked_R0_R1_and_full_geometry_implementation"
+  },
+  "files": {
+    "Gomonay_2024_main.pdf": {
+      "sha256": "54726b4b7251fa6f43119dedd80f184ca559da5bdcc6817249585a20696d1f4e",
+      "bytes": 1907886
+    },
+    "figure_caption.md": {
+      "sha256": "105f0ac1eeb864cfcbacfb4b025d40372c7a73393beafc6194ded004a37484fc",
+      "bytes": 675
+    },
+    "gomonay_2024_fig2.png": {
+      "sha256": "37518e2b57f0104bacaafdbb15b7e442b74b8518d719027a7f836ee35ebcfb0b",
+      "bytes": 235904
+    },
+    "source_map.json": {
+      "sha256": "8ed76466307e375590db2edc3d7159f297890487144291cdc76ccd2833b46621",
+      "bytes": 369
+    }
+  },
+  "audit_status": "candidate_only; full paper-specific audit remains required"
+}

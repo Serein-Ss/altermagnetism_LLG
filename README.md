@@ -1,5 +1,7 @@
 # Altermagnetic finite-temperature LLG paths
 
+Current literature organization and reduced-LLG R0 workflow: [Literature reproduction](LITERATURE_REPRODUCTION.md). The GUIDE now contains one strict plan; older progress descriptions below are historical, not current certification.
+
 This directory is an independent research workspace for literature-anchored
 altermagnetic spin dynamics.  It does not modify the historical
 `micromagnetics/` outputs.

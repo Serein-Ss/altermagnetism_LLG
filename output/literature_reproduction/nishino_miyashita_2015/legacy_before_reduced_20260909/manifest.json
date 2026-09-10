@@ -1,0 +1,21 @@
+{
+  "paper_id": "nishino_miyashita_2015",
+  "legacy_run_id": "legacy_before_reduced_20260909",
+  "legacy_status": "not_strictly_certified",
+  "strict_status": "R0_in_preparation",
+  "legacy_paths": [
+    {
+      "old": "scripts/literature/validate_nishino_full.py",
+      "new": "scripts/literature/nishino_miyashita_2015/legacy_run.py",
+      "bytes": 8085,
+      "inode": 266399972000
+    },
+    {
+      "old": "scripts/analysis/audit_nishino_ensemble.py",
+      "new": "scripts/literature/nishino_miyashita_2015/legacy_analyze.py",
+      "bytes": 6499,
+      "inode": 266399972001
+    }
+  ],
+  "config": "conf/literature/nishino_miyashita_2015.yaml"
+}

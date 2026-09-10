@@ -1,0 +1,38 @@
+{
+  "paper_id": "nishino_miyashita_2015",
+  "provenance": {
+    "doi": "10.1103/PhysRevB.91.134411",
+    "erratum_doi": "10.1103/PhysRevB.97.019904",
+    "target": "Fig.1 and Appendix B5-B7",
+    "status": "candidate_requires_R0_and_convergence"
+  },
+  "files": {
+    "PhysRevB.91.134411.pdf": {
+      "sha256": "17478a2a7313c2264001eda11f36407e6439e0e0a83a0e23d6d596dc6b8732e2",
+      "bytes": 2655462
+    },
+    "PhysRevB.97.019904.pdf": {
+      "sha256": "6a01d502e6fcee4547ac1115e898a1a98454b3fd971ad1ddd039421182aa0dd9",
+      "bytes": 99999
+    },
+    "fig1_published_page3.png": {
+      "sha256": "a16224d8967cb9b19a8c3c5ec5001b724fe2d5f31e5d63b66172e0681d78f722",
+      "bytes": 23620
+    }
+  },
+  "audit_status": "published Fig.1 and Appendix B inspected; 2018 erratum inspected",
+  "published_doi": "10.1103/PhysRevB.91.134411",
+  "erratum_doi": "10.1103/PhysRevB.97.019904",
+  "erratum_scope": "Fokker-Planck Eqs.7,A11,A13 and definitions15,16 corrected; Fig.1 settings and AppendixB target unchanged",
+  "extraction": {
+    "file": "fig1_published_page3.png",
+    "figure": "1",
+    "pdf_page_1based": 3,
+    "printed_page": "134411-3",
+    "method": "pdftoppm direct raster crop; no redrawing/digitization",
+    "command": "pdftoppm -f 3 -l 3 -singlefile -r 100 -x 430 -y 45 -W 395 -H 370 -png PhysRevB.91.134411.pdf fig1_published_page3",
+    "content": "Published plot plus partial caption. Full caption is in source PDF.",
+    "sha256": "a16224d8967cb9b19a8c3c5ec5001b724fe2d5f31e5d63b66172e0681d78f722"
+  },
+  "numerical_grid_note": "The YAML grid is a project validation grid, not extracted paper simulation points."
+}

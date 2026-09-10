@@ -1,0 +1,48 @@
+{
+  "independent_trajectories": 2,
+  "completed_events": 0,
+  "minimum_500_events_met": false,
+  "first_pass_observed": [
+    false,
+    false
+  ],
+  "first_pass_durations": [
+    0.2,
+    0.2
+  ],
+  "right_censored": 2,
+  "event_times": [
+    [],
+    []
+  ],
+  "basin_threshold": 0.8,
+  "dwell_reduced": 0.01,
+  "threshold_status": "explicit_operational_choice_not_basin_certification",
+  "saved_time_resolution": 0.05000000000000002,
+  "km_time": [
+    0.0
+  ],
+  "km_survival": [
+    1.0
+  ],
+  "km_pointwise_ci95": [
+    [
+      1.0
+    ],
+    [
+      1.0
+    ]
+  ],
+  "rmst_horizon": 0.2,
+  "rmst": 0.2,
+  "rmst_ci95": [
+    0.2,
+    0.2
+  ],
+  "unrestricted_mean_lifetime": null,
+  "mean_completed_recurrent_interval": null,
+  "completed_recurrent_interval_ci95": null,
+  "recurrent_warning": "Completed-interval mean is truncation-biased; not an unrestricted lifetime estimator.",
+  "bootstrap_unit": "whole_independent_trajectory",
+  "bootstrap_seed": 0
+}

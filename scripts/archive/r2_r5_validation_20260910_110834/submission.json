@@ -1,0 +1,92 @@
+{
+  "status": "submitted_not_monitored",
+  "jobs": {
+    "tests": {
+      "job_id": "669029",
+      "count": 1,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=zrs-mag",
+        "--partition=fat",
+        "--nodes=1",
+        "--ntasks=1",
+        "--cpus-per-task=1",
+        "--mem=16G",
+        "--time=2-00:00:00",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/r2_r5_validation_20260910_110834/tests_%A_%a.log",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/slurm/remaining_validation.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+        "tests"
+      ]
+    },
+    "gpu_check": {
+      "job_id": "669030",
+      "count": 1,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=zrs-mag",
+        "--partition=rtx4090",
+        "--nodes=1",
+        "--ntasks=1",
+        "--cpus-per-task=1",
+        "--mem=16G",
+        "--time=2-00:00:00",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/r2_r5_validation_20260910_110834/gpu_check_%A_%a.log",
+        "--gres=gpu:1",
+        "--dependency=afterok:669029",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/slurm/remaining_validation.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+        "gpu_check"
+      ]
+    },
+    "cpu": {
+      "job_id": "669031",
+      "count": 32,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=zrs-mag",
+        "--partition=fat",
+        "--nodes=1",
+        "--ntasks=1",
+        "--cpus-per-task=1",
+        "--mem=16G",
+        "--time=2-00:00:00",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/r2_r5_validation_20260910_110834/cpu_%A_%a.log",
+        "--dependency=afterok:669029",
+        "--array=0-31%4",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/slurm/remaining_validation.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+        "cpu"
+      ]
+    },
+    "gpu": {
+      "job_id": "669032",
+      "count": 33,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=zrs-mag",
+        "--partition=rtx4090",
+        "--nodes=1",
+        "--ntasks=1",
+        "--cpus-per-task=1",
+        "--mem=16G",
+        "--time=2-00:00:00",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/r2_r5_validation_20260910_110834/gpu_%A_%a.log",
+        "--gres=gpu:1",
+        "--dependency=afterok:669030",
+        "--array=0-32%2",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/slurm/remaining_validation.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+        "gpu"
+      ]
+    }
+  }
+}

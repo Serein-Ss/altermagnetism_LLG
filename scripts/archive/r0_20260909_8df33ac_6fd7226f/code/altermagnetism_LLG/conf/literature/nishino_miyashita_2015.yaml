@@ -1,0 +1,51 @@
+paper_id: nishino_miyashita_2015
+provenance:
+  doi: 10.1103/PhysRevB.91.134411
+  erratum_doi: 10.1103/PhysRevB.97.019904
+  target: Fig.1 and Appendix B5-B7
+  status: candidate_requires_R0_and_convergence
+source_parameters:
+  field_h: {value: 2.0, unit: dimensionless, source: Fig.1}
+  moment: {value: 1.0, unit: dimensionless, source: Fig.1}
+  alpha_A: {value: 0.05, unit: dimensionless, source: Fig.1}
+  D_B: {value: 1.0, unit: dimensionless, source: Fig.1}
+  uncertainty_note: Original benchmark settings, not measured parameter estimates.
+reduction:
+  convention: identity_in_paper_units_gamma_equals_kB_equals_M_equals_1
+  field_scale: 1
+  time_scale: 1
+  temperature_scale: 1
+reduced:
+  equation_convention: gilbert
+  model: free_moments
+  field_h: 2.0
+  moment: 1.0
+  alpha_A: 0.05
+  D_B: 1.0
+numerics:
+  paper_settings: {moments: 1000, dt: 0.005, total_steps: 80000, burn_steps: 40000}
+  numerical_choice:
+    theta_grid: [0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0]
+    grid_note: Validation grid within Fig.1 range; not digitized simulation points.
+    seed: 20260909
+    initial_state: positive_z
+    dtype: float64
+    save_every: 40
+    explicit_norm_policy: normalize_final_only_record_raw_predictor_and_final_errors
+    midpoint_tolerance: 1.0e-13
+    midpoint_iterations: 100
+  validation_extension:
+    repetitions: 10
+    convergence_repetitions: 4
+    factors: [1, 2, 4]
+    methods: [paper_midpoint, heun, geometric_midpoint]
+    mean_tolerance_abs: 0.01
+    convergence_tolerance_abs: 0.005
+    cdf_effect_tolerance: 0.05
+    confidence: 0.95
+    multiple_testing: Holm
+    norm_tolerance: 1.0e-10
+    noise_components: 1000000
+    timing_steps: 10000
+    walltime_margin: 1.5
+    production_enabled: false

@@ -1,5 +1,7 @@
 # GUIDE execution status — 2026-09-09
 
+> Historical submission record. Its old three-plan basis has been superseded by `GUIDE/STRICT_LITERATURE_REPRODUCTION_PLAN.md`. Current R0 workflow and artifact paths: [Literature reproduction](LITERATURE_REPRODUCTION.md). Old Nishino numerical outputs are subject to the new plan's explicit cleanup; this record is not a current pass certificate.
+
 The three GUIDE plans are **not fully implemented or completed**. This submission
 executes the prerequisite noise and free-moment integrator certification stage.
 No new production dataset or model-training job is submitted by this workflow.

@@ -1,0 +1,11 @@
+{
+  "afmr": [
+    {
+      "resolved": false,
+      "reason": "insufficient temporal samples or amplitude"
+    }
+  ],
+  "model": "AFM_LLB",
+  "certified": false,
+  "equilibrium_input": "published_fit_or_explicit_me_not_new_ASD_fit"
+}

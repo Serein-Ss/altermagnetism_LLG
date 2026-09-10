@@ -1,0 +1,60 @@
+paper_id: hirst_mn2au_2022
+provenance:
+  doi: 10.1103/PhysRevB.106.094402
+  target: published_Fig2_Fig3_Fig11
+  status: implemented_candidate_pending_numerical_and_reference_certification
+source_parameters:
+  J1: {value: -5.3422, unit: mRy, source: published_Table_I}
+  J2: {value: 0.6484, unit: mRy, source: published_Table_I}
+  J3: {value: -0.6341, unit: mRy, source: published_Table_I}
+  J4: {value: -6.8986, unit: mRy, source: published_Table_I}
+  J0_same: {value: 2.5934, unit: mRy, source: published_Table_I_rounded_sum}
+  J0_inter: {value: -30.8040, unit: mRy, source: published_Table_I}
+  d_z: {value: -0.0663, unit: mRy, source: published_Table_I}
+  d_x: {value: 0.0026, unit: mRy, source: published_Table_I}
+  a: {value: 3.330, unit: angstrom}
+  c: {value: 8.537, unit: angstrom}
+  moment: {value: 3.8663, unit: mu_B}
+  theta_300: {value: 300, unit: kelvin}
+  theta_1000: {value: 1000, unit: kelvin}
+  theta_1200: {value: 1200, unit: kelvin}
+  theta_TN: {value: 1335, unit: kelvin}
+  uncertainty_note: Quoted Table I values; no uncertainties supplied; exchange sums contain publication rounding.
+reduction:
+  energy_scale: {value: 30.8040, unit: mRy}
+  length: a
+  time: mu_ref/(gamma*E0); gamma_source_audit_required
+reduced:
+  equation_convention: gilbert
+  J1: -0.1734255292
+  J2: 0.0210492144
+  J3: -0.0205849890
+  J4: -0.2239514349
+  J0_same: 0.0841903649
+  J0_inter: -1.0
+  d_z: -0.0021523179
+  d_x: 0.0000844046
+  c_over_a: 2.5636636637
+  theta_300: 0.06168312355777964
+  theta_1000: 0.20561041185926549
+  theta_1200: 0.24673249423111857
+  theta_TN: 0.2744898998321194
+numerics:
+  paper_settings: {size: [30, 30, 30], equilibrium_lambda: 1.0, afmr_tilt_degrees: 20}
+  numerical_choice: {seed: 20260909}
+  validation_extension: {production_enabled: false}
+  protocols:
+    llb_smoke: {theta_key: theta_300, published_fit_exponent: 0.34, alpha: 0.01, tilt_degrees: 20, dt: 0.002, steps: 40, save_every: 10}
+    llb_afmr: {theta_key: theta_300, published_fit_exponent: 0.34, alpha: 0.01, tilt_degrees: 20, dt: 0.002, steps: 100000, save_every: 20}
+    smoke: {shape: [3, 3, 3], periodic: [true, true, true], batch: 2, theta_key: theta_300, alpha: 1.0, dt: 0.002, steps: 40, save_every: 10, seed: 20260910, method: heun_projected_predictor}
+    equilibrium: {shape: [30, 30, 30], periodic: [true, true, true], batch: 1, theta_key: theta_300, alpha: 1.0, dt: 0.002, steps: 200000, save_every: 100, discard_fraction: 0.5, seed: 20260910, method: heun_projected_predictor}
+    afmr: {shape: [30, 30, 30], periodic: [true, true, true], batch: 1, theta_key: theta_300, alpha: 0.01, tilt_degrees: 20, equilibration_steps: 200000, dt: 0.002, steps: 100000, save_every: 20, seed: 20260910, method: heun_projected_predictor}
+    wall: {shape: [1024, 4, 4], periodic: [false, true, true], batch: 1, theta: 0.0, alpha: 1.0, initial_width_cells: 40, dt: 0.002, steps: 200000, save_every: 2000, seed: 20260910, method: heun_projected_predictor}
+  implementation_notes:
+    topology: Published Fig.1 four-Mn conventional cell, J1-J4 displacement templates.
+    unresolved_metric: Internal Mn fractional z is not assumed; metric-dependent quantities beyond x-axis width need audited coordinates.
+    choices: Durations, dt, saved intervals and wall box are project choices requiring convergence.
+    damping: AFMR lambda 0.01 is one published scan value, not a verified Fig.3-specific value.
+
+
+

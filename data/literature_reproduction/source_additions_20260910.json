@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-10",
+  "sources": [
+    {
+      "paper_id": "hirst_mn2au_2022",
+      "file": "hirst_mn2au_2022/reference/PhysRevB.106.094402.pdf",
+      "url": "https://harvest.aps.org/v2/journals/articles/10.1103/PhysRevB.106.094402/fulltext",
+      "version": "published_PRB_106_094402",
+      "sha256": "07b328e72ab4bb3e7901c20f36926f11517fe0d3c89d8fd382fbb691720db1b2"
+    },
+    {
+      "paper_id": "gomonay_2024",
+      "file": "gomonay_2024/reference/Gomonay_2024_supplement.pdf",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs44306-024-00042-3/MediaObjects/44306_2024_42_MOESM1_ESM.pdf",
+      "version": "official_supplement",
+      "sha256": "f607a50d14e70d69fbe325e4aa680042dc5a1f09bdddc5df3765c5105e81f3af"
+    },
+    {
+      "paper_id": "bauer_2011",
+      "file": "bauer_2011/reference/Milstein_Tretyakov_1997.pdf",
+      "url": "https://www.maths.nottingham.ac.uk/plp/pmzmt/SINUM97.pdf",
+      "version": "author_hosted_published_article",
+      "sha256": "cf1f21df19e170a1b0c330bf60685306ae2c6c8e9d162ad7a29c9d16d68b2a5f"
+    }
+  ]
+}
+

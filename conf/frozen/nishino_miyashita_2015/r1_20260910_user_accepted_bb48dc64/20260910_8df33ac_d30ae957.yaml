@@ -1,0 +1,93 @@
+numerics:
+  acceptance_record:
+    path: output/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/user_acceptance_20260910.json
+    scope: reviewed convergence stationarity only; original fail preserved
+    sha256: b02c1dd14dda5fe8df6bcaa7484fd3d718fad40fa5206ca8dd18119ca1fab712
+  code_commit: 8df33aca80fa0b6dfe943804400398dad5d31470
+  code_sha256: 6fd7226f250d0baf38d7c65b4186d41376b6ef4cee88cca9aa6f2dfb23ee4b8d
+  numerical_choice:
+    dtype: float64
+    explicit_norm_policy: normalize_final_only_record_raw_predictor_and_final_errors
+    grid_note: Validation grid within Fig.1 range; not digitized simulation points.
+    initial_state: positive_z
+    midpoint_iterations: 100
+    midpoint_tolerance: 1.0e-13
+    save_every: 40
+    seed: 20260909
+    theta_grid:
+    - 0.5
+    - 1.0
+    - 1.5
+    - 2.0
+    - 2.5
+    - 3.0
+    - 3.5
+    - 4.0
+    - 4.5
+    - 5.0
+    - 5.5
+    - 6.0
+  paper_settings:
+    burn_steps: 40000
+    dt: 0.005
+    moments: 1000
+    total_steps: 80000
+  phase: primary
+  selected_factor: 1
+  validation_extension:
+    cdf_effect_tolerance: 0.05
+    confidence: 0.95
+    convergence_repetitions: 4
+    convergence_tolerance_abs: 0.005
+    factors:
+    - 1
+    - 2
+    - 4
+    mean_tolerance_abs: 0.01
+    methods:
+    - paper_midpoint
+    - heun
+    - geometric_midpoint
+    multiple_testing: Holm
+    noise_components: 1000000
+    norm_tolerance: 1.0e-10
+    production_enabled: false
+    repetitions: 10
+    timing_steps: 10000
+    walltime_margin: 1.5
+paper_id: nishino_miyashita_2015
+provenance:
+  doi: 10.1103/PhysRevB.91.134411
+  erratum_doi: 10.1103/PhysRevB.97.019904
+  status: candidate_requires_R0_and_convergence
+  target: Fig.1 and Appendix B5-B7
+reduced:
+  D_B: 1.0
+  alpha_A: 0.05
+  equation_convention: gilbert
+  field_h: 2.0
+  model: free_moments
+  moment: 1.0
+reduction:
+  convention: identity_in_paper_units_gamma_equals_kB_equals_M_equals_1
+  field_scale: 1
+  temperature_scale: 1
+  time_scale: 1
+source_parameters:
+  D_B:
+    source: Fig.1
+    unit: dimensionless
+    value: 1.0
+  alpha_A:
+    source: Fig.1
+    unit: dimensionless
+    value: 0.05
+  field_h:
+    source: Fig.1
+    unit: dimensionless
+    value: 2.0
+  moment:
+    source: Fig.1
+    unit: dimensionless
+    value: 1.0
+  uncertainty_note: Original benchmark settings, not measured parameter estimates.

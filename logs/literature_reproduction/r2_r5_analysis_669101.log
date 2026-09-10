@@ -1,0 +1,75 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+Analyzing 0 bauer_2011 trajectory
+Analyzing 1 bauer_2011 trajectory
+Analyzing 2 bauer_2011 trajectory
+Analyzing 3 bauer_2011 trajectory
+Analyzing 4 bauer_2011 trajectory
+Analyzing 5 bauer_2011 trajectory
+Analyzing 6 bauer_2011 trajectory
+Analyzing 7 bauer_2011 trajectory
+Analyzing 8 bauer_2011 trajectory
+Analyzing 9 hirst_mn2au_2022 llb_afmr
+Analyzing 10 hirst_mn2au_2022 llb_afmr
+Analyzing 11 hirst_mn2au_2022 llb_afmr
+Analyzing 12 hirst_mn2au_2022 llb_afmr
+Analyzing 13 hirst_mn2au_2022 llb_afmr
+Analyzing 14 hirst_mn2au_2022 llb_afmr
+Analyzing 15 hirst_mn2au_2022 llb_afmr
+Analyzing 16 hirst_mn2au_2022 llb_afmr
+Analyzing 17 hirst_mn2au_2022 llb_afmr
+Analyzing 18 laliena_crnb3s6_2020 branch
+Analyzing 19 laliena_crnb3s6_2020 branch
+Analyzing 20 laliena_crnb3s6_2020 branch
+Analyzing 21 laliena_crnb3s6_2020 branch
+Analyzing 22 laliena_crnb3s6_2020 branch
+Analyzing 23 laliena_crnb3s6_2020 helix
+Analyzing 24 laliena_crnb3s6_2020 helix
+Analyzing 25 laliena_crnb3s6_2020 helix
+Analyzing 26 laliena_crnb3s6_2020 current
+Analyzing 27 laliena_crnb3s6_2020 current
+Analyzing 28 laliena_crnb3s6_2020 current
+Analyzing 29 laliena_crnb3s6_2020 current
+Analyzing 30 laliena_crnb3s6_2020 current
+Analyzing 31 laliena_crnb3s6_2020 current
+Analyzing 32 hirst_mn2au_2022 equilibrium
+Analyzing 33 hirst_mn2au_2022 equilibrium
+Analyzing 34 hirst_mn2au_2022 equilibrium
+Analyzing 35 hirst_mn2au_2022 equilibrium
+Analyzing 36 hirst_mn2au_2022 equilibrium
+Analyzing 37 hirst_mn2au_2022 afmr
+Analyzing 38 hirst_mn2au_2022 afmr
+Analyzing 39 hirst_mn2au_2022 afmr
+Analyzing 40 hirst_mn2au_2022 wall
+Analyzing 41 hirst_mn2au_2022 wall
+Analyzing 42 hirst_mn2au_2022 wall
+Analyzing 43 gomonay_2024 spinwave
+Analyzing 44 gomonay_2024 spinwave
+Analyzing 45 gomonay_2024 spinwave
+Analyzing 46 gomonay_2024 spinwave
+Analyzing 47 gomonay_2024 spinwave
+Analyzing 48 gomonay_2024 spinwave
+Analyzing 49 gomonay_2024 control
+Analyzing 50 gomonay_2024 control
+Analyzing 51 gomonay_2024 control
+Analyzing 52 gomonay_2024 control
+Analyzing 53 gomonay_2024 control
+Analyzing 54 gomonay_2024 control
+Analyzing 55 gomonay_2024 spinwave
+Analyzing 56 gomonay_2024 spinwave
+Analyzing 57 gomonay_2024 spinwave
+Analyzing 58 gomonay_2024 spinwave
+Analyzing 59 gomonay_2024 wall
+Analyzing 60 gomonay_2024 wall
+Analyzing 61 gomonay_2024 wall
+Analyzing 62 gomonay_2024 moving_wall
+Analyzing 63 gomonay_2024 moving_wall
+Analyzing 64 gomonay_2024 moving_wall
+Traceback (most recent call last):
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/analysis/analyze_remaining_validation.py", line 226, in <module>
+    if __name__=='__main__':main()
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/analysis/analyze_remaining_validation.py", line 218, in main
+    write(out/'manifest.json',dict(analysis_id=args.analysis_id,campaign=str(args.campaign.relative_to(ROOT)),
+  File "/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/pathlib.py", line 818, in relative_to
+    raise ValueError("{!r} is not in the subpath of {!r}"
+ValueError: 'scripts/archive/r2_r5_validation_20260910_110834' is not in the subpath of '/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG' OR one path is relative and the other is absolute.

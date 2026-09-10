@@ -1,0 +1,66 @@
+{
+  "task": {
+    "paper": "gomonay_2024",
+    "protocol": "spinwave",
+    "pool": "gpu",
+    "overrides": {
+      "shape": [
+        32,
+        32
+      ],
+      "wavevectors": [
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "dt": 0.005,
+      "steps": 40000,
+      "save_every": 20
+    },
+    "index": 55,
+    "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/055.yaml",
+    "config_sha256": "7beb99954ac7365c5795e913d7fc28f063147657923e546b6d7839a643ed3138",
+    "run_id": "20260910_110834_validation_055",
+    "parameters": {
+      "wavevectors": [
+        [
+          0.5,
+          0.5
+        ]
+      ],
+      "shape": [
+        32,
+        32
+      ],
+      "periodic": [
+        true,
+        true
+      ],
+      "orientation": "100",
+      "batch": 1,
+      "alpha": 0.0,
+      "dt": 0.005,
+      "steps": 40000,
+      "save_every": 20,
+      "seed": 20260910,
+      "method": "rk4",
+      "field_amplitude": 0.001,
+      "field_direction": [
+        1,
+        0,
+        0
+      ],
+      "wavevector_cutoff": [
+        0.5,
+        0.5
+      ],
+      "frequency_cutoff": 2.0,
+      "pulse_center": 100.0
+    }
+  },
+  "elapsed_seconds": 258.2670475207269,
+  "campaign": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+  "slurm_job_id": "669087",
+  "result": "simulation_complete_pending_scientific_analysis"
+}

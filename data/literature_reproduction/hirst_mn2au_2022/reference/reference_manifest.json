@@ -1,0 +1,10 @@
+{
+  "paper_id": "hirst_mn2au_2022",
+  "provenance": {
+    "doi": "10.1103/PhysRevB.106.094402",
+    "target": "published_Fig2_Fig3_Fig11",
+    "status": "blocked_exact_3D_neighbor_displacements_missing"
+  },
+  "files": {},
+  "audit_status": "candidate_only; full paper-specific audit remains required"
+}

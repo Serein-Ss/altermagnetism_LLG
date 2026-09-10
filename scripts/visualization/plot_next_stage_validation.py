@@ -11,14 +11,14 @@ import numpy as np
 
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
-from altermagnetism_LLG.scripts.core.project_paths import asset_path
+from altermagnetism_LLG.scripts.core.project_paths import asset_path, resolve_recorded_path
 
 
 ROOT = Path(__file__).resolve().parents[2]
 HELIX_DIR = ROOT / "data" / "literature" / "noncollinear_validation" / "crnb3s6"
 CHAIN_FILE = ROOT / "data" / "literature" / "path_literature_validation" / "bauer2011_accelerated_pilot_paths.h5"
 MECHANISM_FILE = CHAIN_FILE.with_name(CHAIN_FILE.stem + "_mechanisms.npz")
-OUTPUT = ROOT / "assets" / "literature" / "next_stage_validation" / "literature_path_validation.png"
+OUTPUT = ROOT / "assets/literature_reproduction/cross_paper_legacy/legacy_manual/figures/literature_path_validation.png"
 
 
 def representative(labels: np.ndarray, name: str) -> int:
@@ -40,16 +40,16 @@ def main() -> None:
             "legend.frameon": False,
         }
     )
-    helix = np.load(HELIX_DIR / "helix_trajectory.npz")
-    helix_metrics = json.loads((HELIX_DIR / "validation.json").read_text())
+    helix = np.load(resolve_recorded_path(HELIX_DIR / "helix_trajectory.npz"))
+    helix_metrics = json.loads(resolve_recorded_path(HELIX_DIR / "validation.json").read_text())
     final_spin = helix["spins"][-1, 0, :, 0]
     position = np.arange(len(final_spin)) * 0.6
 
-    mechanisms = np.load(MECHANISM_FILE)
+    mechanisms = np.load(resolve_recorded_path(MECHANISM_FILE))
     labels = mechanisms["bauer_chain_outcome"]
     success = representative(labels, "negative_endpoint")
     returned = representative(labels, "crossing_return")
-    with h5py.File(CHAIN_FILE, "r") as h5:
+    with h5py.File(resolve_recorded_path(CHAIN_FILE), "r") as h5:
         chain_time = h5["time"][:]
         local_z = h5["spins"][:, :, 0, :, 0, 2]
 

@@ -1,0 +1,9 @@
+case=A theta=5.5 repeat=6 step=10000/80000
+case=A theta=5.5 repeat=6 step=20000/80000
+case=A theta=5.5 repeat=6 step=30000/80000
+case=A theta=5.5 repeat=6 step=40000/80000
+case=A theta=5.5 repeat=6 step=50000/80000
+case=A theta=5.5 repeat=6 step=60000/80000
+case=A theta=5.5 repeat=6 step=70000/80000
+case=A theta=5.5 repeat=6 step=80000/80000
+{"output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260910_8df33ac_d30ae957.partial/task_0106.h5", "elapsed_seconds": 74.19659956172109, "formal_settings": true, "data_sha256": "db5c34e3fa129e62823aeafe0e9743a5e9d8fe39f5498a2bde1ee5219a71cdd5"}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-10",
+  "job_id": "669026",
+  "job_name": "zrs-mag",
+  "partition": "fat",
+  "cpus": 20,
+  "memory_GiB": 64,
+  "time_limit": "12:00:00",
+  "scope": "R1 Nishino primary only; no convergence rerun",
+  "tasks": 240,
+  "acceptance_record": "output/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/user_acceptance_20260910.json",
+  "solver_snapshot": "scripts/archive/r0_20260909_8df33ac_6fd7226f",
+  "log": "logs/literature_reproduction/r1_669026.log",
+  "next_stage": "R2 Bauer requires dedicated implementation, source-point audit and convergence; not yet submitted",
+  "monitoring_policy": "One acceptance check only; wait for user completion notification."
+}

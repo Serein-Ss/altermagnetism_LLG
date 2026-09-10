@@ -1,0 +1,73 @@
+{
+  "run_id": "20260910_8df33ac_060e74d3",
+  "stage": "R2_preflight",
+  "strict_reproduction": false,
+  "production_enabled": false,
+  "config_sha256": "060e74d34e6ffae491a6d4dda589065a04462b993fa11c27e0ae90a735d352e1",
+  "code_sha256": {
+    "scripts/core/reduced_llg.py": "2ff329d2c13fcc51343934d09b3fbc63599de79d1ec8d5704da733e2f9d08440",
+    "scripts/core/literature_config.py": "80fe7801098901168503c417761356f08cdd07c44e68f6ce633ca748578a6fa7",
+    "scripts/literature/bauer_2011/model.py": "eda7c2d2e50e88a290e52d1b81ddca21bb2fabd54ac8800b67a21ec670e524ad",
+    "scripts/literature/bauer_2011/preflight.py": "45cea20b5f43f7a557a00d6d97eb2f1d12b2f67de272536cae0e4e14135b96fb"
+  },
+  "code_commit": "8df33aca80fa0b6dfe943804400398dad5d31470",
+  "device": "cpu",
+  "dtype": "float64",
+  "seed": 20260909,
+  "coarse_steps": 10000,
+  "coarse_dt": 0.02,
+  "reduced": {
+    "equation_convention": "bauer_ll",
+    "exchange": 1.0,
+    "anisotropy": 0.1,
+    "theta": 0.11,
+    "alpha": 0.1
+  },
+  "numerics": {
+    "paper_settings": {
+      "length": 100,
+      "duration": 750000,
+      "boundary": "open"
+    },
+    "numerical_choice": {
+      "dt_scan": [
+        0.02,
+        0.01,
+        0.005
+      ],
+      "seed": 20260909
+    },
+    "validation_extension": {
+      "minimum_completed_events": 500,
+      "production_enabled": false
+    },
+    "preflight_choice": {
+      "coarse_steps": 10000,
+      "independent_chains": 8,
+      "save_every": 100,
+      "method": "heun",
+      "scope": "software_and_timing_only_not_lifetime_convergence"
+    }
+  },
+  "elapsed_seconds": 53.61886066943407,
+  "integration_note": "Heun is a project diagnostic choice, not the paper weak Runge-Kutta algorithm.",
+  "remaining": [
+    "audit/implement paper weak RK or independently justify alternative",
+    "long-time step convergence",
+    "source length/temperature points",
+    "at least 500 completed reversal events per condition"
+  ],
+  "static_checks": {
+    "status": "pass",
+    "field_autograd_max_abs": 2.220446049250313e-16,
+    "open_bonds": 6,
+    "ground_energy": -6.7,
+    "ground_torque": 0.0,
+    "scope": "open-chain Hamiltonian and collinear static state only; no dynamical certification"
+  },
+  "software_status": "pass",
+  "physical_certification": "not_evaluated",
+  "raw_sha256": "cbd39d9b15b6f04b294762d101e39b82fda0a4c8deb3722b940bbc36a33dca65",
+  "full_duration_estimate_seconds": 201070.72751037776,
+  "estimate_note": "Same chain batch and three coupled dt variants only; excludes lifetime-condition and event-count expansion"
+}

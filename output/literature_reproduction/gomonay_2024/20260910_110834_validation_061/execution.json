@@ -1,0 +1,43 @@
+{
+  "task": {
+    "paper": "gomonay_2024",
+    "protocol": "wall",
+    "pool": "gpu",
+    "overrides": {
+      "shape": [
+        512,
+        8
+      ],
+      "dt": 0.00125,
+      "steps": 160000,
+      "save_every": 800
+    },
+    "index": 61,
+    "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/061.yaml",
+    "config_sha256": "122ecf62b9b740986d023adb08bb20096ef970cedc0b9430c67004ed240dd42c",
+    "run_id": "20260910_110834_validation_061",
+    "parameters": {
+      "shape": [
+        512,
+        8
+      ],
+      "periodic": [
+        false,
+        true
+      ],
+      "orientation": "110",
+      "batch": 1,
+      "alpha": 0.75,
+      "velocity": 0.0,
+      "dt": 0.00125,
+      "steps": 160000,
+      "save_every": 800,
+      "seed": 20260910,
+      "method": "rk4"
+    }
+  },
+  "elapsed_seconds": 2526.9233646318316,
+  "campaign": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+  "slurm_job_id": "669093",
+  "result": "simulation_complete_pending_scientific_analysis"
+}

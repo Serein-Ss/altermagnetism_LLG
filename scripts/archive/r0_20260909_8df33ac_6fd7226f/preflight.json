@@ -1,0 +1,208 @@
+{
+  "status": "pass",
+  "input_sha256": "96a41ea93a1458adb650dd5b858fb663b7090d81761013d38b5c221df28031e9",
+  "regression_output": "........................................................................ [100%]\n72 passed, 237 warnings in 8.26s\n",
+  "regression_stderr": "",
+  "timing": [
+    {
+      "path": "data/literature_reproduction/nishino_miyashita_2015/raw/preflight_20260909_timing.partial/task_0000.h5",
+      "sha256": "16a142cf45307052f72811b6e25840f97c6076d4bfb418427fed6ebf6e6088c7",
+      "metadata": {
+        "case": "A",
+        "theta_index": 0,
+        "theta": 0.5,
+        "repeat": 0,
+        "seed": 43059416493955811,
+        "phase": "convergence",
+        "alpha": 0.05,
+        "D": 0.025,
+        "dt": 0.005,
+        "total_steps": 10000,
+        "burn_steps": 5000,
+        "moments": 1000,
+        "save_every": 1250,
+        "device": "cpu",
+        "dtype": "float64",
+        "rng": "torch.Generator independent components, SHA256 task seed",
+        "elapsed_seconds": 231.25755671039224,
+        "formal_settings": false,
+        "equation_convention": "gilbert",
+        "unit_system": "reduced",
+        "numerics": {
+          "paper_settings": {
+            "moments": 1000,
+            "dt": 0.005,
+            "total_steps": 80000,
+            "burn_steps": 40000
+          },
+          "numerical_choice": {
+            "theta_grid": [
+              0.5,
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5,
+              5.0,
+              5.5,
+              6.0
+            ],
+            "grid_note": "Validation grid within Fig.1 range; not digitized simulation points.",
+            "seed": 20260909,
+            "initial_state": "positive_z",
+            "dtype": "float64",
+            "save_every": 40,
+            "explicit_norm_policy": "normalize_final_only_record_raw_predictor_and_final_errors",
+            "midpoint_tolerance": 1e-13,
+            "midpoint_iterations": 100
+          },
+          "validation_extension": {
+            "repetitions": 10,
+            "convergence_repetitions": 4,
+            "factors": [
+              1,
+              2,
+              4
+            ],
+            "methods": [
+              "paper_midpoint",
+              "heun",
+              "geometric_midpoint"
+            ],
+            "mean_tolerance_abs": 0.01,
+            "convergence_tolerance_abs": 0.005,
+            "cdf_effect_tolerance": 0.05,
+            "confidence": 0.95,
+            "multiple_testing": "Holm",
+            "norm_tolerance": 1e-10,
+            "noise_components": 1000000,
+            "timing_steps": 10000,
+            "walltime_margin": 1.5,
+            "production_enabled": false
+          }
+        },
+        "reduced": {
+          "equation_convention": "gilbert",
+          "model": "free_moments",
+          "field_h": 2.0,
+          "moment": 1.0,
+          "alpha_A": 0.05,
+          "D_B": 1.0
+        },
+        "config_sha256": "96a41ea93a1458adb650dd5b858fb663b7090d81761013d38b5c221df28031e9",
+        "run_id": "preflight_20260909_timing",
+        "code_commit": "unfrozen",
+        "code_sha256": "unfrozen"
+      }
+    },
+    {
+      "path": "data/literature_reproduction/nishino_miyashita_2015/raw/preflight_20260909_timing_b.partial/task_0048.h5",
+      "sha256": "353ad8bd963318fd910077da1c535045d27bd3e59570a6b0a88989b04c0fb570",
+      "metadata": {
+        "case": "B",
+        "theta_index": 0,
+        "theta": 0.5,
+        "repeat": 0,
+        "seed": 19683978269864351,
+        "phase": "convergence",
+        "alpha": 2.0,
+        "D": 1.0,
+        "dt": 0.005,
+        "total_steps": 10000,
+        "burn_steps": 5000,
+        "moments": 1000,
+        "save_every": 1250,
+        "device": "cpu",
+        "dtype": "float64",
+        "rng": "torch.Generator independent components, SHA256 task seed",
+        "elapsed_seconds": 277.8499652631581,
+        "formal_settings": false,
+        "equation_convention": "gilbert",
+        "unit_system": "reduced",
+        "numerics": {
+          "paper_settings": {
+            "moments": 1000,
+            "dt": 0.005,
+            "total_steps": 80000,
+            "burn_steps": 40000
+          },
+          "numerical_choice": {
+            "theta_grid": [
+              0.5,
+              1.0,
+              1.5,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5,
+              5.0,
+              5.5,
+              6.0
+            ],
+            "grid_note": "Validation grid within Fig.1 range; not digitized simulation points.",
+            "seed": 20260909,
+            "initial_state": "positive_z",
+            "dtype": "float64",
+            "save_every": 40,
+            "explicit_norm_policy": "normalize_final_only_record_raw_predictor_and_final_errors",
+            "midpoint_tolerance": 1e-13,
+            "midpoint_iterations": 100
+          },
+          "validation_extension": {
+            "repetitions": 10,
+            "convergence_repetitions": 4,
+            "factors": [
+              1,
+              2,
+              4
+            ],
+            "methods": [
+              "paper_midpoint",
+              "heun",
+              "geometric_midpoint"
+            ],
+            "mean_tolerance_abs": 0.01,
+            "convergence_tolerance_abs": 0.005,
+            "cdf_effect_tolerance": 0.05,
+            "confidence": 0.95,
+            "multiple_testing": "Holm",
+            "norm_tolerance": 1e-10,
+            "noise_components": 1000000,
+            "timing_steps": 10000,
+            "walltime_margin": 1.5,
+            "production_enabled": false
+          }
+        },
+        "reduced": {
+          "equation_convention": "gilbert",
+          "model": "free_moments",
+          "field_h": 2.0,
+          "moment": 1.0,
+          "alpha_A": 0.05,
+          "D_B": 1.0
+        },
+        "config_sha256": "96a41ea93a1458adb650dd5b858fb663b7090d81761013d38b5c221df28031e9",
+        "run_id": "preflight_20260909_timing_b",
+        "code_commit": "unfrozen",
+        "code_sha256": "unfrozen"
+      }
+    }
+  ],
+  "noise_gate_path": "output/literature_reproduction/nishino_miyashita_2015/preflight_20260909/noise_gate.json",
+  "noise_gate_sha256": "ae7409997e36318b31a3311b6768064973524ea3a39aa982d1ed2b5622077fac",
+  "resource_estimate": {
+    "workers": 20,
+    "memory_GiB": 64,
+    "walltime_minutes": 975,
+    "timing_seconds_worst": 277.8499652631581,
+    "convergence_tasks": 96,
+    "conditional_primary_tasks": 240,
+    "assumption": "10000 coarse steps of all three methods and all three dt factors; primary deliberately overestimated",
+    "node_partition": "fat"
+  }
+}

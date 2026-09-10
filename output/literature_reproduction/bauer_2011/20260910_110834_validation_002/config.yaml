@@ -1,0 +1,74 @@
+paper_id: bauer_2011
+provenance:
+  doi: 10.1088/0953-8984/23/39/394204
+  target: original-condition reversal and lifetime scaling
+  status: implemented_candidate_pending_numerical_and_reference_certification
+source_parameters:
+  exchange:
+    value: 1.0
+    unit: dimensionless
+    source: J_reference
+  anisotropy:
+    value: 0.1
+    unit: dimensionless
+    source: K/J
+  theta:
+    value: 0.11
+    unit: dimensionless
+    source: kBT/J
+  alpha:
+    value: 0.1
+    unit: dimensionless
+    source: lambda_LL_not_Gilbert_alpha
+  uncertainty_note: Paper model settings; no measured uncertainty supplied.
+reduction:
+  energy: J
+  time: hbar/J
+  temperature: kBT/J
+reduced:
+  equation_convention: bauer_ll
+  exchange: 1.0
+  anisotropy: 0.1
+  theta: 0.11
+  alpha: 0.1
+numerics:
+  paper_settings:
+    length: 100
+    duration: 750000
+    boundary: open
+  numerical_choice:
+    dt_scan:
+    - 0.02
+    - 0.01
+    - 0.005
+    seed: 20260909
+  validation_extension:
+    minimum_completed_events: 500
+    production_enabled: false
+    validation_protocols:
+    - trajectory
+    campaign_kind: bounded_numerical_validation_not_paper_reproduction
+  preflight_choice:
+    coarse_steps: 10000
+    independent_chains: 8
+    save_every: 100
+    method: heun
+    scope: software_and_timing_only_not_lifetime_convergence
+  protocols:
+    trajectory:
+      length: 100
+      batch: 32
+      dt: 0.005
+      steps: 40000
+      save_every: 200
+      seed: 20260910
+      method: milstein_tretyakov_5_9
+      project: true
+  implementation_notes:
+    integrator: Milstein-Tretyakov 1997 Eq 5.9 weak RK with Eq 4.5/4.6 discrete draws;
+      final projection is an explicit project extension; Heun remains for common-Wiener
+      comparisons.
+    trajectory: Paper duration 750000; saved interval 10 is a numerical choice requiring
+      event-resolution convergence.
+    parameter_grid: Additional paper length and temperature points must be supplied
+      with digitization provenance.

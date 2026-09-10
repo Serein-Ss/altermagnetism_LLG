@@ -1,0 +1,31 @@
+{
+  "task": {
+    "paper": "laliena_crnb3s6_2020",
+    "protocol": "current",
+    "pool": "cpu",
+    "overrides": {
+      "u": 0.0
+    },
+    "index": 29,
+    "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/029.yaml",
+    "config_sha256": "8c7b35a508d4c50ef21f26b1a400673fac1e55053f38d0cc1c3316aeedf1b008",
+    "run_id": "20260910_110834_validation_029",
+    "parameters": {
+      "sites": 480,
+      "batch": 1,
+      "dx": 0.12992957746478873,
+      "u": 0.0,
+      "extent": 32.0,
+      "points": 601,
+      "dt": 5e-05,
+      "steps": 2000000,
+      "save_every": 1000,
+      "seed": 20260910,
+      "method": "heun_projected_predictor"
+    }
+  },
+  "elapsed_seconds": 2290.633871920407,
+  "campaign": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+  "slurm_job_id": "669070",
+  "result": "simulation_complete_pending_scientific_analysis"
+}

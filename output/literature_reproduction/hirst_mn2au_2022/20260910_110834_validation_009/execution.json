@@ -1,0 +1,30 @@
+{
+  "task": {
+    "paper": "hirst_mn2au_2022",
+    "protocol": "llb_afmr",
+    "pool": "cpu",
+    "overrides": {
+      "theta_key": "theta_300",
+      "dt": 0.002,
+      "steps": 100000,
+      "save_every": 50
+    },
+    "index": 9,
+    "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/009.yaml",
+    "config_sha256": "f71ab0bcbfc2053570d3abf15f96b7109f5e2299fd9ecd2e3c511e8f3cd3ca69",
+    "run_id": "20260910_110834_validation_009",
+    "parameters": {
+      "theta_key": "theta_300",
+      "published_fit_exponent": 0.34,
+      "alpha": 0.01,
+      "tilt_degrees": 20,
+      "dt": 0.002,
+      "steps": 100000,
+      "save_every": 50
+    }
+  },
+  "elapsed_seconds": 74.00630231574178,
+  "campaign": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+  "slurm_job_id": "669044",
+  "result": "simulation_complete_pending_scientific_analysis"
+}

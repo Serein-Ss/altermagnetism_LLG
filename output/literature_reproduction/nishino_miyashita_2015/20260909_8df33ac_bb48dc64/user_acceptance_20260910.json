@@ -1,0 +1,30 @@
+{
+  "record_type": "post_result_user_disposition_not_statistical_pass",
+  "date": "2026-09-10",
+  "user_instruction": "那就先按照当前的标准进行记录，然后认为这一步已经处于预期之内，然后再执行后面的任务",
+  "original_status": "fail",
+  "disposition": "accepted_with_deviation",
+  "source_report": "output/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/report.json",
+  "source_report_sha256": "ca2adeadc6355cf2d7df7bab01f6b3b9b9334109b311557ee300c0d9c7034ad2",
+  "resume_script_sha256": "f5ac9e67d4e69f906a526a3a4a817e9d690438dab1486871c6a7357736507a3f",
+  "continuation_id": "r1_20260910_user_accepted_bb48dc64",
+  "accepted_deviation": {
+    "case": "A",
+    "theta": 2.0,
+    "metric": "stationarity_check",
+    "conditions": 9,
+    "original_tolerance_abs": 0.01,
+    "representative_abs_difference": 0.006612353233306102,
+    "representative_ci95_halfwidth": 0.0067397271008213765,
+    "interpretation": "User accepts the reviewed deviation as within expectations; equivalence remains unproven under the unchanged criterion."
+  },
+  "unchanged_checks": ["mean_vs_exact", "terminal_CDF", "spin_norm", "paired_timestep_convergence"],
+  "selected_factor": 1,
+  "selected_dt": 0.005,
+  "selection_reason": "Largest tested step satisfies paired convergence and equilibrium checks; reviewed supplementary stationarity deviation explicitly accepted by user.",
+  "next_action": "R1 Nishino case A/B primary: 12 temperatures per case, 10 repeats, 240 tasks; original duration and moments unchanged",
+  "future_failures_automatically_waived": false,
+  "other_papers_require_their_own_validation": true,
+  "training_dataset_production_enabled": false,
+  "pre_submission_tests_passed": 22
+}

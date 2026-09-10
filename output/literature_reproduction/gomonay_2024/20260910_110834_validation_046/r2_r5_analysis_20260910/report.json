@@ -1,0 +1,152 @@
+{
+  "index": 46,
+  "paper": "gomonay_2024",
+  "run_id": "20260910_110834_validation_046",
+  "protocol": "spinwave",
+  "parameters": {
+    "wavevectors": [
+      [
+        -0.5,
+        0.5
+      ]
+    ],
+    "shape": [
+      64,
+      64
+    ],
+    "periodic": [
+      true,
+      true
+    ],
+    "orientation": "100",
+    "batch": 1,
+    "alpha": 0.0,
+    "dt": 0.005,
+    "steps": 40000,
+    "save_every": 20,
+    "seed": 20260910,
+    "method": "rk4",
+    "field_amplitude": 0.001,
+    "field_direction": [
+      1,
+      0,
+      0
+    ],
+    "wavevector_cutoff": [
+      0.5,
+      0.5
+    ],
+    "frequency_cutoff": 2.0,
+    "pulse_center": 100.0
+  },
+  "production_certified": false,
+  "raw_sha256": {
+    "trajectory.h5": "76762817935352eae3e0ef7dec143f3b3318513ef3a68e070053ca1c85700b94"
+  },
+  "configuration_sha256": "4763da0b17faf3d285c141d5cae3c69f87c8bf9221bf242540edbcebd1a37d4d",
+  "saved_frames": 2001,
+  "duration": 200.0,
+  "finite": true,
+  "max_saved_norm_error": 2.220446049250313e-16,
+  "projection_predictor_error_saved": false,
+  "norm_gate": "pass",
+  "energy": {
+    "initial": [
+      -2.338738738738739
+    ],
+    "final": [
+      -2.338738737431629
+    ],
+    "maximum_saved_increase": [
+      6.06221739474222e-10
+    ],
+    "relative_excursion": [
+      6.081690261820668e-10
+    ]
+  },
+  "spectral_peaks": [
+    {
+      "k": [
+        1.5707963267948966,
+        0.0
+      ],
+      "positive_peak": 3.3284240008047776,
+      "negative_peak": -3.3284240008047776,
+      "signed_splitting": 0.0,
+      "predicted_branches": [
+        3.290084169596915,
+        3.290084169596915
+      ],
+      "unordered_max_abs_error": 0.03833983120786266,
+      "peak_power": [
+        1.4911994531543052e-37,
+        2.299192838245137e-37
+      ],
+      "power_fraction": 1.4974564916692871e-33,
+      "note": "Global maxima in each frequency half-plane, no reference-guided peak selection; weakly excited modes not certified."
+    },
+    {
+      "k": [
+        0.0,
+        1.5707963267948966
+      ],
+      "positive_peak": 3.2970237743820916,
+      "negative_peak": -3.2656235479594047,
+      "signed_splitting": 0.03140022642268692,
+      "predicted_branches": [
+        3.290084169596915,
+        3.290084169596915
+      ],
+      "unordered_max_abs_error": 0.024460621637510283,
+      "peak_power": [
+        4.976456219148643e-37,
+        3.5762430579595657e-37
+      ],
+      "power_fraction": 2.949391333564162e-33,
+      "note": "Global maxima in each frequency half-plane, no reference-guided peak selection; weakly excited modes not certified."
+    },
+    {
+      "k": [
+        1.5707963267948966,
+        1.5707963267948966
+      ],
+      "positive_peak": 4.4902323784441815,
+      "negative_peak": -3.9250283028358233,
+      "signed_splitting": 0.5652040756083583,
+      "predicted_branches": [
+        4.516620767210572,
+        3.9400441906339956
+      ],
+      "unordered_max_abs_error": 0.02638838876639049,
+      "peak_power": [
+        9.156333570367018e-38,
+        3.962229752310219e-37
+      ],
+      "power_fraction": 2.102678211277328e-33,
+      "note": "Global maxima in each frequency half-plane, no reference-guided peak selection; weakly excited modes not certified."
+    },
+    {
+      "k": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "positive_peak": 3.9250283028358233,
+      "negative_peak": -4.521632604866868,
+      "signed_splitting": -0.5966043020310448,
+      "predicted_branches": [
+        3.9400441906339956,
+        4.516620767210572
+      ],
+      "unordered_max_abs_error": 0.015015887798172312,
+      "peak_power": [
+        2.427891756295844e-06,
+        2.6421718326396198e-06
+      ],
+      "power_fraction": 0.014934410056109675,
+      "note": "Global maxima in each frequency half-plane, no reference-guided peak selection; weakly excited modes not certified."
+    }
+  ],
+  "frequency_bin": 0.031400226422686583,
+  "nyquist": 31.415926535890787,
+  "reference_type": "Internal analytic formula; external digitized curve comparison still missing."
+}

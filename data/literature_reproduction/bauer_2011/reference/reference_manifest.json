@@ -1,0 +1,15 @@
+{
+  "paper_id": "bauer_2011",
+  "provenance": {
+    "doi": "10.1088/0953-8984/23/39/394204",
+    "target": "original-condition reversal and lifetime scaling",
+    "status": "blocked_R0_R1_and_reference_point_audit"
+  },
+  "files": {
+    "bauer_2011_magnetic_chain.pdf": {
+      "sha256": "a9b48a010455ed927744fd3c387ffe1f76c356d17e8e3bffb946ea0401122d04",
+      "bytes": 411369
+    }
+  },
+  "audit_status": "candidate_only; full paper-specific audit remains required"
+}
