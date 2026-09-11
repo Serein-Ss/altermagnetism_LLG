@@ -5,35 +5,35 @@
 ## 1. 研究命题
 
 研究对象是有限温、无外场磁性体系的条件路径分布
-\[
+$
 p_\theta[\mathbf S_{0:T}|\mathbf S_0,\mathcal H,T,\alpha,G],
-\]
-其中 \(\mathbf S_i\in\mathbb S^2\)，\(\mathcal H\) 是交换、各向异性和邻接，\(G\) 是尺寸、边界、子晶格和晶向。模型必须表达进动、阻尼和热噪声造成的路径分支，而不是只拟合平均轨迹或末态。
+$
+其中 $\mathbf S_i\in\mathbb S^2$，$\mathcal H$ 是交换、各向异性和邻接，$G$ 是尺寸、边界、子晶格和晶向。模型必须表达进动、阻尼和热噪声造成的路径分支，而不是只拟合平均轨迹或末态。
 
 随机初态和独立平衡初态是两个实验层。非平衡实验从解析、随机、纹理或畴壁初态出发；平衡实验从同温长链抽取多个初态，再对每个精确复制的初态使用独立 Wiener 噪声。训练和测试按初态 ID、噪声复制 ID 和条件块分组，禁止随机切帧造成泄漏。
 
 ## 2. 物理模型
 
 统一哈密顿量为
-\[
+$
 H=-\sum_{(i,j)\in E}J_{ij}\mathbf S_i\cdot\mathbf S_j-K\sum_i(S_i^z)^2-\sum_i\mathbf B_{ext}\cdot\mathbf S_i.
-\]
-新研究数据强制 \(\mathbf B_{ext}=0\)、SOT=0、STT=0、电流=0。文献目录可以保留原论文需要的驱动，但必须与 `zero_field_paths` 分目录和 manifest。有效场 \(\mathbf b_i=\sum_jJ_{ij}\mathbf S_j+2KS_i^z\hat z+\mathbf B_{ext}\)。每条键只出现一次，并用能量有限差分验证场。
+$
+新研究数据强制 $\mathbf B_{ext}=0$、SOT=0、STT=0、电流=0。文献目录可以保留原论文需要的驱动，但必须与 `zero_field_paths` 分目录和 manifest。有效场 $\mathbf b_i=\sum_jJ_{ij}\mathbf S_j+2KS_i^z\hat z+\mathbf B_{ext}$。每条键只出现一次，并用能量有限差分验证场。
 
 采用 Stratonovich Gilbert LLG
-\[
+$
 d\mathbf S_i=-\frac{\mathbf S_i\times(\mathbf b_i dt+\sqrt{2\alpha\vartheta}d\mathbf W_i)+\alpha\mathbf S_i\times[\mathbf S_i\times(\mathbf b_i dt+\sqrt{2\alpha\vartheta}d\mathbf W_i)]}{1+\alpha^2},
-\]
-其中 \(dW_{i\mu}\sim N(0,dt)\)。配置必须写出 \(\gamma\)、磁矩、单位制、温度和时间换算。使用 paper midpoint、Heun、几何 midpoint 做收敛；保存 predictor/raw 未归一化误差，再投影。强收敛比较复用 Brownian bridge，弱收敛才可独立随机。
+$
+其中 $dW_{i\mu}\sim N(0,dt)$。配置必须写出 $\gamma$、磁矩、单位制、温度和时间换算。使用 paper midpoint、Heun、几何 midpoint 做收敛；保存 predictor/raw 未归一化误差，再投影。强收敛比较复用 Brownian bridge，弱收敛才可独立随机。
 
-Gomonay 参数注册为 \(J_1=11.1\)、\(J_2=1.88\)、\(\tilde J=0.8\) meV，分别使用 \(K_{SW}=0\)、\(K_{DW}=0.047\) meV。100 晶向为二基点，110 为行列式二的四基点，几何取 `scripts/literature/gomonay_2024/model.py`。色散验收使用
-\[
+Gomonay 参数注册为 $J_1=11.1$、$J_2=1.88$、$\tilde J=0.8$ meV，分别使用 $K_{SW}=0$、$K_{DW}=0.047$ meV。100 晶向为二基点，110 为行列式二的四基点，几何取 `scripts/literature/gomonay_2024/model.py`。色散验收使用
+$
 a=\cos(k_x/2)\cos(k_y/2),\ b=1+K/(2J_1)+(J_2/J_1)(\sin^2(k_x/2)+\sin^2(k_y/2)),
-\]
-\[
+$
+$
 c=(\tilde J/J_1)\sin k_x\sin k_y,\quad \omega_\pm=4J_1(\sqrt{b^2-a^2}\pm c).
-\]
-必须补齐连续高对称路径、两晶向、\(\tilde J=0\) 对照、线性和非线性畴壁。现有小尺寸频点及单一自由壁速度不足以称完整复现。
+$
+必须补齐连续高对称路径、两晶向、$\tilde J=0$ 对照、线性和非线性畴壁。现有小尺寸频点及单一自由壁速度不足以称完整复现。
 
 ## 3. 数据设计
 
@@ -53,13 +53,13 @@ c=(\tilde J/J_1)\sin k_x\sin k_y,\quad \omega_\pm=4J_1(\sqrt{b^2-a^2}\pm c).
 
 ## 5. 生成模型
 
-状态空间为 \(\mathcal M=(\mathbb S^2)^{N_s}\)，\(\Pi_s(v)=v-(s\cdot v)s\)，\(\operatorname{Exp}_s(v)=\cos\|v\|s+\sin\|v\|v/\|v\|\)。反平行点的 `sphere_log` 要有显式分支并统计频率，不能用 clamp 隐藏奇异性。
+状态空间为 $\mathcal M=(\mathbb S^2)^{N_s}$，$\Pi_s(v)=v-(s\cdot v)s$，$\operatorname{Exp}_s(v)=\cos\|v\|s+\sin\|v\|v/\|v\|$。反平行点的 `sphere_log` 要有显式分支并统计频率，不能用 clamp 隐藏奇异性。
 
-测地流匹配使用 \(x_\tau=\operatorname{Exp}_{x_0}(\tau\log_{x_0}x_1)\)，损失为
-\[
+测地流匹配使用 $x_\tau=\operatorname{Exp}_{x_0}(\tau\log_{x_0}x_1)$，损失为
+$
 \mathcal L=E\|v_\phi(x_\tau,\tau|x_0,\mathcal H,T,\alpha,G)-\partial_\tau x_\tau\|^2.
-\]
-\(\tau\) 是生成运输时间，不是物理时间。当前参考采样把切向量固定为 sigma 半径，可能造成低维支持集，必须加入高斯半径、真实 LLG 增量和端点参考三种消融。
+$
+$\tau$ 是生成运输时间，不是物理时间。当前参考采样把切向量固定为 sigma 半径，可能造成低维支持集，必须加入高斯半径、真实 LLG 增量和端点参考三种消融。
 
 当前 PeriodicConv3d 只支持周期二维双子晶格。若声称尺寸/材料泛化，须实现边界 mask、可变子晶格和显式 bond message passing 或 adapter。输出切向速度，做随机 SO(3)、平移和反演/时间反演测试；各向异性存在时只声称 proper SO(3) 协变。条件至少包括 T、alpha、lag、耦合比、K、边界、晶向和尺寸。
 
@@ -105,11 +105,11 @@ P0 inventory/source audit -> P1 Hamiltonian/noise/integrator certificates
 
 ### P1 内核证书
 
-对随机种子运行单自旋、双自旋和小环测试；比较能量有限差分与 `field`；验证噪声方差为 \(dt\)；同时运行三种积分器并保存未投影误差。强收敛使用共同 Brownian bridge，弱收敛使用独立噪声。若 raw 误差缺失，证书必须为 inconclusive。
+对随机种子运行单自旋、双自旋和小环测试；比较能量有限差分与 `field`；验证噪声方差为 $dt$；同时运行三种积分器并保存未投影误差。强收敛使用共同 Brownian bridge，弱收敛使用独立噪声。若 raw 误差缺失，证书必须为 inconclusive。
 
 ### P2 文献补全
 
-Gomonay 先生成 100/110 晶向连续色散与 \(\tilde J=0\) 对照，再扫描壁速度和晶向。Bauer 按原参数延长到足够事件数，采用右删失；Hirst 先延长零温壁弛豫并解决 AFMR 可辨识性；Laliena 同时控制空间步长和域长并解释 2.54% 临界差。Nishino 保留历史 fail 和用户接受记录，新增独立平稳性检验。
+Gomonay 先生成 100/110 晶向连续色散与 $\tilde J=0$ 对照，再扫描壁速度和晶向。Bauer 按原参数延长到足够事件数，采用右删失；Hirst 先延长零温壁弛豫并解决 AFMR 可辨识性；Laliena 同时控制空间步长和域长并解释 2.54% 临界差。Nishino 保留历史 fail 和用户接受记录，新增独立平稳性检验。
 
 ### P3–P5 零场数据
 
@@ -123,8 +123,8 @@ Gomonay 先生成 100/110 晶向连续色散与 \(\tilde J=0\) 对照，再扫�
 
 | 图 | 内容 | 必需证据 |
 |---|---|---|
-| Fig.1 | 问题定义、球面路径、条件和数据层 | 物理量与生成 \(\tau\)/时间区分 |
-| Fig.2 | Gomonay 文献色散、晶向、零 \(\tilde J\) 对照 | 连续曲线、误差、解析式 |
+| Fig.1 | 问题定义、球面路径、条件和数据层 | 物理量与生成 $\tau$/时间区分 |
+| Fig.2 | Gomonay 文献色散、晶向、零 $\tilde J$ 对照 | 连续曲线、误差、解析式 |
 | Fig.3 | 同初态多噪声路径云和初态间分布 | 分层 CI、无伪重复 |
 | Fig.4 | 尺寸/温度盲测及误差-成本曲线 | 完整矩阵和基线 |
 | Fig.5 | 长时能量、序参量、事件率和删失 | KM/RMST、失败边界 |
@@ -157,3 +157,4 @@ Gate 3 之前不得进行正式创新结论训练；Gate 4 之前不得写“验
 - https://arxiv.org/abs/2302.01170
 - https://pmc.ncbi.nlm.nih.gov/articles/PMC13060594/
 - https://www.nature.com/articles/s44306-024-00042-3
+
