@@ -166,3 +166,113 @@ P0 inventory/source audit -> P1 Hamiltonian/noise/integrator certificates
 17. **[ML_exchange2026] “Smooth overlap of spin orientations: Machine learning exchange fields for ab initio spin dynamics”**，Physical Review B (2026)，[文章](https://journals.aps.org/prb/abstract/10.1103/kknv-7ypx)。
 
 互盲审查：`D:/WORKSPACE/CodePlace/publication_review_20260911/R1.md`、`R2.md`、`R3.md`。训练入口：`scripts/training/train.py`、`scripts/inference/sample.py`。
+
+## 十、生成模型完整技术规格
+
+### 10.1 张量和条件流
+
+原始路径张量记为 $S\in\mathbb R^{B\times F\times A\times N_x\times N_y\times3}$，其中 $B$ 为 batch，$F$ 为帧数，$A$ 为子晶格数。数据加载器先读取 $S_0$ 和目标窗口 $S_1$，按训练集统计量标准化标量条件 $c_s$，并将键表/边界编码成图条件 $c_g$。参考采样器产生 $z$，但强制 $z[:,0]=S_0$。
+
+对每个格点执行切向投影
+
+$$
+\Pi_{S_0}(z)=z-(S_0\cdot z)S_0,
+$$
+
+然后计算球面 `log`，得到 $u=\log_{S_0}(S_1)$。训练状态和目标速度为
+
+$$
+x_\tau=\operatorname{Exp}_{S_0}(\tau u),\qquad
+u_\tau=\partial_\tau x_\tau.
+$$
+
+### 10.2 编码器、残差块和输出头
+
+每个时间帧构造标量不变量通道：$S\cdot S$、相邻点积、$S\cdot\mathrm{roll}(S)$、$S\cdot b_H$、条件标量和 $τ$。向量基包括 $S$、邻域差分、空间 Laplacian、有效场、晶轴和 DMI 向量。所有系数只由标量通道产生，向量输出由这些协变基线性组合。
+
+张量首先经过 3D 卷积：
+
+$$
+h^{(0)}=\operatorname{Conv3D}(\operatorname{concat}[q_{scalar},q_{vector\ invariant}]).
+$$
+
+第 $l$ 个残差块为
+
+$$
+r^{(l)}=h^{(l)}+\operatorname{Conv3D}_2\!\left(\operatorname{SiLU}\left(\operatorname{Norm}(\operatorname{Conv3D}_1(h^{(l)}))\right)\right).
+$$
+
+条件 FiLM 在每个块产生 $(\gamma_l,\beta_l)$：
+
+$$
+\operatorname{FiLM}(h,c)=(1+\gamma_l(c))h+\beta_l(c).
+$$
+
+最后输出每个基的系数 $a_k$，再组合为
+
+$$
+\tilde v=\sum_k a_k(q)\,e_k(S,c_g),\qquad
+v=\Pi_x(\tilde v).
+$$
+
+输出张量形状仍为 `[B,F,A,Nx,Ny,3]`。ODE solver 在运输时间 $τ=0\rightarrow1$ 上积分，得到整段生成路径，而非单独分类标签。
+
+### 10.3 损失、采样和变长
+
+基础损失为
+
+$$
+L_{FM}=\frac1{BFAN_xN_y}\sum\|v-u_\tau\|^2.
+$$
+
+总损失可包含初态锚定 $L_{anchor}=\|x_0-S_0\|^2$、切向惩罚 $L_{tan}=\|x\cdot v\|^2$ 和 Hamiltonian 一致性 $L_H$，但每个权重必须在实验前冻结。模型先生成固定 $F$ 帧窗口；多 lag 模型把物理 $Δt$ 输入条件；长时模型以固定 chunk 滚动并独立检查误差累积。
+
+## 十一、评估指标计算定义
+
+| 指标 | 计算方法 | 解释 |
+|---|---|---|
+| 球面误差 | $d(s,\hat s)=\arccos(\mathrm{clip}(s\cdot\hat s,-1,1))$，报告均值和 95% CI | 局部方向误差 |
+| 终态分布 MMD | 用 RBF 核 $k(x,y)=e^{-\|x-y\|^2/(2\sigma^2)}$ 计算两样本 MMD，$σ$ 只由训练集定 | 分布差异 |
+| Energy distance | $2E\|X-Y\|-E\|X-X'\|-E\|Y-Y'\|$ | 路径/终态分布距离 |
+| 能量漂移 | $(E(t)-E(0))/|E(0)|$，零场稳态另报告均值和斜率 | 长时稳定性 |
+| ACF | $C(\ell)=E[(q_t-\bar q)(q_{t+\ell}-\bar q)]/C(0)$，积分至首个过零 | 相关时间和 ESS |
+| 功率谱 | 对 $q(t)$ 去均值后 FFT，报告峰频、带宽和谱距离 | 进动/自旋波 |
+| 结构因子 | $S(k)=N^{-1}|\sum_j q_j e^{-ik\cdot r_j}|^2$ | 空间相关和相 |
+| 转移概率 | 在固定初态和 lag 下统计 basin-to-basin 频率，使用 Wilson/Bootstrap CI | 随机动力学 |
+| 首达时间 | 首次进入目标 basin 并持续 $τ_{res}$ 的时间 | 跃迁动力学 |
+| 生存分析 | Kaplan–Meier $\hat S(t)$、RMST $\int_0^\tau\hat S(t)dt$ 和删失率 | 零事件也可正确报告 |
+| 等变误差 | 比较 $f(RS,Rc)$ 与 $Rf(S,c)$ 的相对范数 | 旋转协变 |
+| 加速比 | 参考 LLG wall-clock / 生成 wall-clock，固定硬件和目标有效样本数 | 计算收益 |
+
+所有指标按初态和噪声两级 bootstrap，不能把帧数当样本数。测试集只在模型冻结后计算。
+
+## 十二、详细实施计划表
+
+| 阶段 | 具体实现 | 原因 | 输出/验收 | 当前状态 |
+|---|---|---|---|---|
+| P0 | inventory、环境、commit、文件哈希和文献参数登记 | 防止版本和参数混淆 | inventory.json | 部分完成 |
+| P1 | BondHamiltonian、DMI field、噪声方差、能量有限差分、三积分器 | 先证明物理内核正确 | kernel certificate | 部分完成 |
+| P2 | Gomonay 100/110 连续色散、零 $\tilde J$、速度和尺寸扫描 | 对应原文理论基准 | reference comparison | 频点证据已有 |
+| P3 | 无场热平衡链、burn-in、ACF、ESS、$T_N(L)$ | 得到温度标尺和可信初态 | equilibrium certificate | 未完成 |
+| P4 | 同初态 32/128 噪声、多初态和三类初态 | 估计条件随机性，避免伪重复 | replicate audit | 未完成 |
+| P5 | 固定窗口零场数据矩阵生成 | 建立不受驱动污染的训练集 | HDF5 + manifest | 未完成 |
+| P6 | flow matching、FiLM、图条件、切向输出 | 学习物理条件路径 | checkpoint + seed report | 旧 V2 调试完成 |
+| P7 | LLG/RFM/扩散/SDE/自回归基线和物理消融 | 证明创新来源 | benchmark table | 未完成 |
+| P8 | 留出初态、温度、尺寸、晶向、材料测试 | 证明泛化而非记忆 | blind test | 未完成 |
+| P9 | 多 lag、chunk rollout、长时稳定和事件统计 | 验证长期能力及失效边界 | $T_{valid}$ certificate | 未完成 |
+| P10 | DMI、阻挫、联合挑战 | 测试复杂能量景观 | four-domain report | 未完成 |
+| P11 | 主文/附录图、数据和代码发布 | 形成可审稿证据链 | reproducibility package | 未完成 |
+
+## 十三、文献复现实验包和图号登记
+
+| 文献 | 必须复现的内容 | 本地数据/图位置 |
+|---|---|---|
+| Gomonay2024 | Fig.2 自旋波分裂和色散；Fig.3 畴壁局部磁化；Fig.4 磁性尖端力；Fig.5 速度/Walker 行为及 Supplement S7/S9 色散 | `output/literature_reproduction/gomonay_2024/`；当前只完成内部色散和部分壁运动，原文图需下载后与复现图并排 |
+| Bauer2011 | 开放链热激活反转、长度依赖、温度/阻尼寿命和 Arrhenius 图 | `output/literature_reproduction/bauer_2011/`；当前短轨迹无越零事件，不能称复现寿命图 |
+| Nishino2015 | Fig.1 case A/B 平衡磁化和反转路径；不同噪声/阻尼下平稳分布 | `output/literature_reproduction/nishino_miyashita_2015/`；保留旧失败和新 primary 证书 |
+| Hirst2022 | Mn2Au 温度相关磁化/磁化率；ASD 阻尼振荡；AFM-LLB；热梯度畴壁 | `output/literature_reproduction/hirst_mn2au_2022/`；当前壁宽和 AFMR 仍未闭合 |
+| Laliena2020/2022 | 修正 BVP 临界 Gamma；螺旋剖面；电流下孤立手性孤子速度/宽度 | `output/literature_reproduction/laliena_crnb3s6_2020/`；当前临界值差约 2.54% |
+
+原论文图像必须保留来源、图号、下载日期和许可证；仓库发布时使用允许再分发的截图或只保存数字化曲线，不能把版权图直接替换为项目图。每个复现目录必须有 `reference_manifest.json`、`digitized_data/`、`comparison.png` 和 `report.md`，并标注“原文图”与“本项目复现”。
+
+新增交叉文献：**[ML_micromagnetics2021] “Machine learning methods for the prediction of micromagnetic magnetization dynamics”**，arXiv:2103.09079，[预印本](https://arxiv.org/abs/2103.09079)；**[ML_magnetoelastic2021] “Data-driven magneto-elastic predictions with scalable classical spin-lattice dynamics”**，npj Computational Materials (2021)，[文章](https://doi.org/10.1038/s41524-021-00617-2)；**[ML_exchange2026] “Smooth overlap of spin orientations: Machine learning exchange fields for ab initio spin dynamics”**，Physical Review B (2026)，[文章](https://journals.aps.org/prb/abstract/10.1103/kknv-7ypx)；**[RuO2_challenge2024] Plouff et al., “Revisiting altermagnetism in RuO2: a study of laser-pulse induced charge dynamics by time-domain terahertz spectroscopy”**，arXiv (2024)，[预印本](https://arxiv.org/abs/2412.11240)。
