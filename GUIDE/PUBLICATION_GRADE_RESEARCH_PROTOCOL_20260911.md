@@ -24,9 +24,9 @@ $$
 
 ## 二、文献与 Introduction
 
-随机 LLG 将交换、各向异性、阻尼和热涨落连接到自旋波、畴壁、弛豫和热激活跃迁。Gomonay 论文提供 RuO2 类 d-wave 交错磁的晶向相关色散和畴壁基准；Bauer 研究随机反铁磁畴壁反转和 Arrhenius 统计；Nishino–Miyashita、Hirst 和 Laliena 分别提供有限温自旋、Mn2Au ASD/LLB/AFMR、CrNb3S6 螺旋动力学参照。
+随机 LLG 将交换、各向异性、阻尼和热涨落连接到自旋波、畴壁、弛豫和热激活跃迁。Gomonay 论文提供 RuO2 类 d-wave 交错磁的晶向相关色散和畴壁基准 [Gomonay2024]；Bauer 研究随机反铁磁畴壁反转和 Arrhenius 统计 [Bauer2011]；Nishino–Miyashita、Hirst 和 Laliena 分别提供有限温自旋 [Nishino2015]、Mn2Au ASD/LLB/AFMR [Hirst2022]、CrNb3S6 螺旋动力学参照 [Laliena2020]。
 
-机器学习方面，Riemannian Flow Matching 将流匹配推广到流形；Timewarp 用条件流加速分子动力学；TITO 学习多时间尺度、跨体系的转移分布，并同时评估热力学和动力学。现有工作说明流模型学习动力学已有先例，本项目缺口应定义为磁自旋流形、键级相互作用、随机路径复制和磁性条件外推的统一可审计验证。
+机器学习方面，Riemannian Flow Matching 将流匹配推广到流形 [ChenLipman2023]；Timewarp 用条件流加速分子动力学 [Timewarp2023]；TITO 学习多时间尺度、跨体系的转移分布，并同时评估热力学和动力学 [TITO2026]。现有工作说明流模型学习动力学已有先例，本项目缺口应定义为磁自旋流形、键级相互作用、随机路径复制和磁性条件外推的统一可审计验证。
 
 ## 三、Methods
 
@@ -143,16 +143,19 @@ P0 inventory/source audit -> P1 Hamiltonian/noise/integrator certificates
 
 ## 九、参考文献
 
-1. Gomonay: https://www.nature.com/articles/s44306-024-00042-3
-2. Bauer: https://arxiv.org/abs/1010.4730
-3. Rózsa: https://arxiv.org/abs/1808.07665
-4. Riemannian Flow Matching: https://arxiv.org/abs/2302.03660
-5. Flow Matching: https://arxiv.org/abs/2210.02747
-6. Timewarp: https://arxiv.org/abs/2302.01170
-7. TITO: https://pmc.ncbi.nlm.nih.gov/articles/PMC13060594/
-8. Nature criteria: https://www.nature.com/nature/for-referees/policies-and-processes
-9. NMI aims: https://www.nature.com/natmachintell/submission-guidelines/about/aims
-10. NCS aims: https://www.nature.com/natcomputsci/natcomputsci/natcomputsci/about/aims
-11. PRL criteria: https://journals.aps.org/prl/about
+1. **[Gomonay2024] Gomonay et al., “Structure, control, and dynamics of altermagnetic textures”**，npj Spintronics 2, 35 (2024)。文献参数、晶向、自旋波与畴壁基准：[文章链接](https://www.nature.com/articles/s44306-024-00042-3)。
+2. **[Bauer2011] Bauer et al., “Thermally activated switching in antiferromagnetic nanostructures”**，J. Phys.: Condens. Matter 23, 394204 (2011)，[arXiv 预印本](https://arxiv.org/abs/1010.4730)。
+3. **[Nishino2015] Nishino and Miyashita, “Realization of the thermal equilibrium in inhomogeneous magnetic systems by the Landau-Lifshitz-Gilbert equation with stochastic noise, and its dynamical aspects”**，arXiv:1507.03075，[预印本](https://arxiv.org/abs/1507.03075)。
+4. **[Hirst2022] Hirst et al., “Temperature-dependent micromagnetic model of the antiferromagnet Mn2Au: A multiscale approach”**，Physical Review B 106, 094402 (2022)，[文章链接](https://doi.org/10.1103/PhysRevB.106.094402)，[arXiv 预印本](https://arxiv.org/abs/2206.08625)。
+5. **[Laliena2020] Laliena et al., “Current-driven dynamics of chiral magnetic solitons in CrNb3S6”**，Scientific Reports 10, 20430 (2020)，[文章链接](https://doi.org/10.1038/s41598-020-76903-8)，勘误：[2022 correction](https://doi.org/10.1038/s41598-022-06147-1)。
+6. **[Rozsa2019] Rózsa et al., “Lifetime of antiferromagnetic skyrmions”**，Physical Review B 100, 064422 (2019)，[arXiv 预印本](https://arxiv.org/abs/1808.07665)。
+7. **[ChenLipman2023] Chen and Lipman, “Flow Matching on General Geometries”**，ICLR 2024， [arXiv 预印本](https://arxiv.org/abs/2302.03660)。
+8. **[Lipman2023] Lipman et al., “Flow Matching for Generative Modeling”**，ICLR 2023， [arXiv 预印本](https://arxiv.org/abs/2210.02747)。
+9. **[Timewarp2023] Klein et al., “Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics”**，NeurIPS 2023， [arXiv 预印本](https://arxiv.org/abs/2302.01170)。
+10. **[TITO2026] Viguera Diez et al., “Transferable generative models bridge femtosecond to nanosecond time-step molecular dynamics”**，Science Advances 12, eaed2333 (2026)，[全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13060594/)。
+11. **Nature editorial criteria**，技术可靠性、强证据、新颖性和广泛兴趣：[审稿标准](https://www.nature.com/nature/for-referees/policies-and-processes)。
+12. **Nature Machine Intelligence aims**，[期刊范围](https://www.nature.com/natmachintell/submission-guidelines/about/aims)。
+13. **Nature Computational Science aims**，[期刊范围](https://www.nature.com/natcomputsci/natcomputsci/natcomputsci/about/aims)。
+14. **Physical Review Letters acceptance criteria**，[期刊标准](https://journals.aps.org/prl/about)。
 
 互盲审查：`D:/WORKSPACE/CodePlace/publication_review_20260911/R1.md`、`R2.md`、`R3.md`。训练入口：`scripts/training/train.py`、`scripts/inference/sample.py`。
