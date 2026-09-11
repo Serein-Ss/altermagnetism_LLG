@@ -1,287 +1,273 @@
-# 物理约束随机 LLG 路径生成：论文级研究协议
+# 物理约束随机 LLG 路径生成：研究与验收协议
 
-**版本**：2026-09-11　**对象**：服务器 AI　**状态**：方案与证据记录，不代表实验全部完成。
+**版本**：2026-09-12，修订2；保留原文件名以维持链接。
+**对象**：服务器研究与开发执行者。
+**状态**：研究设计，不代表实验完成，不解锁生产，不自动提交计算任务。
+**修订依据**：远端 `b8efdb64a3fd97a1dd0943bd216a01adba5eff9f` 的协议、模型和训练实现审查；本次没有重跑物理实验。
 
-## 一、研究问题、意义、方法与创新
+## 一、范围、优先级与研究目标
 
-### 1. 研究问题
+本协议负责零场路径数据、生成模型与统计验收。`STRICT_LITERATURE_REPRODUCTION_PLAN.md` 负责五篇文献的参数、特殊方程、原条件及逐项复现；本协议不豁免其失败项。旧计划所称“唯一执行依据”限定于文献复现。本文件替代自身2026-09-11版本的公式、阶段、样本数和通用验收描述。发现冲突时记录并暂停依赖它的生产步骤，不自行选择较宽松标准。
 
-给定完整初态、Hamiltonian、温度、阻尼、晶格几何和边界，能否学习有限温随机 LLG 的条件路径分布
+第一阶段研究问题是：给定完整初态、一个已认证的Gomonay型Hamiltonian、温度、阻尼和几何，能否学习固定物理窗口内的随机LLG条件路径分布，并在明确误差容差下取得计算收益？
 
-$$
-p_\theta[\mathbf S_{0:T}\mid \mathbf S_0,\mathcal H,T,\alpha,G]
-$$
+\[
+p_\phi[\mathbf S(t),0\le t\le t_{end}\mid\mathbf S_{init},\mathcal H,T_{bath},\alpha,G].
+\]
 
-并在未见初态、噪声实现、尺寸、温度、晶向和材料参数上保持短时转移、稳态统计与动力学事件的正确性？研究对象是路径分布，不是平均轨迹、末态分类或单条确定性预测。
+时间终点、浴温和模型参数使用不同符号。第一阶段必做未见初态测试，再预先选择尺寸或温度留出之一；未见噪声种子本身不是物理条件泛化。多材料、DMI、阻挫、多lag和长期事件率是后续独立扩展，不作为首次生产同时必须覆盖的矩阵。
 
-### 2. 研究意义
+球面约束、协变性和可审计数据是质量保障，不能单独替代方法创新或新物理发现。价值必须由分布误差、成本及失效范围证明；未完成最邻近方法比较前，不使用“首次、通用、无偏”。五体系整体结论仍要求五套证书；未使用体系可独立继续复现，不能用其成功替代当前模型证据。
 
-随机 LLG 的细时间步限制了长时间、稀有跃迁和大尺寸统计。若模型能直接近似条件转移路径，就可能减少逐步积分成本，同时保留自旋几何、热涨落和动力学机制。价值必须由误差、速度和失效边界共同证明。
+## 二、物理方程与参数合同
 
-### 3. 方法和可证伪创新
+### 2.1 单位与有符号键
 
-先用显式键 Hamiltonian 和 Stratonovich LLG 生成数值认证数据，再在 $(\mathbb S^2)^{N_s}$ 上训练条件 Riemannian flow matching。候选创新及证明分别为：路径级而非末态生成（逐点/转移/长时指标）；自旋流形和 Hamiltonian 协变（SO(3)、平移和反事实消融）；同初态独立噪声和条件块留出的可审计协议（分层方差/ESS）；DMI/阻挫复杂相互作用泛化（留出耦合比、几何和材料）；长时误差边界（能量漂移、删失、算力）。RFM、Timewarp 和 TITO 已有流匹配与可迁移动力学先例，未经系统比较不得写“首次、通用、无偏”。
+YAML保留 `source_parameters / reduction / reduced / numerics` 四层，实际单位只在输入换算和后处理使用。对本阶段相同磁矩和旋磁比的单位自旋：
 
-## 二、文献与 Introduction
+\[
+h=H/E_0,\quad \tilde t=t/t_0,\quad t_0=\mu_{ref}/(\gamma E_0),\quad
+\vartheta=k_BT_{bath}/E_0,\quad \mathbf b_i=-\partial h/\partial\mathbf S_i.
+\]
 
-随机 LLG 将交换、各向异性、阻尼和热涨落连接到自旋波、畴壁、弛豫和热激活跃迁。经典 LLG 的热平衡条件和涨落耗散关系由 Nishino–Miyashita 系统讨论 [Nishino2015]；Bauer 研究了反铁磁畴壁的随机反转、长度标度和 Arrhenius 统计 [Bauer2011]；Rózsa 等进一步展示了热激活磁结构寿命的统计困难 [Rozsa2019]。Gomonay 等给出 RuO2 类 d-wave 交错磁的晶向相关色散、亚晶格各向异性和畴壁动力学 [Gomonay2024]；Hirst 等建立 Mn2Au 从第一性原理到 ASD/LLB 的多尺度链条 [Hirst2022]；Laliena 等研究 CrNb3S6 手性螺旋和电流动力学 [Laliena2020]。
+`mu_ref`是磁矩，不是真空磁导率。SI外场的Zeeman项为 `-mu_ref*B_ext dot S`，约化场为 `beta=mu_ref*B_ext/E0`。不同位点磁矩/旋磁比需另行推导，不能直接复用该形式。
 
-磁学中还存在 DMI、偶极相互作用、交换竞争、阻挫、拓扑缺陷和自旋晶格耦合。DMI 可产生手性畴壁、螺旋和非互易自旋波；三角/Kagome/$J_1$–$J_2$ 晶格的竞争交换会造成简并、长相关时间和多稳态。它们是本项目第二阶段挑战集，而不是 Gomonay 原文 Hamiltonian 的隐含项。RuO2 的磁序和 altermagnetism 仍有样品依赖和争议，必须同时记录支持和质疑证据，不能把单一材料结论外推到所有薄膜 [RuO2_review2024] [RuO2_challenge2024]。
+无向交换键只计数一次：
 
-机器学习与磁学结合已有三条路线。第一类用机器学习预测交换场或磁性机器学习势，再嵌入 ASD/自旋晶格动力学，例如磁性 Gaussian approximation potential 和数据驱动 magneto-elastic 势 [ML_exchange2026] [ML_magnetoelastic2021]。第二类用神经网络直接学习微磁学磁化动力学或做代理模型，目标是减少重复求解成本 [ML_micromagnetics2021]。第三类是物理信息神经网络、神经 ODE/SDE、等变网络和生成模型，用约束或概率转移表示动力学；Riemannian Flow Matching 处理流形 [ChenLipman2023]，Timewarp 和 TITO 学习跨时间尺度转移 [Timewarp2023] [TITO2026]。
+\[
+h=-\sum_{(i,j)\in E}j_{ij}\mathbf S_i\cdot\mathbf S_j
+-\sum_i\kappa_i(\mathbf S_i\cdot\mathbf e_i)^2-\sum_i\boldsymbol\beta_i\cdot\mathbf S_i,
+\]
+\[
+\mathbf b_i=\sum_jj_{ij}\mathbf S_j+2\kappa_i(\mathbf S_i\cdot\mathbf e_i)\mathbf e_i+\boldsymbol\beta_i.
+\]
 
-这些工作的共同限制是：磁性路径的同初态独立噪声、多初态分层、晶格键级条件、零场长时稳态和稀有事件通常没有同时作为验收对象。因此本项目的重要性不应只表述为“把 flow matching 用在磁性上”，而应表述为：建立从物理 Hamiltonian、随机 LLG、可审计路径数据到跨条件生成和长时统计的完整验证链，并测试该链在交错磁、DMI 和阻挫体系中的边界。
+正键权对应FM，负键权对应AFM。文献幅值不等于有符号键权。必须登记基点、位移、端点、计数规则和符号，检查配位、基态、边界及能量负梯度。
 
-## 三、Methods
+Gomonay幅值为 `J1=11.1,J2=1.88,J_tilde=0.8 meV`，取 `E0=11.1 meV`。当前100晶胞的跨子晶格四条键为 `-J1/E0`，同子晶格轴向键为 `+J2/E0`；子晶格符号sigma为+1/-1，对角 `(1,-1)` 权重 `-sigma*J_tilde/E0`，`(1,1)` 为 `+sigma*J_tilde/E0`。110通过精确超晶胞映射产生四基点，不能复制两基点索引冒充同一几何。独立审计以原文补充材料为准，代码内部一致性不是外部认证。
 
-### 3.1 Hamiltonian 和 LLG
+### 2.2 随机方程与材料例外
 
-$$
-H=-\sum_{(i,j)\in E}J_{ij}\mathbf S_i\cdot\mathbf S_j-K\sum_i(S_i^z)^2-\sum_i\mathbf B_{ext}\cdot\mathbf S_i.
-$$
+零场生产强制外场、SOT、STT、电流均为零；有场/有流文献复现独立归档。约化Gilbert方程采用Stratonovich解释：
 
-$$
-\mathbf b_i=-\frac{\partial H}{\partial\mathbf S_i}=\sum_jJ_{ij}\mathbf S_j+2KS_i^z\hat z+\mathbf B_{ext}.
-$$
+\[
+d\mathbf S_i=-\frac{\mathbf S_i\times[\mathbf b_i d\tilde t+\sqrt{2\alpha\vartheta}\circ d\mathbf W_i]
++\alpha\mathbf S_i\times\{\mathbf S_i\times[\mathbf b_i d\tilde t+\sqrt{2\alpha\vartheta}\circ d\mathbf W_i]\}}{1+\alpha^2},
+\quad E[dW_{i\mu}dW_{j\nu}]=\delta_{ij}\delta_{\mu\nu}d\tilde t.
+\]
 
-零场数据强制 $\mathbf B_{ext}=0$、SOT=0、STT=0、电流=0。随机 Gilbert 方程为
+预测—校正复用同一Wiener增量；强误差用嵌套增量，粗增量等于细增量之和，Brownian bridge可用于条件细分。弱统计可以独立抽样，也可使用适当耦合降低方差，不能限定为“弱收敛只能独立随机”。弱RK离散随机变量不能冒充Wiener强耦合。
 
-$$
-d\mathbf S_i=-\frac{\mathbf S_i\times(\mathbf b_i dt+\sqrt{2\alpha\vartheta}\,d\mathbf W_i)+\alpha\mathbf S_i\times[\mathbf S_i\times(\mathbf b_i dt+\sqrt{2\alpha\vartheta}\,d\mathbf W_i)]}{1+\alpha^2}.
-$$
+Nishino原文显式midpoint、Heun、几何midpoint分别登记；保存预测/最终投影前误差、残差、失败与投影选择。Bauer保留 `bauer_ll`：噪声只进入进动项，确定性阻尼为lambda，`epsilon^2=2*lambda*theta`，不能用统一Gilbert式替代。Hirst LLB有纵向自由度，不属于单位球面LLG模长证书或本阶段生成器。
 
-进动、阻尼和噪声分别来自叉乘项、双叉乘项和 Wiener 增量。采用 paper midpoint、Heun、几何 midpoint；保存投影前误差。强收敛复用 Brownian bridge，弱收敛才独立随机。
+### 2.3 零场热模型与温度标尺
 
-### 3.2 Gomonay 基准
+`K_SW=0`仅用于规定的零温色散基准。第一阶段有限温零场路径明确采用 `K=K_DW=0.047 meV` 的易轴模型；配置显式记录 `thermal_model_id,K/E0`，不依赖wall参数默认值。K=0研究作为不同模型另行登记。
 
-注册 $J_1=11.1$、$J_2=1.88$、$\tilde J=0.8$ meV，$K_{SW}=0$、$K_{DW}=0.047$ meV。100 晶向为二基点，110 为四基点，几何取 `scripts/literature/gomonay_2024/model.py`。
+二维、有限层数、短程且自旋旋转连续对称的K=0模型不预设非零热力学T_N；空间交换各向异性不自动解除该限制[MerminWagner1966]。先导温度用 `theta=kBT/E0`，不输入未经确定的T/T_N。有限尺寸交叉温度记为T_star(L)，与热力学T_N分开。
 
-$$
-a=\cos(k_x/2)\cos(k_y/2),\quad b=1+\frac K{2J_1}+\frac{J_2}{J_1}[\sin^2(k_x/2)+\sin^2(k_y/2)],
-$$
+相对温度需独立校准：多尺寸平衡、Binder/磁化率和尺寸标度，冻结估计与不确定性。模型T_N不等于块体RuO2实验温度。不得用最终测试动力学结果选择温度标尺。改变K、边界或模型后重新检查。接近/高于临界区仅对所定义的经典固定模长模型作结论，不自动外推为真实材料定量预测。
 
-$$
-c=\frac{\tilde J}{J_1}\sin k_x\sin k_y,\quad \omega_\pm=4J_1(\sqrt{b^2-a^2}\pm c).
-$$
+### 2.4 色散及扩展相互作用
 
-### 3.3 DMI 和阻挫
+以下j1/j2/jt/kappa均除以E0，kx/ky以a0约化且沿原始晶轴：
 
-$$
-H_{DMI}=\sum_{(i,j)\in E}\mathbf D_{ij}\cdot(\mathbf S_i\times\mathbf S_j),
-$$
+\[
+a=\cos(k_x/2)\cos(k_y/2),\quad b=1+\kappa/(2j_1)+(j_2/j_1)[\sin^2(k_x/2)+\sin^2(k_y/2)],
+\quad c=(j_t/j_1)\sin k_x\sin k_y,
+\]
+\[
+\tilde\omega_\pm=4j_1(\sqrt{b^2-a^2}\pm c),\quad\omega_\pm=\tilde\omega_\pm/t_0,\quad f_\pm=\omega_\pm/(2\pi).
+\]
 
-$$
-H_{J_1J_2}=-J_1\sum_{\langle i,j\rangle}\mathbf S_i\cdot\mathbf S_j-J_2\sum_{\langle\langle i,j\rangle\rangle}\mathbf S_i\cdot\mathbf S_j.
-$$
+这是对应无阻尼线性基准；110倒空间和带折叠映射到同一物理波矢。磁矩/旋磁比未审定前只报约化频率。
 
-先做无 DMI/无阻挫，再做单独 DMI、单独阻挫，最后联合挑战。Gomonay 原始实现没有独立 DMI 项；多个交换常数本身也不等于阻挫相，须由闭环、基态简并和结构因子验证。
+DMI扩展采用定向键 `h_DMI=sum d_ij dot (S_i cross S_j)`，登记d_ji=-d_ij、计数、方向和负梯度检查。J1–J2也登记有符号权重；多个交换常数不证明阻挫，需具体竞争几何、基态和结构因子证据。独立DMI、独立阻挫之后再做联合挑战，不把这些项添加成Gomonay原模型的隐含成分。
 
-### 3.4 生成模型
+## 三、完整路径RFM技术规格
 
-$$
-\mathcal M=(\mathbb S^2)^{N_s},\qquad \Pi_s(v)=v-(s\cdot v)s,
-$$
+### 3.1 张量、随机源与锚定
 
-$$
-\operatorname{Exp}_s(v)=\cos\|v\|s+\sin\|v\|\frac v{\|v\|}.
-$$
+目标路径Y为 `[B,F,A,Nx,Ny,3]`，物理初帧S_init=Y[:,0]。自由路径流形为 `(S²)^((F-1)*A*Nx*Ny)`。每次独立采样完整参考路径Z，强制Z[:,0]=S_init；其余帧随机，记录分布、时间相关、尺度和seed。参考噪声是潜变量，不是LLG热噪声，不要求与某条真路径Wiener流逐点对应。参考半径消融不改变真实热浴。
 
-$$
-x_\tau=\operatorname{Exp}_{x_0}(\tau\log_{x_0}x_1),\qquad
-\mathcal L=\mathbb E\|v_\phi(x_\tau,\tau\mid c)-\partial_\tau x_\tau\|^2.
-$$
+\[
+\Pi_s(v)=v-(s\cdot v)s,\quad
+\operatorname{Exp}_s(v)=\cos\|v\|s+\frac{\sin\|v\|}{\|v\|}v,
+\]
+\[
+U=\operatorname{Log}_Z(Y),\quad X_\tau=\operatorname{Exp}_Z(\tau U),\quad V_\tau=\partial_\tau X_\tau.
+\]
 
-$\tau$ 是运输时间，不是物理时间。输入为参考自旋路径、$\tau$、$T$、$T/T_N$、$\alpha$、lag、耦合比、尺寸、边界、晶向、键图和 DMI 向量；输出为切向速度场，经 ODE 积分得到随机路径。PeriodicConv3d 目前只适合周期二维网格；跨边界、可变基点和阻挫图需 mask 与 bond message passing。固定半径参考噪声必须与高斯半径和真实 LLG 增量消融。
+tau是运输时间，不是物理时间。第一帧恒为S_init，速度为零且不计入损失。禁止用 `Exp_S_init(tau*Log_S_init(Y))` 取代随机源插值。小角度用稳定极限；反足附近log/cut-locus处理登记并测试，报告发生率，不隐蔽筛除困难真路径。
 
-### 3.5 评估
+### 3.2 网络、条件与对称性
 
-逐点 geodesic 误差；MMD/energy distance；能量、磁化、Néel 序参量、结构因子、谱、ACF；首达时间、Kaplan–Meier、RMST、删失率；模长/能量漂移、等变误差、函数评估次数、GPU 小时和加速比。均值配 block bootstrap CI 和 ESS。基线包括逐步 LLG、平均场、欧氏 flow、扩散、神经 SDE、自回归和去掉物理约束的消融。
+输入 `X_tau,tau,S_init,c`；条件包括theta、alpha、全套约化键/各向异性、物理帧时间、窗口时长、保存间隔、基点和边界，T/T_N仅在冻结校准后使用。晶轴、键向量、DMI、场等条件按实际存在的模型提供。
 
-## 四、数据设计与用途
+标量不变量网络和逐块FiLM产生系数，组合自旋、邻域差分、Hamiltonian场及必要叉乘等协变基，再投影到X_tau切平面，输出与路径同形。必须能够表达进动叉乘结构。归一化逐位置作用于通道，避免隐含尺寸统计。
 
-数据域分为 `literature_driven`、`legacy_v2_driven` 和 `zero_field_temperature`。V2 是 5 K、强 SOT、1 ps、101 帧历史数据，只用于调试，不用于零场温度或 $T_N$ 判断。
+当前PeriodicConv3d只代表规则二维周期实现。多基点、开放边界、任意图需真实接口和独立测试，文档写了图条件不等于网络已经消费它。裁剪须带足够halo或真实全局邻接，不能把内部crop两端变成伪周期邻居。
 
-正式条件由体系、晶向、尺寸、温度、阻尼、边界、初态类型和相互作用共同定义。Gomonay 建议 100 晶向 $L=16,32,64,128$，110 晶向 $L=16,32,64$，$T/T_N=0.1,0.3,0.5,0.7,0.9,1.0,1.1,1.3$，$\alpha=0.01,0.05,0.10$。这些是统计设计，不是文献唯一规定值。
+联合proper SO(3)、周期平移、C4与子晶格/位移联合变换、重编号/图置换分别验证。SO(3)测试需同时变换自旋、场、晶轴和相关张量，不证明晶格对称或材料泛化。反射涉及自旋/DMI变换须另行推导，当前不声称E(3)。100/110比较匹配物理盒长、边界和观测方向；改变晶胞表示本身不应被包装为晶向物理效应。
 
-每条件含基态扰动、随机球面态、平衡池三类初态；每类至少 8 个初态，每个初态至少 32 个独立噪声复制，稀有事件提高至 128 或按功效分析确定。平衡池需 burn-in、ACF、ESS、能量和多链一致性。每条样本保存 `spins,time,energy,field,neel,initial_id,noise_id,seed,condition,hash`。同一条件内使用相同窗口；短时至少覆盖 $20\tau_{prec}$，长时至少 $50\tau_{corr}$，1001 帧是保存工程默认值，不是物理要求。
+### 3.3 训练与推理
 
-训练使用零场轨迹的固定长度连续窗口；验证使用不同初态和 seed；测试整块留出温度、尺寸、晶向或材料。输出是与请求窗口相同帧数的路径，重复采样得到路径集合。变长能力分三阶段：固定窗口；把 lag 作为条件的多时间尺度；固定 chunk 滚动生成长路径。滚动必须检查段间能量、序参量、ACF 和转移核漂移。
+\[
+L_{FM}=E\left[\frac{1}{(F-1)AN_xN_y}\sum_{f=1}^{F-1}\|v_\phi(X_\tau,\tau|S_{init},c)-V_\tau\|^2\right].
+\]
 
-### 4.6 长时间路径模拟研究包
+硬锚定和切向投影优先于重复软惩罚。可选Hamiltonian辅助项必须给出数学定义、适用系综、权重和消融；禁止有限温能量守恒损失或对未解析热增量施加确定性LLG残差。推理从新的Z出发，用经步数收敛检查的几何积分从tau=0到1；固定第一帧。重复采样形成集合。训练seed、潜变量seed、真实噪声seed分开；编号相同不代表物理耦合。
 
-长时间模拟是后续独立研究目标。当前模型一次生成固定窗口，不能直接等同于长期稳定性。实施三条路线：
+## 四、初态、数据与划分
 
-1. **多 lag 直接生成**：把物理 lag $\Delta t$ 作为条件，训练短、中、长窗口，并在未见 lag 上比较转移分布。
-2. **chunk 滚动生成**：每次生成 $F_{chunk}$ 帧，把末帧作为下一段初态，累积 $10^2$ 至 $10^4$ 个窗口；记录每段初态哈希、随机种子和条件。
-3. **混合校正**：生成若干 chunk 后插入少量高精度 LLG 或约束校正；分别报告生成器本身和混合算法结果。
+数据域 `literature_driven / legacy_v2_driven / zero_field_temperature` 分开。历史V2包含1ps和后续扩展数据，逐文件按manifest登记，不统一说成只有1ps；带SOT数据不能证明零场统计或T_N。
 
-长时数据同时包含短期高分辨率和长期低保存频率轨迹。验收包括能量/Néel 序参量漂移、模长、chunk 边界跳变、ACF、功率谱、稳态能量分布、Chapman–Kolmogorov 一致性、首达时间、Kaplan–Meier/RMST 和 rollout 置信区间。若误差随 chunk 累积、稳态偏离或事件率超出预注册区间，则记录最大可信时长 $T_{valid}$，不得使用更长结果作科学结论。接近 $T_N$、强阻挫和 DMI+阻挫体系需增加参考时长和复制数。成功标准是同时保持短时转移、稳态和事件统计，并给出速度与 $T_{valid}$；否则只称固定窗口生成器。
+三类初态为基态扰动、随机球面、独立平衡池。前两类用于非平衡热化，第三类用于稳态；分别报告，不任意混成物理系综。平衡池需多链、burn-in、ACF/ESS、链间诊断及磁盆混合；盆内平衡不能冒充全局平衡。
 
-## 五、执行计划与实时进展
+保存 `spins,time,energy,neel,initial_id,noise_id,seed,condition,hash,parent_trajectory_id,source_chain_id,split` 及实际初态。field若重算，记录模型/config/hash并抽样核对；若保存，登记精度和频率。原始数据不覆盖，中断标complete=false并拒绝正式分析。
 
-```text
-P0 inventory/source audit -> P1 Hamiltonian/noise/integrator certificates
--> P2 literature completion -> P3 zero-field equilibrium pools
--> P4 long-path pilot -> P5 factorial data -> P6 baselines/held-out tests
--> P7 figures/release/manuscript
-```
+先按条件和来源族划分，再截窗口。同一initial_id全部噪声、同一父轨迹全部窗口只能属于一个split；相邻相关平衡构型或共同母初态视为同一来源族。优先按独立平衡来源链划分，换seed/window_id不消除依赖。
 
-当前：V2 330 条带驱动短轨迹；Gomonay 有小尺寸频谱、零 $\tilde J$ 对照和单一自由壁速度；Nishino primary 条件已运行但平稳性需独立统计；Bauer 无越零事件；Hirst 畴壁仍弛豫；Laliena 临界分支与目标差约 2.54%。每次更新本节记录日期、commit、命令、哈希、输出、样本数、判定、失败项和下一步。证书失败即停止该体系正式训练，保留失败版本。
+标准化、核带宽、特征、磁盆阈值和调参只用训练/开发集。Gate-F可迭代但不称最终盲测；正式测试另行独立生成，在模型冻结后一次揭盲。揭盲后修改模型，旧测试转开发，新确认性结论需要新测试批次。
 
-### 5.4 可行性验证阶段（Gate-F）
+分别登记dt、保存间隔、F、总窗口 `(F-1)*save_dt`、准备时长和单位。20进动周期/50相关时间只可作候选，不代替收敛和事件功效。细保存用于验证下采样是否丢失频谱、越盆及驻留事件。低温反转等待可远大于盆内ACF。多峰反转不是所有条件必需；临界区无稳定磁盆时报告无序化/连续涨落，不强制反转标签。
 
-完整矩阵前只生成最小闭环数据：Gomonay 100 晶向、$L=16,32$；$T/T_N=0.3,0.9,1.1$；$\alpha=0.05$；基态扰动、随机初态和平衡候选三类；每类 4 个初态；每个初态 16 个独立噪声；每条轨迹 101 或 201 帧。规模约 576 条轨迹，若加入 110 对照约 1,152 条。该阶段只使用零场数据，不使用 V2 的 SOT 轨迹。
+## 五、指标与统计合同
 
-Gate-F 必须回答：LLG 内核是否正确；同初态复制是否显示稳定随机分支；温度和 $T_N$ 附近是否产生可解释的涨落/ACF 变化；模型在未见初态上是否优于平均场、欧氏 flow 和简单自回归基线；固定窗口采样是否出现切向误差、初态漂移或模式坍缩。
+| 条件 | 能量验收 |
+|---|---|
+| 零温、无阻尼、无驱动 | 守恒与步长收敛 |
+| 零温、有阻尼、无驱动 | 耗散方向与步长收敛 |
+| 有限温、非平衡初态 | 与真实LLG热化曲线/分布一致，允许弛豫 |
+| 有限温、平衡初态 | 集合分布平稳，单条路径能量允许涨落 |
 
-通过条件为内核证书全通过、测试初态分布指标达到预注册基线、SO(3) 等变误差达标、窗口内能量/序参量无未解释漂移且不同训练 seed 结论一致。失败时只修正代码或设计并重跑 Gate-F，不生成完整生产集。通过后才进入 20,000–50,000 条主数据；129,024 条完整矩阵还需扩大复核。Gate-F 预计占用一张 GPU 数小时至两天，输出 `feasibility_report.json`、HDF5、哈希、训练日志、基线、图和 `GO/HOLD/STOP` 决定。GO 只表示技术链可行，不表示文献完全复现或达到投稿标准。
+使用每自旋约化能量或固定物理尺度；初能量接近零时不除以它。“零场”不等于能量守恒。
 
-## 六、实验包与论文证据
+| 指标 | 实施约束 |
+|---|---|
+| 逐点球面距离 | 仅用于确定性极限、明确耦合或描述；独立真/生成路径任意配对不作为主排名 |
+| MMD/energy distance | 固定初态比较路径集合；登记特征/带宽/归一化/时间权重，加入等样本量LLG–LLG底线 |
+| 能量/M/Néel | 按条件、初态类型、时刻/窗口比较均值、分布与尾部 |
+| 结构因子 | 用真实基点、子晶格符号与归一化；跨尺寸映射共同物理波矢，不比较不同长度展平向量 |
+| ACF/ESS | 使用平稳段，冻结估计器/积分窗口并做窗口敏感性；不机械截在首过零忽略慢尾；多盆/临界用多观测量及多链 |
+| 谱 | 登记采样率、时窗、窗函数、分辨率、激发支持和单位，不解释未激发模式任意峰 |
+| 事件 | 独立真实数据校准磁盆；区分越零/负末态/完成反转/返回/未决；无磁盆不分类 |
+| 首达/生存 | 预定义驻留和事件记进入还是确认时刻；末端驻留窗不足按冻结规则删失；报告KM、RMST、风险人数及删失率 |
+| 对称性 | SO(3)、平移、晶格/子晶格、置换分别测，处理零输出分母并报绝对误差 |
+| 成本 | 函数评估、batch、硬件、精度、I/O、GPU小时、显存及有效样本吞吐 |
 
-**A 物理包**：五篇文献逐曲线、参数和收敛。**B 零场包**：多初态、多噪声、多尺寸、多温度、长时。**C 方法包**：基线和消融。**D 泛化包**：条件、材料和 DMI/阻挫留出。**E 复现包**：环境、配置、哈希、失败日志、许可和图脚本。每包生成 `inventory.json`、`manifest.json`、`certificate.json`。
+固定初态以噪声路径为重复；跨初态采用初态—噪声分层bootstrap；相关平衡来源再按来源链/时间块处理。重复事件和窗口按父轨迹聚类，训练seed波动单报。bootstrap至少2000次并记seed；少数初态的区间可能不稳，更多噪声不能代替更多初态。
 
-## 七、期刊门槛与当前差距
+真实参考至少拆成两套独立集合测有限样本底线。CI重叠/不显著不等于等价；预注册主指标、效应量容差、CI和多重比较方案。宽CI记inconclusive。原始高维MMD一个指标不证明全路径正确。
 
-| 期刊 | 门槛 | 当前差距 |
-|---|---|---|
-| Nature | 卓越重要性、跨学科结论、强证据 | 尚无改变领域认识的新发现，物理闭环不足 |
-| Nature Machine Intelligence | ML 原创性和科学影响 | RFM/Timewarp/TITO 有近邻，当前架构和基线不足 |
-| Nature Computational Science | 计算方法推动复杂科学问题 | 长时稳定、误差-成本和开放复核未完成 |
-| PRL | 集中的决定性物理突破 | 尚未形成单一新物理结论 |
+事件精度按功效与CI确定，32/128复制不保证稀有概率准确。独立n条路径零事件仅给单侧95%上界 `1-0.05^(1/n)`。全删失RMST等于观察窗，不是无限时域平均寿命；不外推。停机/补样规则先冻结，不能增加样本直到显著。
 
-## 八、正文与附录图表
+## 六、统一执行顺序与Gate-F
 
-正文六图：问题与方法、Gomonay 连续色散、同初态多噪声、尺寸/温度盲测、长时统计/事件率、基线/消融。附录：五文献全曲线、所有 seed、初态和复制审计、数值收敛、等变性、失败实例、DMI/阻挫挑战、资源统计。所有图由 manifest 脚本重建。
+| 阶段 | 工作与放行 |
+|---|---|
+| P0 | 清点来源/版本/资源，冻结问题及适用模型 |
+| P1 | 键、field、噪声、积分器及所用文献基准认证，仅对覆盖条件有效 |
+| P2 | 明确K的零场热化/平衡先导、初态池、theta和时间标尺 |
+| P3 | Gate-F固定窗口开发；允许迭代，不称最终测试 |
+| P4 | 冻结生产子矩阵、模型、主指标、测试和资源；不自动解锁 |
+| P5 | 正式数据、匹配基线、独立确认性测试 |
+| P6 | 分别扩展尺寸/温度、多lag与长时，每个扩展单独认证 |
+| P7 | 材料、DMI、阻挫及联合挑战，先补接口/物理证书 |
+| P8 | 图、失败范围、复现包及论文 |
 
-## 九、参考文献
+### 6.1 Gate-F规模和来源
 
-1. **[Gomonay2024] Gomonay et al., “Structure, control, and dynamics of altermagnetic textures”**，npj Spintronics 2, 35 (2024)。文献参数、晶向、自旋波与畴壁基准：[文章链接](https://www.nature.com/articles/s44306-024-00042-3)。
-2. **[Bauer2011] Bauer et al., “Thermally activated switching in antiferromagnetic nanostructures”**，J. Phys.: Condens. Matter 23, 394204 (2011)，[arXiv 预印本](https://arxiv.org/abs/1010.4730)。
-3. **[Nishino2015] Nishino and Miyashita, “Realization of the thermal equilibrium in inhomogeneous magnetic systems by the Landau-Lifshitz-Gilbert equation with stochastic noise, and its dynamical aspects”**，arXiv:1507.03075，[预印本](https://arxiv.org/abs/1507.03075)。
-4. **[Hirst2022] Hirst et al., “Temperature-dependent micromagnetic model of the antiferromagnet Mn2Au: A multiscale approach”**，Physical Review B 106, 094402 (2022)，[文章链接](https://doi.org/10.1103/PhysRevB.106.094402)，[arXiv 预印本](https://arxiv.org/abs/2206.08625)。
-5. **[Laliena2020] Laliena et al., “Current-driven dynamics of chiral magnetic solitons in CrNb3S6”**，Scientific Reports 10, 20430 (2020)，[文章链接](https://doi.org/10.1038/s41598-020-76903-8)，勘误：[2022 correction](https://doi.org/10.1038/s41598-022-06147-1)。
-6. **[Rozsa2019] Rózsa et al., “Lifetime of antiferromagnetic skyrmions”**，Physical Review B 100, 064422 (2019)，[arXiv 预印本](https://arxiv.org/abs/1808.07665)。
-7. **[ChenLipman2023] Chen and Lipman, “Flow Matching on General Geometries”**，ICLR 2024， [arXiv 预印本](https://arxiv.org/abs/2302.03660)。
-8. **[Lipman2023] Lipman et al., “Flow Matching for Generative Modeling”**，ICLR 2023， [arXiv 预印本](https://arxiv.org/abs/2210.02747)。
-9. **[Timewarp2023] Klein et al., “Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics”**，NeurIPS 2023， [arXiv 预印本](https://arxiv.org/abs/2302.01170)。
-10. **[TITO2026] Viguera Diez et al., “Transferable generative models bridge femtosecond to nanosecond time-step molecular dynamics”**，Science Advances 12, eaed2333 (2026)，[全文](https://pmc.ncbi.nlm.nih.gov/articles/PMC13060594/)。
-11. **Nature editorial criteria**，技术可靠性、强证据、新颖性和广泛兴趣：[审稿标准](https://www.nature.com/nature/for-referees/policies-and-processes)。
-12. **Nature Machine Intelligence aims**，[期刊范围](https://www.nature.com/natmachintell/submission-guidelines/about/aims)。
-13. **Nature Computational Science aims**，[期刊范围](https://www.nature.com/natcomputsci/natcomputsci/natcomputsci/about/aims)。
-14. **Physical Review Letters acceptance criteria**，[期刊标准](https://journals.aps.org/prl/about)。
-15. **[ML_micromagnetics2021] “Machine learning methods for the prediction of micromagnetic magnetization dynamics”**，arXiv:2103.09079，[预印本](https://arxiv.org/abs/2103.09079)。
-16. **[ML_magnetoelastic2021] “Data-driven magneto-elastic predictions with scalable classical spin-lattice dynamics”**，npj Computational Materials (2021)，[文章](https://doi.org/10.1038/s41524-021-00617-2)。
-17. **[ML_exchange2026] “Smooth overlap of spin orientations: Machine learning exchange fields for ab initio spin dynamics”**，Physical Review B (2026)，[文章](https://journals.aps.org/prb/abstract/10.1103/kknv-7ypx)。
+前置P1/P2覆盖所用热模型。固定K=0.047meV、100晶向、周期L16/32、alpha=0.05；三个theta由独立先导选择并冻结，覆盖可解析的不同涨落强度，不要求跨未知T_N或都出现反转。
 
-互盲审查：`D:/WORKSPACE/CodePlace/publication_review_20260911/R1.md`、`R2.md`、`R3.md`。训练入口：`scripts/training/train.py`、`scripts/inference/sample.py`。
+每尺寸—温度条件有三类初态，每类4初态，每初态16噪声，共 `2*3*3*4*16=1152` 条。每类2初态训练、2初态开发，即576/576；没有剩余初态再划最终测试。加入同规模110为2304条，先核验四基点接口和物理盒长匹配。最终确认另用独立新初态。F=101或201由P2保存收敛选择并冻结。
 
-## 十、生成模型完整技术规格
+开发初态16条真路径固定拆8+8用于真实底线；生成集合以同等数量比较。ED先在每个固定初态内计算，再对组内初态等权汇总，禁止先混合初态掩盖条件学习失败。如此小样本只用于技术可行性，不能包装为高精度泛化证书。
 
-### 10.1 张量和条件流
+### 6.2 技术GO/HOLD/STOP合同
 
-原始路径张量记为 $S\in\mathbb R^{B\times F\times A\times N_x\times N_y\times3}$，其中 $B$ 为 batch，$F$ 为帧数，$A$ 为子晶格数。数据加载器先读取 $S_0$ 和目标窗口 $S_1$，按训练集统计量标准化标量条件 $c_s$，并将键表/边界编码成图条件 $c_g$。参考采样器产生 $z$，但强制 $z[:,0]=S_0$。
+下面阈值是**项目技术可行性数值选择**，不是文献常数或投稿充分条件。P3前写入并冻结 `gate_f_contract.yaml`：代码/数据版本、初态清单、theta、窗口、特征、bootstrap、随机种子及资源上限。缺项不训练；P1物理容差不在此降低。
 
-对每个格点执行切向投影
+| 必须项 | 技术GO条件 |
+|---|---|
+| 完整性 | 数值有限、哈希/来源/划分通过，无未声明丢样 |
+| 模长及初态 | float32最大绝对误差各<=1e-5；float64各<=1e-10 |
+| 网络SO(3)/平移 | 至少20个冻结变换，float32相对误差<=1e-4，float64<=1e-8；分母 `max(norm(output),1e-8*sqrt(numel))`，另报绝对误差；源采样器和生成分布另测 |
+| 主分布 | 主特征为每自旋约化能量、M/Néel各分量在11固定时点值；训练尺度标准化，距离除sqrt(特征维数)。各尺寸—温度—初态类型组的生成/真ED减真/真ED之95%同时CI上界<=0.10 |
+| 条件均值 | 主特征生成—真均值差95%同时CI位于[-0.10,0.10]，不用非显著代替等价 |
+| 物理系综 | 分别通过热化或稳态窗口检查；无平衡证据不能报稳态GO |
+| 基线 | 同数据/预算比较确定性或平均场、欧氏flow、简单随机自回归；相对最佳学习基线ED差同时CI上界<=0.02为非劣，声称优势另需上界<0 |
+| seed与步数 | 三训练seed分别通过；共同潜变量作采样步数加倍检查，主特征均值差CI在[-0.05,0.05]；不能平均后才通过 |
+| 事件 | 只在磁盆存在且功效足够时启用；不足记inconclusive，不放行事件率主张，但不阻断固定窗口涨落结论 |
 
-$$
-\Pi_{S_0}(z)=z-(S_0\cdot z)S_0,
-$$
+主特征零或极小训练方差的标准化下限须在P3前按物理尺度明确冻结；不能用测试统计选尺度。ED固定使用经验V统计量（包含组内对角项）并对真/生成保持相同样本数；CI按相关结构重采样，主比较用同时bootstrap区间；检验族（条件、主特征、seed、基线）事前列全。所有结构因子、ACF、完整路径和尾部诊断也保存，但上述ED合同仅证明有限技术目标。P5再冻结有足够功效的物理主指标。
 
-然后计算球面 `log`，得到 $u=\log_{S_0}(S_1)$。训练状态和目标速度为
+GO只表示固定窗口技术可行；HOLD表示CI宽或证据不足。最多一次预注册补充：每开发初态真路径16增至32，生成样本同步匹配，其余不变；按两次查看分配总错误预算0.05，每次使用97.5%同时区间（比表中单次95%更严格），全部检验族同时控制；首次GO可停，HOLD才补样。仍不足则终止本版本为inconclusive。STOP用于内核错误、泄漏、非有限值或预算超限。修改后新contract_id，旧数据保留开发属性，不反复测试到通过。
 
-$$
-x_\tau=\operatorname{Exp}_{S_0}(\tau u),\qquad
-u_\tau=\partial_\tau x_\tau.
-$$
+## 七、生产规模和资源
 
-### 10.2 编码器、残差块和输出头
+候选全矩阵：100的L16/32/64/128和110的L16/32/64，共7几何，8温度、3阻尼、3初态类型、每类8初态、每初态32噪声，总129024。8个T/T_N只有独立标尺完成后可用，否则登记8个theta；不是默认提交指令。
 
-每个时间帧构造标量不变量通道：$S\cdot S$、相邻点积、$S\cdot\mathrm{roll}(S)$、$S\cdot b_H$、条件标量和 $τ$。向量基包括 $S$、邻域差分、空间 Laplacian、有效场、晶轴和 DMI 向量。所有系数只由标量通道产生，向量输出由这些协变基线性组合。
+按100/110分别2/4自旋、1001帧、三分量float32，未压缩spins约14.40TB（十进制）。逐帧三分量field另需近似同量，尚有备份、统计和生成结果。压缩比实测；盒长为匹配物理尺寸而变化时重新计算。
 
-张量首先经过 3D 卷积：
+先测代表条件的每步吞吐、所需积分步数、相关时间、batch/显存、I/O及训练采样耗时；分别估算先导、1152条Gate-F、一次补充和三seed基线。冻结 `resource_budget.json`，含设备、精度、GPU/CPU小时、walltime、磁盘/余量、重试上限。超额停机，不改温度、缩窗或丢失败轨迹；未测前不承诺数小时至两天。P4按功效选择20000–50000或更小子矩阵，条数不等于证书。
 
-$$
-h^{(0)}=\operatorname{Conv3D}(\operatorname{concat}[q_{scalar},q_{vector\ invariant}]).
-$$
+## 八、长时扩展和科学加速
 
-第 $l$ 个残差块为
+固定窗口先闭合，再分别测试多lag、末帧锚定chunk和混合算法。每段存初态哈希与独立潜变量；完整状态的马尔可夫假设须成立，有记忆热浴/隐变量则扩展状态。
 
-$$
-r^{(l)}=h^{(l)}+\operatorname{Conv3D}_2\!\left(\operatorname{SiLU}\left(\operatorname{Norm}(\operatorname{Conv3D}_1(h^{(l)}))\right)\right).
-$$
+CK比较直接2lag与两次lag组合并对照真实LLG，以冻结条件状态/特征测试；不能假定低维序参量本身严格马尔可夫。段界、能量分布、ACF、谱、转移和生存都检查；采样步数、chunk长度、保存频率分别收敛。固定F扩大lag会丢高频与短事件，不能同时承诺保留它们。
 
-条件 FiLM 在每个块产生 $(\gamma_l,\beta_l)$：
+`T_valid(condition,observable,tolerance)` 是预注册检查时刻中连续通过范围的最大终点，报告时间分辨率和未测区间，不给无条件全局保证。100–10000个滚动窗口只是候选，数量不证明稳定。
 
-$$
-\operatorname{FiLM}(h,c)=(1+\gamma_l(c))h+\beta_l(c).
-$$
+少量高精度LLG从当前生成分布继续演化，不保证消除先前偏差；球面投影只保证几何。混合算法单独认证，不替纯生成器背书。平衡MCMC接受率校正不能直接赋予链步真实物理时间。
 
-最后输出每个基的系数 $a_k$，再组合为
+同等误差和目标有效样本量、同硬件及优化batch下比较。分别报告推理加速和含数据生产/训练/调参的总成本、摊销盈亏点；未闭合精度只报吞吐。下采样损失带来的速度收益与算法收益分开。
 
-$$
-\tilde v=\sum_k a_k(q)\,e_k(S,c_g),\qquad
-v=\Pi_x(\tilde v).
-$$
+## 九、文献、创新及复现包
 
-输出张量形状仍为 `[B,F,A,Nx,Ny,3]`。ODE solver 在运输时间 $τ=0\rightarrow1$ 上积分，得到整段生成路径，而非单独分类标签。
+| 文献 | 目标及边界 |
+|---|---|
+| Gomonay2024 | Fig.2色散、Fig.3局部磁化、Fig.5畴壁及SI；Fig.4尖端力需另加非均匀场探针，不是零场生成器默认必做 |
+| Bauer2011 | 铁磁单原子开放链热激活反转、长度/温度/阻尼寿命；改变条件的pilot不替原条件长时统计 |
+| Nishino2015 | Fig.1 case A/B平衡磁化及分布；自由磁矩不是畴壁反转基准，保留勘误/偏差记录 |
+| Hirst2022 | Mn2Au磁化/磁化率、ASD/AFMR、LLB及热梯度壁；LLB单独证书 |
+| Laliena2020/2022 | 修正BVP、临界分支、螺旋/孤子及电流；残差小不等于参考值闭合 |
 
-### 10.3 损失、采样和变长
+各包保存来源、参数/图号版本、数字化误差、manifest、比较图和报告；仅解析参考时明确标注，不伪造数字化曲线。原图按实际许可再分发，否则留链接/元数据和可分享派生图。并排原图不是认证。
 
-基础损失为
+Timewarp用normalizing flow作为MCMC提议改善平衡采样，不是RFM，也不能将其采样链当真实时间路径。TITO为更直接的转移动力学近邻，需比较状态、lag、信息、动力学指标和成本。“这些工作共同缺少……”须逐篇证据表支持，验证清单完整性不自动构成创新。
 
-$$
-L_{FM}=\frac1{BFAN_xN_y}\sum\|v-u_\tau\|^2.
-$$
+RuO2模型不等于真实样品磁序确认。保留下列质疑来源；支持/质疑完整证据表仍待核对，不声称争议已解释。移除缺失条目RuO2_review2024。原文D盘R1/R2/R3路径未核验可访问性，不作为互盲审查已完成证据；将来须归档报告及日期/hash。
 
-总损失可包含初态锚定 $L_{anchor}=\|x_0-S_0\|^2$、切向惩罚 $L_{tan}=\|x\cdot v\|^2$ 和 Hamiltonian 一致性 $L_H$，但每个权重必须在实验前冻结。模型先生成固定 $F$ 帧窗口；多 lag 模型把物理 $Δt$ 输入条件；长时模型以固定 chunk 滚动并独立检查误差累积。
+## 十、参考文献登记
 
-## 十一、评估指标计算定义
+1. **[Gomonay2024]** Gomonay et al., *Structure, control, and dynamics of altermagnetic textures*, npj Spintronics 2,35 (2024). https://www.nature.com/articles/s44306-024-00042-3
+2. **[Bauer2011]** Bauer et al., *Thermally activated magnetization reversal in monoatomic magnetic chains on surfaces studied by classical atomistic spin-dynamics simulations*, JPCM 23,394204 (2011). https://doi.org/10.1088/0953-8984/23/39/394204 ; https://arxiv.org/abs/1010.4730
+3. **[Nishino2015]** Nishino and Miyashita, *Realization of the thermal equilibrium in inhomogeneous magnetic systems by the Landau-Lifshitz-Gilbert equation with stochastic noise, and its dynamical aspects*, PRB 91,134411 (2015). https://arxiv.org/abs/1507.03075 ; erratum https://doi.org/10.1103/PhysRevB.97.019904
+4. **[Hirst2022]** Hirst et al., *Temperature-dependent micromagnetic model of the antiferromagnet Mn2Au: A multiscale approach*, PRB 106,094402 (2022). https://doi.org/10.1103/PhysRevB.106.094402
+5. **[Laliena2020]** Laliena et al., *Current-driven dynamics of chiral magnetic solitons in CrNb3S6*, Scientific Reports 10,20430 (2020). https://doi.org/10.1038/s41598-020-76903-8 ; correction https://doi.org/10.1038/s41598-022-06147-1
+6. **[Rozsa2019]** Rózsa et al., *Reduced thermal stability of antiferromagnetic nanostructures*, PRB 100,064422 (2019). https://doi.org/10.1103/PhysRevB.100.064422 ; https://arxiv.org/abs/1808.07665
+7. **[ChenLipman2023]** Chen and Lipman, *Flow Matching on General Geometries*, ICLR2024. https://arxiv.org/abs/2302.03660
+8. **[Lipman2023]** Lipman et al., *Flow Matching for Generative Modeling*, ICLR2023. https://arxiv.org/abs/2210.02747
+9. **[Timewarp2023]** Klein et al., *Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics*, NeurIPS2023. https://arxiv.org/abs/2302.01170
+10. **[TITO2026]** Viguera Diez et al., *Transferable generative models bridge femtosecond to nanosecond time-step molecular dynamics*, Science Advances 12,eaed2333 (2026). https://doi.org/10.1126/sciadv.aed2333 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC13060594/
+11. **[ML_micromagnetics2021]** *Machine learning methods for the prediction of micromagnetic magnetization dynamics*. https://arxiv.org/abs/2103.09079
+12. **[ML_magnetoelastic2021]** *Data-driven magneto-elastic predictions with scalable classical spin-lattice dynamics*, npj Computational Materials (2021). https://doi.org/10.1038/s41524-021-00617-2
+13. **[ML_exchange2026]** Gao, Bokdam and Kelly, *Smooth overlap of spin orientations: Machine learning exchange fields for ab initio spin dynamics*, PRB 113,144413 (2026). https://doi.org/10.1103/kknv-7ypx （Crossref出版元数据已核验；逐方法比较仍待完成。）
+14. **[RuO2_challenge2024]** Plouff et al., *Revisiting altermagnetism in RuO2: a study of laser-pulse induced charge dynamics by time-domain terahertz spectroscopy*. https://arxiv.org/abs/2412.11240
+15. **[MerminWagner1966]** Mermin and Wagner, *Absence of Ferromagnetism or Antiferromagnetism in One- or Two-Dimensional Isotropic Heisenberg Models*, PRL17,1133 (1966). https://doi.org/10.1103/PhysRevLett.17.1133
 
-| 指标 | 计算方法 | 解释 |
-|---|---|---|
-| 球面误差 | $d(s,\hat s)=\arccos(\mathrm{clip}(s\cdot\hat s,-1,1))$，报告均值和 95% CI | 局部方向误差 |
-| 终态分布 MMD | 用 RBF 核 $k(x,y)=e^{-\|x-y\|^2/(2\sigma^2)}$ 计算两样本 MMD，$σ$ 只由训练集定 | 分布差异 |
-| Energy distance | $2E\|X-Y\|-E\|X-X'\|-E\|Y-Y'\|$ | 路径/终态分布距离 |
-| 能量漂移 | $(E(t)-E(0))/|E(0)|$，零场稳态另报告均值和斜率 | 长时稳定性 |
-| ACF | $C(\ell)=E[(q_t-\bar q)(q_{t+\ell}-\bar q)]/C(0)$，积分至首个过零 | 相关时间和 ESS |
-| 功率谱 | 对 $q(t)$ 去均值后 FFT，报告峰频、带宽和谱距离 | 进动/自旋波 |
-| 结构因子 | $S(k)=N^{-1}|\sum_j q_j e^{-ik\cdot r_j}|^2$ | 空间相关和相 |
-| 转移概率 | 在固定初态和 lag 下统计 basin-to-basin 频率，使用 Wilson/Bootstrap CI | 随机动力学 |
-| 首达时间 | 首次进入目标 basin 并持续 $τ_{res}$ 的时间 | 跃迁动力学 |
-| 生存分析 | Kaplan–Meier $\hat S(t)$、RMST $\int_0^\tau\hat S(t)dt$ 和删失率 | 零事件也可正确报告 |
-| 等变误差 | 比较 $f(RS,Rc)$ 与 $Rf(S,c)$ 的相对范数 | 旋转协变 |
-| 加速比 | 参考 LLG wall-clock / 生成 wall-clock，固定硬件和目标有效样本数 | 计算收益 |
+这是来源登记，不声称本轮重读所有论文/SI。重点核对Bauer/Rózsa错配、RFM/Timewarp/TITO定位及二维温度前提；投稿前补全逐论断证据及元数据。
 
-所有指标按初态和噪声两级 bootstrap，不能把帧数当样本数。测试集只在模型冻结后计算。
+## 十一、进展与输出
 
-## 十二、详细实施计划表
+截至本轮核对b8efdb6的历史记录：V2已训练/评估但不代表零场闭合；Nishino primary为24/24，前序207/216中有接受的平稳性偏差，原fail与接受记录同时保留；R2–R5有65项分析，Bauer短窗无保存帧越零，Hirst壁仍弛豫，Gomonay有内部色散/壁运动证据，Laliena临界值约低2.54%。这是历史证据，不是本轮重算或服务器实时状态。
 
-| 阶段 | 具体实现 | 原因 | 输出/验收 | 当前状态 |
-|---|---|---|---|---|
-| P0 | inventory、环境、commit、文件哈希和文献参数登记 | 防止版本和参数混淆 | inventory.json | 部分完成 |
-| P0.5 | 可行性验证：小尺寸、少温度、少初态、多噪声复制、固定窗口训练和盲测 | 在昂贵生产前确认物理、数据和模型链条可行 | feasibility_report.json；通过/停止决定 | 待执行 |
-| P1 | BondHamiltonian、DMI field、噪声方差、能量有限差分、三积分器 | 先证明物理内核正确 | kernel certificate | 部分完成 |
-| P2 | Gomonay 100/110 连续色散、零 $\tilde J$、速度和尺寸扫描 | 对应原文理论基准 | reference comparison | 频点证据已有 |
-| P3 | 无场热平衡链、burn-in、ACF、ESS、$T_N(L)$ | 得到温度标尺和可信初态 | equilibrium certificate | 未完成 |
-| P4 | 同初态 32/128 噪声、多初态和三类初态 | 估计条件随机性，避免伪重复 | replicate audit | 未完成 |
-| P5 | 固定窗口零场数据矩阵生成 | 建立不受驱动污染的训练集 | HDF5 + manifest | 未完成 |
-| P6 | flow matching、FiLM、图条件、切向输出 | 学习物理条件路径 | checkpoint + seed report | 旧 V2 调试完成 |
-| P7 | LLG/RFM/扩散/SDE/自回归基线和物理消融 | 证明创新来源 | benchmark table | 未完成 |
-| P8 | 留出初态、温度、尺寸、晶向、材料测试 | 证明泛化而非记忆 | blind test | 未完成 |
-| P9 | 多 lag、chunk rollout、长时稳定和事件统计 | 验证长期能力及失效边界 | $T_{valid}$ certificate | 未完成 |
-| P10 | DMI、阻挫、联合挑战 | 测试复杂能量景观 | four-domain report | 未完成 |
-| P11 | 主文/附录图、数据和代码发布 | 形成可审稿证据链 | reproducibility package | 未完成 |
+新状态账本记录日期、commit、config/data hash、命令、原退出码、样本/事件数、作用范围及pass/fail/inconclusive/accepted_with_deviation。每阶段输出inventory/manifest/certificate，Gate-F另存contract/resource_budget/feasibility_report。证书不得只有无范围的pass。
 
-## 十三、文献复现实验包和图号登记
+论文主图围绕方法、物理基准、固定初态分布、独立泛化、误差—成本及失败范围组织；长时和稀有事件图仅在对应认证后使用。附录保留全seed、分割审计、收敛和失败例。期刊选择在结果与创新成立后进行，期刊名称不构成放行门槛或发表承诺。
 
-| 文献 | 必须复现的内容 | 本地数据/图位置 |
-|---|---|---|
-| Gomonay2024 | Fig.2 自旋波分裂和色散；Fig.3 畴壁局部磁化；Fig.4 磁性尖端力；Fig.5 速度/Walker 行为及 Supplement S7/S9 色散 | `output/literature_reproduction/gomonay_2024/`；当前只完成内部色散和部分壁运动，原文图需下载后与复现图并排 |
-| Bauer2011 | 开放链热激活反转、长度依赖、温度/阻尼寿命和 Arrhenius 图 | `output/literature_reproduction/bauer_2011/`；当前短轨迹无越零事件，不能称复现寿命图 |
-| Nishino2015 | Fig.1 case A/B 平衡磁化和反转路径；不同噪声/阻尼下平稳分布 | `output/literature_reproduction/nishino_miyashita_2015/`；保留旧失败和新 primary 证书 |
-| Hirst2022 | Mn2Au 温度相关磁化/磁化率；ASD 阻尼振荡；AFM-LLB；热梯度畴壁 | `output/literature_reproduction/hirst_mn2au_2022/`；当前壁宽和 AFMR 仍未闭合 |
-| Laliena2020/2022 | 修正 BVP 临界 Gamma；螺旋剖面；电流下孤立手性孤子速度/宽度 | `output/literature_reproduction/laliena_crnb3s6_2020/`；当前临界值差约 2.54% |
+## 十二、修订记录
 
-原论文图像必须保留来源、图号、下载日期和许可证；仓库发布时使用允许再分发的截图或只保存数字化曲线，不能把版权图直接替换为项目图。每个复现目录必须有 `reference_manifest.json`、`digitized_data/`、`comparison.png` 和 `report.md`，并标注“原文图”与“本项目复现”。
-
-新增交叉文献：**[ML_micromagnetics2021] “Machine learning methods for the prediction of micromagnetic magnetization dynamics”**，arXiv:2103.09079，[预印本](https://arxiv.org/abs/2103.09079)；**[ML_magnetoelastic2021] “Data-driven magneto-elastic predictions with scalable classical spin-lattice dynamics”**，npj Computational Materials (2021)，[文章](https://doi.org/10.1038/s41524-021-00617-2)；**[ML_exchange2026] “Smooth overlap of spin orientations: Machine learning exchange fields for ab initio spin dynamics”**，Physical Review B (2026)，[文章](https://journals.aps.org/prb/abstract/10.1103/kknv-7ypx)；**[RuO2_challenge2024] Plouff et al., “Revisiting altermagnetism in RuO2: a study of laser-pulse induced charge dynamics by time-domain terahertz spectroscopy”**，arXiv (2024)，[预印本](https://arxiv.org/abs/2412.11240)。
+修订2覆盖：随机源RFM与时间维；约化单位/符号/Bauer例外；非零K热模型与温度前提；能量/磁盆判据；条件分布和真实底线；来源隔离及层级统计；1152/2304样本与14.40TB预算；统一阶段和可执行开发门槛；混合校正/CK/T_valid边界；文献错配、外部审查证据和研究范围。所有新增技术阈值均是设计选择，不是实验认证结果。
