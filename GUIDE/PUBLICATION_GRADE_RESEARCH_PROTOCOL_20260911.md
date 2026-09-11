@@ -24,9 +24,13 @@ $$
 
 ## 二、文献与 Introduction
 
-随机 LLG 将交换、各向异性、阻尼和热涨落连接到自旋波、畴壁、弛豫和热激活跃迁。Gomonay 论文提供 RuO2 类 d-wave 交错磁的晶向相关色散和畴壁基准 [Gomonay2024]；Bauer 研究随机反铁磁畴壁反转和 Arrhenius 统计 [Bauer2011]；Nishino–Miyashita、Hirst 和 Laliena 分别提供有限温自旋 [Nishino2015]、Mn2Au ASD/LLB/AFMR [Hirst2022]、CrNb3S6 螺旋动力学参照 [Laliena2020]。
+随机 LLG 将交换、各向异性、阻尼和热涨落连接到自旋波、畴壁、弛豫和热激活跃迁。经典 LLG 的热平衡条件和涨落耗散关系由 Nishino–Miyashita 系统讨论 [Nishino2015]；Bauer 研究了反铁磁畴壁的随机反转、长度标度和 Arrhenius 统计 [Bauer2011]；Rózsa 等进一步展示了热激活磁结构寿命的统计困难 [Rozsa2019]。Gomonay 等给出 RuO2 类 d-wave 交错磁的晶向相关色散、亚晶格各向异性和畴壁动力学 [Gomonay2024]；Hirst 等建立 Mn2Au 从第一性原理到 ASD/LLB 的多尺度链条 [Hirst2022]；Laliena 等研究 CrNb3S6 手性螺旋和电流动力学 [Laliena2020]。
 
-机器学习方面，Riemannian Flow Matching 将流匹配推广到流形 [ChenLipman2023]；Timewarp 用条件流加速分子动力学 [Timewarp2023]；TITO 学习多时间尺度、跨体系的转移分布，并同时评估热力学和动力学 [TITO2026]。现有工作说明流模型学习动力学已有先例，本项目缺口应定义为磁自旋流形、键级相互作用、随机路径复制和磁性条件外推的统一可审计验证。
+磁学中还存在 DMI、偶极相互作用、交换竞争、阻挫、拓扑缺陷和自旋晶格耦合。DMI 可产生手性畴壁、螺旋和非互易自旋波；三角/Kagome/$J_1$–$J_2$ 晶格的竞争交换会造成简并、长相关时间和多稳态。它们是本项目第二阶段挑战集，而不是 Gomonay 原文 Hamiltonian 的隐含项。RuO2 的磁序和 altermagnetism 仍有样品依赖和争议，必须同时记录支持和质疑证据，不能把单一材料结论外推到所有薄膜 [RuO2_review2024] [RuO2_challenge2024]。
+
+机器学习与磁学结合已有三条路线。第一类用机器学习预测交换场或磁性机器学习势，再嵌入 ASD/自旋晶格动力学，例如磁性 Gaussian approximation potential 和数据驱动 magneto-elastic 势 [ML_exchange2026] [ML_magnetoelastic2021]。第二类用神经网络直接学习微磁学磁化动力学或做代理模型，目标是减少重复求解成本 [ML_micromagnetics2021]。第三类是物理信息神经网络、神经 ODE/SDE、等变网络和生成模型，用约束或概率转移表示动力学；Riemannian Flow Matching 处理流形 [ChenLipman2023]，Timewarp 和 TITO 学习跨时间尺度转移 [Timewarp2023] [TITO2026]。
+
+这些工作的共同限制是：磁性路径的同初态独立噪声、多初态分层、晶格键级条件、零场长时稳态和稀有事件通常没有同时作为验收对象。因此本项目的重要性不应只表述为“把 flow matching 用在磁性上”，而应表述为：建立从物理 Hamiltonian、随机 LLG、可审计路径数据到跨条件生成和长时统计的完整验证链，并测试该链在交错磁、DMI 和阻挫体系中的边界。
 
 ## 三、Methods
 
@@ -157,5 +161,8 @@ P0 inventory/source audit -> P1 Hamiltonian/noise/integrator certificates
 12. **Nature Machine Intelligence aims**，[期刊范围](https://www.nature.com/natmachintell/submission-guidelines/about/aims)。
 13. **Nature Computational Science aims**，[期刊范围](https://www.nature.com/natcomputsci/natcomputsci/natcomputsci/about/aims)。
 14. **Physical Review Letters acceptance criteria**，[期刊标准](https://journals.aps.org/prl/about)。
+15. **[ML_micromagnetics2021] “Machine learning methods for the prediction of micromagnetic magnetization dynamics”**，arXiv:2103.09079，[预印本](https://arxiv.org/abs/2103.09079)。
+16. **[ML_magnetoelastic2021] “Data-driven magneto-elastic predictions with scalable classical spin-lattice dynamics”**，npj Computational Materials (2021)，[文章](https://doi.org/10.1038/s41524-021-00617-2)。
+17. **[ML_exchange2026] “Smooth overlap of spin orientations: Machine learning exchange fields for ab initio spin dynamics”**，Physical Review B (2026)，[文章](https://journals.aps.org/prb/abstract/10.1103/kknv-7ypx)。
 
 互盲审查：`D:/WORKSPACE/CodePlace/publication_review_20260911/R1.md`、`R2.md`、`R3.md`。训练入口：`scripts/training/train.py`、`scripts/inference/sample.py`。
