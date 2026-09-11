@@ -53,13 +53,31 @@ $
 
 ## 5. 生成模型
 
-状态空间为 $\mathcal M=(\mathbb S^2)^{N_s}$，$\Pi_s(v)=v-(s\cdot v)s$，$\operatorname{Exp}_s(v)=\cos\|v\|s+\sin\|v\|v/\|v\|$。反平行点的 `sphere_log` 要有显式分支并统计频率，不能用 clamp 隐藏奇异性。
+状态空间与基本几何运算为：
 
-测地流匹配使用 $x_\tau=\operatorname{Exp}_{x_0}(\tau\log_{x_0}x_1)$，损失为
-$
-\mathcal L=E\|v_\phi(x_\tau,\tau|x_0,\mathcal H,T,\alpha,G)-\partial_\tau x_\tau\|^2.
-$
-$\tau$ 是生成运输时间，不是物理时间。当前参考采样把切向量固定为 sigma 半径，可能造成低维支持集，必须加入高斯半径、真实 LLG 增量和端点参考三种消融。
+$$
+\mathcal M=(\mathbb S^2)^{N_s},\qquad \Pi_s(v)=v-(s\cdot v)s.
+$$
+
+$$
+\operatorname{Exp}_s(v)=\cos\|v\|s+\sin\|v\|\frac{v}{\|v\|}.
+$$
+
+反平行点的 `sphere_log` 要有显式分支并统计频率，不能用 clamp 隐藏奇异性。
+
+测地流匹配使用：
+
+$$
+x_\tau=\operatorname{Exp}_{x_0}\!\left(\tau\log_{x_0}x_1\right).
+$$
+
+训练损失为：
+
+$$
+\mathcal L=\mathbb E\left[\left\|v_\phi(x_\tau,\tau\mid x_0,\mathcal H,T,\alpha,G)-\partial_\tau x_\tau\right\|^2\right].
+$$
+
+其中 $\tau$ 是生成运输时间，不是物理时间。当前参考采样把切向量固定为 sigma 半径，可能造成低维支持集，必须加入高斯半径、真实 LLG 增量和端点参考三种消融。
 
 当前 PeriodicConv3d 只支持周期二维双子晶格。若声称尺寸/材料泛化，须实现边界 mask、可变子晶格和显式 bond message passing 或 adapter。输出切向速度，做随机 SO(3)、平移和反演/时间反演测试；各向异性存在时只声称 proper SO(3) 协变。条件至少包括 T、alpha、lag、耦合比、K、边界、晶向和尺寸。
 
