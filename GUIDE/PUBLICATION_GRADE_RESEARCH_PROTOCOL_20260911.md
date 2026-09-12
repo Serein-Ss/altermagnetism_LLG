@@ -1,8 +1,11 @@
 # 物理约束随机 LLG 路径生成：研究与验收协议
 
 **版本**：2026-09-12，修订3；保留原文件名以维持链接。
+
 **对象**：服务器研究与开发执行者。
+
 **状态**：研究设计，不代表实验完成，不解锁生产，不自动提交计算任务。
+
 **修订依据**：远端 `b8efdb64a3fd97a1dd0943bd216a01adba5eff9f` 的协议、模型和训练实现审查；本次没有重跑物理实验。
 
 ## 一、范围、优先级与研究目标
@@ -13,9 +16,9 @@
 
 第一阶段研究问题是：给定同一个完整铁磁链初态、已认证的Bauer Hamiltonian与随机LL约定、温度、阻尼和几何，独立热噪声是否产生可解析的反转时间、过程及窗口末态差异；生成模型能否学习这些路径的自然概率，并在明确误差容差下取得计算收益？随机性来自未来热噪声，不通过改变初态制造，也不与确定性混沌混称。现象存在先由独立参考模拟确认，不由生成模型输出证明。
 
-\[
+```math
 p_\phi[\mathbf S(t),0\le t\le t_{end}\mid\mathbf S_{init},\mathcal H,T_{bath},\alpha,G].
-\]
+```
 
 时间终点、浴温和模型参数使用不同符号。第一阶段必做未见初态测试，再预先选择尺寸或温度留出之一；未见噪声种子本身不是物理条件泛化。多材料、DMI、阻挫、多lag和长期事件率是后续独立扩展，不作为首次生产同时必须覆盖的矩阵。
 
@@ -27,22 +30,27 @@ p_\phi[\mathbf S(t),0\le t\le t_{end}\mid\mathbf S_{init},\mathcal H,T_{bath},\a
 
 YAML保留 `source_parameters / reduction / reduced / numerics` 四层，实际单位只在输入换算和后处理使用。对本阶段相同磁矩和旋磁比的单位自旋：
 
-\[
-h=H/E_0,\quad \tilde t=t/t_0,\quad t_0=\mu_{ref}/(\gamma E_0),\quad
-\vartheta=k_BT_{bath}/E_0,\quad \mathbf b_i=-\partial h/\partial\mathbf S_i.
-\]
+```math
+\begin{aligned}
+h&=H/E_0,\qquad \tilde t=t/t_0,\\
+t_0&=\mu_{ref}/(\gamma E_0),\\
+\vartheta&=k_BT_{bath}/E_0,\\
+\mathbf b_i&=-\partial h/\partial\mathbf S_i.
+\end{aligned}
+```
 
 `mu_ref`是磁矩，不是真空磁导率。SI外场的Zeeman项为 `-mu_ref*B_ext dot S`，约化场为 `beta=mu_ref*B_ext/E0`。不同位点磁矩/旋磁比需另行推导，不能直接复用该形式。
 
 无向交换键只计数一次：
 
-\[
+```math
 h=-\sum_{(i,j)\in E}j_{ij}\mathbf S_i\cdot\mathbf S_j
 -\sum_i\kappa_i(\mathbf S_i\cdot\mathbf e_i)^2-\sum_i\boldsymbol\beta_i\cdot\mathbf S_i,
-\]
-\[
+```
+
+```math
 \mathbf b_i=\sum_jj_{ij}\mathbf S_j+2\kappa_i(\mathbf S_i\cdot\mathbf e_i)\mathbf e_i+\boldsymbol\beta_i.
-\]
+```
 
 正键权对应FM，负键权对应AFM。文献幅值不等于有符号键权。必须登记基点、位移、端点、计数规则和符号，检查配位、基态、边界及能量负梯度。
 
@@ -65,11 +73,14 @@ Gomonay幅值为 `J1=11.1,J2=1.88,J_tilde=0.8 meV`，取 `E0=11.1 meV`。当前1
 
 零场生产强制外场、SOT、STT、电流均为零；有场/有流文献复现独立归档。约化Gilbert方程采用Stratonovich解释：
 
-\[
-d\mathbf S_i=-\frac{\mathbf S_i\times[\mathbf b_i d\tilde t+\sqrt{2\alpha\vartheta}\circ d\mathbf W_i]
-+\alpha\mathbf S_i\times\{\mathbf S_i\times[\mathbf b_i d\tilde t+\sqrt{2\alpha\vartheta}\circ d\mathbf W_i]\}}{1+\alpha^2},
-\quad E[dW_{i\mu}dW_{j\nu}]=\delta_{ij}\delta_{\mu\nu}d\tilde t.
-\]
+```math
+\begin{aligned}
+d\mathbf S_i={}&-\frac{1}{1+\alpha^2}\Bigl(\\
+&\mathbf S_i\times[\mathbf b_i d\tilde t+\sqrt{2\alpha\vartheta}\circ d\mathbf W_i]\\
+&+\alpha\mathbf S_i\times\{\mathbf S_i\times[\mathbf b_i d\tilde t+\sqrt{2\alpha\vartheta}\circ d\mathbf W_i]\}\Bigr),\\
+E[dW_{i\mu}dW_{j\nu}]&=\delta_{ij}\delta_{\mu\nu}d\tilde t.
+\end{aligned}
+```
 
 预测—校正复用同一Wiener增量；强误差用嵌套增量，粗增量等于细增量之和，Brownian bridge可用于条件细分。弱统计可以独立抽样，也可使用适当耦合降低方差，不能限定为“弱收敛只能独立随机”。弱RK离散随机变量不能冒充Wiener强耦合。
 
@@ -87,13 +98,21 @@ Nishino原文显式midpoint、Heun、几何midpoint分别登记；保存预测/�
 
 以下j1/j2/jt/kappa均除以E0，kx/ky以a0约化且沿原始晶轴：
 
-\[
-a=\cos(k_x/2)\cos(k_y/2),\quad b=1+\kappa/(2j_1)+(j_2/j_1)[\sin^2(k_x/2)+\sin^2(k_y/2)],
-\quad c=(j_t/j_1)\sin k_x\sin k_y,
-\]
-\[
-\tilde\omega_\pm=4j_1(\sqrt{b^2-a^2}\pm c),\quad\omega_\pm=\tilde\omega_\pm/t_0,\quad f_\pm=\omega_\pm/(2\pi).
-\]
+```math
+\begin{aligned}
+a&=\cos(k_x/2)\cos(k_y/2),\\
+b&=1+\kappa/(2j_1)+(j_2/j_1)[\sin^2(k_x/2)+\sin^2(k_y/2)],\\
+c&=(j_t/j_1)\sin k_x\sin k_y.
+\end{aligned}
+```
+
+```math
+\begin{aligned}
+\tilde\omega_\pm&=4j_1(\sqrt{b^2-a^2}\pm c),\\
+\omega_\pm&=\tilde\omega_\pm/t_0,\\
+f_\pm&=\omega_\pm/(2\pi).
+\end{aligned}
+```
 
 这是对应无阻尼线性基准；110倒空间和带折叠映射到同一物理波矢。磁矩/旋磁比未审定前只报约化频率。
 
@@ -105,13 +124,20 @@ DMI扩展采用定向键 `h_DMI=sum d_ij dot (S_i cross S_j)`，登记d_ji=-d_ij
 
 目标路径Y为 `[B,F,A,Nx,Ny,3]`，物理初帧S_init=Y[:,0]。经典开放链可表示为A=1、Nx=L、Ny=1；此张量表示不授权周期卷积把链首尾连接。开放边界、FM键及端点邻接必须实际进入模型；未通过接口检查不得训练。自由路径流形为 `(S²)^((F-1)*A*Nx*Ny)`。每次独立采样完整参考路径Z，强制Z[:,0]=S_init；其余帧随机，记录分布、时间相关、尺度和seed。参考噪声是潜变量，不是LLG热噪声，不要求与某条真路径Wiener流逐点对应。参考半径消融不改变真实热浴。
 
-\[
-\Pi_s(v)=v-(s\cdot v)s,\quad
-\operatorname{Exp}_s(v)=\cos\|v\|s+\frac{\sin\|v\|}{\|v\|}v,
-\]
-\[
-U=\operatorname{Log}_Z(Y),\quad X_\tau=\operatorname{Exp}_Z(\tau U),\quad V_\tau=\partial_\tau X_\tau.
-\]
+```math
+\begin{aligned}
+\Pi_s(v)&=v-(s\cdot v)s,\\
+\operatorname{Exp}_s(v)&=\cos\|v\|s+\frac{\sin\|v\|}{\|v\|}v.
+\end{aligned}
+```
+
+```math
+\begin{aligned}
+U&=\operatorname{Log}_Z(Y),\\
+X_\tau&=\operatorname{Exp}_Z(\tau U),\\
+V_\tau&=\partial_\tau X_\tau.
+\end{aligned}
+```
 
 tau是运输时间，不是物理时间。第一帧恒为S_init，速度为零且不计入损失。禁止用 `Exp_S_init(tau*Log_S_init(Y))` 取代随机源插值。小角度用稳定极限；反足附近log/cut-locus处理登记并测试，报告发生率，不隐蔽筛除困难真路径。
 
@@ -127,9 +153,9 @@ tau是运输时间，不是物理时间。第一帧恒为S_init，速度为零�
 
 ### 3.3 训练与推理
 
-\[
+```math
 L_{FM}=E\left[\frac{1}{(F-1)AN_xN_y}\sum_{f=1}^{F-1}\|v_\phi(X_\tau,\tau|S_{init},c)-V_\tau\|^2\right].
-\]
+```
 
 硬锚定和切向投影优先于重复软惩罚。可选Hamiltonian辅助项必须给出数学定义、适用系综、权重和消融；禁止有限温能量守恒损失或对未解析热增量施加确定性LLG残差。推理从新的Z出发，用经步数收敛检查的几何积分从tau=0到1；固定第一帧。重复采样形成集合。训练seed、潜变量seed、真实噪声seed分开；编号相同不代表物理耦合。
 
