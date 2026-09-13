@@ -1,0 +1,1171 @@
+{
+  "status": "complete_verified",
+  "files": [
+    {
+      "old": "assets/literature_reproduction/bauer_2011/r2_r5_analysis_20260910/figures/overview.png",
+      "new": "assets/literature_reproduction/bauer_2011/experiments/reproduction_validation/20260910_v1/figures/overview.png",
+      "sha256": "39fbc5071cfeb462adb4025edfbc7c96ae6de2c48c2fc65550dfda4f84d89673"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/r2_r5_analysis_20260910/report.json",
+      "new": "assets/literature_reproduction/bauer_2011/experiments/reproduction_validation/20260910_v1/analysis/report.json",
+      "sha256": "59c49217217d1f2d580bcc0e4d0a848842aba8dddb04fadf4c151474013cf290"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260910_8df33ac_060e74d3/report.json",
+      "new": "assets/literature_reproduction/bauer_2011/experiments/preflight/20260910_v1/analysis/report.json",
+      "sha256": "fe6b0d87a4d9169e905162e69c37fbb24fdf6e3e320132af744d2ffc623297dc"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/cpu_software_preflight.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/cpu_software_preflight.json",
+      "sha256": "1a2a000e27c09de8cd57c8756aa4353787ca398774292bc896cfa129ed368609"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/figures/pilot_events.png",
+      "new": "assets/literature_reproduction/bauer_2011/experiments/pilot_switching/20260913_classical_independent/figures/pilot_events.png",
+      "sha256": "338be82575d86361e5b272a0bce5b5832bd9c1d8a4ee80ec2c9325455a83fcfb"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/physics/result.json",
+      "new": "assets/literature_reproduction/bauer_2011/experiments/physics_checks/20260913_classical_independent/analysis/result.json",
+      "sha256": "f960e3ba789ba4521c78215ced4ae0af2c0e7bd576bbf6ee3b559877aa7be882"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/pilot_result.json",
+      "new": "assets/literature_reproduction/bauer_2011/experiments/pilot_switching/20260913_classical_independent/analysis/pilot_result.json",
+      "sha256": "8efe4fcb51bb5154be7ecc9adf39e1f77ff53fcd6fd94cf06763f57f3204846d"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/provenance.json",
+      "new": "assets/literature_reproduction/bauer_2011/experiments/pilot_switching/20260913_classical_independent/analysis/provenance.json",
+      "sha256": "21e3fc1a613ee40156783e85cb9846d4c0a03da4870e059ce6ddb35ee51f569f"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt002/analysis.json",
+      "new": "assets/literature_reproduction/bauer_2011/experiments/reference_dynamics/20260913_classical_independent_original_dt002/analysis/analysis.json",
+      "sha256": "af331f181f0f0bbb2165b829b02a99d2b43e4109340c5e55bf01d57bb58cb159"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt002/result.json",
+      "new": "assets/literature_reproduction/bauer_2011/experiments/reference_dynamics/20260913_classical_independent_original_dt002/analysis/result.json",
+      "sha256": "7f72e38ab4e703804df2b012df00b262968b232e2234d88d8344b4e2c725e04e"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/resource_budget.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/resource_budget.json",
+      "sha256": "a2f023858a911324c90849293164249fb1e5a8f42491a0b0ad82ceed9c50c11c"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/physics_0.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/physics_0.json",
+      "sha256": "2ece61b1dcc353fe0d839d713310e8aff7d702f690c5fdb550702c0042300d8b"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/pilot_0.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/pilot_0.json",
+      "sha256": "9e0e9e46c35a1aa635e985359728cff0afc98124d5586092d4aa4d87addb6653"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/reference_0.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/reference_0.json",
+      "sha256": "d94d1cb7914b85b3249c4aa9e49ae17137f4df50e2ca6ac686511a7e4d65ae30"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/reference_1.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/reference_1.json",
+      "sha256": "933ee3df08607bdd854ce8f4216de267b6ff61453d5787b65cf5fea3cc5d89e3"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/reference_2.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/reference_2.json",
+      "sha256": "9012fdfa35b94e3baf84c06717fde6c2a22928e4feef43d8280a39c6a17b3d47"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/software_0.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/runner_status/software_0.json",
+      "sha256": "e33e5b61b46056cfb7801efe949afce839fccaf79bb81d4985de0f59f77cdcd3"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/software/result.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/software/result.json",
+      "sha256": "7e5a12d0b21b99d700a336936b4df6552a577ef2ccc7a621f4395834215c4525"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/submission.json",
+      "new": "logs/assets_20260913/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/submission.json",
+      "sha256": "a92fe5212d06c534d49946058e29e9ef4e4d5abe4c3293fbf88babd61b2a1498"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/r2_r5_analysis_20260910/figures/overview.png",
+      "new": "assets/literature_reproduction/gomonay_2024/experiments/spinwave_validation/20260910_v1/figures/overview.png",
+      "sha256": "9accee925a6bbd9196f8830aca48f2403d357ddb8b55fa9f7397ff5b8c56a040"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/r2_r5_analysis_20260910/figures/spectrum_control.png",
+      "new": "assets/literature_reproduction/gomonay_2024/experiments/spinwave_validation/20260910_v1/figures/spectrum_control.png",
+      "sha256": "4e4eec21df9ebd5fe1c7ee2eb653f22726885966139cc7025c505feac820f96d"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/r2_r5_analysis_20260910/figures/spectrum_spinwave.png",
+      "new": "assets/literature_reproduction/gomonay_2024/experiments/spinwave_validation/20260910_v1/figures/spectrum_spinwave.png",
+      "sha256": "5e4a9ab19ea28972f0681b8069ab4b895afdb862e23c61cffbcba916e82bfcae"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/r2_r5_analysis_20260910/report.json",
+      "new": "assets/literature_reproduction/gomonay_2024/experiments/spinwave_validation/20260910_v1/analysis/report.json",
+      "sha256": "615774880271938a0081bef9a77652817f73b4529df41036387b2de02269c6cb"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/implementation_status.json",
+      "new": "logs/assets_20260913/literature_reproduction/hirst_mn2au_2022/implementation_status.json",
+      "sha256": "bee0337f9b59eb3810b1ecfdf5d787af93ecaef83cc7746a1d8677e5a986b590"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/r2_r5_analysis_20260910/figures/overview.png",
+      "new": "assets/literature_reproduction/hirst_mn2au_2022/experiments/reproduction_validation/20260910_v1/figures/overview.png",
+      "sha256": "ca35c0c80381a011fb779fdca2c7e9cbe472e536c9f745bf7f46a7ff4452031e"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/r2_r5_analysis_20260910/report.json",
+      "new": "assets/literature_reproduction/hirst_mn2au_2022/experiments/reproduction_validation/20260910_v1/analysis/report.json",
+      "sha256": "3317f8d53ade8142c63bd31fb1850022064552bb86eea36aa9f4309412716059"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/r2_r5_analysis_20260910/figures/overview.png",
+      "new": "assets/literature_reproduction/laliena_crnb3s6_2020/experiments/reproduction_validation/20260910_v1/figures/overview.png",
+      "sha256": "c8f4208844e079110ea30254d80a71f9ac7cd4005ee5b376ee9865fa0644a55f"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/r2_r5_analysis_20260910/report.json",
+      "new": "assets/literature_reproduction/laliena_crnb3s6_2020/experiments/reproduction_validation/20260910_v1/analysis/report.json",
+      "sha256": "075adaba3be1d5de1192f4f963e40ffb18fb9141f777c91ab867e5cabe101149"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/animations/independent_moment_paths.gif",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260909_v1/animations/independent_moment_paths.gif",
+      "sha256": "cd425e0e1a76e49684a86cca6678b53e99b72647d09a16447772a11d49c4a159"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/figures/equilibrium_diagnostics.png",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260909_v1/figures/equilibrium_diagnostics.png",
+      "sha256": "d90b4ea97b11870c5a5e637f8aad35e6334d30741904aaf1a9a94f13a9471aa9"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/figures/figure1_comparison.png",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260909_v1/figures/figure1_comparison.png",
+      "sha256": "216b043607d8ec1c652721b26f1bd72fdcb6591d93bd80869a311e080a15d47f"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/report.json",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260909_v1/analysis/report.json",
+      "sha256": "ca2adeadc6355cf2d7df7bab01f6b3b9b9334109b311557ee300c0d9c7034ad2"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/user_acceptance_20260910.json",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260909_v1/analysis/user_acceptance_20260910.json",
+      "sha256": "b02c1dd14dda5fe8df6bcaa7484fd3d718fad40fa5206ca8dd18119ca1fab712"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957/animations/independent_moment_paths.gif",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260910_v1/animations/independent_moment_paths.gif",
+      "sha256": "1c0dfb1ee4c2406f255ddeb67ee7f5db8867d3844faf271d2fa293b8bf64a167"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957/figures/equilibrium_diagnostics.png",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260910_v1/figures/equilibrium_diagnostics.png",
+      "sha256": "60feb2b4b3e8dc00c3f7f21a93189e477cf21fe9c73034391398e2d88dbb5ba5"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957/figures/figure1_comparison.png",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260910_v1/figures/figure1_comparison.png",
+      "sha256": "b18b05c3ce83f05c32dd0f0554956ae71a938d5e8f1929dadefbb4f52256ef9d"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957/report.json",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260910_v1/analysis/report.json",
+      "sha256": "5d622a99e3e11a65e39005068d6eab259620f341c667d3faf2fa1e1e06ce848d"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/preflight_20260909/noise_gate.json",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/noise_validation/20260909_v1/analysis/noise_gate.json",
+      "sha256": "ae7409997e36318b31a3311b6768064973524ea3a39aa982d1ed2b5622077fac"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/r0_20260909_8df33ac_6fd7226f/campaign_report.json",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/r0_summary/20260909_v1/analysis/campaign_report.json",
+      "sha256": "5d2b0b6702d796d9cbf78b1661f2e1422083e0446cc737d829e23488fd3ff19e"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/r1_20260910_user_accepted_bb48dc64/continuation_report.json",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/experiments/r1_summary/20260910_v1/analysis/continuation_report.json",
+      "sha256": "545ee666abc42438f459ec9c55c34c25078bf3a374dc5ecc2d2359adca94ee06"
+    },
+    {
+      "old": "assets/literature_reproduction/r2_r5_analysis_20260910/runs/analysis_executed.py",
+      "new": "scripts/archive/assets_20260913/literature_reproduction/r2_r5_analysis_20260910/runs/analysis_executed.py",
+      "sha256": "c098e11fee06f5d27777ce51f7a32db545eaa69a927c55259a61febcddb9c7a3"
+    },
+    {
+      "old": "assets/literature_reproduction/r2_r5_analysis_20260910/runs/comparisons.json",
+      "new": "assets/literature_reproduction/cross_paper/experiments/reproduction_validation/20260910_v1/analysis/comparisons.json",
+      "sha256": "f74fec55b01fc3d0dace22fb920d96fb2e931c2ef302403602011c9abaffc05d"
+    },
+    {
+      "old": "assets/literature_reproduction/r2_r5_analysis_20260910/runs/delivery_manifest.json",
+      "new": "logs/assets_20260913/literature_reproduction/r2_r5_analysis_20260910/runs/delivery_manifest.json",
+      "sha256": "3932ff533b12ba70152d459e0b1636fd996331b2810e5877a61bd79b2f90678f"
+    },
+    {
+      "old": "assets/literature_reproduction/r2_r5_analysis_20260910/runs/metrics.json",
+      "new": "assets/literature_reproduction/cross_paper/experiments/reproduction_validation/20260910_v1/analysis/metrics.json",
+      "sha256": "6b0cb64b05f126df674baa8711227636594b6deabd08bb70eb4fa25bfdacb581"
+    },
+    {
+      "old": "assets/literature_reproduction/r2_r5_analysis_20260910/runs/report_artifacts.json",
+      "new": "assets/literature_reproduction/cross_paper/experiments/reproduction_validation/20260910_v1/analysis/report_artifacts.json",
+      "sha256": "81b6955d7e8509d1d5bd152eb981209f29e8e60517dd599a74b87d9bc1fa23bf"
+    },
+    {
+      "old": "assets/literature_reproduction/r2_r5_analysis_20260910/runs/supplement.json",
+      "new": "assets/literature_reproduction/cross_paper/experiments/reproduction_validation/20260910_v1/analysis/supplement.json",
+      "sha256": "3653c86f45df146ea04ebc6d621e939be927aee66a5d2e300bd8b9a88ba16c8d"
+    },
+    {
+      "old": "assets/literature_reproduction/r2_r5_analysis_20260910/runs/supplement_provenance.json",
+      "new": "assets/literature_reproduction/cross_paper/experiments/reproduction_validation/20260910_v1/analysis/supplement_provenance.json",
+      "sha256": "17861810d6d8b907aeb0891c84d25e4a92073122392b6b77b8deb973df374ef1"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/all_comparisons.csv",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/all_comparisons.csv",
+      "sha256": "55541421b56d366e865483169eead67fd9c46c5299e35c3998815ac300929789"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/artifact_manifest.json",
+      "new": "logs/assets_20260913/research/runs/bauer_first_loop/20260913_v1/artifact_manifest.json",
+      "sha256": "450da543abbbe88cbc706d20ce7281400623b23ed4f6a6384674b1609989bc54"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/completed.json",
+      "new": "logs/assets_20260913/research/runs/bauer_first_loop/20260913_v1/completed.json",
+      "sha256": "52b2b990eec6a7389b204ae19b07c939cf090c3a2f76c9f61280434c3a1e60c6"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/data_manifest.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/data_manifest.json",
+      "sha256": "11a0738c0eacb3e25057f5e0163ca8c223ea97515415905496eb99a7f642e913"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/decision.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/decision.json",
+      "sha256": "cbd410bdf3958f3a32d169ff221358e0be82ca215d46f7e1a615cb081b608f40"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/distribution.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/distribution.json",
+      "sha256": "94a24b2587a531c75eeca52f804c16eb2cc30bcccc06950f35db297cf8e5fa37"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/events_and_paths.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/events_and_paths.json",
+      "sha256": "126596f15a3d38000fa4f2b97db89f05e7938b923b8ec08d0b29cd4ceb211cd9"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/feature_scale.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/feature_scale.json",
+      "sha256": "490969f21d2af4ac27b7352a658fce8f18f1846b846455d3041e070f828bfabf"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/figures/distribution_comparison.png",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/model_comparison/distribution_comparison.png",
+      "sha256": "84897afd6de7b5f6f8a9e63e35f5b195463a75d09abd9165c08c32f3f7e92924"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/figures/final_magnetization_distribution.png",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/model_comparison/final_magnetization_distribution.png",
+      "sha256": "ab989e63cb40603128581f9eba688c1b2c3cb18c87f7db511094af373b305cea"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/figures/physical_observables.png",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/model_comparison/physical_observables.png",
+      "sha256": "3c65e9673a5e2683d12ca5d34afba15ab6e93810e43220014563af54687537bb"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/figures/reversal_fractions.png",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/model_comparison/reversal_fractions.png",
+      "sha256": "3c0691d35776e5a5ffcdf5c122c0cebb43d1cbfc1d5942517f32d0ca3a77c7e7"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/independent_data_audit.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/independent_data_audit.json",
+      "sha256": "2bf6f9d3cbf148f5f0e453fd0264c55b6d3146155483dba421c581259bb6f0e4"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/long_run_policy.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/long_run_policy.json",
+      "sha256": "1a84f52b026b399ada2859615e524d7ff8ad37917b6f43d1bc052dca6fb50a20"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/mechanism_diagnosis.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/mechanism_diagnosis.json",
+      "sha256": "ae8d194008d7d6ebdbe0cb8e7c7acc2d13baa06a38041f5a37f24fc4e0ab25d6"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.cross-30.py310.1.nbc",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.cross-30.py310.1.nbc",
+      "sha256": "aac2c728fb2fd1fbc3065fcbb0de5cad4e78d0434d0bf9c113c95faa14e491b0"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.cross-30.py310.nbi",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.cross-30.py310.nbi",
+      "sha256": "295927bea479007ae79de8f0b53ff827c9df7b4d02a67ef64109764c4238ebfd"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.drift-12.py310.1.nbc",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.drift-12.py310.1.nbc",
+      "sha256": "c8af3caaa5a624df65ef747d8f103a4eadb4079a20db1568b7c1ffa4a837fa02"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.drift-12.py310.nbi",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.drift-12.py310.nbi",
+      "sha256": "3a6d91180824fe645f671f78599c5da788e679e7a12ac4096c7cecf1208a693d"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.ensemble-116.py310.1.nbc",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.ensemble-116.py310.1.nbc",
+      "sha256": "5cfe97c81990b21d0d9b678f9cfa5755c9915c513e9d43871d81f240d93e97dc"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.ensemble-116.py310.nbi",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.ensemble-116.py310.nbi",
+      "sha256": "c9ff12310fffa06a494dce2d00a133147c300b0206829814222ce70dc869ca1b"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.heun_step-74.py310.1.nbc",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.heun_step-74.py310.1.nbc",
+      "sha256": "ec15626eb40a691ef30940beb8523d79f1f0e3a5531ba731333c7124ee96618c"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.heun_step-74.py310.nbi",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.heun_step-74.py310.nbi",
+      "sha256": "5a6a8e00648ec0a91bef5b62ac370233e770b1f4e6fe63904255b54670eb8dd2"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.mt_step-40.py310.1.nbc",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.mt_step-40.py310.1.nbc",
+      "sha256": "a5ec5eca3cd6e40a25e80043268a4055b8b8bed34ce17b3506c44fbc5e79b263"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.mt_step-40.py310.nbi",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.mt_step-40.py310.nbi",
+      "sha256": "471d8cbf995ff23ae7d38a82a3638ec6c256518b1f1afa46ccb1b887d89a14f3"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.trajectory-89.py310.1.nbc",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.trajectory-89.py310.1.nbc",
+      "sha256": "62ddafa9a598207b86a130728a26b5b8217e96c62787fd6b8ca7e0df4bc699ad"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.trajectory-89.py310.nbi",
+      "new": "logs/cache/asset_migration_20260913/research/runs/bauer_first_loop/20260913_v1/numba_cache/core_7608802ecb14caf3f88b4956cb5f5eb14ee98829/bauer_fast.trajectory-89.py310.nbi",
+      "sha256": "bb82979414f4f89d20526eb7bcb6e406815bdf6851f622c6c2db27b843ae109d"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/original_condition_evidence.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/original_condition_evidence.json",
+      "sha256": "af331f181f0f0bbb2165b829b02a99d2b43e4109340c5e55bf01d57bb58cb159"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/reference_visualization/reference_overview.png",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/reference_data/reference_overview.png",
+      "sha256": "899f360a766bd8fbff3a12c0fd0e6196fdf99219da8f19b0095008df7ce1cba9"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/reference_visualization/reference_spacetime.png",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/reference_data/reference_spacetime.png",
+      "sha256": "2d363402d90c77b4da75d0724e5e5530a324f33410ac8637a6000ee134936a07"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/reference_visualization/summary.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/reference_data/summary.json",
+      "sha256": "164b2c887cd7d56eec44c3e41fb4ef7b2ecc2963da2f27ce7837ad22d96d5f30"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/resolution.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/resolution.json",
+      "sha256": "be2b4c29d098c6a10322205f3d0de8efc559ba80322100537a3820679341f4d9"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/run.sbatch",
+      "new": "slurm/archive/assets_20260913/research/runs/bauer_first_loop/20260913_v1/run.sbatch",
+      "sha256": "9dcdaea4ca5b0042b3915c9ff4331c3980414f723780f119b91cb9f671b39088"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/sampling.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/sampling.json",
+      "sha256": "b6333618cb413bb8cdbf1eee5b0b1a8643aaab7e52b96791e76198b9bc98408a"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/step_doubling.json",
+      "new": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/step_doubling.json",
+      "sha256": "5feb9dcddb999ed034838ebc112f966345f65a2dc1d3a6ff1e21bc5cd98c3ae9"
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/submission.json",
+      "new": "logs/assets_20260913/research/runs/bauer_first_loop/20260913_v1/submission.json",
+      "sha256": "ea705cb70c8d7238774e2740530c95dbcbf34c19ca52a3a90e6c8d3f3c639ea8"
+    },
+    {
+      "old": "assets/research/runs/gate_f/local_preflight_20260912/result.json",
+      "new": "logs/research/gate_f/local_preflight_20260912/result.json",
+      "sha256": "80bd51876f4b559ecb32e710afc5006ba7926d6211772c0a7f1ab80ca2c89b10"
+    },
+    {
+      "old": "assets/research/runs/gate_f/preparation_20260912.json",
+      "new": "logs/research/gate_f/preparation_20260912.json",
+      "sha256": "74ab719a159dedafe014bb175bb77e5e118bd5c4daf3805e60c1b61d1e48b5df"
+    },
+    {
+      "old": "assets/research/runs/gate_f/prerequisites/20260912_042840/concurrency_override_20260912.json",
+      "new": "logs/research/gate_f/prerequisites/20260912_042840/concurrency_override_20260912.json",
+      "sha256": "ea2bea60bfcafebec60b3caadaed104670ef122f26d4cdea5f1b600fb3171ac0"
+    },
+    {
+      "old": "assets/research/runs/gate_f/prerequisites/20260912_042840/historical_gate_diagnosis.json",
+      "new": "logs/research/gate_f/prerequisites/20260912_042840/historical_gate_diagnosis.json",
+      "sha256": "27cd9da144d20a06044259f45c7f41ca3e333e3374a835aa8e9c40796a9fdc4f"
+    },
+    {
+      "old": "assets/research/runs/gate_f/prerequisites/20260912_042840/kernel_gate.json",
+      "new": "logs/research/gate_f/prerequisites/20260912_042840/kernel_gate.json",
+      "sha256": "2324b33e150db01f7759c89f27e64e9a60021aefbaa38f464f41f6fa2966fd37"
+    },
+    {
+      "old": "assets/research/runs/gate_f/prerequisites/20260912_042840/prerequisite_review.json",
+      "new": "logs/research/gate_f/prerequisites/20260912_042840/prerequisite_review.json",
+      "sha256": "79507d7b36705148589c2b1957ca184c24041e34b59179609418cd2f43897682"
+    },
+    {
+      "old": "assets/research/runs/gate_f/prerequisites/20260912_042840/resource_estimate.json",
+      "new": "logs/assets_20260913/research/runs/gate_f/prerequisites/20260912_042840/resource_estimate.json",
+      "sha256": "360b7b39699112248d39d5a4c1d59a3156bb419489472922a81d493b9a4d382c"
+    },
+    {
+      "old": "assets/research/runs/gate_f/prerequisites/20260912_042840/submission.json",
+      "new": "logs/assets_20260913/research/runs/gate_f/prerequisites/20260912_042840/submission.json",
+      "sha256": "4dc0020ae5a12eda5e3e55245a0e41d60b356b78fd08fe9766fb8e4e86f7a49f"
+    },
+    {
+      "old": "assets/research/runs/gate_f/software/20260912_001410/cpu/result.json",
+      "new": "logs/research/gate_f/software/20260912_001410/cpu/result.json",
+      "sha256": "41d4658029301bc6c62094d6f2fe15d823faf1f5a2158d445bc70fc290857108"
+    },
+    {
+      "old": "assets/research/runs/gate_f/software/20260912_001410/cuda/result.json",
+      "new": "logs/research/gate_f/software/20260912_001410/cuda/result.json",
+      "sha256": "73fa71c6e191f1e0bcff658d94c7998698910c43a0d8f0774a6438a4d155276c"
+    },
+    {
+      "old": "assets/research/runs/gate_f/software/20260912_001410/submission.json",
+      "new": "logs/assets_20260913/research/runs/gate_f/software/20260912_001410/submission.json",
+      "sha256": "e0baf8971378f400dd30a6d1202e411c9814e0f0d737e66d58839b67ba8c880a"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035030/campaign.json",
+      "new": "logs/research/zero_field_program/20260911_035030/campaign.json",
+      "sha256": "92974c9502cffbc7627befc635b07b10716470b533a83786cc9eb32c67563822"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035340/campaign.json",
+      "new": "logs/research/zero_field_program/20260911_035340/campaign.json",
+      "sha256": "7d9cb77205aea59b364fc37d18e8098db02923803a016521e30acaacfa8d7c13"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035533/bath_cpu.json",
+      "new": "logs/research/zero_field_program/20260911_035533/bath_cpu.json",
+      "sha256": "f18b96f23d93ee9afdce287f401b438fd3b3c7ebf4597f96ad7aae300f369a88"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035533/bath_cuda.json",
+      "new": "logs/research/zero_field_program/20260911_035533/bath_cuda.json",
+      "sha256": "82810d5da2ff63d230860ba0addd4e7ac03dd4a38d92fdff1e9c609f4577ea94"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035533/campaign.json",
+      "new": "logs/research/zero_field_program/20260911_035533/campaign.json",
+      "sha256": "48511d6118bf391e38416c5cce6a25432cc71e0a321fe9fa49ee478edd6b6386"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035533/inventory.json",
+      "new": "logs/assets_20260913/research/runs/zero_field_program/20260911_035533/inventory.json",
+      "sha256": "b98bbda7be7a16bc2ba26c9bc44c9b1da87a8878b2492ff92dcbd7d221fd71dd"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035533/timing/008.json",
+      "new": "logs/research/zero_field_program/20260911_035533/timing/008.json",
+      "sha256": "e387b56038e8ac42d1f77cea7ed31bcc7dc9b21f1c050c01259bc9f498ea5de7"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035533/timing/009.json",
+      "new": "logs/research/zero_field_program/20260911_035533/timing/009.json",
+      "sha256": "45d2ec7d8a6e9fe8e63becefff6920da38179fa76f77d7fe901f587c32b1c762"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035533/timing/010.json",
+      "new": "logs/research/zero_field_program/20260911_035533/timing/010.json",
+      "sha256": "6c51205c4c04d22947db65208d290f9b4200dc2b048eef281be937f01b31c87a"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_035533/timing/015.json",
+      "new": "logs/research/zero_field_program/20260911_035533/timing/015.json",
+      "sha256": "d1b66a95d55375b32c4c71598f7eee42d46c716c0d3eda1c529ef0cf14d7c1a1"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/bath_cpu.json",
+      "new": "logs/research/zero_field_program/20260911_040025/bath_cpu.json",
+      "sha256": "f18b96f23d93ee9afdce287f401b438fd3b3c7ebf4597f96ad7aae300f369a88"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/bath_cuda.json",
+      "new": "logs/research/zero_field_program/20260911_040025/bath_cuda.json",
+      "sha256": "82810d5da2ff63d230860ba0addd4e7ac03dd4a38d92fdff1e9c609f4577ea94"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/campaign.json",
+      "new": "logs/research/zero_field_program/20260911_040025/campaign.json",
+      "sha256": "e1f70da66a84a8831632ab348198e083fba668c326c289b6dbd53dbc90bd24d2"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/inventory.json",
+      "new": "logs/assets_20260913/research/runs/zero_field_program/20260911_040025/inventory.json",
+      "sha256": "4a16de54cfc0a55837c77fecb1d24f77e10f8cc49ffb9ae81c5cfa8b54110811"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/plan_state.json",
+      "new": "logs/research/zero_field_program/20260911_040025/plan_state.json",
+      "sha256": "569e334d9b46f9eb71547b66a6cd77356d6cadf138af4308d34017bc7eddf0a6"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/resource_estimate.json",
+      "new": "logs/assets_20260913/research/runs/zero_field_program/20260911_040025/resource_estimate.json",
+      "sha256": "25a7a4f801405df5aedd2d8856c8abb187736081c1d9fa89a60bcf4d971825a9"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/000.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/000.json",
+      "sha256": "12ca2c068ab01923f41f87061495851cca0fc487b5479195886db635b06eb83a"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/001.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/001.json",
+      "sha256": "bdb965e3fb9299b458f849aea1fa0d76a649d9bc49b094a678615f3ae712fe46"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/002.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/002.json",
+      "sha256": "fe998fc0add211e68a2f0f16b5db1b8d18b1fb7a29f4808d4a6b9f5c304d58c4"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/003.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/003.json",
+      "sha256": "f253f59dab51b3ca91ad023933e771bd6cf1734008ae7391b6fdb6ea9676e1a8"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/004.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/004.json",
+      "sha256": "6e41acb2897ffdb07140db321eb07d917aa2f763e0a836a026a7db2b984a0ca3"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/005.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/005.json",
+      "sha256": "a89cb2ed407c79c103967ebfba2f0cc7d13cdba2f8d2d169455e269b902ca441"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/006.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/006.json",
+      "sha256": "b1679de486ef152b2dcf2e34fdb2406fe14bbdeb53fc0b50a9db441ef48de920"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/007.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/007.json",
+      "sha256": "ef1c774ce9e6d8ee184f8b78661add2667a10d966aff1de94276aebd08c972be"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/008.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/008.json",
+      "sha256": "25eb358b35d81bdeb65b7be091e1f3336b4dd3a76564026b192ab13f69934b8c"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/009.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/009.json",
+      "sha256": "c02bd4793f8c06c0b9fa97afef3a2a615ddc18d8a037b6b98b61a722b70f439e"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/010.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/010.json",
+      "sha256": "e8dc8baa47390b451efddfdcf1d07f9a0e1810c1551c846fedb18460d2aaa957"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/011.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/011.json",
+      "sha256": "36b8b318b5a334f9cacc78d078f7d141b0f38754fc56090ac92ae2de2686d2f7"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/012.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/012.json",
+      "sha256": "bc18add990f7188f4e0a5c6b5ad60adb68ad3906980d64f12a49421222602f73"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/013.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/013.json",
+      "sha256": "2cab7359a14edb167c5a7ecf1b4bde5ad2fce770fe680d45c9616ed38c1fa884"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/014.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/014.json",
+      "sha256": "eb1837e9c2979fca417333ca952bbfe76ec6f9762a8330418bc1b62db94ca3e5"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/015.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/015.json",
+      "sha256": "c12383ea0409266322099f72862e96de3f4d9c5a4c8e62843fe5023470b57feb"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/016.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/016.json",
+      "sha256": "7547bed2b0437c3c148e2234b53dcc9ea913fb62965599b0a4f551be7c63aa7d"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/017.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/017.json",
+      "sha256": "159e5a869a61055a9913b9fe0b28432ba0d775b1ee6d399e2629c65a036d5e6e"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/018.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/018.json",
+      "sha256": "27f300b8e70a77ee4663e9b083092dd36b490cd4895c5c74618004e4a78abf5b"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/019.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/019.json",
+      "sha256": "cc7d85d57dce3d5c498cdf7d7cfa18d837606bd1f3e864dc92d21003c9b99454"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/020.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/020.json",
+      "sha256": "2798b401a6c9073cb5b5e28a4d75dfd334c1870657d461027782e2d6d715ec02"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/021.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/021.json",
+      "sha256": "54b584b5f387d62efc9ba7270b84b90c304f347b6aabaf770291da6701f1a9a0"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/022.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/022.json",
+      "sha256": "f3303c7aebb9d065d2023fb13cb5cb747ea02e6734fe1c6eaacb27c7b6dfd747"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/023.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/023.json",
+      "sha256": "c66842261e2907ea9a2c87cb1d1aa4b377f0b9897802a5f007c39f493c81dd4c"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/024.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/024.json",
+      "sha256": "cdb0ae0db6f0ea2670274dc0330389ed9fb5d9b73912a8dc3b225af27e1e6e0c"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/025.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/025.json",
+      "sha256": "30fb0417f2f183ea2d24ad95a7a893305aa7578438edc2abd60a42340a90405a"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/026.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/026.json",
+      "sha256": "7a587ce3818264c12df9a11d8ff168465afd4b53370e597155bbe3354a3bb250"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/027.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/027.json",
+      "sha256": "612f15b93a1981f95dcf4e7ab462da04cacfcb1bd3953990c85ee3ffc5585d5e"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/028.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/028.json",
+      "sha256": "72f8385896b0e2cea434dd93423783a2ca594a628cfcbab8061120eae382d53d"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/029.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/029.json",
+      "sha256": "e0d1d0336708cbdb908b3ebca16f690165e700b0665f32acbf745f05f5315c7f"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/030.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/030.json",
+      "sha256": "5ae729bf9e97437c42082f8e7d1f055c17f63e4b9dacec4729f75a650d38b37c"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/032.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/032.json",
+      "sha256": "715348224d761476d0b405ce992fa0a1bb25e960b9811d08f5a7a4a94399f28b"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/033.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/033.json",
+      "sha256": "3256d9baf81c63e7b67f9f8b03d1d72338a979991e480a4b01214b2337f79c65"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/034.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/034.json",
+      "sha256": "5ae5c8ca49dc5617a01ee8efc995abd7a6af858f35543ad6448cadc9856209d9"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/036.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/036.json",
+      "sha256": "fec61420978e60808ac61a2810e51a3b8a2173d36210e48ca3ceb7d73bbaf191"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/037.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/037.json",
+      "sha256": "e738ab55d81b4cbc420cf2fca500748c7815bdeb9077d3a8aa51ce6af305e1e2"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/038.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/038.json",
+      "sha256": "79c96538bb0d19deadce93484803948035b3218b0b4bfbb302d99a85c1008d3a"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/040.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/040.json",
+      "sha256": "9db96ba770b7dbed8d52b6a638dfa58e19a031c418a68a3047133cf6417233dd"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/041.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/041.json",
+      "sha256": "9724eb5fb233e967da838f8895bc468841bc28b998f8cbc9eb3fc00f05e6a171"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/042.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/042.json",
+      "sha256": "0b7718b23f21cdd8fd2b7452e6c0fac85c645a12a099b109c1fb7ef5273f2ef3"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/044.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/044.json",
+      "sha256": "1467cfe3440cefd1d5b58bc5521394bba4e36fe74264fd5d37b289f4b2043b01"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/045.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/045.json",
+      "sha256": "d2cd88b105de8d0d1b72915c60273411e5b5a239dc108875e02fa39fe566d8bf"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/046.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/046.json",
+      "sha256": "8c9a14c3a8889e7387e1435339cab86a722012db44de5554b233b8e916ca4141"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/047.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/047.json",
+      "sha256": "65dad3bcc1f3cc9aa092711146ab078522e2c205df13a31d0ff9592a946b6ec6"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/048.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/048.json",
+      "sha256": "6333b0cec39572527a45c0c4a24ec8c744ec483bc186d80d4b0e9e03dcde6543"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/049.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/049.json",
+      "sha256": "50286a565672228c08d98988d7788e81a700577c8c953ebc02e500180a1399ba"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/050.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/050.json",
+      "sha256": "a0e6be641f931d829c183833054585d26a4b285d3270ec397561cf94f5b39c37"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/051.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/051.json",
+      "sha256": "78752bc6d03e98ea759369ee4cec9610f271e185c99cebde242db5e345b5f7e8"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/052.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/052.json",
+      "sha256": "956c7e64816702ed9f9541d0b4523bd7ff626c2230c974bfe00e1da79c43d228"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/053.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/053.json",
+      "sha256": "8e8d9e21aeac18fa337cdf6bdd71cccd1ae35d1ff5f25464f5d4d2d0348d0e04"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/054.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/054.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/055.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/055.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/056.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/056.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/057.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/057.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/058.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/058.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/059.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/059.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/060.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/060.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/061.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/061.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/062.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/062.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/063.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/063.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/064.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/064.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/065.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/065.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/066.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/066.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/067.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/067.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/068.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/068.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/069.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/069.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/070.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/070.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/071.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/071.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/072.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/072.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/073.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/073.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/074.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/074.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/075.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/075.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/076.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/076.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/077.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/077.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/078.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/078.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/079.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/079.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/080.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/080.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/081.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/081.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/082.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/082.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/083.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/083.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/084.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/084.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/085.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/085.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/086.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/086.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/087.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/087.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/088.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/088.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/tasks/089.json",
+      "new": "logs/research/zero_field_program/20260911_040025/tasks/089.json",
+      "sha256": "36dd78ac2c5b9fdcc565258623dfce9b16df2e04eacba5665aad519c3199af99"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/000.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/000.json",
+      "sha256": "13366faeafcb35e42120a70b57f74c81fe8d81fb50500f33adf7c75bdd88abdc"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/004.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/004.json",
+      "sha256": "90905b1fd2e658241b332425b4c6d04870c4de88e56ba20027f0af9aeecb04b2"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/008.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/008.json",
+      "sha256": "8bd8aa73ec871f174cadb9d80f00976b7b4df811b389f1c9dd3dbf4cf38e642d"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/009.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/009.json",
+      "sha256": "79645e2d75040fcfd735c7ce5b84615da4ceee5b0454c13d1fe833d4000f4b50"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/010.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/010.json",
+      "sha256": "5bf5c473acf6d06173bad36699239d854a248c655042862a3f8c54e98d06ba85"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/011.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/011.json",
+      "sha256": "09d4443fa27f1b1d11dd7b5cbdb2540c4eb06e33ccaac692753e29dc768a787b"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/012.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/012.json",
+      "sha256": "b2c3661315596b76e5175e58f447d1ab26ca6f650dca31dc286b29f012b99bc0"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/013.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/013.json",
+      "sha256": "a2f4e7678155b6f277e161881b68f95c8e2f3946e6d2e86a8131d6ca04f879d0"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/014.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/014.json",
+      "sha256": "e430d937206fabc0cd3db18fe195d3ddc45b112ef0cb2050c5752ae7e702fabb"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/015.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/015.json",
+      "sha256": "10a35a323d289a2a54e17f39a29fc5eccc97ab1ffd57a88d469844391452f2a1"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/016.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/016.json",
+      "sha256": "61760aad6286c316d19ae425f255625f8b9efdda5d9fa11aa959ef02abd63e6b"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/017.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/017.json",
+      "sha256": "54f5539ac353782096b3873fdfa111ddf07656c62893cd5cb6eebcdf7817d192"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/024.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/024.json",
+      "sha256": "99bb60f9b047bd59d0203c51c44b3e7d41d11340365bfa1773f261118f3660b3"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/025.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/025.json",
+      "sha256": "b7f408d8779116574eb100697321fae3ee454a012b89a7e912616eb63ec63f83"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/026.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/026.json",
+      "sha256": "418c0c02276ebf0a4211711ceb952f75021b0c7b274e9c38e1472920ea6c9817"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/028.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/028.json",
+      "sha256": "1459886eae3021aa26f10505da89dcf0edbf8aeb2650da26b1e74d46033ddf13"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/029.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/029.json",
+      "sha256": "3c3ef6d4a9edf1bff041feaa84dd4c770319f4f999ed0e71ec2ac8b9b89711f2"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/031.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/031.json",
+      "sha256": "f515089aa68677b4d8a9811898bc68e95f77e980e8150527a47ddbef59407bb5"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/038.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/038.json",
+      "sha256": "93740c964398a4d9a115b18ca623539c1ab5a6f15875fe4fd923fd858d2688cb"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/039.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/039.json",
+      "sha256": "b4d971a39eee3b0ae603329e6e5c6050d7d103d94c587cb75fd69e2a6e61052b"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/040.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/040.json",
+      "sha256": "94b484bfd326a455a575b5e600c0484ea4dde906ee47cafd79eab09ecad591f3"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/041.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/041.json",
+      "sha256": "a5d6c323498bf488fcfb43654f863618528a0bda99ec9a72fb482be4634689ff"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/042.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/042.json",
+      "sha256": "86109dfbdde5de8aa796c5f71a958cc2077d6723d8520e2e906369eb56fb5c51"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/043.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/043.json",
+      "sha256": "e4d15770e0fec124a086027d98924765fc33082910ab2210a2a15547a825edaa"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/044.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/044.json",
+      "sha256": "bc858b8f7ec7db843c6fc0fbbe1a2a7231ee835ea71937d1cc376aca6f3b443b"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/045.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/045.json",
+      "sha256": "499ec16984111decedb04fbb1cba39b66999e19e09eb858a0de457572f3157cc"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/046.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/046.json",
+      "sha256": "024888e06470ed27154844974e9bab8e9067ea9eb5c12d341d64060ae0577184"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/047.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/047.json",
+      "sha256": "8988a4207a783944f53c5e30b666b95f101fd5e624637e99035e7befe14b63a9"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/048.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/048.json",
+      "sha256": "5d504500ddc681a633ed2ead9adbdd307935bfebad61b418c87c40c27eab6994"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/053.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/053.json",
+      "sha256": "e3be0b38ebb0478398ca8b42e891d3355d1b8a3023bfd678d9e51db17e209512"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/054.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/054.json",
+      "sha256": "8f220a5347bb473bea70551fbd1af32452f32d10826143e6ff7d38e6de575f7b"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/060.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/060.json",
+      "sha256": "1c650158a458982f98b03b0bf59e4e1a4664ece6bcd0ee10214658be9e8103bc"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/066.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/066.json",
+      "sha256": "dd5d235238d35064a391a87e0c72ebe2ed4e78f692e0c9e982fcc0407eed86d3"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/072.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/072.json",
+      "sha256": "46b4f6f6f218eaa9a895c15a54c8d780311b41a7864920d9fda954fcb162bef0"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/078.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/078.json",
+      "sha256": "2438b86238e238a46be5610ded994eb87b416cb5e26cc6015bad803dc2713242"
+    },
+    {
+      "old": "assets/research/runs/zero_field_program/20260911_040025/timing/084.json",
+      "new": "logs/research/zero_field_program/20260911_040025/timing/084.json",
+      "sha256": "c92f19e9cde3d5b52c9d06ce508e8f5863bad44aed0dfb5e1cd392bd294e35ac"
+    }
+  ],
+  "live_exceptions": [
+    "assets/literature_reproduction/bauer_2011/20260911_040025_014/",
+    "assets/literature_reproduction/bauer_2011/20260913_023043_bauer_dt_0/",
+    "assets/literature_reproduction/bauer_2011/20260913_023043_bauer_dt_1/",
+    "assets/literature_reproduction/bauer_2011/runs/bauer_revision4/20260913_023043/"
+  ]
+}

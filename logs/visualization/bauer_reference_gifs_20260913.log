@@ -1,0 +1,3 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+Verified real_trajectories_theta_0.11.gif 201 frames; source unchanged
+Verified real_trajectories_theta_0.13.gif 201 frames; source unchanged

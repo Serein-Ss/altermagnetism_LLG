@@ -1,0 +1,49 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+{
+  "source": "Simulator reference data, not model-generated trajectories",
+  "temperature": "theta = k_B T / J",
+  "time": "tau = t J / hbar",
+  "selection": "Overview: all 32 paths from initial group 0; histogram: all 128 paths. Spatial examples: group 0 path 0 and first negative-endpoint path (else path 1). Initial groups are not paired across temperatures.",
+  "runs": [
+    {
+      "theta": 0.11,
+      "file": "data/research/runs/bauer_first_loop/20260913_v1/reference_T0.11.h5",
+      "sha256": "bceb141c85b92f111dcf2cbc128ca6c9d247eabaf5c0f550708eaee587ddd5b1",
+      "shape": [
+        4,
+        32,
+        201,
+        25,
+        3
+      ],
+      "negative_endpoint_count": 31,
+      "ever_negative_at_saved_frames_count": 40,
+      "endpoint_mean": 0.43639129400253296,
+      "max_saved_spin_norm_error": 5.960464477539063e-08,
+      "spatial_example_path_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "theta": 0.13,
+      "file": "data/research/runs/bauer_first_loop/20260913_v1/reference_T0.13.h5",
+      "sha256": "96f542cee88839d143c3767c6f2cf664635a2e28c3786c03a0696e18e4465dce",
+      "shape": [
+        4,
+        32,
+        201,
+        25,
+        3
+      ],
+      "negative_endpoint_count": 61,
+      "ever_negative_at_saved_frames_count": 101,
+      "endpoint_mean": 0.047114744782447815,
+      "max_saved_spin_norm_error": 5.960464477539063e-08,
+      "spatial_example_path_indices": [
+        0,
+        3
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 """Unselected trajectories and uncertainty-aware campaign figures."""
 from pathlib import Path
+from scripts.core.project_paths import asset_path, resolve_recorded_path
 import json
 import h5py
 import numpy as np
@@ -9,8 +10,8 @@ import matplotlib.pyplot as plt
 
 
 def run(root, pilot_only=False):
-    root=Path(root);out=root/'figures';out.mkdir(exist_ok=True)
-    p=root/'reference/original_dt002/observables.h5'
+    root=Path(root);out=asset_path(root/'figures'/'original_trajectories.png').parent;out.mkdir(exist_ok=True)
+    p=resolve_recorded_path(root/'reference/original_dt002/observables.h5')
     if p.exists() and not pilot_only:
         with h5py.File(p) as h:
             case=json.loads(h.attrs['case_json']);mz=h['values'][:5,:,3]
@@ -21,8 +22,8 @@ def run(root, pilot_only=False):
             ax.plot(t,mz[i],lw=.5);ax.set_ylim(-1.05,1.05);ax.set_ylabel(f'Path {i}\nMz/N')
         axes[0].set_title('Bauer original condition: first five paths, without event selection')
         axes[-1].set_xlabel('Reduced time (hbar/J)')
-        fig.savefig(out/'original_trajectories.png',dpi=200);fig.savefig(out/'original_trajectories.pdf');plt.close(fig)
-    p=root/'pilot_result.json'
+        fig.savefig(out/'original_trajectories.png',dpi=200);plt.close(fig)
+    p=resolve_recorded_path(root/'pilot_result.json')
     if p.exists():
         data=json.loads(p.read_text());fig,ax=plt.subplots(figsize=(7,4),constrained_layout=True)
         for row in data['records']:
@@ -30,7 +31,7 @@ def run(root, pilot_only=False):
                 yerr=[a['nominal_halfwidth95'] for a in w],marker='o',capsize=3,label=f"theta={row['theta']}")
         ax.set(xlabel='Window (hbar/J)',ylabel='Completed first-passage probability',ylim=(0,1),
                title='Pilot only; bars are nominal binomial precision, not a power certificate')
-        ax.legend();fig.savefig(out/'pilot_events.png',dpi=200);fig.savefig(out/'pilot_events.pdf');plt.close(fig)
+        ax.legend();fig.savefig(out/'pilot_events.png',dpi=200);plt.close(fig)
     if pilot_only:
         return
     fig,axes=plt.subplots(1,2,figsize=(11,4),constrained_layout=True);has=False
@@ -48,5 +49,5 @@ def run(root, pilot_only=False):
         axes[0].set_yscale('log');axes[0].set(xlabel='1/theta',ylabel='Completed recurrent interval (hbar/J)',title='Extension temperature grid; finite-window statistic')
         axes[1].set(xlabel='1/theta',ylabel='Completed reversals',title='Event count; no adaptive stopping');axes[1].axhline(500,color='k',ls='--',label='Registered minimum')
         for ax in axes:ax.legend()
-        fig.savefig(out/'arrhenius_events.png',dpi=200);fig.savefig(out/'arrhenius_events.pdf')
+        fig.savefig(out/'arrhenius_events.png',dpi=200)
     plt.close(fig)

@@ -13,7 +13,7 @@ def test_separate_artifact_destinations(tmp_path, monkeypatch):
     output = tmp_path / "output/production/run/evaluation/L16"
     assert project_paths.asset_path(output / "paths.png") == tmp_path / "assets/research/models/production/run/evaluation/L16/paths.png"
     assert project_paths.generated_path(output / "paths.h5") == tmp_path / "data/research/generated/production/run/evaluation/L16/paths.h5"
-    assert project_paths.asset_path(tmp_path / "data/literature_reproduction/legacy/task/plot.png") == tmp_path / "assets/literature_reproduction/legacy/task/plot.png"
+    assert project_paths.asset_path(tmp_path / "data/literature_reproduction/legacy/task/plot.png") == tmp_path / "assets/literature_reproduction/legacy/experiments/reproduction_validation/task/figures/plot.png"
     assert project_paths.asset_path(tmp_path / "assets/research/audit_data/task/plot.png") == tmp_path / "assets/research/audit_data/task/plot.png"
     explicit = tmp_path.parent / "explicit.png"
     assert project_paths.asset_path(explicit) == explicit

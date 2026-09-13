@@ -1,0 +1,39 @@
+{
+  "source": "Real simulator reference, not model output",
+  "selection": "Initial group 0, path indices 0,1,2,3; no event selection. Initials differ across temperatures.",
+  "display": "Arrows are x-z projections, color is s_z; y component is not displayed.",
+  "time": "tau=tJ/hbar; all 201 saved frames, no interpolation; playback is not physical real time.",
+  "fps": 12,
+  "runs": [
+    {
+      "theta": 0.11,
+      "source": "data/research/runs/bauer_first_loop/20260913_v1/reference_T0.11.h5",
+      "source_sha256": "bceb141c85b92f111dcf2cbc128ca6c9d247eabaf5c0f550708eaee587ddd5b1",
+      "gif": "real_trajectories_theta_0.11.gif",
+      "frames": 201,
+      "bytes": 11031669,
+      "initial_group": 0,
+      "paths": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "theta": 0.13,
+      "source": "data/research/runs/bauer_first_loop/20260913_v1/reference_T0.13.h5",
+      "source_sha256": "96f542cee88839d143c3767c6f2cf664635a2e28c3786c03a0696e18e4465dce",
+      "gif": "real_trajectories_theta_0.13.gif",
+      "frames": 201,
+      "bytes": 10742115,
+      "initial_group": 0,
+      "paths": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

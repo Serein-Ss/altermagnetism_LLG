@@ -4,10 +4,13 @@ set -euo pipefail
 cd "$(dirname "$0")/../.."
 case "${1:-}" in
   stage)
-    if test -n "$(git diff --cached --name-only -- GUIDE)"; then
-      echo 'GUIDE already staged; unstage it before proceeding.' >&2; exit 1
+    if test -n "$(git diff --cached --name-only -- GUIDE data)"; then
+      echo 'GUIDE or data already staged; unstage them before proceeding.' >&2; exit 1
     fi
-    git add -A -- . ':!GUIDE' ':!GUIDE/**'
+    # data is ignored; restore tracked GUIDE in the index after staging.
+    # The guard above ensures this cannot discard pre-existing staged GUIDE edits.
+    git add -A
+    git restore --staged -- GUIDE
     ;;
   download)
     git fetch origin main

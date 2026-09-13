@@ -1,5 +1,5 @@
 """Reviewable first-loop figures, complete comparison CSV, and Chinese decision report."""
-from scripts.core.project_paths import document_path
+from scripts.core.project_paths import asset_path, document_path, resolve_recorded_path
 import argparse
 import csv
 import json
@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 from scripts.workflow.bauer_campaign import observables
 
 
-def read(path):return json.loads(Path(path).read_text())
+def read(path):return json.loads(resolve_recorded_path(path).read_text())
 
 
 def run(root):
@@ -36,16 +36,16 @@ def run(root):
             reference_increment_variance=e['reference_increment2'],generated_increment_variance=e['generated_increment2'],
             norm_max=sample.get('norm_max',''),sampling_seconds=sample.get('seconds',''))
         rows.append(r)
-    with open(root/'all_comparisons.csv','w',newline='') as f:
+    with open(asset_path(root/'all_comparisons.csv'),'w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
-    out=root/'figures';out.mkdir(exist_ok=True)
+    out=asset_path(root/'figures'/'physical_observables.png').parent;out.mkdir(exist_ok=True)
     colors=dict(reference='black',rfm='#0072B2',deterministic='#D55E00',euclidean='#CC79A7',autoregressive='#009E73',retrieval='#E69F00')
     fig,axes=plt.subplots(2,3,figsize=(13,7),constrained_layout=True)
     for j,theta in enumerate(cfg['theta']):
-        with h5py.File(root/f'reference_T{theta}.h5') as h:p=h['spins'][:,:cfg['noise_per_half']]
+        with h5py.File(resolve_recorded_path(root/f'reference_T{theta}.h5')) as h:p=h['spins'][:,:cfg['noise_per_half']]
         series={'reference':p.reshape(-1,201,25,3)}
         for k in cfg['kinds']+['retrieval']:
-            s=11 if k!='retrieval' else 0;p=np.load(root/f'{k}_{s}_T{theta}.npy')
+            s=11 if k!='retrieval' else 0;p=np.load(resolve_recorded_path(root/f'{k}_{s}_T{theta}.npy'))
             if np.isfinite(p).all():series[k]=p.reshape(-1,201,25,3)
         for name,paths in series.items():
             v=observables(paths);t=np.arange(201)*80
@@ -57,7 +57,7 @@ def run(root):
         axes[j,0].set_ylim(-1.05,1.05)
     axes[0,0].legend(ncol=2,fontsize=8)
     fig.suptitle('Independent reference vs generated paths; seed11 fixed before evaluation')
-    for ext in ('png','pdf'):fig.savefig(out/f'physical_observables.{ext}',dpi=220)
+    fig.savefig(out/'physical_observables.png',dpi=220)
     plt.close(fig)
     fig,axes=plt.subplots(1,2,figsize=(13,5),constrained_layout=True)
     for ax,theta in zip(axes,cfg['theta']):
@@ -70,7 +70,7 @@ def run(root):
         ax.axhline(.1,color='black',ls='--',label='Screening threshold0.10');ax.axhline(0,color='grey',lw=.5)
         ax.set_yscale('symlog',linthresh=.1);ax.set_title(f'theta={theta}');ax.set_ylabel('Excess energy distance (44 features)');ax.legend(fontsize=8)
     fig.suptitle('All seeds and baselines; simultaneous bootstrap intervals, exploratory small sample')
-    for ext in ('png','pdf'):fig.savefig(out/f'distribution_comparison.{ext}',dpi=220)
+    fig.savefig(out/'distribution_comparison.png',dpi=220)
     plt.close(fig)
     fig,axes=plt.subplots(1,2,figsize=(12,4),constrained_layout=True)
     for ax,theta in zip(axes,cfg['theta']):
@@ -80,19 +80,19 @@ def run(root):
         ax.set_xticks(range(len(subset)),[r['model'] for r in subset],rotation=70,ha='right',fontsize=8)
         ax.set(ylim=(0,1),ylabel='Completed reversal fraction',title=f'theta={theta}');ax.legend()
     fig.suptitle('Descriptive event fractions; zero events do not prove zero probability')
-    for ext in ('png','pdf'):fig.savefig(out/f'reversal_fractions.{ext}',dpi=220)
+    fig.savefig(out/'reversal_fractions.png',dpi=220)
     plt.close(fig)
     fig,axes=plt.subplots(1,2,figsize=(10,4),constrained_layout=True)
     for ax,theta in zip(axes,cfg['theta']):
-        with h5py.File(root/f'reference_T{theta}.h5') as h:real=h['spins'][:,:cfg['noise_per_half']]
-        for name,paths in [('reference',real),('rfm',np.load(root/f'rfm_11_T{theta}.npy')),
-                           ('retrieval',np.load(root/f'retrieval_0_T{theta}.npy'))]:
+        with h5py.File(resolve_recorded_path(root/f'reference_T{theta}.h5')) as h:real=h['spins'][:,:cfg['noise_per_half']]
+        for name,paths in [('reference',real),('rfm',np.load(resolve_recorded_path(root/f'rfm_11_T{theta}.npy'))),
+                           ('retrieval',np.load(resolve_recorded_path(root/f'retrieval_0_T{theta}.npy')))]:
             mz=paths[:,:,-1,:,2].mean(-1).ravel()
             ax.hist(mz,bins=np.linspace(-1,1,21),density=True,histtype='step',lw=2,color=colors[name],label=name)
         ax.set(xlabel='Final Mz/N',ylabel='Empirical density',title=f'theta={theta}; pre-fixed seed11')
         ax.legend()
     fig.suptitle('Post-hoc diagnosis: a plausible mean does not establish a correct mixture')
-    for ext in ('png','pdf'):fig.savefig(out/f'final_magnetization_distribution.{ext}',dpi=220)
+    fig.savefig(out/'final_magnetization_distribution.png',dpi=220)
     plt.close(fig)
     failures=[r for r in decision['accuracy_checks'] if r['status']=='FAIL']
     lines=['# Bauer 铁磁链第一研究闭环', '',

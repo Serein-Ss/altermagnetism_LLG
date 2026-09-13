@@ -21,8 +21,8 @@ def document_path(path):
 def asset_path(path):
     """Mirror project data/output plots into assets, retaining task hierarchy.
 
-    Explicit paths outside the project (e.g. test temporary directories) and
-    paths already in assets are left unchanged.
+    Explicit paths outside the project are unchanged. Existing assets paths
+    are normalized to the experiment layout.
     """
     path = Path(path)
     try:
@@ -30,7 +30,11 @@ def asset_path(path):
     except ValueError:
         return path
     parts = relative.parts
-    if parts[0] == "output":
+    if parts[:2] == ('output', 'bauer_first_loop'):
+        path = ROOT / 'assets/research/runs/bauer_first_loop' / Path(*parts[2:])
+    elif parts[:2] == ('output', 'bauer_campaign'):
+        path = ROOT / 'assets/literature_reproduction/bauer_2011/runs/bauer_campaign' / Path(*parts[2:])
+    elif parts[0] == "output":
         path = ROOT / "assets/research/models" / Path(*parts[1:])
     elif parts[0] == "data":
         if parts[1] == 'literature_reproduction':
@@ -43,6 +47,8 @@ def asset_path(path):
             path = ROOT / "assets/research" / Path(*parts[2:])
         else:
             path = ROOT / "assets/research" / Path(*parts[1:])
+    from scripts.core.asset_structure import destination
+    path = ROOT / destination(path.resolve().relative_to(ROOT.resolve()))
     path.parent.mkdir(parents=True, exist_ok=True)
     return path
 
@@ -75,6 +81,17 @@ def resolve_recorded_path(path):
     extra = {row['old']:row['new'] for row in json.loads(supplement.read_text())['files']} if supplement.exists() else {}
     latest_rules = {old:extra.get(new,new) for old,new in latest_rules.items()}
     latest_rules.update(extra)
+    cleanup = ROOT / 'logs/restructure/literature_assets_cleanup_20260913.json'
+    if cleanup.exists():
+        relocated = {row['old']: row['new'] for row in json.loads(cleanup.read_text())['files']}
+        latest_rules = {old: relocated.get(new, new) for old, new in latest_rules.items()}
+        latest_rules.update(relocated)
+    structure = ROOT / 'logs/restructure/assets_standardization_20260913.json'
+    if structure.exists():
+        relocated = {row['old']: row['new'] for row in json.loads(structure.read_text())['files']}
+        latest_rules = {old: relocated.get(str(Path(new).relative_to(ROOT)) if Path(new).is_absolute() and Path(new).is_relative_to(ROOT) else new, new)
+                        for old, new in latest_rules.items()}
+        latest_rules.update(relocated)
     if value in latest_rules:
         return ROOT / latest_rules[value]
     literature_manifest = ROOT / "logs/restructure/history/LITERATURE_DIRECTORY_MIGRATION.json"

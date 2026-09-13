@@ -1,0 +1,5786 @@
+{
+  "0.11": {
+    "R1": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 2160.0,
+        "proxy_to_switch_time": 2400.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 5200.0,
+        "proxy_to_switch_time": 2000.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 4400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 7200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 8480.0,
+        "proxy_to_switch_time": 3360.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 12400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 4320.0,
+        "proxy_to_switch_time": 2320.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 1120.0,
+        "proxy_to_switch_time": 400.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 2160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 11600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 10640.0,
+        "proxy_to_switch_time": 2560.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 8160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 7520.0,
+        "proxy_to_switch_time": 2480.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 7680.0,
+        "proxy_to_switch_time": 2640.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 1200.0,
+        "proxy_to_switch_time": 1040.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 8480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 15280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 10160.0,
+        "proxy_to_switch_time": 560.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 7120.0,
+        "proxy_to_switch_time": 400.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 10240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 8240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 4320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 9280.0,
+        "proxy_to_switch_time": 4800.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 7520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 11360.0,
+        "proxy_to_switch_time": 2240.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 5040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 12800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 7840.0,
+        "proxy_to_switch_time": 1520.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 5120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 13520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 3040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 3840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": 12080.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 8400.0,
+        "proxy_to_switch_time": 3600.0,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 14720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      }
+    ],
+    "R2": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 8320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 12640.0,
+        "proxy_to_switch_time": 2240.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 6480.0,
+        "proxy_to_switch_time": 2320.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 13920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 1840.0,
+        "proxy_to_switch_time": 880.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 6480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 11280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 5280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 9360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 14480.0,
+        "proxy_to_switch_time": 1440.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 10160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 6080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 9840.0,
+        "proxy_to_switch_time": 960.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 2080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 8960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 3840.0,
+        "proxy_to_switch_time": 960.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 4000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 15920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 3120.0,
+        "proxy_to_switch_time": 2400.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 2240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 9200.0,
+        "proxy_to_switch_time": 2320.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 14240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 11760.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 4160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 12080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 11280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 7360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 7840.0,
+        "proxy_to_switch_time": 2240.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 10.0,
+        "patch_time": 6560.0,
+        "proxy_to_switch_time": 640.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 12960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 6080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": 1280.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 3040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      }
+    ],
+    "RFM11": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 15.5,
+        "patch_time": 14400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 2960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 12160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 15200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 12800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 12.5,
+        "patch_time": 12320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 8400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 10.0,
+        "patch_time": 7200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 9360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 8720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 14080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 12000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 11280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 13920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 12320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 5520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 10.0,
+        "patch_time": 6720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 7
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 8000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 1200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 11.5,
+        "patch_time": 13520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 10.0,
+        "patch_time": 14880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 11680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 2000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 13.5,
+        "patch_time": 11760.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 5.5,
+        "patch_time": 10400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 18.5,
+        "patch_time": 13680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 12000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 15.5,
+        "patch_time": 12480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 3200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 3680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 8560.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 14880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 9200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 8000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 15840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 8080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 2640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 11440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 14640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 15.5,
+        "patch_time": 9840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 6640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 11600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 16.5,
+        "patch_time": 6800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 11200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 8800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 14080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 15840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 3760.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 5440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 19.5,
+        "patch_time": 12320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 8400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 15680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 14.0,
+        "patch_time": 11600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 15840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 8320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      }
+    ],
+    "RFM22": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 16000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 6160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 6000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 2080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 9280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 8640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 7360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 7360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 11200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 17.5,
+        "patch_time": 1760.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 3840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 15.5,
+        "patch_time": 6720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 18.0,
+        "patch_time": 7840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 8800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 18.5,
+        "patch_time": 3040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 15.5,
+        "patch_time": 12480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 6480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 5520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 6000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 13.5,
+        "patch_time": 6080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 5840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 5040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 10.0,
+        "patch_time": 3600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 11600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 5920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 7600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 11.0,
+        "patch_time": 5600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 3680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 10080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 14000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 6480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 13.5,
+        "patch_time": 9040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 11.0,
+        "patch_time": 13680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 5600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 15120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 12720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 12.5,
+        "patch_time": 10960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 1120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 4000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 15120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 3600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 6.5,
+        "patch_time": 6400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 2800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 6800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 11600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 11040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 12960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 5280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 7200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 8.5,
+        "patch_time": 5360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 9040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 5.5,
+        "patch_time": 4480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 3360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 12.5,
+        "patch_time": 5760.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 3280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 5840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 8400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 5520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 6.5,
+        "patch_time": 10880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 4080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 1120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 1520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      }
+    ],
+    "RFM33": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 11.5,
+        "patch_time": 6640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 15.5,
+        "patch_time": 3520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 7280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 2240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 16.5,
+        "patch_time": 2720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 3280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 18.0,
+        "patch_time": 5040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 8.5,
+        "patch_time": 5920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 14.0,
+        "patch_time": 4000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 18.0,
+        "patch_time": 5120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 7.5,
+        "patch_time": 10320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 11440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 8.5,
+        "patch_time": 9280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 11.5,
+        "patch_time": 8320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 3280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 7040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 11.5,
+        "patch_time": 6320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 4880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 10.0,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 5.5,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 5040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 4640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 5040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 3040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 15.0,
+        "patch_time": 10000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 7600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 10320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 3120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 4880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 4400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 1440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 6000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 14.0,
+        "patch_time": 6240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 10400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 7520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 16.5,
+        "patch_time": 8080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 1360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 8800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 18.5,
+        "patch_time": 3360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 11760.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 7920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 8960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 9440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 13.5,
+        "patch_time": 4240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 9440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 7120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 1840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 11.5,
+        "patch_time": 8800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 7680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 4080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 7280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 5.5,
+        "patch_time": 6160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 9600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 8800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 11.5,
+        "patch_time": 5120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 2160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 8000.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 2240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 4960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 4880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 5200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 3920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      }
+    ]
+  },
+  "0.13": {
+    "R1": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 6480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 10880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 2480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": 14000.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 5680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 3360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": 9280.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 5120.0,
+        "proxy_to_switch_time": 1520.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": 13840.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 4320.0,
+        "proxy_to_switch_time": 640.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 1120.0,
+        "proxy_to_switch_time": 960.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 10.0,
+        "patch_time": 7040.0,
+        "proxy_to_switch_time": 6880.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 7.5,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": 3200.0,
+        "simultaneous_first_blocks": 8
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 6.0,
+        "patch_time": 4720.0,
+        "proxy_to_switch_time": 400.0,
+        "simultaneous_first_blocks": 7
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": 2080.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 14960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 7.5,
+        "patch_time": 11280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 1440.0,
+        "proxy_to_switch_time": 1200.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 3440.0,
+        "proxy_to_switch_time": 960.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 6.5,
+        "patch_time": 3600.0,
+        "proxy_to_switch_time": 10800.0,
+        "simultaneous_first_blocks": 8
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 1680.0,
+        "proxy_to_switch_time": 1360.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 4160.0,
+        "proxy_to_switch_time": 8800.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": 14960.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 5120.0,
+        "proxy_to_switch_time": 4320.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 3280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 4640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 2080.0,
+        "proxy_to_switch_time": 2400.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 4640.0,
+        "proxy_to_switch_time": 2160.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 4800.0,
+        "proxy_to_switch_time": 3520.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 19.5,
+        "patch_time": 7200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 4560.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 4320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 1360.0,
+        "proxy_to_switch_time": 10320.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 7600.0,
+        "proxy_to_switch_time": 2800.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 13360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 10720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": 1440.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 15600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 2560.0,
+        "proxy_to_switch_time": 4880.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 4400.0,
+        "proxy_to_switch_time": 8400.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 3440.0,
+        "proxy_to_switch_time": 10720.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 6400.0,
+        "proxy_to_switch_time": 800.0,
+        "simultaneous_first_blocks": 9
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 3440.0,
+        "proxy_to_switch_time": 10720.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": 4720.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 1360.0,
+        "proxy_to_switch_time": 13840.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 10160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 6880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 5120.0,
+        "proxy_to_switch_time": 8080.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": 640.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 3280.0,
+        "proxy_to_switch_time": 2880.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 13920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 3280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 1600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 11.0,
+        "patch_time": 3360.0,
+        "proxy_to_switch_time": 640.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 4720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 19.5,
+        "patch_time": 1200.0,
+        "proxy_to_switch_time": 8560.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 4080.0,
+        "proxy_to_switch_time": 4960.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 1120.0,
+        "proxy_to_switch_time": 3040.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 13840.0,
+        "proxy_to_switch_time": 880.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 10160.0,
+        "proxy_to_switch_time": 4960.0,
+        "simultaneous_first_blocks": 3
+      }
+    ],
+    "R2": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 7280.0,
+        "proxy_to_switch_time": 8160.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 2160.0,
+        "proxy_to_switch_time": 10000.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 5520.0,
+        "proxy_to_switch_time": 560.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 1200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 1840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 3520.0,
+        "proxy_to_switch_time": 1520.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 9120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 1760.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 6240.0,
+        "proxy_to_switch_time": 560.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 3440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 4800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 1760.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 3520.0,
+        "proxy_to_switch_time": 4640.0,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 8240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 7520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 6880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 11040.0,
+        "proxy_to_switch_time": 2080.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 7280.0,
+        "proxy_to_switch_time": 800.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 10480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 3200.0,
+        "proxy_to_switch_time": 1840.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 7.5,
+        "patch_time": 13280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 5520.0,
+        "proxy_to_switch_time": 2560.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 8400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 6880.0,
+        "proxy_to_switch_time": 560.0,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 5200.0,
+        "proxy_to_switch_time": 1200.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 7280.0,
+        "proxy_to_switch_time": 4000.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 15.0,
+        "patch_time": 3440.0,
+        "proxy_to_switch_time": 560.0,
+        "simultaneous_first_blocks": 9
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 8080.0,
+        "proxy_to_switch_time": 1040.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 6960.0,
+        "proxy_to_switch_time": 3680.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 2320.0,
+        "proxy_to_switch_time": 8800.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 18.166666666666668,
+        "patch_time": 3840.0,
+        "proxy_to_switch_time": 80.0,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 6640.0,
+        "proxy_to_switch_time": 1840.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 4160.0,
+        "proxy_to_switch_time": 10320.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 3680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 6.5,
+        "patch_time": 2320.0,
+        "proxy_to_switch_time": 2960.0,
+        "simultaneous_first_blocks": 8
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 8400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 9440.0,
+        "proxy_to_switch_time": 2080.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 6080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 4.5,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 4640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 5520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 11440.0,
+        "proxy_to_switch_time": 1760.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 6240.0,
+        "proxy_to_switch_time": 2240.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 2240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 19.5,
+        "patch_time": 11440.0,
+        "proxy_to_switch_time": 800.0,
+        "simultaneous_first_blocks": 8
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 7840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 8240.0,
+        "proxy_to_switch_time": 640.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 2080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": false,
+        "patch_site": null,
+        "patch_time": null,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 0
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 2400.0,
+        "proxy_to_switch_time": 6880.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 8880.0,
+        "proxy_to_switch_time": 560.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 5280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": 2640.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 3120.0,
+        "proxy_to_switch_time": 640.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 15120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 6.0,
+        "patch_time": 7680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 7
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 12720.0,
+        "proxy_to_switch_time": 560.0,
+        "simultaneous_first_blocks": 2
+      }
+    ],
+    "RFM11": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 15.0,
+        "patch_time": 2080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 7.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 2800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 2080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 1200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 22.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 2080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 1360.0,
+        "proxy_to_switch_time": 13040.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 5.5,
+        "patch_time": 2080.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 13.5,
+        "patch_time": 1440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 18.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 14.5,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 2320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 6.5,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 1920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 2720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 8.5,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 2160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 1920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 18.5,
+        "patch_time": 1920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 11.0,
+        "patch_time": 2160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 1680.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 15.0,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 2160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 6.0,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 7.4,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 12.5,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 15.0,
+        "patch_time": 3920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 14.0,
+        "patch_time": 1440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 11.0,
+        "patch_time": 2400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 18.5,
+        "patch_time": 720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 5.5,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 1120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 12.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      }
+    ],
+    "RFM22": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 6.0,
+        "patch_time": 1600.0,
+        "proxy_to_switch_time": 12640.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 15.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": 9920.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": 15120.0,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 1360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": 15440.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 1760.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 6.0,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 1520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 17.5,
+        "patch_time": 1360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 15.5,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": 12720.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 1600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 17.8,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 5.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 6.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": 14880.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 15.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": 13280.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 1600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 13.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 21.5,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": 14560.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 11.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": 14720.0,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 16.5,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": 12480.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 5
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 14.5,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 1200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 6.0,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": 11280.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 11.5,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 15.0,
+        "patch_time": 1120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 9.5,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 6.5,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 9.5,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 15.5,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 17.5,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 12.5,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": 11440.0,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 9.5,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": 13840.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 14.5,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 1200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": 10640.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 5.5,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 6
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 12.5,
+        "patch_time": 720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 8
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 14.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 19.5,
+        "patch_time": 1440.0,
+        "proxy_to_switch_time": 14080.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      }
+    ],
+    "RFM33": [
+      {
+        "initial": 0,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 14.0,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 1360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": 14480.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 7.5,
+        "patch_time": 720.0,
+        "proxy_to_switch_time": 14720.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 14.0,
+        "patch_time": 1360.0,
+        "proxy_to_switch_time": 13760.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 1360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 1520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 17.5,
+        "patch_time": 5360.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 10.0,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 2640.0,
+        "proxy_to_switch_time": 13120.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 12.5,
+        "patch_time": 480.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 13.5,
+        "patch_time": 1440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 0,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 8.0,
+        "patch_time": 1440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 0,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": 7920.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 0,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 2160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 3440.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 11.0,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 1200.0,
+        "proxy_to_switch_time": 13040.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 16.666666666666668,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 1200.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 16.0,
+        "patch_time": 1600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 1,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 18.5,
+        "patch_time": 1120.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 10.0,
+        "patch_time": 240.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 1840.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 1,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 1520.0,
+        "proxy_to_switch_time": 13360.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 1,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 22.5,
+        "patch_time": 2160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 9.5,
+        "patch_time": 4160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 4.0,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 2,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 1520.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 11.857142857142858,
+        "patch_time": 4160.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 7
+      },
+      {
+        "initial": 2,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 17.5,
+        "patch_time": 2720.0,
+        "proxy_to_switch_time": 10480.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 640.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 17.0,
+        "patch_time": 400.0,
+        "proxy_to_switch_time": 15120.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 18.5,
+        "patch_time": 2880.0,
+        "proxy_to_switch_time": 5760.0,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 19.0,
+        "patch_time": 3360.0,
+        "proxy_to_switch_time": 11360.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 9.0,
+        "patch_time": 1280.0,
+        "proxy_to_switch_time": 11440.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 880.0,
+        "proxy_to_switch_time": 14080.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 20.5,
+        "patch_time": 1600.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 2,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 10.5,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 2,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 0,
+        "patch_observed": true,
+        "patch_site": 3.5,
+        "patch_time": 320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 1,
+        "patch_observed": true,
+        "patch_site": 12.5,
+        "patch_time": 960.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 2
+      },
+      {
+        "initial": 3,
+        "path": 2,
+        "patch_observed": true,
+        "patch_site": 15.0,
+        "patch_time": 720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 3,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 3040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 4,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 800.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 5,
+        "patch_observed": true,
+        "patch_site": 6.0,
+        "patch_time": 3040.0,
+        "proxy_to_switch_time": 12720.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 6,
+        "patch_observed": true,
+        "patch_site": 3.0,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 7,
+        "patch_observed": true,
+        "patch_site": 7.0,
+        "patch_time": 560.0,
+        "proxy_to_switch_time": 15440.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 8,
+        "patch_observed": true,
+        "patch_site": 20.0,
+        "patch_time": 2720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 9,
+        "patch_observed": true,
+        "patch_site": 7.5,
+        "patch_time": 3920.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 10,
+        "patch_observed": true,
+        "patch_site": 5.5,
+        "patch_time": 1040.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 11,
+        "patch_observed": true,
+        "patch_site": 12.5,
+        "patch_time": 2320.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 4
+      },
+      {
+        "initial": 3,
+        "path": 12,
+        "patch_observed": true,
+        "patch_site": 14.0,
+        "patch_time": 720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 13,
+        "patch_observed": true,
+        "patch_site": 21.0,
+        "patch_time": 4160.0,
+        "proxy_to_switch_time": 9280.0,
+        "simultaneous_first_blocks": 3
+      },
+      {
+        "initial": 3,
+        "path": 14,
+        "patch_observed": true,
+        "patch_site": 23.0,
+        "patch_time": 1680.0,
+        "proxy_to_switch_time": 14000.0,
+        "simultaneous_first_blocks": 1
+      },
+      {
+        "initial": 3,
+        "path": 15,
+        "patch_observed": true,
+        "patch_site": 13.0,
+        "patch_time": 720.0,
+        "proxy_to_switch_time": null,
+        "simultaneous_first_blocks": 1
+      }
+    ]
+  }
+}

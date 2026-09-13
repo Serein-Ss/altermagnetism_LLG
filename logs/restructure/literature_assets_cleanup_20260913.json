@@ -1,0 +1,959 @@
+{
+  "backup": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus",
+  "files": [
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_035533_008_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_035533_008_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "f801cf7185d6a46d385704e65329954fb0fc84670c69a4250880d8a93d972a85"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_035533_009_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_035533_009_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "b941a82b56349c3e8a46674e7a9de9c58cad386a6cb5c96613cce856d9aec466"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_035533_010_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_035533_010_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "19e4f58789351fdec6bf94911efd4a9e6d66578adbd153963999b2d625941fad"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_035533_011_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_035533_011_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "cb06ef52e46e0f7f7c5f8cc39b6fdd6b5df6a2c1874e38ed4723eb8beb4c7ca9"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_035533_012_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_035533_012_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "50456124fa8dbe6712b8db41a822e53cf9d7b59f6b6caf66d3191d41d2c05aa2"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_035533_013_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_035533_013_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "f57015d6c17ca8f4419d56cecbe0f5fee16d88527aa35a0118725767e26f5eea"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_008/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_008/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "3a9c2e263c7215eaef006cf2b4f5a7df4e4b4aa118f02f4c8792995b9031eee2"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_008_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_008_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "e8fc8527bb0be00d856f8e601511c34896935d54a98bde7ed28e0d2ad13a956d"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_009/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_009/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "5d28c74007cde858460974a45b38dbf2cda94d0fa055da30b7788faa9b5390f7"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_009_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_009_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "2ed5850056a95a2d8192264e35231d27ce7662e1e460cd9c374d3806aae95e74"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_010/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_010/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "2a511e96c33415421fb6f8d11ec114a7d3124496a7248101ac510e6f959ee0e1"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_010_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_010_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "807ae6f2a93a6bacbddc0a4cec392f23f9e1fe00dfa73d2b83ab5da030660623"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_011/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_011/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "75722f99f3beda34b2536d32cf497aac11ee524979d466583a561c99ca7083b8"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_011_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_011_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "f42565f516a4183bc3a64f7f7d143ff0d9c0ab0e0dad6fb2cc414d3d7a8b184e"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_012/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_012/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "8e8e46edcbcb2cce526103b95ed2cada3e2be8bd526828181ee91173d48e1053"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_012_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_012_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "3cebe639b639f2703fdb5a50d9f6a9360a3c8c5f2a6a9359540a947974ec63a4"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_013/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_013/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "a2a9c410c23f2da0cb1460afd9efb11888f17acc2866b4513b5ae146edefa61e"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_013_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_013_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "bb6a141efb5eb25d75fae4f1652c22113e627d5b9917771ab7dc445b5adc9008"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_014/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_014/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "89ccf68582aab7a102e7a30f4e0a823455fa8609ed449463422085b1f3a24910"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260911_040025_014_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260911_040025_014_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "3721b45ca569df3e230711834bccf63aa5e5b4906cd5d0dd2e7108540eee1957"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260913_023043_bauer_dt_0/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260913_023043_bauer_dt_0/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "952356120edb89e997d90d8f207680156a09e49aca955e6659b9d38512b80389"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260913_023043_bauer_dt_0_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260913_023043_bauer_dt_0_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "ed19ef8e2e3f395989bfdd0dabb5b23d329fd404fffc2258cf3816c99814e520"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260913_023043_bauer_dt_1/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260913_023043_bauer_dt_1/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "2066627ea6dbb41c3728d4b9b0fa67c430e2b27f73ed5246a6b37948deabab25"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/20260913_023043_bauer_dt_1_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/bauer_2011/runs/20260913_023043_bauer_dt_1_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "7ce9e10236fc9558355f4a3e5642f40c6120dc3a9e09bdd70ae6deb707c0a687"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "d9da863fea0d7e71800dc5c3adf5e5682f43ec3d05abdf4c8cc480f3aa770014"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "82503671330a9c424ac4197c9c82be89f16f6eb4d2861a8a831c1d9b5d2b3f56"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "a343262dc391ec41884ac985471df3f66093b7db0871369eb146b28007a2daa4"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "1a1f888e01c5c5fb2df344fac16eb5e69d1a64be22a144fea7b184640d3b745b"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "309a5c528971bf0fd2ac73e3c536cb8b55198127afd9b6e9e7deddb544e685cd"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "65855e55793028662496aa2d5ae030336329053b92b3e0b377fef870dbad14df"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "9b323ad4fd18cf8c5839c1dc120f9aaf5bc583052d588f7b490421c2413f1ceb"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "b577b82ce2f449ed80f91ee59d428a560cebfe4939b811e918465ecb6f849188"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "c6cc2314cba6641a6fae1bc8f1bb5ea1e4042cbd3a0c0b51f1cd0f4e14e75050"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "3b2dd26b7d3aecfea047010ce923d65f6a2cf5d3974ffb3877df47c575c627f0"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "3e3ac491c2613ba4101b89b57d6012a73f913eebf1a14107ef6b44b451f98281"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669324/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "9ce1a1d0167c6795ee3006dfcd460c774434e67d8b7530a7d2a4fc896c5ab92b"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "85b1a2676ae6a1e758b4ac3e204cb2301c05b1496a8f8b973edca767383c8348"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "8d9861677b73d968d29da6cfd2849c2a3faf88b1ab25f2fe426bc93e104acdbf"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "23e2c34c3a0385db9619ae4b2bc6721ccd424ae843286ce7f4e9673aca8da087"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "0a5cbbb7e078a66df11173b54faf099925cea4b234f3bdb211835d2e54a77536"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "a66969db317a44fc761cee6640fc19d8d4f85c1cfad754863da79f0d9f697a95"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "8e28f52de9b4f2d1b61513191759659aa15e61f0e42faaeecb0841c04afebced"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "63b7d731e02e6254db82bae8dba0b3587dafd25f7c6915ee01b6764d6286ad37"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "25ec24df9dadadc1a356716384fe7d978535d440116d036d81d00d0444297066"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "817367bdf3984aa2aaf8aab44a2d36f80f176085b736a158c8ce7bea04ae857a"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "5a426cdfc233d53d67bf6fd3c740f2b71f6c1d6ad71cf715c0d4806948afa943"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "5778fbba2b749a485a31db4f6db39f800b5bce75dc8a753f82aeed8bfe9b40ab"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669325/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "d689c40ec03f5dd820f154b33da3fae6e1a87d5a5131711a81c4e83103f1894d"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "77bd8dd04fd757ebcd037843bafac27ddb20e3e023fee931a064fafe0cf91dfe"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "295927bea479007ae79de8f0b53ff827c9df7b4d02a67ef64109764c4238ebfd"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "4e932b89121724e7228401b9210e501e784a757b70d61433c9c8868b11b20585"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "3a6d91180824fe645f671f78599c5da788e679e7a12ac4096c7cecf1208a693d"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "33560bf9240ae4df21baed4892e9977f5e98d863dcfefb9aee5d5d3bf86e85fe"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "c9ff12310fffa06a494dce2d00a133147c300b0206829814222ce70dc869ca1b"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "e1967dd389425402cc66cdb7d102947b2107f87c749ad6745ac8a89e2a745c0c"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "5a6a8e00648ec0a91bef5b62ac370233e770b1f4e6fe63904255b54670eb8dd2"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "f648ac357c36b8d08d26f874a92d14d413569c22eced0ea7a8960d50e191b8b7"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "471d8cbf995ff23ae7d38a82a3638ec6c256518b1f1afa46ccb1b887d89a14f3"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "98dcaa18d63dbbdde5bf1c2a3a093e04832cd6eb09f20cd697141d9befdff927"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669326/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "bb82979414f4f89d20526eb7bcb6e406815bdf6851f622c6c2db27b843ae109d"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "620c2720d765993d59ec66d2c5a2761c0f623f73ba73a450f3a608c2f5242636"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "ae27a1a8a3a8e999caca61acc1b4ebe5b1abb653c484c2a940bb45a0f55c1780"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "db038635aa95c599527005524b48787787ec090b0faaf59cb37899d092919fe1"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "9e376eb6b741cbb57ceee77aa2c87ce80671771b6105caa77a5b102ddaefe292"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "a4fa7b899bcd85834ed75c33bd84d945f3a747f30058c07bea8c798d9633f510"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "ffa8c42bea5c4a9ad1dc67a44ce74785672fc6482c0a1f7452a60c25164be159"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "3561d1059e161d1d386851713e15cccb467dccaf906031c9043903e07bba754e"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "15827479633da6f088e6503d5fda0d705e7ed7ad01d6d86527afa7cc80e6468d"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "17902e3720f8e1c724ea9909383e3d03634217e2c67130c6f536c637d6dbb216"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "6169d7f49b0d1c04fd581dcb109b2241adc46930587f3f93a49f30f1719fd464"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "4afa17715f38078ff87efdcf4ea058291ae17595845ea9699ef7be7076017a28"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669331/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "eebbd7671aaaf7f1faef180fafd4c38e1c4711af48fb91b0a251e02383220ef9"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "d2099886e6189cff2e02ba1548cdf4933e21ee0137df427999d7d7fe5af3c3f6"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "ae27a1a8a3a8e999caca61acc1b4ebe5b1abb653c484c2a940bb45a0f55c1780"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "08291993ac20fdf02ac01180c1c9118b2266cd78ae4d7b06b0805b7bb8096305"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "9e376eb6b741cbb57ceee77aa2c87ce80671771b6105caa77a5b102ddaefe292"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "b4126b1a24f67a089c32dd1519ffb0a14e0796d355d16b1acf8c7ffde60d55c0"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "ffa8c42bea5c4a9ad1dc67a44ce74785672fc6482c0a1f7452a60c25164be159"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "84e9938afc7c0ae1f0cd994d023a07988de4bb26321eceeea452b236a4128b46"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "15827479633da6f088e6503d5fda0d705e7ed7ad01d6d86527afa7cc80e6468d"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "1782c94c9de26fd00dc8b1db48ec0d22a369d87a2240707951886e038aa79701"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "6169d7f49b0d1c04fd581dcb109b2241adc46930587f3f93a49f30f1719fd464"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "6799cefdc7fd2bdc4b916ec2b22251837a943f834dbe3ce019f6a0355ebe5b39"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669332/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "eebbd7671aaaf7f1faef180fafd4c38e1c4711af48fb91b0a251e02383220ef9"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "575dc4bd19ee3d12e9429fa6e226967826432251395f65b0eba16903143c1bdf"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.cross-30.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "ae27a1a8a3a8e999caca61acc1b4ebe5b1abb653c484c2a940bb45a0f55c1780"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "fba15735ac21d290be8e401a47b01be1cb757c55d1bb5b8246c8ce0f16db32d2"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.drift-12.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "9e376eb6b741cbb57ceee77aa2c87ce80671771b6105caa77a5b102ddaefe292"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "4866c2d32c1f958b9bc60686bbebe1747369c464c694b03fa3a9efccc38af122"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.ensemble-116.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "ffa8c42bea5c4a9ad1dc67a44ce74785672fc6482c0a1f7452a60c25164be159"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "4285e568894ae094ca79077cacfb06c9201410232fe331f9ebab88021f31e88c"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.heun_step-74.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "15827479633da6f088e6503d5fda0d705e7ed7ad01d6d86527afa7cc80e6468d"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "80283380b1968aa374ca07781d788b2aa29acaadab597fdee3eec3e1d46e11c9"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.mt_step-40.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "6169d7f49b0d1c04fd581dcb109b2241adc46930587f3f93a49f30f1719fd464"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.1.nbc",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "61543b0c2faf733c2f7e98ff21010f6826f5ee32c072b308fb4076528fdc8c51"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/literature_assets_backup_20260913_dgqt4bus/bauer_2011/runs/bauer_campaign/20260913_classical_independent/numba_cache/669333/core_03ec47a91f8ede433df0c0c94af5d06d2b0d9432/bauer_fast.trajectory-89.py310.nbi",
+      "reason": "Historical compiled cache, not a scientific result",
+      "sha256": "eebbd7671aaaf7f1faef180fafd4c38e1c4711af48fb91b0a251e02383220ef9"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_025/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_025/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "d3895e9c8bd5c2674ae6494c278bde31340adf12e5f34494abc0a45f33a7d48b"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_025_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_025_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "e271991aa7927634b4eae667195e67c95286a972f28a05bd2420d45d93ee6497"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_026/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_026/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "fe96d2520556f835627300dd1e68b0d809fba646300d164787f7adb6decd39f3"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_026_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_026_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "a3f56af66edcf7bb727f97c3a895b2ccdc8a4945ae1644354a088b6721c0a637"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_027/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_027/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "190347cfe0e820930981538859c68bb15eae5c4851efc796e0a4aabd24f5775c"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_028/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_028/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "f47018bb43e5dcc49778444ad6084ebd7704f530767bccf252110498d906e9e7"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_028_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_028_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "43277294e7c16fa281cc46c2cdc8c914b3f9108532298eab47d9694ba460bb6d"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_029/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_029/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "d714db2280aa469f6fb34f0e8352a598708f7df8277e732e325f7eb63112e458"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_029_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_029_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "e80c22e0375e9f5d070ab039471ee59276d502d87f715c1122d2278955baa006"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/20260911_040025_030/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/gomonay_2024/runs/20260911_040025_030/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "3b6e0eaf3617a6fc81767ce0295d3e6fbb39f06b904e52f35e4889d45b42925b"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_035533_015_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_035533_015_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "7d1ccade4f51b2f207bece6f88a5ed189f7417b08b8004ab1821abd7b604299d"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_035533_016_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_035533_016_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "085d42d590ad3ecd4f669fe02429f2ee070c5e809387fdb0686f557ba3dceb84"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_035533_024_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_035533_024_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "21b63352a81f6cb945d4421efc83ae427ca6c5203ee5cb4b2f91d8e995673733"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_015/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_015/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "866656ca66fe37e1374de54cbccefc144e1edde832e8a3d1ffda3a30f3380181"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_015_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_015_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "712efd63383f40ae08f13a543ecaead398f2dd08ecdf03f975e2a5a9807beae6"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_016/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_016/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "fd3dd1863f8ee8031ab75ec3085c682a7a22f1c1770be5ffa77edd2e276e17b1"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_016_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_016_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "bfbb5115e52592117f5879f0f7a75c383b315795aa8afbd737b01244415aca68"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_017/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_017/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "e7d0bf3965cfa1e8b32df7af73549860274983a709547c0a4c1fa9bfe2c33b98"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_017_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_017_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "ab8bee5e20dca3c931fb7c68349e0f801237c33f0de25aad7f92b8c1d8da4757"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_018/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_018/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "4daec777f30081a3f256e053756c4e85844057247fd1b564fb580086a7b05939"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_019/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_019/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "95744606f7bb5b40cb61317b747c3537de69c8cb5a6c3141bd289e092c0bfef2"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_020/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_020/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "3062b95c185e1eff0b4aaa30dac02d331376edf4a20c7ad84b1555ea9a77f6c7"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_021/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_021/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "2abb8413d3cfc68e07f9575d9651a8b485aeab9d026ecd98d717a71d4f11198c"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_022/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_022/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "aa10508696b3b0dbb1832f92bab7f78e8daf287ad49dd6d071d8a8e1214ab75b"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_023/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_023/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "5676aff0b0d287e65efea7c6c1f67c56a3d6e3472ab652283d65461287a4dba9"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_024/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_024/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "22105f6d8ea12052062de5a5ea5d5f4cf01ca0b4239a6f6000ca714009b1f8fb"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/20260911_040025_024_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/hirst_mn2au_2022/runs/20260911_040025_024_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "c122a68240b8c226be50ac90dba392b9dc2f3b9224459a0378ac930bd757ddd5"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_031_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_031_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "c1887765629245dd282a6757e347854d2e650690adf3b0c263ee02402965111b"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_032/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_032/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "d8d6da0af230b2bf12f3f6a481c90b9c757e253986d03023d2c52f2a185b1ec3"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_033/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_033/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "0da85069a3bc14210ef4bbc0299c8bd2605723141f348d1f479d391979f294ac"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_034/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_034/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "52bf239ab9455dbf3004ff29aec40b64dee8a2f94ddf6c45d9a0bff371d65f01"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_036/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_036/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "ece70d96bc65cea48d3615c300c3ad861b850162707cb5d47ef13a414f37a9e1"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_037/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_037/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "05e23c2dc8768d9b8982aa3e506f60b24104b59a0c7958445d1f66888787681d"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_038/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_038/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "d9b61fed3815401d9bd1f4365a5bfc07d384103a21fc2518b9042587acb5edbc"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_038_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_038_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "05fc1428ecb413e67323c76368f25ff17b89f6e77c94a0b40bc644a209f0b719"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_039_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_039_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "1ee0481f7d12b571619f7f4b4bd73c04eb9e209b73f53c1734c59fb329553706"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_040/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_040/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "5a84af0a21e676b91f4022649675c1cb1d752e5d5e90c238e479782697af4b0e"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_040_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_040_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "b1c1547fa1c6c45fea8b5af62adcaf8e23796be21a9ceed3ac68b0337976488e"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_041/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_041/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "510237a9affa4baa8b3143f5503c1111f6f7c99e509c943b2bca8df185ceaa10"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_041_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_041_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "0a0fe006ff30e866e8ffbe7e7ba2a34c7d48cee5b23d7646537b639494168dcc"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_042/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_042/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "6f3c10f224d9762b76070f3920f40e03d9701c89a47573da53f9573c0890c886"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_042_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_042_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "12e6c6b8b2156abc83e02b64bb45841c7ca922403a80786e18940f2e0480ef2e"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/20260911_040025_043_timing/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/laliena_crnb3s6_2020/runs/20260911_040025_043_timing/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "7ffde114f62f65dfc27f313ec5a51be306ab98a14bf9b82530e86b87410ffaca"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/20260909_8df33ac_bb48dc64/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/20260909_8df33ac_bb48dc64/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "55f2a4e1c0d9bdbe072d2f793e477e5ed525ce531080f102a29c06cc90363705"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/20260909_8df33ac_bb48dc64/started.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/20260909_8df33ac_bb48dc64/started.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "278e2a222e5a609126b40a9932f84e2cc84961b3e53808268ef0d1ffb6db6a80"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/20260909_8df33ac_bb48dc64/task_exit_codes.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/20260909_8df33ac_bb48dc64/task_exit_codes.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "39934c0fe082e18b835bdde5547fbcd10283914cb1fea7da9cdddbd296ab340a"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/20260910_8df33ac_d30ae957/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/20260910_8df33ac_d30ae957/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "aa0ad9750a93112e6b417d94a4e0e62e485c68479870a6f8e8622122a4ceaab6"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/20260910_8df33ac_d30ae957/started.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/20260910_8df33ac_d30ae957/started.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "76c3e0dd1019b3fe453c83ba740e28b6e7bed74382152cbed71462ba8d3a2f5b"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/20260910_8df33ac_d30ae957/task_exit_codes.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/20260910_8df33ac_d30ae957/task_exit_codes.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "bef6d70bcfb72ccfc3edafeecb0896c000b084d315a5050dff5ef8f419d38e25"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/r0_20260909_8df33ac_6fd7226f/obsolete_deletion_completed.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/r0_20260909_8df33ac_6fd7226f/obsolete_deletion_completed.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "801e7f6156c021ba4b65600e210dd7401b6469dd529b3ad7057b227422a3e869"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/r0_20260909_8df33ac_6fd7226f/obsolete_deletion_manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/r0_20260909_8df33ac_6fd7226f/obsolete_deletion_manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "801e7f6156c021ba4b65600e210dd7401b6469dd529b3ad7057b227422a3e869"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/r0_20260909_8df33ac_6fd7226f/preparation.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/r0_20260909_8df33ac_6fd7226f/preparation.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "f3ed7e1f6c3207f0e8773e4a0d5e252d27f1d8886a085bb08a3416a77fa8b953"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/r0_20260909_8df33ac_6fd7226f/submission.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/r0_20260909_8df33ac_6fd7226f/submission.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "7ceb2e1f186c9eddddfa8aba6dcab45c8582da2b53391f2b71e8d911b546470e"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/r1_20260910_user_accepted_bb48dc64/submission.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/nishino_miyashita_2015/runs/r1_20260910_user_accepted_bb48dc64/submission.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "66f88aa497cfcc68d42125c8b9daaf98c7d2cffd2fda6e19f39c854366dc94bb"
+    },
+    {
+      "old": "assets/literature_reproduction/r2_r5_analysis_20260910/runs/manifest.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/r2_r5_analysis_20260910/runs/manifest.json",
+      "reason": "Execution bookkeeping belongs in logs; scientific reports retained",
+      "sha256": "2c2b8b5e2f7e412a66ec33e3bb8806ae421dcf23a7351d913a95321f17a6ecb2"
+    },
+    {
+      "old": "assets/literature_reproduction/remaining_submission_20260910.json/runs",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/history_20260913/remaining_submission_20260910.json",
+      "reason": "Correct misplaced submission record and inverted file/directory name",
+      "sha256": "eb6aff10e92a22ab04db7f75b12c82253886df579e5d2078c1dfda11e15954c5"
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/r2_r5_analysis_20260910/report.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/bauer_2011/r2_r5_analysis_20260910/report.json",
+      "reason": "Co-locate report with its figures",
+      "sha256": "59c49217217d1f2d580bcc0e4d0a848842aba8dddb04fadf4c151474013cf290"
+    },
+    {
+      "old": "assets/literature_reproduction/gomonay_2024/runs/r2_r5_analysis_20260910/report.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/gomonay_2024/r2_r5_analysis_20260910/report.json",
+      "reason": "Co-locate report with its figures",
+      "sha256": "615774880271938a0081bef9a77652817f73b4529df41036387b2de02269c6cb"
+    },
+    {
+      "old": "assets/literature_reproduction/hirst_mn2au_2022/runs/r2_r5_analysis_20260910/report.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/hirst_mn2au_2022/r2_r5_analysis_20260910/report.json",
+      "reason": "Co-locate report with its figures",
+      "sha256": "3317f8d53ade8142c63bd31fb1850022064552bb86eea36aa9f4309412716059"
+    },
+    {
+      "old": "assets/literature_reproduction/laliena_crnb3s6_2020/runs/r2_r5_analysis_20260910/report.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/laliena_crnb3s6_2020/r2_r5_analysis_20260910/report.json",
+      "reason": "Co-locate report with its figures",
+      "sha256": "075adaba3be1d5de1192f4f963e40ffb18fb9141f777c91ab867e5cabe101149"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/20260909_8df33ac_bb48dc64/report.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/report.json",
+      "reason": "Co-locate report/acceptance evidence with its figures",
+      "sha256": "ca2adeadc6355cf2d7df7bab01f6b3b9b9334109b311557ee300c0d9c7034ad2"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/20260909_8df33ac_bb48dc64/user_acceptance_20260910.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/user_acceptance_20260910.json",
+      "reason": "Co-locate report/acceptance evidence with its figures",
+      "sha256": "b02c1dd14dda5fe8df6bcaa7484fd3d718fad40fa5206ca8dd18119ca1fab712"
+    },
+    {
+      "old": "assets/literature_reproduction/nishino_miyashita_2015/runs/20260910_8df33ac_d30ae957/report.json",
+      "new": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957/report.json",
+      "reason": "Co-locate report/acceptance evidence with its figures",
+      "sha256": "5d622a99e3e11a65e39005068d6eab259620f341c667d3faf2fa1e1e06ce848d"
+    }
+  ]
+}
