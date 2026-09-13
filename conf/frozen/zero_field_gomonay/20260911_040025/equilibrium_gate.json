@@ -1,0 +1,2603 @@
+{
+  "scope": "small_periodic_gomonay_static_kernel",
+  "bindings": {
+    "source_tree": "5f37de758b749adac06c4e0db9d9a952ea7d39629927f72fad0eaaac6366016d",
+    "material": "052871fa17fe5b391729d416c917faccc951ba913c7069eebcc994c8f23a4d32",
+    "acceptance": "847e95505fe8f18527fc72767c9e54a05c2b1ef775d3597aa83abfad61d69a69"
+  },
+  "evidence_sha256": {
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_040025/code/altermagnetism_LLG/conf/zero_field_gomonay/acceptance.yaml": "847e95505fe8f18527fc72767c9e54a05c2b1ef775d3597aa83abfad61d69a69",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_045/trajectory.h5": "3db95411879454e13c330d0f9e8b7595953b2e16ba9bdeae042ecff86fc2b570",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_044/static_mc.npz": "a5c7611376a1b1112bbb76e4be3679f820883e53095a83fb597fb9c9b8c1a7e5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/045.yaml": "d5be94212c183c32bf31fef1240d84b2c606d6d2b8ef75d0360ff90d5ff580f2",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/044.yaml": "d62d0cccb8311654659221c9d88ae882140b8ef2044080b0b0901fd0b76842be",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_046/trajectory.h5": "a83f7f6fa1562761f2a8ce170bd97b84e929d722f8208542ae7ceb0af5530c23",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/046.yaml": "5e68c7717fbc09b635f6ef936ac9df4cdd8a926fee6c6885cec88f45d68ebe80",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_047/trajectory.h5": "ab6953c029fa9050dc09cedc6249995f8614cd7cb32d2afa6789405e8f29aa35",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/047.yaml": "65fa0de60b1ff166d36bca74d1bed331f32b841716aeea910c9390af9da112ab",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_048/trajectory.h5": "7ed693b483747cb60f53818685a8ddc0ac2fcb30a503c5538bb93404fcd1df3e",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/048.yaml": "38cfc5c6cfaf6fb5a78621b5b17760b8895684eb29735b63833ab7065e1c3249",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_050/trajectory.h5": "c6ad96f6cb2fa1568ae632d292495bb8e49a6636dfb2de363e258fc709506d73",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_049/static_mc.npz": "44a33ebb578bf47130009d2862c8f7cad579b41b12cb84d90fa258e598c98ff7",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/050.yaml": "3c447db473fb44a9c3c16a353be379e1fee79959e87a64abe3f1d33126369264",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/049.yaml": "9db2c4840eb8b5c3fb87737a73bcac3929b7faecead334311daab8006e7a930f",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_051/trajectory.h5": "ee763d2e893348f4342f7c7a084bfa6c47c9c14f3ccf85fc23a72c95f355021c",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/051.yaml": "01e6929b1d1a3cf3a19dccc1e3729a58700a4eb310812cd574375a8d8e326471",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_052/trajectory.h5": "556da9ce9eb851a15258691a076ce146c24ff9b6f32fdfcb4de6ab47844f03b7",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/052.yaml": "501b9b8d4aba1136a6c021ab3b50858ec57d8b2eb5093aacdf4ac1a8fe541c88",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_040025_053/trajectory.h5": "cd6e0564990b25c0f336e0e0ee1da214f8e22729df54f992e0feb9db6d3907ca",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/053.yaml": "e61d5af6d5379024c754b50b9f100ebb3974ab23cb8ed04de841879a096f1546"
+  },
+  "metrics": [
+    {
+      "name": "45/maximum_norm_error",
+      "value": 3.3306690738754696e-16,
+      "lower": 0.0,
+      "upper": 1e-10
+    },
+    {
+      "name": "45/energy_per_spin/llg/rhat",
+      "value": 1.0013210740490102,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "45/energy_per_spin/llg/bulk_ess",
+      "value": 1293.8585063917778,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/energy_per_spin/llg/tail_ess",
+      "value": 2977.450794639116,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/energy_per_spin/llg/late_block_drift",
+      "value": 0.03895689475349254,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "45/energy_per_spin/mc/rhat",
+      "value": 1.0001706726845367,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "45/energy_per_spin/mc/bulk_ess",
+      "value": 9450.658342094597,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/energy_per_spin/mc/tail_ess",
+      "value": 14153.520737368593,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/energy_per_spin/mc/late_block_drift",
+      "value": 0.016402558173471908,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "45/energy_per_spin/equivalence",
+      "value": 0.008306655974339059,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "45/neel_norm/llg/rhat",
+      "value": 1.001534381743161,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "45/neel_norm/llg/bulk_ess",
+      "value": 1714.3784942001416,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/neel_norm/llg/tail_ess",
+      "value": 3991.29839908386,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/neel_norm/llg/late_block_drift",
+      "value": 0.012727351269485411,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "45/neel_norm/mc/rhat",
+      "value": 1.0003062169283494,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "45/neel_norm/mc/bulk_ess",
+      "value": 8384.559816048662,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/neel_norm/mc/tail_ess",
+      "value": 13118.357258488695,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/neel_norm/mc/late_block_drift",
+      "value": 0.006783929234772224,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "45/neel_norm/equivalence",
+      "value": 0.004307720486648009,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "45/neel_z_squared/llg/rhat",
+      "value": 1.005405816322073,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "45/neel_z_squared/llg/bulk_ess",
+      "value": 739.4051533573232,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/neel_z_squared/llg/tail_ess",
+      "value": 2003.4308839991252,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/neel_z_squared/llg/late_block_drift",
+      "value": 0.3634889686582961,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "45/neel_z_squared/mc/rhat",
+      "value": 1.0100914515481116,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "45/neel_z_squared/mc/bulk_ess",
+      "value": 218.08467315612108,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/neel_z_squared/mc/tail_ess",
+      "value": 994.5158990951844,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "45/neel_z_squared/mc/late_block_drift",
+      "value": 0.5848740772063109,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "45/neel_z_squared/equivalence",
+      "value": 0.08470268856175471,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "46/maximum_norm_error",
+      "value": 3.3306690738754696e-16,
+      "lower": 0.0,
+      "upper": 1e-10
+    },
+    {
+      "name": "46/energy_per_spin/llg/rhat",
+      "value": 1.0013183252341145,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "46/energy_per_spin/llg/bulk_ess",
+      "value": 1478.4148199704734,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/energy_per_spin/llg/tail_ess",
+      "value": 2802.5495611642787,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/energy_per_spin/llg/late_block_drift",
+      "value": 0.02893941917266113,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "46/energy_per_spin/mc/rhat",
+      "value": 1.0001706726845367,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "46/energy_per_spin/mc/bulk_ess",
+      "value": 9450.658342094597,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/energy_per_spin/mc/tail_ess",
+      "value": 14153.520737368593,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/energy_per_spin/mc/late_block_drift",
+      "value": 0.016402558173471908,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "46/energy_per_spin/equivalence",
+      "value": 0.008798238203366796,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "46/neel_norm/llg/rhat",
+      "value": 1.0012585150420648,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "46/neel_norm/llg/bulk_ess",
+      "value": 1784.218878604733,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/neel_norm/llg/tail_ess",
+      "value": 3262.043074542738,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/neel_norm/llg/late_block_drift",
+      "value": 0.007272557178050131,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "46/neel_norm/mc/rhat",
+      "value": 1.0003062169283494,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "46/neel_norm/mc/bulk_ess",
+      "value": 8384.559816048662,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/neel_norm/mc/tail_ess",
+      "value": 13118.357258488695,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/neel_norm/mc/late_block_drift",
+      "value": 0.006783929234772224,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "46/neel_norm/equivalence",
+      "value": 0.0034789840047093645,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "46/neel_z_squared/llg/rhat",
+      "value": 1.0049893817667346,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "46/neel_z_squared/llg/bulk_ess",
+      "value": 813.6879962593553,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/neel_z_squared/llg/tail_ess",
+      "value": 1742.983454328791,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/neel_z_squared/llg/late_block_drift",
+      "value": 0.33981331551475963,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "46/neel_z_squared/mc/rhat",
+      "value": 1.0100914515481116,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "46/neel_z_squared/mc/bulk_ess",
+      "value": 218.08467315612108,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/neel_z_squared/mc/tail_ess",
+      "value": 994.5158990951844,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "46/neel_z_squared/mc/late_block_drift",
+      "value": 0.5848740772063109,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "46/neel_z_squared/equivalence",
+      "value": 0.08491313945407414,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "47/maximum_norm_error",
+      "value": 3.3306690738754696e-16,
+      "lower": 0.0,
+      "upper": 1e-10
+    },
+    {
+      "name": "47/energy_per_spin/llg/rhat",
+      "value": 1.0027126095232308,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "47/energy_per_spin/llg/bulk_ess",
+      "value": 1602.1236932059226,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/energy_per_spin/llg/tail_ess",
+      "value": 2637.183945630641,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/energy_per_spin/llg/late_block_drift",
+      "value": 0.030877559013149796,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "47/energy_per_spin/mc/rhat",
+      "value": 1.0001706726845367,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "47/energy_per_spin/mc/bulk_ess",
+      "value": 9450.658342094597,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/energy_per_spin/mc/tail_ess",
+      "value": 14153.520737368593,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/energy_per_spin/mc/late_block_drift",
+      "value": 0.016402558173471908,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "47/energy_per_spin/equivalence",
+      "value": 0.02111577304459267,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "47/neel_norm/llg/rhat",
+      "value": 1.0015002236855624,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "47/neel_norm/llg/bulk_ess",
+      "value": 1890.3215421581065,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/neel_norm/llg/tail_ess",
+      "value": 3712.88282065209,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/neel_norm/llg/late_block_drift",
+      "value": 0.008798167381493062,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "47/neel_norm/mc/rhat",
+      "value": 1.0003062169283494,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "47/neel_norm/mc/bulk_ess",
+      "value": 8384.559816048662,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/neel_norm/mc/tail_ess",
+      "value": 13118.357258488695,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/neel_norm/mc/late_block_drift",
+      "value": 0.006783929234772224,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "47/neel_norm/equivalence",
+      "value": 0.005581583271130235,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "47/neel_z_squared/llg/rhat",
+      "value": 1.001556030648433,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "47/neel_z_squared/llg/bulk_ess",
+      "value": 695.5956113465861,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/neel_z_squared/llg/tail_ess",
+      "value": 1690.1629446092445,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/neel_z_squared/llg/late_block_drift",
+      "value": 0.03192783881093997,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "47/neel_z_squared/mc/rhat",
+      "value": 1.0100914515481116,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "47/neel_z_squared/mc/bulk_ess",
+      "value": 218.08467315612108,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/neel_z_squared/mc/tail_ess",
+      "value": 994.5158990951844,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "47/neel_z_squared/mc/late_block_drift",
+      "value": 0.5848740772063109,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "47/neel_z_squared/equivalence",
+      "value": 0.07894665977779841,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "48/maximum_norm_error",
+      "value": 9.495737529618964e-12,
+      "lower": 0.0,
+      "upper": 1e-10
+    },
+    {
+      "name": "48/energy_per_spin/llg/rhat",
+      "value": 1.0048913160238435,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "48/energy_per_spin/llg/bulk_ess",
+      "value": 1515.423680547661,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/energy_per_spin/llg/tail_ess",
+      "value": 2440.6137382915667,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/energy_per_spin/llg/late_block_drift",
+      "value": 0.053959870643119905,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "48/energy_per_spin/mc/rhat",
+      "value": 1.0001706726845367,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "48/energy_per_spin/mc/bulk_ess",
+      "value": 9450.658342094597,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/energy_per_spin/mc/tail_ess",
+      "value": 14153.520737368593,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/energy_per_spin/mc/late_block_drift",
+      "value": 0.016402558173471908,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "48/energy_per_spin/equivalence",
+      "value": 0.027190432517080088,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "48/neel_norm/llg/rhat",
+      "value": 1.0040698594099517,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "48/neel_norm/llg/bulk_ess",
+      "value": 1815.899731617163,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/neel_norm/llg/tail_ess",
+      "value": 3485.9633533363417,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/neel_norm/llg/late_block_drift",
+      "value": 0.01693909029138441,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "48/neel_norm/mc/rhat",
+      "value": 1.0003062169283494,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "48/neel_norm/mc/bulk_ess",
+      "value": 8384.559816048662,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/neel_norm/mc/tail_ess",
+      "value": 13118.357258488695,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/neel_norm/mc/late_block_drift",
+      "value": 0.006783929234772224,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "48/neel_norm/equivalence",
+      "value": 0.006810548901987615,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "48/neel_z_squared/llg/rhat",
+      "value": 1.0056921094132503,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "48/neel_z_squared/llg/bulk_ess",
+      "value": 871.9521799245083,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/neel_z_squared/llg/tail_ess",
+      "value": 2170.046302457968,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/neel_z_squared/llg/late_block_drift",
+      "value": 0.24485755877011445,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "48/neel_z_squared/mc/rhat",
+      "value": 1.0100914515481116,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "48/neel_z_squared/mc/bulk_ess",
+      "value": 218.08467315612108,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/neel_z_squared/mc/tail_ess",
+      "value": 994.5158990951844,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "48/neel_z_squared/mc/late_block_drift",
+      "value": 0.5848740772063109,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "48/neel_z_squared/equivalence",
+      "value": 0.1345490147729016,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "50/maximum_norm_error",
+      "value": 3.3306690738754696e-16,
+      "lower": 0.0,
+      "upper": 1e-10
+    },
+    {
+      "name": "50/energy_per_spin/llg/rhat",
+      "value": 1.0087573644297552,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "50/energy_per_spin/llg/bulk_ess",
+      "value": 711.9976425517076,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/energy_per_spin/llg/tail_ess",
+      "value": 1714.986755115194,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/energy_per_spin/llg/late_block_drift",
+      "value": 0.36403195105187836,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "50/energy_per_spin/mc/rhat",
+      "value": 1.0000129914435123,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "50/energy_per_spin/mc/bulk_ess",
+      "value": 19089.74696197987,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/energy_per_spin/mc/tail_ess",
+      "value": 19637.52855302619,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/energy_per_spin/mc/late_block_drift",
+      "value": 0.01435432627279396,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "50/energy_per_spin/equivalence",
+      "value": 0.044431815675027,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "50/neel_norm/llg/rhat",
+      "value": 1.0056767566045155,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "50/neel_norm/llg/bulk_ess",
+      "value": 908.6476875036683,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/neel_norm/llg/tail_ess",
+      "value": 2009.5051297126865,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/neel_norm/llg/late_block_drift",
+      "value": 0.18717285233020228,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "50/neel_norm/mc/rhat",
+      "value": 1.0000203416150655,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "50/neel_norm/mc/bulk_ess",
+      "value": 18774.41732865073,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/neel_norm/mc/tail_ess",
+      "value": 19521.690371555225,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/neel_norm/mc/late_block_drift",
+      "value": 0.012802018909682487,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "50/neel_norm/equivalence",
+      "value": 0.02328809662445543,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "50/neel_z_squared/llg/rhat",
+      "value": 1.0015284592081042,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "50/neel_z_squared/llg/bulk_ess",
+      "value": 1938.7625317667066,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/neel_z_squared/llg/tail_ess",
+      "value": 2480.7161060416115,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/neel_z_squared/llg/late_block_drift",
+      "value": 0.044517901803720054,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "50/neel_z_squared/mc/rhat",
+      "value": 1.0002341867424407,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "50/neel_z_squared/mc/bulk_ess",
+      "value": 19256.148510420142,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/neel_z_squared/mc/tail_ess",
+      "value": 19095.560230447423,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "50/neel_z_squared/mc/late_block_drift",
+      "value": 0.01823292780704802,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "50/neel_z_squared/equivalence",
+      "value": 0.007267013705083826,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "51/maximum_norm_error",
+      "value": 3.3306690738754696e-16,
+      "lower": 0.0,
+      "upper": 1e-10
+    },
+    {
+      "name": "51/energy_per_spin/llg/rhat",
+      "value": 1.0057822075075336,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "51/energy_per_spin/llg/bulk_ess",
+      "value": 550.3972827164506,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/energy_per_spin/llg/tail_ess",
+      "value": 1290.1113780989924,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/energy_per_spin/llg/late_block_drift",
+      "value": 0.14650688371367554,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "51/energy_per_spin/mc/rhat",
+      "value": 1.0000129914435123,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "51/energy_per_spin/mc/bulk_ess",
+      "value": 19089.74696197987,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/energy_per_spin/mc/tail_ess",
+      "value": 19637.52855302619,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/energy_per_spin/mc/late_block_drift",
+      "value": 0.01435432627279396,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "51/energy_per_spin/equivalence",
+      "value": 0.1467863221543076,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "51/neel_norm/llg/rhat",
+      "value": 1.0047178466082034,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "51/neel_norm/llg/bulk_ess",
+      "value": 794.3738891886477,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/neel_norm/llg/tail_ess",
+      "value": 1470.9463565073065,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/neel_norm/llg/late_block_drift",
+      "value": 0.033480324972088735,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "51/neel_norm/mc/rhat",
+      "value": 1.0000203416150655,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "51/neel_norm/mc/bulk_ess",
+      "value": 18774.41732865073,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/neel_norm/mc/tail_ess",
+      "value": 19521.690371555225,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/neel_norm/mc/late_block_drift",
+      "value": 0.012802018909682487,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "51/neel_norm/equivalence",
+      "value": 0.0824915506467213,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "51/neel_z_squared/llg/rhat",
+      "value": 1.0029696267697386,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "51/neel_z_squared/llg/bulk_ess",
+      "value": 1960.7673960058682,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/neel_z_squared/llg/tail_ess",
+      "value": 2540.851200374116,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/neel_z_squared/llg/late_block_drift",
+      "value": 0.029041377969536236,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "51/neel_z_squared/mc/rhat",
+      "value": 1.0002341867424407,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "51/neel_z_squared/mc/bulk_ess",
+      "value": 19256.148510420142,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/neel_z_squared/mc/tail_ess",
+      "value": 19095.560230447423,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "51/neel_z_squared/mc/late_block_drift",
+      "value": 0.01823292780704802,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "51/neel_z_squared/equivalence",
+      "value": 0.02920071589767545,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "52/maximum_norm_error",
+      "value": 3.3306690738754696e-16,
+      "lower": 0.0,
+      "upper": 1e-10
+    },
+    {
+      "name": "52/energy_per_spin/llg/rhat",
+      "value": 1.0083775697388278,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "52/energy_per_spin/llg/bulk_ess",
+      "value": 541.811904325483,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/energy_per_spin/llg/tail_ess",
+      "value": 1142.772307624634,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/energy_per_spin/llg/late_block_drift",
+      "value": 0.1848846695117102,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "52/energy_per_spin/mc/rhat",
+      "value": 1.0000129914435123,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "52/energy_per_spin/mc/bulk_ess",
+      "value": 19089.74696197987,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/energy_per_spin/mc/tail_ess",
+      "value": 19637.52855302619,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/energy_per_spin/mc/late_block_drift",
+      "value": 0.01435432627279396,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "52/energy_per_spin/equivalence",
+      "value": 0.15866851316513178,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "52/neel_norm/llg/rhat",
+      "value": 1.006511601425038,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "52/neel_norm/llg/bulk_ess",
+      "value": 687.5528311887125,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/neel_norm/llg/tail_ess",
+      "value": 1456.866504231692,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/neel_norm/llg/late_block_drift",
+      "value": 0.1420408470883526,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "52/neel_norm/mc/rhat",
+      "value": 1.0000203416150655,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "52/neel_norm/mc/bulk_ess",
+      "value": 18774.41732865073,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/neel_norm/mc/tail_ess",
+      "value": 19521.690371555225,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/neel_norm/mc/late_block_drift",
+      "value": 0.012802018909682487,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "52/neel_norm/equivalence",
+      "value": 0.06759076327269216,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "52/neel_z_squared/llg/rhat",
+      "value": 1.000952293883814,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "52/neel_z_squared/llg/bulk_ess",
+      "value": 1996.2229870538163,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/neel_z_squared/llg/tail_ess",
+      "value": 2127.0026690163827,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/neel_z_squared/llg/late_block_drift",
+      "value": 0.036164250424202626,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "52/neel_z_squared/mc/rhat",
+      "value": 1.0002341867424407,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "52/neel_z_squared/mc/bulk_ess",
+      "value": 19256.148510420142,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/neel_z_squared/mc/tail_ess",
+      "value": 19095.560230447423,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "52/neel_z_squared/mc/late_block_drift",
+      "value": 0.01823292780704802,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "52/neel_z_squared/equivalence",
+      "value": 0.022035317769398106,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "53/maximum_norm_error",
+      "value": 7.511546940008884e-12,
+      "lower": 0.0,
+      "upper": 1e-10
+    },
+    {
+      "name": "53/energy_per_spin/llg/rhat",
+      "value": 1.0041052047264358,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "53/energy_per_spin/llg/bulk_ess",
+      "value": 838.3080609655407,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/energy_per_spin/llg/tail_ess",
+      "value": 1699.25291584004,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/energy_per_spin/llg/late_block_drift",
+      "value": 0.06019106083229695,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "53/energy_per_spin/mc/rhat",
+      "value": 1.0000129914435123,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "53/energy_per_spin/mc/bulk_ess",
+      "value": 19089.74696197987,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/energy_per_spin/mc/tail_ess",
+      "value": 19637.52855302619,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/energy_per_spin/mc/late_block_drift",
+      "value": 0.01435432627279396,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "53/energy_per_spin/equivalence",
+      "value": 0.14161353128023488,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "53/neel_norm/llg/rhat",
+      "value": 1.0032092809864321,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "53/neel_norm/llg/bulk_ess",
+      "value": 1122.6359220316745,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/neel_norm/llg/tail_ess",
+      "value": 2032.9461090170653,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/neel_norm/llg/late_block_drift",
+      "value": 0.06790047879946433,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "53/neel_norm/mc/rhat",
+      "value": 1.0000203416150655,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "53/neel_norm/mc/bulk_ess",
+      "value": 18774.41732865073,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/neel_norm/mc/tail_ess",
+      "value": 19521.690371555225,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/neel_norm/mc/late_block_drift",
+      "value": 0.012802018909682487,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "53/neel_norm/equivalence",
+      "value": 0.06384953424334577,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "53/neel_z_squared/llg/rhat",
+      "value": 1.0007088985918373,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "53/neel_z_squared/llg/bulk_ess",
+      "value": 2298.415658794209,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/neel_z_squared/llg/tail_ess",
+      "value": 2498.2866733482124,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/neel_z_squared/llg/late_block_drift",
+      "value": 0.03801321536550899,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "53/neel_z_squared/mc/rhat",
+      "value": 1.0002341867424407,
+      "lower": 0.0,
+      "upper": 1.01
+    },
+    {
+      "name": "53/neel_z_squared/mc/bulk_ess",
+      "value": 19256.148510420142,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/neel_z_squared/mc/tail_ess",
+      "value": 19095.560230447423,
+      "lower": 1000.0,
+      "upper": 1e+100
+    },
+    {
+      "name": "53/neel_z_squared/mc/late_block_drift",
+      "value": 0.01823292780704802,
+      "lower": 0.0,
+      "upper": 0.05
+    },
+    {
+      "name": "53/neel_z_squared/equivalence",
+      "value": 0.008289841260282668,
+      "lower": 0.0,
+      "upper": 0.05
+    }
+  ],
+  "status": "inconclusive",
+  "production_enabled": false,
+  "comparisons": {
+    "45": {
+      "energy_per_spin": {
+        "llg": {
+          "rank_folded_rhat": 1.0013210740490102,
+          "bulk_ess": 1293.8585063917778,
+          "tail_ess": 2977.450794639116,
+          "tau_int_reduced": 2.9616694984418865,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -2.043416351029569,
+            -2.040495607920404,
+            -2.043568732616761,
+            -2.041641783584388
+          ],
+          "mean": -2.042280618787779,
+          "sd": 0.05372873408758607
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0001706726845367,
+          "bulk_ess": 9450.658342094597,
+          "tail_ess": 14153.520737368593,
+          "tau_int_reduced": 42.18066997970533,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -2.04115955146986,
+            -2.0390444057480943,
+            -2.0392093527878568,
+            -2.0403123948648503
+          ],
+          "mean": -2.0399314262176653,
+          "sd": 0.054196434081974484
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.002349192570115566,
+        "simultaneous_ci": [
+          -0.008306655974339059,
+          0.003608270834107927
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_norm": {
+        "llg": {
+          "rank_folded_rhat": 1.001534381743161,
+          "bulk_ess": 1714.3784942001416,
+          "tail_ess": 3991.29839908386,
+          "tau_int_reduced": 2.248224020768306,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.9188421628937946,
+            0.9171572146911403,
+            0.9183117302763121,
+            0.9174605543998696
+          ],
+          "mean": 0.9179429155652788,
+          "sd": 0.017868677198652545
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0003062169283494,
+          "bulk_ess": 8384.559816048662,
+          "tail_ess": 13118.357258488695,
+          "tau_int_reduced": 47.56213511637461,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.917596439338834,
+            0.9168785082420576,
+            0.9168182843151468,
+            0.9172474578069403
+          ],
+          "mean": 0.9171351724257447,
+          "sd": 0.018097199176642834
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.000807743139534578,
+        "simultaneous_ci": [
+          -0.0026922342075788534,
+          0.004307720486648009
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_z_squared": {
+        "llg": {
+          "rank_folded_rhat": 1.005405816322073,
+          "bulk_ess": 739.4051533573232,
+          "tail_ess": 2003.4308839991252,
+          "tau_int_reduced": 5.7409128989563465,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.32403001029861506,
+            0.333509330661141,
+            0.3023381979278239,
+            0.3022516063886598
+          ],
+          "mean": 0.31553228631905983,
+          "sd": 0.26039639229322414
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0100914515481116,
+          "bulk_ess": 218.08467315612108,
+          "tail_ess": 994.5158990951844,
+          "tau_int_reduced": 1997.9948651542945,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.34171795121610676,
+            0.33930649231196386,
+            0.31256526018142794,
+            0.3447538172623625
+          ],
+          "mean": 0.3345858802429652,
+          "sd": 0.26000793499410857
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.01905359392390532,
+        "simultaneous_ci": [
+          -0.08470268856175471,
+          0.04659550071394407
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "signed_neel_z": {
+        "llg": {
+          "rank_folded_rhat": 1.0090309658046202,
+          "bulk_ess": 315.3271675455597,
+          "tail_ess": 974.8401266762056,
+          "tau_int_reduced": 13.351090913142452,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.053474577240535,
+            -0.02025603210100436,
+            -0.11836686848127405,
+            -0.009692840064547039
+          ],
+          "mean": -0.05044757947184017,
+          "sd": 0.5594876556231749
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0578514258735745,
+          "bulk_ess": 55.05937995121338,
+          "tail_ess": 324.0152074419464,
+          "tau_int_reduced": 6721.1678732475,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.07556155297015736,
+            0.11751106650648437,
+            0.005023798990065444,
+            -0.1670289173820237
+          ],
+          "mean": -0.030013901213907793,
+          "sd": 0.5776692228805688
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate"
+      }
+    },
+    "46": {
+      "energy_per_spin": {
+        "llg": {
+          "rank_folded_rhat": 1.0013183252341145,
+          "bulk_ess": 1478.4148199704734,
+          "tail_ess": 2802.5495611642787,
+          "tau_int_reduced": 2.71444915436286,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -2.0397816555337775,
+            -2.04107799097975,
+            -2.0437718737013157,
+            -2.0421542594876585
+          ],
+          "mean": -2.041696444925627,
+          "sd": 0.05325725471136006
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0001706726845367,
+          "bulk_ess": 9450.658342094597,
+          "tail_ess": 14153.520737368593,
+          "tau_int_reduced": 42.18066997970533,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -2.04115955146986,
+            -2.0390444057480943,
+            -2.0392093527878568,
+            -2.0403123948648503
+          ],
+          "mean": -2.0399314262176653,
+          "sd": 0.054196434081974484
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.0017650187079598645,
+        "simultaneous_ci": [
+          -0.008798238203366796,
+          0.0052682007874470665
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_norm": {
+        "llg": {
+          "rank_folded_rhat": 1.0012585150420648,
+          "bulk_ess": 1784.218878604733,
+          "tail_ess": 3262.043074542738,
+          "tau_int_reduced": 2.257130527142521,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.9169593947092975,
+            0.9176725350862063,
+            0.9186014321594963,
+            0.917585443986814
+          ],
+          "mean": 0.9177047014854537,
+          "sd": 0.017919646397427807
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0003062169283494,
+          "bulk_ess": 8384.559816048662,
+          "tail_ess": 13118.357258488695,
+          "tau_int_reduced": 47.56213511637461,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.917596439338834,
+            0.9168785082420576,
+            0.9168182843151468,
+            0.9172474578069403
+          ],
+          "mean": 0.9171351724257447,
+          "sd": 0.018097199176642834
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.000569529059708862,
+        "simultaneous_ci": [
+          -0.0023399258852916404,
+          0.0034789840047093645
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_z_squared": {
+        "llg": {
+          "rank_folded_rhat": 1.0049893817667346,
+          "bulk_ess": 813.6879962593553,
+          "tail_ess": 1742.983454328791,
+          "tau_int_reduced": 5.247055401865189,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.3088714446586499,
+            0.29212539758994666,
+            0.31904640576831617,
+            0.3198914713977288
+          ],
+          "mean": 0.3099836798536606,
+          "sd": 0.25909710226616656
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0100914515481116,
+          "bulk_ess": 218.08467315612108,
+          "tail_ess": 994.5158990951844,
+          "tau_int_reduced": 1997.9948651542945,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.34171795121610676,
+            0.33930649231196386,
+            0.31256526018142794,
+            0.3447538172623625
+          ],
+          "mean": 0.3345858802429652,
+          "sd": 0.26000793499410857
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.024602200389304885,
+        "simultaneous_ci": [
+          -0.08491313945407414,
+          0.035708738675464376
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "signed_neel_z": {
+        "llg": {
+          "rank_folded_rhat": 1.0170142666948883,
+          "bulk_ess": 259.3738496953542,
+          "tail_ess": 924.122905323981,
+          "tau_int_reduced": 15.726969777874592,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.00720460622929492,
+            0.080086505364859,
+            -0.16918534279339967,
+            -0.0007911291970186003
+          ],
+          "mean": -0.024273643213713402,
+          "sd": 0.5562671389810179
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0578514258735745,
+          "bulk_ess": 55.05937995121338,
+          "tail_ess": 324.0152074419464,
+          "tau_int_reduced": 6721.1678732475,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.07556155297015736,
+            0.11751106650648437,
+            0.005023798990065444,
+            -0.1670289173820237
+          ],
+          "mean": -0.030013901213907793,
+          "sd": 0.5776692228805688
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate"
+      }
+    },
+    "47": {
+      "energy_per_spin": {
+        "llg": {
+          "rank_folded_rhat": 1.0027126095232308,
+          "bulk_ess": 1602.1236932059226,
+          "tail_ess": 2637.183945630641,
+          "tau_int_reduced": 2.5219657081623517,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -2.0450693648177833,
+            -2.041077308080455,
+            -2.0379914847112595,
+            -2.0366550608334015
+          ],
+          "mean": -2.040198304610726,
+          "sd": 0.05413321118510872
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0001706726845367,
+          "bulk_ess": 9450.658342094597,
+          "tail_ess": 14153.520737368593,
+          "tau_int_reduced": 42.18066997970533,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -2.04115955146986,
+            -2.0390444057480943,
+            -2.0392093527878568,
+            -2.0403123948648503
+          ],
+          "mean": -2.0399314262176653,
+          "sd": 0.054196434081974484
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.0002668783930594998,
+        "simultaneous_ci": [
+          -0.02111577304459267,
+          0.02058201625847367
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_norm": {
+        "llg": {
+          "rank_folded_rhat": 1.0015002236855624,
+          "bulk_ess": 1890.3215421581065,
+          "tail_ess": 3712.88282065209,
+          "tau_int_reduced": 2.116149436268717,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.9187944248220627,
+            0.9173101603853973,
+            0.916496772834634,
+            0.9166192108540455
+          ],
+          "mean": 0.9173051422240348,
+          "sd": 0.018144852233040135
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0003062169283494,
+          "bulk_ess": 8384.559816048662,
+          "tail_ess": 13118.357258488695,
+          "tau_int_reduced": 47.56213511637461,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.917596439338834,
+            0.9168785082420576,
+            0.9168182843151468,
+            0.9172474578069403
+          ],
+          "mean": 0.9171351724257447,
+          "sd": 0.018097199176642834
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.00016996979829031478,
+        "simultaneous_ci": [
+          -0.005241643674549605,
+          0.005581583271130235
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_z_squared": {
+        "llg": {
+          "rank_folded_rhat": 1.001556030648433,
+          "bulk_ess": 695.5956113465861,
+          "tail_ess": 1690.1629446092445,
+          "tau_int_reduced": 6.227837769712832,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.30844639269532487,
+            0.30254721589729827,
+            0.3298124028068643,
+            0.3286823637314896
+          ],
+          "mean": 0.31737209378274417,
+          "sd": 0.2650390190070454
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0100914515481116,
+          "bulk_ess": 218.08467315612108,
+          "tail_ess": 994.5158990951844,
+          "tau_int_reduced": 1997.9948651542945,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.34171795121610676,
+            0.33930649231196386,
+            0.31256526018142794,
+            0.3447538172623625
+          ],
+          "mean": 0.3345858802429652,
+          "sd": 0.26000793499410857
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.017213786460221037,
+        "simultaneous_ci": [
+          -0.07894665977779841,
+          0.04451908685735633
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "signed_neel_z": {
+        "llg": {
+          "rank_folded_rhat": 1.0221332511277559,
+          "bulk_ess": 334.3636661926693,
+          "tail_ess": 852.2973951882369,
+          "tau_int_reduced": 12.306936933188728,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.0407439215033016,
+            -0.1458422678290237,
+            0.04112159324297938,
+            0.06284765998142777
+          ],
+          "mean": -0.0002822732753287985,
+          "sd": 0.5633929984789204
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0578514258735745,
+          "bulk_ess": 55.05937995121338,
+          "tail_ess": 324.0152074419464,
+          "tau_int_reduced": 6721.1678732475,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.07556155297015736,
+            0.11751106650648437,
+            0.005023798990065444,
+            -0.1670289173820237
+          ],
+          "mean": -0.030013901213907793,
+          "sd": 0.5776692228805688
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate"
+      }
+    },
+    "48": {
+      "energy_per_spin": {
+        "llg": {
+          "rank_folded_rhat": 1.0048913160238435,
+          "bulk_ess": 1515.423680547661,
+          "tail_ess": 2440.6137382915667,
+          "tau_int_reduced": 2.672370620206799,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -2.03370792182129,
+            -2.0372206177570025,
+            -2.040981175727042,
+            -2.0440421845498014
+          ],
+          "mean": -2.0389879749637845,
+          "sd": 0.05483061825995748
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0001706726845367,
+          "bulk_ess": 9450.658342094597,
+          "tail_ess": 14153.520737368593,
+          "tau_int_reduced": 42.18066997970533,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -2.04115955146986,
+            -2.0390444057480943,
+            -2.0392093527878568,
+            -2.0403123948648503
+          ],
+          "mean": -2.0399314262176653,
+          "sd": 0.054196434081974484
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.0009434512538812889,
+        "simultaneous_ci": [
+          -0.02530353000931751,
+          0.027190432517080088
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_norm": {
+        "llg": {
+          "rank_folded_rhat": 1.0040698594099517,
+          "bulk_ess": 1815.899731617163,
+          "tail_ess": 3485.9633533363417,
+          "tau_int_reduced": 2.2187280108883103,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.9155659997476281,
+            0.9168450655845145,
+            0.9178459234876966,
+            0.9184086405617073
+          ],
+          "mean": 0.9171664073453872,
+          "sd": 0.018164795802820093
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0003062169283494,
+          "bulk_ess": 8384.559816048662,
+          "tail_ess": 13118.357258488695,
+          "tau_int_reduced": 47.56213511637461,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.917596439338834,
+            0.9168785082420576,
+            0.9168182843151468,
+            0.9172474578069403
+          ],
+          "mean": 0.9171351724257447,
+          "sd": 0.018097199176642834
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 3.123491964207581e-05,
+        "simultaneous_ci": [
+          -0.006748079062703464,
+          0.006810548901987615
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_z_squared": {
+        "llg": {
+          "rank_folded_rhat": 1.0056921094132503,
+          "bulk_ess": 871.9521799245083,
+          "tail_ess": 2170.046302457968,
+          "tau_int_reduced": 4.8335951200343095,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.31924400484389914,
+            0.2756301430445916,
+            0.32057824576352917,
+            0.33863794546045917
+          ],
+          "mean": 0.3135225847781196,
+          "sd": 0.25734730010567647
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0100914515481116,
+          "bulk_ess": 218.08467315612108,
+          "tail_ess": 994.5158990951844,
+          "tau_int_reduced": 1997.9948651542945,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.34171795121610676,
+            0.33930649231196386,
+            0.31256526018142794,
+            0.3447538172623625
+          ],
+          "mean": 0.3345858802429652,
+          "sd": 0.26000793499410857
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.021063295464845533,
+        "simultaneous_ci": [
+          -0.1345490147729016,
+          0.09242242384321055
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "signed_neel_z": {
+        "llg": {
+          "rank_folded_rhat": 1.0057384856356857,
+          "bulk_ess": 335.4483826191285,
+          "tail_ess": 1084.063273206446,
+          "tau_int_reduced": 12.960371647112575,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.11073233724072976,
+            -0.04010046622037588,
+            -0.08587718638612585,
+            -0.013727928869051819
+          ],
+          "mean": -0.06260947967907086,
+          "sd": 0.5564542421933553
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0578514258735745,
+          "bulk_ess": 55.05937995121338,
+          "tail_ess": 324.0152074419464,
+          "tau_int_reduced": 6721.1678732475,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.07556155297015736,
+            0.11751106650648437,
+            0.005023798990065444,
+            -0.1670289173820237
+          ],
+          "mean": -0.030013901213907793,
+          "sd": 0.5776692228805688
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate"
+      }
+    },
+    "50": {
+      "energy_per_spin": {
+        "llg": {
+          "rank_folded_rhat": 1.0087573644297552,
+          "bulk_ess": 711.9976425517076,
+          "tail_ess": 1714.986755115194,
+          "tau_int_reduced": 5.610213400234274,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.6298414205672785,
+            -0.6176102133695045,
+            -0.6164418466752899,
+            -0.630998338160455
+          ],
+          "mean": -0.6237229546931313,
+          "sd": 0.20952570262593664
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0000129914435123,
+          "bulk_ess": 19089.74696197987,
+          "tail_ess": 19637.52855302619,
+          "tau_int_reduced": 20.9605665035291,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.6308947787042946,
+            -0.6371215420053375,
+            -0.6293567212299265,
+            -0.6354199858064836
+          ],
+          "mean": -0.6331982569365106,
+          "sd": 0.2099163940055276
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.009475302243378558,
+        "simultaneous_ci": [
+          -0.025481211188269882,
+          0.044431815675027
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_norm": {
+        "llg": {
+          "rank_folded_rhat": 1.0056767566045155,
+          "bulk_ess": 908.6476875036683,
+          "tail_ess": 2009.5051297126865,
+          "tau_int_reduced": 4.418355311177444,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.3601266204562548,
+            0.3560642639176662,
+            0.35417294400090477,
+            0.36411031261184973
+          ],
+          "mean": 0.3586185352466687,
+          "sd": 0.12824891208668612
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0000203416150655,
+          "bulk_ess": 18774.41732865073,
+          "tail_ess": 19521.690371555225,
+          "tau_int_reduced": 21.286844531380975,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.36238059499011877,
+            0.36674455019262747,
+            0.36064723903713547,
+            0.3646155429944191
+          ],
+          "mean": 0.3635969818035752,
+          "sd": 0.12892648076990543
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.004978446556906324,
+        "simultaneous_ci": [
+          -0.02328809662445543,
+          0.013331203510642781
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_z_squared": {
+        "llg": {
+          "rank_folded_rhat": 1.0015284592081042,
+          "bulk_ess": 1938.7625317667066,
+          "tail_ess": 2480.7161060416115,
+          "tau_int_reduced": 2.4374886635872195,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.04776206800779443,
+            0.05126167019106252,
+            0.05060520689863607,
+            0.05102055682517275
+          ],
+          "mean": 0.05016237548066643,
+          "sd": 0.06363476232628656
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0002341867424407,
+          "bulk_ess": 19256.148510420142,
+          "tail_ess": 19095.560230447423,
+          "tau_int_reduced": 21.031951816382435,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.048708197199111035,
+            0.05085919865413775,
+            0.04799492631875302,
+            0.050002187960748304
+          ],
+          "mean": 0.04939112753318753,
+          "sd": 0.061843173769041804
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.0007712479474789175,
+        "simultaneous_ci": [
+          -0.005724517810125991,
+          0.007267013705083826
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "signed_neel_z": {
+        "llg": {
+          "rank_folded_rhat": 1.003241423585612,
+          "bulk_ess": 1537.3281234685242,
+          "tail_ess": 2066.0400418740896,
+          "tau_int_reduced": 2.5988079254690457,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.011618519277850403,
+            0.030691744946795173,
+            0.007917499176227425,
+            -0.013919324593540944
+          ],
+          "mean": 0.009077109701833022,
+          "sd": 0.22379955140974522
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0002257774874423,
+          "bulk_ess": 13537.313765481294,
+          "tail_ess": 18084.439074907626,
+          "tau_int_reduced": 29.46919462769521,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.0009211833019062851,
+            0.0013478047868749736,
+            0.005586889413491465,
+            0.0036879055677594167
+          ],
+          "mean": 0.002425354116554893,
+          "sd": 0.22223346862326038
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate"
+      }
+    },
+    "51": {
+      "energy_per_spin": {
+        "llg": {
+          "rank_folded_rhat": 1.0057822075075336,
+          "bulk_ess": 550.3972827164506,
+          "tail_ess": 1290.1113780989924,
+          "tau_int_reduced": 7.393128700955418,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.5975103710763073,
+            -0.6362185970676817,
+            -0.6479764597042404,
+            -0.6153084281023549
+          ],
+          "mean": -0.6242534639876471,
+          "sd": 0.21064907690625218
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0000129914435123,
+          "bulk_ess": 19089.74696197987,
+          "tail_ess": 19637.52855302619,
+          "tau_int_reduced": 20.9605665035291,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.6308947787042946,
+            -0.6371215420053375,
+            -0.6293567212299265,
+            -0.6354199858064836
+          ],
+          "mean": -0.6331982569365106,
+          "sd": 0.2099163940055276
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.008944792948864522,
+        "simultaneous_ci": [
+          -0.12889673625657855,
+          0.1467863221543076
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_norm": {
+        "llg": {
+          "rank_folded_rhat": 1.0047178466082034,
+          "bulk_ess": 794.3738891886477,
+          "tail_ess": 1470.9463565073065,
+          "tau_int_reduced": 5.088929421144615,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.34778059351139795,
+            0.37107484739891844,
+            0.37532140592437074,
+            0.35287697082479835
+          ],
+          "mean": 0.36176345441487134,
+          "sd": 0.1292423859001397
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0000203416150655,
+          "bulk_ess": 18774.41732865073,
+          "tail_ess": 19521.690371555225,
+          "tau_int_reduced": 21.286844531380975,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.36238059499011877,
+            0.36674455019262747,
+            0.36064723903713547,
+            0.3646155429944191
+          ],
+          "mean": 0.3635969818035752,
+          "sd": 0.12892648076990543
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.0018335273887038483,
+        "simultaneous_ci": [
+          -0.0824915506467213,
+          0.0788244958693136
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_z_squared": {
+        "llg": {
+          "rank_folded_rhat": 1.0029696267697386,
+          "bulk_ess": 1960.7673960058682,
+          "tail_ess": 2540.851200374116,
+          "tau_int_reduced": 2.5318517997985097,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.047455388322884595,
+            0.057306020656652044,
+            0.0502601815923191,
+            0.04598798887413864
+          ],
+          "mean": 0.0502523948614986,
+          "sd": 0.06227289903215098
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0002341867424407,
+          "bulk_ess": 19256.148510420142,
+          "tail_ess": 19095.560230447423,
+          "tau_int_reduced": 21.031951816382435,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.048708197199111035,
+            0.05085919865413775,
+            0.04799492631875302,
+            0.050002187960748304
+          ],
+          "mean": 0.04939112753318753,
+          "sd": 0.061843173769041804
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.0008612673283110647,
+        "simultaneous_ci": [
+          -0.02747818124105332,
+          0.02920071589767545
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "signed_neel_z": {
+        "llg": {
+          "rank_folded_rhat": 1.0028057507851056,
+          "bulk_ess": 1643.6749248219623,
+          "tail_ess": 2088.99616471201,
+          "tau_int_reduced": 2.421162461985459,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.011045994375552736,
+            -0.004837124707471364,
+            -0.015617533767251234,
+            0.014232682567107432
+          ],
+          "mean": -0.004316992570791971,
+          "sd": 0.22414289036822507
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0002257774874423,
+          "bulk_ess": 13537.313765481294,
+          "tail_ess": 18084.439074907626,
+          "tau_int_reduced": 29.46919462769521,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.0009211833019062851,
+            0.0013478047868749736,
+            0.005586889413491465,
+            0.0036879055677594167
+          ],
+          "mean": 0.002425354116554893,
+          "sd": 0.22223346862326038
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate"
+      }
+    },
+    "52": {
+      "energy_per_spin": {
+        "llg": {
+          "rank_folded_rhat": 1.0083775697388278,
+          "bulk_ess": 541.811904325483,
+          "tail_ess": 1142.772307624634,
+          "tau_int_reduced": 7.410703945968287,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.6394508884474743,
+            -0.5915877921382164,
+            -0.6302436529559592,
+            -0.6463356435311132
+          ],
+          "mean": -0.6269044942681906,
+          "sd": 0.21101892561545274
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0000129914435123,
+          "bulk_ess": 19089.74696197987,
+          "tail_ess": 19637.52855302619,
+          "tau_int_reduced": 20.9605665035291,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.6308947787042946,
+            -0.6371215420053375,
+            -0.6293567212299265,
+            -0.6354199858064836
+          ],
+          "mean": -0.6331982569365106,
+          "sd": 0.2099163940055276
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.0062937626683198244,
+        "simultaneous_ci": [
+          -0.14608098782849213,
+          0.15866851316513178
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_norm": {
+        "llg": {
+          "rank_folded_rhat": 1.006511601425038,
+          "bulk_ess": 687.5528311887125,
+          "tail_ess": 1456.866504231692,
+          "tau_int_reduced": 5.846917563630252,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.3687243857364983,
+            0.3477273629735767,
+            0.36098233794707507,
+            0.3744267479785622
+          ],
+          "mean": 0.3629652086589281,
+          "sd": 0.12887335257793373
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0000203416150655,
+          "bulk_ess": 18774.41732865073,
+          "tail_ess": 19521.690371555225,
+          "tau_int_reduced": 21.286844531380975,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.36238059499011877,
+            0.36674455019262747,
+            0.36064723903713547,
+            0.3646155429944191
+          ],
+          "mean": 0.3635969818035752,
+          "sd": 0.12892648076990543
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.0006317731446471297,
+        "simultaneous_ci": [
+          -0.06759076327269216,
+          0.0663272169833979
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_z_squared": {
+        "llg": {
+          "rank_folded_rhat": 1.000952293883814,
+          "bulk_ess": 1996.2229870538163,
+          "tail_ess": 2127.0026690163827,
+          "tau_int_reduced": 2.58159884574143,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.05127326890463524,
+            0.04860141354071016,
+            0.04906597972198619,
+            0.05698875011428809
+          ],
+          "mean": 0.05148235307040491,
+          "sd": 0.06510592024351507
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0002341867424407,
+          "bulk_ess": 19256.148510420142,
+          "tail_ess": 19095.560230447423,
+          "tau_int_reduced": 21.031951816382435,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.048708197199111035,
+            0.05085919865413775,
+            0.04799492631875302,
+            0.050002187960748304
+          ],
+          "mean": 0.04939112753318753,
+          "sd": 0.061843173769041804
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.0020912255372173907,
+        "simultaneous_ci": [
+          -0.017852866694963325,
+          0.022035317769398106
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "signed_neel_z": {
+        "llg": {
+          "rank_folded_rhat": 1.0027999186023502,
+          "bulk_ess": 1388.055177214081,
+          "tail_ess": 1968.2284542464165,
+          "tau_int_reduced": 2.8574111887870446,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.007218052030599753,
+            0.0007224156418940571,
+            0.0037631758634179124,
+            0.004900989010918744
+          ],
+          "mean": 0.0005421321214077308,
+          "sd": 0.2269107578063375
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0002257774874423,
+          "bulk_ess": 13537.313765481294,
+          "tail_ess": 18084.439074907626,
+          "tau_int_reduced": 29.46919462769521,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.0009211833019062851,
+            0.0013478047868749736,
+            0.005586889413491465,
+            0.0036879055677594167
+          ],
+          "mean": 0.002425354116554893,
+          "sd": 0.22223346862326038
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate"
+      }
+    },
+    "53": {
+      "energy_per_spin": {
+        "llg": {
+          "rank_folded_rhat": 1.0041052047264358,
+          "bulk_ess": 838.3080609655407,
+          "tail_ess": 1699.25291584004,
+          "tau_int_reduced": 4.770595186166596,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.642309708625266,
+            -0.6238056654867745,
+            -0.6060216648522415,
+            -0.5954584444039484
+          ],
+          "mean": -0.6168988708420576,
+          "sd": 0.20274890036436755
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0000129914435123,
+          "bulk_ess": 19089.74696197987,
+          "tail_ess": 19637.52855302619,
+          "tau_int_reduced": 20.9605665035291,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.6308947787042946,
+            -0.6371215420053375,
+            -0.6293567212299265,
+            -0.6354199858064836
+          ],
+          "mean": -0.6331982569365106,
+          "sd": 0.2099163940055276
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": 0.016299386094453028,
+        "simultaneous_ci": [
+          -0.10901475909132882,
+          0.14161353128023488
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_norm": {
+        "llg": {
+          "rank_folded_rhat": 1.0032092809864321,
+          "bulk_ess": 1122.6359220316745,
+          "tail_ess": 2032.9461090170653,
+          "tau_int_reduced": 3.6006908126215307,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.37175594255602407,
+            0.358403013544245,
+            0.3498906497046546,
+            0.35008901697371414
+          ],
+          "mean": 0.3575346556946593,
+          "sd": 0.12711080035183975
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0000203416150655,
+          "bulk_ess": 18774.41732865073,
+          "tail_ess": 19521.690371555225,
+          "tau_int_reduced": 21.286844531380975,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.36238059499011877,
+            0.36674455019262747,
+            0.36064723903713547,
+            0.3646155429944191
+          ],
+          "mean": 0.3635969818035752,
+          "sd": 0.12892648076990543
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.006062326108915772,
+        "simultaneous_ci": [
+          -0.06384953424334577,
+          0.05172488202551423
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "neel_z_squared": {
+        "llg": {
+          "rank_folded_rhat": 1.0007088985918373,
+          "bulk_ess": 2298.415658794209,
+          "tail_ess": 2498.2866733482124,
+          "tau_int_reduced": 2.285406205500537,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.04771629124737199,
+            0.045856157375106434,
+            0.04571161464211925,
+            0.04564767627585364
+          ],
+          "mean": 0.04623293488511285,
+          "sd": 0.0577119168318044
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0002341867424407,
+          "bulk_ess": 19256.148510420142,
+          "tail_ess": 19095.560230447423,
+          "tau_int_reduced": 21.031951816382435,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.048708197199111035,
+            0.05085919865413775,
+            0.04799492631875302,
+            0.050002187960748304
+          ],
+          "mean": 0.04939112753318753,
+          "sd": 0.061843173769041804
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate",
+        "difference": -0.0031581926480746952,
+        "simultaneous_ci": [
+          -0.008289841260282668,
+          0.0019734559641332774
+        ],
+        "independent_units": "4 LLG chains versus 4 MC chains; not saved frames"
+      },
+      "signed_neel_z": {
+        "llg": {
+          "rank_folded_rhat": 1.0049092403871418,
+          "bulk_ess": 1584.206983612276,
+          "tail_ess": 2170.2480095747464,
+          "tau_int_reduced": 2.5037214669247194,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            0.009729142992854486,
+            0.003862313460491047,
+            -0.009592621297021176,
+            0.0093815506503968
+          ],
+          "mean": 0.0033450964516803035,
+          "sd": 0.21500586216929418
+        },
+        "mc": {
+          "rank_folded_rhat": 1.0002257774874423,
+          "bulk_ess": 13537.313765481294,
+          "tail_ess": 18084.439074907626,
+          "tau_int_reduced": 29.46919462769521,
+          "tau_convention": "1+2sum_rho; multichain ESS based; MC spacing is sweeps not physical time",
+          "chain_means": [
+            -0.0009211833019062851,
+            0.0013478047868749736,
+            0.005586889413491465,
+            0.0036879055677594167
+          ],
+          "mean": 0.002425354116554893,
+          "sd": 0.22223346862326038
+        },
+        "interpretation": "signed mixing reported separately; not a basin-even gate"
+      }
+    }
+  },
+  "acceptance_sha256": "847e95505fe8f18527fc72767c9e54a05c2b1ef775d3597aa83abfad61d69a69",
+  "precision_scope": "preliminary absolute bands; not full P4 spatial/event/numerical certification",
+  "versions": {
+    "arviz": "0.22.0",
+    "numpy": "2.0.1"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "action": "cancelled new array elements1..16 and dependent old summary jobs after checkpoint preservation",
+  "reference_array": "669327",
+  "old_bauer_669197_14": "preserved",
+  "rows": [
+    {
+      "case": "original_dt002",
+      "completed_blocks": 75,
+      "completed_duration": 750000
+    },
+    {
+      "case": "original_dt001",
+      "completed_blocks": 27,
+      "completed_duration": 270000
+    },
+    {
+      "case": "original_dt0005",
+      "completed_blocks": 18,
+      "completed_duration": 180000
+    }
+  ],
+  "timestamp": "2026-09-13T07:44:36.612909+08:00",
+  "cancelled": [
+    "669327_[1-16]",
+    "669328",
+    "669329",
+    "669330"
+  ],
+  "original_dt002": "completed750000, retained",
+  "legacy_bauer": "669197_14 unchanged"
+}

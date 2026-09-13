@@ -1,0 +1,132 @@
+{
+  "chunk_size_bytes": 1073741824,
+  "files": [
+    {
+      "source": "output/bauer_campaign/20260913_classical_independent/reference/original_dt0005/observables.h5",
+      "source_bytes": 2965776914,
+      "source_sha256": "9d1899a69ab3aefc60ead5e458da99a80fc5f1290c95de6927f142012d304457",
+      "parts": [
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt0005/observables.h5.part-000",
+          "bytes": 1073741824,
+          "sha256": "3f1e5237ae87ae98536cec5e15dd5e4aa62d88541a1c1d4edbbc683bfc38d2bd"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt0005/observables.h5.part-001",
+          "bytes": 1073741824,
+          "sha256": "b7a49fc6fe3535adff61e485441f36e63bac8a2674048c098185c327bc19898a"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt0005/observables.h5.part-002",
+          "bytes": 818293266,
+          "sha256": "388c62a56129c8883fdad8168aff35bbbf50ece22ab50ac07a2663944f59e9ea"
+        }
+      ],
+      "reassembly_verified": true,
+      "original_preserved": true
+    },
+    {
+      "source": "output/bauer_campaign/20260913_classical_independent/reference/original_dt001/observables.h5",
+      "source_bytes": 4447226335,
+      "source_sha256": "2cd87e0ca651d5e97b5f0a11041ab0de5e3f8b37326c8f4e19a5b7f02afa3569",
+      "parts": [
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt001/observables.h5.part-000",
+          "bytes": 1073741824,
+          "sha256": "77f36d3b850782a3661cecda3ecb188cfd7b0ef4a3cd5d1699242de5b5a1aaf5"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt001/observables.h5.part-001",
+          "bytes": 1073741824,
+          "sha256": "8b97716c8e19d83dcaa77accf4a39011c1f1898e684a1de82ecc2717e02306a7"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt001/observables.h5.part-002",
+          "bytes": 1073741824,
+          "sha256": "8d5658f9f83727253f8a43dd54ab9f7c5f69658d11f9bfccad3b2442d9af41bf"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt001/observables.h5.part-003",
+          "bytes": 1073741824,
+          "sha256": "dcae9fd6e38ce894f7fde448c74894b9157d5683efd9f7848bca20df57952913"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt001/observables.h5.part-004",
+          "bytes": 152259039,
+          "sha256": "2db1f4a9c69024faeb04385ee99b00078112533c4165858dfd1ccbd4c7b9bad3"
+        }
+      ],
+      "reassembly_verified": true,
+      "original_preserved": true
+    },
+    {
+      "source": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5",
+      "source_bytes": 12349599131,
+      "source_sha256": "94ad2d257333cc6ce4e44355b6c9014192e22356f7cc2c20093fda0d6aad0bd0",
+      "parts": [
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-000",
+          "bytes": 1073741824,
+          "sha256": "c5196cb82bda372bd0628d75a4bbb513045154c256952cd220eed71bcfd3feb2"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-001",
+          "bytes": 1073741824,
+          "sha256": "97bcfdabd5031aefd4cac50ede72854c8161cafa441b3dc5de6ed8f830f05d68"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-002",
+          "bytes": 1073741824,
+          "sha256": "cb974acc890523d01e4bf59fcda307f1afa75409896d383c2191a23b05f318f2"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-003",
+          "bytes": 1073741824,
+          "sha256": "1924361d222c1119fc03a7e496a92537b01be85c37048ffe83ea41bf0ed3c3d9"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-004",
+          "bytes": 1073741824,
+          "sha256": "ddd48fcb9d861dfc1e3dec69b87f217a1e0fd5ec4addbbc473d600a6539cf062"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-005",
+          "bytes": 1073741824,
+          "sha256": "80f6a4d5e709a3fb8d0e360393454ecc33ae8f274f8896d0b7666d14e3666c98"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-006",
+          "bytes": 1073741824,
+          "sha256": "b56ced16640704b3cc1402082a41b38b375c0895dbbef3ef5869f1a8d9fe3903"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-007",
+          "bytes": 1073741824,
+          "sha256": "c21cea440d6bbf924fa81800139571ced3c76ca5791b2f5db5a2a83092e7352b"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-008",
+          "bytes": 1073741824,
+          "sha256": "48090172d7b36cab2415735dd4223f1209ced314525e95c807b599f7498ea918"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-009",
+          "bytes": 1073741824,
+          "sha256": "dbc50f8d882898600046902869a650f77c69717f049308b52561d490f1922cef"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-010",
+          "bytes": 1073741824,
+          "sha256": "4555b2c16661f794d61d8a3040087d4b8aefa0906c4ea031a5fba0312ebe5c10"
+        },
+        {
+          "path": "output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5.part-011",
+          "bytes": 538439067,
+          "sha256": "cce980dd7a8dc9c690c9a44a3ef869ab1c74ac183e7bbca74d87d006dfed4938"
+        }
+      ],
+      "reassembly_verified": true,
+      "original_preserved": true
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "status": "submitted_not_monitored",
+  "jobs": [
+    {
+      "stage": "cpu",
+      "index": 0,
+      "job_id": "669335",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=fat",
+        "--time=30",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/bauer_revision4/20260913_023043/cpu_0_%j.log",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code/slurm/bauer_revision4.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/bauer_revision4/20260913_023043/manifest.json",
+        "cpu",
+        "0"
+      ]
+    },
+    {
+      "stage": "cuda",
+      "index": 0,
+      "job_id": "669336",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=rtx4090",
+        "--time=30",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/bauer_revision4/20260913_023043/cuda_0_%j.log",
+        "--gres=gpu:1",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code/slurm/bauer_revision4.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/bauer_revision4/20260913_023043/manifest.json",
+        "cuda",
+        "0"
+      ]
+    },
+    {
+      "stage": "reference",
+      "index": 0,
+      "job_id": "669337",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=fat",
+        "--time=2506",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/bauer_revision4/20260913_023043/reference_0_%j.log",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code/slurm/bauer_revision4.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/bauer_revision4/20260913_023043/manifest.json",
+        "reference",
+        "0"
+      ]
+    },
+    {
+      "stage": "reference",
+      "index": 1,
+      "job_id": "669338",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=fat",
+        "--time=4951",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/bauer_revision4/20260913_023043/reference_1_%j.log",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code/slurm/bauer_revision4.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/bauer_revision4/20260913_023043/manifest.json",
+        "reference",
+        "1"
+      ]
+    },
+    {
+      "stage": "review",
+      "index": 0,
+      "job_id": "669339",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=fat",
+        "--time=120",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/bauer_revision4/20260913_023043/review_0_%j.log",
+        "--dependency=afterany:669197_14:669337:669338",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code/slurm/bauer_revision4.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_revision4_20260913_023043/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/bauer_revision4/20260913_023043/manifest.json",
+        "review",
+        "0"
+      ]
+    }
+  ],
+  "production_enabled": false,
+  "training_enabled": false
+}

@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checks": [
+    "no_initial_overlap_between_training_development_and_new_evaluation",
+    "R1_R2_share_exact_initial_but_different_paths",
+    "finite_all_frames",
+    "all_samples_retained"
+  ],
+  "groups": [
+    {
+      "theta": 0.11,
+      "shape": [
+        4,
+        32,
+        201,
+        25,
+        3
+      ],
+      "maximum_norm_error": 5.960464477539063e-08
+    },
+    {
+      "theta": 0.13,
+      "shape": [
+        4,
+        32,
+        201,
+        25,
+        3
+      ],
+      "maximum_norm_error": 5.960464477539063e-08
+    }
+  ]
+}

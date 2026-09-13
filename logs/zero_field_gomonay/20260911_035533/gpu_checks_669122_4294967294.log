@@ -1,0 +1,40 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+................                                                         [100%]
+=============================== warnings summary ===============================
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/xarray/core/nputils.py:19: DeprecationWarning: numpy.core.multiarray is deprecated and has been renamed to numpy._core.multiarray. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core.multiarray.normalize_axis_index.
+    from numpy.core.multiarray import (  # type: ignore[attr-defined,no-redef,unused-ignore]
+
+scripts/archive/zero_field_20260911_035533/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/xarray/core/duck_array_ops.py:50: DeprecationWarning: numpy.core.multiarray is deprecated and has been renamed to numpy._core.multiarray. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core.multiarray.normalize_axis_index.
+    from numpy.core.multiarray import (  # type: ignore[attr-defined,no-redef,unused-ignore]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+16 passed, 16 warnings in 7.86s

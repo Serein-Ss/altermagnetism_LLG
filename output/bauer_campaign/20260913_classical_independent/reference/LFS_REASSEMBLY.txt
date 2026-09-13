@@ -1,0 +1,26 @@
+Bauer reference files are stored as lossless binary Git LFS parts (1 GiB maximum).
+Original complete files remain on the source server and are locally ignored.
+GUIDE is not changed by this packaging operation.
+
+After cloning, run git lfs pull, then from this reference directory:
+
+(
+    set -euo pipefail
+    for name in original_dt0005 original_dt001 original_dt002; do
+        (
+            cd "$name"
+            sha256sum -c observables.h5.parts.sha256
+            if [ ! -e observables.h5 ]; then
+                set -o noclobber
+                cat observables.h5.part-* > observables.h5
+            fi
+            sha256sum -c observables.h5.sha256
+        )
+    done
+)
+
+An existing complete file is verified, never overwritten by these commands.
+If reassembly is interrupted, retain or rename the incomplete output before
+retrying. A failed checksum must be resolved before scientific analysis.
+LFS_SPLIT_MANIFEST.json records original sizes/hashes and every ordered part.
+The per-file original SHA-256 matches the object in the pre-split commit.

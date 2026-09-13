@@ -1,0 +1,10 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+Traceback (most recent call last):
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_040025/code/altermagnetism_LLG/scripts/workflow/zero_field_campaign.py", line 326, in <module>
+    if a.worker: worker(a.campaign,a.worker,int(os.environ.get('SLURM_ARRAY_TASK_ID','0')))
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_040025/code/altermagnetism_LLG/scripts/workflow/zero_field_campaign.py", line 189, in worker
+    subprocess.run([sys.executable,'-m','scripts.analysis.zero_field_equilibrium','--campaign',str(campaign)],check=True);return
+  File "/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/share/home/xlzou/Anaconda3/envs/zrs-mag/bin/python', '-m', 'scripts.analysis.zero_field_equilibrium', '--campaign', '/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025']' returned non-zero exit status 3.

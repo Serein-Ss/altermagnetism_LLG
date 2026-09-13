@@ -1,0 +1,15 @@
+{
+  "reason": "User requested removal of the two-task concurrency limit",
+  "date": "2026-09-12",
+  "jobs": ["669286", "669288", "669289", "669290"],
+  "operation": "scontrol update JobId=<job> ArrayTaskThrottle=0",
+  "status": "all four updates succeeded and scheduler state verified",
+  "observed_kernel_running_tasks_after_update": 23,
+  "application_concurrency_limit": null,
+  "scheduler_resource_and_account_limits_still_apply": true,
+  "dependencies_and_per_task_resources_unchanged": true,
+  "frozen_manifest_and_source_snapshot_unchanged": true,
+  "scope": "Scheduling override only; supersedes frozen cpu_concurrency=2 and original submission %2",
+  "tasks_resubmitted": false,
+  "monitoring": false
+}

@@ -10,3 +10,6 @@ data/datasets/standard_v2_extended_3ps/train/d_wave_altermagnet_L64.h5
 data/generated/production/production_v2/seed_20260908/evaluation/L96/generated_trajectories.h5
 data/generated/production/production_v2/seed_20260909/evaluation/L96/generated_trajectories.h5
 data/generated/production/production_v2/seed_20260910/evaluation/L96/generated_trajectories.h5
+/output/bauer_campaign/20260913_classical_independent/reference/original_dt0005/observables.h5
+/output/bauer_campaign/20260913_classical_independent/reference/original_dt001/observables.h5
+/output/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5

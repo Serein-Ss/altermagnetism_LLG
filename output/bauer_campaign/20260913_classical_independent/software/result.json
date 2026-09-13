@@ -1,0 +1,649 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "float64/energy_gradient",
+      "value": 2.220446049250313e-16,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/graph_field",
+      "value": 2.220446049250313e-16,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/graph_energy",
+      "value": 8.881784197001252e-16,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/open_edges",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/ground_energy",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/end_field",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interior_field",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_norm_0.0",
+      "value": 2.220446049250313e-16,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_tangent_0.0",
+      "value": 3.4416913763379853e-15,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_anchor_0.0",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_endpoint_0.0",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_norm_0.3",
+      "value": 5.551115123125783e-16,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_tangent_0.3",
+      "value": 1.2212453270876722e-15,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_anchor_0.3",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_norm_1.0",
+      "value": 2.220446049250313e-16,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_tangent_1.0",
+      "value": 3.552713678800501e-15,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_anchor_1.0",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/interpolation_endpoint_1.0",
+      "value": 4.440892098500626e-16,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/antipodal_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/rfm/finite_loss_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/rfm/nonzero_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/rfm/20_joint_SO3",
+      "value": 1.1941024822299908e-15,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": "max_absolute=6.661338147750939e-15"
+    },
+    {
+      "name": "float64/rfm/sample_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/rfm/hard_initial",
+      "value": 0.0,
+      "tolerance": 1e-10,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/rfm/sample_norm",
+      "value": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/rfm/source_coupled_sample_SO3",
+      "value": 4.769648980292968e-16,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/rfm/untrained_step_doubling",
+      "status": "DIAGNOSTIC",
+      "value": 0.04879592352851237,
+      "detail": "Wiring/finite check only; trained-model distribution convergence remains required."
+    },
+    {
+      "name": "float64/deterministic/finite_loss_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/deterministic/nonzero_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/deterministic/20_joint_SO3",
+      "value": 8.35775881272707e-16,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": "max_absolute=4.274358644806853e-15"
+    },
+    {
+      "name": "float64/deterministic/sample_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/deterministic/hard_initial",
+      "value": 0.0,
+      "tolerance": 1e-10,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/deterministic/sample_norm",
+      "value": 2.220446049250313e-16,
+      "tolerance": 1e-10,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/euclidean/finite_loss_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/euclidean/nonzero_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/euclidean/20_joint_SO3",
+      "value": 1.366792937669473e-15,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": "max_absolute=1.0880185641326534e-14"
+    },
+    {
+      "name": "float64/euclidean/sample_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/euclidean/hard_initial",
+      "value": 0.0,
+      "tolerance": 1e-10,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/euclidean/norm_diagnostic",
+      "status": "DIAGNOSTIC",
+      "value": 3.045533168015126,
+      "detail": "Ambient baseline intentionally not normalized."
+    },
+    {
+      "name": "float64/autoregressive/finite_loss_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/autoregressive/nonzero_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/autoregressive/20_joint_SO3",
+      "value": 1.4028768878072136e-15,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": "max_absolute=7.105427357601002e-15"
+    },
+    {
+      "name": "float64/autoregressive/sample_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/autoregressive/hard_initial",
+      "value": 0.0,
+      "tolerance": 1e-10,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float64/autoregressive/sample_norm",
+      "value": 3.1086244689504383e-15,
+      "tolerance": 1e-10,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/energy_gradient",
+      "value": 1.1920928955078125e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/graph_field",
+      "value": 1.1920928955078125e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/graph_energy",
+      "value": 4.76837158203125e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/open_edges",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/ground_energy",
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/end_field",
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interior_field",
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_norm_0.0",
+      "value": 1.1920928955078125e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_tangent_0.0",
+      "value": 3.2186508178710938e-06,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_anchor_0.0",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_endpoint_0.0",
+      "value": 0.0,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_norm_0.3",
+      "value": 5.960464477539062e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_tangent_0.3",
+      "value": 7.897615432739258e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_anchor_0.3",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_norm_1.0",
+      "value": 1.1920928955078125e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_tangent_1.0",
+      "value": 3.0994415283203125e-06,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_anchor_1.0",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/interpolation_endpoint_1.0",
+      "value": 2.384185791015625e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/antipodal_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/rfm/finite_loss_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/rfm/nonzero_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/rfm/20_joint_SO3",
+      "value": 4.6833125111334084e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": "max_absolute=3.248453140258789e-06"
+    },
+    {
+      "name": "float32/rfm/sample_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/rfm/hard_initial",
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/rfm/sample_norm",
+      "value": 1.1920928955078125e-07,
+      "tolerance": 1e-05,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/rfm/source_coupled_sample_SO3",
+      "value": 1.8784022870477202e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/rfm/untrained_step_doubling",
+      "status": "DIAGNOSTIC",
+      "value": 0.040380172431468964,
+      "detail": "Wiring/finite check only; trained-model distribution convergence remains required."
+    },
+    {
+      "name": "float32/deterministic/finite_loss_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/deterministic/nonzero_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/deterministic/20_joint_SO3",
+      "value": 6.705874397994194e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": "max_absolute=5.0961971282958984e-06"
+    },
+    {
+      "name": "float32/deterministic/sample_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/deterministic/hard_initial",
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/deterministic/sample_norm",
+      "value": 1.1920928955078125e-07,
+      "tolerance": 1e-05,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/euclidean/finite_loss_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/euclidean/nonzero_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/euclidean/20_joint_SO3",
+      "value": 3.498805369872571e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": "max_absolute=2.7418136596679688e-06"
+    },
+    {
+      "name": "float32/euclidean/sample_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/euclidean/hard_initial",
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/euclidean/norm_diagnostic",
+      "status": "DIAGNOSTIC",
+      "value": 2.81172513961792,
+      "detail": "Ambient baseline intentionally not normalized."
+    },
+    {
+      "name": "float32/autoregressive/finite_loss_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/autoregressive/nonzero_gradient",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/autoregressive/20_joint_SO3",
+      "value": 7.80064851824136e-07,
+      "tolerance": 0.0001,
+      "status": "PASS",
+      "detail": "max_absolute=5.245208740234375e-06"
+    },
+    {
+      "name": "float32/autoregressive/sample_finite",
+      "value": 0.0,
+      "tolerance": 0.0,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/autoregressive/hard_initial",
+      "value": 0.0,
+      "tolerance": 1e-05,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "float32/autoregressive/sample_norm",
+      "value": 1.5497207641601562e-06,
+      "tolerance": 1e-05,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "zero_temperature/no_damping_energy",
+      "value": 1.2745360322696797e-13,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "zero_temperature/damped_energy_monotone",
+      "value": 0.0,
+      "tolerance": 1e-08,
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "device": "cuda",
+  "wall_seconds": 49.63029696419835,
+  "scope": "Physics identities, random-network gradients/covariance and controlled zero-field samplers; no learned physical distribution certificate.",
+  "cuda_device": "NVIDIA GeForce RTX 3090"
+}

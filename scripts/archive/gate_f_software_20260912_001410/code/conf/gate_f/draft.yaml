@@ -1,0 +1,72 @@
+# Design skeleton only. Never accepted as a frozen training contract.
+schema: gate_f_contract_v1
+status: draft
+contract_id: null
+protocol: PUBLICATION_GRADE_RESEARCH_PROTOCOL_20260911.md
+protocol_revision: 2026-09-12_revision_2
+production_enabled: false
+model:
+  thermal_model_id: gomonay_easy_axis_K_DW
+  orientation: '100'
+  periodic: [true, true]
+  sizes: [16, 32]
+  alpha: 0.05
+  reduced:
+    J1: 1.0
+    J2: 0.16936936936936936
+    J_tilde: 0.07207207207207207
+    K_SW: 0.0
+    K_DW: 0.004234234234234234
+theta: null
+dt: null
+frames: null
+save_dt: null
+preparation: null
+initial_manifest: null
+data_manifest: null
+code_sha256: null
+certificates: null
+resource_budget: null
+initial_types: [ground_perturbed, random_sphere, equilibrium_pool]
+initials_per_type: 4
+noise_per_initial: 16
+initials_train_dev: [2, 2]
+training_seeds: null
+latent_seeds: null
+integration_steps: [16, 32, 64, 128]
+bootstrap_seed: null
+feature_scale_floor: null
+condition_scale_floor: null
+primary_feature_indices: null
+comparison_family: null
+bootstrap_replicates: 2000
+max_looks: 2
+simultaneous_confidence_per_look: 0.975
+max_supplements: 1
+supplement_dev_noise_per_initial: 32
+models: [rfm, deterministic, euclidean, autoregressive]
+training:
+  width: 32
+  blocks: 3
+  epochs: null
+  learning_rate: null
+  gradient_accumulation: null
+source:
+  distribution: iid_uniform_sphere
+  temporal_correlation: 0
+  initial_frame: hard_anchor
+cut_locus: isotropic_random_tangent_only_if_unresolved_report_counts
+transport: exponential_euler
+crop: forbidden_full_space_only
+thresholds:
+  ed_excess_upper: 0.10
+  mean_difference_absolute: 0.10
+  baseline_noninferiority_upper: 0.02
+  integration_mean_difference_absolute: 0.05
+pending:
+  - Existing campaign completion and scientific analysis
+  - Resolve old/new production prerequisites explicitly
+  - P1/P2 certificates covering the actual thermal model and conditions
+  - Measured theta, dt, preparation, physical window and saving convergence
+  - Independent initial provenance and train/development split
+  - Freeze statistics family, feature scales, seeds and resource measurements

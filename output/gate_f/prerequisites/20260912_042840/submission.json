@@ -1,0 +1,138 @@
+{
+  "status": "submitted_not_monitored",
+  "manifest_sha256": "8efbdb1d07e54f69f6ed8889bcb3b39e6c59c9ee3ab4c9c149ccc8bac8601030",
+  "jobs": [
+    {
+      "stage": "mc",
+      "count": 6,
+      "job_id": "669285",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--time=30",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/gate_f_prerequisites/20260912_042840/mc_%A_%a.log",
+        "--array=0-5%2",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code/slurm/gate_f_prerequisites.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/gate_f_prerequisites/20260912_042840/manifest.json",
+        "mc"
+      ]
+    },
+    {
+      "stage": "kernel",
+      "count": 24,
+      "job_id": "669286",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--time=641",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/gate_f_prerequisites/20260912_042840/kernel_%A_%a.log",
+        "--array=0-23%2",
+        "--dependency=afterok:669285",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code/slurm/gate_f_prerequisites.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/gate_f_prerequisites/20260912_042840/manifest.json",
+        "kernel"
+      ]
+    },
+    {
+      "stage": "gate",
+      "count": 1,
+      "job_id": "669287",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--time=30",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/gate_f_prerequisites/20260912_042840/gate_%A_%a.log",
+        "--dependency=afterok:669286",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code/slurm/gate_f_prerequisites.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/gate_f_prerequisites/20260912_042840/manifest.json",
+        "gate"
+      ]
+    },
+    {
+      "stage": "calibration",
+      "count": 6,
+      "job_id": "669288",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--time=652",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/gate_f_prerequisites/20260912_042840/calibration_%A_%a.log",
+        "--array=0-5%2",
+        "--dependency=afterok:669287",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code/slurm/gate_f_prerequisites.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/gate_f_prerequisites/20260912_042840/manifest.json",
+        "calibration"
+      ]
+    },
+    {
+      "stage": "fine",
+      "count": 6,
+      "job_id": "669289",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--time=30",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/gate_f_prerequisites/20260912_042840/fine_%A_%a.log",
+        "--array=0-5%2",
+        "--dependency=afterok:669288",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code/slurm/gate_f_prerequisites.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/gate_f_prerequisites/20260912_042840/manifest.json",
+        "fine"
+      ]
+    },
+    {
+      "stage": "fine_half",
+      "count": 6,
+      "job_id": "669290",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--time=30",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/gate_f_prerequisites/20260912_042840/fine_half_%A_%a.log",
+        "--array=0-5%2",
+        "--dependency=afterok:669289",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code/slurm/gate_f_prerequisites.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/gate_f_prerequisites/20260912_042840/manifest.json",
+        "fine_half"
+      ]
+    },
+    {
+      "stage": "review",
+      "count": 1,
+      "job_id": "669291",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--time=30",
+        "--kill-on-invalid-dep=yes",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/gate_f_prerequisites/20260912_042840/review_%A_%a.log",
+        "--dependency=afterany:669290",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code/slurm/gate_f_prerequisites.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/gate_f_prerequisites/20260912_042840/manifest.json",
+        "review"
+      ]
+    }
+  ],
+  "no_monitoring": true,
+  "production_enabled": false
+}

@@ -1,0 +1,38 @@
+status: preregistered_diagnostic_design_not_certificate
+production_enabled: false
+units: reduced_only
+field_gradient: {rtol: 1.0e-10, atol: 1.0e-10}
+bath: {components_min: 1000000, standard_errors: 6}
+equilibrium:
+  chains: 4
+  burn_fraction: 0.5
+  rhat_max: 1.01
+  bulk_ess_min: 1000
+  tail_ess_min: 1000
+  signed_neel_separate_from_basin_even: true
+  primary_observables: [energy_per_spin, neel_norm, neel_z_squared]
+  absolute_equivalence_bands: {energy_per_spin: 0.05, neel_norm: 0.05, neel_z_squared: 0.05}
+  band_scope: preliminary_static_kernel_validation_only_not_full_P4_5percent_budget
+  confidence: 0.95
+  multiplicity: Bonferroni_across_all_primary_method_temperature_comparisons
+  independent_units: preparation_chains_not_frames
+  block_drift_absolute_bands: {energy_per_spin: 0.05, neel_norm: 0.05, neel_z_squared: 0.05}
+  pass_requires_independent_mc: true
+paths:
+  pilot_initial_states: 32
+  noise_repeats: 4
+  minimum_observation_tau_int: 50
+  late_window_tau_int: 10
+  doubling_factors: [1, 2, 4]
+  basin_thresholds: blocked_pending_independent_equilibrium
+  event_probability_ci_halfwidth: 0.05
+  rare_relative_ci_halfwidth: 0.2
+  numerical_relative_budget: 0.05
+  near_zero_denominators: blocked_pending_observable_registry_before_confirmation
+  save_decimation_factors: [1, 2, 4]
+splits:
+  grouping: [parent_chain_id, initial_state_id]
+  proportions: [0.8, 0.1, 0.1]
+  final_dynamic_sizes: [96, 128]
+  temperature_holdout: blocked_pending_independent_temperature_calibration
+  diagnostic_shards_never_training: true

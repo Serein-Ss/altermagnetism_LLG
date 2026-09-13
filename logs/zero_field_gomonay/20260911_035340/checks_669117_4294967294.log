@@ -1,0 +1,266 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+{
+  "configuration_checks": "pass",
+  "papers": [
+    {
+      "paper_id": "bauer_2011",
+      "sha256": "82daa76f5039183c00779c5c4eb900ffa3868e0f9c31dee5c4b575a3db9d7f62",
+      "recomputed": {
+        "exchange": 1.0,
+        "anisotropy": 0.1,
+        "theta": 0.11,
+        "alpha": 0.1
+      },
+      "status": "implemented_candidate_pending_numerical_and_reference_certification"
+    },
+    {
+      "paper_id": "gomonay_2024",
+      "sha256": "052871fa17fe5b391729d416c917faccc951ba913c7069eebcc994c8f23a4d32",
+      "recomputed": {
+        "J1": 1.0,
+        "J2": 0.16936936936936936,
+        "J_tilde": 0.07207207207207207,
+        "K_SW": 0.0,
+        "K_DW": 0.004234234234234234
+      },
+      "status": "implemented_candidate_pending_numerical_and_reference_certification"
+    },
+    {
+      "paper_id": "hirst_mn2au_2022",
+      "sha256": "d545b9c5df5e0c4ed4054abd7afecc0c997fefc45518127b2392829d9d6d3770",
+      "recomputed": {
+        "J1": -0.1734255291520582,
+        "J2": 0.021049214387741853,
+        "J3": -0.020584988962472406,
+        "J4": -0.2239514348785872,
+        "J0_same": 0.08419036488767692,
+        "J0_inter": -1.0,
+        "d_z": -0.002152317880794702,
+        "d_x": 8.440462277626282e-05,
+        "c_over_a": 2.563663663663664,
+        "theta_300": 0.06168312355777964,
+        "theta_1000": 0.20561041185926549,
+        "theta_1200": 0.24673249423111857,
+        "theta_TN": 0.2744898998321194
+      },
+      "status": "implemented_candidate_pending_numerical_and_reference_certification"
+    },
+    {
+      "paper_id": "laliena_crnb3s6_2020",
+      "sha256": "8342bd4b35f2efbddf36c5e1950e3af14387a1c2efbf435bd6a34674d219d65a",
+      "recomputed": {
+        "q0_a": 0.07795774647887324,
+        "kappa": -5.172699965482041,
+        "h_y": 0.807191486549012,
+        "alpha": 0.01,
+        "beta": 0.02
+      },
+      "status": "implemented_candidate_pending_numerical_and_reference_certification"
+    },
+    {
+      "paper_id": "nishino_miyashita_2015",
+      "sha256": "96a41ea93a1458adb650dd5b858fb663b7090d81761013d38b5c221df28031e9",
+      "recomputed": {
+        "field_h": 2.0,
+        "moment": 1.0,
+        "alpha_A": 0.05,
+        "D_B": 1.0
+      },
+      "status": "candidate_requires_R0_and_convergence"
+    }
+  ],
+  "production_certified": false
+}
+........................................................................ [ 58%]
+......................FF..................s.s.......                     [100%]
+=================================== FAILURES ===================================
+_____________ test_v3_candidate_is_valid_but_not_production_ready ______________
+
+    def test_v3_candidate_is_valid_but_not_production_ready():
+>       report = inspect_v3()
+
+scripts/tests/test_standard_v3_preflight.py:8: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+scripts/validation/preflight_standard_v3.py:38: in inspect_v3
+    registry = load_json_yaml(registry_path)
+scripts/validation/preflight_standard_v3.py:27: in load_json_yaml
+    value = json.loads(path.read_text(encoding="utf-8"))
+/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/pathlib.py:1134: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/data/datasets/standard_v3/registry.yaml')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return self._accessor.open(self, mode, buffering, encoding, errors,
+                                   newline)
+E       FileNotFoundError: [Errno 2] No such file or directory: '/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/data/datasets/standard_v3/registry.yaml'
+
+/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/pathlib.py:1119: FileNotFoundError
+___________ test_v3_frozen_protocol_requires_all_certification_files ___________
+
+tmp_path = PosixPath('/tmp/pytest-of-xlzou/pytest-7/test_v3_frozen_protocol_requir0')
+
+    def test_v3_frozen_protocol_requires_all_certification_files(tmp_path: Path):
+        protocol = tmp_path / "protocol.yaml"
+        protocol.write_text(
+            json.dumps(
+                {
+                    "status": "frozen",
+                    "production_enabled": True,
+                    "certification_inputs": {
+                        "equilibrium": str(tmp_path / "missing.json")
+                    },
+                }
+            ),
+            encoding="utf-8",
+        )
+>       report = inspect_v3(frozen_protocol=protocol)
+
+scripts/tests/test_standard_v3_preflight.py:29: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+scripts/validation/preflight_standard_v3.py:38: in inspect_v3
+    registry = load_json_yaml(registry_path)
+scripts/validation/preflight_standard_v3.py:27: in load_json_yaml
+    value = json.loads(path.read_text(encoding="utf-8"))
+/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/pathlib.py:1134: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/data/datasets/standard_v3/registry.yaml')
+mode = 'r', buffering = -1, encoding = 'utf-8', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return self._accessor.open(self, mode, buffering, encoding, errors,
+                                   newline)
+E       FileNotFoundError: [Errno 2] No such file or directory: '/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/data/datasets/standard_v3/registry.yaml'
+
+/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/pathlib.py:1119: FileNotFoundError
+=============================== warnings summary ===============================
+../../../../../../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+../../../../../../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: 6 warnings
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py: 25 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+../../../../../../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: 6 warnings
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py: 25 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+../../../../../../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:45
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2010: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.space          = oneOf(self._space_widths)("space")
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2012: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.style_literal  = oneOf(
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2020: PyparsingDeprecationWarning: 'leaveWhitespace' deprecated - use 'leave_whitespace'
+    )("sym").leaveWhitespace()
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2024: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.start_group    = Optional(r"\math" + oneOf(self._fontnames)("font")) + "{"
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2027: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.delim          = oneOf(self._delims)
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py: 47 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:1984: PyparsingDeprecationWarning: 'setName' deprecated - use 'set_name'
+    val.setName(key)
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py: 44 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:1987: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+    val.setParseAction(getattr(self, key))
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py: 16 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:1748: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+    return Empty().setParseAction(raise_error)
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2088: PyparsingDeprecationWarning: 'endQuoteChar' argument is deprecated, use 'end_quote_char'
+    p.text = cmd(r"\text", QuotedString('{', '\\', endQuoteChar="}"))
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2097: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    + OneOrMore(oneOf(["_", "^"]) - p.placeable)("subsuper")
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2146: PyparsingDeprecationWarning: 'unquoteResults' argument is deprecated, use 'unquote_results'
+    p.math_string   = QuotedString('$', '\\', unquoteResults=False)
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2147: PyparsingDeprecationWarning: 'leaveWhitespace' deprecated - use 'leave_whitespace'
+    p.non_math      = Regex(r"(?:(?:\\[$])|[^$])*").leaveWhitespace()
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py: 3 warnings
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2170: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    result = self._expression.parseString(s)
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py: 3 warnings
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2197: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    return self._math_expression.parseString(toks[0][1:-1], parseAll=True)
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py: 3 warnings
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/pyparsing/util.py:466: PyparsingDeprecationWarning: 'parseAll' argument is deprecated, use 'parse_all'
+    return fn(self, *args, **kwargs)
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_model_plot_layout.py: 3 warnings
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2178: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    ParserElement.resetCache()
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/literature/nishino_miyashita_2015/plot.py:55: UserWarning: Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+    ax.set(xlim=(0,t[-1]),ylim=(-1,1),xlabel=r'$\tau$',ylabel=r'$s_z$',
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/xarray/core/nputils.py:19: DeprecationWarning: numpy.core.multiarray is deprecated and has been renamed to numpy._core.multiarray. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core.multiarray.normalize_axis_index.
+    from numpy.core.multiarray import (  # type: ignore[attr-defined,no-redef,unused-ignore]
+
+scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/tests/test_zero_field_program.py::test_arviz_diagnostics_do_not_certify_shifted_chains
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/xarray/core/duck_array_ops.py:50: DeprecationWarning: numpy.core.multiarray is deprecated and has been renamed to numpy._core.multiarray. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core.multiarray.normalize_axis_index.
+    from numpy.core.multiarray import (  # type: ignore[attr-defined,no-redef,unused-ignore]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED scripts/tests/test_standard_v3_preflight.py::test_v3_candidate_is_valid_but_not_production_ready
+FAILED scripts/tests/test_standard_v3_preflight.py::test_v3_frozen_protocol_requires_all_certification_files
+2 failed, 120 passed, 2 skipped, 239 warnings in 18.82s
+Traceback (most recent call last):
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/workflow/zero_field_campaign.py", line 324, in <module>
+    if a.worker: worker(a.campaign,a.worker,int(os.environ.get('SLURM_ARRAY_TASK_ID','0')))
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/scripts/workflow/zero_field_campaign.py", line 180, in worker
+    subprocess.run([sys.executable,'-m','pytest','scripts/tests','-q'],check=True)
+  File "/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/subprocess.py", line 526, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/share/home/xlzou/Anaconda3/envs/zrs-mag/bin/python', '-m', 'pytest', 'scripts/tests', '-q']' returned non-zero exit status 1.

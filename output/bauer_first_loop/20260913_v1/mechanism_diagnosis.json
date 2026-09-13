@@ -1,0 +1,110 @@
+[
+  {
+    "theta": 0.11,
+    "seed": 11,
+    "steps": 32,
+    "reversal": 0.0,
+    "final_Mz_variance": 0.05904713273048401,
+    "reference_final_Mz_variance": 0.5078548192977905,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.11,
+    "seed": 11,
+    "steps": 64,
+    "reversal": 0.0,
+    "final_Mz_variance": 0.06005922704935074,
+    "reference_final_Mz_variance": 0.5078548192977905,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.11,
+    "seed": 22,
+    "steps": 32,
+    "reversal": 0.0,
+    "final_Mz_variance": 0.05276148021221161,
+    "reference_final_Mz_variance": 0.5078548192977905,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.11,
+    "seed": 22,
+    "steps": 64,
+    "reversal": 0.0,
+    "final_Mz_variance": 0.0536443367600441,
+    "reference_final_Mz_variance": 0.5078548192977905,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.11,
+    "seed": 33,
+    "steps": 32,
+    "reversal": 0.0,
+    "final_Mz_variance": 0.06184250861406326,
+    "reference_final_Mz_variance": 0.5078548192977905,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.11,
+    "seed": 33,
+    "steps": 64,
+    "reversal": 0.0,
+    "final_Mz_variance": 0.0628012865781784,
+    "reference_final_Mz_variance": 0.5078548192977905,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.13,
+    "seed": 11,
+    "steps": 32,
+    "reversal": 0.015625,
+    "final_Mz_variance": 0.10645046830177307,
+    "reference_final_Mz_variance": 0.5018043518066406,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.13,
+    "seed": 11,
+    "steps": 64,
+    "reversal": 0.015625,
+    "final_Mz_variance": 0.10689399391412735,
+    "reference_final_Mz_variance": 0.5018043518066406,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.13,
+    "seed": 22,
+    "steps": 32,
+    "reversal": 0.234375,
+    "final_Mz_variance": 0.07165095210075378,
+    "reference_final_Mz_variance": 0.5018043518066406,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.13,
+    "seed": 22,
+    "steps": 64,
+    "reversal": 0.265625,
+    "final_Mz_variance": 0.07192333787679672,
+    "reference_final_Mz_variance": 0.5018043518066406,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.13,
+    "seed": 33,
+    "steps": 32,
+    "reversal": 0.265625,
+    "final_Mz_variance": 0.06702818721532822,
+    "reference_final_Mz_variance": 0.5018043518066406,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  },
+  {
+    "theta": 0.13,
+    "seed": 33,
+    "steps": 64,
+    "reversal": 0.265625,
+    "final_Mz_variance": 0.06745441257953644,
+    "reference_final_Mz_variance": 0.5018043518066406,
+    "status": "posthoc_diagnostic_existing_samples_no_training_change"
+  }
+]

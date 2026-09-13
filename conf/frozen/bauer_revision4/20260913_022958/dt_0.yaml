@@ -1,0 +1,75 @@
+numerics:
+  implementation_notes:
+    integrator: Milstein-Tretyakov 1997 Eq 5.9 weak RK with Eq 4.5/4.6 discrete draws;
+      final projection is an explicit project extension; Heun remains for common-Wiener
+      comparisons.
+    parameter_grid: Additional paper length and temperature points must be supplied
+      with digitization provenance.
+    trajectory: duration=750000, save_dt=1 reduced; saving convergence still pending
+  numerical_choice:
+    dt_scan:
+    - 0.02
+    - 0.01
+    - 0.005
+    seed: 20260909
+  paper_settings:
+    boundary: open
+    duration: 750000
+    length: 100
+  preflight_choice:
+    coarse_steps: 10000
+    independent_chains: 8
+    method: heun
+    save_every: 100
+    scope: software_and_timing_only_not_lifetime_convergence
+  protocols:
+    trajectory:
+      batch: 8
+      checkpoint_every: 10000
+      dt: 0.02
+      length: 100
+      method: milstein_tretyakov_5_9
+      project: true
+      resumable: true
+      save_every: 50
+      seed: 2026091300
+      steps: 37500000
+  validation_extension:
+    campaign_kind: original_condition_timestep_diagnostic_not_certificate
+    minimum_completed_events: 500
+    production_enabled: false
+    validation_protocols:
+    - trajectory
+paper_id: bauer_2011
+provenance:
+  doi: 10.1088/0953-8984/23/39/394204
+  status: implemented_candidate_pending_numerical_and_reference_certification
+  target: original-condition reversal and lifetime scaling
+reduced:
+  alpha: 0.1
+  anisotropy: 0.1
+  equation_convention: bauer_ll
+  exchange: 1.0
+  theta: 0.11
+reduction:
+  energy: J
+  temperature: kBT/J
+  time: hbar/J
+source_parameters:
+  alpha:
+    source: lambda_LL_not_Gilbert_alpha
+    unit: dimensionless
+    value: 0.1
+  anisotropy:
+    source: K/J
+    unit: dimensionless
+    value: 0.1
+  exchange:
+    source: J_reference
+    unit: dimensionless
+    value: 1.0
+  theta:
+    source: kBT/J
+    unit: dimensionless
+    value: 0.11
+  uncertainty_note: Paper model settings; no measured uncertainty supplied.

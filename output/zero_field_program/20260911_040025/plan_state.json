@@ -1,0 +1,858 @@
+{
+  "program_id": "20260911_040025",
+  "claim": "bounded evidence campaign; not completion of P0-P7",
+  "production_enabled": false,
+  "phase_status": {
+    "P0": {
+      "status": "partial",
+      "inventory": "inventory.json",
+      "reference_registry": "data/literature_reproduction/*/reference/target_registry.json",
+      "remaining": "Original figure points/tolerances and some geometry/neighbor audits are unresolved."
+    },
+    "P1": {
+      "status": "preflight_pass_interacting_confirmation_submitted",
+      "cpu_tests": {
+        "passed": 122,
+        "cuda_skipped": 2,
+        "job": 669135
+      },
+      "gpu_tests": {
+        "passed": 16,
+        "job": 669136
+      },
+      "noise_components_per_device": 1000032,
+      "remaining": "8 interacting LLG chains ensembles and 2 independent MC ensembles; long-trajectory norm, static equivalence and mixing gate."
+    },
+    "P2": {
+      "status": "44_numerical_extensions_submitted_not_paper_certified",
+      "literature_tasks": 44,
+      "remaining": "Gomonay original 500x500 /10000x30 moment-to-cell mapping, external curves, threshold-crossing velocity preparation; Bauer source curves/500 events; Hirst external per-bond audit/critical temperatures/Fig3 damping; Laliena unexplained fold discrepancy."
+    },
+    "P3": {
+      "status": "36_equilibrium_pilots_submitted_with_certificate_guard",
+      "sizes": [
+        16,
+        32,
+        48,
+        64,
+        96,
+        128
+      ],
+      "theta": [
+        0.1,
+        0.3,
+        0.6,
+        1,
+        1.5,
+        2.5
+      ],
+      "alpha": 0.1,
+      "observation_reduced": 1000,
+      "chains": 4,
+      "remaining": "Certification, Tc/basin calibration and decorrelated initial pool are not yet available. Pool extraction entry remains to implement after measured correlation and basin definitions."
+    },
+    "P4": {
+      "status": "blocked_by_P3",
+      "implemented": "Event classifier requires externally calibrated basin/order/structure/dwell; no thresholds fitted or events claimed.",
+      "remaining": "Certified initial-state pool, 32x4 fixed-window path pilots, observation-time/preservation-cadence convergence and probability precision."
+    },
+    "P5": {
+      "status": "blocked",
+      "remaining": "Full five-paper acceptance matrix and finite-temperature path certification not closed. Hash-bound small-kernel certificate is not production authorization."
+    },
+    "P6": {
+      "status": "not_run_blocked",
+      "remaining": "Production pathway deliberately unavailable; new generator accepts only software/equilibrium diagnostics."
+    },
+    "P7": {
+      "status": "diagnostic_loader_tested_training_not_run",
+      "remaining": "Production schema/split certification and model training adapters; three-seed training only after data gates."
+    }
+  },
+  "preserved_history": {
+    "nishino": "Original stationarity failures plus user's accepted_with_deviation record remain unchanged.",
+    "analysis_669101": "Original failed exit code retained; prior reports recovered separately.",
+    "current_preflight_failures": [
+      {
+        "job": 669112,
+        "cause": "Old test expected post-projection predictor norm; corrected to requested diagnostic semantics."
+      },
+      {
+        "job": 669113,
+        "cause": "Slurm spool BASH_SOURCE was not source path; explicit snapshot argument fixed."
+      },
+      {
+        "job": 669117,
+        "cause": "Frozen full-suite missing legacy V3 YAML fixtures; fixtures now included."
+      }
+    ],
+    "superseded_preflight": {
+      "checks": 669121,
+      "canceled": [
+        669122,
+        669123,
+        669124
+      ],
+      "reason": "New frozen revision adds long-norm gate, atomic MC completion and separate Nishino A/B timing."
+    }
+  },
+  "no_monitoring_after_formal_submission": true,
+  "known_recovery_limits": "Exact spin/RNG/cursor recovery in new reduced streaming protocols; legacy Nishino coupled runner and LLB runner require a fresh run after interruption. No automatic retries.",
+  "numerical_source": "DoubleLayer + ReducedLLG, K_DW, reduced quantities only; not old UnifiedLLGSolver",
+  "environment": {
+    "numpy_imported": "2.0.1",
+    "numpy_pip_metadata": "1.26.4 (pre-existing inconsistent metadata; not rewritten)",
+    "torch": "2.6.0+cu118",
+    "arviz": "0.22.0",
+    "pandas": "2.2.3",
+    "xarray": "2024.7.0",
+    "environment": "zrs-mag",
+    "global_configuration_changed": false
+  },
+  "submission": {
+    "status": "submitted_not_monitored",
+    "jobs": [
+      {
+        "job_id": "669173",
+        "indices": [
+          44
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669174",
+        "indices": [
+          45
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669175",
+        "indices": [
+          46
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669176",
+        "indices": [
+          47
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669177",
+        "indices": [
+          48
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669178",
+        "indices": [
+          49
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669179",
+        "indices": [
+          50
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669180",
+        "indices": [
+          51
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669181",
+        "indices": [
+          52
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669182",
+        "indices": [
+          53
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669183",
+        "indices": [
+          0
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669184",
+        "indices": [
+          1
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669185",
+        "indices": [
+          2
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669186",
+        "indices": [
+          3
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669187",
+        "indices": [
+          4
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669188",
+        "indices": [
+          5
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669189",
+        "indices": [
+          6
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669190",
+        "indices": [
+          7
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669191",
+        "indices": [
+          8
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669192",
+        "indices": [
+          9
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669193",
+        "indices": [
+          10
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669194",
+        "indices": [
+          11
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669195",
+        "indices": [
+          12
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669196",
+        "indices": [
+          13
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669197",
+        "indices": [
+          14
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669198",
+        "indices": [
+          15
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669199",
+        "indices": [
+          16
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669200",
+        "indices": [
+          17
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669201",
+        "indices": [
+          18
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669202",
+        "indices": [
+          19
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669203",
+        "indices": [
+          20
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669204",
+        "indices": [
+          21
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669205",
+        "indices": [
+          22
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669206",
+        "indices": [
+          23
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669207",
+        "indices": [
+          24
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669208",
+        "indices": [
+          25
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669209",
+        "indices": [
+          26
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669210",
+        "indices": [
+          27
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669211",
+        "indices": [
+          28
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669212",
+        "indices": [
+          29
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669213",
+        "indices": [
+          30
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669214",
+        "indices": [
+          31
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669215",
+        "indices": [
+          32
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669216",
+        "indices": [
+          33
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669217",
+        "indices": [
+          34
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669218",
+        "indices": [
+          35
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669219",
+        "indices": [
+          36
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669220",
+        "indices": [
+          37
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669221",
+        "indices": [
+          38
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669222",
+        "indices": [
+          39
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669223",
+        "indices": [
+          40
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669224",
+        "indices": [
+          41
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669225",
+        "indices": [
+          42
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669226",
+        "indices": [
+          43
+        ],
+        "mode": "run",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669227",
+        "indices": [],
+        "mode": "gate",
+        "pool": "cpu"
+      },
+      {
+        "job_id": "669228",
+        "indices": [
+          54
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669229",
+        "indices": [
+          55
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669230",
+        "indices": [
+          56
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669231",
+        "indices": [
+          57
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669232",
+        "indices": [
+          58
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669233",
+        "indices": [
+          59
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669234",
+        "indices": [
+          60
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669235",
+        "indices": [
+          61
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669236",
+        "indices": [
+          62
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669237",
+        "indices": [
+          63
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669238",
+        "indices": [
+          64
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669239",
+        "indices": [
+          65
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669240",
+        "indices": [
+          66
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669241",
+        "indices": [
+          67
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669242",
+        "indices": [
+          68
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669243",
+        "indices": [
+          69
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669244",
+        "indices": [
+          70
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669245",
+        "indices": [
+          71
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669246",
+        "indices": [
+          72
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669247",
+        "indices": [
+          73
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669248",
+        "indices": [
+          74
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669249",
+        "indices": [
+          75
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669250",
+        "indices": [
+          76
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669251",
+        "indices": [
+          77
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669252",
+        "indices": [
+          78
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669253",
+        "indices": [
+          79
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669254",
+        "indices": [
+          80
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669255",
+        "indices": [
+          81
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669256",
+        "indices": [
+          82
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669257",
+        "indices": [
+          83
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669258",
+        "indices": [
+          84
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669259",
+        "indices": [
+          85
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669260",
+        "indices": [
+          86
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669261",
+        "indices": [
+          87
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669262",
+        "indices": [
+          88
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      },
+      {
+        "job_id": "669263",
+        "indices": [
+          89
+        ],
+        "mode": "run",
+        "pool": "gpu"
+      }
+    ],
+    "first_job": "669173",
+    "last_job": "669263",
+    "count": 91
+  },
+  "resources": {
+    "fat_cpu_allocated_hours": 358.9333333333333,
+    "gpu_allocated_hours": 76.71666666666663,
+    "storage_bound_gib": 171.7631807550788,
+    "margin": 1.5,
+    "simulation_concurrency": {
+      "cpu": 4,
+      "gpu": 2
+    },
+    "extra_short_certificate_job": 1
+  },
+  "next_command": "bash ../run_zrs_mag.sh scripts/workflow/review_zero_field_campaign.py --campaign conf/frozen/zero_field_gomonay/20260911_040025 --output output/zero_field_program/20260911_040025/completion_review.json"
+}

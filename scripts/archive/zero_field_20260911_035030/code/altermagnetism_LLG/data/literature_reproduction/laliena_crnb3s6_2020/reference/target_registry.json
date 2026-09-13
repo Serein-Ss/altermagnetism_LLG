@@ -1,0 +1,15 @@
+{
+  "paper_id": "laliena_crnb3s6_2020",
+  "doi": "10.1038/s41598-020-76903-8",
+  "erratum_doi": "10.1038/s41598-022-06147-1",
+  "registered": "2026-09-11",
+  "source_url": "https://www.nature.com/articles/s41598-022-06147-1",
+  "source_access": "Publisher search-index full text retrieved 2026-09-11; direct open returned redirect error. No local PDF archived yet.",
+  "equation_audit": {"13": "current bvp_rhs has (phi_prime^2-2*phi_prime+kappa)*sin(theta)*cos(theta)", "14": "current bvp_rhs has 2*(phi_prime-1) and divides by sin(theta)", "status": "algebra matches corrected displayed equations; independent boundary/branch audit still required"},
+  "targets": [
+    {"id": "corrected_Fig2b", "quantity": "Gamma_c", "published_value": 1.2405, "old_candidate": 1.208970357, "status": "fail", "tolerance": null, "digitized_curve": null, "next": "Independent changes of mesh, extent, arclength step; do not tune material parameters"},
+    {"id": "corrected_Fig3a", "quantity": "profile at Gamma=0.89", "status": "inconclusive", "reference_points": null, "digitization_error": null},
+    {"id": "corrected_Fig3b", "quantity": "velocity tilt width and critical current", "status": "inconclusive", "reference_points": null, "digitization_error": null}
+  ],
+  "production_enabled": false
+}

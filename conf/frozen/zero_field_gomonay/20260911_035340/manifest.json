@@ -1,0 +1,4430 @@
+{
+  "root": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG",
+  "campaign": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340",
+  "snapshot": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG",
+  "output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/zero_field_program/20260911_035340",
+  "logs": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/zero_field_gomonay/20260911_035340",
+  "commit": "3c5314b8b08915e92f3028ddf958ee8328e4ca5c",
+  "files_sha256": {
+    "scripts/core/altermagnet_dynamics.py": "d6a9171027c557372173c1b994321553fc4a2ad7682d2c5966ef90eceeb720a1",
+    "scripts/core/unified_llg.py": "f154195a37267ccb43587717e94c4d67d36cecc8ad6b6abfd81ab3a892cb9518",
+    "scripts/core/audit_integrators.py": "8060744209181112e26d54fbd8cc58ed2a75935771268beb73ad096d523f3626",
+    "scripts/core/equilibrium_statistics.py": "0bbd6e21759e205b83057a7b3f3d4a174a161ac54fcee2b839eb9cdc83e4c342",
+    "scripts/core/project_paths.py": "6f2e75af880f2d7347a0cbdb1a7189be9b423ade87e268b7610b73d989df09c9",
+    "scripts/core/reduced_llg.py": "89219cacf6a0f6eace9c0a43ce61634ac1496ae9521b17fdb7597232de28c05a",
+    "scripts/core/literature_config.py": "80fe7801098901168503c417761356f08cdd07c44e68f6ce633ca748578a6fa7",
+    "scripts/core/cell_hamiltonian.py": "6fde94744ff2ad43bac4fcde09c6132b8628b23fe636c6b64975b37f99d34c94",
+    "scripts/core/streaming_llg.py": "3dc1a1220e90a36899fabfa6a12e0ceec0516546a7ff8b8bc9226b14b36715de",
+    "scripts/literature/validate_spinwave.py": "ba594828cf08bd6d5881c5cd0b2d930d22591c5e0fb5b182d00b1bb83bf45e0a",
+    "scripts/literature/validate_bauer2011_chain.py": "9a552c86bd368fb9e522a610df8584f3b4956d081e6783cee403339fc9f2d113",
+    "scripts/literature/generate_bauer2011_paths.py": "cf1b78d252b890c024452db09b405d53e96b11a280fcd529ed5c51a9186ee94e",
+    "scripts/literature/validate_crnb3s6_helix.py": "981eee7fb9305f5f93849eb683a83319e9870c43b8ff23ff1242484eb8bafdc4",
+    "scripts/literature/validate_nishino_full.py": "6e770d628351317a1a5b6a088b69136328b57c643d5585745d01c3db89fc3b76",
+    "scripts/literature/workflow.py": "18cc417bfe120fff56d0ee291a4e362c107e2e7880a6c88189babf33fe1c5e99",
+    "scripts/literature/animate.py": "4ebeef455542e5d945d8e5d10ec920b327566b66e0481a01c9f56023bcbaa35a",
+    "scripts/literature/nishino_miyashita_2015/model.py": "e5bae8afb4da54d3972d0e27ecf0772289fbc29183d405e722f713a2710949f2",
+    "scripts/literature/nishino_miyashita_2015/run.py": "04717b18cb31c52d620547146a564dda9a4f7b8a754440d5d5c484da9c607988",
+    "scripts/literature/nishino_miyashita_2015/analyze.py": "099a9a5b5ded1bc3fc885eb80a3183dd5768e99c91129fdb622d7b6b9af87b79",
+    "scripts/literature/nishino_miyashita_2015/legacy_run.py": "d849e09f574c659d5f8c796ad3a67ae78903963a43e58670a3995cb698d756b3",
+    "scripts/literature/nishino_miyashita_2015/legacy_analyze.py": "4b006d17a9256d131053822590a41efdaa4ec2cf6c725263e2abf934dac82898",
+    "scripts/literature/nishino_miyashita_2015/plot.py": "5eb1d6f5ac9c7cdd905bf96caa8b58e221a88592b2db0149dcdf685fb3bdd93b",
+    "scripts/literature/gomonay_2024/legacy_run.py": "3f6cfa23dcec3287ace8396e0791d3ecd063c457de0c891bb50b5cc15b145597",
+    "scripts/literature/gomonay_2024/legacy_plot.py": "5429916d2c77c582e280e20efeadcd516f747ee90cf0ce7979e052edc1a4a181",
+    "scripts/literature/gomonay_2024/legacy_comparison.py": "45670e428aa2aeb67949f01f862786cd38508f10a524a95e6aeb7e8f82b3b764",
+    "scripts/literature/gomonay_2024/legacy_extract_reference.py": "e362c4f1eff0b703fb001f6e6b584f4e871bd342c17ecd0cdaf39c7a04f77089",
+    "scripts/literature/gomonay_2024/legacy_animation.py": "5f5d93bca6db0238615d2b9e25e1b9c19701c0896c64c7377861d40fd46ff87b",
+    "scripts/literature/gomonay_2024/model.py": "9ab67b0f500ec2152452bff0ad6fd48cdb65f18619bded5245fbe213526c281a",
+    "scripts/literature/gomonay_2024/run.py": "6fdedf67dd2d588f74c67161ddea7a6f1e6471f1c8aadeb7e2eefa818198f95f",
+    "scripts/literature/gomonay_2024/analyze.py": "00423313ca60d8c8e24c7908a83b43ba350885b22ea4840f85415005c8ab7c9a",
+    "scripts/literature/gomonay_2024/plot.py": "e2edcffa3c3f89b2e1800c25bff5ab1c370d7b1ea464d7f9054b8b849e18563e",
+    "scripts/literature/bauer_2011/legacy_static.py": "b7b50cefdb19bf60e2d4944f00ff80ec60a5921c74b52067bd1cf01c5cd4ccf1",
+    "scripts/literature/bauer_2011/legacy_run.py": "fe723c853a255e5d45e1dfc541670248c8a17b3e5864759b909f3dc9ecd17bdf",
+    "scripts/literature/bauer_2011/model.py": "eda7c2d2e50e88a290e52d1b81ddca21bb2fabd54ac8800b67a21ec670e524ad",
+    "scripts/literature/bauer_2011/preflight.py": "45cea20b5f43f7a557a00d6d97eb2f1d12b2f67de272536cae0e4e14135b96fb",
+    "scripts/literature/bauer_2011/run.py": "174e83934f25e2d3a5188733ee5a0b50e8ad9c76ec05aca8709552b01176841e",
+    "scripts/literature/bauer_2011/analyze.py": "07e629ad8d2c9e004e3eaa383629a0ae83c942a3236349978a056d8651a6f2b8",
+    "scripts/literature/bauer_2011/plot.py": "01f07bcf462c1f3a9ed326a0daf5e1059e1fe845f9c0e174f00bd3a8a5faee21",
+    "scripts/literature/bauer_2011/fit.py": "dc44eaeb1d21632658c28dbbafd765d6f8f88a1d63b072827bf216fa35061066",
+    "scripts/literature/bauer_2011/integrator.py": "421b07014ffeb8e128925ef049a46afa2226973e5de4c51657678062977defa1",
+    "scripts/literature/laliena_crnb3s6_2020/legacy_run.py": "83aab336ebbb09fc4797565bdfc515daec6ddc5569136983a9604804f3d47cd5",
+    "scripts/literature/laliena_crnb3s6_2020/model.py": "ab24df52b405a38c15c6834b75cb64a6490c7a055d9115639e4f7754d4647b1e",
+    "scripts/literature/laliena_crnb3s6_2020/run.py": "02aedbe4f83436e11b82ae1c7e6414f344cdfa899ef07271501dcb335497c599",
+    "scripts/literature/laliena_crnb3s6_2020/analyze.py": "fdbfb53d12496827a66ee565b21514b0068fece6c4ca5f6c02fa4ce69f049bd5",
+    "scripts/literature/laliena_crnb3s6_2020/plot.py": "ffc0cdb1ddddcce10691eacc150e21d1dc5dae917b42104e3810600dfac33eaf",
+    "scripts/literature/hirst_mn2au_2022/model.py": "d616a67bb61cc9ed86523c7050746619951c1420db416200d737c7ec51748bf2",
+    "scripts/literature/hirst_mn2au_2022/run.py": "7720f5c6191ade1ed716b960dc94bed3e973ffeb3c358783e8831dfec373b651",
+    "scripts/literature/hirst_mn2au_2022/analyze.py": "ef89bdb326a50fc736cf4d0a9585d676f2d87bb09af337f630c7080f8495d511",
+    "scripts/literature/hirst_mn2au_2022/plot.py": "2c236a76215087938616b72a2ba526cf6e30fc9c71131881cb74579d7df8f488",
+    "scripts/literature/hirst_mn2au_2022/llb.py": "6c6150654351c0b2c24083761f345920ab544a6cc58f14fa63b2a86d018e3064",
+    "scripts/literature/hirst_mn2au_2022/llb_run.py": "ce3d0a6620bc45d8df5458fdb8cbf7b20c8db83766a462a7d84bfa2e0da239a9",
+    "scripts/literature/hirst_mn2au_2022/wall_analysis.py": "fe5b7f6235b245c7c9108173948f68b15bd56b6d0101d86e8f6dd899568a19ac",
+    "scripts/tests/test_altermagnet_dynamics.py": "e47af12ae95974c62f43a1996c687761ca47498201056d47ed975fc3e604ddaf",
+    "scripts/tests/test_hdf5_trajectory_dataset.py": "aa28014c5e0c520cb94738dcc381655f970ad155d982a90c2099f7da35fb914d",
+    "scripts/tests/test_path_evaluation.py": "77d8ff8765921802d9b3e7a059ba02f08d5f45ee173d3bffa5abe10b6fea3865",
+    "scripts/tests/test_training.py": "4df07b7763dcece1494b961d1490869c00b4c861210b3531055347f2bcb4e847",
+    "scripts/tests/test_size_equivariant_model.py": "50995f4e6fcf03090e8c63cfd3dc5071b71c8c8e5bd71021d40286d6d1fcd18e",
+    "scripts/tests/test_scalable_path_dataset.py": "0fb833281a1f940114be0df7e735fdb7482df0e5066f25b774b97303f00af937",
+    "scripts/tests/test_unified_llg.py": "7cdcae3433dc9d6914c5c80a8b79d9a37ee57588d46819ca5b148a84d6159200",
+    "scripts/tests/test_standard_v3_preflight.py": "8e5577b0abfe04d1250e37077518969f4ec53eb1ec43658d9435126ad9a57de3",
+    "scripts/tests/conftest.py": "fce519a5df851f4d99295a3a225529db8903b8f2485b617500b95633cce66119",
+    "scripts/tests/test_audit_integrators.py": "92d5a90d17b598575eb47722dd20d872671275a3dd90d3c460d9e09161fccda8",
+    "scripts/tests/test_equilibrium_statistics.py": "58b7b7e8144c188b27f374d154042a5b51817a5d07580e6aa424089175b99f78",
+    "scripts/tests/test_guide_audit_pipeline.py": "ee05ff536052aed68a4e63cc9414dc870e371113869a323f3a409101a5c4f151",
+    "scripts/tests/test_project_layout.py": "73e475feddb0620c4409e9a5c1bb6fa4be13d3df9e3aa20434e6fb48b30f5286",
+    "scripts/tests/test_layout_submission.py": "568946d46fb31dd3db0e552d16099aaaa7a889449aeaf29dda7f8c6f505f577c",
+    "scripts/tests/test_model_plot_layout.py": "aab7c67fa56b1231633cfda121fae50e9d657c591a4d29fe018b06a4455dbf81",
+    "scripts/tests/test_reduced_literature.py": "42d2bd6d3c856cd457cbbd9aa4b2df8f01bdb79d1a31d9861226989bf3c16f7b",
+    "scripts/tests/test_reduced_workflow.py": "780b393aa394ddbda397f73ab72590d2ec4e3c215fe2e8521a7c7e47552a578a",
+    "scripts/tests/test_nishino_acceptance.py": "0a48d961a10e73534633bcb60ba2f1eee1d65fa6e73da78f80235504e3707f32",
+    "scripts/tests/test_bauer_reduced.py": "4007148b18c3b5c19273e889601108548de1d8060bdefff2b3a7f05bd8a14f90",
+    "scripts/tests/test_remaining_literature.py": "f5129eaec40a3e362e7d3b9f118f6a5b25b805c57aa316452b9fc58c3ebe8031",
+    "scripts/tests/test_remaining_pipeline.py": "9af0950080361481d8e1af0c5114fdd471048aa82bc2e65db692555a98da9929",
+    "scripts/tests/test_hirst_llb.py": "4441b45288eaa6e62792af23de9c87935cf3d790835d015a79096e3b424ac3b8",
+    "scripts/tests/test_bauer_weak_rk.py": "f0769c7be5485d1c77a5c928f0edfdfc04aabd827602d3e483c54b208d43f67f",
+    "scripts/tests/test_validation_submission.py": "b662324111099e055b53538b63bb09f006f4924fad0cd5bccd7fb9c77242710d",
+    "scripts/tests/test_remaining_analysis.py": "1e0effdb1943214eae118f06104cd0c51da09678089e456c09db51a8ac57ac44",
+    "scripts/tests/test_zero_field_program.py": "0945aa10adbb1748c094afa158f747aac3fb630fe64be2d45c02c0a31854aa63",
+    "scripts/config/validate_literature_configs.py": "bd65698a5952b4bac8a73b3e7aad0eec127dac4a1c98c5c4a7f9ae4465b8aa71",
+    "scripts/config/build_literature_reference_manifest.py": "a4360926a996712e4dbd15ec231954905e34537b2cb92e26fa9b31874fa7e6cd",
+    "scripts/generation/generate_unbiased_sllg.py": "47cdaac4847ce08e54c56b321b586f536a57283daa1977359f09b8cea82a99b1",
+    "scripts/generation/generate_benchmark_hdf5.py": "59bd79b8a5b433a5d4c1400a8aafd843e6504ad268a83e82fc27e5e03413ab18",
+    "scripts/generation/generate_scalable_hdf5.py": "d952eebd29944ec49b4983f3fc4f61cb2ea42f8249da887bca975bd2f4b4db5a",
+    "scripts/generation/extend_scalable_hdf5.py": "97c52c4c8119d31068002ded2e298cb4a57175708dcd71a6cc8bcea02287d196",
+    "scripts/generation/generate_v3_gomonay_shard.py": "6790138a2e630c845633857526a072b0abaa878d9cbe84ddfe4669e1210c7ef3",
+    "scripts/generation/generate_zero_field_gomonay.py": "ae69100aa8b3e2a55f9e9e4e7003fd2cdbf3c3642ce390eff202f54ebbba19cf",
+    "scripts/datasets/hdf5_trajectory_dataset.py": "579d6bf530774b21dd30238e8f5f3b37623d097df57643f54f30e4bc8ce50470",
+    "scripts/datasets/example_load_dataset.py": "24dc44cda611c6322cdc406c9385a5b011851fd68f1f8ee4e840ebacf8bbce33",
+    "scripts/datasets/build_equilibrium_initial_pool.py": "a1f0fefdcf90a51e75062f7d486109f793a8432d57bc9a6fd090ccf77de25021",
+    "scripts/datasets/path_data.py": "994c5ac49ce3770f49f001565e9fa44a7853c7da9c0aec78de4025021983d905",
+    "scripts/datasets/zero_field_paths.py": "69de43f1b5e9a0f5c37d66ebf899804077c7515466db07cc8c6f7bff2c1c3fb7",
+    "scripts/analysis/analyze_multimodality_controls.py": "cf7260bf8f9e4a5f3c0eaf1667199afe68d3d873ae9d5a48ff6fa8353dc51a99",
+    "scripts/analysis/analyze_spatial_path_mechanisms.py": "08d4fb179e18309085f807bb9509cbaa037b4c8f6a17baffa7beba421b65b098",
+    "scripts/analysis/assess_extended_observation.py": "7f2367695cf2ddc597550b82c9ad2ffb5de72d095b571109efa5f1c77bceb0e5",
+    "scripts/analysis/aggregate_seed_evaluations.py": "0fe51f59e6870c4bf8fe1ad52fc7cf41145040105dff96e4ec263c26d72cccc9",
+    "scripts/analysis/analyze_neel_temperature.py": "a3e951061800de4b9892af07c86933b910e3837245660c8e8e909b8fc3a52ed3",
+    "scripts/analysis/evaluate_l96.py": "d684d89c88391c27505dc9af9c9f0b89c130a4b80cfd8d2b8d1139b028f7237a",
+    "scripts/analysis/diagnose_flow.py": "75d895d5689c206c01d78d547be4939129083be3baaff4b6841c24c65059325b",
+    "scripts/analysis/evaluation.py": "3ac3dd8eece5c9d5e5cdad07289ad65b687dee7c2e9e6c6be049d3b76a5a2de4",
+    "scripts/analysis/evaluate.py": "46aa694c4ffe0c6bf003e0f9b4a1862aa307eeae2280f41576b95729b8693302",
+    "scripts/analysis/audit_nishino_ensemble.py": "e98f66745f6c8fea59f27b71b1ef0bbf55a4bdfdfffd5e1b3d160957d1b5a0fe",
+    "scripts/analysis/analyze_remaining_validation.py": "8917682ca66bc02430962da4cc84151d4ccf7574ed50fe0062106bf2a381f2dd",
+    "scripts/analysis/report_remaining_validation.py": "5ec8fa628b6d1becfc7867b46421b614342d47fb20a5076d4ff7bc8124374e81",
+    "scripts/analysis/supplement_remaining_validation.py": "e1e5ad0a3895802f7d075a9757db78d5a6e863dd55dcccdb8c30c4b50b43b583",
+    "scripts/analysis/zero_field_events.py": "f0eb28050c0668a2f6979e7309362f17eb9b567f669f2415682712c23759db98",
+    "scripts/analysis/zero_field_equilibrium.py": "6d02e8b97672a96383e1e6c295f00d784cdf60159e5ee652097880662c4936ae",
+    "scripts/validation/validate_multimodality.py": "51f29844537ae0d68e9193dd0badbc85159c8f6cd158e631f0d0e94698e4b75d",
+    "scripts/validation/certify_benchmark_dataset.py": "4c13c9b1300c2948ede1b3d1ce2cb2cb4c43ab37377a2c5a9713628f8184c136",
+    "scripts/validation/validate_configuration_noise_response.py": "353497b9e91f85b411fb718ba8117b7e66ec987b2323fe671c1cfd046d31f098",
+    "scripts/validation/certify_scalable_dataset.py": "2da11612dedabcd71d48e3dd8b5fd6e3c051dfe20584273dc2b88561dd8af25a",
+    "scripts/validation/reduced_noise_gate.py": "271c5752fb31ec439e491466c45e39dbb532d190a799cd16a14d0476dcf1cfda",
+    "scripts/validation/gomonay_static_reference.py": "3f73af84a434c46acb64611acde749626701f4aea8b44ece3e574179360c360a",
+    "scripts/validation/zero_field_bath.py": "1f100c42dc5afb97e824f23347b66437b78fdb9c1e2d8db81e16e6bb04cc6bb6",
+    "scripts/validation/zero_field_certificates.py": "e9b66368cf8497677c0493e03554362f12ab4dd0518c0c77ccc889f81ccd189f",
+    "scripts/validation/scan_spatial_convergence.py": "017f648283e9a2a940d813876fe0032d5dc37026a1f0a0a3428cbb7ae9e87f29",
+    "scripts/validation/certify_standard_suite.py": "2e7b84c3ba1dd01ad29907159155ab1090a439677a2cbf75a365707be5800ebf",
+    "scripts/validation/preflight_standard_v3.py": "765fe41dced95ce7de21349a4bb6874d62acb31f6df37e9ef53fe6073d8784fd",
+    "scripts/validation/validate_thermal_noise_statistics.py": "4ab37920e1784c0d25a50799f5e0d5529ab54e7b09762036a0a7cf5b7f5aec3a",
+    "scripts/validation/scan_neel_temperature.py": "0959bb4b8a76821de7aff1b23b6f8d5aaa6f6ce9220b013e675712acbbba6842",
+    "scripts/workflow/submit_guide_thermal_audit.py": "ac241c430cf6bcf7e122abb55613f03f53daa361b9b8b38c58513aee087fa379",
+    "scripts/workflow/migrate_literature_layout.py": "8bb22bb38947f2e495fc64ec8914ead6a356da4aca40ac8172ed3bd8cedaf0ad",
+    "scripts/workflow/run_reduced_literature_campaign.py": "23995ef637bcbbdf12dc9dc17d8731a4ede01fed8a0cda3106363e88d44e4eef",
+    "scripts/workflow/prepare_reduced_campaign.py": "5d65423e02978ec19ed79597a9f25e8f9d96225d15e6e676f23b001a8c832e0e",
+    "scripts/workflow/clean_obsolete_nishino.py": "1acb05809b2433f2abfedc4670ffaf1956257fc387b8491fd79f0a874fb03176",
+    "scripts/workflow/resume_nishino_primary.py": "f5ac9e67d4e69f906a526a3a4a817e9d690438dab1486871c6a7357736507a3f",
+    "scripts/workflow/submit_remaining_validation.py": "1b05b21525f8cb471947ca88ab1003535bb220e98b5ac65415ec2c4f924fd4ea",
+    "scripts/workflow/zero_field_campaign.py": "3847e8f9c1e05bd977817caf53bd3b573336ea18061e56ac1748ed7d13445eb4",
+    "scripts/workflow/zero_field_inventory.py": "ee16375fb07ccc2a01b1cf85d4c36fbab5d0578e515d013c2bba10ec6095fdfe",
+    "scripts/model/__init__.py": "2e52d8ecd4f8421749a8cb18a5732199e2b34c502298c339d5bab58875ce135e",
+    "scripts/model/sphere.py": "795630f754cf4aa1727d9fcfa8fabcf502e18963a6b395861135866ead7b3bb7",
+    "scripts/model/baseline.py": "55c2a907bab2322e10026ab706945556ea62785ac8c5cb520787b6938b62df71",
+    "scripts/model/network.py": "d18e9d69795658ed63850dbfb6ce339de96982eca306018349e44067890dd092",
+    "scripts/training/train.py": "8c50ad005042e0d467954301c9e1765339bc0f8ba7d8399f6ff89f5664ab1476",
+    "scripts/visualization/plot_unbiased_summary.py": "4dfe5f09841c4e90e936b1562fc9ae6780c4a74eb8906099153b18b4951d2e1e",
+    "scripts/visualization/plot_multimodality_validation.py": "bc02fe515ec879b6413e71b36ae6ac027b56d31d48e2df351c0550ec8671abd8",
+    "scripts/visualization/plot_benchmark_dataset.py": "f610293d66b77f991920da5fb2d218ecd8ec28c3f4a623c121d1fd71be4cc0a3",
+    "scripts/visualization/plot_next_stage_validation.py": "b9dcd9c280f01addcf39ac77b0bde5480681ebbe0a7af0b78cd1ab408e1c035a",
+    "scripts/visualization/visualize_standard_trajectory_examples.py": "9bdee1c98c40a6c8f32e69a701682db36cb6e9d2ca96e7caceb1790f574403c5",
+    "scripts/visualization/visualize_all_standard_trajectories.py": "d7e52c66f5a52f4fc7ecd76bab2e66829852a7f89fd6120947134000182faab4",
+    "scripts/visualization/plot_standard_suite.py": "a0fccfe8954c5702c2711c89836c414c353c561cbf22ac04bf18b54a25b3a04c",
+    "scripts/visualization/plot_spatial_convergence.py": "9607ef303dd6af6e1377e241d97b8a9f801e55fa97a1b9caa0a8bd8b6f79cc0c",
+    "scripts/visualization/refresh_evaluation_artifacts.py": "e880ef7f17934213b5f33e924ca5b2f76e77a5ac33231b216fd88f8addef2ba4",
+    "scripts/visualization/model_plots.py": "08621779837772423fdbad70b05d1a4e8a69dbbb32e2e75dd3c6f706e3dff6dd",
+    "scripts/visualization/plot_literature_validation.py": "3cab8e645d5b435dac7f581fbaa46d0904f8d81373e5a4ba023674b2cc525189",
+    "scripts/visualization/compose_literature_comparison.py": "1a8b32532cb8fcf59d6e8adb06d688de2802518f173965483d124afc2046c5d0",
+    "scripts/visualization/extract_reference_figures.py": "62f23b58e6e9e5c17f02d7307e5057f46d06bb93b12ed5deefe3ee6cf958f75b",
+    "scripts/visualization/animate_spinwave_trajectory.py": "11768153dc32a426fb9705745741c2f66bc378d5e6fe590e2e0013488b8196cc",
+    "scripts/inference/sample.py": "ad23726cbe4229783f387939387f61976721163123d139c76444c7eadb0a01eb",
+    "conf/literature/nishino_miyashita_2015.yaml": "96a41ea93a1458adb650dd5b858fb663b7090d81761013d38b5c221df28031e9",
+    "conf/literature/bauer_2011.yaml": "82daa76f5039183c00779c5c4eb900ffa3868e0f9c31dee5c4b575a3db9d7f62",
+    "conf/literature/gomonay_2024.yaml": "052871fa17fe5b391729d416c917faccc951ba913c7069eebcc994c8f23a4d32",
+    "conf/literature/hirst_mn2au_2022.yaml": "d545b9c5df5e0c4ed4054abd7afecc0c997fefc45518127b2392829d9d6d3770",
+    "conf/literature/laliena_crnb3s6_2020.yaml": "8342bd4b35f2efbddf36c5e1950e3af14387a1c2efbf435bd6a34674d219d65a",
+    "conf/zero_field_gomonay/software_validation.yaml": "f47dfe5a646fa20def67fdc5ae504d1e7912b3c5ff9c5df5014c141b699a4019",
+    "conf/zero_field_gomonay/acceptance.yaml": "847e95505fe8f18527fc72767c9e54a05c2b1ef775d3597aa83abfad61d69a69",
+    "conf/zero_field_gomonay/dependencies.txt": "ece64f0e80d073299ebd1c00accf14108b3810989416d3eec7a08eb3f501c405",
+    "slurm/zero_field_preflight.sbatch": "cba3e95769e5826bcc3397d1a78d45b3167623708c457e3c0b40fc97a3717c8a",
+    "slurm/zero_field_campaign.sbatch": "0e629f4310d04a7f83e61ab4a18232a678bc751c1babc8dc349ce63b8e01ab64",
+    "GUIDE/STRICT_LITERATURE_REPRODUCTION_PLAN.md": "4c34dc2d37e4bdd5001bea9cf400897f2429e5b3a39454343fbfeecbe124b473",
+    "GUIDE/ZERO_FIELD_GOMONAY_PATHS_AND_LITERATURE_COMPLETION_PLAN.md": "ed59276685bab457c529bba9ded4a14e10d7e467f779dd4b64a1df32570a5d12",
+    "LFS_SPLIT_MANIFEST.json": "afbcc94be041378a71b6524742bfbc7437bdd5528230abef8482c483025034f8",
+    "output/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/report.json": "ca2adeadc6355cf2d7df7bab01f6b3b9b9334109b311557ee300c0d9c7034ad2",
+    "data/literature_reproduction/nishino_miyashita_2015/reference/target_registry.json": "e3ba4aa949aa43d8c4e3d822a9a97e93568198af9fbb6ee38c671bfc5fa128ae",
+    "data/literature_reproduction/gomonay_2024/reference/target_registry.json": "337e6095d8015753a3676cdd5c70091f35c44ed6e666685ce27a009d211817e2",
+    "data/literature_reproduction/bauer_2011/reference/target_registry.json": "25d16c1cba5f4cebec8b1992019112d99279acbfe1c41956790e3d88c68ae5f4",
+    "data/literature_reproduction/laliena_crnb3s6_2020/reference/target_registry.json": "685337f484cdee2442dbc2f47e02f1f7f7fbb74ef4c70a737dbf0fa73751f4b3",
+    "data/literature_reproduction/hirst_mn2au_2022/reference/target_registry.json": "6505401987e04b2942b9ec6ff064082f91f23a63babb0a285fa52cddc9408126"
+  },
+  "tasks": [
+    {
+      "kind": "nishino",
+      "paper": "nishino_miyashita_2015",
+      "protocol": "convergence",
+      "pool": "cpu",
+      "task": 0,
+      "index": 0,
+      "run_id": "20260911_035340_000",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260911_035340_000",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/000.yaml",
+      "config_sha256": "cf4f8e3becb580feeb3470731e23c63f84bec64f76f9838e88a23824d1ac729e",
+      "parameters": {
+        "moments": 1000,
+        "dt": 0.005,
+        "total_steps": 320000,
+        "burn_steps": 160000
+      },
+      "benchmark": 0
+    },
+    {
+      "kind": "nishino",
+      "paper": "nishino_miyashita_2015",
+      "protocol": "convergence",
+      "pool": "cpu",
+      "task": 1,
+      "index": 1,
+      "run_id": "20260911_035340_001",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260911_035340_001",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/001.yaml",
+      "config_sha256": "cf4f8e3becb580feeb3470731e23c63f84bec64f76f9838e88a23824d1ac729e",
+      "parameters": {
+        "moments": 1000,
+        "dt": 0.005,
+        "total_steps": 320000,
+        "burn_steps": 160000
+      },
+      "benchmark": 0
+    },
+    {
+      "kind": "nishino",
+      "paper": "nishino_miyashita_2015",
+      "protocol": "convergence",
+      "pool": "cpu",
+      "task": 2,
+      "index": 2,
+      "run_id": "20260911_035340_002",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260911_035340_002",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/002.yaml",
+      "config_sha256": "cf4f8e3becb580feeb3470731e23c63f84bec64f76f9838e88a23824d1ac729e",
+      "parameters": {
+        "moments": 1000,
+        "dt": 0.005,
+        "total_steps": 320000,
+        "burn_steps": 160000
+      },
+      "benchmark": 0
+    },
+    {
+      "kind": "nishino",
+      "paper": "nishino_miyashita_2015",
+      "protocol": "convergence",
+      "pool": "cpu",
+      "task": 3,
+      "index": 3,
+      "run_id": "20260911_035340_003",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260911_035340_003",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/003.yaml",
+      "config_sha256": "cf4f8e3becb580feeb3470731e23c63f84bec64f76f9838e88a23824d1ac729e",
+      "parameters": {
+        "moments": 1000,
+        "dt": 0.005,
+        "total_steps": 320000,
+        "burn_steps": 160000
+      },
+      "benchmark": 0
+    },
+    {
+      "kind": "nishino",
+      "paper": "nishino_miyashita_2015",
+      "protocol": "convergence",
+      "pool": "cpu",
+      "task": 4,
+      "index": 4,
+      "run_id": "20260911_035340_004",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260911_035340_004",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/004.yaml",
+      "config_sha256": "cf4f8e3becb580feeb3470731e23c63f84bec64f76f9838e88a23824d1ac729e",
+      "parameters": {
+        "moments": 1000,
+        "dt": 0.005,
+        "total_steps": 320000,
+        "burn_steps": 160000
+      },
+      "benchmark": 0
+    },
+    {
+      "kind": "nishino",
+      "paper": "nishino_miyashita_2015",
+      "protocol": "convergence",
+      "pool": "cpu",
+      "task": 5,
+      "index": 5,
+      "run_id": "20260911_035340_005",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260911_035340_005",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/005.yaml",
+      "config_sha256": "cf4f8e3becb580feeb3470731e23c63f84bec64f76f9838e88a23824d1ac729e",
+      "parameters": {
+        "moments": 1000,
+        "dt": 0.005,
+        "total_steps": 320000,
+        "burn_steps": 160000
+      },
+      "benchmark": 0
+    },
+    {
+      "kind": "nishino",
+      "paper": "nishino_miyashita_2015",
+      "protocol": "convergence",
+      "pool": "cpu",
+      "task": 6,
+      "index": 6,
+      "run_id": "20260911_035340_006",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260911_035340_006",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/006.yaml",
+      "config_sha256": "cf4f8e3becb580feeb3470731e23c63f84bec64f76f9838e88a23824d1ac729e",
+      "parameters": {
+        "moments": 1000,
+        "dt": 0.005,
+        "total_steps": 320000,
+        "burn_steps": 160000
+      },
+      "benchmark": 0
+    },
+    {
+      "kind": "nishino",
+      "paper": "nishino_miyashita_2015",
+      "protocol": "convergence",
+      "pool": "cpu",
+      "task": 7,
+      "index": 7,
+      "run_id": "20260911_035340_007",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260911_035340_007",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/007.yaml",
+      "config_sha256": "cf4f8e3becb580feeb3470731e23c63f84bec64f76f9838e88a23824d1ac729e",
+      "parameters": {
+        "moments": 1000,
+        "dt": 0.005,
+        "total_steps": 320000,
+        "burn_steps": 160000
+      },
+      "benchmark": 0
+    },
+    {
+      "kind": "literature",
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "updates": {
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 100000,
+        "save_every": 50,
+        "project": false
+      },
+      "index": 8,
+      "run_id": "20260911_035340_008",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/bauer_2011/raw/20260911_035340_008",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/008.yaml",
+      "config_sha256": "92faa8ccbd6bbd2cdb1578db1717441b3d09f329f08c112fc2ba75e4045f716e",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 100000,
+        "save_every": 50,
+        "seed": 2026091900,
+        "method": "milstein_tretyakov_5_9",
+        "project": false,
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 8
+    },
+    {
+      "kind": "literature",
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "updates": {
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 200000,
+        "save_every": 100,
+        "project": false
+      },
+      "index": 9,
+      "run_id": "20260911_035340_009",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/bauer_2011/raw/20260911_035340_009",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/009.yaml",
+      "config_sha256": "876937f76529fa99124f574a7cacfd4699cf339328d484f59a871af940415b8d",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 200000,
+        "save_every": 100,
+        "seed": 2026092000,
+        "method": "milstein_tretyakov_5_9",
+        "project": false,
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 9
+    },
+    {
+      "kind": "literature",
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "updates": {
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 200,
+        "project": false
+      },
+      "index": 10,
+      "run_id": "20260911_035340_010",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/bauer_2011/raw/20260911_035340_010",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/010.yaml",
+      "config_sha256": "11979522c669e01133f688a2cb4847babbd56b4a3c8ff7250b19f7c69d08e40f",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 200,
+        "seed": 2026092100,
+        "method": "milstein_tretyakov_5_9",
+        "project": false,
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 10
+    },
+    {
+      "kind": "literature",
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "updates": {
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 100000,
+        "save_every": 50,
+        "project": true
+      },
+      "index": 11,
+      "run_id": "20260911_035340_011",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/bauer_2011/raw/20260911_035340_011",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/011.yaml",
+      "config_sha256": "50f36c116e3d51b40354131a82aa2516d5540da3bab1042e338eba29db359f57",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 100000,
+        "save_every": 50,
+        "seed": 2026092200,
+        "method": "milstein_tretyakov_5_9",
+        "project": true,
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 11
+    },
+    {
+      "kind": "literature",
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "updates": {
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 200000,
+        "save_every": 100,
+        "project": true
+      },
+      "index": 12,
+      "run_id": "20260911_035340_012",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/bauer_2011/raw/20260911_035340_012",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/012.yaml",
+      "config_sha256": "d82f8996fb6f9b591bae162d387d3c89822f19fe284e03f679034aad72b5562d",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 200000,
+        "save_every": 100,
+        "seed": 2026092300,
+        "method": "milstein_tretyakov_5_9",
+        "project": true,
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 12
+    },
+    {
+      "kind": "literature",
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "updates": {
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 200,
+        "project": true
+      },
+      "index": 13,
+      "run_id": "20260911_035340_013",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/bauer_2011/raw/20260911_035340_013",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/013.yaml",
+      "config_sha256": "ea2d87424b0c30f269a6ab922d939dd20bbc37f628b68a434769252d9820e000",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 200,
+        "seed": 2026092400,
+        "method": "milstein_tretyakov_5_9",
+        "project": true,
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 13
+    },
+    {
+      "kind": "literature",
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "updates": {
+        "batch": 8,
+        "dt": 0.005,
+        "steps": 150000000,
+        "save_every": 200
+      },
+      "index": 14,
+      "run_id": "20260911_035340_014",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/bauer_2011/raw/20260911_035340_014",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/014.yaml",
+      "config_sha256": "f589fdc31c37b9267e5056cead6b23d1f7c94ce36037c0a0bfb51683fce71a42",
+      "parameters": {
+        "length": 100,
+        "batch": 8,
+        "dt": 0.005,
+        "steps": 150000000,
+        "save_every": 200,
+        "seed": 2026092500,
+        "method": "milstein_tretyakov_5_9",
+        "project": true,
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 14
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "equilibrium",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          30,
+          30,
+          30
+        ],
+        "theta_key": "theta_300",
+        "save_every": 1000
+      },
+      "index": 15,
+      "run_id": "20260911_035340_015",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_015",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/015.yaml",
+      "config_sha256": "df75f04c8282a61a158f200e304b7ac6b600ebc7aca2e9930615ef43350bb15c",
+      "parameters": {
+        "shape": [
+          30,
+          30,
+          30
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.002,
+        "steps": 200000,
+        "save_every": 1000,
+        "discard_fraction": 0.5,
+        "seed": 2026092600,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 15
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "afmr",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "theta_key": "theta_300",
+        "steps": 1000000,
+        "equilibration_steps": 200000,
+        "save_every": 100
+      },
+      "index": 16,
+      "run_id": "20260911_035340_016",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_016",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/016.yaml",
+      "config_sha256": "aca3d0d301af711a04b188fbb14dbcac0bcf652953e477517d7d8f42e81ed1b2",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "equilibration_steps": 200000,
+        "dt": 0.002,
+        "steps": 1000000,
+        "save_every": 100,
+        "seed": 2026092700,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 16
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "updates": {
+        "theta_key": "theta_300",
+        "steps": 1000000,
+        "save_every": 100
+      },
+      "index": 17,
+      "run_id": "20260911_035340_017",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_017",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/017.yaml",
+      "config_sha256": "67694c7ca3ccc3ecdca901928979c281161a20a3ccdb2f1f7c69d599ac023ee8",
+      "parameters": {
+        "theta_key": "theta_300",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.002,
+        "steps": 1000000,
+        "save_every": 100
+      },
+      "benchmark": 17
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "equilibrium",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          30,
+          30,
+          30
+        ],
+        "theta_key": "theta_1000",
+        "save_every": 1000
+      },
+      "index": 18,
+      "run_id": "20260911_035340_018",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_018",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/018.yaml",
+      "config_sha256": "ac8c417dfb0324fcace1318743d896251519432e43de8543ba5c8938c3b07e2f",
+      "parameters": {
+        "shape": [
+          30,
+          30,
+          30
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_1000",
+        "alpha": 1.0,
+        "dt": 0.002,
+        "steps": 200000,
+        "save_every": 1000,
+        "discard_fraction": 0.5,
+        "seed": 2026092900,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 15
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "afmr",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "theta_key": "theta_1000",
+        "steps": 1000000,
+        "equilibration_steps": 200000,
+        "save_every": 100
+      },
+      "index": 19,
+      "run_id": "20260911_035340_019",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_019",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/019.yaml",
+      "config_sha256": "ce2fa842b66bd70aeadef257f5836f28132996c817b69514265740a42de6256d",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_1000",
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "equilibration_steps": 200000,
+        "dt": 0.002,
+        "steps": 1000000,
+        "save_every": 100,
+        "seed": 2026093000,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 16
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "updates": {
+        "theta_key": "theta_1000",
+        "steps": 1000000,
+        "save_every": 100
+      },
+      "index": 20,
+      "run_id": "20260911_035340_020",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_020",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/020.yaml",
+      "config_sha256": "12079a8d42fdcdcd31a1547581322b794437b0416ae9ffa4e6ec7429116e38a3",
+      "parameters": {
+        "theta_key": "theta_1000",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.002,
+        "steps": 1000000,
+        "save_every": 100
+      },
+      "benchmark": 17
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "equilibrium",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          30,
+          30,
+          30
+        ],
+        "theta_key": "theta_1200",
+        "save_every": 1000
+      },
+      "index": 21,
+      "run_id": "20260911_035340_021",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_021",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/021.yaml",
+      "config_sha256": "843322b9a193d4d5d6d9ad475160375b398891c81bff26b5945fe4762488042e",
+      "parameters": {
+        "shape": [
+          30,
+          30,
+          30
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_1200",
+        "alpha": 1.0,
+        "dt": 0.002,
+        "steps": 200000,
+        "save_every": 1000,
+        "discard_fraction": 0.5,
+        "seed": 2026093200,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 15
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "afmr",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "theta_key": "theta_1200",
+        "steps": 1000000,
+        "equilibration_steps": 200000,
+        "save_every": 100
+      },
+      "index": 22,
+      "run_id": "20260911_035340_022",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_022",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/022.yaml",
+      "config_sha256": "a10cd1334b2cdc1d7f4313121d220e7eed5d63dc42bcb5885160278d5e2e5573",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_1200",
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "equilibration_steps": 200000,
+        "dt": 0.002,
+        "steps": 1000000,
+        "save_every": 100,
+        "seed": 2026093300,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 16
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "updates": {
+        "theta_key": "theta_1200",
+        "steps": 1000000,
+        "save_every": 100
+      },
+      "index": 23,
+      "run_id": "20260911_035340_023",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_023",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/023.yaml",
+      "config_sha256": "34ace9765d162c0266d5738caad356e811c9bb2fa5d7318aa46045d3f4de4305",
+      "parameters": {
+        "theta_key": "theta_1200",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.002,
+        "steps": 1000000,
+        "save_every": 100
+      },
+      "benchmark": 17
+    },
+    {
+      "kind": "literature",
+      "paper": "hirst_mn2au_2022",
+      "protocol": "wall",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "steps": 8000000,
+        "save_every": 5000
+      },
+      "index": 24,
+      "run_id": "20260911_035340_024",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_035340_024",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/024.yaml",
+      "config_sha256": "cd0db802b25a461e7858fc8057497428658594ea800e9091c958ea2ddff19096",
+      "parameters": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "periodic": [
+          false,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta": 0.0,
+        "alpha": 1.0,
+        "initial_width_cells": 40,
+        "dt": 0.002,
+        "steps": 8000000,
+        "save_every": 5000,
+        "seed": 2026093500,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 24
+    },
+    {
+      "kind": "literature",
+      "paper": "gomonay_2024",
+      "protocol": "wall",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          512,
+          8
+        ],
+        "orientation": "100",
+        "steps": 200000,
+        "save_every": 200
+      },
+      "index": 25,
+      "run_id": "20260911_035340_025",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/gomonay_2024/raw/20260911_035340_025",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/025.yaml",
+      "config_sha256": "46c91f64e3273b34abc7fa413d379aae710cba632b18d5736cc48031b211558c",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.75,
+        "velocity": 0.0,
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 200,
+        "seed": 2026093600,
+        "method": "rk4",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 25
+    },
+    {
+      "kind": "literature",
+      "paper": "gomonay_2024",
+      "protocol": "moving_wall",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          512,
+          8
+        ],
+        "orientation": "100",
+        "velocity": 0.925631024108847,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "index": 26,
+      "run_id": "20260911_035340_026",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/gomonay_2024/raw/20260911_035340_026",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/026.yaml",
+      "config_sha256": "1d4d0120ef70e138f2fb82c71ebe6da6b601021514a42120809eb4ff416777e6",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "velocity": 0.925631024108847,
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 200,
+        "seed": 2026093700,
+        "method": "rk4",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 26
+    },
+    {
+      "kind": "literature",
+      "paper": "gomonay_2024",
+      "protocol": "moving_wall",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          512,
+          8
+        ],
+        "orientation": "100",
+        "velocity": 2.0826698042449054,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "index": 27,
+      "run_id": "20260911_035340_027",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/gomonay_2024/raw/20260911_035340_027",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/027.yaml",
+      "config_sha256": "2b1851e58cae68c62a7da3822bad0857590c69a9a079b23e5d9858f334f255dc",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "velocity": 2.0826698042449054,
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 200,
+        "seed": 2026093800,
+        "method": "rk4",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 26
+    },
+    {
+      "kind": "literature",
+      "paper": "gomonay_2024",
+      "protocol": "wall",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          512,
+          8
+        ],
+        "orientation": "110",
+        "steps": 200000,
+        "save_every": 200
+      },
+      "index": 28,
+      "run_id": "20260911_035340_028",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/gomonay_2024/raw/20260911_035340_028",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/028.yaml",
+      "config_sha256": "99a18f23442c9b0d1cfada9bc57528e9d4cae6260edc47d49a2d5ba56cadf97a",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "110",
+        "batch": 1,
+        "alpha": 0.75,
+        "velocity": 0.0,
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 200,
+        "seed": 2026093900,
+        "method": "rk4",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 28
+    },
+    {
+      "kind": "literature",
+      "paper": "gomonay_2024",
+      "protocol": "moving_wall",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          512,
+          8
+        ],
+        "orientation": "110",
+        "velocity": 0.925631024108847,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "index": 29,
+      "run_id": "20260911_035340_029",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/gomonay_2024/raw/20260911_035340_029",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/029.yaml",
+      "config_sha256": "bb710dfe9c3c31e7fa316e6eda220553a88d829dd1d538a1531247f7f01bc8b1",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "110",
+        "batch": 1,
+        "alpha": 0.0,
+        "velocity": 0.925631024108847,
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 200,
+        "seed": 2026094000,
+        "method": "rk4",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 29
+    },
+    {
+      "kind": "literature",
+      "paper": "gomonay_2024",
+      "protocol": "moving_wall",
+      "pool": "gpu",
+      "updates": {
+        "shape": [
+          512,
+          8
+        ],
+        "orientation": "110",
+        "velocity": 2.0826698042449054,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "index": 30,
+      "run_id": "20260911_035340_030",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/gomonay_2024/raw/20260911_035340_030",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/030.yaml",
+      "config_sha256": "957ccc0f4408661c38f89c12facf55b738e11715af09a425677146068f0e847c",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "110",
+        "batch": 1,
+        "alpha": 0.0,
+        "velocity": 2.0826698042449054,
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 200,
+        "seed": 2026094100,
+        "method": "rk4",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 29
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "updates": {
+        "extent": 25,
+        "points": 501,
+        "ds": 0.025,
+        "continuation_steps": 480
+      },
+      "index": 31,
+      "run_id": "20260911_035340_031",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_031",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/031.yaml",
+      "config_sha256": "1d8218c95d319644bcb27c3df3d8a5c52538e8d99fc09ad6db8c77e178a7b928",
+      "parameters": {
+        "extent": 25,
+        "points": 501,
+        "tolerance": 1e-06,
+        "continuation_steps": 480,
+        "ds": 0.025
+      },
+      "benchmark": 31
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "updates": {
+        "extent": 25,
+        "points": 1001,
+        "ds": 0.025,
+        "continuation_steps": 480
+      },
+      "index": 32,
+      "run_id": "20260911_035340_032",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_032",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/032.yaml",
+      "config_sha256": "456b16833594772b4ff7dd8dc7deedbb5cb11a7fca9f3c901206e38fd966b1f3",
+      "parameters": {
+        "extent": 25,
+        "points": 1001,
+        "tolerance": 1e-06,
+        "continuation_steps": 480,
+        "ds": 0.025
+      },
+      "benchmark": 31
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "updates": {
+        "extent": 25,
+        "points": 2001,
+        "ds": 0.025,
+        "continuation_steps": 480
+      },
+      "index": 33,
+      "run_id": "20260911_035340_033",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_033",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/033.yaml",
+      "config_sha256": "547a36365b6b29f82d0f68bb4ebabf0310c0365779e97c00e9027c2cb842eee1",
+      "parameters": {
+        "extent": 25,
+        "points": 2001,
+        "tolerance": 1e-06,
+        "continuation_steps": 480,
+        "ds": 0.025
+      },
+      "benchmark": 31
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "updates": {
+        "extent": 20,
+        "points": 801,
+        "ds": 0.025,
+        "continuation_steps": 480
+      },
+      "index": 34,
+      "run_id": "20260911_035340_034",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_034",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/034.yaml",
+      "config_sha256": "5468e9d86914a990476f458f2ca9e88910de7784dcf3db236b9e58df2b750058",
+      "parameters": {
+        "extent": 20,
+        "points": 801,
+        "tolerance": 1e-06,
+        "continuation_steps": 480,
+        "ds": 0.025
+      },
+      "benchmark": 31
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "updates": {
+        "extent": 40,
+        "points": 1601,
+        "ds": 0.025,
+        "continuation_steps": 480
+      },
+      "index": 35,
+      "run_id": "20260911_035340_035",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_035",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/035.yaml",
+      "config_sha256": "e9b751464b9a43fec04355e94fe35402e9caa5280d1f622bc8f1ed54925f3444",
+      "parameters": {
+        "extent": 40,
+        "points": 1601,
+        "tolerance": 1e-06,
+        "continuation_steps": 480,
+        "ds": 0.025
+      },
+      "benchmark": 31
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "updates": {
+        "extent": 25,
+        "points": 1001,
+        "ds": 0.0125,
+        "continuation_steps": 960
+      },
+      "index": 36,
+      "run_id": "20260911_035340_036",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_036",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/036.yaml",
+      "config_sha256": "9da36f518b71e21a4925c020f186288ab9c6132c4ed9648ac650cef5c8c93f15",
+      "parameters": {
+        "extent": 25,
+        "points": 1001,
+        "tolerance": 1e-06,
+        "continuation_steps": 960,
+        "ds": 0.0125
+      },
+      "benchmark": 31
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "updates": {
+        "extent": 25,
+        "points": 1001,
+        "ds": 0.00625,
+        "continuation_steps": 1920
+      },
+      "index": 37,
+      "run_id": "20260911_035340_037",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_037",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/037.yaml",
+      "config_sha256": "8539ba5f537132becb24a50e61dcfc2a4531cf5667ac44774032aa33168b0873",
+      "parameters": {
+        "extent": 25,
+        "points": 1001,
+        "tolerance": 1e-06,
+        "continuation_steps": 1920,
+        "ds": 0.00625
+      },
+      "benchmark": 31
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "helix",
+      "pool": "cpu",
+      "updates": {
+        "sites": 384,
+        "batch": 4,
+        "steps": 20000000,
+        "save_every": 10000
+      },
+      "index": 38,
+      "run_id": "20260911_035340_038",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_038",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/038.yaml",
+      "config_sha256": "2dcb18e0ffc3fc5ef008e14dd9af16130bc6a0c6968cdfffc41f07277766afe8",
+      "parameters": {
+        "sites": 384,
+        "batch": 4,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "dt": 5e-05,
+        "steps": 20000000,
+        "save_every": 10000,
+        "seed": 2026094900,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 38
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "helix",
+      "pool": "cpu",
+      "updates": {
+        "sites": 480,
+        "batch": 4,
+        "steps": 20000000,
+        "save_every": 10000
+      },
+      "index": 39,
+      "run_id": "20260911_035340_039",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_039",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/039.yaml",
+      "config_sha256": "2fa1bc1ed247b3374e83eb47f01a9091b33d9d8c388406d00661746162b1d753",
+      "parameters": {
+        "sites": 480,
+        "batch": 4,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "dt": 5e-05,
+        "steps": 20000000,
+        "save_every": 10000,
+        "seed": 2026095000,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 39
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "helix",
+      "pool": "cpu",
+      "updates": {
+        "sites": 576,
+        "batch": 4,
+        "steps": 20000000,
+        "save_every": 10000
+      },
+      "index": 40,
+      "run_id": "20260911_035340_040",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_040",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/040.yaml",
+      "config_sha256": "bd5f21442db7868dc89cd0b9e4b39ffe55eb1e7c5b6534007963d5a3e1643f9b",
+      "parameters": {
+        "sites": 576,
+        "batch": 4,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "dt": 5e-05,
+        "steps": 20000000,
+        "save_every": 10000,
+        "seed": 2026095100,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 40
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "current",
+      "pool": "cpu",
+      "updates": {
+        "sites": 480,
+        "dx": 0.12992957746478873,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 2000
+      },
+      "index": 41,
+      "run_id": "20260911_035340_041",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_041",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/041.yaml",
+      "config_sha256": "3371d58a91e056019b9172b09308d68dff5c5a9c037972a4b9e1489f40ec582f",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.89,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 2000,
+        "seed": 2026095200,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 41
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "current",
+      "pool": "cpu",
+      "updates": {
+        "sites": 960,
+        "dx": 0.06496478873239436,
+        "dt": 1.25e-05,
+        "steps": 8000000,
+        "save_every": 8000
+      },
+      "index": 42,
+      "run_id": "20260911_035340_042",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_042",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/042.yaml",
+      "config_sha256": "745d834456da176aff8938c894c9ffb2743954d18efc4648dac1990b7e15a0f3",
+      "parameters": {
+        "sites": 960,
+        "batch": 1,
+        "dx": 0.06496478873239436,
+        "u": 0.89,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 1.25e-05,
+        "steps": 8000000,
+        "save_every": 8000,
+        "seed": 2026095300,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 42
+    },
+    {
+      "kind": "literature",
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "current",
+      "pool": "cpu",
+      "updates": {
+        "sites": 1920,
+        "dx": 0.03248239436619718,
+        "dt": 3.125e-06,
+        "steps": 32000000,
+        "save_every": 32000
+      },
+      "index": 43,
+      "run_id": "20260911_035340_043",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020/raw/20260911_035340_043",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/043.yaml",
+      "config_sha256": "edac2a33c20c95efcc6ab4d5ed8014939750922d20d682b30e67d507ba9cde26",
+      "parameters": {
+        "sites": 1920,
+        "batch": 1,
+        "dx": 0.03248239436619718,
+        "u": 0.89,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 3.125e-06,
+        "steps": 32000000,
+        "save_every": 32000,
+        "seed": 2026095400,
+        "method": "heun_projected_predictor",
+        "resumable": true,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 43
+    },
+    {
+      "kind": "static_mc",
+      "pool": "cpu",
+      "theta": 0.3,
+      "index": 44,
+      "run_id": "20260911_035340_044",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_044/static_mc.npz",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/044.yaml",
+      "config_sha256": "ffad57412a743f3ca32fc63303c531e5ad65185ee3ce4b55b39fdf3a8adda2d0",
+      "parameters": {
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "length": 4,
+        "theta": 0.3,
+        "sweeps": 200000,
+        "stride": 20,
+        "seed": 902440
+      },
+      "benchmark": 44
+    },
+    {
+      "kind": "kernel_equilibrium",
+      "pool": "cpu",
+      "theta": 0.3,
+      "shape": [
+        4,
+        4
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 45,
+      "run_id": "20260911_035340_045",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_045/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/045.yaml",
+      "config_sha256": "8f0e33646b7aa33e22ed3bf6c21eaaac8c4e16d1f515c2eaf753f8e644a040f8",
+      "parameters": {
+        "run_id": "20260911_035340_045",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          4,
+          4
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904450,
+        "noise_seeds": [
+          903450,
+          903451,
+          903452,
+          903453
+        ],
+        "seed": 903450,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 45
+    },
+    {
+      "kind": "kernel_equilibrium",
+      "pool": "cpu",
+      "theta": 0.3,
+      "shape": [
+        4,
+        4
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.0025,
+      "index": 46,
+      "run_id": "20260911_035340_046",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_046/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/046.yaml",
+      "config_sha256": "d962f77db0a1442d3ff79cd460244b7f1d721c967253a37d6898417b4d050ff8",
+      "parameters": {
+        "run_id": "20260911_035340_046",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          4,
+          4
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904460,
+        "noise_seeds": [
+          903460,
+          903461,
+          903462,
+          903463
+        ],
+        "seed": 903460,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "heun_projected_predictor",
+        "dt": 0.0025,
+        "steps": 800000,
+        "save_every": 200,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 46
+    },
+    {
+      "kind": "kernel_equilibrium",
+      "pool": "cpu",
+      "theta": 0.3,
+      "shape": [
+        4,
+        4
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.00125,
+      "index": 47,
+      "run_id": "20260911_035340_047",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_047/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/047.yaml",
+      "config_sha256": "29746387be9ad96a5359901974afdfbb51f207533fabdd7ba7f773391d44ae88",
+      "parameters": {
+        "run_id": "20260911_035340_047",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          4,
+          4
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904470,
+        "noise_seeds": [
+          903470,
+          903471,
+          903472,
+          903473
+        ],
+        "seed": 903470,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "heun_projected_predictor",
+        "dt": 0.00125,
+        "steps": 1600000,
+        "save_every": 400,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 47
+    },
+    {
+      "kind": "kernel_equilibrium",
+      "pool": "cpu",
+      "theta": 0.3,
+      "shape": [
+        4,
+        4
+      ],
+      "method": "geometric_midpoint",
+      "dt": 0.005,
+      "index": 48,
+      "run_id": "20260911_035340_048",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_048/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/048.yaml",
+      "config_sha256": "3f9fe479580c016bc22223e1bcf9e15c288d62c9127d0a63d1ec9cbb100f821b",
+      "parameters": {
+        "run_id": "20260911_035340_048",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          4,
+          4
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904480,
+        "noise_seeds": [
+          903480,
+          903481,
+          903482,
+          903483
+        ],
+        "seed": 903480,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "geometric_midpoint",
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 48
+    },
+    {
+      "kind": "static_mc",
+      "pool": "cpu",
+      "theta": 1.5,
+      "index": 49,
+      "run_id": "20260911_035340_049",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_049/static_mc.npz",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/049.yaml",
+      "config_sha256": "36a284edb746748cd1c8793c33b6740912b5328dcdf6487ed42b2abaf2fe208c",
+      "parameters": {
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "length": 4,
+        "theta": 1.5,
+        "sweeps": 200000,
+        "stride": 20,
+        "seed": 902490
+      },
+      "benchmark": 44
+    },
+    {
+      "kind": "kernel_equilibrium",
+      "pool": "cpu",
+      "theta": 1.5,
+      "shape": [
+        4,
+        4
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 50,
+      "run_id": "20260911_035340_050",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_050/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/050.yaml",
+      "config_sha256": "76ac786c62244bc2edc4fa06d5121a695c276aef26d864f642524f3891580a28",
+      "parameters": {
+        "run_id": "20260911_035340_050",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          4,
+          4
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904500,
+        "noise_seeds": [
+          903500,
+          903501,
+          903502,
+          903503
+        ],
+        "seed": 903500,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 45
+    },
+    {
+      "kind": "kernel_equilibrium",
+      "pool": "cpu",
+      "theta": 1.5,
+      "shape": [
+        4,
+        4
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.0025,
+      "index": 51,
+      "run_id": "20260911_035340_051",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_051/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/051.yaml",
+      "config_sha256": "2ee133cb1ea4c47ee5ce464f5b7b6c6f6213ca2b8bc0aa9585faf5bb95d4b38e",
+      "parameters": {
+        "run_id": "20260911_035340_051",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          4,
+          4
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904510,
+        "noise_seeds": [
+          903510,
+          903511,
+          903512,
+          903513
+        ],
+        "seed": 903510,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.0025,
+        "steps": 800000,
+        "save_every": 200,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 46
+    },
+    {
+      "kind": "kernel_equilibrium",
+      "pool": "cpu",
+      "theta": 1.5,
+      "shape": [
+        4,
+        4
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.00125,
+      "index": 52,
+      "run_id": "20260911_035340_052",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_052/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/052.yaml",
+      "config_sha256": "190829302d7c9f21361b0831786a05331a7e4b4323849c8922ba89124d0f934d",
+      "parameters": {
+        "run_id": "20260911_035340_052",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          4,
+          4
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904520,
+        "noise_seeds": [
+          903520,
+          903521,
+          903522,
+          903523
+        ],
+        "seed": 903520,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.00125,
+        "steps": 1600000,
+        "save_every": 400,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 47
+    },
+    {
+      "kind": "kernel_equilibrium",
+      "pool": "cpu",
+      "theta": 1.5,
+      "shape": [
+        4,
+        4
+      ],
+      "method": "geometric_midpoint",
+      "dt": 0.005,
+      "index": 53,
+      "run_id": "20260911_035340_053",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_053/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/053.yaml",
+      "config_sha256": "90d75d383ae53e4f4a8cf218a2fc8216877f5d607392fbb73e85b7994d7632e2",
+      "parameters": {
+        "run_id": "20260911_035340_053",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          4,
+          4
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904530,
+        "noise_seeds": [
+          903530,
+          903531,
+          903532,
+          903533
+        ],
+        "seed": 903530,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "geometric_midpoint",
+        "dt": 0.005,
+        "steps": 400000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 53
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.1,
+      "shape": [
+        16,
+        16
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 54,
+      "run_id": "20260911_035340_054",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_054/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/054.yaml",
+      "config_sha256": "db9ffce928fcf09a56d6caf59834ccbf51102eaeaedd21946175de748d00bfb1",
+      "parameters": {
+        "run_id": "20260911_035340_054",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          16,
+          16
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904540,
+        "noise_seeds": [
+          903540,
+          903541,
+          903542,
+          903543
+        ],
+        "seed": 903540,
+        "alpha": 0.1,
+        "theta": 0.1,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 54
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.3,
+      "shape": [
+        16,
+        16
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 55,
+      "run_id": "20260911_035340_055",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_055/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/055.yaml",
+      "config_sha256": "e1c68fa81bc6523cf8a37c077ecef0261819607de238981474021121bf4a8ec1",
+      "parameters": {
+        "run_id": "20260911_035340_055",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          16,
+          16
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904550,
+        "noise_seeds": [
+          903550,
+          903551,
+          903552,
+          903553
+        ],
+        "seed": 903550,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 54
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.6,
+      "shape": [
+        16,
+        16
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 56,
+      "run_id": "20260911_035340_056",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_056/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/056.yaml",
+      "config_sha256": "eab4b6591705f911202807e8b7c99ba1009ffa4b5591e66b06904d77314cad15",
+      "parameters": {
+        "run_id": "20260911_035340_056",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          16,
+          16
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904560,
+        "noise_seeds": [
+          903560,
+          903561,
+          903562,
+          903563
+        ],
+        "seed": 903560,
+        "alpha": 0.1,
+        "theta": 0.6,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 54
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.0,
+      "shape": [
+        16,
+        16
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 57,
+      "run_id": "20260911_035340_057",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_057/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/057.yaml",
+      "config_sha256": "7230d5dfd6870506db1548e25288ec41aaa6cd2bb41ff710f66c9741fa4b82f8",
+      "parameters": {
+        "run_id": "20260911_035340_057",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          16,
+          16
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904570,
+        "noise_seeds": [
+          903570,
+          903571,
+          903572,
+          903573
+        ],
+        "seed": 903570,
+        "alpha": 0.1,
+        "theta": 1.0,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 54
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.5,
+      "shape": [
+        16,
+        16
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 58,
+      "run_id": "20260911_035340_058",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_058/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/058.yaml",
+      "config_sha256": "1982c0860727d297cbc0e7c324ca21bc7ba840e0490e91917253b6de375d0dda",
+      "parameters": {
+        "run_id": "20260911_035340_058",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          16,
+          16
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904580,
+        "noise_seeds": [
+          903580,
+          903581,
+          903582,
+          903583
+        ],
+        "seed": 903580,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 54
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 2.5,
+      "shape": [
+        16,
+        16
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 59,
+      "run_id": "20260911_035340_059",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_059/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/059.yaml",
+      "config_sha256": "603ff951fd51152c552ad9192e6b11a24e8d72e0e9a97a048324e3153820eb25",
+      "parameters": {
+        "run_id": "20260911_035340_059",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          16,
+          16
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904590,
+        "noise_seeds": [
+          903590,
+          903591,
+          903592,
+          903593
+        ],
+        "seed": 903590,
+        "alpha": 0.1,
+        "theta": 2.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 54
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.1,
+      "shape": [
+        32,
+        32
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 60,
+      "run_id": "20260911_035340_060",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_060/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/060.yaml",
+      "config_sha256": "c19cf4b4e87064d4f109b9a1dffae67a388fac29df02f8959b544f40673c7d96",
+      "parameters": {
+        "run_id": "20260911_035340_060",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          32,
+          32
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904600,
+        "noise_seeds": [
+          903600,
+          903601,
+          903602,
+          903603
+        ],
+        "seed": 903600,
+        "alpha": 0.1,
+        "theta": 0.1,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 60
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.3,
+      "shape": [
+        32,
+        32
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 61,
+      "run_id": "20260911_035340_061",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_061/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/061.yaml",
+      "config_sha256": "1841202f053f2dacbd17891172f8fba38fa4eb4ec4f74f83a4465ee0062e5236",
+      "parameters": {
+        "run_id": "20260911_035340_061",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          32,
+          32
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904610,
+        "noise_seeds": [
+          903610,
+          903611,
+          903612,
+          903613
+        ],
+        "seed": 903610,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 60
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.6,
+      "shape": [
+        32,
+        32
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 62,
+      "run_id": "20260911_035340_062",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_062/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/062.yaml",
+      "config_sha256": "f85cb4f28514a88a056d04c51dbf71d59bb7e8ea1d48274ac3d161cca1ee02d6",
+      "parameters": {
+        "run_id": "20260911_035340_062",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          32,
+          32
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904620,
+        "noise_seeds": [
+          903620,
+          903621,
+          903622,
+          903623
+        ],
+        "seed": 903620,
+        "alpha": 0.1,
+        "theta": 0.6,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 60
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.0,
+      "shape": [
+        32,
+        32
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 63,
+      "run_id": "20260911_035340_063",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_063/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/063.yaml",
+      "config_sha256": "1241113dfd0fa21a1d682da37acd499873d5a284938a8407493f359e08765a3b",
+      "parameters": {
+        "run_id": "20260911_035340_063",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          32,
+          32
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904630,
+        "noise_seeds": [
+          903630,
+          903631,
+          903632,
+          903633
+        ],
+        "seed": 903630,
+        "alpha": 0.1,
+        "theta": 1.0,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 60
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.5,
+      "shape": [
+        32,
+        32
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 64,
+      "run_id": "20260911_035340_064",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_064/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/064.yaml",
+      "config_sha256": "88a3e4991ca6a424101af037c095280e14b1a9f67f90135a57deac93e288b496",
+      "parameters": {
+        "run_id": "20260911_035340_064",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          32,
+          32
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904640,
+        "noise_seeds": [
+          903640,
+          903641,
+          903642,
+          903643
+        ],
+        "seed": 903640,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 60
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 2.5,
+      "shape": [
+        32,
+        32
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 65,
+      "run_id": "20260911_035340_065",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_065/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/065.yaml",
+      "config_sha256": "d1e1bcc7ed7f0abbf95afc16ae537a368068074b4a28803467d770f91e79d9bb",
+      "parameters": {
+        "run_id": "20260911_035340_065",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          32,
+          32
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904650,
+        "noise_seeds": [
+          903650,
+          903651,
+          903652,
+          903653
+        ],
+        "seed": 903650,
+        "alpha": 0.1,
+        "theta": 2.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 60
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.1,
+      "shape": [
+        48,
+        48
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 66,
+      "run_id": "20260911_035340_066",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_066/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/066.yaml",
+      "config_sha256": "502b913531f1447e2c970dfcda5d3ac98231c8104ee7d8a283a4e3912799864a",
+      "parameters": {
+        "run_id": "20260911_035340_066",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          48,
+          48
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904660,
+        "noise_seeds": [
+          903660,
+          903661,
+          903662,
+          903663
+        ],
+        "seed": 903660,
+        "alpha": 0.1,
+        "theta": 0.1,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 66
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.3,
+      "shape": [
+        48,
+        48
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 67,
+      "run_id": "20260911_035340_067",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_067/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/067.yaml",
+      "config_sha256": "cdc6444190c954010d766f5cb0585f90181de1fba7b07e28877c1685f4944390",
+      "parameters": {
+        "run_id": "20260911_035340_067",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          48,
+          48
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904670,
+        "noise_seeds": [
+          903670,
+          903671,
+          903672,
+          903673
+        ],
+        "seed": 903670,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 66
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.6,
+      "shape": [
+        48,
+        48
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 68,
+      "run_id": "20260911_035340_068",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_068/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/068.yaml",
+      "config_sha256": "c0574c7c56b4ad2c9a9354b3713d396fc46fbb9a04fb56a9597746942a54d21c",
+      "parameters": {
+        "run_id": "20260911_035340_068",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          48,
+          48
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904680,
+        "noise_seeds": [
+          903680,
+          903681,
+          903682,
+          903683
+        ],
+        "seed": 903680,
+        "alpha": 0.1,
+        "theta": 0.6,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 66
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.0,
+      "shape": [
+        48,
+        48
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 69,
+      "run_id": "20260911_035340_069",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_069/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/069.yaml",
+      "config_sha256": "82fc1eca614d486ccedf74ec7d840decf764ee97599f56e9274626cca0943f3d",
+      "parameters": {
+        "run_id": "20260911_035340_069",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          48,
+          48
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904690,
+        "noise_seeds": [
+          903690,
+          903691,
+          903692,
+          903693
+        ],
+        "seed": 903690,
+        "alpha": 0.1,
+        "theta": 1.0,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 66
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.5,
+      "shape": [
+        48,
+        48
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 70,
+      "run_id": "20260911_035340_070",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_070/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/070.yaml",
+      "config_sha256": "719b500b001be3be271eae9efef0798a50142f5dbee0658f9f66dd7fe6f93bc5",
+      "parameters": {
+        "run_id": "20260911_035340_070",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          48,
+          48
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904700,
+        "noise_seeds": [
+          903700,
+          903701,
+          903702,
+          903703
+        ],
+        "seed": 903700,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 66
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 2.5,
+      "shape": [
+        48,
+        48
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 71,
+      "run_id": "20260911_035340_071",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_071/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/071.yaml",
+      "config_sha256": "351e5edee84f45d2cb29b3b14cd5e6db27490c2ebeedbe6d2616f1f1bd3977fa",
+      "parameters": {
+        "run_id": "20260911_035340_071",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          48,
+          48
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904710,
+        "noise_seeds": [
+          903710,
+          903711,
+          903712,
+          903713
+        ],
+        "seed": 903710,
+        "alpha": 0.1,
+        "theta": 2.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 66
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.1,
+      "shape": [
+        64,
+        64
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 72,
+      "run_id": "20260911_035340_072",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_072/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/072.yaml",
+      "config_sha256": "af8f6519f0282362bd3d84d492b916e4dfd835f4eb67ed072bb0d3d92e0e7370",
+      "parameters": {
+        "run_id": "20260911_035340_072",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904720,
+        "noise_seeds": [
+          903720,
+          903721,
+          903722,
+          903723
+        ],
+        "seed": 903720,
+        "alpha": 0.1,
+        "theta": 0.1,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 72
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.3,
+      "shape": [
+        64,
+        64
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 73,
+      "run_id": "20260911_035340_073",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_073/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/073.yaml",
+      "config_sha256": "fbdd11f3cf635d80b3bb41e14bd90ecc67ee957f94a0d5d8f866a46cee573b2f",
+      "parameters": {
+        "run_id": "20260911_035340_073",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904730,
+        "noise_seeds": [
+          903730,
+          903731,
+          903732,
+          903733
+        ],
+        "seed": 903730,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 72
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.6,
+      "shape": [
+        64,
+        64
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 74,
+      "run_id": "20260911_035340_074",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_074/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/074.yaml",
+      "config_sha256": "620bfeb447632063cfa9edaa3928eb959d6908be7487174bc1b3f2c74181f119",
+      "parameters": {
+        "run_id": "20260911_035340_074",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904740,
+        "noise_seeds": [
+          903740,
+          903741,
+          903742,
+          903743
+        ],
+        "seed": 903740,
+        "alpha": 0.1,
+        "theta": 0.6,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 72
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.0,
+      "shape": [
+        64,
+        64
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 75,
+      "run_id": "20260911_035340_075",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_075/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/075.yaml",
+      "config_sha256": "7f8f5ca2299e298174ddc0b14741d9631ee1f06c2f2f145049c5d6950a969f67",
+      "parameters": {
+        "run_id": "20260911_035340_075",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904750,
+        "noise_seeds": [
+          903750,
+          903751,
+          903752,
+          903753
+        ],
+        "seed": 903750,
+        "alpha": 0.1,
+        "theta": 1.0,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 72
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.5,
+      "shape": [
+        64,
+        64
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 76,
+      "run_id": "20260911_035340_076",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_076/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/076.yaml",
+      "config_sha256": "1a0d42be8ad5c68f4ea0a1f47dceebca8af30755977a43d1039d0a137f006276",
+      "parameters": {
+        "run_id": "20260911_035340_076",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904760,
+        "noise_seeds": [
+          903760,
+          903761,
+          903762,
+          903763
+        ],
+        "seed": 903760,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 72
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 2.5,
+      "shape": [
+        64,
+        64
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 77,
+      "run_id": "20260911_035340_077",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_077/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/077.yaml",
+      "config_sha256": "c49e893fe663820ccc6686c583e513e97c3419a82f8fa22b7e57fd1d10b784bb",
+      "parameters": {
+        "run_id": "20260911_035340_077",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904770,
+        "noise_seeds": [
+          903770,
+          903771,
+          903772,
+          903773
+        ],
+        "seed": 903770,
+        "alpha": 0.1,
+        "theta": 2.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 72
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.1,
+      "shape": [
+        96,
+        96
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 78,
+      "run_id": "20260911_035340_078",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_078/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/078.yaml",
+      "config_sha256": "4b06e7dadc6b6642a76ed7783c84bafff10d70776dbcd3816e45890b23737d2d",
+      "parameters": {
+        "run_id": "20260911_035340_078",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          96,
+          96
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904780,
+        "noise_seeds": [
+          903780,
+          903781,
+          903782,
+          903783
+        ],
+        "seed": 903780,
+        "alpha": 0.1,
+        "theta": 0.1,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 78
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.3,
+      "shape": [
+        96,
+        96
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 79,
+      "run_id": "20260911_035340_079",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_079/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/079.yaml",
+      "config_sha256": "1be4ff87ec3fcb6df408faa25a2d94486a0e4bd9c9d3c2e0769be746f605861a",
+      "parameters": {
+        "run_id": "20260911_035340_079",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          96,
+          96
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904790,
+        "noise_seeds": [
+          903790,
+          903791,
+          903792,
+          903793
+        ],
+        "seed": 903790,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 78
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.6,
+      "shape": [
+        96,
+        96
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 80,
+      "run_id": "20260911_035340_080",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_080/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/080.yaml",
+      "config_sha256": "b062883f982cbed2ca49efcb2588b44d8b24d1a2062009d88f142bdd6a3194a8",
+      "parameters": {
+        "run_id": "20260911_035340_080",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          96,
+          96
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904800,
+        "noise_seeds": [
+          903800,
+          903801,
+          903802,
+          903803
+        ],
+        "seed": 903800,
+        "alpha": 0.1,
+        "theta": 0.6,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 78
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.0,
+      "shape": [
+        96,
+        96
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 81,
+      "run_id": "20260911_035340_081",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_081/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/081.yaml",
+      "config_sha256": "2498ffff36d1aa2caf1ea47f07f141fe6d9951b9c85b4731fac7c496a1d5f987",
+      "parameters": {
+        "run_id": "20260911_035340_081",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          96,
+          96
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904810,
+        "noise_seeds": [
+          903810,
+          903811,
+          903812,
+          903813
+        ],
+        "seed": 903810,
+        "alpha": 0.1,
+        "theta": 1.0,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 78
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.5,
+      "shape": [
+        96,
+        96
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 82,
+      "run_id": "20260911_035340_082",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_082/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/082.yaml",
+      "config_sha256": "398663bcdfeca6c0c658de94a1bb4a753fd1eb8d5c0f1672527374ba424d1ac1",
+      "parameters": {
+        "run_id": "20260911_035340_082",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          96,
+          96
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904820,
+        "noise_seeds": [
+          903820,
+          903821,
+          903822,
+          903823
+        ],
+        "seed": 903820,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 78
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 2.5,
+      "shape": [
+        96,
+        96
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 83,
+      "run_id": "20260911_035340_083",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_083/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/083.yaml",
+      "config_sha256": "c7e74fdba226ecd47df3aa95edd72bc3189cf4958a616707b51f401c7b8fc0f0",
+      "parameters": {
+        "run_id": "20260911_035340_083",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          96,
+          96
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904830,
+        "noise_seeds": [
+          903830,
+          903831,
+          903832,
+          903833
+        ],
+        "seed": 903830,
+        "alpha": 0.1,
+        "theta": 2.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 78
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.1,
+      "shape": [
+        128,
+        128
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 84,
+      "run_id": "20260911_035340_084",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_084/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/084.yaml",
+      "config_sha256": "7055bbc9886d9ca9c10f6e6a9d0b260cf7e67dd6ae843996a27058be8cc27912",
+      "parameters": {
+        "run_id": "20260911_035340_084",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          128,
+          128
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904840,
+        "noise_seeds": [
+          903840,
+          903841,
+          903842,
+          903843
+        ],
+        "seed": 903840,
+        "alpha": 0.1,
+        "theta": 0.1,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 84
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.3,
+      "shape": [
+        128,
+        128
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 85,
+      "run_id": "20260911_035340_085",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_085/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/085.yaml",
+      "config_sha256": "84f257eabd7f1c969f7827fe082d07fcba29803764f120bbc445fc249c2b56be",
+      "parameters": {
+        "run_id": "20260911_035340_085",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          128,
+          128
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904850,
+        "noise_seeds": [
+          903850,
+          903851,
+          903852,
+          903853
+        ],
+        "seed": 903850,
+        "alpha": 0.1,
+        "theta": 0.3,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 84
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 0.6,
+      "shape": [
+        128,
+        128
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 86,
+      "run_id": "20260911_035340_086",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_086/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/086.yaml",
+      "config_sha256": "30e4cba1e6266a22b0b26e3662549d35b6e82b3223bd3013fb6015ee9dfc58f5",
+      "parameters": {
+        "run_id": "20260911_035340_086",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          128,
+          128
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904860,
+        "noise_seeds": [
+          903860,
+          903861,
+          903862,
+          903863
+        ],
+        "seed": 903860,
+        "alpha": 0.1,
+        "theta": 0.6,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 84
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.0,
+      "shape": [
+        128,
+        128
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 87,
+      "run_id": "20260911_035340_087",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_087/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/087.yaml",
+      "config_sha256": "d353565027d65a29b043fdb1921781cf064aaf48e36fc6fc358d237b99316d19",
+      "parameters": {
+        "run_id": "20260911_035340_087",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          128,
+          128
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904870,
+        "noise_seeds": [
+          903870,
+          903871,
+          903872,
+          903873
+        ],
+        "seed": 903870,
+        "alpha": 0.1,
+        "theta": 1.0,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 84
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 1.5,
+      "shape": [
+        128,
+        128
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 88,
+      "run_id": "20260911_035340_088",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_088/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/088.yaml",
+      "config_sha256": "8c4f7d7b96ad8dac1a16942ec053c6724217ce55e7fe092ce93de0ebaaed7cd7",
+      "parameters": {
+        "run_id": "20260911_035340_088",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          128,
+          128
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904880,
+        "noise_seeds": [
+          903880,
+          903881,
+          903882,
+          903883
+        ],
+        "seed": 903880,
+        "alpha": 0.1,
+        "theta": 1.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 84
+    },
+    {
+      "kind": "temperature_pilot",
+      "pool": "gpu",
+      "theta": 2.5,
+      "shape": [
+        128,
+        128
+      ],
+      "method": "heun_projected_predictor",
+      "dt": 0.005,
+      "index": 89,
+      "run_id": "20260911_035340_089",
+      "raw": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay/20260911_035340_089/trajectory.h5",
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_035340/089.yaml",
+      "config_sha256": "315e63c1a65018498af21aabf2e8e7ef9d0a4b14a768fe12290456812607b1c5",
+      "parameters": {
+        "run_id": "20260911_035340_089",
+        "role": "equilibrium_diagnostic",
+        "production_enabled": false,
+        "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml",
+        "drives": {
+          "zeeman": 0,
+          "field_gradient": 0,
+          "sot": 0,
+          "stt": 0,
+          "current": 0,
+          "pulse": 0,
+          "tip": 0
+        },
+        "orientation": "100",
+        "shape": [
+          128,
+          128
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "batch": 4,
+        "initializations": [
+          "positive",
+          "negative",
+          "random",
+          "random"
+        ],
+        "initial_seed": 904890,
+        "noise_seeds": [
+          903890,
+          903891,
+          903892,
+          903893
+        ],
+        "seed": 903890,
+        "alpha": 0.1,
+        "theta": 2.5,
+        "method": "heun_projected_predictor",
+        "dt": 0.005,
+        "steps": 200000,
+        "save_every": 100,
+        "checkpoint_every": 10000
+      },
+      "benchmark": 84
+    }
+  ],
+  "benchmarks": [
+    0,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    24,
+    25,
+    26,
+    28,
+    29,
+    31,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    53,
+    54,
+    60,
+    66,
+    72,
+    78,
+    84
+  ],
+  "bindings": {
+    "source_tree": "338f44b685dbe23cef901268668581e89c3c355a8270073d44a34945cc1edaba",
+    "material": "052871fa17fe5b391729d416c917faccc951ba913c7069eebcc994c8f23a4d32",
+    "acceptance": "847e95505fe8f18527fc72767c9e54a05c2b1ef775d3597aa83abfad61d69a69"
+  },
+  "acceptance": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035340/code/altermagnetism_LLG/conf/zero_field_gomonay/acceptance.yaml",
+  "budget": {
+    "max_allocations": 192,
+    "cpu_hours": 512,
+    "gpu_hours": 256,
+    "storage_gib": 256,
+    "walltime_margin": 1.5,
+    "max_retries": 0
+  },
+  "production_enabled": false
+}

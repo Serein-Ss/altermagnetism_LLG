@@ -1,0 +1,77 @@
+{
+  "scope": "gilbert_noise_interface_only_not_interacting_equilibrium",
+  "components": 1000032,
+  "seed": 2026091101,
+  "device": "cuda",
+  "torch": "2.6.0+cu118",
+  "numpy": "2.0.1",
+  "threshold_design": "six_standard_error_screen_frozen_before_draw_not_proof_of_independence",
+  "code_sha256": {
+    "scripts/validation/zero_field_bath.py": "1f100c42dc5afb97e824f23347b66437b78fdb9c1e2d8db81e16e6bb04cc6bb6",
+    "scripts/core/reduced_llg.py": "89219cacf6a0f6eace9c0a43ce61634ac1496ae9521b17fdb7597232de28c05a"
+  },
+  "metrics": {
+    "mean": {
+      "value": -4.868142392474671e-05,
+      "lower": -0.005999904002303939,
+      "upper": 0.005999904002303939,
+      "pass_gate": true
+    },
+    "variance_minus_one": {
+      "value": 0.0006752038214543621,
+      "lower": -0.008485149855435074,
+      "upper": 0.008485149855435074,
+      "pass_gate": true
+    },
+    "component_0_1": {
+      "value": -0.00022035500247153728,
+      "lower": -0.010392138572526277,
+      "upper": 0.010392138572526277,
+      "pass_gate": true
+    },
+    "component_0_2": {
+      "value": 0.0021529095294740147,
+      "lower": -0.010392138572526277,
+      "upper": 0.010392138572526277,
+      "pass_gate": true
+    },
+    "component_1_2": {
+      "value": 0.0004306832501792059,
+      "lower": -0.010392138572526277,
+      "upper": 0.010392138572526277,
+      "pass_gate": true
+    },
+    "adjacent_sites": {
+      "value": -0.00011882213076889954,
+      "lower": -0.006000192009216491,
+      "upper": 0.006000192009216491,
+      "pass_gate": true
+    },
+    "successive_steps": {
+      "value": -0.0004010005249625495,
+      "lower": -0.005999904002303939,
+      "upper": 0.005999904002303939,
+      "pass_gate": true
+    },
+    "seed_replay_max_error": {
+      "value": 0.0,
+      "lower": -0.0,
+      "upper": 0.0,
+      "pass_gate": true
+    },
+    "dt_scaling_max_error": {
+      "value": 0.0,
+      "lower": -1e-14,
+      "upper": 1e-14,
+      "pass_gate": true
+    },
+    "theta_zero_noise_effect": {
+      "value": 0.0,
+      "lower": -0.0,
+      "upper": 0.0,
+      "pass_gate": true
+    }
+  },
+  "status": "pass",
+  "production_enabled": false
+}

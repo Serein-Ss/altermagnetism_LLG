@@ -1,0 +1,63 @@
+status: preregistered_prerequisite_diagnostics_not_certificate
+production_enabled: false
+material_config: conf/literature/gomonay_2024.yaml
+thermal_model_id: gomonay_easy_axis_K_DW
+alpha: 0.05
+candidate_theta: [0.1, 0.3, 0.6, 1.0, 1.5, 2.5]
+orientation: '100'
+periodic: [true, true]
+kernel:
+  size: 4
+  chains: 8
+  duration: 8000.0
+  save_dt: 0.5
+  methods:
+    - {method: heun_projected_predictor, dt: 0.005}
+    - {method: heun_projected_predictor, dt: 0.0025}
+    - {method: heun_projected_predictor, dt: 0.00125}
+    - {method: geometric_midpoint, dt: 0.005}
+  mc_sweeps: 800000
+  mc_stride: 20
+calibration:
+  sizes: [16, 32]
+  chains: 8
+  duration: 4000.0
+  dt: 0.0025
+  save_dt: 0.5
+  temperature_selection: lowest_middle_highest_theta_among_kernel_passes_at_least_three
+  selection_scope: provisional_calibration_only_not_frozen_Gate_F_temperatures
+fine_window:
+  duration: 32.0
+  dt: 0.0025
+  save_dt: 0.02
+  windows: [8.0, 16.0, 32.0]
+  decimation: [1, 2, 4]
+  initial_types: [ground_perturbed, random_sphere, equilibrium_candidate]
+  per_type: 4
+  perturbation_sigma: 0.05
+  scope: diagnostic_paths_not_Gate_F_training
+statistics:
+  burn_fraction: 0.5
+  rhat_max: 1.01
+  bulk_ess_min: 1000
+  tail_ess_min: 1000
+  absolute_band: 0.05
+  confidence: 0.95
+  multiplicity_family_bound: 512
+  primary: [energy_per_spin, neel_norm, neel_z_squared]
+  scope: preliminary_kernel_static_and_stationarity_not_full_P1_P2
+seed: 2026091201
+budget:
+  cpu_concurrency: null  # No application-level cap; Slurm schedules available resources.
+  max_allocated_cpu_hours: 512
+  max_storage_gib: 128
+  max_job_minutes: 1440
+  walltime_margin: 1.5
+  retries: 0
+  production_jobs: 0
+unresolved_before_production:
+  - Original-paper acceptance and old/new prerequisite conflict remain explicitly unresolved
+  - Static consistency is not full path weak convergence or stochastic dynamics certification
+  - Provisional candidates are not a certified equilibrium initial pool
+  - Final temperatures, F=101/201, observation window and save cadence require measured review
+  - No automatic training or final production release

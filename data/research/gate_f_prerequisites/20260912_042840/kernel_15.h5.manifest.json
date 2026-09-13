@@ -1,0 +1,70 @@
+{
+  "file": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/kernel_15.h5",
+  "sha256": "d9f5b8cb42d48f729bd06a84e2bc1e19b58183bc1db83edae2a82383f903fabd",
+  "identity": {
+    "config": "9a258e4c1b95676ce4b14b93d3ec42cc163c2b94852d7f28bb87e090b695031f",
+    "material": "052871fa17fe5b391729d416c917faccc951ba913c7069eebcc994c8f23a4d32",
+    "code": {
+      "scripts/generation/generate_zero_field_gomonay.py": "639dd30d94e4035b6d41ef2768435d04288dc83c44c29394d7ad05e7f7a1c9fb",
+      "scripts/core/reduced_llg.py": "96c6975a2881dd54c9496d0b840be1e070bff9c1f6f27e1f866290bbac11ba25",
+      "scripts/core/cell_hamiltonian.py": "6fde94744ff2ad43bac4fcde09c6132b8628b23fe636c6b64975b37f99d34c94",
+      "scripts/core/streaming_llg.py": "3dc1a1220e90a36899fabfa6a12e0ceec0516546a7ff8b8bc9226b14b36715de",
+      "scripts/literature/gomonay_2024/model.py": "9ab67b0f500ec2152452bff0ad6fd48cdb65f18619bded5245fbe213526c281a"
+    }
+  },
+  "status": "complete_not_physics_certified",
+  "config": {
+    "alpha": 0.05,
+    "batch": 8,
+    "checkpoint_every": 10000,
+    "drives": {
+      "current": 0,
+      "field_gradient": 0,
+      "pulse": 0,
+      "sot": 0,
+      "stt": 0,
+      "tip": 0,
+      "zeeman": 0
+    },
+    "dt": 0.005,
+    "initial_seed": 2026193701,
+    "initializations": [
+      "positive",
+      "negative",
+      "random",
+      "random",
+      "positive",
+      "negative",
+      "random",
+      "random"
+    ],
+    "material_config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code/conf/literature/gomonay_2024.yaml",
+    "method": "geometric_midpoint",
+    "noise_seeds": [
+      2026093701,
+      2026093702,
+      2026093703,
+      2026093704,
+      2026093705,
+      2026093706,
+      2026093707,
+      2026093708
+    ],
+    "orientation": "100",
+    "periodic": [
+      true,
+      true
+    ],
+    "production_enabled": false,
+    "role": "equilibrium_diagnostic",
+    "run_id": "20260912_042840_kernel_15",
+    "save_every": 100,
+    "seed": 2026093701,
+    "shape": [
+      4,
+      4
+    ],
+    "steps": 1600000,
+    "theta": 1.0
+  }
+}

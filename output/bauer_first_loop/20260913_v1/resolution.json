@@ -1,0 +1,22 @@
+[
+  {
+    "theta": 0.11,
+    "fine_probability": 0.2421875,
+    "coarse_probability": 0.2421875,
+    "disagreement_count": 0,
+    "completed_events_fine": 31,
+    "completed_events_coarse": 31,
+    "definition": "basin +/-0.6, completion after dwell160; fine dt_save5 vs model dt_save80",
+    "source_sha256": "d1b69a6eaf6d7e3325709e9b7219ed6922616f77e03ea062adaac18c73f21727"
+  },
+  {
+    "theta": 0.13,
+    "fine_probability": 0.4921875,
+    "coarse_probability": 0.4921875,
+    "disagreement_count": 0,
+    "completed_events_fine": 63,
+    "completed_events_coarse": 63,
+    "definition": "basin +/-0.6, completion after dwell160; fine dt_save5 vs model dt_save80",
+    "source_sha256": "09029598bd7b264aef40d867e8b6e46c21b887b570b63b3fb535e7a4b5b03f16"
+  }
+]

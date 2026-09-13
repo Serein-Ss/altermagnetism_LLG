@@ -1,0 +1,57 @@
+{
+  "scope": "Gate-F software preparation, not experimental completion",
+  "protocol_url": "https://github.com/Serein-Ss/altermagnetism_LLG/blob/main/GUIDE/PUBLICATION_GRADE_RESEARCH_PROTOCOL_20260911.md",
+  "protocol_revision_read": "2026-09-12 revision 2",
+  "production_enabled": false,
+  "real_training_started": false,
+  "legacy_checkpoints_changed": false,
+  "existing_campaign_changed": false,
+  "model_entry": "scripts/model/gate_f.py",
+  "model_kinds": ["rfm", "deterministic", "euclidean", "autoregressive"],
+  "implemented": [
+    "Full paths [B,F,A,Nx,Ny,3], hard initial anchor, free-frame loss only",
+    "Explicit graph from existing CellHamiltonian: two/four basis and open/periodic edge handling",
+    "Invariant scalar message passing, per-block FiLM, channel-only LayerNorm, cross-product vector bases",
+    "Reduced physical frame times, duration, spacing, theta/alpha and Hamiltonian graph consumed",
+    "Persistent training-only scalar normalization buffers",
+    "IID uniform spherical random source and counted cut-locus handling",
+    "Exponential-Euler RFM sampler; unprojected ambient Gaussian Euclidean baseline",
+    "Same scalar backbone deterministic baseline and teacher-forced stochastic vMF autoregression",
+    "Hash/provenance/initial-family split and complete-path schema checks",
+    "Guarded training and inference commands; every generated path stored separately",
+    "Primary feature extraction, equal-count V-statistic ED, independent real-real baseline",
+    "Source-cluster/noise bootstrap and whole-family simultaneous max-error bands",
+    "Snapshot-based CPU/GPU software submission without monitoring or automatic production"
+  ],
+  "software_evidence": {
+    "latest_local_gate_f_tests": "21 passed, 2 full-shape CUDA tests skipped on CPU",
+    "final_gate_f_plus_legacy_model_training_regressions": "29 passed, 2 full-shape CUDA tests skipped on CPU",
+    "local_report": "output/gate_f/local_preflight_20260912/result.json",
+    "note": "Local report predates addition of lazy-HDF5 and bootstrap tests; latest count is from pytest stdout. Scheduler jobs rerun final snapshot. Draft contract rejection was also checked through the actual CLI."
+  },
+  "scientific_limitations": [
+    "Synthetic tests are not trained-model symmetry certificates or physical data certificates",
+    "Graph reindexing tests do not certify original-paper geometry or 100/110 physical box matching",
+    "No claim of E(3), DMI, arbitrary material transfer or long-time accuracy",
+    "Unresolved exact cut-locus arcs use isotropic random directions; pathwise same-seed rotation is not claimed",
+    "Current data entry covers initial 100 L16/32 Gate-F only, not a supplemental or production schema",
+    "Bootstrap rejects shared source families across distinct groups; such a design requires joint cross-group resampling",
+    "Point estimates and interval utilities alone do not issue Gate-F GO",
+    "End-to-end real-data training, generated distribution covariance, paired integration convergence and physical ensemble/event certificates still require frozen data/contract",
+    "No complete automated production-release evaluator or production scheduler is enabled"
+  ],
+  "deferred_until_existing_campaign_analysis": [
+    "Diagnose interacting LLG/MC inconclusive gate and resolve actual P1/P2 scope",
+    "Resolve old/new five-paper production prerequisite wording",
+    "Freeze three theta values, dt, frame count, save interval, preparation and observation window",
+    "Build independent initial catalog, measured resource budget and frozen full statistical comparison family",
+    "Validate 1152 real paths and train four model kinds with three seeds under matched budgets",
+    "Run complete Gate-F evaluation before choosing any expanded production matrix"
+  ],
+  "commands_after_real_freeze": [
+    "bash ../run_zrs_mag.sh -m scripts.validation.gate_f_contract PATH_TO_FROZEN_CONTRACT",
+    "bash ../run_zrs_mag.sh -m scripts.training.train_gate_f --contract PATH_TO_FROZEN_CONTRACT --model rfm --seed REGISTERED_SEED --device cuda --output NEW_OUTPUT_DIRECTORY",
+    "bash ../run_zrs_mag.sh -m scripts.inference.sample_gate_f --contract PATH_TO_FROZEN_CONTRACT --checkpoint CHECKPOINT --initial-id REGISTERED_INITIAL --latent-seeds REGISTERED_SEEDS --steps 32 --device cuda --output NEW_GENERATED_DIRECTORY"
+  ],
+  "skills_effect": "Karpathy: isolated new entry rather than breaking legacy checkpoints; statistical-analysis: uncertainty and source dependence preserved; resource checks: bounded Slurm-only GPU testing."
+}

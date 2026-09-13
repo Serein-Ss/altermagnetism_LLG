@@ -1,0 +1,6 @@
+material_config: /share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035030/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml
+length: 4
+theta: 0.3
+sweeps: 200000
+stride: 20
+seed: 902440

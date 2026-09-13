@@ -1,0 +1,5 @@
+# Installed only in zrs-mag; compatible with imported NumPy 2.0.1 and server glibc.
+arviz==0.22.0
+pandas==2.2.3
+xarray==2024.7.0
+xarray-einstats==0.7.0

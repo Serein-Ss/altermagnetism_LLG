@@ -1,0 +1,35 @@
+{
+  "paper_id": "bauer_2011",
+  "doi": "10.1088/0953-8984/23/39/394204",
+  "registered": "2026-09-11",
+  "targets": [
+    {
+      "id": "original_condition_paths",
+      "status": "not_run",
+      "parameters": {
+        "length": 100,
+        "anisotropy": 0.1,
+        "theta": 0.11,
+        "lambda": 0.1,
+        "duration": 750000
+      },
+      "next": "Fixed eight-chain long numerical validation; not 500-event certificate"
+    },
+    {
+      "id": "weak_RK_projection",
+      "status": "not_run",
+      "next": "Separate projected/unprojected weak distribution dt scan at time2000; not common Wiener with Heun"
+    },
+    {
+      "id": "lifetime_length_Arrhenius",
+      "status": "inconclusive",
+      "minimum_events": 500,
+      "reference_points": null,
+      "digitization_error": null,
+      "tolerance_relative_barrier": 0.1,
+      "blocker": "Independent source length/temperature points and sufficient clustered event statistics absent"
+    }
+  ],
+  "old_results": "exploratory except explicitly scoped historical acceptance",
+  "production_enabled": false
+}

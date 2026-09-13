@@ -1,0 +1,28 @@
+{
+  "paper_id": "gomonay_2024",
+  "doi": "10.1038/s44306-024-00042-3",
+  "registered": "2026-09-11",
+  "version": "local official supplement; main/supplement figure numbering must be cross-mapped",
+  "source": {"file": "Gomonay_2024_supplement.pdf", "sha256": "f607a50d14e70d69fbe325e4aa680042dc5a1f09bdddc5df3765c5105e81f3af"},
+  "equation_map": {
+    "Hamiltonian": {"equation": "S1", "page": 2, "legacy_GUIDE_number_incorrect": "S8"},
+    "geometry": {"figure": "S1", "page": 1, "cell_basis": [[0,0],[0.5,0.5]], "N_definition": "S5 defines N as moments in one sublattice"},
+    "undamped_LL": {"equation": "S2", "page": 2},
+    "dispersion_coefficients": {"equation": "S7b", "page": 2},
+    "linear_matrix": {"equation": "S8", "page": 3},
+    "dispersion": {"equation": "S9", "page": 3},
+    "damped_LLG": {"equation": "S44", "page": 10},
+    "moving_initial_condition": {"equations": ["S28", "S31", "S19b"], "drive": "unforced evolution after preparation"}
+  },
+  "physical_scales": {"a0_nm": 0.448, "moment_muB": 1, "source": "supplement Table I", "gamma": null, "conversion_status": "reduced quantities only until gamma source/convention audited"},
+  "targets": [
+    {"id": "Fig2_S2", "observables": ["signed frequencies", "splitting", "sublattice intensities", "C4 nodes"], "units": "omega*t0 and k*a0", "reference": "S7b/S8/S9", "digitized_data": null, "digitization_error": null, "tolerance": null, "status": "inconclusive", "blocker": "500x500 magnetic-moment wording not independently mapped to cell extents; external curve extraction and spectral uncertainty registry still required"},
+    {"id": "Fig3_S4", "observables": ["common-coordinate nz,mz profiles", "width", "torque", "angle"], "units": "a0 and normalized moments", "reference": "supplement wall formulas and Table I", "digitized_data": null, "digitization_error": null, "tolerance": null, "status": "inconclusive", "blocker": "10000x30 strip cell mapping and full profile reference not certified; finite-strip long-time diagnostics are not the original geometry"},
+    {"id": "Fig5_S5", "observables": ["velocity", "phase", "shape", "internal oscillations", "critical velocity"], "reference": "S28/S31 and S5", "digitized_data": null, "digitization_error": null, "tolerance": null, "status": "inconclusive", "blocker": "Current small-canting initializer is not certified above threshold; two subcritical speed diagnostics cannot certify Walker curve"},
+    {"id": "Fig4_tip", "status": "not_in_scope"},
+    {"id": "DFT_recomputation", "status": "not_in_scope"}
+  ],
+  "source_audit_scope": "S1 signed bonds and 100 cell coordinates independently transcribed for small-cell checks; not a complete paper certificate",
+  "old_results": "exploratory; not confirmation under this registry",
+  "production_enabled": false
+}
