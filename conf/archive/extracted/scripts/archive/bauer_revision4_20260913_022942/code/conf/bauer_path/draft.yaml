@@ -1,0 +1,43 @@
+schema: bauer_gate_f_contract_v1
+status: draft
+protocol_revision: 2026-09-13_revision_4
+production_enabled: false
+contract_id: null
+system_id: bauer_2011_open_chain
+equation:
+  convention: bauer_ll
+  damping_parameter: lambda
+  damping_value: 0.1
+  time_unit: hbar/E0
+model:
+  exchange: 1.0
+  anisotropy: 0.1
+  boundary: open
+  basis: 1
+  ny: 1
+zero_drive: {external_field: 0, field_gradient: 0, sot: 0, stt: 0, current: 0, pulse: 0}
+generalization:
+  dimension: size
+  status: direction_preselected_P0_not_values_frozen
+  holdout_values: null
+  frozen_before_model_development: false
+conditions: null
+time_grid: null
+sample_plan: null
+event_contract: null
+mechanism_contract: null
+symmetry_registry: null
+statistics: null
+training: null
+certificates: null
+initial_manifest: null
+data_manifest: null
+resource_budget: null
+code_sha256: null
+primary_features: {name: energy_and_magnetization_11_times, dimension: 44}
+pending:
+  - Bauer original-condition mechanism, lifetime and timestep certification
+  - Independent P2 basin, length-scale, event-resolution and power evidence
+  - Measured sample counts, frame grid, event tolerances and held-out sizes
+  - Source separation, joint statistics, training and resource contracts
+  - Training/inference data entry and full acceptance orchestration

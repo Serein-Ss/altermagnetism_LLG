@@ -1,0 +1,306 @@
+{
+  "action": "remove_aliases_only",
+  "target_data_deleted": false,
+  "links": [
+    {
+      "path": "NAVIGATION/01_bauer/development_contract",
+      "target": "../../conf/bauer_path",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/bauer_path",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/01_bauer/first_learning_loop",
+      "target": "../../output/bauer_first_loop/20260913_v1",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/bauer_first_loop/20260913_v1",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/01_bauer/independent_reference",
+      "target": "../../output/bauer_campaign/20260913_classical_independent",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/bauer_campaign/20260913_classical_independent",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/01_bauer/raw_literature_paths",
+      "target": "../../data/literature_reproduction/bauer_2011",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/bauer_2011",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/01_bauer/reference_configuration",
+      "target": "../../conf/bauer_campaign",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/bauer_campaign",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/01_bauer/reference_logs",
+      "target": "../../logs/bauer_campaign",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/bauer_campaign",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/01_bauer/running_reference_supplement",
+      "target": "../../output/bauer_revision4/20260913_023043",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/bauer_revision4/20260913_023043",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/01_bauer/supplement_logs",
+      "target": "../../logs/bauer_revision4",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/bauer_revision4",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/bauer_2011/code",
+      "target": "../../../scripts/literature/bauer_2011",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/literature/bauer_2011",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/bauer_2011/data",
+      "target": "../../../data/literature_reproduction/bauer_2011",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/bauer_2011",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/bauer_2011/figures",
+      "target": "../../../assets/literature_reproduction/bauer_2011",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/bauer_2011",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/bauer_2011/reports",
+      "target": "../../../output/literature_reproduction/bauer_2011",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/literature_reproduction/bauer_2011",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/gomonay_2024/code",
+      "target": "../../../scripts/literature/gomonay_2024",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/literature/gomonay_2024",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/gomonay_2024/data",
+      "target": "../../../data/literature_reproduction/gomonay_2024",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/gomonay_2024",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/gomonay_2024/figures",
+      "target": "../../../assets/literature_reproduction/gomonay_2024",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/gomonay_2024",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/gomonay_2024/reports",
+      "target": "../../../output/literature_reproduction/gomonay_2024",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/literature_reproduction/gomonay_2024",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/hirst_mn2au_2022/code",
+      "target": "../../../scripts/literature/hirst_mn2au_2022",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/literature/hirst_mn2au_2022",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/hirst_mn2au_2022/data",
+      "target": "../../../data/literature_reproduction/hirst_mn2au_2022",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/hirst_mn2au_2022/figures",
+      "target": "../../../assets/literature_reproduction/hirst_mn2au_2022",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/hirst_mn2au_2022",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/hirst_mn2au_2022/reports",
+      "target": "../../../output/literature_reproduction/hirst_mn2au_2022",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/literature_reproduction/hirst_mn2au_2022",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/laliena_crnb3s6_2020/code",
+      "target": "../../../scripts/literature/laliena_crnb3s6_2020",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/literature/laliena_crnb3s6_2020",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/laliena_crnb3s6_2020/data",
+      "target": "../../../data/literature_reproduction/laliena_crnb3s6_2020",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/laliena_crnb3s6_2020",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/laliena_crnb3s6_2020/figures",
+      "target": "../../../assets/literature_reproduction/laliena_crnb3s6_2020",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/laliena_crnb3s6_2020",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/laliena_crnb3s6_2020/reports",
+      "target": "../../../output/literature_reproduction/laliena_crnb3s6_2020",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/literature_reproduction/laliena_crnb3s6_2020",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/nishino_miyashita_2015/code",
+      "target": "../../../scripts/literature/nishino_miyashita_2015",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/literature/nishino_miyashita_2015",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/nishino_miyashita_2015/data",
+      "target": "../../../data/literature_reproduction/nishino_miyashita_2015",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/nishino_miyashita_2015/figures",
+      "target": "../../../assets/literature_reproduction/nishino_miyashita_2015",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/literature_reproduction/nishino_miyashita_2015",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/02_literature/nishino_miyashita_2015/reports",
+      "target": "../../../output/literature_reproduction/nishino_miyashita_2015",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/literature_reproduction/nishino_miyashita_2015",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/03_legacy_v2/checkpoints",
+      "target": "../../output/production",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/production",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/03_legacy_v2/datasets_1ps",
+      "target": "../../data/datasets/standard_v2",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/datasets/standard_v2",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/03_legacy_v2/datasets_2ps",
+      "target": "../../data/datasets/standard_v2_extended_2ps",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/datasets/standard_v2_extended_2ps",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/03_legacy_v2/datasets_3ps",
+      "target": "../../data/datasets/standard_v2_extended_3ps",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/datasets/standard_v2_extended_3ps",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/03_legacy_v2/evaluation",
+      "target": "../../output/diagnostics",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/diagnostics",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/03_legacy_v2/figures",
+      "target": "../../assets/research/models",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/assets/research/models",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/03_legacy_v2/generated_paths",
+      "target": "../../data/generated",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/generated",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/04_old_gomonay/exploratory_data",
+      "target": "../../data/research",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/04_old_gomonay/gate_f_raw",
+      "target": "../../data/research/gate_f_prerequisites",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/04_old_gomonay/gate_f_reports",
+      "target": "../../output/gate_f",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/gate_f",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/04_old_gomonay/zero_field_raw",
+      "target": "../../data/research/zero_field_gomonay",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/zero_field_gomonay",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/04_old_gomonay/zero_field_reports",
+      "target": "../../output/zero_field_program",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/zero_field_program",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/05_frozen_evidence/audits",
+      "target": "../../data/audit",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/audit",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/05_frozen_evidence/code",
+      "target": "../../scripts/archive",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/05_frozen_evidence/configurations",
+      "target": "../../conf/frozen",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/06_operations/code_by_category",
+      "target": "../../scripts",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/06_operations/logs",
+      "target": "../../logs",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/06_operations/plans_read_only",
+      "target": "../../GUIDE",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/GUIDE",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/06_operations/slurm",
+      "target": "../../slurm",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/slurm",
+      "target_exists": true
+    },
+    {
+      "path": "NAVIGATION/06_operations/smoke_results",
+      "target": "../../output/smoke",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/smoke",
+      "target_exists": true
+    },
+    {
+      "path": "output/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/logs",
+      "target": "../../../../logs/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64",
+      "target_exists": true
+    },
+    {
+      "path": "output/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957/logs",
+      "target": "../../../../logs/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957",
+      "resolved_target": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957",
+      "target_exists": true
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+flow 11.105157852172852 11733314048 14436794368
+deterministic 0.6638977527618408 11691901952 14407434240

@@ -1,0 +1,18 @@
+{
+  "status": "complete_not_certified",
+  "case": {
+    "id": "original_dt002",
+    "L": 100,
+    "theta": 0.11,
+    "dt": 0.02,
+    "paths": 64,
+    "duration": 750000.0,
+    "save_dt": 5.0,
+    "project": true,
+    "method": "mt",
+    "scope": "original"
+  },
+  "data_sha256": "94ad2d257333cc6ce4e44355b6c9014192e22356f7cc2c20093fda0d6aad0bd0",
+  "wall_seconds": 23412.44723135233,
+  "job_id": "669331"
+}

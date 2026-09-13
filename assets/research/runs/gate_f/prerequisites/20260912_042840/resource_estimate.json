@@ -1,0 +1,50 @@
+{
+  "timings": [
+    {
+      "size": 4,
+      "method": "heun_projected_predictor",
+      "seconds": 0.9605056010186672,
+      "steps": 256
+    },
+    {
+      "size": 4,
+      "method": "geometric_midpoint",
+      "seconds": 4.037328116595745,
+      "steps": 256
+    },
+    {
+      "size": 16,
+      "method": "heun_projected_predictor",
+      "seconds": 1.7162018176168203,
+      "steps": 256
+    },
+    {
+      "size": 32,
+      "method": "heun_projected_predictor",
+      "seconds": 4.108753610402346,
+      "steps": 256
+    }
+  ],
+  "mc_seconds_per_2000_sweeps": 0.043197959661483765,
+  "requests_minutes": {
+    "mc": 30,
+    "kernel": 641,
+    "gate": 30,
+    "calibration": 652,
+    "fine": 30,
+    "fine_half": 30,
+    "review": 30
+  },
+  "counts": {
+    "mc": 6,
+    "kernel": 24,
+    "gate": 1,
+    "calibration": 6,
+    "fine": 6,
+    "fine_half": 6,
+    "review": 1
+  },
+  "total_allocated_cpu_hours": 331.6,
+  "storage_bound_gib": 42.308624267578125,
+  "assumption": "short measured CPU timings extrapolated, 1.5 walltime margin; not completion guarantees"
+}

@@ -1,0 +1,2486 @@
+{
+  "campaign": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+  "root": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG",
+  "snapshot": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG",
+  "files_sha256": {
+    "scripts/core/altermagnet_dynamics.py": "d6a9171027c557372173c1b994321553fc4a2ad7682d2c5966ef90eceeb720a1",
+    "scripts/core/unified_llg.py": "f154195a37267ccb43587717e94c4d67d36cecc8ad6b6abfd81ab3a892cb9518",
+    "scripts/core/audit_integrators.py": "8060744209181112e26d54fbd8cc58ed2a75935771268beb73ad096d523f3626",
+    "scripts/core/equilibrium_statistics.py": "0bbd6e21759e205b83057a7b3f3d4a174a161ac54fcee2b839eb9cdc83e4c342",
+    "scripts/core/project_paths.py": "6f2e75af880f2d7347a0cbdb1a7189be9b423ade87e268b7610b73d989df09c9",
+    "scripts/core/reduced_llg.py": "1dc5ebc1e8153a9cd4259ca9c0180e884b1f6ee3461f55634c0464d66fdd926d",
+    "scripts/core/literature_config.py": "80fe7801098901168503c417761356f08cdd07c44e68f6ce633ca748578a6fa7",
+    "scripts/core/cell_hamiltonian.py": "6fde94744ff2ad43bac4fcde09c6132b8628b23fe636c6b64975b37f99d34c94",
+    "scripts/literature/validate_spinwave.py": "ba594828cf08bd6d5881c5cd0b2d930d22591c5e0fb5b182d00b1bb83bf45e0a",
+    "scripts/literature/validate_bauer2011_chain.py": "9a552c86bd368fb9e522a610df8584f3b4956d081e6783cee403339fc9f2d113",
+    "scripts/literature/generate_bauer2011_paths.py": "cf1b78d252b890c024452db09b405d53e96b11a280fcd529ed5c51a9186ee94e",
+    "scripts/literature/validate_crnb3s6_helix.py": "981eee7fb9305f5f93849eb683a83319e9870c43b8ff23ff1242484eb8bafdc4",
+    "scripts/literature/validate_nishino_full.py": "6e770d628351317a1a5b6a088b69136328b57c643d5585745d01c3db89fc3b76",
+    "scripts/literature/workflow.py": "f3a150d515ead28dd303ef9f2766c5ad8dfe55dcc4148ccd19e1ef904850f38f",
+    "scripts/literature/animate.py": "4ebeef455542e5d945d8e5d10ec920b327566b66e0481a01c9f56023bcbaa35a",
+    "scripts/literature/nishino_miyashita_2015/model.py": "e5bae8afb4da54d3972d0e27ecf0772289fbc29183d405e722f713a2710949f2",
+    "scripts/literature/nishino_miyashita_2015/run.py": "04717b18cb31c52d620547146a564dda9a4f7b8a754440d5d5c484da9c607988",
+    "scripts/literature/nishino_miyashita_2015/analyze.py": "099a9a5b5ded1bc3fc885eb80a3183dd5768e99c91129fdb622d7b6b9af87b79",
+    "scripts/literature/nishino_miyashita_2015/legacy_run.py": "d849e09f574c659d5f8c796ad3a67ae78903963a43e58670a3995cb698d756b3",
+    "scripts/literature/nishino_miyashita_2015/legacy_analyze.py": "4b006d17a9256d131053822590a41efdaa4ec2cf6c725263e2abf934dac82898",
+    "scripts/literature/nishino_miyashita_2015/plot.py": "5eb1d6f5ac9c7cdd905bf96caa8b58e221a88592b2db0149dcdf685fb3bdd93b",
+    "scripts/literature/gomonay_2024/legacy_run.py": "3f6cfa23dcec3287ace8396e0791d3ecd063c457de0c891bb50b5cc15b145597",
+    "scripts/literature/gomonay_2024/legacy_plot.py": "5429916d2c77c582e280e20efeadcd516f747ee90cf0ce7979e052edc1a4a181",
+    "scripts/literature/gomonay_2024/legacy_comparison.py": "45670e428aa2aeb67949f01f862786cd38508f10a524a95e6aeb7e8f82b3b764",
+    "scripts/literature/gomonay_2024/legacy_extract_reference.py": "e362c4f1eff0b703fb001f6e6b584f4e871bd342c17ecd0cdaf39c7a04f77089",
+    "scripts/literature/gomonay_2024/legacy_animation.py": "5f5d93bca6db0238615d2b9e25e1b9c19701c0896c64c7377861d40fd46ff87b",
+    "scripts/literature/gomonay_2024/model.py": "9ab67b0f500ec2152452bff0ad6fd48cdb65f18619bded5245fbe213526c281a",
+    "scripts/literature/gomonay_2024/run.py": "6fdedf67dd2d588f74c67161ddea7a6f1e6471f1c8aadeb7e2eefa818198f95f",
+    "scripts/literature/gomonay_2024/analyze.py": "00423313ca60d8c8e24c7908a83b43ba350885b22ea4840f85415005c8ab7c9a",
+    "scripts/literature/gomonay_2024/plot.py": "e2edcffa3c3f89b2e1800c25bff5ab1c370d7b1ea464d7f9054b8b849e18563e",
+    "scripts/literature/bauer_2011/legacy_static.py": "b7b50cefdb19bf60e2d4944f00ff80ec60a5921c74b52067bd1cf01c5cd4ccf1",
+    "scripts/literature/bauer_2011/legacy_run.py": "fe723c853a255e5d45e1dfc541670248c8a17b3e5864759b909f3dc9ecd17bdf",
+    "scripts/literature/bauer_2011/model.py": "eda7c2d2e50e88a290e52d1b81ddca21bb2fabd54ac8800b67a21ec670e524ad",
+    "scripts/literature/bauer_2011/preflight.py": "45cea20b5f43f7a557a00d6d97eb2f1d12b2f67de272536cae0e4e14135b96fb",
+    "scripts/literature/bauer_2011/run.py": "174e83934f25e2d3a5188733ee5a0b50e8ad9c76ec05aca8709552b01176841e",
+    "scripts/literature/bauer_2011/analyze.py": "07e629ad8d2c9e004e3eaa383629a0ae83c942a3236349978a056d8651a6f2b8",
+    "scripts/literature/bauer_2011/plot.py": "01f07bcf462c1f3a9ed326a0daf5e1059e1fe845f9c0e174f00bd3a8a5faee21",
+    "scripts/literature/bauer_2011/fit.py": "dc44eaeb1d21632658c28dbbafd765d6f8f88a1d63b072827bf216fa35061066",
+    "scripts/literature/bauer_2011/integrator.py": "421b07014ffeb8e128925ef049a46afa2226973e5de4c51657678062977defa1",
+    "scripts/literature/laliena_crnb3s6_2020/legacy_run.py": "83aab336ebbb09fc4797565bdfc515daec6ddc5569136983a9604804f3d47cd5",
+    "scripts/literature/laliena_crnb3s6_2020/model.py": "ab24df52b405a38c15c6834b75cb64a6490c7a055d9115639e4f7754d4647b1e",
+    "scripts/literature/laliena_crnb3s6_2020/run.py": "02aedbe4f83436e11b82ae1c7e6414f344cdfa899ef07271501dcb335497c599",
+    "scripts/literature/laliena_crnb3s6_2020/analyze.py": "fdbfb53d12496827a66ee565b21514b0068fece6c4ca5f6c02fa4ce69f049bd5",
+    "scripts/literature/laliena_crnb3s6_2020/plot.py": "ffc0cdb1ddddcce10691eacc150e21d1dc5dae917b42104e3810600dfac33eaf",
+    "scripts/literature/hirst_mn2au_2022/model.py": "d616a67bb61cc9ed86523c7050746619951c1420db416200d737c7ec51748bf2",
+    "scripts/literature/hirst_mn2au_2022/run.py": "7720f5c6191ade1ed716b960dc94bed3e973ffeb3c358783e8831dfec373b651",
+    "scripts/literature/hirst_mn2au_2022/analyze.py": "ef89bdb326a50fc736cf4d0a9585d676f2d87bb09af337f630c7080f8495d511",
+    "scripts/literature/hirst_mn2au_2022/plot.py": "2c236a76215087938616b72a2ba526cf6e30fc9c71131881cb74579d7df8f488",
+    "scripts/literature/hirst_mn2au_2022/llb.py": "6c6150654351c0b2c24083761f345920ab544a6cc58f14fa63b2a86d018e3064",
+    "scripts/literature/hirst_mn2au_2022/llb_run.py": "ce3d0a6620bc45d8df5458fdb8cbf7b20c8db83766a462a7d84bfa2e0da239a9",
+    "scripts/literature/hirst_mn2au_2022/wall_analysis.py": "fe5b7f6235b245c7c9108173948f68b15bd56b6d0101d86e8f6dd899568a19ac",
+    "scripts/tests/test_altermagnet_dynamics.py": "e47af12ae95974c62f43a1996c687761ca47498201056d47ed975fc3e604ddaf",
+    "scripts/tests/test_hdf5_trajectory_dataset.py": "aa28014c5e0c520cb94738dcc381655f970ad155d982a90c2099f7da35fb914d",
+    "scripts/tests/test_path_evaluation.py": "77d8ff8765921802d9b3e7a059ba02f08d5f45ee173d3bffa5abe10b6fea3865",
+    "scripts/tests/test_training.py": "4df07b7763dcece1494b961d1490869c00b4c861210b3531055347f2bcb4e847",
+    "scripts/tests/test_size_equivariant_model.py": "50995f4e6fcf03090e8c63cfd3dc5071b71c8c8e5bd71021d40286d6d1fcd18e",
+    "scripts/tests/test_scalable_path_dataset.py": "0fb833281a1f940114be0df7e735fdb7482df0e5066f25b774b97303f00af937",
+    "scripts/tests/test_unified_llg.py": "7cdcae3433dc9d6914c5c80a8b79d9a37ee57588d46819ca5b148a84d6159200",
+    "scripts/tests/test_standard_v3_preflight.py": "8e5577b0abfe04d1250e37077518969f4ec53eb1ec43658d9435126ad9a57de3",
+    "scripts/tests/conftest.py": "fce519a5df851f4d99295a3a225529db8903b8f2485b617500b95633cce66119",
+    "scripts/tests/test_audit_integrators.py": "92d5a90d17b598575eb47722dd20d872671275a3dd90d3c460d9e09161fccda8",
+    "scripts/tests/test_equilibrium_statistics.py": "58b7b7e8144c188b27f374d154042a5b51817a5d07580e6aa424089175b99f78",
+    "scripts/tests/test_guide_audit_pipeline.py": "ee05ff536052aed68a4e63cc9414dc870e371113869a323f3a409101a5c4f151",
+    "scripts/tests/test_project_layout.py": "73e475feddb0620c4409e9a5c1bb6fa4be13d3df9e3aa20434e6fb48b30f5286",
+    "scripts/tests/test_layout_submission.py": "568946d46fb31dd3db0e552d16099aaaa7a889449aeaf29dda7f8c6f505f577c",
+    "scripts/tests/test_model_plot_layout.py": "aab7c67fa56b1231633cfda121fae50e9d657c591a4d29fe018b06a4455dbf81",
+    "scripts/tests/test_reduced_literature.py": "42d2bd6d3c856cd457cbbd9aa4b2df8f01bdb79d1a31d9861226989bf3c16f7b",
+    "scripts/tests/test_reduced_workflow.py": "780b393aa394ddbda397f73ab72590d2ec4e3c215fe2e8521a7c7e47552a578a",
+    "scripts/tests/test_nishino_acceptance.py": "0a48d961a10e73534633bcb60ba2f1eee1d65fa6e73da78f80235504e3707f32",
+    "scripts/tests/test_bauer_reduced.py": "4007148b18c3b5c19273e889601108548de1d8060bdefff2b3a7f05bd8a14f90",
+    "scripts/tests/test_remaining_literature.py": "4ebbb8a0ae7aa0b4af0704f45fe94508cfe4746317583a7e73cf60d7decd9e44",
+    "scripts/tests/test_remaining_pipeline.py": "9af0950080361481d8e1af0c5114fdd471048aa82bc2e65db692555a98da9929",
+    "scripts/tests/test_hirst_llb.py": "4441b45288eaa6e62792af23de9c87935cf3d790835d015a79096e3b424ac3b8",
+    "scripts/tests/test_bauer_weak_rk.py": "f0769c7be5485d1c77a5c928f0edfdfc04aabd827602d3e483c54b208d43f67f",
+    "scripts/tests/test_validation_submission.py": "b662324111099e055b53538b63bb09f006f4924fad0cd5bccd7fb9c77242710d",
+    "scripts/workflow/run_reduced_literature_campaign.py": "23995ef637bcbbdf12dc9dc17d8731a4ede01fed8a0cda3106363e88d44e4eef",
+    "scripts/workflow/submit_remaining_validation.py": "1b05b21525f8cb471947ca88ab1003535bb220e98b5ac65415ec2c4f924fd4ea",
+    "slurm/remaining_validation.sbatch": "4a9ec35a9d54b4587fc312519343b59c0a64ca9b734d64ff0e97ae9e3037cc17",
+    "GUIDE/STRICT_LITERATURE_REPRODUCTION_PLAN.md": "4c34dc2d37e4bdd5001bea9cf400897f2429e5b3a39454343fbfeecbe124b473",
+    "conf/literature/nishino_miyashita_2015.yaml": "96a41ea93a1458adb650dd5b858fb663b7090d81761013d38b5c221df28031e9",
+    "conf/literature/bauer_2011.yaml": "82daa76f5039183c00779c5c4eb900ffa3868e0f9c31dee5c4b575a3db9d7f62",
+    "conf/literature/gomonay_2024.yaml": "052871fa17fe5b391729d416c917faccc951ba913c7069eebcc994c8f23a4d32",
+    "conf/literature/hirst_mn2au_2022.yaml": "d545b9c5df5e0c4ed4054abd7afecc0c997fefc45518127b2392829d9d6d3770",
+    "conf/literature/laliena_crnb3s6_2020.yaml": "8342bd4b35f2efbddf36c5e1950e3af14387a1c2efbf435bd6a34674d219d65a"
+  },
+  "commit": "8df33aca80fa0b6dfe943804400398dad5d31470",
+  "claim": "Numerical validation only; production flags remain false; no ML training.",
+  "storage_estimate_uncompressed_spins_bytes": 7676442288,
+  "quota_status": "quota_reports_no_user_quota_project_quota_unknown",
+  "tasks": [
+    {
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "overrides": {
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 10000,
+        "save_every": 50,
+        "seed": 20260910
+      },
+      "index": 0,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/000.yaml",
+      "config_sha256": "93e5aa83dd6ba58807914821f257f5c7689e1c3643d7b476d69bec4e5fd36d01",
+      "run_id": "20260910_110834_validation_000",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 10000,
+        "save_every": 50,
+        "seed": 20260910,
+        "method": "milstein_tretyakov_5_9",
+        "project": true
+      }
+    },
+    {
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "overrides": {
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 20000,
+        "save_every": 100,
+        "seed": 20260910
+      },
+      "index": 1,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/001.yaml",
+      "config_sha256": "95e09639d2570dc9eda01b54eb283871db8d63c07a023457fe79006c9428f19c",
+      "run_id": "20260910_110834_validation_001",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 20000,
+        "save_every": 100,
+        "seed": 20260910,
+        "method": "milstein_tretyakov_5_9",
+        "project": true
+      }
+    },
+    {
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "overrides": {
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200,
+        "seed": 20260910
+      },
+      "index": 2,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/002.yaml",
+      "config_sha256": "1b4e8db44f2471275ef0da5f6cafe72ea653baca42fc17ffb3705a520ba22ed4",
+      "run_id": "20260910_110834_validation_002",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200,
+        "seed": 20260910,
+        "method": "milstein_tretyakov_5_9",
+        "project": true
+      }
+    },
+    {
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "overrides": {
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 10000,
+        "save_every": 50,
+        "seed": 20260911
+      },
+      "index": 3,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/003.yaml",
+      "config_sha256": "18ad251c3ed265df7a57f6e48db2418611e7c09f3c9233112a3a1d54c0ebbc8d",
+      "run_id": "20260910_110834_validation_003",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 10000,
+        "save_every": 50,
+        "seed": 20260911,
+        "method": "milstein_tretyakov_5_9",
+        "project": true
+      }
+    },
+    {
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "overrides": {
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 20000,
+        "save_every": 100,
+        "seed": 20260911
+      },
+      "index": 4,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/004.yaml",
+      "config_sha256": "832ef83429dd1802411773e0860420134f59b42b1d7d765ad516ec7cd8649122",
+      "run_id": "20260910_110834_validation_004",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 20000,
+        "save_every": 100,
+        "seed": 20260911,
+        "method": "milstein_tretyakov_5_9",
+        "project": true
+      }
+    },
+    {
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "overrides": {
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200,
+        "seed": 20260911
+      },
+      "index": 5,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/005.yaml",
+      "config_sha256": "33dde52c9d1cc556f5d4f59a7e4350b3f8bb1f9980d4efca30e2d59d466687b2",
+      "run_id": "20260910_110834_validation_005",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200,
+        "seed": 20260911,
+        "method": "milstein_tretyakov_5_9",
+        "project": true
+      }
+    },
+    {
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "overrides": {
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 10000,
+        "save_every": 50,
+        "seed": 20260912
+      },
+      "index": 6,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/006.yaml",
+      "config_sha256": "5e8d3b4b2d49cad4e12ada930484cd8dc1b58e91f2c38f2d9c00a067d009f548",
+      "run_id": "20260910_110834_validation_006",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.02,
+        "steps": 10000,
+        "save_every": 50,
+        "seed": 20260912,
+        "method": "milstein_tretyakov_5_9",
+        "project": true
+      }
+    },
+    {
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "overrides": {
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 20000,
+        "save_every": 100,
+        "seed": 20260912
+      },
+      "index": 7,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/007.yaml",
+      "config_sha256": "9d5009998f1c959e3e009c74c413b8504e3a45911c912de7a21e89b4376bd394",
+      "run_id": "20260910_110834_validation_007",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.01,
+        "steps": 20000,
+        "save_every": 100,
+        "seed": 20260912,
+        "method": "milstein_tretyakov_5_9",
+        "project": true
+      }
+    },
+    {
+      "paper": "bauer_2011",
+      "protocol": "trajectory",
+      "pool": "cpu",
+      "overrides": {
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200,
+        "seed": 20260912
+      },
+      "index": 8,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/008.yaml",
+      "config_sha256": "32fd9951c74bab1a11110035151fa5b730d27c8cf7050506e93ab7aa3d337ad2",
+      "run_id": "20260910_110834_validation_008",
+      "parameters": {
+        "length": 100,
+        "batch": 32,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200,
+        "seed": 20260912,
+        "method": "milstein_tretyakov_5_9",
+        "project": true
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "overrides": {
+        "theta_key": "theta_300",
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 50
+      },
+      "index": 9,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/009.yaml",
+      "config_sha256": "f71ab0bcbfc2053570d3abf15f96b7109f5e2299fd9ecd2e3c511e8f3cd3ca69",
+      "run_id": "20260910_110834_validation_009",
+      "parameters": {
+        "theta_key": "theta_300",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 50
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "overrides": {
+        "theta_key": "theta_300",
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 100
+      },
+      "index": 10,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/010.yaml",
+      "config_sha256": "9580372858dc6737fc55a868602071f7097254a156367cf6d265e36afffbe530",
+      "run_id": "20260910_110834_validation_010",
+      "parameters": {
+        "theta_key": "theta_300",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 100
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "overrides": {
+        "theta_key": "theta_300",
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "index": 11,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/011.yaml",
+      "config_sha256": "e0348dc2a047827f16dd2613fa92ff5fab850a0970cebd365dd88fc223f42e33",
+      "run_id": "20260910_110834_validation_011",
+      "parameters": {
+        "theta_key": "theta_300",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 200
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "overrides": {
+        "theta_key": "theta_1000",
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 50
+      },
+      "index": 12,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/012.yaml",
+      "config_sha256": "f6b575006155e17fe6698f44af493fdffc6390c8653c820d24d21b196ac2fce6",
+      "run_id": "20260910_110834_validation_012",
+      "parameters": {
+        "theta_key": "theta_1000",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 50
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "overrides": {
+        "theta_key": "theta_1000",
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 100
+      },
+      "index": 13,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/013.yaml",
+      "config_sha256": "2e53f4e3eed45dd08456ec9f8d2d43b5e84bb5d735ff2ef27550f67a5347aa54",
+      "run_id": "20260910_110834_validation_013",
+      "parameters": {
+        "theta_key": "theta_1000",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 100
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "overrides": {
+        "theta_key": "theta_1000",
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "index": 14,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/014.yaml",
+      "config_sha256": "23c67f5059917a364e558885b36420e9d1c4712088c94b8cd4ba6bdcf0087525",
+      "run_id": "20260910_110834_validation_014",
+      "parameters": {
+        "theta_key": "theta_1000",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 200
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "overrides": {
+        "theta_key": "theta_1200",
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 50
+      },
+      "index": 15,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/015.yaml",
+      "config_sha256": "d799cfe968b3c8fc2b2394f3585b6c38c9c97688d08e96cd8bf7502020d5cf6d",
+      "run_id": "20260910_110834_validation_015",
+      "parameters": {
+        "theta_key": "theta_1200",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 50
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "overrides": {
+        "theta_key": "theta_1200",
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 100
+      },
+      "index": 16,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/016.yaml",
+      "config_sha256": "b63712d95c97aaa6a0e7a1a546dfe971765ea5b974ee20789abe89e3b783dedd",
+      "run_id": "20260910_110834_validation_016",
+      "parameters": {
+        "theta_key": "theta_1200",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 100
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "llb_afmr",
+      "pool": "cpu",
+      "overrides": {
+        "theta_key": "theta_1200",
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "index": 17,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/017.yaml",
+      "config_sha256": "30000be50501c073001ba276a309ea844a4bc574522879fc7e531712a829e151",
+      "run_id": "20260910_110834_validation_017",
+      "parameters": {
+        "theta_key": "theta_1200",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 200
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "overrides": {
+        "extent": 20,
+        "points": 501,
+        "ds": 0.1,
+        "continuation_steps": 120
+      },
+      "index": 18,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/018.yaml",
+      "config_sha256": "8b90be124b07824457453ea678b228baa574559284c4d5fa239acd08700f864a",
+      "run_id": "20260910_110834_validation_018",
+      "parameters": {
+        "extent": 20,
+        "points": 501,
+        "tolerance": 1e-06,
+        "continuation_steps": 120,
+        "ds": 0.1
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "overrides": {
+        "extent": 25,
+        "points": 501,
+        "ds": 0.1,
+        "continuation_steps": 120
+      },
+      "index": 19,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/019.yaml",
+      "config_sha256": "bad08e5dbd6c2aa224d17f1ce023def96578e606bd576b175e8557d47038a31b",
+      "run_id": "20260910_110834_validation_019",
+      "parameters": {
+        "extent": 25,
+        "points": 501,
+        "tolerance": 1e-06,
+        "continuation_steps": 120,
+        "ds": 0.1
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "overrides": {
+        "extent": 40,
+        "points": 1001,
+        "ds": 0.1,
+        "continuation_steps": 120
+      },
+      "index": 20,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/020.yaml",
+      "config_sha256": "b6857c0f65ea750e9fd71cf4ef45da4e6786b08faef63746d7de0efd348ca926",
+      "run_id": "20260910_110834_validation_020",
+      "parameters": {
+        "extent": 40,
+        "points": 1001,
+        "tolerance": 1e-06,
+        "continuation_steps": 120,
+        "ds": 0.1
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "overrides": {
+        "extent": 25,
+        "points": 501,
+        "ds": 0.05,
+        "continuation_steps": 240
+      },
+      "index": 21,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/021.yaml",
+      "config_sha256": "6203b48e1f7ba276c8a7d1ba9926fa509e5c3f5bde43fcb1b5a9eabf3968796a",
+      "run_id": "20260910_110834_validation_021",
+      "parameters": {
+        "extent": 25,
+        "points": 501,
+        "tolerance": 1e-06,
+        "continuation_steps": 240,
+        "ds": 0.05
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "branch",
+      "pool": "cpu",
+      "overrides": {
+        "extent": 25,
+        "points": 1001,
+        "ds": 0.025,
+        "continuation_steps": 480
+      },
+      "index": 22,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/022.yaml",
+      "config_sha256": "835b6f5f3388f8b5267ce522ea0d50bb63102e2b6860348084d0f191a783ff2e",
+      "run_id": "20260910_110834_validation_022",
+      "parameters": {
+        "extent": 25,
+        "points": 1001,
+        "tolerance": 1e-06,
+        "continuation_steps": 480,
+        "ds": 0.025
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "helix",
+      "pool": "cpu",
+      "overrides": {
+        "sites": 384,
+        "batch": 4
+      },
+      "index": 23,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/023.yaml",
+      "config_sha256": "e9b93a4e967895539f5aa524ec4c897417daa5c08d6c81f377e671a307de50d6",
+      "run_id": "20260910_110834_validation_023",
+      "parameters": {
+        "sites": 384,
+        "batch": 4,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 10000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "helix",
+      "pool": "cpu",
+      "overrides": {
+        "sites": 480,
+        "batch": 4
+      },
+      "index": 24,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/024.yaml",
+      "config_sha256": "d7170b5b44dd6b86cbddebc48fe6a67462b2946aa06733b321cfc72f96589c97",
+      "run_id": "20260910_110834_validation_024",
+      "parameters": {
+        "sites": 480,
+        "batch": 4,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 10000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "helix",
+      "pool": "cpu",
+      "overrides": {
+        "sites": 576,
+        "batch": 4
+      },
+      "index": 25,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/025.yaml",
+      "config_sha256": "1c7250e346c48cff065e32f72fad86e4cf8ad54629a8e58832b6e9602baa18a9",
+      "run_id": "20260910_110834_validation_025",
+      "parameters": {
+        "sites": 576,
+        "batch": 4,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 10000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "current",
+      "pool": "cpu",
+      "overrides": {
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 2000
+      },
+      "index": 26,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/026.yaml",
+      "config_sha256": "0a951c4609840be6807ee461c4ad4718fcd4bfd5eab8bb300c1aaa2df92ab8f9",
+      "run_id": "20260910_110834_validation_026",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.89,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 2000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "current",
+      "pool": "cpu",
+      "overrides": {
+        "dt": 2.5e-05,
+        "steps": 4000000,
+        "save_every": 4000
+      },
+      "index": 27,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/027.yaml",
+      "config_sha256": "a4df2a012474bb965792f9066cac13654173d3eaeba40abe035d5a0d84281b36",
+      "run_id": "20260910_110834_validation_027",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.89,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 2.5e-05,
+        "steps": 4000000,
+        "save_every": 4000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "current",
+      "pool": "cpu",
+      "overrides": {
+        "dt": 1.25e-05,
+        "steps": 8000000,
+        "save_every": 8000
+      },
+      "index": 28,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/028.yaml",
+      "config_sha256": "aad47a65875ba88bb4ed1691c1c5807cff543f6b4153f9c5f0d6b46144e58b3b",
+      "run_id": "20260910_110834_validation_028",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.89,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 1.25e-05,
+        "steps": 8000000,
+        "save_every": 8000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "current",
+      "pool": "cpu",
+      "overrides": {
+        "u": 0.0
+      },
+      "index": 29,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/029.yaml",
+      "config_sha256": "8c7b35a508d4c50ef21f26b1a400673fac1e55053f38d0cc1c3316aeedf1b008",
+      "run_id": "20260910_110834_validation_029",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 1000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "current",
+      "pool": "cpu",
+      "overrides": {
+        "u": 0.5
+      },
+      "index": 30,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/030.yaml",
+      "config_sha256": "a92fbca720f98f90eedd194aff2d78cb7142678fe71573ac50efc5605ac163d1",
+      "run_id": "20260910_110834_validation_030",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.5,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 1000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "laliena_crnb3s6_2020",
+      "protocol": "current",
+      "pool": "cpu",
+      "overrides": {
+        "u": 1.1
+      },
+      "index": 31,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/031.yaml",
+      "config_sha256": "6b9c9b40ed3021fa0ab730b5490cb9d1fb2b10b848a453da1d47dfe179ee373f",
+      "run_id": "20260910_110834_validation_031",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 1.1,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 1000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "equilibrium",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500
+      },
+      "index": 32,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/032.yaml",
+      "config_sha256": "b4477704d3eca5de29e49659bf6c1b722b4675db8c767dff9e60359292bfaaab",
+      "run_id": "20260910_110834_validation_032",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "equilibrium",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          12,
+          12,
+          12
+        ],
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500
+      },
+      "index": 33,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/033.yaml",
+      "config_sha256": "e11716d5dfca0a17c7a2734fc06a81427552f6067ef5934492fde911fce6a111",
+      "run_id": "20260910_110834_validation_033",
+      "parameters": {
+        "shape": [
+          12,
+          12,
+          12
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "equilibrium",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          16,
+          16,
+          16
+        ],
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500
+      },
+      "index": 34,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/034.yaml",
+      "config_sha256": "4e5485d6d18508359fdfe58837b97166fb21a203c9090e529a740eef30748be1",
+      "run_id": "20260910_110834_validation_034",
+      "parameters": {
+        "shape": [
+          16,
+          16,
+          16
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "equilibrium",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 1000
+      },
+      "index": 35,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/035.yaml",
+      "config_sha256": "fa8061d0a2c4a8cc7d4340b663ba3d121fbaccb46e50357030629620ca057e75",
+      "run_id": "20260910_110834_validation_035",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 1000,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "equilibrium",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 2000
+      },
+      "index": 36,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/036.yaml",
+      "config_sha256": "64159e4267e909c3ed92be6fcdd81925ecb07d711c974ff1c6186b3bfd6f1693",
+      "run_id": "20260910_110834_validation_036",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 2000,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "afmr",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "theta_key": "theta_300",
+        "equilibration_steps": 100000,
+        "save_every": 500
+      },
+      "index": 37,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/037.yaml",
+      "config_sha256": "7ade26ac5a7858fa1894d800d389d8773b735b08cd317b194d5e99d0a5738cd1",
+      "run_id": "20260910_110834_validation_037",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "equilibration_steps": 100000,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "afmr",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "theta_key": "theta_1000",
+        "equilibration_steps": 100000,
+        "save_every": 500
+      },
+      "index": 38,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/038.yaml",
+      "config_sha256": "db5a159d6aa6b3396aa11c1b241fcc955cead2bef726704100ca883d8b9cd52b",
+      "run_id": "20260910_110834_validation_038",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_1000",
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "equilibration_steps": 100000,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "afmr",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "theta_key": "theta_1200",
+        "equilibration_steps": 100000,
+        "save_every": 500
+      },
+      "index": 39,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/039.yaml",
+      "config_sha256": "09ba98c59a17bb4abd6b73a2ac5e3d087e3ec6bd5890531c1f48af41a4fcc082",
+      "run_id": "20260910_110834_validation_039",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_1200",
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "equilibration_steps": 100000,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "wall",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "dt": 0.002,
+        "steps": 200000,
+        "save_every": 2000
+      },
+      "index": 40,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/040.yaml",
+      "config_sha256": "178022b14eea0716c87e331ee8074455da72182ceddfb1ed539f92ad83ad7b23",
+      "run_id": "20260910_110834_validation_040",
+      "parameters": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "periodic": [
+          false,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta": 0.0,
+        "alpha": 1.0,
+        "initial_width_cells": 40,
+        "dt": 0.002,
+        "steps": 200000,
+        "save_every": 2000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "wall",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "dt": 0.001,
+        "steps": 400000,
+        "save_every": 4000
+      },
+      "index": 41,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/041.yaml",
+      "config_sha256": "82e62b3d53befaaacf0e37156a4a53dc6a61756c96609dca98f9ea58db6524d7",
+      "run_id": "20260910_110834_validation_041",
+      "parameters": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "periodic": [
+          false,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta": 0.0,
+        "alpha": 1.0,
+        "initial_width_cells": 40,
+        "dt": 0.001,
+        "steps": 400000,
+        "save_every": 4000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "hirst_mn2au_2022",
+      "protocol": "wall",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "dt": 0.0005,
+        "steps": 800000,
+        "save_every": 8000
+      },
+      "index": 42,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/042.yaml",
+      "config_sha256": "de7c1736a7c55f506e9c0e3f1e8758dad2c3b36066b592320a82806129edbba6",
+      "run_id": "20260910_110834_validation_042",
+      "parameters": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "periodic": [
+          false,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta": 0.0,
+        "alpha": 1.0,
+        "initial_width_cells": 40,
+        "dt": 0.0005,
+        "steps": 800000,
+        "save_every": 8000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 43,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/043.yaml",
+      "config_sha256": "1edb791d5f50c0b7ee4683f10ca1d4c722bad8dc64b5df92ff55c1222bbca896",
+      "run_id": "20260910_110834_validation_043",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0,
+            0.5
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 44,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/044.yaml",
+      "config_sha256": "65e7942209d52db6b3d409e89c573a898971c1bfcb3b044d22771f16ce709659",
+      "run_id": "20260910_110834_validation_044",
+      "parameters": {
+        "wavevectors": [
+          [
+            0,
+            0.5
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 45,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/045.yaml",
+      "config_sha256": "2b3f1cfe84854b36a4dbe28c57229fabb7f988a747ba5dab4659efba55b18e7b",
+      "run_id": "20260910_110834_validation_045",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            -0.5,
+            0.5
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 46,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/046.yaml",
+      "config_sha256": "4763da0b17faf3d285c141d5cae3c69f87c8bf9221bf242540edbcebd1a37d4d",
+      "run_id": "20260910_110834_validation_046",
+      "parameters": {
+        "wavevectors": [
+          [
+            -0.5,
+            0.5
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0.25
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 47,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/047.yaml",
+      "config_sha256": "879835b5503b143ec16204d0f1fbbec9088670f0cc7647abeb183a6f4581ee40",
+      "run_id": "20260910_110834_validation_047",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0.25
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            -0.5,
+            0.25
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 48,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/048.yaml",
+      "config_sha256": "bfb833bf1240e3496654412c284fce84c976bdfd9f665a2a5f644e51250727e9",
+      "run_id": "20260910_110834_validation_048",
+      "parameters": {
+        "wavevectors": [
+          [
+            -0.5,
+            0.25
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "control",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 49,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/049.yaml",
+      "config_sha256": "84f9f34cd042b1ea2fbd23526d5a6fadbcf51099c8d841606ba2e6747c77a6d0",
+      "run_id": "20260910_110834_validation_049",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "control",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0,
+            0.5
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 50,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/050.yaml",
+      "config_sha256": "f3117bb20eb05772ce2e92ef155726e161690aeaba3b3b45840a8830936c2046",
+      "run_id": "20260910_110834_validation_050",
+      "parameters": {
+        "wavevectors": [
+          [
+            0,
+            0.5
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "control",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 51,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/051.yaml",
+      "config_sha256": "801cd33bcdb6e1e9d1f7ffa3f2afa94706ab6e669103a610eeff802bb9db13c0",
+      "run_id": "20260910_110834_validation_051",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "control",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            -0.5,
+            0.5
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 52,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/052.yaml",
+      "config_sha256": "813e2d698d1e780186694a99b68c463616c83fddd9d77f5b3a69a2c6e2a23b43",
+      "run_id": "20260910_110834_validation_052",
+      "parameters": {
+        "wavevectors": [
+          [
+            -0.5,
+            0.5
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "control",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0.25
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 53,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/053.yaml",
+      "config_sha256": "e38de8fa63b9405d05d6db70ee5bf1a0953f68aaaa539c9e9899264e37c11ffb",
+      "run_id": "20260910_110834_validation_053",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0.25
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "control",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            -0.5,
+            0.25
+          ]
+        ],
+        "save_every": 20
+      },
+      "index": 54,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/054.yaml",
+      "config_sha256": "c8f7ced337c7592647f04cf7c00847a8cac1328dbfb96ac9779fdd3502f8662d",
+      "run_id": "20260910_110834_validation_054",
+      "parameters": {
+        "wavevectors": [
+          [
+            -0.5,
+            0.25
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          32,
+          32
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20
+      },
+      "index": 55,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/055.yaml",
+      "config_sha256": "7beb99954ac7365c5795e913d7fc28f063147657923e546b6d7839a643ed3138",
+      "run_id": "20260910_110834_validation_055",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "shape": [
+          32,
+          32
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          96,
+          96
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20
+      },
+      "index": 56,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/056.yaml",
+      "config_sha256": "436491cbd65697a4efca8062340148361b9e1b6386c25e00adbcd7eca8cb85ee",
+      "run_id": "20260910_110834_validation_056",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "shape": [
+          96,
+          96
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 20,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "dt": 0.0025,
+        "steps": 80000,
+        "save_every": 40
+      },
+      "index": 57,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/057.yaml",
+      "config_sha256": "8c43746574d6e617613955a79aa518a37a7eee9e2484c07e46bbfa463632fb2f",
+      "run_id": "20260910_110834_validation_057",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.0025,
+        "steps": 80000,
+        "save_every": 40,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "spinwave",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          64,
+          64
+        ],
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "dt": 0.00125,
+        "steps": 160000,
+        "save_every": 80
+      },
+      "index": 58,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/058.yaml",
+      "config_sha256": "a3345110dbb246ada18f3998cbfe030e3eb2b5ae324576a51d86a71086a0dd37",
+      "run_id": "20260910_110834_validation_058",
+      "parameters": {
+        "wavevectors": [
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        "shape": [
+          64,
+          64
+        ],
+        "periodic": [
+          true,
+          true
+        ],
+        "orientation": "100",
+        "batch": 1,
+        "alpha": 0.0,
+        "dt": 0.00125,
+        "steps": 160000,
+        "save_every": 80,
+        "seed": 20260910,
+        "method": "rk4",
+        "field_amplitude": 0.001,
+        "field_direction": [
+          1,
+          0,
+          0
+        ],
+        "wavevector_cutoff": [
+          0.5,
+          0.5
+        ],
+        "frequency_cutoff": 2.0,
+        "pulse_center": 100.0
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "wall",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          512,
+          8
+        ],
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200
+      },
+      "index": 59,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/059.yaml",
+      "config_sha256": "a2c3ad1214ec416c7e541a377d41bf5b591f7d2c92bdb40f09d3dd5217453eed",
+      "run_id": "20260910_110834_validation_059",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "110",
+        "batch": 1,
+        "alpha": 0.75,
+        "velocity": 0.0,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200,
+        "seed": 20260910,
+        "method": "rk4"
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "wall",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          512,
+          8
+        ],
+        "dt": 0.0025,
+        "steps": 80000,
+        "save_every": 400
+      },
+      "index": 60,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/060.yaml",
+      "config_sha256": "c45e541b4ea979a36d8012a7d4b62c5a849ddf5848c247f57baa60c18beceff3",
+      "run_id": "20260910_110834_validation_060",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "110",
+        "batch": 1,
+        "alpha": 0.75,
+        "velocity": 0.0,
+        "dt": 0.0025,
+        "steps": 80000,
+        "save_every": 400,
+        "seed": 20260910,
+        "method": "rk4"
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "wall",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          512,
+          8
+        ],
+        "dt": 0.00125,
+        "steps": 160000,
+        "save_every": 800
+      },
+      "index": 61,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/061.yaml",
+      "config_sha256": "122ecf62b9b740986d023adb08bb20096ef970cedc0b9430c67004ed240dd42c",
+      "run_id": "20260910_110834_validation_061",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "110",
+        "batch": 1,
+        "alpha": 0.75,
+        "velocity": 0.0,
+        "dt": 0.00125,
+        "steps": 160000,
+        "save_every": 800,
+        "seed": 20260910,
+        "method": "rk4"
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "moving_wall",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          512,
+          8
+        ],
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200
+      },
+      "index": 62,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/062.yaml",
+      "config_sha256": "27580d6ce620d3e1280089dc1ca1647884efd9d608c4f37e4ec427d36d771d34",
+      "run_id": "20260910_110834_validation_062",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "110",
+        "batch": 1,
+        "alpha": 0.0,
+        "velocity": 0.5,
+        "dt": 0.005,
+        "steps": 40000,
+        "save_every": 200,
+        "seed": 20260910,
+        "method": "rk4"
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "moving_wall",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          512,
+          8
+        ],
+        "dt": 0.0025,
+        "steps": 80000,
+        "save_every": 400
+      },
+      "index": 63,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/063.yaml",
+      "config_sha256": "09a1ef1f9fd8f92b410c1e0515e21495ee533f6180cb659475812ccf3c2be0a1",
+      "run_id": "20260910_110834_validation_063",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "110",
+        "batch": 1,
+        "alpha": 0.0,
+        "velocity": 0.5,
+        "dt": 0.0025,
+        "steps": 80000,
+        "save_every": 400,
+        "seed": 20260910,
+        "method": "rk4"
+      }
+    },
+    {
+      "paper": "gomonay_2024",
+      "protocol": "moving_wall",
+      "pool": "gpu",
+      "overrides": {
+        "shape": [
+          512,
+          8
+        ],
+        "dt": 0.00125,
+        "steps": 160000,
+        "save_every": 800
+      },
+      "index": 64,
+      "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/064.yaml",
+      "config_sha256": "357244bb5820cec651e745d9a6642d4418d72d3aead630cbddf8ad40f4faadda",
+      "run_id": "20260910_110834_validation_064",
+      "parameters": {
+        "shape": [
+          512,
+          8
+        ],
+        "periodic": [
+          false,
+          true
+        ],
+        "orientation": "110",
+        "batch": 1,
+        "alpha": 0.0,
+        "velocity": 0.5,
+        "dt": 0.00125,
+        "steps": 160000,
+        "save_every": 800,
+        "seed": 20260910,
+        "method": "rk4"
+      }
+    }
+  ]
+}

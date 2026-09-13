@@ -1,0 +1,2 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+PASS: frozen Bauer MT continuous/resumed trajectories and all datasets exactly equal

@@ -1,0 +1,61 @@
+{
+  "scope": "software_preparation_only",
+  "run_id": "20260912_001410",
+  "snapshot": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_software_20260912_001410/code",
+  "files_sha256": {
+    "scripts/model/gate_f.py": "5632afdd4e8c97ee0737acef617900808b63762422f0b5a6ac68e1f46aeb9954",
+    "scripts/model/sphere.py": "795630f754cf4aa1727d9fcfa8fabcf502e18963a6b395861135866ead7b3bb7",
+    "scripts/core/cell_hamiltonian.py": "6fde94744ff2ad43bac4fcde09c6132b8628b23fe636c6b64975b37f99d34c94",
+    "scripts/core/literature_config.py": "80fe7801098901168503c417761356f08cdd07c44e68f6ce633ca748578a6fa7",
+    "scripts/literature/gomonay_2024/model.py": "9ab67b0f500ec2152452bff0ad6fd48cdb65f18619bded5245fbe213526c281a",
+    "scripts/validation/gate_f_contract.py": "5d997e33471e339bac337386179429f74fb9c8e0ade1925cbf52c3068e057d46",
+    "scripts/validation/zero_field_certificates.py": "e9b66368cf8497677c0493e03554362f12ab4dd0518c0c77ccc889f81ccd189f",
+    "scripts/validation/run_gate_f_software.py": "478107d584557ebc7f696661657d953f8d62b7fe1f49416da0315203911e008c",
+    "scripts/datasets/gate_f_paths.py": "42b7ca5f478fe60b51f1edabfec4c4415ba84964018e32e1944f6a9f84c2fc7e",
+    "scripts/analysis/gate_f_metrics.py": "33bea5ed00e771ee2fdd755a13ce622384f3ea805eddc37fffe979ba6c34cca0",
+    "scripts/training/train_gate_f.py": "b12f256bb1836488f501e7ac554f08d7c1bdf09b66fb8dfe92f6983cacaf33a2",
+    "scripts/inference/sample_gate_f.py": "8d0b56fbeda61f9f9b59fd308bd367b9838d9c63d0e26b3ade285cd818b2b654",
+    "scripts/tests/test_gate_f.py": "58a95c2b7903f38306a6efde7157146fc5c2e2b6a8ffbc769abab1062e79396d",
+    "scripts/tests/conftest.py": "fce519a5df851f4d99295a3a225529db8903b8f2485b617500b95633cce66119",
+    "conf/gate_f/draft.yaml": "d681241c5281c5ef18d90a09dcb9adceb4794ec61fcb2dc4229483244dc46252",
+    "slurm/gate_f_software.sbatch": "734c0cf10c4f8d636989d19ac4ee13ed0375083a5c99e6ea1d6ab5753865e19b",
+    "scripts/workflow/submit_gate_f_software.py": "fbcfc8551627ce3754588ce1232a2dba28f6301f007e53cdca384ea9c27e64c1"
+  },
+  "wrapper_sha256": "908801d41ab4d7f64773d5ba57ef34e9a22b092c58b8c0eb321804e34a814bd5",
+  "jobs": [
+    {
+      "job_id": "669283",
+      "device": "cpu",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=fat",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/gate_f/20260912_001410/cpu_%j.log",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_software_20260912_001410/code/slurm/gate_f_software.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_software_20260912_001410/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "cpu",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/gate_f/software/20260912_001410/cpu"
+      ]
+    },
+    {
+      "job_id": "669284",
+      "device": "cuda",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--partition=rtx4090",
+        "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/logs/gate_f/20260912_001410/cuda_%j.log",
+        "--gres=gpu:1",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_software_20260912_001410/code/slurm/gate_f_software.sbatch",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_software_20260912_001410/code",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/run_zrs_mag.sh",
+        "cuda",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/gate_f/software/20260912_001410/cuda"
+      ]
+    }
+  ],
+  "production_enabled": false,
+  "monitor": false,
+  "status": "submitted_not_monitored"
+}

@@ -1,0 +1,92 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+.....................................................                    [100%]
+=============================== warnings summary ===============================
+../../../../../../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+../../../../../../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: 6 warnings
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 25 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+../../../../../../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: 6 warnings
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 25 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+../../../../../../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:45
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2010: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.space          = oneOf(self._space_widths)("space")
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2012: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.style_literal  = oneOf(
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2020: PyparsingDeprecationWarning: 'leaveWhitespace' deprecated - use 'leave_whitespace'
+    )("sym").leaveWhitespace()
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2024: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.start_group    = Optional(r"\math" + oneOf(self._fontnames)("font")) + "{"
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2027: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.delim          = oneOf(self._delims)
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 47 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:1984: PyparsingDeprecationWarning: 'setName' deprecated - use 'set_name'
+    val.setName(key)
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 44 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:1987: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+    val.setParseAction(getattr(self, key))
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 16 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:1748: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+    return Empty().setParseAction(raise_error)
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2088: PyparsingDeprecationWarning: 'endQuoteChar' argument is deprecated, use 'end_quote_char'
+    p.text = cmd(r"\text", QuotedString('{', '\\', endQuoteChar="}"))
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2097: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    + OneOrMore(oneOf(["_", "^"]) - p.placeable)("subsuper")
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2146: PyparsingDeprecationWarning: 'unquoteResults' argument is deprecated, use 'unquote_results'
+    p.math_string   = QuotedString('$', '\\', unquoteResults=False)
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2147: PyparsingDeprecationWarning: 'leaveWhitespace' deprecated - use 'leave_whitespace'
+    p.non_math      = Regex(r"(?:(?:\\[$])|[^$])*").leaveWhitespace()
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2170: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    result = self._expression.parseString(s)
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2197: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    return self._math_expression.parseString(toks[0][1:-1], parseAll=True)
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/pyparsing/util.py:466: PyparsingDeprecationWarning: 'parseAll' argument is deprecated, use 'parse_all'
+    return fn(self, *args, **kwargs)
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2178: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    ParserElement.resetCache()
+
+scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/code/altermagnetism_LLG/scripts/literature/nishino_miyashita_2015/plot.py:55: UserWarning: Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+    ax.set(xlim=(0,t[-1]),ylim=(-1,1),xlabel=r'$\tau$',ylabel=r'$s_z$',
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+53 passed, 225 warnings in 9.22s

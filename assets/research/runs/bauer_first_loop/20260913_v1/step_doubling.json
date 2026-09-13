@@ -1,0 +1,44 @@
+[
+  {
+    "theta": 0.11,
+    "seed": 11,
+    "max_absolute_mean_difference": 0.039689102491238956,
+    "threshold": 0.05,
+    "status": "point_estimate_only"
+  },
+  {
+    "theta": 0.11,
+    "seed": 22,
+    "max_absolute_mean_difference": 0.040630671042279076,
+    "threshold": 0.05,
+    "status": "point_estimate_only"
+  },
+  {
+    "theta": 0.11,
+    "seed": 33,
+    "max_absolute_mean_difference": 0.038786927559541495,
+    "threshold": 0.05,
+    "status": "point_estimate_only"
+  },
+  {
+    "theta": 0.13,
+    "seed": 11,
+    "max_absolute_mean_difference": 0.07954891242181304,
+    "threshold": 0.05,
+    "status": "point_estimate_only"
+  },
+  {
+    "theta": 0.13,
+    "seed": 22,
+    "max_absolute_mean_difference": 0.15767046941795132,
+    "threshold": 0.05,
+    "status": "point_estimate_only"
+  },
+  {
+    "theta": 0.13,
+    "seed": 33,
+    "max_absolute_mean_difference": 0.15149846792626054,
+    "threshold": 0.05,
+    "status": "point_estimate_only"
+  }
+]

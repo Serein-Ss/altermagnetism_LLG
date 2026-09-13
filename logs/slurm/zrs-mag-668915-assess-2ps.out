@@ -1,0 +1,269 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+{
+  "status": "extend_observation",
+  "decision_rule": {
+    "max_unresolved_fraction": 0.2,
+    "scope": "all real trajectories in each size-condition group"
+  },
+  "calibration": {
+    "negative_threshold": -0.9221981142789033,
+    "positive_threshold": 0.9385744009508681,
+    "residence_ps": 0.1,
+    "component_means": [
+      -0.9638619925461563,
+      0.9714011325903819
+    ],
+    "component_std": [
+      0.013887959422417667,
+      0.010942243879837922
+    ],
+    "component_weights": [
+      0.41975308641975306,
+      0.5802469135802469
+    ],
+    "trajectories": 243,
+    "sources": [
+      "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L16.h5",
+      "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L32.h5",
+      "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L64.h5"
+    ],
+    "component_count": 2
+  },
+  "prefix_integrity": {
+    "altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L16.h5": {
+      "source": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L16.h5",
+      "datasets": {
+        "time": true,
+        "spins": true,
+        "magnetization": true,
+        "neel": true,
+        "energy": true
+      },
+      "manifest": "altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L16.manifest.json",
+      "output_sha256_matches_manifest": true,
+      "exact": true
+    },
+    "altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L32.h5": {
+      "source": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L32.h5",
+      "datasets": {
+        "time": true,
+        "spins": true,
+        "magnetization": true,
+        "neel": true,
+        "energy": true
+      },
+      "manifest": "altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L32.manifest.json",
+      "output_sha256_matches_manifest": true,
+      "exact": true
+    },
+    "altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L64.h5": {
+      "source": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/train/d_wave_altermagnet_L64.h5",
+      "datasets": {
+        "time": true,
+        "spins": true,
+        "magnetization": true,
+        "neel": true,
+        "energy": true
+      },
+      "manifest": "altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L64.manifest.json",
+      "output_sha256_matches_manifest": true,
+      "exact": true
+    },
+    "altermagnetism_LLG/data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5": {
+      "source": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2/test_large/d_wave_altermagnet_L96.h5",
+      "datasets": {
+        "time": true,
+        "spins": true,
+        "magnetization": true,
+        "neel": true,
+        "energy": true
+      },
+      "manifest": "altermagnetism_LLG/data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.manifest.json",
+      "output_sha256_matches_manifest": true,
+      "exact": true
+    }
+  },
+  "conditions": {
+    "L16/condition_0": {
+      "paths": 30,
+      "crossed_zero_fraction": 0.13333333333333333,
+      "negative_endpoint_fraction": 0.13333333333333333,
+      "committed_switch_fraction": 0.13333333333333333,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.06666666666666667,
+      "endpoint_mean": 0.7123384118080139,
+      "endpoint_std": 0.6604416644173717,
+      "mean_peak_spatial_std": 0.10508914763728777,
+      "max_spin_norm_error": 5.960464477539063e-08,
+      "lattice_size": 16,
+      "condition_id": 0,
+      "field_tesla": 0.7
+    },
+    "L16/condition_1": {
+      "paths": 30,
+      "crossed_zero_fraction": 0.5,
+      "negative_endpoint_fraction": 0.5,
+      "committed_switch_fraction": 0.4666666666666667,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.06666666666666667,
+      "endpoint_mean": -0.0008134861787160237,
+      "endpoint_std": 0.9675666030071276,
+      "mean_peak_spatial_std": 0.11056628624598185,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 16,
+      "condition_id": 1,
+      "field_tesla": 0.78
+    },
+    "L16/condition_2": {
+      "paths": 30,
+      "crossed_zero_fraction": 0.7,
+      "negative_endpoint_fraction": 0.7,
+      "committed_switch_fraction": 0.5666666666666667,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.16666666666666666,
+      "endpoint_mean": -0.3829864839712779,
+      "endpoint_std": 0.8892962450737838,
+      "mean_peak_spatial_std": 0.11215534657239914,
+      "max_spin_norm_error": 5.960464477539063e-08,
+      "lattice_size": 16,
+      "condition_id": 2,
+      "field_tesla": 0.8
+    },
+    "L32/condition_0": {
+      "paths": 30,
+      "crossed_zero_fraction": 0.03333333333333333,
+      "negative_endpoint_fraction": 0.03333333333333333,
+      "committed_switch_fraction": 0.03333333333333333,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0,
+      "endpoint_mean": 0.9118764162063598,
+      "endpoint_std": 0.3509421976829293,
+      "mean_peak_spatial_std": 0.10536762028932571,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 32,
+      "condition_id": 0,
+      "field_tesla": 0.7
+    },
+    "L32/condition_1": {
+      "paths": 30,
+      "crossed_zero_fraction": 0.43333333333333335,
+      "negative_endpoint_fraction": 0.43333333333333335,
+      "committed_switch_fraction": 0.43333333333333335,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.06666666666666667,
+      "endpoint_mean": 0.1306849678357442,
+      "endpoint_std": 0.9580790619793534,
+      "mean_peak_spatial_std": 0.12642587622006735,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 32,
+      "condition_id": 1,
+      "field_tesla": 0.78
+    },
+    "L32/condition_2": {
+      "paths": 30,
+      "crossed_zero_fraction": 0.6333333333333333,
+      "negative_endpoint_fraction": 0.6333333333333333,
+      "committed_switch_fraction": 0.6,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.06666666666666667,
+      "endpoint_mean": -0.26350992918014526,
+      "endpoint_std": 0.9335206646610519,
+      "mean_peak_spatial_std": 0.12894054825107257,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 32,
+      "condition_id": 2,
+      "field_tesla": 0.8
+    },
+    "L64/condition_0": {
+      "paths": 30,
+      "crossed_zero_fraction": 0.0,
+      "negative_endpoint_fraction": 0.0,
+      "committed_switch_fraction": 0.0,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0,
+      "endpoint_mean": 0.9783096452554066,
+      "endpoint_std": 0.0019032174335479274,
+      "mean_peak_spatial_std": 0.11375690251588821,
+      "max_spin_norm_error": 5.960464477539063e-08,
+      "lattice_size": 64,
+      "condition_id": 0,
+      "field_tesla": 0.7
+    },
+    "L64/condition_1": {
+      "paths": 30,
+      "crossed_zero_fraction": 0.4666666666666667,
+      "negative_endpoint_fraction": 0.4666666666666667,
+      "committed_switch_fraction": 0.4666666666666667,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.13333333333333333,
+      "endpoint_mean": 0.06649764776229858,
+      "endpoint_std": 0.9634701205389988,
+      "mean_peak_spatial_std": 0.24102508425712585,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 64,
+      "condition_id": 1,
+      "field_tesla": 0.78
+    },
+    "L64/condition_2": {
+      "paths": 30,
+      "crossed_zero_fraction": 0.9,
+      "negative_endpoint_fraction": 0.9,
+      "committed_switch_fraction": 0.9,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0,
+      "endpoint_mean": -0.7736013412475586,
+      "endpoint_std": 0.5810009088245345,
+      "mean_peak_spatial_std": 0.2089183827241262,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 64,
+      "condition_id": 2,
+      "field_tesla": 0.8
+    },
+    "L96/condition_0": {
+      "paths": 20,
+      "crossed_zero_fraction": 0.0,
+      "negative_endpoint_fraction": 0.0,
+      "committed_switch_fraction": 0.0,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0,
+      "endpoint_mean": 0.9781750768423081,
+      "endpoint_std": 0.001129798299293704,
+      "mean_peak_spatial_std": 0.12185447290539742,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 96,
+      "condition_id": 0,
+      "field_tesla": 0.7
+    },
+    "L96/condition_1": {
+      "paths": 20,
+      "crossed_zero_fraction": 0.4,
+      "negative_endpoint_fraction": 0.4,
+      "committed_switch_fraction": 0.3,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.25,
+      "endpoint_mean": 0.15913853868842126,
+      "endpoint_std": 0.9243213111719781,
+      "mean_peak_spatial_std": 0.5465215273201466,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 96,
+      "condition_id": 1,
+      "field_tesla": 0.78
+    },
+    "L96/condition_2": {
+      "paths": 20,
+      "crossed_zero_fraction": 0.95,
+      "negative_endpoint_fraction": 0.95,
+      "committed_switch_fraction": 0.95,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0,
+      "endpoint_mean": -0.8749139547348023,
+      "endpoint_std": 0.42049162039627663,
+      "mean_peak_spatial_std": 0.32023984789848325,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 96,
+      "condition_id": 2,
+      "field_tesla": 0.8
+    }
+  }
+}

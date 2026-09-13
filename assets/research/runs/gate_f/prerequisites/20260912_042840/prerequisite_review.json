@@ -1,0 +1,31 @@
+{
+  "status": "inconclusive_missing_prerequisites",
+  "production_enabled": false,
+  "missing": [
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/calibration_0.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/calibration_1.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/calibration_2.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/calibration_3.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/calibration_4.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/calibration_5.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_0.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_1.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_2.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_3.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_4.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_5.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_half_0.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_half_1.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_half_2.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_half_3.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_half_4.h5",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/research/gate_f_prerequisites/20260912_042840/fine_half_5.h5"
+  ],
+  "pending": [
+    "Original-paper acceptance and old/new prerequisite conflict remain explicitly unresolved",
+    "Static consistency is not full path weak convergence or stochastic dynamics certification",
+    "Provisional candidates are not a certified equilibrium initial pool",
+    "Final temperatures, F=101/201, observation window and save cadence require measured review",
+    "No automatic training or final production release"
+  ]
+}

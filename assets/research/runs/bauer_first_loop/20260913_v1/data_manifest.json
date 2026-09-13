@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "wall_seconds": 561.0170420408249,
+  "training_paths": 192,
+  "development_paths": 64,
+  "evaluation_paths": 256,
+  "splits": "pilot initial families0..5 train,6..7 development; fresh evaluation initial families, no window crossing",
+  "leakage_check": "Initial IDs and future seed namespaces disjoint; prior pilot used to select window, so exploratory only",
+  "noise_namespace": [
+    400000000,
+    401000000
+  ],
+  "source_hashes": {
+    "reference_T0.11.h5": "bceb141c85b92f111dcf2cbc128ca6c9d247eabaf5c0f550708eaee587ddd5b1",
+    "reference_T0.13.h5": "96f542cee88839d143c3767c6f2cf664635a2e28c3786c03a0696e18e4465dce"
+  }
+}

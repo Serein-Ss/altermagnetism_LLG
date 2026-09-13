@@ -1,0 +1,28 @@
+paper_id: laliena_crnb3s6_2020
+provenance:
+  doi: 10.1038/s41598-020-76903-8
+  erratum_doi: 10.1038/s41598-022-06147-1
+  target: corrected_equations_13_14_and_Fig2b_3a_3b
+  status: blocked_corrected_BVP_and_current_drive_implementation
+source_parameters:
+  A: {value: 1.42, unit: pJ/m}
+  D: {value: 369, unit: microjoule/meter**2}
+  K: {value: -124, unit: kilojoule/meter**3}
+  M_s: {value: 129, unit: kiloampere/meter}
+  a: {value: 0.6, unit: nanometer}
+  B_y: {value: 300, unit: millitesla}
+  alpha: {value: 0.01, unit: dimensionless}
+  beta: {value: 0.02, unit: dimensionless}
+  uncertainty_note: Quoted continuum model settings; no uncertainties supplied.
+reduction: {wavevector: q0=D/(2*A), length: 1/q0, field: B0=D**2/(2*A*M_s), time: 1/(gamma*B0)}
+reduced:
+  equation_convention: gilbert
+  q0_a: 0.0779577465
+  kappa: -5.1726999655
+  h_y: 0.8071914865
+  alpha: 0.01
+  beta: 0.02
+numerics:
+  paper_settings: {corrected_BVP_Gamma_c: 1.2405, profile_Gamma: 0.89, critical_current_Gamma: 1.224}
+  numerical_choice: {seed: 20260909}
+  validation_extension: {production_enabled: false}

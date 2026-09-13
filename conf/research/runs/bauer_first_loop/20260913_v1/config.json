@@ -1,0 +1,50 @@
+{
+  "output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/bauer_first_loop/20260913_v1",
+  "pilot": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/bauer_campaign/20260913_classical_independent/pilot",
+  "theta": [
+    0.11,
+    0.13
+  ],
+  "L": 25,
+  "duration": 16000.0,
+  "dt": 0.02,
+  "save_dt": 80.0,
+  "frames": 201,
+  "kinds": [
+    "rfm",
+    "deterministic",
+    "euclidean",
+    "autoregressive"
+  ],
+  "training_seeds": [
+    11,
+    22,
+    33
+  ],
+  "training_steps": 600,
+  "batch_size": 8,
+  "width": 24,
+  "blocks": 2,
+  "learning_rate": 0.001,
+  "test_initials": 4,
+  "noise_per_half": 16,
+  "bootstrap": 2000,
+  "scope": "First exploratory feasibility loop, not publication Gate-F/P5; prior pilot may select window.",
+  "no_tuning": "One fixed budget/version, final checkpoint only; no model selection on new evaluation data.",
+  "event_definition": "Mz +/-0.6, completion after160 reduced time units",
+  "budget": {
+    "max_GPU_hours": 1.5,
+    "max_allocated_CPU_hours": 12,
+    "expected_wall_minutes": [
+      20,
+      60
+    ],
+    "automatic_retries": 0
+  },
+  "fair_budget": "All learned models same600 updates,8 paths/update and backbone; compare also empirical trajectory resampling.",
+  "new_noise_namespace": [
+    400000000,
+    401000000
+  ],
+  "stopping_rule": "Large held-out error or failure against resampling => stop scale-up; wide CI => inconclusive, not GO"
+}

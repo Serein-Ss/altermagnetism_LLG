@@ -1,0 +1,57 @@
+{
+  "paper_id": "bauer_2011",
+  "legacy_run_id": "legacy_before_reduced_20260909",
+  "legacy_status": "not_strictly_certified",
+  "strict_status": "blocked_until_R0_and_paper_model_audit",
+  "legacy_paths": [
+    {
+      "old": "data/literature/literature_validation/bauer_2011_magnetic_chain.pdf",
+      "new": "data/literature_reproduction/bauer_2011/reference/bauer_2011_magnetic_chain.pdf",
+      "bytes": 411369,
+      "inode": 283520643358
+    },
+    {
+      "old": "data/literature/path_literature_validation/bauer2011_accelerated_pilot_paths.h5",
+      "new": "data/literature_reproduction/bauer_2011/raw/legacy_before_reduced_20260909/bauer2011_accelerated_pilot_paths.h5",
+      "bytes": 19235016,
+      "inode": 309330477455
+    },
+    {
+      "old": "data/literature/path_literature_validation/bauer2011_accelerated_pilot_paths.manifest.json",
+      "new": "data/literature_reproduction/bauer_2011/raw/legacy_before_reduced_20260909/bauer2011_accelerated_pilot_paths.manifest.json",
+      "bytes": 1481,
+      "inode": 309330477454
+    },
+    {
+      "old": "data/literature/path_literature_validation/bauer2011_accelerated_pilot_paths_mechanisms.json",
+      "new": "data/literature_reproduction/bauer_2011/derived/legacy_before_reduced_20260909/bauer2011_accelerated_pilot_paths_mechanisms.json",
+      "bytes": 886,
+      "inode": 309330477456
+    },
+    {
+      "old": "data/literature/path_literature_validation/bauer2011_accelerated_pilot_paths_mechanisms.npz",
+      "new": "data/literature_reproduction/bauer_2011/derived/legacy_before_reduced_20260909/bauer2011_accelerated_pilot_paths_mechanisms.npz",
+      "bytes": 163736,
+      "inode": 309330477458
+    },
+    {
+      "old": "data/literature/path_literature_validation/bauer2011_barrier.json",
+      "new": "data/literature_reproduction/bauer_2011/derived/legacy_before_reduced_20260909/bauer2011_barrier.json",
+      "bytes": 1327,
+      "inode": 309330477467
+    },
+    {
+      "old": "scripts/literature/validate_bauer2011_chain.py",
+      "new": "scripts/literature/bauer_2011/legacy_static.py",
+      "bytes": 3115,
+      "inode": 266399770165
+    },
+    {
+      "old": "scripts/literature/generate_bauer2011_paths.py",
+      "new": "scripts/literature/bauer_2011/legacy_run.py",
+      "bytes": 6353,
+      "inode": 275060349567
+    }
+  ],
+  "config": "conf/literature/bauer_2011.yaml"
+}

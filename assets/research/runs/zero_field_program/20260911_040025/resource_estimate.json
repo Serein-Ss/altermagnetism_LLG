@@ -1,0 +1,460 @@
+{
+  "hours": {
+    "cpu": 358.9333333333333,
+    "gpu": 76.71666666666663
+  },
+  "storage_gib": 171.7631807550788,
+  "allocations": 129,
+  "estimates": [
+    {
+      "index": 0,
+      "minutes": 228,
+      "estimated_bytes": 49849968
+    },
+    {
+      "index": 1,
+      "minutes": 228,
+      "estimated_bytes": 49849968
+    },
+    {
+      "index": 2,
+      "minutes": 228,
+      "estimated_bytes": 49849968
+    },
+    {
+      "index": 3,
+      "minutes": 228,
+      "estimated_bytes": 49849968
+    },
+    {
+      "index": 4,
+      "minutes": 286,
+      "estimated_bytes": 49795728
+    },
+    {
+      "index": 5,
+      "minutes": 286,
+      "estimated_bytes": 49795728
+    },
+    {
+      "index": 6,
+      "minutes": 286,
+      "estimated_bytes": 49795728
+    },
+    {
+      "index": 7,
+      "minutes": 286,
+      "estimated_bytes": 49795728
+    },
+    {
+      "index": 8,
+      "minutes": 30,
+      "estimated_bytes": 264128985
+    },
+    {
+      "index": 9,
+      "minutes": 50,
+      "estimated_bytes": 270126240
+    },
+    {
+      "index": 10,
+      "minutes": 89,
+      "estimated_bytes": 282225660
+    },
+    {
+      "index": 11,
+      "minutes": 30,
+      "estimated_bytes": 264128775
+    },
+    {
+      "index": 12,
+      "minutes": 49,
+      "estimated_bytes": 270125820
+    },
+    {
+      "index": 13,
+      "minutes": 88,
+      "estimated_bytes": 282225420
+    },
+    {
+      "index": 14,
+      "minutes": 11742,
+      "estimated_bytes": 27519705000
+    },
+    {
+      "index": 15,
+      "minutes": 49,
+      "estimated_bytes": 936795540
+    },
+    {
+      "index": 16,
+      "minutes": 231,
+      "estimated_bytes": 923516100
+    },
+    {
+      "index": 17,
+      "minutes": 38,
+      "estimated_bytes": 2990400
+    },
+    {
+      "index": 18,
+      "minutes": 49,
+      "estimated_bytes": 936795540
+    },
+    {
+      "index": 19,
+      "minutes": 231,
+      "estimated_bytes": 923516100
+    },
+    {
+      "index": 20,
+      "minutes": 38,
+      "estimated_bytes": 2990400
+    },
+    {
+      "index": 21,
+      "minutes": 49,
+      "estimated_bytes": 936795540
+    },
+    {
+      "index": 22,
+      "minutes": 231,
+      "estimated_bytes": 923516100
+    },
+    {
+      "index": 23,
+      "minutes": 38,
+      "estimated_bytes": 2990400
+    },
+    {
+      "index": 24,
+      "minutes": 1955,
+      "estimated_bytes": 2122446000
+    },
+    {
+      "index": 25,
+      "minutes": 54,
+      "estimated_bytes": 295501824
+    },
+    {
+      "index": 26,
+      "minutes": 98,
+      "estimated_bytes": 590413824
+    },
+    {
+      "index": 27,
+      "minutes": 98,
+      "estimated_bytes": 590413824
+    },
+    {
+      "index": 28,
+      "minutes": 90,
+      "estimated_bytes": 591003648
+    },
+    {
+      "index": 29,
+      "minutes": 170,
+      "estimated_bytes": 1180827648
+    },
+    {
+      "index": 30,
+      "minutes": 170,
+      "estimated_bytes": 1180827648
+    },
+    {
+      "index": 31,
+      "minutes": 15,
+      "estimated_bytes": 12193380
+    },
+    {
+      "index": 32,
+      "minutes": 15,
+      "estimated_bytes": 12193380
+    },
+    {
+      "index": 33,
+      "minutes": 15,
+      "estimated_bytes": 12193380
+    },
+    {
+      "index": 34,
+      "minutes": 15,
+      "estimated_bytes": 12193380
+    },
+    {
+      "index": 35,
+      "minutes": 15,
+      "estimated_bytes": 12193380
+    },
+    {
+      "index": 36,
+      "minutes": 20,
+      "estimated_bytes": 24386760
+    },
+    {
+      "index": 37,
+      "minutes": 30,
+      "estimated_bytes": 48773520
+    },
+    {
+      "index": 38,
+      "minutes": 1083,
+      "estimated_bytes": 720216000
+    },
+    {
+      "index": 39,
+      "minutes": 1194,
+      "estimated_bytes": 830808000
+    },
+    {
+      "index": 40,
+      "minutes": 1281,
+      "estimated_bytes": 952368000
+    },
+    {
+      "index": 41,
+      "minutes": 89,
+      "estimated_bytes": 47114100
+    },
+    {
+      "index": 42,
+      "minutes": 383,
+      "estimated_bytes": 210963600
+    },
+    {
+      "index": 43,
+      "minutes": 2052,
+      "estimated_bytes": 1123291200
+    },
+    {
+      "index": 44,
+      "minutes": 15,
+      "estimated_bytes": 33891960
+    },
+    {
+      "index": 45,
+      "minutes": 50,
+      "estimated_bytes": 30849120
+    },
+    {
+      "index": 46,
+      "minutes": 89,
+      "estimated_bytes": 35167800
+    },
+    {
+      "index": 47,
+      "minutes": 169,
+      "estimated_bytes": 43241760
+    },
+    {
+      "index": 48,
+      "minutes": 198,
+      "estimated_bytes": 30848760
+    },
+    {
+      "index": 49,
+      "minutes": 15,
+      "estimated_bytes": 33891960
+    },
+    {
+      "index": 50,
+      "minutes": 50,
+      "estimated_bytes": 30849120
+    },
+    {
+      "index": 51,
+      "minutes": 89,
+      "estimated_bytes": 35167800
+    },
+    {
+      "index": 52,
+      "minutes": 169,
+      "estimated_bytes": 43241760
+    },
+    {
+      "index": 53,
+      "minutes": 237,
+      "estimated_bytes": 30848760
+    },
+    {
+      "index": 54,
+      "minutes": 30,
+      "estimated_bytes": 182372700
+    },
+    {
+      "index": 55,
+      "minutes": 30,
+      "estimated_bytes": 182372700
+    },
+    {
+      "index": 56,
+      "minutes": 30,
+      "estimated_bytes": 182372700
+    },
+    {
+      "index": 57,
+      "minutes": 30,
+      "estimated_bytes": 182372700
+    },
+    {
+      "index": 58,
+      "minutes": 30,
+      "estimated_bytes": 182372700
+    },
+    {
+      "index": 59,
+      "minutes": 30,
+      "estimated_bytes": 182372700
+    },
+    {
+      "index": 60,
+      "minutes": 30,
+      "estimated_bytes": 714130200
+    },
+    {
+      "index": 61,
+      "minutes": 30,
+      "estimated_bytes": 714130200
+    },
+    {
+      "index": 62,
+      "minutes": 30,
+      "estimated_bytes": 714130200
+    },
+    {
+      "index": 63,
+      "minutes": 30,
+      "estimated_bytes": 714130200
+    },
+    {
+      "index": 64,
+      "minutes": 30,
+      "estimated_bytes": 714130200
+    },
+    {
+      "index": 65,
+      "minutes": 30,
+      "estimated_bytes": 714130200
+    },
+    {
+      "index": 66,
+      "minutes": 30,
+      "estimated_bytes": 1632278550
+    },
+    {
+      "index": 67,
+      "minutes": 30,
+      "estimated_bytes": 1632278550
+    },
+    {
+      "index": 68,
+      "minutes": 30,
+      "estimated_bytes": 1632278550
+    },
+    {
+      "index": 69,
+      "minutes": 30,
+      "estimated_bytes": 1632278550
+    },
+    {
+      "index": 70,
+      "minutes": 30,
+      "estimated_bytes": 1632278550
+    },
+    {
+      "index": 71,
+      "minutes": 30,
+      "estimated_bytes": 1632278550
+    },
+    {
+      "index": 72,
+      "minutes": 31,
+      "estimated_bytes": 2838059880
+    },
+    {
+      "index": 73,
+      "minutes": 31,
+      "estimated_bytes": 2838059880
+    },
+    {
+      "index": 74,
+      "minutes": 31,
+      "estimated_bytes": 2838059880
+    },
+    {
+      "index": 75,
+      "minutes": 31,
+      "estimated_bytes": 2838059880
+    },
+    {
+      "index": 76,
+      "minutes": 31,
+      "estimated_bytes": 2838059880
+    },
+    {
+      "index": 77,
+      "minutes": 31,
+      "estimated_bytes": 2838059880
+    },
+    {
+      "index": 78,
+      "minutes": 33,
+      "estimated_bytes": 6373570920
+    },
+    {
+      "index": 79,
+      "minutes": 33,
+      "estimated_bytes": 6373570920
+    },
+    {
+      "index": 80,
+      "minutes": 33,
+      "estimated_bytes": 6373570920
+    },
+    {
+      "index": 81,
+      "minutes": 33,
+      "estimated_bytes": 6373570920
+    },
+    {
+      "index": 82,
+      "minutes": 33,
+      "estimated_bytes": 6373570920
+    },
+    {
+      "index": 83,
+      "minutes": 33,
+      "estimated_bytes": 6373570920
+    },
+    {
+      "index": 84,
+      "minutes": 34,
+      "estimated_bytes": 11321226900
+    },
+    {
+      "index": 85,
+      "minutes": 34,
+      "estimated_bytes": 11321226900
+    },
+    {
+      "index": 86,
+      "minutes": 34,
+      "estimated_bytes": 11321226900
+    },
+    {
+      "index": 87,
+      "minutes": 34,
+      "estimated_bytes": 11321226900
+    },
+    {
+      "index": 88,
+      "minutes": 34,
+      "estimated_bytes": 11321226900
+    },
+    {
+      "index": 89,
+      "minutes": 34,
+      "estimated_bytes": 11321226900
+    }
+  ]
+}

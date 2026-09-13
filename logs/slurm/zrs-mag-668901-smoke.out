@@ -1,0 +1,59 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+2.6.0+cu118 11.8 NVIDIA GeForce RTX 3090
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+.....................                                                    [100%]
+21 passed in 2.33s
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+epoch=1 train=1.19766 validation=0.848349
+{
+  "status": "trained_awaiting_distributional_evaluation",
+  "model_type": "deterministic",
+  "parameters": 16710,
+  "train_trajectories": 72,
+  "validation_trajectories": 9,
+  "test_trajectories": 9,
+  "best_epoch": 1,
+  "best_validation_loss": 0.8483488824632432,
+  "test_loss": 0.8624234331978692,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1976621399323146,
+      "validation_loss": 0.8483488824632432
+    }
+  ],
+  "claim_boundary": "training/test loss alone does not establish path-distribution or large-size physical generalization"
+}
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+epoch=1 train=4.28518 validation=1.46459
+{
+  "status": "trained_awaiting_distributional_evaluation",
+  "model_type": "flow",
+  "parameters": 16710,
+  "train_trajectories": 72,
+  "validation_trajectories": 9,
+  "test_trajectories": 9,
+  "best_epoch": 1,
+  "best_validation_loss": 1.4645915958616469,
+  "test_loss": 1.3996676603953044,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 4.285176005628374,
+      "validation_loss": 1.4645915958616469
+    }
+  ],
+  "claim_boundary": "training/test loss alone does not establish path-distribution or large-size physical generalization"
+}
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+Traceback (most recent call last):
+  File "/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/model/evaluate_l96.py", line 278, in <module>
+    main()
+  File "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/model/evaluate_l96.py", line 234, in main
+    )[0].cpu().numpy()
+RuntimeError: Can't call numpy() on Tensor that requires grad. Use tensor.detach().numpy() instead.

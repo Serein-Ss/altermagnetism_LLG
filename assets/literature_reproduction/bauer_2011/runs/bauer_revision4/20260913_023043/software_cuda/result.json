@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "scope": "synthetic_software_only_no_physics_certificate",
+  "training_started": false,
+  "device": "cuda",
+  "returncode": 0
+}

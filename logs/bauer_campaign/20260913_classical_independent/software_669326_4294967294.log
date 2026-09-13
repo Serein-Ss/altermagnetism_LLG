@@ -1,0 +1,37 @@
+................F......                                                  [100%]
+=================================== FAILURES ===================================
+________________________ test_reject_draft_and_leakage _________________________
+
+    def test_reject_draft_and_leakage():
+        draft = Path(__file__).resolve().parents[2]/'conf/gate_f/draft.yaml'
+        with pytest.raises(ValueError, match='frozen'):
+>           load_contract(draft)
+
+scripts/tests/test_gate_f.py:117: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+scripts/validation/gate_f_contract.py:47: in load_contract
+    c = yaml.safe_load(path.read_text())
+/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/pathlib.py:1134: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_classical_20260913/code/conf/gate_f/draft.yaml')
+mode = 'r', buffering = -1, encoding = 'locale', errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return self._accessor.open(self, mode, buffering, encoding, errors,
+                                   newline)
+E       FileNotFoundError: [Errno 2] No such file or directory: '/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_classical_20260913/code/conf/gate_f/draft.yaml'
+
+/share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/pathlib.py:1119: FileNotFoundError
+- generated xml file: /share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/bauer_campaign/20260913_classical_independent/software/gate_f_cuda_pytest.xml -
+=========================== short test summary info ============================
+FAILED scripts/tests/test_gate_f.py::test_reject_draft_and_leakage - FileNotF...
+1 failed, 22 passed in 9.06s

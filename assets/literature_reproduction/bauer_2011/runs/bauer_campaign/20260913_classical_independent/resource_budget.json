@@ -1,0 +1,39 @@
+{
+  "estimate_CPU_hours": 1068.1044426808755,
+  "estimate_reference_wall_hours_at_24_cores": 44.504351778369816,
+  "estimate_raw_GB": 90.14838144,
+  "reserved_disk_GB": 300,
+  "max_reference_concurrency": 3,
+  "CPU_per_reference": 8,
+  "CPU_hour_allocation_cap": 4896,
+  "reference_job_walltime_hours": 36,
+  "short_cpu_jobs_hours": 4,
+  "gpu_software_hours": 1,
+  "gpus": 1,
+  "expected_total_elapsed_excluding_queue_hours": [
+    48,
+    96
+  ],
+  "first_pilot_expected_excluding_queue_hours": [
+    0.5,
+    2
+  ],
+  "estimate_basis": "L100 two-path 10000-step CPU microbenchmark, linear length scaling; includes no guarantee of cluster speed",
+  "retries": 0,
+  "on_timeout": "checkpoint and partial data retained; final report marks missing/incomplete",
+  "no_model_training_cost": "Not released without reference/P2 contract",
+  "length_specific_timing": [
+    {
+      "L": 25,
+      "seconds": 0.2673487067222595
+    },
+    {
+      "L": 50,
+      "seconds": 0.37096137925982475
+    },
+    {
+      "L": 100,
+      "seconds": 0.6388545464724302
+    }
+  ]
+}

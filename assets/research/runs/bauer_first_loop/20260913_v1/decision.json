@@ -1,0 +1,3328 @@
+{
+  "status": "STOP_SCALE_UP",
+  "scope": "First bounded feasibility experiment completed; not a P3/P5 or novelty certificate",
+  "accuracy_checks": [
+    {
+      "label": "T0.11/rfm:11/ed_excess",
+      "estimate": 1.1324262347562084,
+      "ci": [
+        -1.3482409576926546,
+        3.6130934272050714
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/0",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/1",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/2",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/3",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/4",
+      "estimate": 1.8722600459509342,
+      "ci": [
+        -0.6084071464979288,
+        4.352927238399797
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/5",
+      "estimate": -0.16858932322393072,
+      "ci": [
+        -2.6492565156727936,
+        2.3120778692249324
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/6",
+      "estimate": 0.13466625713519909,
+      "ci": [
+        -2.346000935313664,
+        2.615333449584062
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/7",
+      "estimate": 0.20860763470446889,
+      "ci": [
+        -2.2720595577443943,
+        2.6892748271533318
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/8",
+      "estimate": 2.5531975392922046,
+      "ci": [
+        0.07253034684334159,
+        5.033864731741067
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/9",
+      "estimate": -0.17768534048198398,
+      "ci": [
+        -2.658352532930847,
+        2.302981851966879
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/10",
+      "estimate": 0.05869609113344966,
+      "ci": [
+        -2.4219711013154135,
+        2.5393632835823126
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/11",
+      "estimate": 0.049247835857377145,
+      "ci": [
+        -2.4314193565914857,
+        2.5299150283062404
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/12",
+      "estimate": 2.3438957619621807,
+      "ci": [
+        -0.13677143048668228,
+        4.824562954411044
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/13",
+      "estimate": 0.1714760000247663,
+      "ci": [
+        -2.309191192424097,
+        2.652143192473629
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/14",
+      "estimate": -0.08346046850890342,
+      "ci": [
+        -2.5641276609577663,
+        2.3972067239399597
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/15",
+      "estimate": 0.1511147659330898,
+      "ci": [
+        -2.3295524265157734,
+        2.6317819583819526
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/16",
+      "estimate": 2.2583497382226225,
+      "ci": [
+        -0.2223174542262405,
+        4.739016930671486
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/17",
+      "estimate": -0.15104130659208687,
+      "ci": [
+        -2.63170849904095,
+        2.329625885856776
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/18",
+      "estimate": 0.02493608434047085,
+      "ci": [
+        -2.455731108108392,
+        2.505603276789334
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/19",
+      "estimate": 0.10110897746138171,
+      "ci": [
+        -2.3795582149874814,
+        2.5817761699102446
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/20",
+      "estimate": 2.627964339204128,
+      "ci": [
+        0.14729714675526484,
+        5.108631531652991
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/21",
+      "estimate": -0.23143366726562026,
+      "ci": [
+        -2.712100859714483,
+        2.249233525183243
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/22",
+      "estimate": 0.08905689191051046,
+      "ci": [
+        -2.3916103005383524,
+        2.5697240843593736
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/23",
+      "estimate": 0.21083906754674275,
+      "ci": [
+        -2.26982812490212,
+        2.691506259995606
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/24",
+      "estimate": 2.506608789738838,
+      "ci": [
+        0.025941597289974805,
+        4.9872759821877
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/25",
+      "estimate": 0.1255316849915131,
+      "ci": [
+        -2.35513550745735,
+        2.606198877440376
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/26",
+      "estimate": 0.13774631540583132,
+      "ci": [
+        -2.342920877043032,
+        2.618413507854694
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/27",
+      "estimate": 0.2925550261178377,
+      "ci": [
+        -2.1881121663310252,
+        2.773222218566701
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/28",
+      "estimate": 2.517581678462755,
+      "ci": [
+        0.036914486013892134,
+        4.998248870911619
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/29",
+      "estimate": 0.11504436707181326,
+      "ci": [
+        -2.36562282537705,
+        2.595711559520676
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/30",
+      "estimate": 0.18145011857270726,
+      "ci": [
+        -2.299217073876156,
+        2.66211731102157
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/31",
+      "estimate": 0.34309195705668216,
+      "ci": [
+        -2.137575235392181,
+        2.823759149505545
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/32",
+      "estimate": 3.5980121629008086,
+      "ci": [
+        1.1173449704519456,
+        6.078679355349672
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/33",
+      "estimate": 0.03082378705882949,
+      "ci": [
+        -2.4498434053900335,
+        2.5114909795076925
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/34",
+      "estimate": 0.019607150273602665,
+      "ci": [
+        -2.4610600421752604,
+        2.5002743427224656
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/35",
+      "estimate": 0.4450201461437443,
+      "ci": [
+        -2.035647046305119,
+        2.925687338592607
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/36",
+      "estimate": 2.7956248907611814,
+      "ci": [
+        0.31495769831231835,
+        5.276292083210045
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/37",
+      "estimate": -0.05697122087042808,
+      "ci": [
+        -2.537638413319291,
+        2.423695971578435
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/38",
+      "estimate": 0.12756565283393667,
+      "ci": [
+        -2.353101539614926,
+        2.6082328452828
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/39",
+      "estimate": 0.4427025408428933,
+      "ci": [
+        -2.0379646516059697,
+        2.9233697332917563
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/40",
+      "estimate": 4.7806035427806925,
+      "ci": [
+        2.2999363503318295,
+        7.261270735229555
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/41",
+      "estimate": 0.0300971556704885,
+      "ci": [
+        -2.4505700367783745,
+        2.5107643481193516
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/42",
+      "estimate": -0.23401666722838996,
+      "ci": [
+        -2.714683859677253,
+        2.246650525220473
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/mean/43",
+      "estimate": 0.24034700009424242,
+      "ci": [
+        -2.2403201923546208,
+        2.7210141925431053
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/ed_excess",
+      "estimate": 1.6161160671080599,
+      "ci": [
+        -0.8645511253408031,
+        4.096783259556923
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/0",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/1",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/2",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/3",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/4",
+      "estimate": 2.4921963620245267,
+      "ci": [
+        0.011529169575663634,
+        4.97286355447339
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/5",
+      "estimate": -0.11323089772250658,
+      "ci": [
+        -2.5938980901713697,
+        2.3674362947263563
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/6",
+      "estimate": 0.10859494367292344,
+      "ci": [
+        -2.3720722487759396,
+        2.5892621361217865
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/7",
+      "estimate": 0.018231114566681944,
+      "ci": [
+        -2.462436077882181,
+        2.498898307015545
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/8",
+      "estimate": 2.1107265501440375,
+      "ci": [
+        -0.3699406423048255,
+        4.591393742592901
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/9",
+      "estimate": -0.19750004510743865,
+      "ci": [
+        -2.6781672375563015,
+        2.2831671473414246
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/10",
+      "estimate": 0.16021329308510254,
+      "ci": [
+        -2.3204538993637605,
+        2.6408804855339656
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/11",
+      "estimate": 0.04259870681501105,
+      "ci": [
+        -2.438068485633852,
+        2.523265899263874
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/12",
+      "estimate": 3.444325379054524,
+      "ci": [
+        0.9636581866056608,
+        5.924992571503386
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/13",
+      "estimate": 0.19570641108687595,
+      "ci": [
+        -2.284960781361987,
+        2.676373603535739
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/14",
+      "estimate": -0.1562734239546148,
+      "ci": [
+        -2.6369406164034777,
+        2.3243937684942484
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/15",
+      "estimate": 0.06326626804638721,
+      "ci": [
+        -2.4174009244024757,
+        2.5439334604952504
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/16",
+      "estimate": 2.7121223724637753,
+      "ci": [
+        0.23145518001491228,
+        5.192789564912639
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/17",
+      "estimate": -0.18895181719723314,
+      "ci": [
+        -2.6696190096460963,
+        2.2917153752516297
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/18",
+      "estimate": 0.16767081370599404,
+      "ci": [
+        -2.312996378742869,
+        2.648338006154857
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/19",
+      "estimate": 0.044335966222747436,
+      "ci": [
+        -2.4363312262261156,
+        2.5250031586716104
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/20",
+      "estimate": 2.9037807677656615,
+      "ci": [
+        0.4231135753167985,
+        5.3844479602145245
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/21",
+      "estimate": -0.37463597294776424,
+      "ci": [
+        -2.855303165396627,
+        2.106031219501099
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/22",
+      "estimate": 0.10468327183189345,
+      "ci": [
+        -2.3759839206169695,
+        2.5853504642807565
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/23",
+      "estimate": 0.1719427573375284,
+      "ci": [
+        -2.3087244351113347,
+        2.6526099497863913
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/24",
+      "estimate": 2.8449602098429514,
+      "ci": [
+        0.36429301739408837,
+        5.325627402291815
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/25",
+      "estimate": 0.0771826108234069,
+      "ci": [
+        -2.403484581625456,
+        2.55784980327227
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/26",
+      "estimate": -0.06378596859549673,
+      "ci": [
+        -2.54445316104436,
+        2.416881223853366
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/27",
+      "estimate": 0.24162028655218504,
+      "ci": [
+        -2.2390469058966778,
+        2.7222874790010483
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/28",
+      "estimate": 3.7367393689960675,
+      "ci": [
+        1.2560721765472045,
+        6.21740656144493
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/29",
+      "estimate": -0.08169723841138063,
+      "ci": [
+        -2.5623644308602436,
+        2.3989699540374825
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/30",
+      "estimate": 0.14037842751365381,
+      "ci": [
+        -2.340288764935209,
+        2.621045619962517
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/31",
+      "estimate": 0.25199882491893927,
+      "ci": [
+        -2.2286683675299237,
+        2.7326660173678023
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/32",
+      "estimate": 4.574385297569494,
+      "ci": [
+        2.093718105120631,
+        7.055052490018356
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/33",
+      "estimate": 0.007585755077347128,
+      "ci": [
+        -2.473081437371516,
+        2.48825294752621
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/34",
+      "estimate": 0.004830176333176657,
+      "ci": [
+        -2.4758370161156864,
+        2.4854973687820396
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/35",
+      "estimate": 0.33675254029475377,
+      "ci": [
+        -2.143914652154109,
+        2.817419732743617
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/36",
+      "estimate": 4.254124779214772,
+      "ci": [
+        1.7734575867659088,
+        6.734791971663634
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/37",
+      "estimate": -0.07131217365961617,
+      "ci": [
+        -2.5519793661084793,
+        2.4093550187892467
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/38",
+      "estimate": 0.03163299480746251,
+      "ci": [
+        -2.4490341976414003,
+        2.5123001872563258
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/39",
+      "estimate": 0.3063970161548273,
+      "ci": [
+        -2.1742701762940357,
+        2.7870642086036903
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/40",
+      "estimate": 5.461400894472089,
+      "ci": [
+        2.9807337020232256,
+        7.942068086920951
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/41",
+      "estimate": -0.16855789924681316,
+      "ci": [
+        -2.6492250916956763,
+        2.3121092932020497
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/42",
+      "estimate": -0.3566947469114984,
+      "ci": [
+        -2.8373619393603615,
+        2.1239724455373645
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/mean/43",
+      "estimate": 0.07775811143699315,
+      "ci": [
+        -2.40290908101187,
+        2.558425303885856
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/ed_excess",
+      "estimate": 1.5014959132334813,
+      "ci": [
+        -0.9791712792153817,
+        3.9821631056823446
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/0",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/1",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/2",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/3",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/4",
+      "estimate": 1.3804257164977627,
+      "ci": [
+        -1.1002414759511003,
+        3.8610929089466257
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/5",
+      "estimate": -0.2421574718846621,
+      "ci": [
+        -2.722824664333525,
+        2.238509720564201
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/6",
+      "estimate": 0.1572938027104963,
+      "ci": [
+        -2.3233733897383666,
+        2.6379609951593594
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/7",
+      "estimate": 0.1514163856515094,
+      "ci": [
+        -2.3292508067973534,
+        2.6320835781003726
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/8",
+      "estimate": 1.8369453113566054,
+      "ci": [
+        -0.6437218810922576,
+        4.317612503805469
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/9",
+      "estimate": -0.3006516390762629,
+      "ci": [
+        -2.781318831525126,
+        2.1800155533726002
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/10",
+      "estimate": -0.05800090684560834,
+      "ci": [
+        -2.5386680992944712,
+        2.422666285603255
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/11",
+      "estimate": 0.057400536206189505,
+      "ci": [
+        -2.4232666562426735,
+        2.5380677286550526
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/12",
+      "estimate": 2.7640601611346756,
+      "ci": [
+        0.28339296868581254,
+        5.244727353583539
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/13",
+      "estimate": 0.28076326051000366,
+      "ci": [
+        -2.1999039319388594,
+        2.7614304529588667
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/14",
+      "estimate": -0.21234930072264177,
+      "ci": [
+        -2.6930164931715046,
+        2.2683178917262214
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/15",
+      "estimate": 0.04914467325932981,
+      "ci": [
+        -2.4315225191895333,
+        2.5298118657081927
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/16",
+      "estimate": 1.9557951923360202,
+      "ci": [
+        -0.5248720001128429,
+        4.436462384784884
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/17",
+      "estimate": 0.017280105618463104,
+      "ci": [
+        -2.4633870868303998,
+        2.4979472980673263
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/18",
+      "estimate": 0.006711171104266639,
+      "ci": [
+        -2.4739560213445966,
+        2.4873783635531295
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/19",
+      "estimate": 0.08397469947971486,
+      "ci": [
+        -2.396692492969148,
+        2.564641891928578
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/20",
+      "estimate": 3.163394812203312,
+      "ci": [
+        0.682727619754449,
+        5.6440620046521754
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/21",
+      "estimate": -0.3661276953384611,
+      "ci": [
+        -2.846794887787324,
+        2.114539497110402
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/22",
+      "estimate": 0.1378465838730108,
+      "ci": [
+        -2.342820608575852,
+        2.618513776321874
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/23",
+      "estimate": 0.13028274903584386,
+      "ci": [
+        -2.350384443413019,
+        2.610949941484707
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/24",
+      "estimate": 3.130567078238699,
+      "ci": [
+        0.6498998857898362,
+        5.611234270687563
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/25",
+      "estimate": 0.05850135530979725,
+      "ci": [
+        -2.4221658371390657,
+        2.5391685477586603
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/26",
+      "estimate": 0.3050509487544366,
+      "ci": [
+        -2.175616243694426,
+        2.7857181412033
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/27",
+      "estimate": 0.10618498599547817,
+      "ci": [
+        -2.374482206453385,
+        2.586852178444341
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/28",
+      "estimate": 3.8819662420180503,
+      "ci": [
+        1.4012990495691873,
+        6.362633434466913
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/29",
+      "estimate": 0.01404515589477802,
+      "ci": [
+        -2.466622036554085,
+        2.494712348343641
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/30",
+      "estimate": 0.20725258570873561,
+      "ci": [
+        -2.2734146067401273,
+        2.6879197781575987
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/31",
+      "estimate": 0.22249625935141742,
+      "ci": [
+        -2.2581709330974458,
+        2.7031634518002803
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/32",
+      "estimate": 4.428720109228224,
+      "ci": [
+        1.948052916779361,
+        6.9093873016770875
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/33",
+      "estimate": 0.055237170362877834,
+      "ci": [
+        -2.425430022085985,
+        2.535904362811741
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/34",
+      "estimate": 0.15956160804425143,
+      "ci": [
+        -2.3211055844046116,
+        2.6402288004931145
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/35",
+      "estimate": 0.2839684051334756,
+      "ci": [
+        -2.1966987873153876,
+        2.7646355975823385
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/36",
+      "estimate": 4.22485725369716,
+      "ci": [
+        1.7441900612482972,
+        6.705524446146024
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/37",
+      "estimate": -0.017712671802627446,
+      "ci": [
+        -2.4983798642514903,
+        2.4629545206462358
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/38",
+      "estimate": 0.06566777072057187,
+      "ci": [
+        -2.4149994217282913,
+        2.5463349631694348
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/39",
+      "estimate": 0.2242254313731228,
+      "ci": [
+        -2.2564417610757403,
+        2.7048926238219857
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/40",
+      "estimate": 5.242236521027109,
+      "ci": [
+        2.7615693285782457,
+        7.722903713475972
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/41",
+      "estimate": -0.06975116679172484,
+      "ci": [
+        -2.550418359240588,
+        2.410916025657138
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/42",
+      "estimate": -0.4585992406079841,
+      "ci": [
+        -2.939266433056847,
+        2.022067951840879
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/mean/43",
+      "estimate": 0.049697264652470576,
+      "ci": [
+        -2.4309699277963923,
+        2.5303644571013337
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/deterministic:11",
+      "estimate": -1.9122046022865011,
+      "ci": [
+        -4.392871794735364,
+        0.5684625901623619
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/deterministic:11",
+      "estimate": -1.4285147699346497,
+      "ci": [
+        -3.9091819623835127,
+        1.0521524225142134
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/deterministic:11",
+      "estimate": -1.5431349238092282,
+      "ci": [
+        -4.023802116258091,
+        0.9375322686396348
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/deterministic:22",
+      "estimate": -1.9126702877665047,
+      "ci": [
+        -4.393337480215368,
+        0.5679969046823583
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/deterministic:22",
+      "estimate": -1.4289804554146532,
+      "ci": [
+        -3.9096476478635163,
+        1.0516867370342098
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/deterministic:22",
+      "estimate": -1.5436006092892318,
+      "ci": [
+        -4.024267801738095,
+        0.9370665831596312
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/deterministic:33",
+      "estimate": -1.9147105943868046,
+      "ci": [
+        -4.395377786835668,
+        0.5659565980620584
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/deterministic:33",
+      "estimate": -1.431020762034953,
+      "ci": [
+        -3.911687954483816,
+        1.04964643041391
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/deterministic:33",
+      "estimate": -1.5456409159095317,
+      "ci": [
+        -4.0263081083583945,
+        0.9350262765393313
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/euclidean:11",
+      "estimate": 0.9811603804336018,
+      "ci": [
+        -1.4995068120152613,
+        3.4618275728824646
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/euclidean:11",
+      "estimate": 1.4648502127854532,
+      "ci": [
+        -1.0158169796634098,
+        3.945517405234316
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/euclidean:11",
+      "estimate": 1.3502300589108747,
+      "ci": [
+        -1.1304371335379884,
+        3.8308972513597377
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/euclidean:22",
+      "estimate": 0.9338186604081542,
+      "ci": [
+        -1.5468485320407088,
+        3.414485852857017
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/euclidean:22",
+      "estimate": 1.4175084927600057,
+      "ci": [
+        -1.0631586996888573,
+        3.8981756852088685
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/euclidean:22",
+      "estimate": 1.302888338885427,
+      "ci": [
+        -1.177778853563436,
+        3.78355553133429
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/euclidean:33",
+      "estimate": 0.9144487763904743,
+      "ci": [
+        -1.5662184160583887,
+        3.3951159688393373
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/euclidean:33",
+      "estimate": 1.3981386087423258,
+      "ci": [
+        -1.0825285837065373,
+        3.878805801191189
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/euclidean:33",
+      "estimate": 1.2835184548677472,
+      "ci": [
+        -1.1971487375811158,
+        3.7641856473166104
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/autoregressive:11",
+      "estimate": -21.759051216778747,
+      "ci": [
+        -24.23971840922761,
+        -19.278384024329885
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/autoregressive:11",
+      "estimate": -21.275361384426898,
+      "ci": [
+        -23.75602857687576,
+        -18.794694191978035
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/autoregressive:11",
+      "estimate": -21.389981538301477,
+      "ci": [
+        -23.87064873075034,
+        -18.909314345852614
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/autoregressive:22",
+      "estimate": -21.533554841465094,
+      "ci": [
+        -24.014222033913956,
+        -19.05288764901623
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/autoregressive:22",
+      "estimate": -21.049865009113244,
+      "ci": [
+        -23.530532201562107,
+        -18.56919781666438
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/autoregressive:22",
+      "estimate": -21.164485162987823,
+      "ci": [
+        -23.645152355436686,
+        -18.68381797053896
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/autoregressive:33",
+      "estimate": -23.6884787093437,
+      "ci": [
+        -26.16914590179256,
+        -21.207811516894836
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/autoregressive:33",
+      "estimate": -23.20478887699185,
+      "ci": [
+        -25.68545606944071,
+        -20.724121684542986
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/autoregressive:33",
+      "estimate": -23.319409030866428,
+      "ci": [
+        -25.80007622331529,
+        -20.838741838417565
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.11/rfm:11/minus/retrieval:0",
+      "estimate": 1.1311570374902344,
+      "ci": [
+        -1.3495101549586286,
+        3.6118242299390975
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:22/minus/retrieval:0",
+      "estimate": 1.614846869842086,
+      "ci": [
+        -0.8658203226067771,
+        4.095514062290949
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.11/rfm:33/minus/retrieval:0",
+      "estimate": 1.5002267159675073,
+      "ci": [
+        -0.9804404764813557,
+        3.9808939084163706
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/ed_excess",
+      "estimate": 2.551262803554471,
+      "ci": [
+        0.07059561110560786,
+        5.031929996003334
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/0",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/1",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/2",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/3",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/4",
+      "estimate": 3.4690211866080265,
+      "ci": [
+        0.9883539941591635,
+        5.949688379056889
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/5",
+      "estimate": 0.026244753688898587,
+      "ci": [
+        -2.4544224387599645,
+        2.5069119461377616
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/6",
+      "estimate": -0.07641847021138992,
+      "ci": [
+        -2.5570856626602527,
+        2.4042487222374733
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/7",
+      "estimate": -0.1569467139812054,
+      "ci": [
+        -2.6376139064300683,
+        2.3237204784676577
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/8",
+      "estimate": 4.181307888800367,
+      "ci": [
+        1.700640696351504,
+        6.6619750812492295
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/9",
+      "estimate": 0.06575646561188844,
+      "ci": [
+        -2.4149107268369745,
+        2.5464236580607515
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/10",
+      "estimate": -0.047218639751990074,
+      "ci": [
+        -2.527885832200853,
+        2.433448552696873
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/11",
+      "estimate": -0.27292636134429116,
+      "ci": [
+        -2.753593553793154,
+        2.207740831104572
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/12",
+      "estimate": 4.8534242269774674,
+      "ci": [
+        2.3727570345286044,
+        7.334091419426331
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/13",
+      "estimate": 0.04223629160733767,
+      "ci": [
+        -2.4384309008415253,
+        2.522903484056201
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/14",
+      "estimate": -0.10758059339187004,
+      "ci": [
+        -2.588247785840733,
+        2.373086599056993
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/15",
+      "estimate": 0.07613701563107186,
+      "ci": [
+        -2.4045301768177914,
+        2.5568042080799347
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/16",
+      "estimate": 4.564063471352445,
+      "ci": [
+        2.083396278903582,
+        7.0447306638013085
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/17",
+      "estimate": -0.36618849602158166,
+      "ci": [
+        -2.846855688470445,
+        2.1144786964272813
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/18",
+      "estimate": -0.23215713909346308,
+      "ci": [
+        -2.712824331542326,
+        2.2485100533554
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/19",
+      "estimate": 0.13065374022845574,
+      "ci": [
+        -2.3500134522204075,
+        2.6113209326773186
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/20",
+      "estimate": 5.872637199007432,
+      "ci": [
+        3.391970006558569,
+        8.353304391456295
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/21",
+      "estimate": 0.06302760313155496,
+      "ci": [
+        -2.417639589317308,
+        2.543694795580418
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/22",
+      "estimate": -0.2668504480702943,
+      "ci": [
+        -2.7475176405191575,
+        2.2138167443785686
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/23",
+      "estimate": 0.03637079422233662,
+      "ci": [
+        -2.4442963982265264,
+        2.5170379866711996
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/24",
+      "estimate": 5.145789138823457,
+      "ci": [
+        2.6651219463745943,
+        7.626456331272321
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/25",
+      "estimate": -0.014227250579080794,
+      "ci": [
+        -2.4948944430279436,
+        2.4664399418697824
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/26",
+      "estimate": -0.1673852044004247,
+      "ci": [
+        -2.6480523968492875,
+        2.3132819880484385
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/27",
+      "estimate": 0.15757201344636462,
+      "ci": [
+        -2.3230951790024985,
+        2.6382392058952275
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/28",
+      "estimate": 5.645693565962794,
+      "ci": [
+        3.1650263735139306,
+        8.126360758411657
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/29",
+      "estimate": -0.12824466818670743,
+      "ci": [
+        -2.6089118606355703,
+        2.3524225242621557
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/30",
+      "estimate": -0.0002934250623204404,
+      "ci": [
+        -2.4809606175111836,
+        2.4803737673865425
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/31",
+      "estimate": 0.10343706225879426,
+      "ci": [
+        -2.377230130190069,
+        2.584104254707657
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/32",
+      "estimate": 6.273447217142921,
+      "ci": [
+        3.7927800246940584,
+        8.754114409591784
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/33",
+      "estimate": -0.31294215884450544,
+      "ci": [
+        -2.7936093512933686,
+        2.1677250336043574
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/34",
+      "estimate": 0.03282603522896513,
+      "ci": [
+        -2.447841157219898,
+        2.513493227677828
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/35",
+      "estimate": 0.1368175408592887,
+      "ci": [
+        -2.3438496515895744,
+        2.6174847333081517
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/36",
+      "estimate": 5.496125420091042,
+      "ci": [
+        3.015458227642179,
+        7.976792612539905
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/37",
+      "estimate": -0.044100483720180016,
+      "ci": [
+        -2.524767676169043,
+        2.436566708728683
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/38",
+      "estimate": -0.4336315830552091,
+      "ci": [
+        -2.914298775504072,
+        2.047035609393654
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/39",
+      "estimate": 0.2216857347003517,
+      "ci": [
+        -2.2589814577485114,
+        2.7023529271492146
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/40",
+      "estimate": 4.7427734234180665,
+      "ci": [
+        2.2621062309692035,
+        7.223440615866929
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/41",
+      "estimate": 0.1933264189271347,
+      "ci": [
+        -2.2873407735217284,
+        2.6739936113759977
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/42",
+      "estimate": 0.048142172303916486,
+      "ci": [
+        -2.4325250201449466,
+        2.5288093647527794
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/mean/43",
+      "estimate": 0.030520861416428277,
+      "ci": [
+        -2.450146331032435,
+        2.511188053865291
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/ed_excess",
+      "estimate": 4.149904675959235,
+      "ci": [
+        1.6692374835103716,
+        6.630571868408097
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/0",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/1",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/2",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/3",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/4",
+      "estimate": 5.43118587559145,
+      "ci": [
+        2.950518683142587,
+        7.911853068040314
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/5",
+      "estimate": -0.037251180213545385,
+      "ci": [
+        -2.5179183726624084,
+        2.4434160122353177
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/6",
+      "estimate": -0.34198437508597673,
+      "ci": [
+        -2.8226515675348396,
+        2.1386828173628865
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/7",
+      "estimate": -1.3105311457324498,
+      "ci": [
+        -3.791198338181313,
+        1.1701360467164132
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/8",
+      "estimate": 5.932640146632631,
+      "ci": [
+        3.4519729541837676,
+        8.413307339081493
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/9",
+      "estimate": -0.15259203792039444,
+      "ci": [
+        -2.6332592303692577,
+        2.3280751545284684
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/10",
+      "estimate": -0.10482496536524612,
+      "ci": [
+        -2.5854921578141092,
+        2.375842227083617
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/11",
+      "estimate": -0.5553111938492195,
+      "ci": [
+        -3.0359783862980825,
+        1.9253559985996436
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/12",
+      "estimate": 6.441413427339704,
+      "ci": [
+        3.960746234890841,
+        8.922080619788566
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/13",
+      "estimate": 0.041698227937614074,
+      "ci": [
+        -2.438968964511249,
+        2.522365420386477
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/14",
+      "estimate": -0.32147706943331283,
+      "ci": [
+        -2.8021442618821757,
+        2.1591901230155504
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/15",
+      "estimate": -0.2688568442160203,
+      "ci": [
+        -2.749524036664883,
+        2.211810348232843
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/16",
+      "estimate": 6.621166903041441,
+      "ci": [
+        4.140499710592579,
+        9.101834095490304
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/17",
+      "estimate": -0.3641823826383913,
+      "ci": [
+        -2.8448495750872542,
+        2.116484809810472
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/18",
+      "estimate": -0.10197051282854702,
+      "ci": [
+        -2.58263770527741,
+        2.378696679620316
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/19",
+      "estimate": -0.24356037484422632,
+      "ci": [
+        -2.7242275672930893,
+        2.2371068176046367
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/20",
+      "estimate": 7.700880101891845,
+      "ci": [
+        5.220212909442981,
+        10.181547294340708
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/21",
+      "estimate": -0.1278408530608126,
+      "ci": [
+        -2.6085080455096756,
+        2.3528263393880504
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/22",
+      "estimate": -0.3346814292665945,
+      "ci": [
+        -2.8153486217154575,
+        2.1459857631822685
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/23",
+      "estimate": -0.3073795099170013,
+      "ci": [
+        -2.788046702365864,
+        2.173287682531862
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/24",
+      "estimate": 7.091434166027247,
+      "ci": [
+        4.610766973578384,
+        9.57210135847611
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/25",
+      "estimate": -0.09944572849539425,
+      "ci": [
+        -2.5801129209442575,
+        2.3812214639534686
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/26",
+      "estimate": -0.03336694262868703,
+      "ci": [
+        -2.51403413507755,
+        2.447300249820176
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/27",
+      "estimate": -0.23293515272342963,
+      "ci": [
+        -2.713602345172293,
+        2.2477320397254332
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/28",
+      "estimate": 7.149714709171679,
+      "ci": [
+        4.6690475167228165,
+        9.630381901620542
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/29",
+      "estimate": 0.2775009878299041,
+      "ci": [
+        -2.203166204618959,
+        2.758168180278767
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/30",
+      "estimate": 0.01418367463492682,
+      "ci": [
+        -2.4664835178139364,
+        2.4948508670837897
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/31",
+      "estimate": -0.40566543620982176,
+      "ci": [
+        -2.8863326286586846,
+        2.0750017562390415
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/32",
+      "estimate": 9.022717386773657,
+      "ci": [
+        6.542050194324794,
+        11.50338457922252
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/33",
+      "estimate": -0.10417144016513069,
+      "ci": [
+        -2.5848386326139936,
+        2.3764957522837324
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/34",
+      "estimate": 0.23873805304421872,
+      "ci": [
+        -2.241929139404644,
+        2.719405245493082
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/35",
+      "estimate": -0.39332926077936076,
+      "ci": [
+        -2.873996453228224,
+        2.087337931669502
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/36",
+      "estimate": 7.181070805924264,
+      "ci": [
+        4.700403613475402,
+        9.661737998373127
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/37",
+      "estimate": -0.006332479040132559,
+      "ci": [
+        -2.4869996714889955,
+        2.4743347134087306
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/38",
+      "estimate": -0.3161637133798485,
+      "ci": [
+        -2.7968309058287115,
+        2.1645034790690145
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/39",
+      "estimate": -0.2545384491263254,
+      "ci": [
+        -2.735205641575188,
+        2.226128743322538
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/40",
+      "estimate": 7.418398110545886,
+      "ci": [
+        4.937730918097023,
+        9.89906530299475
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/41",
+      "estimate": 0.36283674637077723,
+      "ci": [
+        -2.1178304460780857,
+        2.8435039388196404
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/42",
+      "estimate": 0.01611016026952325,
+      "ci": [
+        -2.4645570321793397,
+        2.4967773527183863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/mean/43",
+      "estimate": -0.17005200004683477,
+      "ci": [
+        -2.6507191924956977,
+        2.3106151924020284
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/ed_excess",
+      "estimate": 2.948715521597499,
+      "ci": [
+        0.4680483291486359,
+        5.429382714046362
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/0",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/1",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/2",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/3",
+      "estimate": 0.0,
+      "ci": [
+        -2.480667192448863,
+        2.480667192448863
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/4",
+      "estimate": 3.784074398392507,
+      "ci": [
+        1.303407205943644,
+        6.2647415908413695
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/5",
+      "estimate": 0.06296892558666331,
+      "ci": [
+        -2.4176982668621996,
+        2.5436361180355265
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/6",
+      "estimate": -0.2754923215997738,
+      "ci": [
+        -2.756159514048637,
+        2.2051748708490893
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/7",
+      "estimate": -0.2038768789286071,
+      "ci": [
+        -2.68454407137747,
+        2.276790313520256
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/8",
+      "estimate": 3.7627720199016306,
+      "ci": [
+        1.2821048274527675,
+        6.243439212350493
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/9",
+      "estimate": -0.0013846267086806696,
+      "ci": [
+        -2.482051819157544,
+        2.4792825657401822
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/10",
+      "estimate": -0.2837972555188067,
+      "ci": [
+        -2.76446444796767,
+        2.196869936930056
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/11",
+      "estimate": -0.14401309816770297,
+      "ci": [
+        -2.624680290616566,
+        2.33665409428116
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/12",
+      "estimate": 4.5305890321884155,
+      "ci": [
+        2.0499218397395524,
+        7.011256224637279
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/13",
+      "estimate": -0.09484477772877986,
+      "ci": [
+        -2.5755119701776428,
+        2.3858224147200833
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/14",
+      "estimate": 0.07459841181829562,
+      "ci": [
+        -2.4060687806305676,
+        2.5552656042671584
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/15",
+      "estimate": 0.04934019021043413,
+      "ci": [
+        -2.431327002238429,
+        2.530007382659297
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/16",
+      "estimate": 5.26975644887775,
+      "ci": [
+        2.789089256428887,
+        7.750423641326613
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/17",
+      "estimate": -0.3763421232341717,
+      "ci": [
+        -2.857009315683035,
+        2.104325069214691
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/18",
+      "estimate": -0.14026965887914095,
+      "ci": [
+        -2.620936851328004,
+        2.340397533569722
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/19",
+      "estimate": -0.00952536729858091,
+      "ci": [
+        -2.490192559747444,
+        2.471141825150282
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/20",
+      "estimate": 6.055505962412115,
+      "ci": [
+        3.5748387699632516,
+        8.536173154860977
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/21",
+      "estimate": 0.09358523241699228,
+      "ci": [
+        -2.3870819600318707,
+        2.5742524248658554
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/22",
+      "estimate": -0.06958820388264267,
+      "ci": [
+        -2.5502553963315058,
+        2.4110789885662203
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/23",
+      "estimate": 0.03078979024452546,
+      "ci": [
+        -2.4498774022043377,
+        2.5114569826933884
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/24",
+      "estimate": 5.551955563797638,
+      "ci": [
+        3.0712883713487753,
+        8.032622756246502
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/25",
+      "estimate": -0.05463083697327267,
+      "ci": [
+        -2.535298029422136,
+        2.42603635547559
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/26",
+      "estimate": -0.02504946161334639,
+      "ci": [
+        -2.5057166540622093,
+        2.4556177308355167
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/27",
+      "estimate": 0.07487368718431253,
+      "ci": [
+        -2.4057935052645503,
+        2.5555408796331758
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/28",
+      "estimate": 5.9430737072333395,
+      "ci": [
+        3.4624065147844765,
+        8.423740899682203
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/29",
+      "estimate": -0.00851533708935135,
+      "ci": [
+        -2.489182529538214,
+        2.472151855359512
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/30",
+      "estimate": -0.06129801137656888,
+      "ci": [
+        -2.541965203825432,
+        2.419369181072294
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/31",
+      "estimate": -0.10261568449859435,
+      "ci": [
+        -2.5832828769474574,
+        2.3780515079502687
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/32",
+      "estimate": 7.69681881818852,
+      "ci": [
+        5.216151625739657,
+        10.177486010637383
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/33",
+      "estimate": -0.31981320398193797,
+      "ci": [
+        -2.800480396430801,
+        2.160853988466925
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/34",
+      "estimate": 0.09878400280869232,
+      "ci": [
+        -2.381883189640171,
+        2.579451195257555
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/35",
+      "estimate": -0.10438080710742703,
+      "ci": [
+        -2.58504799955629,
+        2.376286385341436
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/36",
+      "estimate": 5.944401106602323,
+      "ci": [
+        3.4637339141534595,
+        8.425068299051185
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/37",
+      "estimate": 0.0527070186320436,
+      "ci": [
+        -2.4279601738168193,
+        2.5333742110809068
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/38",
+      "estimate": -0.11030655906066272,
+      "ci": [
+        -2.5909737515095257,
+        2.3703606333882004
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/39",
+      "estimate": -0.08806179883005284,
+      "ci": [
+        -2.568728991278916,
+        2.39260539361881
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/40",
+      "estimate": 6.645970835853108,
+      "ci": [
+        4.165303643404245,
+        9.12663802830197
+      ],
+      "tolerance": 0.1,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/41",
+      "estimate": -0.1065222429039493,
+      "ci": [
+        -2.5871894353528124,
+        2.3741449495449136
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/42",
+      "estimate": 0.19552667354420172,
+      "ci": [
+        -2.285140518904661,
+        2.676193865993065
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/mean/43",
+      "estimate": -0.15325850304845423,
+      "ci": [
+        -2.633925695497317,
+        2.327408689400409
+      ],
+      "tolerance": 0.1,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/deterministic:11",
+      "estimate": -1.2291429042366437,
+      "ci": [
+        -3.7098100966855068,
+        1.2515242882122193
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/deterministic:11",
+      "estimate": 0.36949896816812,
+      "ci": [
+        -2.111168224280743,
+        2.850166160616983
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/deterministic:11",
+      "estimate": -0.8316901861936157,
+      "ci": [
+        -3.3123573786424787,
+        1.6489770062552473
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/deterministic:22",
+      "estimate": -1.2325826858166846,
+      "ci": [
+        -3.7132498782655476,
+        1.2480845066321784
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/deterministic:22",
+      "estimate": 0.3660591865880791,
+      "ci": [
+        -2.114608005860784,
+        2.846726379036942
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/deterministic:22",
+      "estimate": -0.8351299677736566,
+      "ci": [
+        -3.3157971602225196,
+        1.6455372246752065
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/deterministic:33",
+      "estimate": -1.2333993392280767,
+      "ci": [
+        -3.7140665316769397,
+        1.2472678532207864
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/deterministic:33",
+      "estimate": 0.3652425331766871,
+      "ci": [
+        -2.115424659272176,
+        2.84590972562555
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/deterministic:33",
+      "estimate": -0.8359466211850486,
+      "ci": [
+        -3.3166138136339116,
+        1.6447205712638144
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/euclidean:11",
+      "estimate": 1.9055225889755003,
+      "ci": [
+        -0.5751446034733627,
+        4.386189781424363
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/euclidean:11",
+      "estimate": 3.504164461380264,
+      "ci": [
+        1.023497268931401,
+        5.9848316538291275
+      ],
+      "tolerance": 0.02,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/euclidean:11",
+      "estimate": 2.3029753070185284,
+      "ci": [
+        -0.17769188543033465,
+        4.783642499467391
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/euclidean:22",
+      "estimate": 1.29313364118444,
+      "ci": [
+        -1.187533551264423,
+        3.7738008336333033
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/euclidean:22",
+      "estimate": 2.891775513589204,
+      "ci": [
+        0.411108321140341,
+        5.372442706038067
+      ],
+      "tolerance": 0.02,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/euclidean:22",
+      "estimate": 1.6905863592274681,
+      "ci": [
+        -0.7900808332213949,
+        4.171253551676331
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/euclidean:33",
+      "estimate": 1.8041491559462663,
+      "ci": [
+        -0.6765180365025967,
+        4.284816348395129
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/euclidean:33",
+      "estimate": 3.40279102835103,
+      "ci": [
+        0.9221238359021671,
+        5.883458220799893
+      ],
+      "tolerance": 0.02,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/euclidean:33",
+      "estimate": 2.2016018739892944,
+      "ci": [
+        -0.2790653184595686,
+        4.682269066438158
+      ],
+      "tolerance": 0.02,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/autoregressive:11",
+      "estimate": -18.40544557225192,
+      "ci": [
+        -20.886112764700783,
+        -15.924778379803058
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/autoregressive:11",
+      "estimate": -16.80680369984716,
+      "ci": [
+        -19.28747089229602,
+        -14.326136507398296
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/autoregressive:11",
+      "estimate": -18.007992854208894,
+      "ci": [
+        -20.488660046657756,
+        -15.527325661760031
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/autoregressive:22",
+      "estimate": -18.743701652290557,
+      "ci": [
+        -21.22436884473942,
+        -16.263034459841695
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/autoregressive:22",
+      "estimate": -17.145059779885795,
+      "ci": [
+        -19.625726972334657,
+        -14.664392587436932
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/autoregressive:22",
+      "estimate": -18.34624893424753,
+      "ci": [
+        -20.826916126696393,
+        -15.865581741798668
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/autoregressive:33",
+      "estimate": -22.414732068543298,
+      "ci": [
+        -24.89539926099216,
+        -19.934064876094435
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/autoregressive:33",
+      "estimate": -20.816090196138536,
+      "ci": [
+        -23.296757388587398,
+        -18.335423003689673
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/autoregressive:33",
+      "estimate": -22.01727935050027,
+      "ci": [
+        -24.497946542949133,
+        -19.53661215805141
+      ],
+      "tolerance": 0.02,
+      "status": "PASS"
+    },
+    {
+      "label": "T0.13/rfm:11/minus/retrieval:0",
+      "estimate": 2.5205058689690465,
+      "ci": [
+        0.03983867652018347,
+        5.0011730614179095
+      ],
+      "tolerance": 0.02,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:22/minus/retrieval:0",
+      "estimate": 4.11914774137381,
+      "ci": [
+        1.6384805489249472,
+        6.599814933822673
+      ],
+      "tolerance": 0.02,
+      "status": "FAIL"
+    },
+    {
+      "label": "T0.13/rfm:33/minus/retrieval:0",
+      "estimate": 2.9179585870120746,
+      "ci": [
+        0.43729139456321153,
+        5.398625779460938
+      ],
+      "tolerance": 0.02,
+      "status": "FAIL"
+    }
+  ],
+  "valid_models": [
+    "rfm:11",
+    "rfm:22",
+    "rfm:33",
+    "deterministic:11",
+    "deterministic:22",
+    "deterministic:33",
+    "euclidean:11",
+    "euclidean:22",
+    "euclidean:33",
+    "autoregressive:11",
+    "autoregressive:22",
+    "autoregressive:33",
+    "retrieval:0"
+  ],
+  "excluded_nonfinite_models": [],
+  "formal_limitations": [
+    "Four evaluation initial families and16 noises per half cannot certify small errors.",
+    "Reference dt=.02 at L25 is not fully convergence certified; result applies to this discrete reference.",
+    "Event intervals are exploratory pointwise, not the registered confirmatory simultaneous family.",
+    "No temperature holdout test or matched-accuracy total-cost advantage claim in this first loop."
+  ]
+}

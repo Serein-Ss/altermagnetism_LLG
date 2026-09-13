@@ -1,0 +1,165 @@
+{
+  "paper_id": "bauer_2011",
+  "protocol": "trajectory",
+  "configuration": {
+    "paper_id": "bauer_2011",
+    "provenance": {
+      "doi": "10.1088/0953-8984/23/39/394204",
+      "target": "original-condition reversal and lifetime scaling",
+      "status": "implemented_candidate_pending_numerical_and_reference_certification"
+    },
+    "source_parameters": {
+      "exchange": {
+        "value": 1.0,
+        "unit": "dimensionless",
+        "source": "J_reference"
+      },
+      "anisotropy": {
+        "value": 0.1,
+        "unit": "dimensionless",
+        "source": "K/J"
+      },
+      "theta": {
+        "value": 0.11,
+        "unit": "dimensionless",
+        "source": "kBT/J"
+      },
+      "alpha": {
+        "value": 0.1,
+        "unit": "dimensionless",
+        "source": "lambda_LL_not_Gilbert_alpha"
+      },
+      "uncertainty_note": "Paper model settings; no measured uncertainty supplied."
+    },
+    "reduction": {
+      "energy": "J",
+      "time": "hbar/J",
+      "temperature": "kBT/J"
+    },
+    "reduced": {
+      "equation_convention": "bauer_ll",
+      "exchange": 1.0,
+      "anisotropy": 0.1,
+      "theta": 0.11,
+      "alpha": 0.1
+    },
+    "numerics": {
+      "paper_settings": {
+        "length": 100,
+        "duration": 750000,
+        "boundary": "open"
+      },
+      "numerical_choice": {
+        "dt_scan": [
+          0.02,
+          0.01,
+          0.005
+        ],
+        "seed": 20260909
+      },
+      "validation_extension": {
+        "minimum_completed_events": 500,
+        "production_enabled": false,
+        "campaign_kind": "independent_diagnostic_not_literature_certificate",
+        "validation_protocols": [
+          "trajectory"
+        ]
+      },
+      "preflight_choice": {
+        "coarse_steps": 10000,
+        "independent_chains": 8,
+        "save_every": 100,
+        "method": "heun",
+        "scope": "software_and_timing_only_not_lifetime_convergence"
+      },
+      "protocols": {
+        "trajectory": {
+          "length": 100,
+          "batch": 32,
+          "dt": 0.02,
+          "steps": 10000,
+          "save_every": 50,
+          "seed": 2026091900,
+          "method": "milstein_tretyakov_5_9",
+          "project": false,
+          "resumable": true,
+          "checkpoint_every": 10000
+        }
+      },
+      "implementation_notes": {
+        "integrator": "Milstein-Tretyakov 1997 Eq 5.9 weak RK with Eq 4.5/4.6 discrete draws; final projection is an explicit project extension; Heun remains for common-Wiener comparisons.",
+        "trajectory": "Paper duration 750000; saved interval 10 is a numerical choice requiring event-resolution convergence.",
+        "parameter_grid": "Additional paper length and temperature points must be supplied with digitization provenance."
+      }
+    }
+  },
+  "config_sha256": "cc3f3243581cb61e4c88f7ee053c6f0464554403a31f61529543fd39b1f2e4b0",
+  "device": "cpu",
+  "stage": "numerical_validation",
+  "run_id": "20260911_040025_008_timing",
+  "status": "simulation_complete_analysis_not_certified",
+  "claim": "numerical_experiment_not_literature_certification",
+  "code_sha256": {
+    "scripts/core/altermagnet_dynamics.py": "d6a9171027c557372173c1b994321553fc4a2ad7682d2c5966ef90eceeb720a1",
+    "scripts/core/unified_llg.py": "f154195a37267ccb43587717e94c4d67d36cecc8ad6b6abfd81ab3a892cb9518",
+    "scripts/core/audit_integrators.py": "8060744209181112e26d54fbd8cc58ed2a75935771268beb73ad096d523f3626",
+    "scripts/core/equilibrium_statistics.py": "0bbd6e21759e205b83057a7b3f3d4a174a161ac54fcee2b839eb9cdc83e4c342",
+    "scripts/core/project_paths.py": "6f2e75af880f2d7347a0cbdb1a7189be9b423ade87e268b7610b73d989df09c9",
+    "scripts/core/reduced_llg.py": "89219cacf6a0f6eace9c0a43ce61634ac1496ae9521b17fdb7597232de28c05a",
+    "scripts/core/literature_config.py": "80fe7801098901168503c417761356f08cdd07c44e68f6ce633ca748578a6fa7",
+    "scripts/core/cell_hamiltonian.py": "6fde94744ff2ad43bac4fcde09c6132b8628b23fe636c6b64975b37f99d34c94",
+    "scripts/core/streaming_llg.py": "3dc1a1220e90a36899fabfa6a12e0ceec0516546a7ff8b8bc9226b14b36715de",
+    "scripts/literature/validate_spinwave.py": "ba594828cf08bd6d5881c5cd0b2d930d22591c5e0fb5b182d00b1bb83bf45e0a",
+    "scripts/literature/validate_bauer2011_chain.py": "9a552c86bd368fb9e522a610df8584f3b4956d081e6783cee403339fc9f2d113",
+    "scripts/literature/generate_bauer2011_paths.py": "cf1b78d252b890c024452db09b405d53e96b11a280fcd529ed5c51a9186ee94e",
+    "scripts/literature/validate_crnb3s6_helix.py": "981eee7fb9305f5f93849eb683a83319e9870c43b8ff23ff1242484eb8bafdc4",
+    "scripts/literature/validate_nishino_full.py": "6e770d628351317a1a5b6a088b69136328b57c643d5585745d01c3db89fc3b76",
+    "scripts/literature/workflow.py": "18cc417bfe120fff56d0ee291a4e362c107e2e7880a6c88189babf33fe1c5e99",
+    "scripts/literature/animate.py": "4ebeef455542e5d945d8e5d10ec920b327566b66e0481a01c9f56023bcbaa35a",
+    "scripts/literature/nishino_miyashita_2015/model.py": "e5bae8afb4da54d3972d0e27ecf0772289fbc29183d405e722f713a2710949f2",
+    "scripts/literature/nishino_miyashita_2015/run.py": "04717b18cb31c52d620547146a564dda9a4f7b8a754440d5d5c484da9c607988",
+    "scripts/literature/nishino_miyashita_2015/analyze.py": "099a9a5b5ded1bc3fc885eb80a3183dd5768e99c91129fdb622d7b6b9af87b79",
+    "scripts/literature/nishino_miyashita_2015/legacy_run.py": "d849e09f574c659d5f8c796ad3a67ae78903963a43e58670a3995cb698d756b3",
+    "scripts/literature/nishino_miyashita_2015/legacy_analyze.py": "4b006d17a9256d131053822590a41efdaa4ec2cf6c725263e2abf934dac82898",
+    "scripts/literature/nishino_miyashita_2015/plot.py": "5eb1d6f5ac9c7cdd905bf96caa8b58e221a88592b2db0149dcdf685fb3bdd93b",
+    "scripts/literature/gomonay_2024/legacy_run.py": "3f6cfa23dcec3287ace8396e0791d3ecd063c457de0c891bb50b5cc15b145597",
+    "scripts/literature/gomonay_2024/legacy_plot.py": "5429916d2c77c582e280e20efeadcd516f747ee90cf0ce7979e052edc1a4a181",
+    "scripts/literature/gomonay_2024/legacy_comparison.py": "45670e428aa2aeb67949f01f862786cd38508f10a524a95e6aeb7e8f82b3b764",
+    "scripts/literature/gomonay_2024/legacy_extract_reference.py": "e362c4f1eff0b703fb001f6e6b584f4e871bd342c17ecd0cdaf39c7a04f77089",
+    "scripts/literature/gomonay_2024/legacy_animation.py": "5f5d93bca6db0238615d2b9e25e1b9c19701c0896c64c7377861d40fd46ff87b",
+    "scripts/literature/gomonay_2024/model.py": "9ab67b0f500ec2152452bff0ad6fd48cdb65f18619bded5245fbe213526c281a",
+    "scripts/literature/gomonay_2024/run.py": "6fdedf67dd2d588f74c67161ddea7a6f1e6471f1c8aadeb7e2eefa818198f95f",
+    "scripts/literature/gomonay_2024/analyze.py": "00423313ca60d8c8e24c7908a83b43ba350885b22ea4840f85415005c8ab7c9a",
+    "scripts/literature/gomonay_2024/plot.py": "e2edcffa3c3f89b2e1800c25bff5ab1c370d7b1ea464d7f9054b8b849e18563e",
+    "scripts/literature/bauer_2011/legacy_static.py": "b7b50cefdb19bf60e2d4944f00ff80ec60a5921c74b52067bd1cf01c5cd4ccf1",
+    "scripts/literature/bauer_2011/legacy_run.py": "fe723c853a255e5d45e1dfc541670248c8a17b3e5864759b909f3dc9ecd17bdf",
+    "scripts/literature/bauer_2011/model.py": "eda7c2d2e50e88a290e52d1b81ddca21bb2fabd54ac8800b67a21ec670e524ad",
+    "scripts/literature/bauer_2011/preflight.py": "45cea20b5f43f7a557a00d6d97eb2f1d12b2f67de272536cae0e4e14135b96fb",
+    "scripts/literature/bauer_2011/run.py": "174e83934f25e2d3a5188733ee5a0b50e8ad9c76ec05aca8709552b01176841e",
+    "scripts/literature/bauer_2011/analyze.py": "07e629ad8d2c9e004e3eaa383629a0ae83c942a3236349978a056d8651a6f2b8",
+    "scripts/literature/bauer_2011/plot.py": "01f07bcf462c1f3a9ed326a0daf5e1059e1fe845f9c0e174f00bd3a8a5faee21",
+    "scripts/literature/bauer_2011/fit.py": "dc44eaeb1d21632658c28dbbafd765d6f8f88a1d63b072827bf216fa35061066",
+    "scripts/literature/bauer_2011/integrator.py": "421b07014ffeb8e128925ef049a46afa2226973e5de4c51657678062977defa1",
+    "scripts/literature/laliena_crnb3s6_2020/legacy_run.py": "83aab336ebbb09fc4797565bdfc515daec6ddc5569136983a9604804f3d47cd5",
+    "scripts/literature/laliena_crnb3s6_2020/model.py": "ab24df52b405a38c15c6834b75cb64a6490c7a055d9115639e4f7754d4647b1e",
+    "scripts/literature/laliena_crnb3s6_2020/run.py": "02aedbe4f83436e11b82ae1c7e6414f344cdfa899ef07271501dcb335497c599",
+    "scripts/literature/laliena_crnb3s6_2020/analyze.py": "fdbfb53d12496827a66ee565b21514b0068fece6c4ca5f6c02fa4ce69f049bd5",
+    "scripts/literature/laliena_crnb3s6_2020/plot.py": "ffc0cdb1ddddcce10691eacc150e21d1dc5dae917b42104e3810600dfac33eaf",
+    "scripts/literature/hirst_mn2au_2022/model.py": "d616a67bb61cc9ed86523c7050746619951c1420db416200d737c7ec51748bf2",
+    "scripts/literature/hirst_mn2au_2022/run.py": "7720f5c6191ade1ed716b960dc94bed3e973ffeb3c358783e8831dfec373b651",
+    "scripts/literature/hirst_mn2au_2022/analyze.py": "ef89bdb326a50fc736cf4d0a9585d676f2d87bb09af337f630c7080f8495d511",
+    "scripts/literature/hirst_mn2au_2022/plot.py": "2c236a76215087938616b72a2ba526cf6e30fc9c71131881cb74579d7df8f488",
+    "scripts/literature/hirst_mn2au_2022/llb.py": "6c6150654351c0b2c24083761f345920ab544a6cc58f14fa63b2a86d018e3064",
+    "scripts/literature/hirst_mn2au_2022/llb_run.py": "ce3d0a6620bc45d8df5458fdb8cbf7b20c8db83766a462a7d84bfa2e0da239a9",
+    "scripts/literature/hirst_mn2au_2022/wall_analysis.py": "fe5b7f6235b245c7c9108173948f68b15bd56b6d0101d86e8f6dd899568a19ac"
+  },
+  "versions": {
+    "torch": "2.6.0+cu118",
+    "numpy": "2.0.1",
+    "h5py": "3.14.0"
+  },
+  "files_sha256": {
+    "trajectory.h5.checkpoint.h5": "a16012d13a20ff058b5bf5f7e46952aa4eedb743a7f9678513340a0540d2e082",
+    "trajectory.h5": "ff61d4386ba3de41d4c5a5edf769cf9417997e3e7a3aa24891374dbc826d8625"
+  }
+}

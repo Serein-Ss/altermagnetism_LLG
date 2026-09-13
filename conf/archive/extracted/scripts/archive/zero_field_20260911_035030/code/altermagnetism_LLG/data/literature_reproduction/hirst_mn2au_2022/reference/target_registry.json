@@ -1,0 +1,34 @@
+{
+  "paper_id": "hirst_mn2au_2022",
+  "doi": "10.1103/PhysRevB.106.094402",
+  "registered": "2026-09-11",
+  "targets": [
+    {
+      "id": "published_bond_audit",
+      "status": "inconclusive",
+      "source": "PhysRevB.106.094402.pdf",
+      "sha256": "07b328e72ab4bb3e7901c20f36926f11517fe0d3c89d8fd382fbb691720db1b2",
+      "blocker": "Internal neighbor counts are not a second independent per-displacement audit; fractional z metric unresolved"
+    },
+    {
+      "id": "Fig2",
+      "status": "inconclusive",
+      "next": "30^3, three existing temperatures, numerical calibration only",
+      "blocker": "Full temperature grid, Tc statistics and external curve points missing"
+    },
+    {
+      "id": "Fig3",
+      "status": "inconclusive",
+      "next": "Extended ASD/LLB time2000 at three temperatures",
+      "blocker": "Fig3-specific damping not independently fixed; LLB uses published me fit, not own ASD fit"
+    },
+    {
+      "id": "Fig11",
+      "status": "inconclusive",
+      "next": "Fixed-end wall time16000",
+      "blocker": "Steady profile and independent reference width definition remain to verify"
+    }
+  ],
+  "old_results": "exploratory except explicitly scoped historical acceptance",
+  "production_enabled": false
+}

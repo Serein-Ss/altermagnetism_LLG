@@ -1,0 +1,93 @@
+{
+  "status": "observation_window_accepted",
+  "decision_rule": {
+    "max_unresolved_fraction": 0.2,
+    "scope": "all real trajectories in each size-condition group"
+  },
+  "calibration": {
+    "negative_threshold": -0.9221981142789033,
+    "positive_threshold": 0.9385744009508681,
+    "residence_ps": 0.1,
+    "component_means": [
+      -0.9638619925461563,
+      0.9714011325903819
+    ],
+    "component_std": [
+      0.013887959422417667,
+      0.010942243879837922
+    ],
+    "component_weights": [
+      0.41975308641975306,
+      0.5802469135802469
+    ],
+    "trajectories": 243,
+    "sources": [
+      "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L16.h5",
+      "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L32.h5",
+      "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L64.h5"
+    ],
+    "component_count": 2
+  },
+  "prefix_integrity": {
+    "altermagnetism_LLG/data/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5": {
+      "source": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5",
+      "datasets": {
+        "time": true,
+        "spins": true,
+        "magnetization": true,
+        "neel": true,
+        "energy": true
+      },
+      "manifest": "altermagnetism_LLG/data/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.manifest.json",
+      "output_sha256_matches_manifest": true,
+      "exact": true
+    }
+  },
+  "conditions": {
+    "L96/condition_0": {
+      "paths": 20,
+      "crossed_zero_fraction": 0.0,
+      "negative_endpoint_fraction": 0.0,
+      "committed_switch_fraction": 0.0,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0,
+      "endpoint_mean": 0.9790465474128723,
+      "endpoint_std": 0.0008191238664424157,
+      "mean_peak_spatial_std": 0.12185447290539742,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 96,
+      "condition_id": 0,
+      "field_tesla": 0.7
+    },
+    "L96/condition_1": {
+      "paths": 20,
+      "crossed_zero_fraction": 0.4,
+      "negative_endpoint_fraction": 0.4,
+      "committed_switch_fraction": 0.4,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.05,
+      "endpoint_mean": 0.19496815502643586,
+      "endpoint_std": 0.9580669344993461,
+      "mean_peak_spatial_std": 0.5465215273201466,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 96,
+      "condition_id": 1,
+      "field_tesla": 0.78
+    },
+    "L96/condition_2": {
+      "paths": 20,
+      "crossed_zero_fraction": 0.95,
+      "negative_endpoint_fraction": 0.95,
+      "committed_switch_fraction": 0.95,
+      "crossing_return_fraction": 0.0,
+      "unresolved_transition_fraction": 0.0,
+      "endpoint_mean": -0.8806937783956528,
+      "endpoint_std": 0.4263205667241179,
+      "mean_peak_spatial_std": 0.32023984789848325,
+      "max_spin_norm_error": 1.1920928955078125e-07,
+      "lattice_size": 96,
+      "condition_id": 2,
+      "field_tesla": 0.8
+    }
+  }
+}

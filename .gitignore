@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Download-only planning directory; tracked files are protected by the local commit hook.
+/GUIDE/
+/data/
+*.partial
+data/research/datasets/standard_v2_extended_2ps/test_large/d_wave_altermagnet_L96.h5
+data/research/generated/diagnostics/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5
+data/research/generated/diagnostics/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5
+data/research/datasets/standard_v2_extended_3ps/test_large/d_wave_altermagnet_L96.h5
+data/research/datasets/standard_v2_extended_3ps/train/d_wave_altermagnet_L64.h5
+data/research/generated/production/production_v2/seed_20260908/evaluation/L96/generated_trajectories.h5
+data/research/generated/production/production_v2/seed_20260909/evaluation/L96/generated_trajectories.h5
+data/research/generated/production/production_v2/seed_20260910/evaluation/L96/generated_trajectories.h5
+/data/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt0005/observables.h5
+/data/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt001/observables.h5
+/data/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt002/observables.h5

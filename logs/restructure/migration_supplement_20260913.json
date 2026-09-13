@@ -1,0 +1,169 @@
+{
+  "files": [
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/preserved_checkpoints/original_dt0005/checkpoint.npz",
+      "new": "data/research/runs/bauer_first_loop/20260913_v1/preserved_checkpoints/original_dt0005/checkpoint.npz",
+      "bytes": 154124
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/preserved_checkpoints/original_dt001/checkpoint.npz",
+      "new": "data/research/runs/bauer_first_loop/20260913_v1/preserved_checkpoints/original_dt001/checkpoint.npz",
+      "bytes": 154124
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/preserved_checkpoints/original_dt002/checkpoint.npz",
+      "new": "data/research/runs/bauer_first_loop/20260913_v1/preserved_checkpoints/original_dt002/checkpoint.npz",
+      "bytes": 154124
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt0005/checkpoint.npz",
+      "new": "data/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt0005/checkpoint.npz",
+      "bytes": 154124
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt001/checkpoint.npz",
+      "new": "data/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt001/checkpoint.npz",
+      "bytes": 154124
+    },
+    {
+      "old": "assets/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt002/checkpoint.npz",
+      "new": "data/literature_reproduction/bauer_2011/runs/bauer_campaign/20260913_classical_independent/reference/original_dt002/checkpoint.npz",
+      "bytes": 154124
+    },
+    {
+      "old": "data/literature_reproduction/nishino_miyashita_2015/reference/PhysRevB.97.019904.pdf",
+      "new": "docs/attachments/data/literature_reproduction/nishino_miyashita_2015/reference/PhysRevB.97.019904.pdf",
+      "bytes": 99999
+    },
+    {
+      "old": "data/literature_reproduction/nishino_miyashita_2015/reference/PhysRevB.91.134411.pdf",
+      "new": "docs/attachments/data/literature_reproduction/nishino_miyashita_2015/reference/PhysRevB.91.134411.pdf",
+      "bytes": 2655462
+    },
+    {
+      "old": "data/literature_reproduction/nishino_miyashita_2015/reference/fig1_published_page3.png",
+      "new": "assets/literature_reproduction/nishino_miyashita_2015/reference/fig1_published_page3.png",
+      "bytes": 23620
+    },
+    {
+      "old": "data/literature_reproduction/gomonay_2024/reference/Gomonay_2024_main.pdf",
+      "new": "docs/attachments/data/literature_reproduction/gomonay_2024/reference/Gomonay_2024_main.pdf",
+      "bytes": 1907886
+    },
+    {
+      "old": "data/literature_reproduction/gomonay_2024/reference/gomonay_2024_fig2.png",
+      "new": "assets/literature_reproduction/gomonay_2024/reference/gomonay_2024_fig2.png",
+      "bytes": 235904
+    },
+    {
+      "old": "data/literature_reproduction/gomonay_2024/reference/Gomonay_2024_supplement.pdf",
+      "new": "docs/attachments/data/literature_reproduction/gomonay_2024/reference/Gomonay_2024_supplement.pdf",
+      "bytes": 1531895
+    },
+    {
+      "old": "data/literature_reproduction/bauer_2011/reference/bauer_2011_magnetic_chain.pdf",
+      "new": "docs/attachments/data/literature_reproduction/bauer_2011/reference/bauer_2011_magnetic_chain.pdf",
+      "bytes": 411369
+    },
+    {
+      "old": "data/literature_reproduction/bauer_2011/reference/Milstein_Tretyakov_1997.pdf",
+      "new": "docs/attachments/data/literature_reproduction/bauer_2011/reference/Milstein_Tretyakov_1997.pdf",
+      "bytes": 794850
+    },
+    {
+      "old": "data/literature_reproduction/hirst_mn2au_2022/reference/PhysRevB.106.094402.pdf",
+      "new": "docs/attachments/data/literature_reproduction/hirst_mn2au_2022/reference/PhysRevB.106.094402.pdf",
+      "bytes": 1081109
+    },
+    {
+      "old": "data/research/datasets/standard_v3/registry.yaml",
+      "new": "conf/research/datasets/standard_v3/registry.yaml",
+      "bytes": 2622
+    },
+    {
+      "old": "data/research/datasets/standard_v3/altermagnet_gomonay2024/protocol.candidate.yaml",
+      "new": "conf/research/datasets/standard_v3/altermagnet_gomonay2024/protocol.candidate.yaml",
+      "bytes": 2221
+    },
+    {
+      "old": "scripts/literature/hirst_mn2au_2022/STATUS.json",
+      "new": "assets/literature_reproduction/hirst_mn2au_2022/implementation_status.json",
+      "bytes": 900
+    },
+    {
+      "old": "assets/research/runs/production/production_v1/baseline/training_metrics.json",
+      "new": "output/production/production_v1/baseline/training_metrics.json",
+      "bytes": 4818
+    },
+    {
+      "old": "assets/research/runs/production/production_v1/flow/training_metrics.json",
+      "new": "output/production/production_v1/flow/training_metrics.json",
+      "bytes": 6246
+    },
+    {
+      "old": "assets/research/runs/production/production_v2/seed_20260908/deterministic/training_metrics.json",
+      "new": "output/production/production_v2/seed_20260908/deterministic/training_metrics.json",
+      "bytes": 3550
+    },
+    {
+      "old": "assets/research/runs/production/production_v2/seed_20260908/flow/training_metrics.json",
+      "new": "output/production/production_v2/seed_20260908/flow/training_metrics.json",
+      "bytes": 5668
+    },
+    {
+      "old": "assets/research/runs/production/production_v2/seed_20260909/deterministic/training_metrics.json",
+      "new": "output/production/production_v2/seed_20260909/deterministic/training_metrics.json",
+      "bytes": 4589
+    },
+    {
+      "old": "assets/research/runs/production/production_v2/seed_20260909/flow/training_metrics.json",
+      "new": "output/production/production_v2/seed_20260909/flow/training_metrics.json",
+      "bytes": 6264
+    },
+    {
+      "old": "assets/research/runs/production/production_v2/seed_20260910/deterministic/training_metrics.json",
+      "new": "output/production/production_v2/seed_20260910/deterministic/training_metrics.json",
+      "bytes": 3545
+    },
+    {
+      "old": "assets/research/runs/production/production_v2/seed_20260910/flow/training_metrics.json",
+      "new": "output/production/production_v2/seed_20260910/flow/training_metrics.json",
+      "bytes": 6236
+    },
+    {
+      "old": "assets/research/runs/smoke/gpu_smoke/baseline/training_metrics.json",
+      "new": "output/smoke/gpu_smoke/baseline/training_metrics.json",
+      "bytes": 544
+    },
+    {
+      "old": "assets/research/runs/smoke/gpu_smoke/flow/training_metrics.json",
+      "new": "output/smoke/gpu_smoke/flow/training_metrics.json",
+      "bytes": 534
+    },
+    {
+      "old": "assets/research/runs/smoke/gpu_smoke_v2/deterministic/training_metrics.json",
+      "new": "output/smoke/gpu_smoke_v2/deterministic/training_metrics.json",
+      "bytes": 545
+    },
+    {
+      "old": "assets/research/runs/smoke/gpu_smoke_v2/flow/training_metrics.json",
+      "new": "output/smoke/gpu_smoke_v2/flow/training_metrics.json",
+      "bytes": 536
+    },
+    {
+      "old": "assets/research/runs/smoke/gpu_smoke_v2_L64/deterministic/training_metrics.json",
+      "new": "output/smoke/gpu_smoke_v2_L64/deterministic/training_metrics.json",
+      "bytes": 544
+    },
+    {
+      "old": "assets/research/runs/smoke/gpu_smoke_v2_L64/flow/training_metrics.json",
+      "new": "output/smoke/gpu_smoke_v2_L64/flow/training_metrics.json",
+      "bytes": 532
+    },
+    {
+      "old": "assets/research/runs/bauer_first_loop/20260913_v1/training.json",
+      "new": "output/bauer_first_loop/20260913_v1/training.json",
+      "bytes": 206545
+    }
+  ]
+}

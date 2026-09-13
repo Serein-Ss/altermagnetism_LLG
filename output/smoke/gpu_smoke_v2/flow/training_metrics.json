@@ -1,0 +1,19 @@
+{
+  "status": "trained_and_internal_tested",
+  "model_type": "flow",
+  "parameters": 277270,
+  "train_trajectories": 72,
+  "validation_trajectories": 9,
+  "test_trajectories": 9,
+  "best_epoch": 1,
+  "best_validation_loss": 1.6618338690863714,
+  "test_loss": 1.6507071654001872,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 13.456819768581125,
+      "validation_loss": 1.6618338690863714
+    }
+  ],
+  "claim_boundary": "training/test loss alone does not establish path-distribution or large-size physical generalization"
+}

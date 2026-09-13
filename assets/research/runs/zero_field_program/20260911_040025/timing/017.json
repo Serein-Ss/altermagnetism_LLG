@@ -1,0 +1,29 @@
+{
+  "index": 17,
+  "command": [
+    "/share/home/xlzou/Anaconda3/envs/zrs-mag/bin/python",
+    "-m",
+    "scripts.literature.hirst_mn2au_2022.llb_run",
+    "--config",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/conf/frozen/zero_field_gomonay/20260911_040025/timing_configs/017.yaml",
+    "--project-root",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG",
+    "--run-id",
+    "20260911_040025_017_timing",
+    "--protocol",
+    "llb_afmr",
+    "--validation",
+    "--device",
+    "cpu"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 10.834598079323769,
+  "work_units": 10000,
+  "maxrss_children_kib": 329140,
+  "raw_bytes": 19936,
+  "raw_files_sha256": {
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/hirst_mn2au_2022/raw/20260911_040025_017_timing/trajectory.h5": "223b27ba89d7ef841f4e558a272bfaa251be90ddba7438620d4f1f506b4e2841"
+  },
+  "slurm_job_id": "669153",
+  "status": "complete_pending_scientific_analysis"
+}

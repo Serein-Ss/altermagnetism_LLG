@@ -1,0 +1,47 @@
+{
+  "status": "P0_software_and_reference_preparation",
+  "protocol_commit": "a8e169d5248d84e471cbfd287d3da4d9e8e9bb17",
+  "historical_gomonay_status": "inconclusive_preserved_not_mainline_release",
+  "resources": {
+    "measured_old_seconds_per_step": 0.00260814311154282,
+    "reference_steps_observed": 61770000,
+    "reference_elapsed_seconds": 161105,
+    "short_timings": [
+      {
+        "dt": 0.02,
+        "steps": 256,
+        "elapsed_seconds": 3.7671987805515528,
+        "scope": "bounded_software_and_IO_timing_not_convergence"
+      },
+      {
+        "dt": 0.01,
+        "steps": 256,
+        "elapsed_seconds": 3.2182410657405853,
+        "scope": "bounded_software_and_IO_timing_not_convergence"
+      }
+    ],
+    "requested_minutes": [
+      2506,
+      4951
+    ],
+    "new_cpu_hours_requested": 126.28333333333333,
+    "storage_bound_gib": 53.64425182342529,
+    "concurrency_limit": null,
+    "retries": 0,
+    "software_gpu_hours_upper": 0.5
+  },
+  "design": {
+    "conditions": "Bauer original L100,K/J=.1,theta=.11,lambda=.1",
+    "replicas_per_dt": 8,
+    "initial": "same all-positive full spin state",
+    "noise": "independent weak discrete draws across dt; no Wiener strong-coupling claim",
+    "purpose": "complete mandated .02/.01/.005 timestep references; not event power certification"
+  },
+  "pending": [
+    "Original lifetime/length/temperature reference acceptance and >=500 event requirement",
+    "P2 measured basins, correlation length, dwell/time resolution and mechanism",
+    "P2 sample sizes, event tolerances and exact size holdouts not yet frozen",
+    "Certificate/data-bound Bauer training/inference and complete statistical acceptance entry",
+    "No automatic P2 extension, training, or AM production"
+  ]
+}

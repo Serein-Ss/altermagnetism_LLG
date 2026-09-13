@@ -1,0 +1,6 @@
+{
+  "status": "fail",
+  "reason": "convergence statistical/convergence gate failed; no primary production",
+  "traceback": "Traceback (most recent call last):\n  File \"/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r0_20260909_8df33ac_6fd7226f/code/altermagnetism_LLG/scripts/workflow/run_reduced_literature_campaign.py\", line 160, in main\n    convergence=run_phase(root,base,'convergence',config_dir,snapshot,a.workers)\n  File \"/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r0_20260909_8df33ac_6fd7226f/code/altermagnetism_LLG/scripts/workflow/run_reduced_literature_campaign.py\", line 139, in run_phase\n    if report['status']!='pass': raise RuntimeError(f'{phase} statistical/convergence gate failed; no primary production')\nRuntimeError: convergence statistical/convergence gate failed; no primary production\n",
+  "finite_temperature_dataset_production_enabled": false
+}

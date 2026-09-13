@@ -1,0 +1,10 @@
+numpy
+torch
+matplotlib
+h5py
+pillow
+pytest
+scipy
+scikit-learn
+PyYAML==6.0.2
+pint==0.24.4

@@ -1,0 +1,9 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+task=87 step=10000/80000
+task=87 step=20000/80000
+task=87 step=30000/80000
+task=87 step=40000/80000
+task=87 step=50000/80000
+task=87 step=60000/80000
+task=87 step=70000/80000
+task=87 step=80000/80000

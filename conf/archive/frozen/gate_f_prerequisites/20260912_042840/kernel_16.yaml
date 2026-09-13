@@ -1,0 +1,47 @@
+alpha: 0.05
+batch: 8
+checkpoint_every: 10000
+drives:
+  current: 0
+  field_gradient: 0
+  pulse: 0
+  sot: 0
+  stt: 0
+  tip: 0
+  zeeman: 0
+dt: 0.005
+initial_seed: 2026193801
+initializations:
+- positive
+- negative
+- random
+- random
+- positive
+- negative
+- random
+- random
+material_config: /share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/gate_f_prerequisites_20260912_042840/code/conf/literature/gomonay_2024.yaml
+method: heun_projected_predictor
+noise_seeds:
+- 2026093801
+- 2026093802
+- 2026093803
+- 2026093804
+- 2026093805
+- 2026093806
+- 2026093807
+- 2026093808
+orientation: '100'
+periodic:
+- true
+- true
+production_enabled: false
+role: equilibrium_diagnostic
+run_id: 20260912_042840_kernel_16
+save_every: 100
+seed: 2026093801
+shape:
+- 4
+- 4
+steps: 1600000
+theta: 1.5

@@ -1,0 +1,101 @@
+{
+  "index": 42,
+  "paper": "hirst_mn2au_2022",
+  "run_id": "20260910_110834_validation_042",
+  "protocol": "wall",
+  "parameters": {
+    "shape": [
+      512,
+      4,
+      4
+    ],
+    "periodic": [
+      false,
+      true,
+      true
+    ],
+    "batch": 1,
+    "theta": 0.0,
+    "alpha": 1.0,
+    "initial_width_cells": 40,
+    "dt": 0.0005,
+    "steps": 800000,
+    "save_every": 8000,
+    "seed": 20260910,
+    "method": "heun_projected_predictor"
+  },
+  "production_certified": false,
+  "raw_sha256": {
+    "trajectory.h5": "9f5080862aed722ed0ef2b9508038222a42fc3200a62732e1ae16aab983dcf2f"
+  },
+  "configuration_sha256": "de7c1736a7c55f506e9c0e3f1e8758dad2c3b36066b592320a82806129edbba6",
+  "saved_frames": 101,
+  "duration": 400.0,
+  "finite": true,
+  "max_saved_norm_error": 2.220446049250313e-16,
+  "projection_predictor_error_saved": false,
+  "norm_gate": "pass",
+  "energy": {
+    "initial": [
+      -0.5417358552136633
+    ],
+    "final": [
+      -0.5417402474966162
+    ],
+    "maximum_saved_increase": [
+      -1.4557148819704935e-09
+    ],
+    "relative_excursion": [
+      8.107794436406136e-06
+    ]
+  },
+  "wall_final": [
+    {
+      "me": 0.999594162828201,
+      "position_over_a": 255.7500000007089,
+      "delta0_over_a": 38.91466887588142,
+      "neel_width_over_a": 122.25403785734844,
+      "fit_covariance": [
+        [
+          1.5085743713918727e-09,
+          -5.2498603225377786e-15,
+          1.3658599260665323e-07
+        ],
+        [
+          -5.249860322537778e-15,
+          1.4967713142232205e-05,
+          -1.5870465654191582e-12
+        ],
+        [
+          1.3658599260665323e-07,
+          -1.5870465654191584e-12,
+          5.87827247596729e-05
+        ]
+      ]
+    }
+  ],
+  "wall_late_windows": {
+    "intervals": [
+      [
+        200.0,
+        300.0
+      ],
+      [
+        300.0,
+        400.0
+      ]
+    ],
+    "first": [
+      123.51811461599931
+    ],
+    "second": [
+      122.6654542278818
+    ],
+    "change": [
+      -0.8526603881175134
+    ],
+    "certified": false
+  },
+  "target_width_over_a": 93.69369369369369,
+  "reference_note": "GUIDE 31.2 nm / YAML a=0.333 nm; compare reduced pi*delta0, not tanh delta0."
+}

@@ -1,0 +1,3 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+{"scope": "synthetic_gate_f_software_only", "device": "cuda", "status": "pass", "returncode": 0, "elapsed_seconds": 13.081633429974318, "torch_version": "2.6.0+cu118", "production_enabled": false, "training_started": false, "limitations": ["No physical P1/P2 certificate", "No real Gate-F training or distribution GO", "CPU skips full-shape CUDA checks", "Model architecture size in GPU smoke is 8 channels / 1 block"]}

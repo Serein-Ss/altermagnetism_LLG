@@ -1,0 +1,97 @@
+paper_id: gomonay_2024
+provenance:
+  doi: 10.1038/s44306-024-00042-3
+  target: Fig.2/S2, Fig.3/S4 and Fig.5/S5
+  status: implemented_candidate_pending_numerical_and_reference_certification
+source_parameters:
+  J1:
+    value: 11.1
+    unit: meV
+    source: supplementary_S8
+  J2:
+    value: 1.88
+    unit: meV
+    source: supplementary_S8
+  J_tilde:
+    value: 0.8
+    unit: meV
+    source: supplementary_S8
+  K_SW:
+    value: 0.0
+    unit: meV
+    source: spinwave_protocol
+  K_DW:
+    value: 0.047
+    unit: meV
+    source: wall_protocol
+  uncertainty_note: Quoted model settings, uncertainties not reported in GUIDE.
+reduction:
+  energy_scale:
+    value: 11.1
+    unit: meV
+  length: a0
+  time: mu_ref/(gamma*E0); physical gamma and moment require source audit before SI
+    reporting
+reduced:
+  equation_convention: gilbert
+  J1: 1.0
+  J2: 0.16936936936936936
+  J_tilde: 0.07207207207207207
+  K_SW: 0.0
+  K_DW: 0.004234234234234234
+numerics:
+  paper_settings:
+    spinwave_size:
+    - 500
+    - 500
+    wall_size:
+    - 10000
+    - 30
+    wall_alpha: 0.75
+    wall_boundary: open_periodic
+  numerical_choice:
+    seed: 20260909
+  validation_extension:
+    production_enabled: false
+    validation_protocols:
+    - control
+    campaign_kind: bounded_numerical_validation_not_paper_reproduction
+  protocols:
+    control:
+      wavevectors:
+      - - 0.5
+        - 0
+      shape:
+      - 64
+      - 64
+      periodic:
+      - true
+      - true
+      orientation: '100'
+      batch: 1
+      alpha: 0.0
+      dt: 0.005
+      steps: 40000
+      save_every: 20
+      seed: 20260910
+      method: rk4
+      field_amplitude: 0.001
+      field_direction:
+      - 1
+      - 0
+      - 0
+      wavevector_cutoff:
+      - 0.5
+      - 0.5
+      frequency_cutoff: 2.0
+      pulse_center: 100.0
+  implementation_notes:
+    equations: Official supplement S1 Hamiltonian, S44 LLG, S7b/S9 dispersion; GUIDE
+      formula numbers differ.
+    drive: Free wall motion from S28/S31/S19b initial condition, no SOT or external
+      current.
+    geometry: Shape counts simulation cells; 110 uses four sites per rotated cell.
+      Wall shape gives 300000 spins, not a claim of identical physical extents to
+      the published strip.
+    choices: dt, duration, sinc cutoffs/amplitude, moving velocity and rotated strip
+      extents require convergence and source comparison.

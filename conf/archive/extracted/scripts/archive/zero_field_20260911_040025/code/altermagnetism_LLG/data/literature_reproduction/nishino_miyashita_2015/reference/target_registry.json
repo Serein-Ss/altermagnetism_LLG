@@ -1,0 +1,22 @@
+{
+  "paper_id": "nishino_miyashita_2015",
+  "doi": "10.1103/PhysRevB.91.134411",
+  "registered": "2026-09-11",
+  "targets": [
+    {
+      "id": "Fig1_primary",
+      "status": "pass",
+      "evidence": "output/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957/report.json",
+      "scope": "24 conditions under existing frozen acceptance"
+    },
+    {
+      "id": "stationarity",
+      "status": "accepted_with_deviation",
+      "evidence": "output/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/user_acceptance_20260910.json",
+      "next": "Independent theta=2 A/B, 4 repeats, time1600, burn800; original nine failures retained",
+      "acceptance": "Existing analyze.py mean .01, paired .005, stationarity with Holm and independent repeats"
+    }
+  ],
+  "old_results": "exploratory except explicitly scoped historical acceptance",
+  "production_enabled": false
+}

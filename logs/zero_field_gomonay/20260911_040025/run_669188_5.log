@@ -1,0 +1,35 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+case=B theta=2.0 repeat=1 step=10000/320000
+case=B theta=2.0 repeat=1 step=20000/320000
+case=B theta=2.0 repeat=1 step=30000/320000
+case=B theta=2.0 repeat=1 step=40000/320000
+case=B theta=2.0 repeat=1 step=50000/320000
+case=B theta=2.0 repeat=1 step=60000/320000
+case=B theta=2.0 repeat=1 step=70000/320000
+case=B theta=2.0 repeat=1 step=80000/320000
+case=B theta=2.0 repeat=1 step=90000/320000
+case=B theta=2.0 repeat=1 step=100000/320000
+case=B theta=2.0 repeat=1 step=110000/320000
+case=B theta=2.0 repeat=1 step=120000/320000
+case=B theta=2.0 repeat=1 step=130000/320000
+case=B theta=2.0 repeat=1 step=140000/320000
+case=B theta=2.0 repeat=1 step=150000/320000
+case=B theta=2.0 repeat=1 step=160000/320000
+case=B theta=2.0 repeat=1 step=170000/320000
+case=B theta=2.0 repeat=1 step=180000/320000
+case=B theta=2.0 repeat=1 step=190000/320000
+case=B theta=2.0 repeat=1 step=200000/320000
+case=B theta=2.0 repeat=1 step=210000/320000
+case=B theta=2.0 repeat=1 step=220000/320000
+case=B theta=2.0 repeat=1 step=230000/320000
+case=B theta=2.0 repeat=1 step=240000/320000
+case=B theta=2.0 repeat=1 step=250000/320000
+case=B theta=2.0 repeat=1 step=260000/320000
+case=B theta=2.0 repeat=1 step=270000/320000
+case=B theta=2.0 repeat=1 step=280000/320000
+case=B theta=2.0 repeat=1 step=290000/320000
+case=B theta=2.0 repeat=1 step=300000/320000
+case=B theta=2.0 repeat=1 step=310000/320000
+case=B theta=2.0 repeat=1 step=320000/320000
+{"output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260911_040025_005.partial/task_0005.h5", "elapsed_seconds": 10624.433048006147, "formal_settings": true, "data_sha256": "7a226faead3978d7cf30fb0a8bdeebb9c87692b3992a90351489975e6750cd6b"}

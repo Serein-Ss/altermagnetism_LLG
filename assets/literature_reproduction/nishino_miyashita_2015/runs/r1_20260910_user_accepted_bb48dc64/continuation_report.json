@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "primary_run": "20260910_8df33ac_d30ae957",
+  "original_convergence_status": "fail",
+  "user_disposition": "accepted_with_deviation",
+  "source_run": "20260909_8df33ac_bb48dc64",
+  "training_dataset_production_enabled": false,
+  "next_stage": "R2 Bauer: paper-specific implementation and gates required; not automatically submitted"
+}

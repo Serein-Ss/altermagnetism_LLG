@@ -1,0 +1,272 @@
+{
+  "source_sha256": "4a163172a0823d7f3cdd76f7139bc02044c9d42ce883705383887770a9693cdd",
+  "status": "descriptive_decomposition_not_new_certificate",
+  "original_status": "inconclusive",
+  "rows": [
+    {
+      "index": "45",
+      "observable": "energy_per_spin",
+      "difference": -0.002349192570115566,
+      "ci": [
+        -0.008306655974339059,
+        0.003608270834107927
+      ],
+      "llg_bulk_ess": 1293.8585063917778,
+      "mc_bulk_ess": 9450.658342094597
+    },
+    {
+      "index": "45",
+      "observable": "neel_norm",
+      "difference": 0.000807743139534578,
+      "ci": [
+        -0.0026922342075788534,
+        0.004307720486648009
+      ],
+      "llg_bulk_ess": 1714.3784942001416,
+      "mc_bulk_ess": 8384.559816048662
+    },
+    {
+      "index": "45",
+      "observable": "neel_z_squared",
+      "difference": -0.01905359392390532,
+      "ci": [
+        -0.08470268856175471,
+        0.04659550071394407
+      ],
+      "llg_bulk_ess": 739.4051533573232,
+      "mc_bulk_ess": 218.08467315612108
+    },
+    {
+      "index": "46",
+      "observable": "energy_per_spin",
+      "difference": -0.0017650187079598645,
+      "ci": [
+        -0.008798238203366796,
+        0.0052682007874470665
+      ],
+      "llg_bulk_ess": 1478.4148199704734,
+      "mc_bulk_ess": 9450.658342094597
+    },
+    {
+      "index": "46",
+      "observable": "neel_norm",
+      "difference": 0.000569529059708862,
+      "ci": [
+        -0.0023399258852916404,
+        0.0034789840047093645
+      ],
+      "llg_bulk_ess": 1784.218878604733,
+      "mc_bulk_ess": 8384.559816048662
+    },
+    {
+      "index": "46",
+      "observable": "neel_z_squared",
+      "difference": -0.024602200389304885,
+      "ci": [
+        -0.08491313945407414,
+        0.035708738675464376
+      ],
+      "llg_bulk_ess": 813.6879962593553,
+      "mc_bulk_ess": 218.08467315612108
+    },
+    {
+      "index": "47",
+      "observable": "energy_per_spin",
+      "difference": -0.0002668783930594998,
+      "ci": [
+        -0.02111577304459267,
+        0.02058201625847367
+      ],
+      "llg_bulk_ess": 1602.1236932059226,
+      "mc_bulk_ess": 9450.658342094597
+    },
+    {
+      "index": "47",
+      "observable": "neel_norm",
+      "difference": 0.00016996979829031478,
+      "ci": [
+        -0.005241643674549605,
+        0.005581583271130235
+      ],
+      "llg_bulk_ess": 1890.3215421581065,
+      "mc_bulk_ess": 8384.559816048662
+    },
+    {
+      "index": "47",
+      "observable": "neel_z_squared",
+      "difference": -0.017213786460221037,
+      "ci": [
+        -0.07894665977779841,
+        0.04451908685735633
+      ],
+      "llg_bulk_ess": 695.5956113465861,
+      "mc_bulk_ess": 218.08467315612108
+    },
+    {
+      "index": "48",
+      "observable": "energy_per_spin",
+      "difference": 0.0009434512538812889,
+      "ci": [
+        -0.02530353000931751,
+        0.027190432517080088
+      ],
+      "llg_bulk_ess": 1515.423680547661,
+      "mc_bulk_ess": 9450.658342094597
+    },
+    {
+      "index": "48",
+      "observable": "neel_norm",
+      "difference": 3.123491964207581e-05,
+      "ci": [
+        -0.006748079062703464,
+        0.006810548901987615
+      ],
+      "llg_bulk_ess": 1815.899731617163,
+      "mc_bulk_ess": 8384.559816048662
+    },
+    {
+      "index": "48",
+      "observable": "neel_z_squared",
+      "difference": -0.021063295464845533,
+      "ci": [
+        -0.1345490147729016,
+        0.09242242384321055
+      ],
+      "llg_bulk_ess": 871.9521799245083,
+      "mc_bulk_ess": 218.08467315612108
+    },
+    {
+      "index": "50",
+      "observable": "energy_per_spin",
+      "difference": 0.009475302243378558,
+      "ci": [
+        -0.025481211188269882,
+        0.044431815675027
+      ],
+      "llg_bulk_ess": 711.9976425517076,
+      "mc_bulk_ess": 19089.74696197987
+    },
+    {
+      "index": "50",
+      "observable": "neel_norm",
+      "difference": -0.004978446556906324,
+      "ci": [
+        -0.02328809662445543,
+        0.013331203510642781
+      ],
+      "llg_bulk_ess": 908.6476875036683,
+      "mc_bulk_ess": 18774.41732865073
+    },
+    {
+      "index": "50",
+      "observable": "neel_z_squared",
+      "difference": 0.0007712479474789175,
+      "ci": [
+        -0.005724517810125991,
+        0.007267013705083826
+      ],
+      "llg_bulk_ess": 1938.7625317667066,
+      "mc_bulk_ess": 19256.148510420142
+    },
+    {
+      "index": "51",
+      "observable": "energy_per_spin",
+      "difference": 0.008944792948864522,
+      "ci": [
+        -0.12889673625657855,
+        0.1467863221543076
+      ],
+      "llg_bulk_ess": 550.3972827164506,
+      "mc_bulk_ess": 19089.74696197987
+    },
+    {
+      "index": "51",
+      "observable": "neel_norm",
+      "difference": -0.0018335273887038483,
+      "ci": [
+        -0.0824915506467213,
+        0.0788244958693136
+      ],
+      "llg_bulk_ess": 794.3738891886477,
+      "mc_bulk_ess": 18774.41732865073
+    },
+    {
+      "index": "51",
+      "observable": "neel_z_squared",
+      "difference": 0.0008612673283110647,
+      "ci": [
+        -0.02747818124105332,
+        0.02920071589767545
+      ],
+      "llg_bulk_ess": 1960.7673960058682,
+      "mc_bulk_ess": 19256.148510420142
+    },
+    {
+      "index": "52",
+      "observable": "energy_per_spin",
+      "difference": 0.0062937626683198244,
+      "ci": [
+        -0.14608098782849213,
+        0.15866851316513178
+      ],
+      "llg_bulk_ess": 541.811904325483,
+      "mc_bulk_ess": 19089.74696197987
+    },
+    {
+      "index": "52",
+      "observable": "neel_norm",
+      "difference": -0.0006317731446471297,
+      "ci": [
+        -0.06759076327269216,
+        0.0663272169833979
+      ],
+      "llg_bulk_ess": 687.5528311887125,
+      "mc_bulk_ess": 18774.41732865073
+    },
+    {
+      "index": "52",
+      "observable": "neel_z_squared",
+      "difference": 0.0020912255372173907,
+      "ci": [
+        -0.017852866694963325,
+        0.022035317769398106
+      ],
+      "llg_bulk_ess": 1996.2229870538163,
+      "mc_bulk_ess": 19256.148510420142
+    },
+    {
+      "index": "53",
+      "observable": "energy_per_spin",
+      "difference": 0.016299386094453028,
+      "ci": [
+        -0.10901475909132882,
+        0.14161353128023488
+      ],
+      "llg_bulk_ess": 838.3080609655407,
+      "mc_bulk_ess": 19089.74696197987
+    },
+    {
+      "index": "53",
+      "observable": "neel_norm",
+      "difference": -0.006062326108915772,
+      "ci": [
+        -0.06384953424334577,
+        0.05172488202551423
+      ],
+      "llg_bulk_ess": 1122.6359220316745,
+      "mc_bulk_ess": 18774.41732865073
+    },
+    {
+      "index": "53",
+      "observable": "neel_z_squared",
+      "difference": -0.0031581926480746952,
+      "ci": [
+        -0.008289841260282668,
+        0.0019734559641332774
+      ],
+      "llg_bulk_ess": 2298.415658794209,
+      "mc_bulk_ess": 19256.148510420142
+    }
+  ],
+  "conclusion": "small point differences coexist with broad CIs/low ESS; no proven implementation fault or new pass"
+}

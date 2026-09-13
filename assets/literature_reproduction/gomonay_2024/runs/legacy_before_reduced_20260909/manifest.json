@@ -1,0 +1,99 @@
+{
+  "paper_id": "gomonay_2024",
+  "legacy_run_id": "legacy_before_reduced_20260909",
+  "legacy_status": "not_strictly_certified",
+  "strict_status": "blocked_until_R0_and_paper_model_audit",
+  "legacy_paths": [
+    {
+      "old": "data/literature/literature_validation/Gomonay_2024_main.pdf",
+      "new": "data/literature_reproduction/gomonay_2024/reference/Gomonay_2024_main.pdf",
+      "bytes": 1907886,
+      "inode": 283520643357
+    },
+    {
+      "old": "data/literature/literature_validation/spinwave_trajectory.npz",
+      "new": "data/literature_reproduction/gomonay_2024/raw/legacy_before_reduced_20260909/spinwave_trajectory.npz",
+      "bytes": 933715,
+      "inode": 283520643355
+    },
+    {
+      "old": "data/literature/literature_validation/spinwave_validation.json",
+      "new": "data/literature_reproduction/gomonay_2024/derived/legacy_before_reduced_20260909/spinwave_validation.json",
+      "bytes": 778,
+      "inode": 283520643377
+    },
+    {
+      "old": "assets/literature/literature_validation/reference/figure_caption.md",
+      "new": "data/literature_reproduction/gomonay_2024/reference/figure_caption.md",
+      "bytes": 675,
+      "inode": 330901834536
+    },
+    {
+      "old": "assets/literature/literature_validation/reference/gomonay_2024_fig2.png",
+      "new": "data/literature_reproduction/gomonay_2024/reference/gomonay_2024_fig2.png",
+      "bytes": 235904,
+      "inode": 330901834538
+    },
+    {
+      "old": "assets/literature/literature_validation/reference/source_map.json",
+      "new": "data/literature_reproduction/gomonay_2024/reference/source_map.json",
+      "bytes": 369,
+      "inode": 330901834557
+    },
+    {
+      "old": "assets/literature/literature_validation/spinwave_paper_side_by_side.png",
+      "new": "assets/literature_reproduction/gomonay_2024/legacy_before_reduced_20260909/figures/spinwave_paper_side_by_side.png",
+      "bytes": 713706,
+      "inode": 328706665283
+    },
+    {
+      "old": "assets/literature/literature_validation/spinwave_reproduction.png",
+      "new": "assets/literature_reproduction/gomonay_2024/legacy_before_reduced_20260909/figures/spinwave_reproduction.png",
+      "bytes": 220956,
+      "inode": 328706665282
+    },
+    {
+      "old": "assets/literature/literature_validation/trajectory_animation/spinwave_initial_final.png",
+      "new": "assets/literature_reproduction/gomonay_2024/legacy_before_reduced_20260909/figures/spinwave_initial_final.png",
+      "bytes": 89981,
+      "inode": 332918730281
+    },
+    {
+      "old": "assets/literature/literature_validation/trajectory_animation/spinwave_trajectory.gif",
+      "new": "assets/literature_reproduction/gomonay_2024/legacy_before_reduced_20260909/animations/spinwave_trajectory.gif",
+      "bytes": 27182047,
+      "inode": 332918730282
+    },
+    {
+      "old": "scripts/literature/validate_spinwave.py",
+      "new": "scripts/literature/gomonay_2024/legacy_run.py",
+      "bytes": 6016,
+      "inode": 266399770159
+    },
+    {
+      "old": "scripts/visualization/plot_literature_validation.py",
+      "new": "scripts/literature/gomonay_2024/legacy_plot.py",
+      "bytes": 4336,
+      "inode": 268538021750
+    },
+    {
+      "old": "scripts/visualization/compose_literature_comparison.py",
+      "new": "scripts/literature/gomonay_2024/legacy_comparison.py",
+      "bytes": 1776,
+      "inode": 268538021753
+    },
+    {
+      "old": "scripts/visualization/extract_reference_figures.py",
+      "new": "scripts/literature/gomonay_2024/legacy_extract_reference.py",
+      "bytes": 1187,
+      "inode": 268538021752
+    },
+    {
+      "old": "scripts/visualization/animate_spinwave_trajectory.py",
+      "new": "scripts/literature/gomonay_2024/legacy_animation.py",
+      "bytes": 6735,
+      "inode": 268538021755
+    }
+  ],
+  "config": "conf/literature/gomonay_2024.yaml"
+}

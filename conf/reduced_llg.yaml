@@ -1,0 +1,12 @@
+schema_version: 1
+state: unit_vectors
+hamiltonian: h=H/E0
+field: b=-gradient_s(h)
+time: tau=t/t0
+reference_time: t0=mu_ref/(gamma*E0)
+temperature: theta=k_B*T/E0
+noise: variance_of_Wiener_increment=delta_tau
+gilbert_noise_amplitude: sqrt(2*alpha*theta)
+bauer_ll_noise_amplitude: sqrt(2*lambda*theta)
+runtime_sections: [reduced, numerics]
+note: mu_ref is the reference magnetic moment, not the vacuum permeability.

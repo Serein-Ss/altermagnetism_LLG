@@ -1,0 +1,102 @@
+{
+  "index": 26,
+  "paper": "laliena_crnb3s6_2020",
+  "run_id": "20260910_110834_validation_026",
+  "protocol": "current",
+  "parameters": {
+    "sites": 480,
+    "batch": 1,
+    "dx": 0.12992957746478873,
+    "u": 0.89,
+    "extent": 32.0,
+    "points": 601,
+    "dt": 5e-05,
+    "steps": 2000000,
+    "save_every": 2000,
+    "seed": 20260910,
+    "method": "heun_projected_predictor"
+  },
+  "production_certified": false,
+  "raw_sha256": {
+    "trajectory.h5": "d3dc2baa06425b877217b90086f6b70edffb27776bd40eaca22ba0af56e144b9"
+  },
+  "configuration_sha256": "0a951c4609840be6807ee461c4ad4718fcd4bfd5eab8bb300c1aaa2df92ab8f9",
+  "saved_frames": 1001,
+  "duration": 100.0,
+  "finite": true,
+  "max_saved_norm_error": 2.220446049250313e-16,
+  "projection_predictor_error_saved": false,
+  "norm_gate": "pass",
+  "energy": {
+    "initial": [
+      -0.7924308048352173
+    ],
+    "final": [
+      -0.7835079209971175
+    ],
+    "maximum_saved_increase": [
+      2.261878151421648e-05
+    ],
+    "relative_excursion": [
+      0.011260142568479882
+    ]
+  },
+  "final_winding": [
+    1.0000000000000002
+  ],
+  "final_mean_wavevector": [
+    0.1007466478793475
+  ],
+  "final_max_abs_nz": [
+    0.3120533039297846
+  ],
+  "late_wavevector": {
+    "intervals": [
+      [
+        50.0,
+        75.0
+      ],
+      [
+        75.0,
+        100.0
+      ]
+    ],
+    "first": [
+      0.1007466478793475
+    ],
+    "second": [
+      0.1007466478793475
+    ],
+    "change": [
+      0.0
+    ],
+    "certified": false
+  },
+  "velocity_late": [
+    1.7395240236303369
+  ],
+  "velocity_expected": 1.78,
+  "width_late_windows": {
+    "intervals": [
+      [
+        50.0,
+        75.0
+      ],
+      [
+        75.0,
+        100.0
+      ]
+    ],
+    "first": [
+      0.9282799185671675
+    ],
+    "second": [
+      0.9213169764197595
+    ],
+    "change": [
+      -0.006962942147408002
+    ],
+    "certified": false
+  },
+  "interpretation": "Velocity/width valid only for a surviving isolated soliton; RMS width is not the BVP tanh width."
+}

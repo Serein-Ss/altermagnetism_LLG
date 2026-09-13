@@ -1,0 +1,72 @@
+paper_id: laliena_crnb3s6_2020
+provenance:
+  doi: 10.1038/s41598-020-76903-8
+  erratum_doi: 10.1038/s41598-022-06147-1
+  target: corrected_equations_13_14_and_Fig2b_3a_3b
+  status: implemented_candidate_pending_numerical_and_reference_certification
+source_parameters:
+  A:
+    value: 1.42
+    unit: pJ/m
+  D:
+    value: 369
+    unit: microjoule/meter**2
+  K:
+    value: -124
+    unit: kilojoule/meter**3
+  M_s:
+    value: 129
+    unit: kiloampere/meter
+  a:
+    value: 0.6
+    unit: nanometer
+  B_y:
+    value: 300
+    unit: millitesla
+  alpha:
+    value: 0.01
+    unit: dimensionless
+  beta:
+    value: 0.02
+    unit: dimensionless
+  uncertainty_note: Quoted continuum model settings; no uncertainties supplied.
+reduction:
+  wavevector: q0=D/(2*A)
+  length: 1/q0
+  field: B0=D**2/(2*A*M_s)
+  time: 1/(gamma*B0)
+reduced:
+  equation_convention: gilbert
+  q0_a: 0.0779577465
+  kappa: -5.1726999655
+  h_y: 0.8071914865
+  alpha: 0.01
+  beta: 0.02
+numerics:
+  paper_settings:
+    corrected_BVP_Gamma_c: 1.2405
+    profile_Gamma: 0.89
+    critical_current_Gamma: 1.224
+  numerical_choice:
+    seed: 20260909
+  validation_extension:
+    production_enabled: false
+    campaign_kind: independent_diagnostic_not_literature_certificate
+    validation_protocols:
+    - branch
+  protocols:
+    branch:
+      extent: 20
+      points: 801
+      tolerance: 1.0e-06
+      continuation_steps: 480
+      ds: 0.025
+  implementation_notes:
+    mesh: Published Methods uses 1 nm cells and 480 nm periodic length; q0 times 1
+      nm is 0.12992957746478873, distinct from atomic q0_a.
+    current: u is signed coefficient in torque -u*d_x(n)+beta*u*n_cross_d_x(n), not
+      physical positive current density.
+    bvp: Corrected 2022 equations, reflection-pinned half-domain, pseudo-arclength
+      continuation through folds.
+    choices: dt, duration, branch arclength step and mesh must be converged before
+      critical-current certification.

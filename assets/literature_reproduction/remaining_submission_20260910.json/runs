@@ -1,0 +1,29 @@
+{
+  "requested_scope": "remaining R2-R6",
+  "overall_status": "partially_submitted_not_complete",
+  "submitted": {
+    "stage": "R2 Bauer preflight only",
+    "job_id": "669027",
+    "job_name": "zrs-mag",
+    "partition": "fat",
+    "cpus": 1,
+    "memory_GiB": 4,
+    "time_limit": "00:30:00",
+    "run_id": "20260910_8df33ac_060e74d3",
+    "snapshot": "scripts/archive/r2_preflight_20260910_060e74d3",
+    "tests_passed": 19,
+    "frozen_smoke": "pass",
+    "work": "static energy/field/boundary checks and 10000 coarse steps with common Wiener paths at dt 0.02/0.01/0.005, 8 chains, L100, theta0.11, lambda0.1",
+    "not_claimed": "full-duration reproduction, lifetime convergence, 500 reversal events, paper weak Runge-Kutta implementation",
+    "log": "logs/literature_reproduction/r2_preflight_669027.log"
+  },
+  "not_submitted": {
+    "R2_full": "paper integration-method audit, full-time convergence, reference condition points, reversal event and survival pipeline incomplete",
+    "R3_Hirst": "exact 3D model, neighbor templates, run/analyze/plot not implemented",
+    "R4_Gomonay": "full Brillouin-zone excitation and mixed-boundary domain-wall model not implemented",
+    "R5_Laliena": "corrected BVP and driven soliton model not implemented",
+    "R6": "requires independent outcomes of R2-R5"
+  },
+  "nishino_exception_scope": "unchanged; does not waive any other paper-specific checks",
+  "training_dataset_production_enabled": false
+}

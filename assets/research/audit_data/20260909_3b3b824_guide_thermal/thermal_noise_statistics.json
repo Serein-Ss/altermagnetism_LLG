@@ -1,0 +1,802 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "temperature": 1.0,
+      "dt": 1e-16,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 41.12069904479148,
+      "mean_zscore": -0.12610441460918093,
+      "variance_ratio": 1.000674582627696,
+      "correlations": {
+        "xyz": -0.0019070288386961465,
+        "site": -0.0005289140669301731,
+        "consecutive_time_draws": -0.0003685824753383132
+      },
+      "half_dt_sigma_ratio": 1.414213562373095,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 1.0,
+      "dt": 5e-17,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 58.15345028340648,
+      "mean_zscore": 0.31660363617472564,
+      "variance_ratio": 1.0006100833945428,
+      "correlations": {
+        "xyz": -0.0002932005845447256,
+        "site": -0.00088124458697879,
+        "consecutive_time_draws": -0.0002686955387970117
+      },
+      "half_dt_sigma_ratio": 1.4142135623730954,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 5.0,
+      "dt": 1e-16,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 91.9486783464644,
+      "mean_zscore": 1.870556579805352,
+      "variance_ratio": 0.9998381967576949,
+      "correlations": {
+        "xyz": 0.0018934409470283669,
+        "site": 0.0007642062235455233,
+        "consecutive_time_draws": 0.000882033244722109
+      },
+      "half_dt_sigma_ratio": 1.414213562373095,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 5.0,
+      "dt": 5e-17,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 130.0350679598513,
+      "mean_zscore": -0.6238686668151279,
+      "variance_ratio": 1.0017265476352486,
+      "correlations": {
+        "xyz": 0.0002586220585541579,
+        "site": -9.53576544825178e-06,
+        "consecutive_time_draws": 0.00016774952128584587
+      },
+      "half_dt_sigma_ratio": 1.414213562373095,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 100.0,
+      "dt": 1e-16,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 411.20699044791473,
+      "mean_zscore": -1.4762294582443742,
+      "variance_ratio": 0.9994053626478071,
+      "correlations": {
+        "xyz": 0.0014901311895435395,
+        "site": -0.0033747657482567266,
+        "consecutive_time_draws": -0.00011803526659065277
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 100.0,
+      "dt": 5e-17,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 581.5345028340648,
+      "mean_zscore": -0.3417819646105929,
+      "variance_ratio": 1.0002613982428334,
+      "correlations": {
+        "xyz": -0.0018266646447893393,
+        "site": -0.000972848016097957,
+        "consecutive_time_draws": -0.00022093360055200158
+      },
+      "half_dt_sigma_ratio": 1.4142135623730947,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 1.0,
+      "dt": 1e-16,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 91.9486783464644,
+      "mean_zscore": 2.3451025672839854,
+      "variance_ratio": 1.0006620018455423,
+      "correlations": {
+        "xyz": -0.0014813334206820507,
+        "site": -0.00066166709617146,
+        "consecutive_time_draws": -0.00024584802342923225
+      },
+      "half_dt_sigma_ratio": 1.414213562373095,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 1.0,
+      "dt": 5e-17,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 130.0350679598513,
+      "mean_zscore": -1.005057672531242,
+      "variance_ratio": 0.9990663807342126,
+      "correlations": {
+        "xyz": -0.00046062413510470344,
+        "site": 0.0004323154719462065,
+        "consecutive_time_draws": 0.0008779670506430891
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 5.0,
+      "dt": 1e-16,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 205.60349522395737,
+      "mean_zscore": 1.6097105782227414,
+      "variance_ratio": 1.0020253270639152,
+      "correlations": {
+        "xyz": 0.00026055218818500056,
+        "site": -0.000843145385151645,
+        "consecutive_time_draws": -0.0015702535046128571
+      },
+      "half_dt_sigma_ratio": 1.414213562373095,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 5.0,
+      "dt": 5e-17,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 290.7672514170324,
+      "mean_zscore": -0.16847301637864565,
+      "variance_ratio": 1.0015004661075813,
+      "correlations": {
+        "xyz": 0.00034705774757489165,
+        "site": -0.001781374467428369,
+        "consecutive_time_draws": -0.000830993837584595
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 100.0,
+      "dt": 1e-16,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 919.4867834646441,
+      "mean_zscore": -0.426060939677791,
+      "variance_ratio": 0.9993573265485386,
+      "correlations": {
+        "xyz": -0.0016217486792886669,
+        "site": 0.0002408164986677513,
+        "consecutive_time_draws": -0.001198830836496401
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 100.0,
+      "dt": 5e-17,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 1300.350679598513,
+      "mean_zscore": -1.1089658391084465,
+      "variance_ratio": 1.0019061523051933,
+      "correlations": {
+        "xyz": -0.001678229849830697,
+        "site": -0.0008818878683569731,
+        "consecutive_time_draws": -0.0010366631648909828
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Gomonay2024_double_layer_altermagnet",
+        "doi": "10.1038/s44306-024-00042-3",
+        "parameters": {
+          "j1_mev": 11.1,
+          "j2_mev": 1.88,
+          "j_tilde_mev": 0.8,
+          "anisotropy_mev": 0.047,
+          "mu_s_mu_b": 1.0,
+          "lattice_nm": 0.448,
+          "gamma": 176085963023.0
+        },
+        "unit_system": "SI_energy_J_field_T_time_s_temperature_K",
+        "boundary": "periodic_xy",
+        "certification_role": "published_hamiltonian"
+      }
+    },
+    {
+      "temperature": 1.0,
+      "dt": 0.005,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 2.0,
+      "mean_zscore": -2.3428722426092286,
+      "variance_ratio": 0.9993524982565466,
+      "correlations": {
+        "xyz": -0.0006876250488615894,
+        "site": -0.0006293052925941981,
+        "consecutive_time_draws": 0.0009495433038953429
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Nishino2015_noninteracting_moments_Fig1",
+        "doi": "10.1103/PhysRevB.91.134411",
+        "erratum_doi": "10.1103/PhysRevB.97.019904",
+        "parameters": {
+          "field_h": 2.0,
+          "moment_m": 1.0,
+          "gamma": 1.0,
+          "boltzmann": 1.0
+        },
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1",
+        "boundary": "irrelevant_noninteracting"
+      }
+    },
+    {
+      "temperature": 1.0,
+      "dt": 0.0025,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 2.8284271247461903,
+      "mean_zscore": 0.6421334053820209,
+      "variance_ratio": 0.9993582464295542,
+      "correlations": {
+        "xyz": 0.00016765172080234123,
+        "site": 0.0003694273880486641,
+        "consecutive_time_draws": -0.0008129843120940864
+      },
+      "half_dt_sigma_ratio": 1.414213562373095,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Nishino2015_noninteracting_moments_Fig1",
+        "doi": "10.1103/PhysRevB.91.134411",
+        "erratum_doi": "10.1103/PhysRevB.97.019904",
+        "parameters": {
+          "field_h": 2.0,
+          "moment_m": 1.0,
+          "gamma": 1.0,
+          "boltzmann": 1.0
+        },
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1",
+        "boundary": "irrelevant_noninteracting"
+      }
+    },
+    {
+      "temperature": 5.0,
+      "dt": 0.005,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 4.47213595499958,
+      "mean_zscore": 0.254676134107558,
+      "variance_ratio": 0.997882837444785,
+      "correlations": {
+        "xyz": -0.0019071029849493414,
+        "site": 0.0008356312591079248,
+        "consecutive_time_draws": -0.00033318579406912583
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Nishino2015_noninteracting_moments_Fig1",
+        "doi": "10.1103/PhysRevB.91.134411",
+        "erratum_doi": "10.1103/PhysRevB.97.019904",
+        "parameters": {
+          "field_h": 2.0,
+          "moment_m": 1.0,
+          "gamma": 1.0,
+          "boltzmann": 1.0
+        },
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1",
+        "boundary": "irrelevant_noninteracting"
+      }
+    },
+    {
+      "temperature": 5.0,
+      "dt": 0.0025,
+      "alpha": 0.01,
+      "components": 1000002,
+      "sigma": 6.324555320336759,
+      "mean_zscore": 1.187819700410437,
+      "variance_ratio": 1.0011414073063656,
+      "correlations": {
+        "xyz": 0.0006651886079939655,
+        "site": -0.0006397323263821202,
+        "consecutive_time_draws": -0.00027840313852391693
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Nishino2015_noninteracting_moments_Fig1",
+        "doi": "10.1103/PhysRevB.91.134411",
+        "erratum_doi": "10.1103/PhysRevB.97.019904",
+        "parameters": {
+          "field_h": 2.0,
+          "moment_m": 1.0,
+          "gamma": 1.0,
+          "boltzmann": 1.0
+        },
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1",
+        "boundary": "irrelevant_noninteracting"
+      }
+    },
+    {
+      "temperature": 1.0,
+      "dt": 0.005,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 4.47213595499958,
+      "mean_zscore": -1.205814842111382,
+      "variance_ratio": 1.002329869167573,
+      "correlations": {
+        "xyz": 0.003227996921923841,
+        "site": 0.0013961298507680514,
+        "consecutive_time_draws": 0.0006922594866631488
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Nishino2015_noninteracting_moments_Fig1",
+        "doi": "10.1103/PhysRevB.91.134411",
+        "erratum_doi": "10.1103/PhysRevB.97.019904",
+        "parameters": {
+          "field_h": 2.0,
+          "moment_m": 1.0,
+          "gamma": 1.0,
+          "boltzmann": 1.0
+        },
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1",
+        "boundary": "irrelevant_noninteracting"
+      }
+    },
+    {
+      "temperature": 1.0,
+      "dt": 0.0025,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 6.324555320336759,
+      "mean_zscore": 0.7537508733074063,
+      "variance_ratio": 1.0012857271161595,
+      "correlations": {
+        "xyz": -0.0014640067885733283,
+        "site": 0.0013131367079266825,
+        "consecutive_time_draws": 0.0011550248870621357
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Nishino2015_noninteracting_moments_Fig1",
+        "doi": "10.1103/PhysRevB.91.134411",
+        "erratum_doi": "10.1103/PhysRevB.97.019904",
+        "parameters": {
+          "field_h": 2.0,
+          "moment_m": 1.0,
+          "gamma": 1.0,
+          "boltzmann": 1.0
+        },
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1",
+        "boundary": "irrelevant_noninteracting"
+      }
+    },
+    {
+      "temperature": 5.0,
+      "dt": 0.005,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 10.0,
+      "mean_zscore": 0.16503228637668446,
+      "variance_ratio": 1.0028097638251934,
+      "correlations": {
+        "xyz": 0.001954388893846127,
+        "site": -0.0007416876894074067,
+        "consecutive_time_draws": 0.000134948834446121
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Nishino2015_noninteracting_moments_Fig1",
+        "doi": "10.1103/PhysRevB.91.134411",
+        "erratum_doi": "10.1103/PhysRevB.97.019904",
+        "parameters": {
+          "field_h": 2.0,
+          "moment_m": 1.0,
+          "gamma": 1.0,
+          "boltzmann": 1.0
+        },
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1",
+        "boundary": "irrelevant_noninteracting"
+      }
+    },
+    {
+      "temperature": 5.0,
+      "dt": 0.0025,
+      "alpha": 0.05,
+      "components": 1000002,
+      "sigma": 14.142135623730951,
+      "mean_zscore": -0.04922461211935952,
+      "variance_ratio": 0.9998514597956313,
+      "correlations": {
+        "xyz": 0.0021625682713149468,
+        "site": -0.0014666399167810086,
+        "consecutive_time_draws": -0.0006496161894046099
+      },
+      "half_dt_sigma_ratio": 1.4142135623730951,
+      "checks": {
+        "mean": true,
+        "variance": true,
+        "independence": true,
+        "replay": true,
+        "different_seed": true,
+        "dt_scaling": true,
+        "zero_temperature": true
+      },
+      "passed": true,
+      "model": {
+        "model": "Nishino2015_noninteracting_moments_Fig1",
+        "doi": "10.1103/PhysRevB.91.134411",
+        "erratum_doi": "10.1103/PhysRevB.97.019904",
+        "parameters": {
+          "field_h": 2.0,
+          "moment_m": 1.0,
+          "gamma": 1.0,
+          "boltzmann": 1.0
+        },
+        "unit_system": "Nishino2015_dimensionless_gamma_equals_kB_equals_1",
+        "boundary": "irrelevant_noninteracting"
+      }
+    }
+  ],
+  "source_sha256": "fae239acd05ceb2c0a1afe3e71845e05c0d5d539dfed2793e237cb0ece2940bb"
+}

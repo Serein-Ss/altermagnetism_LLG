@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "open_chain_linear_modes",
+      "status": "PASS",
+      "error": 4.440892098500626e-15,
+      "tolerance": 1e-08
+    },
+    {
+      "name": "discrete_static_wall",
+      "status": "PASS",
+      "wall_energy": 0.886724875014707,
+      "continuum_energy": 0.8944271909999159,
+      "relative_tolerance": 0.03,
+      "scope": "Hamiltonian check; not dynamical reversal validation"
+    },
+    {
+      "name": "canonical_single_spin_K0.0",
+      "status": "PASS",
+      "expected": [
+        0.0,
+        0.0,
+        0.0,
+        0.3333333333333332,
+        0.3333333333333332,
+        0.3333333333333336
+      ],
+      "estimate": [
+        -0.0004415374508099585,
+        -0.003221444857077941,
+        0.007753602064957657,
+        0.3302161344162936,
+        0.3346950232760275,
+        0.33508884230767916
+      ],
+      "simultaneous_radius": 0.024600656188070388,
+      "tolerance": 0.05,
+      "confidence": 0.975,
+      "bootstrap_clusters": "independent_trajectory",
+      "initial_preparation": "uniform sphere, first half excluded; not borrowed from LLG equilibrium",
+      "max_raw_norm_error": 3.0212425701225953e-06,
+      "scope": "Independent Boltzmann quadrature; small system only, target-length tests remain required"
+    },
+    {
+      "name": "canonical_single_spin_K0.1",
+      "status": "PASS",
+      "expected": [
+        0.0,
+        0.0,
+        0.0,
+        0.28996802570176483,
+        0.28996802570176483,
+        0.4200639485964704
+      ],
+      "estimate": [
+        -0.0024090617119639805,
+        0.0028437369449575644,
+        0.003435869640020517,
+        0.29061383644011984,
+        0.2913073202809793,
+        0.41807884327890094
+      ],
+      "simultaneous_radius": 0.029271318200797453,
+      "tolerance": 0.05,
+      "confidence": 0.975,
+      "bootstrap_clusters": "independent_trajectory",
+      "initial_preparation": "uniform sphere, first half excluded; not borrowed from LLG equilibrium",
+      "max_raw_norm_error": 3.071001834609177e-06,
+      "scope": "Independent Boltzmann quadrature; small system only, target-length tests remain required"
+    }
+  ],
+  "wall_seconds": 559.9679443277419
+}

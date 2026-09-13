@@ -1,0 +1,65 @@
+{
+  "schema_version": 3,
+  "status": "preproduction",
+  "protocol_specification": "GUIDE/STANDARD_V3_DATASET_GENERATION_REQUIREMENTS.md",
+  "format_note": "JSON syntax is used as the YAML 1.2 compatible subset; no PyYAML dependency is required.",
+  "global_rules": {
+    "production_certification_is_separate_from_generation": true,
+    "production_shard_paths": 50,
+    "all_production_sample_weights": 1,
+    "atomic_partial_then_rename": true,
+    "seed_namespace": "SHA-256(base_seed,system,size,condition,trajectory_id,stream_role)",
+    "split_unit": "initial_state_id",
+    "required_gate_order": [
+      "literature_parameters_audited",
+      "literature_observable_reproduced",
+      "equilibrium_certified",
+      "dt_certified",
+      "save_cadence_certified",
+      "duration_certified",
+      "size_certified",
+      "production_certified"
+    ]
+  },
+  "systems": {
+    "nishino2015": {
+      "role": "thermal_bath_validation",
+      "doi": "10.1103/PhysRevB.91.134411",
+      "erratum_doi": "10.1103/PhysRevB.97.019904",
+      "stage": "literature_observable_reproduced",
+      "production_enabled": false,
+      "blockers": ["dt", "preparation_length", "save_cadence"]
+    },
+    "bauer2011": {
+      "role": "open_ferromagnetic_chain_benchmark",
+      "doi": "10.1088/0953-8984/23/39/394204",
+      "stage": "literature_observable_reproduced_partial",
+      "production_enabled": false,
+      "blockers": ["published_length_stochastic_lifetime", "dt", "initial_pool", "duration"]
+    },
+    "crnb3s6_2020": {
+      "role": "noncollinear_chiral_benchmark",
+      "doi": "10.1038/s41598-020-76903-8",
+      "stage": "literature_observable_reproduced_partial",
+      "production_enabled": false,
+      "blockers": ["critical_fields", "finite_temperature_initial_pool", "dt", "size"]
+    },
+    "mn2au2022": {
+      "role": "literature_conventional_antiferromagnet_benchmark",
+      "doi": "10.1103/PhysRevB.106.094402",
+      "stage": "blocked_parameter_audit",
+      "production_enabled": false,
+      "required_audit": "afm_mn2au2022/mn2au_parameter_audit.json",
+      "blockers": ["J1-J4_neighbor_shells", "anisotropies", "moment", "lattice", "thermal_convention"]
+    },
+    "gomonay2024": {
+      "role": "primary_d_wave_altermagnet_dataset",
+      "doi": "10.1038/s44306-024-00042-3",
+      "stage": "literature_parameters_audited",
+      "production_enabled": false,
+      "candidate_protocol": "altermagnet_gomonay2024/protocol.candidate.yaml",
+      "frozen_protocol": null,
+      "blockers": ["equilibrium_initial_pool", "dt", "save_cadence", "duration", "size", "five_drive_selection"]
+    }
+  }
+}

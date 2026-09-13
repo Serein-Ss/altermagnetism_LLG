@@ -1,0 +1,245 @@
+{
+  "status": "COMPLETE",
+  "models": [
+    {
+      "kind": "rfm",
+      "seed": 11,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 1.1920928955078125e-07,
+      "initial_error": 0.0,
+      "seconds": 1.1226854734122753,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "rfm",
+      "seed": 22,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 1.1920928955078125e-07,
+      "initial_error": 0.0,
+      "seconds": 1.0022436268627644,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "rfm",
+      "seed": 33,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 1.1920928955078125e-07,
+      "initial_error": 0.0,
+      "seconds": 1.0028370209038258,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "deterministic",
+      "seed": 11,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 5.960464477539063e-08,
+      "initial_error": 0.0,
+      "seconds": 0.04765649139881134,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "deterministic",
+      "seed": 22,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 5.960464477539063e-08,
+      "initial_error": 0.0,
+      "seconds": 0.047166794538497925,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "deterministic",
+      "seed": 33,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 5.960464477539063e-08,
+      "initial_error": 0.0,
+      "seconds": 0.04690104350447655,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "euclidean",
+      "seed": 11,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 1.3739147186279297,
+      "initial_error": 0.0,
+      "seconds": 0.33968687057495117,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "euclidean",
+      "seed": 22,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 1.3339812755584717,
+      "initial_error": 0.0,
+      "seconds": 0.34009238332509995,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "euclidean",
+      "seed": 33,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 1.785945177078247,
+      "initial_error": 0.0,
+      "seconds": 0.3404816761612892,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "autoregressive",
+      "seed": 11,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 1.6689300537109375e-05,
+      "initial_error": 0.0,
+      "seconds": 0.6104276403784752,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "autoregressive",
+      "seed": 22,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 2.574920654296875e-05,
+      "initial_error": 0.0,
+      "seconds": 0.6042020693421364,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "autoregressive",
+      "seed": 33,
+      "theta": 0.11,
+      "finite": true,
+      "norm_max": 1.0967254638671875e-05,
+      "initial_error": 0.0,
+      "seconds": 0.6032175868749619,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "rfm",
+      "seed": 11,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 1.1920928955078125e-07,
+      "initial_error": 0.0,
+      "seconds": 1.0464825220406055,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "rfm",
+      "seed": 22,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 1.1920928955078125e-07,
+      "initial_error": 0.0,
+      "seconds": 1.0014462247490883,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "rfm",
+      "seed": 33,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 1.1920928955078125e-07,
+      "initial_error": 0.0,
+      "seconds": 1.002818364650011,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "deterministic",
+      "seed": 11,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 5.960464477539063e-08,
+      "initial_error": 0.0,
+      "seconds": 0.047038484364748,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "deterministic",
+      "seed": 22,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 5.960464477539063e-08,
+      "initial_error": 0.0,
+      "seconds": 0.04736870154738426,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "deterministic",
+      "seed": 33,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 5.960464477539063e-08,
+      "initial_error": 0.0,
+      "seconds": 0.04752032458782196,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "euclidean",
+      "seed": 11,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 1.3664028644561768,
+      "initial_error": 0.0,
+      "seconds": 0.3399118222296238,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "euclidean",
+      "seed": 22,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 1.5331552028656006,
+      "initial_error": 0.0,
+      "seconds": 0.33950742706656456,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "euclidean",
+      "seed": 33,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 1.443666934967041,
+      "initial_error": 0.0,
+      "seconds": 0.34014198929071426,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "autoregressive",
+      "seed": 11,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 7.987022399902344e-06,
+      "initial_error": 0.0,
+      "seconds": 0.598289780318737,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "autoregressive",
+      "seed": 22,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 1.3709068298339844e-05,
+      "initial_error": 0.0,
+      "seconds": 0.5980215184390545,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    },
+    {
+      "kind": "autoregressive",
+      "seed": 33,
+      "theta": 0.13,
+      "finite": true,
+      "norm_max": 8.535385131835938e-05,
+      "initial_error": 0.0,
+      "seconds": 0.5986717641353607,
+      "seconds_scope": "RFM includes both32/64-step samples; others one sampling run"
+    }
+  ]
+}

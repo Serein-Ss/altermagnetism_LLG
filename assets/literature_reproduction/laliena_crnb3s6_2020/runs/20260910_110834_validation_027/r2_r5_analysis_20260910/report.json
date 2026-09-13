@@ -1,0 +1,102 @@
+{
+  "index": 27,
+  "paper": "laliena_crnb3s6_2020",
+  "run_id": "20260910_110834_validation_027",
+  "protocol": "current",
+  "parameters": {
+    "sites": 480,
+    "batch": 1,
+    "dx": 0.12992957746478873,
+    "u": 0.89,
+    "extent": 32.0,
+    "points": 601,
+    "dt": 2.5e-05,
+    "steps": 4000000,
+    "save_every": 4000,
+    "seed": 20260910,
+    "method": "heun_projected_predictor"
+  },
+  "production_certified": false,
+  "raw_sha256": {
+    "trajectory.h5": "1cbba64dd47d9515a21dac977742f96508ec107ffdb226559e4caa8eb99de100"
+  },
+  "configuration_sha256": "a4df2a012474bb965792f9066cac13654173d3eaeba40abe035d5a0d84281b36",
+  "saved_frames": 1001,
+  "duration": 100.0,
+  "finite": true,
+  "max_saved_norm_error": 2.220446049250313e-16,
+  "projection_predictor_error_saved": false,
+  "norm_gate": "pass",
+  "energy": {
+    "initial": [
+      -0.7924308048352173
+    ],
+    "final": [
+      -0.7835079210484983
+    ],
+    "maximum_saved_increase": [
+      2.26187814804657e-05
+    ],
+    "relative_excursion": [
+      0.011260142503640418
+    ]
+  },
+  "final_winding": [
+    1.0
+  ],
+  "final_mean_wavevector": [
+    0.10074664787934748
+  ],
+  "final_max_abs_nz": [
+    0.31205330592254965
+  ],
+  "late_wavevector": {
+    "intervals": [
+      [
+        50.0,
+        75.0
+      ],
+      [
+        75.0,
+        100.0
+      ]
+    ],
+    "first": [
+      0.1007466478793475
+    ],
+    "second": [
+      0.1007466478793475
+    ],
+    "change": [
+      0.0
+    ],
+    "certified": false
+  },
+  "velocity_late": [
+    1.7395240253451725
+  ],
+  "velocity_expected": 1.78,
+  "width_late_windows": {
+    "intervals": [
+      [
+        50.0,
+        75.0
+      ],
+      [
+        75.0,
+        100.0
+      ]
+    ],
+    "first": [
+      0.9282799181049285
+    ],
+    "second": [
+      0.9213169760426391
+    ],
+    "change": [
+      -0.006962942062289423
+    ],
+    "certified": false
+  },
+  "interpretation": "Velocity/width valid only for a surviving isolated soliton; RMS width is not the BVP tanh width."
+}

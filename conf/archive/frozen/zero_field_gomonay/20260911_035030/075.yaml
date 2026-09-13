@@ -1,0 +1,39 @@
+run_id: '20260911_035030_075'
+role: equilibrium_diagnostic
+production_enabled: false
+material_config: /share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/zero_field_20260911_035030/code/altermagnetism_LLG/conf/literature/gomonay_2024.yaml
+drives:
+  zeeman: 0
+  field_gradient: 0
+  sot: 0
+  stt: 0
+  current: 0
+  pulse: 0
+  tip: 0
+orientation: '100'
+shape:
+- 64
+- 64
+periodic:
+- true
+- true
+batch: 4
+initializations:
+- positive
+- negative
+- random
+- random
+initial_seed: 904750
+noise_seeds:
+- 903750
+- 903751
+- 903752
+- 903753
+seed: 903750
+alpha: 0.1
+theta: 1.0
+method: heun_projected_predictor
+dt: 0.005
+steps: 200000
+save_every: 100
+checkpoint_every: 10000

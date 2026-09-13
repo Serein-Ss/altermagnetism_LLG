@@ -1,0 +1,15 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+condition=0 paths=30 complete
+condition=1 paths=30 complete
+condition=2 paths=30 complete
+{
+  "schema_version": 2,
+  "status": "extended_observation_not_retrained",
+  "source": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_2ps/train/d_wave_altermagnet_L64.h5",
+  "source_sha256": "e3836732bd29a578c369a66fc37e33b3be2dcdd156bfaf9307a59c0dd87f2301",
+  "output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/standard_v2_extended_3ps/train/d_wave_altermagnet_L64.h5",
+  "output_sha256": "d4a9c02359ea1439353fa7eed830d8de63b4307e0dfa2a98bbdfa22892e79ba0",
+  "target_duration_ps": 3.0,
+  "continuation": "exact stored state at 1 ps; statistically valid independent white-noise continuation from that Markov state"
+}

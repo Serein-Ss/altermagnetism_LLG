@@ -1,0 +1,13 @@
+{
+  "job_id": "669334",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/bauer_first_loop/20260913_v1/job.log",
+    "--error=/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/bauer_first_loop/20260913_v1/job.err",
+    "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/output/bauer_first_loop/20260913_v1/run.sbatch"
+  ],
+  "snapshot": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_first_loop_20260913_v1/code",
+  "submitted_at": "2026-09-13T07:45:35.785802+08:00",
+  "frozen_manifest_sha256": "dd356e1482ae34ededbb7b8178f5e9c4cb1b8d2d3b9d6831d47ac478e82358e1"
+}

@@ -1,0 +1,4 @@
+/usr/bin/bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+case=B theta=0.5 repeat=0 step=10000/10000
+{"output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/preflight_20260909_timing_b.partial/task_0048.h5", "elapsed_seconds": 277.8499652631581, "formal_settings": false, "data_sha256": "353ad8bd963318fd910077da1c535045d27bd3e59570a6b0a88989b04c0fb570"}

@@ -1,0 +1,32 @@
+{
+  "task": {
+    "paper": "bauer_2011",
+    "protocol": "trajectory",
+    "pool": "cpu",
+    "overrides": {
+      "batch": 32,
+      "dt": 0.005,
+      "steps": 40000,
+      "save_every": 200,
+      "seed": 20260911
+    },
+    "index": 5,
+    "config": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834/configs/005.yaml",
+    "config_sha256": "33dde52c9d1cc556f5d4f59a7e4350b3f8bb1f9980d4efca30e2d59d466687b2",
+    "run_id": "20260910_110834_validation_005",
+    "parameters": {
+      "length": 100,
+      "batch": 32,
+      "dt": 0.005,
+      "steps": 40000,
+      "save_every": 200,
+      "seed": 20260911,
+      "method": "milstein_tretyakov_5_9",
+      "project": true
+    }
+  },
+  "elapsed_seconds": 162.1396207474172,
+  "campaign": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r2_r5_validation_20260910_110834",
+  "slurm_job_id": "669040",
+  "result": "simulation_complete_pending_scientific_analysis"
+}

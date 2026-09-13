@@ -1,0 +1,15 @@
+{
+  "snapshot": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/bauer_classical_20260913/code",
+  "source_files": 169,
+  "source_tree_commit": "3c5314b8b08915e92f3028ddf958ee8328e4ca5c",
+  "source_tree_has_uncommitted_changes": true,
+  "protocol_commit": "a8e169d5248d84e471cbfd287d3da4d9e8e9bb17",
+  "code_manifest_sha256": "e9a73dcf6f039ba57946daaa1f42a313d55a8ed72744f2b952662a914935ab41",
+  "config_sha256": "f75e6f51487bd8f06e12104dcf22897e4fecf29441523fa3f82097f1cd9c6b50",
+  "preflight": {
+    "pytest_pass": 37,
+    "pytest_skip_requires_cuda": 2,
+    "bauer_software_checks": 92,
+    "bauer_software_status": "PASS"
+  }
+}

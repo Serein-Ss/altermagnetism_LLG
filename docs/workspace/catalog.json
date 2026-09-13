@@ -1,0 +1,295 @@
+{
+  "created_utc": "2026-09-13T04:13:03.311769+00:00",
+  "physical_paths_changed": false,
+  "data_deleted": false,
+  "links": [
+    {
+      "navigation": "NAVIGATION/01_bauer/independent_reference",
+      "target": "output/bauer_campaign/20260913_classical_independent",
+      "relative_link": "../../output/bauer_campaign/20260913_classical_independent",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/01_bauer/first_learning_loop",
+      "target": "output/bauer_first_loop/20260913_v1",
+      "relative_link": "../../output/bauer_first_loop/20260913_v1",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/01_bauer/running_reference_supplement",
+      "target": "output/bauer_revision4/20260913_023043",
+      "relative_link": "../../output/bauer_revision4/20260913_023043",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/01_bauer/raw_literature_paths",
+      "target": "data/literature_reproduction/bauer_2011",
+      "relative_link": "../../data/literature_reproduction/bauer_2011",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/01_bauer/reference_configuration",
+      "target": "conf/bauer_campaign",
+      "relative_link": "../../conf/bauer_campaign",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/01_bauer/development_contract",
+      "target": "conf/bauer_path",
+      "relative_link": "../../conf/bauer_path",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/01_bauer/reference_logs",
+      "target": "logs/bauer_campaign",
+      "relative_link": "../../logs/bauer_campaign",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/01_bauer/supplement_logs",
+      "target": "logs/bauer_revision4",
+      "relative_link": "../../logs/bauer_revision4",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/03_legacy_v2/datasets_1ps",
+      "target": "data/datasets/standard_v2",
+      "relative_link": "../../data/datasets/standard_v2",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/03_legacy_v2/datasets_2ps",
+      "target": "data/datasets/standard_v2_extended_2ps",
+      "relative_link": "../../data/datasets/standard_v2_extended_2ps",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/03_legacy_v2/datasets_3ps",
+      "target": "data/datasets/standard_v2_extended_3ps",
+      "relative_link": "../../data/datasets/standard_v2_extended_3ps",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/03_legacy_v2/checkpoints",
+      "target": "output/production",
+      "relative_link": "../../output/production",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/03_legacy_v2/evaluation",
+      "target": "output/diagnostics",
+      "relative_link": "../../output/diagnostics",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/03_legacy_v2/generated_paths",
+      "target": "data/generated",
+      "relative_link": "../../data/generated",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/03_legacy_v2/figures",
+      "target": "assets/research/models",
+      "relative_link": "../../assets/research/models",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/04_old_gomonay/gate_f_reports",
+      "target": "output/gate_f",
+      "relative_link": "../../output/gate_f",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/04_old_gomonay/gate_f_raw",
+      "target": "data/research/gate_f_prerequisites",
+      "relative_link": "../../data/research/gate_f_prerequisites",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/04_old_gomonay/zero_field_reports",
+      "target": "output/zero_field_program",
+      "relative_link": "../../output/zero_field_program",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/04_old_gomonay/zero_field_raw",
+      "target": "data/research/zero_field_gomonay",
+      "relative_link": "../../data/research/zero_field_gomonay",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/04_old_gomonay/exploratory_data",
+      "target": "data/research",
+      "relative_link": "../../data/research",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/05_frozen_evidence/code",
+      "target": "scripts/archive",
+      "relative_link": "../../scripts/archive",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/05_frozen_evidence/configurations",
+      "target": "conf/frozen",
+      "relative_link": "../../conf/frozen",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/05_frozen_evidence/audits",
+      "target": "data/audit",
+      "relative_link": "../../data/audit",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/06_operations/code_by_category",
+      "target": "scripts",
+      "relative_link": "../../scripts",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/06_operations/slurm",
+      "target": "slurm",
+      "relative_link": "../../slurm",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/06_operations/logs",
+      "target": "logs",
+      "relative_link": "../../logs",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/06_operations/smoke_results",
+      "target": "output/smoke",
+      "relative_link": "../../output/smoke",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/06_operations/plans_read_only",
+      "target": "GUIDE",
+      "relative_link": "../../GUIDE",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/bauer_2011/data",
+      "target": "data/literature_reproduction/bauer_2011",
+      "relative_link": "../../../data/literature_reproduction/bauer_2011",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/bauer_2011/reports",
+      "target": "output/literature_reproduction/bauer_2011",
+      "relative_link": "../../../output/literature_reproduction/bauer_2011",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/bauer_2011/figures",
+      "target": "assets/literature_reproduction/bauer_2011",
+      "relative_link": "../../../assets/literature_reproduction/bauer_2011",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/bauer_2011/code",
+      "target": "scripts/literature/bauer_2011",
+      "relative_link": "../../../scripts/literature/bauer_2011",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/gomonay_2024/data",
+      "target": "data/literature_reproduction/gomonay_2024",
+      "relative_link": "../../../data/literature_reproduction/gomonay_2024",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/gomonay_2024/reports",
+      "target": "output/literature_reproduction/gomonay_2024",
+      "relative_link": "../../../output/literature_reproduction/gomonay_2024",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/gomonay_2024/figures",
+      "target": "assets/literature_reproduction/gomonay_2024",
+      "relative_link": "../../../assets/literature_reproduction/gomonay_2024",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/gomonay_2024/code",
+      "target": "scripts/literature/gomonay_2024",
+      "relative_link": "../../../scripts/literature/gomonay_2024",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/nishino_miyashita_2015/data",
+      "target": "data/literature_reproduction/nishino_miyashita_2015",
+      "relative_link": "../../../data/literature_reproduction/nishino_miyashita_2015",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/nishino_miyashita_2015/reports",
+      "target": "output/literature_reproduction/nishino_miyashita_2015",
+      "relative_link": "../../../output/literature_reproduction/nishino_miyashita_2015",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/nishino_miyashita_2015/figures",
+      "target": "assets/literature_reproduction/nishino_miyashita_2015",
+      "relative_link": "../../../assets/literature_reproduction/nishino_miyashita_2015",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/nishino_miyashita_2015/code",
+      "target": "scripts/literature/nishino_miyashita_2015",
+      "relative_link": "../../../scripts/literature/nishino_miyashita_2015",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/hirst_mn2au_2022/data",
+      "target": "data/literature_reproduction/hirst_mn2au_2022",
+      "relative_link": "../../../data/literature_reproduction/hirst_mn2au_2022",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/hirst_mn2au_2022/reports",
+      "target": "output/literature_reproduction/hirst_mn2au_2022",
+      "relative_link": "../../../output/literature_reproduction/hirst_mn2au_2022",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/hirst_mn2au_2022/figures",
+      "target": "assets/literature_reproduction/hirst_mn2au_2022",
+      "relative_link": "../../../assets/literature_reproduction/hirst_mn2au_2022",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/hirst_mn2au_2022/code",
+      "target": "scripts/literature/hirst_mn2au_2022",
+      "relative_link": "../../../scripts/literature/hirst_mn2au_2022",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/laliena_crnb3s6_2020/data",
+      "target": "data/literature_reproduction/laliena_crnb3s6_2020",
+      "relative_link": "../../../data/literature_reproduction/laliena_crnb3s6_2020",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/laliena_crnb3s6_2020/reports",
+      "target": "output/literature_reproduction/laliena_crnb3s6_2020",
+      "relative_link": "../../../output/literature_reproduction/laliena_crnb3s6_2020",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/laliena_crnb3s6_2020/figures",
+      "target": "assets/literature_reproduction/laliena_crnb3s6_2020",
+      "relative_link": "../../../assets/literature_reproduction/laliena_crnb3s6_2020",
+      "kind": "alias_not_data_copy"
+    },
+    {
+      "navigation": "NAVIGATION/02_literature/laliena_crnb3s6_2020/code",
+      "target": "scripts/literature/laliena_crnb3s6_2020",
+      "relative_link": "../../../scripts/literature/laliena_crnb3s6_2020",
+      "kind": "alias_not_data_copy"
+    }
+  ]
+}

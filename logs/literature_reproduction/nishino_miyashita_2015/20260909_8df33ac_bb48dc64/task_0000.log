@@ -1,0 +1,9 @@
+case=A theta=0.5 repeat=0 step=10000/80000
+case=A theta=0.5 repeat=0 step=20000/80000
+case=A theta=0.5 repeat=0 step=30000/80000
+case=A theta=0.5 repeat=0 step=40000/80000
+case=A theta=0.5 repeat=0 step=50000/80000
+case=A theta=0.5 repeat=0 step=60000/80000
+case=A theta=0.5 repeat=0 step=70000/80000
+case=A theta=0.5 repeat=0 step=80000/80000
+{"output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/data/literature_reproduction/nishino_miyashita_2015/raw/20260909_8df33ac_bb48dc64.partial/task_0000.h5", "elapsed_seconds": 1854.4218961112201, "formal_settings": true, "data_sha256": "3d2f869cbccd0033ebb9dba12f2cfdf0c925e4997f96572c8a6c0bb022831426"}

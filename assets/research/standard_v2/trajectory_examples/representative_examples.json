@@ -1,0 +1,218 @@
+{
+  "selection_condition": {
+    "temperature_K": 5.0,
+    "drive_damping_like_T": 0.78
+  },
+  "mechanism_threshold": 0.25,
+  "selection_rule": "class medoid in endpoint, minimum order, first-passage time, transition spatial spread and peak periodic-wall density",
+  "sizes": {
+    "16": {
+      "physical_condition": [
+        5.0,
+        0.01,
+        0.78,
+        0.0,
+        5e-17,
+        1e-14,
+        1e-12,
+        5e-13
+      ],
+      "counts": {
+        "no_crossing": 15,
+        "coherent_like": 15,
+        "spatially_nonuniform": 0
+      },
+      "selected": {
+        "no_crossing": {
+          "label": "no_crossing",
+          "endpoint_order": 0.8979113101959229,
+          "minimum_order": 0.3671967387199402,
+          "first_passage_ps": null,
+          "transition_spatial_std": 0.10563546419143677,
+          "peak_wall_density": 0.0,
+          "representative_frame": 54,
+          "representative_time_ps": 0.54,
+          "index": 50,
+          "trajectory_id": 50,
+          "trajectory_seed": 1151712782098208
+        },
+        "coherent_like": {
+          "label": "coherent_like",
+          "endpoint_order": -0.8301723003387451,
+          "minimum_order": -0.9771491289138794,
+          "first_passage_ps": 0.57,
+          "transition_spatial_std": 0.1150360181927681,
+          "peak_wall_density": 0.34375,
+          "representative_frame": 62,
+          "representative_time_ps": 0.62,
+          "index": 36,
+          "trajectory_id": 36,
+          "trajectory_seed": 1151712782098194
+        },
+        "spatially_nonuniform": null
+      }
+    },
+    "32": {
+      "physical_condition": [
+        5.0,
+        0.01,
+        0.78,
+        0.0,
+        5e-17,
+        1e-14,
+        1e-12,
+        5e-13
+      ],
+      "counts": {
+        "no_crossing": 17,
+        "coherent_like": 13,
+        "spatially_nonuniform": 0
+      },
+      "selected": {
+        "no_crossing": {
+          "label": "no_crossing",
+          "endpoint_order": 0.927260160446167,
+          "minimum_order": 0.3046543598175049,
+          "first_passage_ps": null,
+          "transition_spatial_std": 0.12265955656766891,
+          "peak_wall_density": 0.0107421875,
+          "representative_frame": 58,
+          "representative_time_ps": 0.58,
+          "index": 55,
+          "trajectory_id": 55,
+          "trajectory_seed": 69320274598952972
+        },
+        "coherent_like": {
+          "label": "coherent_like",
+          "endpoint_order": -0.8568989634513855,
+          "minimum_order": -0.9799424409866333,
+          "first_passage_ps": 0.58,
+          "transition_spatial_std": 0.13012416660785675,
+          "peak_wall_density": 0.2890625,
+          "representative_frame": 69,
+          "representative_time_ps": 0.69,
+          "index": 57,
+          "trajectory_id": 57,
+          "trajectory_seed": 69320274598952974
+        },
+        "spatially_nonuniform": null
+      }
+    },
+    "64": {
+      "physical_condition": [
+        5.0,
+        0.01,
+        0.78,
+        0.0,
+        5e-17,
+        1e-14,
+        1e-12,
+        5e-13
+      ],
+      "counts": {
+        "no_crossing": 16,
+        "coherent_like": 11,
+        "spatially_nonuniform": 3
+      },
+      "selected": {
+        "no_crossing": {
+          "label": "no_crossing",
+          "endpoint_order": 0.6148828864097595,
+          "minimum_order": 0.13528966903686523,
+          "first_passage_ps": null,
+          "transition_spatial_std": 0.257625013589859,
+          "peak_wall_density": 0.147705078125,
+          "representative_frame": 66,
+          "representative_time_ps": 0.66,
+          "index": 57,
+          "trajectory_id": 57,
+          "trajectory_seed": 70718366958958699
+        },
+        "coherent_like": {
+          "label": "coherent_like",
+          "endpoint_order": -0.9774279594421387,
+          "minimum_order": -0.9774279594421387,
+          "first_passage_ps": 0.6,
+          "transition_spatial_std": 0.19331273436546326,
+          "peak_wall_density": 0.21240234375,
+          "representative_frame": 79,
+          "representative_time_ps": 0.7899999999999999,
+          "index": 39,
+          "trajectory_id": 39,
+          "trajectory_seed": 70718366958958681
+        },
+        "spatially_nonuniform": {
+          "label": "spatially_nonuniform",
+          "endpoint_order": -0.19798177480697632,
+          "minimum_order": -0.19798177480697632,
+          "first_passage_ps": 0.68,
+          "transition_spatial_std": 0.3208777606487274,
+          "peak_wall_density": 0.2197265625,
+          "representative_frame": 100,
+          "representative_time_ps": 1.0,
+          "index": 31,
+          "trajectory_id": 31,
+          "trajectory_seed": 70718366958958673
+        }
+      }
+    },
+    "96": {
+      "physical_condition": [
+        5.0,
+        0.01,
+        0.78,
+        0.0,
+        5e-17,
+        1e-14,
+        1e-12,
+        5e-13
+      ],
+      "counts": {
+        "no_crossing": 12,
+        "coherent_like": 1,
+        "spatially_nonuniform": 7
+      },
+      "selected": {
+        "no_crossing": {
+          "label": "no_crossing",
+          "endpoint_order": 0.3795766830444336,
+          "minimum_order": 0.11834751069545746,
+          "first_passage_ps": null,
+          "transition_spatial_std": 0.6063247323036194,
+          "peak_wall_density": 0.1332465277777778,
+          "representative_frame": 68,
+          "representative_time_ps": 0.68,
+          "index": 39,
+          "trajectory_id": 39,
+          "trajectory_seed": 36727890033565971
+        },
+        "coherent_like": {
+          "label": "coherent_like",
+          "endpoint_order": -0.9379463195800781,
+          "minimum_order": -0.9464528560638428,
+          "first_passage_ps": 0.58,
+          "transition_spatial_std": 0.24311751127243042,
+          "peak_wall_density": 0.17100694444444445,
+          "representative_frame": 76,
+          "representative_time_ps": 0.76,
+          "index": 22,
+          "trajectory_id": 22,
+          "trajectory_seed": 36727890033565954
+        },
+        "spatially_nonuniform": {
+          "label": "spatially_nonuniform",
+          "endpoint_order": -0.4516410231590271,
+          "minimum_order": -0.4516410231590271,
+          "first_passage_ps": 0.6499999999999999,
+          "transition_spatial_std": 0.5438200235366821,
+          "peak_wall_density": 0.18739149305555555,
+          "representative_frame": 100,
+          "representative_time_ps": 1.0,
+          "index": 20,
+          "trajectory_id": 20,
+          "trajectory_seed": 36727890033565952
+        }
+      }
+    }
+  }
+}

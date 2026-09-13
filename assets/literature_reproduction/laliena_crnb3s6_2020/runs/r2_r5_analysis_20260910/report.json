@@ -1,0 +1,1048 @@
+{
+  "paper": "laliena_crnb3s6_2020",
+  "status": "inconclusive",
+  "limitations": "\u5206\u652f\u626b\u63cf\u56fa\u5b9a\u4e00\u4e2a h_y\uff0c\u4e0d\u80fd\u590d\u73b0\u6574\u6761\u4e34\u754c\u66f2\u7ebf\uff1b\u7535\u6d41\u8f68\u8ff9\u56fa\u5b9a dx\uff0c\u65f6\u95f4\u6b65\u6536\u655b\u4e0d\u4ee3\u8868\u7a7a\u95f4\u6536\u655b\u3002\u87ba\u65cb\u9700\u68c0\u67e5\u5c40\u90e8\u6ce2\u77e2\u53ca\u80fd\u91cf\u7684\u957f\u671f\u7a33\u5b9a\uff0c\u800c\u975e\u4ec5\u770b\u6574\u6570 winding\u3002\u5c1a\u7f3a\u52d8\u8bef\u56fe\u6570\u5b57\u5316\u70b9\u53ca\u8bef\u5dee\u3002",
+  "tasks": [
+    {
+      "index": 18,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_018",
+      "protocol": "branch",
+      "parameters": {
+        "extent": 20,
+        "points": 501,
+        "tolerance": 1e-06,
+        "continuation_steps": 120,
+        "ds": 0.1
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "branch.npz": "ad3e88704b6df754de971b187a7fa8ced1a8becc6fa57bc88bb454d259004d44"
+      },
+      "configuration_sha256": "8b90be124b07824457453ea678b228baa574559284c4d5fa239acd08700f864a",
+      "fold_bracketed": true,
+      "sampled_gamma_max": 1.2080652264959297,
+      "reference_gamma_from_GUIDE": 1.2405,
+      "reference_relative_error": -0.026146532449875193,
+      "max_BVP_residual": 9.987944506167879e-07,
+      "branch_points": 24
+    },
+    {
+      "index": 19,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_019",
+      "protocol": "branch",
+      "parameters": {
+        "extent": 25,
+        "points": 501,
+        "tolerance": 1e-06,
+        "continuation_steps": 120,
+        "ds": 0.1
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "branch.npz": "d74435904f62dc71554b73029bf8bfc3d8ba9511c95d93a7ad82e78a4e0b18ac"
+      },
+      "configuration_sha256": "bad08e5dbd6c2aa224d17f1ce023def96578e606bd576b175e8557d47038a31b",
+      "fold_bracketed": true,
+      "sampled_gamma_max": 1.2080093138167958,
+      "reference_gamma_from_GUIDE": 1.2405,
+      "reference_relative_error": -0.026191605145670427,
+      "max_BVP_residual": 9.99330438397364e-07,
+      "branch_points": 24
+    },
+    {
+      "index": 20,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_020",
+      "protocol": "branch",
+      "parameters": {
+        "extent": 40,
+        "points": 1001,
+        "tolerance": 1e-06,
+        "continuation_steps": 120,
+        "ds": 0.1
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "branch.npz": "b4d119aac337f74379db2b91363fd820201390efaef52584f8f6b4726a1fc772"
+      },
+      "configuration_sha256": "b6857c0f65ea750e9fd71cf4ef45da4e6786b08faef63746d7de0efd348ca926",
+      "fold_bracketed": true,
+      "sampled_gamma_max": 1.2080652264959293,
+      "reference_gamma_from_GUIDE": 1.2405,
+      "reference_relative_error": -0.026146532449875526,
+      "max_BVP_residual": 9.987944500256599e-07,
+      "branch_points": 24
+    },
+    {
+      "index": 21,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_021",
+      "protocol": "branch",
+      "parameters": {
+        "extent": 25,
+        "points": 501,
+        "tolerance": 1e-06,
+        "continuation_steps": 240,
+        "ds": 0.05
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "branch.npz": "38b905cd212a26ec01c3ebebb3d5d896b00038b214fe1d5edcf31604da2198f8"
+      },
+      "configuration_sha256": "6203b48e1f7ba276c8a7d1ba9926fa509e5c3f5bde43fcb1b5a9eabf3968796a",
+      "fold_bracketed": true,
+      "sampled_gamma_max": 1.2089603277973584,
+      "reference_gamma_from_GUIDE": 1.2405,
+      "reference_relative_error": -0.025424967515228936,
+      "max_BVP_residual": 9.995091182986458e-07,
+      "branch_points": 42
+    },
+    {
+      "index": 22,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_022",
+      "protocol": "branch",
+      "parameters": {
+        "extent": 25,
+        "points": 1001,
+        "tolerance": 1e-06,
+        "continuation_steps": 480,
+        "ds": 0.025
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "branch.npz": "ce1e2f138ea4a186410fdc1d6ffec1435032a5b7dcbd4041f195ea9c1a5cca69"
+      },
+      "configuration_sha256": "835b6f5f3388f8b5267ce522ea0d50bb63102e2b6860348084d0f191a783ff2e",
+      "fold_bracketed": true,
+      "sampled_gamma_max": 1.2089703572464,
+      "reference_gamma_from_GUIDE": 1.2405,
+      "reference_relative_error": -0.025416882509955663,
+      "max_BVP_residual": 9.99606327041914e-07,
+      "branch_points": 77
+    },
+    {
+      "index": 23,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_023",
+      "protocol": "helix",
+      "parameters": {
+        "sites": 384,
+        "batch": 4,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 10000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "8ace1041a6f35f8ab163fe2e71d994c6ad2ae2c80c9d3266c753249073236402"
+      },
+      "configuration_sha256": "e9b93a4e967895539f5aa524ec4c897417daa5c08d6c81f377e671a307de50d6",
+      "saved_frames": 201,
+      "duration": 100.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          59.29214868928718,
+          59.55351591282815,
+          63.161277670051795,
+          61.74297877438982
+        ],
+        "final": [
+          -0.44976485676807143,
+          -0.4192603332688189,
+          -0.42061410577995223,
+          -0.44053945020441915
+        ],
+        "maximum_saved_increase": [
+          -0.0008396277749820324,
+          -0.00028688127210924064,
+          -0.000271343500715171,
+          -0.0014263184863520517
+        ],
+        "relative_excursion": [
+          1.0075855718962894,
+          1.0070400601348628,
+          1.0066593666451333,
+          1.0071350533931018
+        ]
+      },
+      "final_winding": [
+        7.000000000000001,
+        5.0,
+        5.0,
+        8.000000000000002
+      ],
+      "final_mean_wavevector": [
+        0.8815331689442906,
+        0.6296665492459218,
+        0.6296665492459218,
+        1.007466478793475
+      ],
+      "final_max_abs_nz": [
+        0.3555589332945799,
+        0.12216887335924369,
+        0.10379700075022535,
+        0.48702806613835264
+      ],
+      "late_wavevector": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.8739771703533386,
+          0.6296665492459219,
+          0.6296665492459219,
+          0.9898358154145892
+        ],
+        "second": [
+          0.8815331689442897,
+          0.6296665492459218,
+          0.6296665492459218,
+          1.007466478793475
+        ],
+        "change": [
+          0.00755599859095113,
+          -1.1102230246251565e-16,
+          -1.1102230246251565e-16,
+          0.017630663378885858
+        ],
+        "certified": false
+      }
+    },
+    {
+      "index": 24,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_024",
+      "protocol": "helix",
+      "parameters": {
+        "sites": 480,
+        "batch": 4,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 10000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "1643bac27d535e7cb96ab0b8bb019ad41bdd038c1fb9223c5e0c87629319ba44"
+      },
+      "configuration_sha256": "d7170b5b44dd6b86cbddebc48fe6a67462b2946aa06733b321cfc72f96589c97",
+      "saved_frames": 201,
+      "duration": 100.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          59.3908346464835,
+          61.08371929883906,
+          62.97882568467422,
+          60.976341902413196
+        ],
+        "final": [
+          -0.4768478942017077,
+          -0.4448442024658977,
+          -0.3495818738595462,
+          -0.46844217410959726
+        ],
+        "maximum_saved_increase": [
+          -0.0005919989456826813,
+          -0.0011440114070949692,
+          -0.0008456269421840967,
+          -0.0006801197933075098
+        ],
+        "relative_excursion": [
+          1.0080289811894392,
+          1.0072825330148871,
+          1.0055507842526288,
+          1.0076823594117748
+        ]
+      },
+      "final_winding": [
+        9.0,
+        11.000000000000002,
+        5.0,
+        10.999999999999998
+      ],
+      "final_mean_wavevector": [
+        0.9067198309141272,
+        1.1082131266728223,
+        0.5037332393967374,
+        1.1082131266728221
+      ],
+      "final_max_abs_nz": [
+        0.1079928927580242,
+        0.38365952793862296,
+        0.2553722634494083,
+        0.16521488288016584
+      ],
+      "late_wavevector": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.9026899649989537,
+          1.122317657375931,
+          0.5037332393967375,
+          1.1082131266728226
+        ],
+        "second": [
+          0.9067198309141276,
+          1.1082131266728223,
+          0.5037332393967375,
+          1.1082131266728223
+        ],
+        "change": [
+          0.004029865915173847,
+          -0.014104530703108686,
+          0.0,
+          -2.220446049250313e-16
+        ],
+        "certified": false
+      }
+    },
+    {
+      "index": 25,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_025",
+      "protocol": "helix",
+      "parameters": {
+        "sites": 576,
+        "batch": 4,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 10000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "e7547b26b2f9df224fbe1170c068abec919af5c9ab6bc6bdec87b080292b444f"
+      },
+      "configuration_sha256": "1c7250e346c48cff065e32f72fad86e4cf8ad54629a8e58832b6e9602baa18a9",
+      "saved_frames": 201,
+      "duration": 100.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          59.40460247998333,
+          62.04506464661751,
+          60.86042620328578,
+          61.08719394564642
+        ],
+        "final": [
+          -0.4327522259341065,
+          -0.3233416597001647,
+          -0.3886716173312612,
+          -0.4758316130313516
+        ],
+        "maximum_saved_increase": [
+          -0.0003242353872266457,
+          -0.0004707574964696315,
+          -0.0003091467388008917,
+          -0.0003136271400508983
+        ],
+        "relative_excursion": [
+          1.0072848265600283,
+          1.0052114001579622,
+          1.006386278269446,
+          1.007789384031205
+        ]
+      },
+      "final_winding": [
+        8.0,
+        8.0,
+        17.0,
+        10.000000000000002
+      ],
+      "final_mean_wavevector": [
+        0.6716443191956499,
+        0.6716443191956499,
+        1.4272441782907561,
+        0.8395553989945627
+      ],
+      "final_max_abs_nz": [
+        0.1599142046933793,
+        0.9875342875128607,
+        0.12642172596433207,
+        0.12494602400333894
+      ],
+      "late_wavevector": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.6716443191956499,
+          0.7102638675493997,
+          1.4272441782907554,
+          0.8395553989945626
+        ],
+        "second": [
+          0.67164431919565,
+          0.6848138156504667,
+          1.4272441782907554,
+          0.8395553989945626
+        ],
+        "change": [
+          1.1102230246251565e-16,
+          -0.025450051898933013,
+          0.0,
+          0.0
+        ],
+        "certified": false
+      }
+    },
+    {
+      "index": 26,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_026",
+      "protocol": "current",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.89,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 2000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "d3dc2baa06425b877217b90086f6b70edffb27776bd40eaca22ba0af56e144b9"
+      },
+      "configuration_sha256": "0a951c4609840be6807ee461c4ad4718fcd4bfd5eab8bb300c1aaa2df92ab8f9",
+      "saved_frames": 1001,
+      "duration": 100.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.7924308048352173
+        ],
+        "final": [
+          -0.7835079209971175
+        ],
+        "maximum_saved_increase": [
+          2.261878151421648e-05
+        ],
+        "relative_excursion": [
+          0.011260142568479882
+        ]
+      },
+      "final_winding": [
+        1.0000000000000002
+      ],
+      "final_mean_wavevector": [
+        0.1007466478793475
+      ],
+      "final_max_abs_nz": [
+        0.3120533039297846
+      ],
+      "late_wavevector": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.1007466478793475
+        ],
+        "second": [
+          0.1007466478793475
+        ],
+        "change": [
+          0.0
+        ],
+        "certified": false
+      },
+      "velocity_late": [
+        1.7395240236303369
+      ],
+      "velocity_expected": 1.78,
+      "width_late_windows": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.9282799185671675
+        ],
+        "second": [
+          0.9213169764197595
+        ],
+        "change": [
+          -0.006962942147408002
+        ],
+        "certified": false
+      },
+      "interpretation": "Velocity/width valid only for a surviving isolated soliton; RMS width is not the BVP tanh width."
+    },
+    {
+      "index": 27,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_027",
+      "protocol": "current",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.89,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 2.5e-05,
+        "steps": 4000000,
+        "save_every": 4000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "1cbba64dd47d9515a21dac977742f96508ec107ffdb226559e4caa8eb99de100"
+      },
+      "configuration_sha256": "a4df2a012474bb965792f9066cac13654173d3eaeba40abe035d5a0d84281b36",
+      "saved_frames": 1001,
+      "duration": 100.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.7924308048352173
+        ],
+        "final": [
+          -0.7835079210484983
+        ],
+        "maximum_saved_increase": [
+          2.26187814804657e-05
+        ],
+        "relative_excursion": [
+          0.011260142503640418
+        ]
+      },
+      "final_winding": [
+        1.0
+      ],
+      "final_mean_wavevector": [
+        0.10074664787934748
+      ],
+      "final_max_abs_nz": [
+        0.31205330592254965
+      ],
+      "late_wavevector": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.1007466478793475
+        ],
+        "second": [
+          0.1007466478793475
+        ],
+        "change": [
+          0.0
+        ],
+        "certified": false
+      },
+      "velocity_late": [
+        1.7395240253451725
+      ],
+      "velocity_expected": 1.78,
+      "width_late_windows": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.9282799181049285
+        ],
+        "second": [
+          0.9213169760426391
+        ],
+        "change": [
+          -0.006962942062289423
+        ],
+        "certified": false
+      },
+      "interpretation": "Velocity/width valid only for a surviving isolated soliton; RMS width is not the BVP tanh width."
+    },
+    {
+      "index": 28,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_028",
+      "protocol": "current",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.89,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 1.25e-05,
+        "steps": 8000000,
+        "save_every": 8000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "be1d63db680fa0ee6a77181f5e7e0b6b6a769ec0ca9f341661f3b111ceb260cc"
+      },
+      "configuration_sha256": "aad47a65875ba88bb4ed1691c1c5807cff543f6b4153f9c5f0d6b46144e58b3b",
+      "saved_frames": 1001,
+      "duration": 100.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.7924308048352173
+        ],
+        "final": [
+          -0.7835079210613392
+        ],
+        "maximum_saved_increase": [
+          2.2618781472139027e-05
+        ],
+        "relative_excursion": [
+          0.011260142487436052
+        ]
+      },
+      "final_winding": [
+        1.0000000000000002
+      ],
+      "final_mean_wavevector": [
+        0.1007466478793475
+      ],
+      "final_max_abs_nz": [
+        0.3120533064210551
+      ],
+      "late_wavevector": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.1007466478793475
+        ],
+        "second": [
+          0.1007466478793475
+        ],
+        "change": [
+          0.0
+        ],
+        "certified": false
+      },
+      "velocity_late": [
+        1.7395240257739852
+      ],
+      "velocity_expected": 1.78,
+      "width_late_windows": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.9282799179893529
+        ],
+        "second": [
+          0.9213169759483223
+        ],
+        "change": [
+          -0.006962942041030651
+        ],
+        "certified": false
+      },
+      "interpretation": "Velocity/width valid only for a surviving isolated soliton; RMS width is not the BVP tanh width."
+    },
+    {
+      "index": 29,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_029",
+      "protocol": "current",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.0,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 1000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "404369a8e29f08a43e08d2e1ea5106c64b04be8f3c501734eead4d86c36b7848"
+      },
+      "configuration_sha256": "8c7b35a508d4c50ef21f26b1a400673fac1e55053f38d0cc1c3316aeedf1b008",
+      "saved_frames": 2001,
+      "duration": 100.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.7924308048352173
+        ],
+        "final": [
+          -0.792431274042892
+        ],
+        "maximum_saved_increase": [
+          -6.966649479522857e-13
+        ],
+        "relative_excursion": [
+          5.921118561402602e-07
+        ]
+      },
+      "final_winding": [
+        1.0
+      ],
+      "final_mean_wavevector": [
+        0.10074664787934748
+      ],
+      "final_max_abs_nz": [
+        1.0415018954991986e-05
+      ],
+      "late_wavevector": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.1007466478793475
+        ],
+        "second": [
+          0.1007466478793475
+        ],
+        "change": [
+          0.0
+        ],
+        "certified": false
+      },
+      "velocity_late": [
+        0.0
+      ],
+      "velocity_expected": 0.0,
+      "width_late_windows": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          1.0141141391073423
+        ],
+        "second": [
+          1.0141115783906967
+        ],
+        "change": [
+          -2.560716645616523e-06
+        ],
+        "certified": false
+      },
+      "interpretation": "Velocity/width valid only for a surviving isolated soliton; RMS width is not the BVP tanh width."
+    },
+    {
+      "index": 30,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_030",
+      "protocol": "current",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 0.5,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 1000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "3632509b8a28eceedaedd88bd8e0630f02b11d2110492d3f24cefbe62df27271"
+      },
+      "configuration_sha256": "a92fbca720f98f90eedd194aff2d78cb7142678fe71573ac50efc5605ac163d1",
+      "saved_frames": 2001,
+      "duration": 100.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.7924308048352173
+        ],
+        "final": [
+          -0.7899094265863518
+        ],
+        "maximum_saved_increase": [
+          3.550232974269818e-06
+        ],
+        "relative_excursion": [
+          0.003181827654201136
+        ]
+      },
+      "final_winding": [
+        1.0
+      ],
+      "final_mean_wavevector": [
+        0.10074664787934748
+      ],
+      "final_max_abs_nz": [
+        0.16163812631039823
+      ],
+      "late_wavevector": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.1007466478793475
+        ],
+        "second": [
+          0.1007466478793475
+        ],
+        "change": [
+          0.0
+        ],
+        "certified": false
+      },
+      "velocity_late": [
+        0.9835943086740523
+      ],
+      "velocity_expected": 1.0,
+      "width_late_windows": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.9888301914041403
+        ],
+        "second": [
+          0.9874631492568731
+        ],
+        "change": [
+          -0.001367042147267239
+        ],
+        "certified": false
+      },
+      "interpretation": "Velocity/width valid only for a surviving isolated soliton; RMS width is not the BVP tanh width."
+    },
+    {
+      "index": 31,
+      "paper": "laliena_crnb3s6_2020",
+      "run_id": "20260910_110834_validation_031",
+      "protocol": "current",
+      "parameters": {
+        "sites": 480,
+        "batch": 1,
+        "dx": 0.12992957746478873,
+        "u": 1.1,
+        "extent": 32.0,
+        "points": 601,
+        "dt": 5e-05,
+        "steps": 2000000,
+        "save_every": 1000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "88b2dbd5bd859afb1cf0a63709a5c484842376e61afe064baa81d3f5f43a90db"
+      },
+      "configuration_sha256": "6b9c9b40ed3021fa0ab730b5490cb9d1fb2b10b848a453da1d47dfe179ee373f",
+      "saved_frames": 2001,
+      "duration": 100.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.7924308048352173
+        ],
+        "final": [
+          -0.7771662893451868
+        ],
+        "maximum_saved_increase": [
+          1.7352778854728967e-05
+        ],
+        "relative_excursion": [
+          0.01926290017612918
+        ]
+      },
+      "final_winding": [
+        1.0000000000000002
+      ],
+      "final_mean_wavevector": [
+        0.1007466478793475
+      ],
+      "final_max_abs_nz": [
+        0.4213724847590815
+      ],
+      "late_wavevector": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.1007466478793475
+        ],
+        "second": [
+          0.1007466478793475
+        ],
+        "change": [
+          0.0
+        ],
+        "certified": false
+      },
+      "velocity_late": [
+        2.1309625741924045
+      ],
+      "velocity_expected": 2.2,
+      "width_late_windows": {
+        "intervals": [
+          [
+            50.0,
+            75.0
+          ],
+          [
+            75.0,
+            100.0
+          ]
+        ],
+        "first": [
+          0.8741426382905355
+        ],
+        "second": [
+          0.8577518720964721
+        ],
+        "change": [
+          -0.016390766194063433
+        ],
+        "certified": false
+      },
+      "interpretation": "Velocity/width valid only for a surviving isolated soliton; RMS width is not the BVP tanh width."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+{
+  "configuration_checks": "pass",
+  "papers": [
+    {
+      "paper_id": "bauer_2011",
+      "sha256": "82daa76f5039183c00779c5c4eb900ffa3868e0f9c31dee5c4b575a3db9d7f62",
+      "recomputed": {
+        "exchange": 1.0,
+        "anisotropy": 0.1,
+        "theta": 0.11,
+        "alpha": 0.1
+      },
+      "status": "implemented_candidate_pending_numerical_and_reference_certification"
+    },
+    {
+      "paper_id": "gomonay_2024",
+      "sha256": "052871fa17fe5b391729d416c917faccc951ba913c7069eebcc994c8f23a4d32",
+      "recomputed": {
+        "J1": 1.0,
+        "J2": 0.16936936936936936,
+        "J_tilde": 0.07207207207207207,
+        "K_SW": 0.0,
+        "K_DW": 0.004234234234234234
+      },
+      "status": "implemented_candidate_pending_numerical_and_reference_certification"
+    },
+    {
+      "paper_id": "hirst_mn2au_2022",
+      "sha256": "d545b9c5df5e0c4ed4054abd7afecc0c997fefc45518127b2392829d9d6d3770",
+      "recomputed": {
+        "J1": -0.1734255291520582,
+        "J2": 0.021049214387741853,
+        "J3": -0.020584988962472406,
+        "J4": -0.2239514348785872,
+        "J0_same": 0.08419036488767692,
+        "J0_inter": -1.0,
+        "d_z": -0.002152317880794702,
+        "d_x": 8.440462277626282e-05,
+        "c_over_a": 2.563663663663664,
+        "theta_300": 0.06168312355777964,
+        "theta_1000": 0.20561041185926549,
+        "theta_1200": 0.24673249423111857,
+        "theta_TN": 0.2744898998321194
+      },
+      "status": "implemented_candidate_pending_numerical_and_reference_certification"
+    },
+    {
+      "paper_id": "laliena_crnb3s6_2020",
+      "sha256": "8342bd4b35f2efbddf36c5e1950e3af14387a1c2efbf435bd6a34674d219d65a",
+      "recomputed": {
+        "q0_a": 0.07795774647887324,
+        "kappa": -5.172699965482041,
+        "h_y": 0.807191486549012,
+        "alpha": 0.01,
+        "beta": 0.02
+      },
+      "status": "implemented_candidate_pending_numerical_and_reference_certification"
+    },
+    {
+      "paper_id": "nishino_miyashita_2015",
+      "sha256": "96a41ea93a1458adb650dd5b858fb663b7090d81761013d38b5c221df28031e9",
+      "recomputed": {
+        "field_h": 2.0,
+        "moment": 1.0,
+        "alpha_A": 0.05,
+        "D_B": 1.0
+      },
+      "status": "candidate_requires_R0_and_convergence"
+    }
+  ],
+  "production_certified": false
+}
+bash: warning: setlocale: LC_ALL: cannot change locale (C.UTF-8)
+........................................................................ [ 61%]
+F.............................................                           [100%]
+=================================== FAILURES ===================================
+_________ test_projected_heun_uses_same_noise_and_normalizes_predictor _________
+
+    def test_projected_heun_uses_same_noise_and_normalizes_predictor():
+        model=Mn2Au(params('hirst_mn2au_2022'),(2,2,2))
+        s=model.ground_state(); llg=ReducedLLG(model,alpha=1.,theta=.1)
+        dw=llg.noise_increment(s,.001,torch.Generator().manual_seed(2))
+        first=llg.increment(s,.001,dw); pred=s+first; pred/=pred.norm(dim=-1,keepdim=True)
+        expected=s+.5*(first+llg.increment(pred,.001,dw)); expected/=expected.norm(dim=-1,keepdim=True)
+        got,errors=llg.step(s,.001,dw,method='heun_projected_predictor')
+        torch.testing.assert_close(got,expected)
+>       assert errors[0]<1e-14
+E       assert tensor(0.0003, dtype=torch.float64) < 1e-14
+
+scripts/tests/test_remaining_literature.py:60: AssertionError
+=============================== warnings summary ===============================
+../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+
+../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: 6 warnings
+scripts/tests/test_model_plot_layout.py: 25 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    parse = parser.parseString(pattern)
+
+../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: 6 warnings
+scripts/tests/test_model_plot_layout.py: 25 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    parser.resetCache()
+
+../../../../../Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:45
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+    ParserElement.enablePackrat()
+
+scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2010: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.space          = oneOf(self._space_widths)("space")
+
+scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2012: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.style_literal  = oneOf(
+
+scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2020: PyparsingDeprecationWarning: 'leaveWhitespace' deprecated - use 'leave_whitespace'
+    )("sym").leaveWhitespace()
+
+scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2024: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.start_group    = Optional(r"\math" + oneOf(self._fontnames)("font")) + "{"
+
+scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2027: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    p.delim          = oneOf(self._delims)
+
+scripts/tests/test_model_plot_layout.py: 47 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:1984: PyparsingDeprecationWarning: 'setName' deprecated - use 'set_name'
+    val.setName(key)
+
+scripts/tests/test_model_plot_layout.py: 44 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:1987: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+    val.setParseAction(getattr(self, key))
+
+scripts/tests/test_model_plot_layout.py: 16 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:1748: PyparsingDeprecationWarning: 'setParseAction' deprecated - use 'set_parse_action'
+    return Empty().setParseAction(raise_error)
+
+scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2088: PyparsingDeprecationWarning: 'endQuoteChar' argument is deprecated, use 'end_quote_char'
+    p.text = cmd(r"\text", QuotedString('{', '\\', endQuoteChar="}"))
+
+scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2097: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+    + OneOrMore(oneOf(["_", "^"]) - p.placeable)("subsuper")
+
+scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2146: PyparsingDeprecationWarning: 'unquoteResults' argument is deprecated, use 'unquote_results'
+    p.math_string   = QuotedString('$', '\\', unquoteResults=False)
+
+scripts/tests/test_model_plot_layout.py::test_extracted_model_plots
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2147: PyparsingDeprecationWarning: 'leaveWhitespace' deprecated - use 'leave_whitespace'
+    p.non_math      = Regex(r"(?:(?:\\[$])|[^$])*").leaveWhitespace()
+
+scripts/tests/test_model_plot_layout.py: 3 warnings
+scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2170: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    result = self._expression.parseString(s)
+
+scripts/tests/test_model_plot_layout.py: 3 warnings
+scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2197: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+    return self._math_expression.parseString(toks[0][1:-1], parseAll=True)
+
+scripts/tests/test_model_plot_layout.py: 3 warnings
+scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/pyparsing/util.py:466: PyparsingDeprecationWarning: 'parseAll' argument is deprecated, use 'parse_all'
+    return fn(self, *args, **kwargs)
+
+scripts/tests/test_model_plot_layout.py: 3 warnings
+scripts/tests/test_reduced_workflow.py: 11 warnings
+  /share/home/xlzou/Anaconda3/envs/zrs-mag/lib/python3.10/site-packages/matplotlib/_mathtext.py:2178: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+    ParserElement.resetCache()
+
+scripts/tests/test_reduced_workflow.py::test_incomplete_smoke_rejected_and_complete_analysis_plots
+  /share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/literature/nishino_miyashita_2015/plot.py:55: UserWarning: Attempting to set identical low and high xlims makes transformation singular; automatically expanding.
+    ax.set(xlim=(0,t[-1]),ylim=(-1,1),xlabel=r'$\tau$',ylabel=r'$s_z$',
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED scripts/tests/test_remaining_literature.py::test_projected_heun_uses_same_noise_and_normalizes_predictor
+1 failed, 117 passed, 237 warnings in 58.70s

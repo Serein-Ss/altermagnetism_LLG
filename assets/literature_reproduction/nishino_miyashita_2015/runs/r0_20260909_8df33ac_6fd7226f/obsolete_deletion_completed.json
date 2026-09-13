@@ -1,0 +1,1825 @@
+{
+  "targets": [
+    "data/audit/20260909_3b3b824_guide_thermal/nishino",
+    "data/audit/software_check_20260909/nishino",
+    "assets/literature/audit/20260909_3b3b824_guide_thermal/nishino_decision.png"
+  ],
+  "files": [
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_000.h5",
+      "bytes": 47253953,
+      "sha256": "1a0134ab237730686464d09eedb2257ea1f4ac071ffcc580bb9ea58c438433fd"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_000.json",
+      "bytes": 4041,
+      "sha256": "19346c9d25e60fb13a2c468e39fc7fe750e002df0a38ba16b4e701d84ae0c465"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_001.h5",
+      "bytes": 47245291,
+      "sha256": "bc5859a95d4c79e548cb137dc4aee0afc4b48096e6936c29321f7163a0975dd9"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_001.json",
+      "bytes": 4034,
+      "sha256": "b6934a4e6d8f26ea6003ca8e524fb582789abb209cc0b4aa5f94ccb06a28d54d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_002.h5",
+      "bytes": 47235370,
+      "sha256": "a742bc9d9f4c8b88df67480a95d16a95441587f0cb3177b55508ff4d791caa51"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_002.json",
+      "bytes": 4034,
+      "sha256": "5dea9610d169102c181719983d5c2db3074d4717d23700bbcf71f93afffa60e1"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_003.h5",
+      "bytes": 47270448,
+      "sha256": "aa556312b9bd3d5e1bc643b771607f2725b5f7b50e224bd386e75f4a53576cb0"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_003.json",
+      "bytes": 4034,
+      "sha256": "f72105917346555b53bc1d8652741597a73d426d8c67bae5a2ec21484f99559f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_004.h5",
+      "bytes": 47283639,
+      "sha256": "61fbccd805eb74da75c6dfa1167b0fd7f9bee04f64ff0a1bbf7db7a6481c3559"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_004.json",
+      "bytes": 4036,
+      "sha256": "feda8c0b1137574908350a45ac31a1fb79bb4c4db181e7756de038936604f0eb"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_005.h5",
+      "bytes": 47260436,
+      "sha256": "ffe61901ed3828e3533f427b7fd67b2014177323f36a2363634fb88e23c7a88f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_005.json",
+      "bytes": 4029,
+      "sha256": "1406aecb35684894fc4ed804174d8046667d349844a865fe49909843d459608b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_006.h5",
+      "bytes": 47301787,
+      "sha256": "017cbd04f021fdd99433d7bed533d5a24126a02190bb3d6f3fae0b17b6f4c4aa"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_006.json",
+      "bytes": 4025,
+      "sha256": "447fb129d5e658932565bb84cd4f85771b4249d4be1deada9e8d14a89d8c86ef"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_007.h5",
+      "bytes": 47249049,
+      "sha256": "ac9e62c9c6e9e731d65d32ef3fd3724b956efa7326d010f126385358ee619eb9"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_007.json",
+      "bytes": 4034,
+      "sha256": "bb346f2e7c3af8974bb14fcfdd88209a35b219b1e90735f8a69522c073859a4c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_008.h5",
+      "bytes": 47240713,
+      "sha256": "a92a0fd9170150f14bbec494fee30990f40e61049b014d1083d25417818e112f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_008.json",
+      "bytes": 4029,
+      "sha256": "195a1c8626ac020a60b101718a3025924e528789fbddb6a3df87dff0c27dd0a3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_009.h5",
+      "bytes": 47248774,
+      "sha256": "e6eccf9c546377e98de3f697ea04f36141f81ef8a7a84f56d63bf876e2af24e5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_009.json",
+      "bytes": 4033,
+      "sha256": "d78bbf98fdee1a9a712486a3c7932153b14a48665319f82c2d9df95562a7aa7c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_010.h5",
+      "bytes": 48431254,
+      "sha256": "70f8e44e273549f2dc9f822dfe9a19618a92efaafc71dc140ce559eea05c0701"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_010.json",
+      "bytes": 4044,
+      "sha256": "de55e4fdaf389036590aaee18f7a3ce377ec380d0079f43f0c335acef896bfda"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_011.h5",
+      "bytes": 48411127,
+      "sha256": "79880f1316f704ec33eb794d209815a9e5690e68f126b6ca44c8611abe6f5e71"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_011.json",
+      "bytes": 4041,
+      "sha256": "a053dc07cc366e4e5067e81efa3c991848728937da93c57ff1117bcd912b61d9"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_012.h5",
+      "bytes": 48429502,
+      "sha256": "d2272b34aaccc8ae5145718809e5e99e36ffdbb32b1b2d80a04d1d391e462c16"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_012.json",
+      "bytes": 4046,
+      "sha256": "0c590db6b9db7d7dd4ebb972839197b05baf6d95903eaca77c4f58d86921f496"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_013.h5",
+      "bytes": 48423114,
+      "sha256": "a092091f566201b41551c038aa060d45a6524ee6dc45ee2ceb01fce024a7a4d9"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_013.json",
+      "bytes": 4048,
+      "sha256": "0bdee7e1442d5da039d0183e25cc43fb767ef191353ec400104e7b2b86d7d168"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_014.h5",
+      "bytes": 48440957,
+      "sha256": "74586eaaa1a170cbbadde37fb0e2da80de92fa09deacf0dd94bab8808a70c206"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_014.json",
+      "bytes": 4047,
+      "sha256": "a4e91573eeaeaec7e1c39d77a14727fc27abf4cac77157c18543da5977da33be"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_015.h5",
+      "bytes": 48423104,
+      "sha256": "1709e3bd4acae1c343517541b1793df44dfd8a406d2e9f88af888b318d82dc90"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_015.json",
+      "bytes": 4041,
+      "sha256": "5e0104bdff1b8c00b093465cdfb29a1d1df51d1dcd163a2fbc7e673ab7187e14"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_016.h5",
+      "bytes": 48419180,
+      "sha256": "159121b6cbb12ab6128876092528982f9a8d081814f66b6a9dbc21bc70fa9687"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_016.json",
+      "bytes": 4046,
+      "sha256": "c4a9a82624be6e719d950346d9f1e2c8599d3be19596d36cdf3dc5b675c7848e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_017.h5",
+      "bytes": 48427987,
+      "sha256": "a85c2fe2c404abdf56e02b5e380ff6cfe9f979212eec26b6b20f371e8d2eeb18"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_017.json",
+      "bytes": 4045,
+      "sha256": "6ebce989f5d0ebe26a322cef4156d35e42ce59a5585f0d305520dabae4d67009"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_018.h5",
+      "bytes": 48444250,
+      "sha256": "b48213cf21e5a3d4b176d416cc8a50f53fd4b3228fd0aea718a77afe851724a1"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_018.json",
+      "bytes": 4045,
+      "sha256": "2557c973756debf209d4acef90b9f0ad8a31539057b69fb24718d9f4699e0962"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_019.h5",
+      "bytes": 48433028,
+      "sha256": "292edbfefe17c43dd19cc01276cd15421679dffa5b5e2a512dab7950779df402"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_019.json",
+      "bytes": 4045,
+      "sha256": "f893097a4a7e4dbb92ec919a8df71ae9072e297f68ddcb02ec7aa7a1ba99ea61"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_020.h5",
+      "bytes": 48850393,
+      "sha256": "807f2c637be3251bd0b33da8b516d12c34b4faad8cb09ce0dadd8a58f1fd6301"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_020.json",
+      "bytes": 4044,
+      "sha256": "2ca043ce151d2b0e8a31840253d6f806d6c24d799bc26fc8d01e15a17ee20ae2"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_021.h5",
+      "bytes": 48837027,
+      "sha256": "f90d0f545ddab19753cf5805fcaa18cba9fe3c93b641c79bcc779784b9712279"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_021.json",
+      "bytes": 4040,
+      "sha256": "2f693e2cc5c6beb004c2103a5ce384857eb984140708b3669d698959459a8715"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_022.h5",
+      "bytes": 48846340,
+      "sha256": "fc817423568f97a9b839e3e9c0fa95a315c47c71b1277ff115a31118e75d86cf"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_022.json",
+      "bytes": 4032,
+      "sha256": "5d4d9ed2783aee1f2cea0c5fffe0fdf7ffea0e2be3e16e2295bff40e37be5d70"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_023.h5",
+      "bytes": 48856273,
+      "sha256": "63d089e9c664a64e1cf1cbeff122dcd9b1d35f4307f1c72c4e9d61927b6ab18e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_023.json",
+      "bytes": 4038,
+      "sha256": "2eb2095598f675865de00054d85e47b16af8048fd97849c1250031f6b862252c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_024.h5",
+      "bytes": 48844599,
+      "sha256": "fa26a7890768d86badb91fa6837ef1b31fcdba5ae4b62b89e235be50964fc2f7"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_024.json",
+      "bytes": 4041,
+      "sha256": "2bd968abb02901100488748d1c857388bb246cdde8c9c2cb32e3ee2ea661fdef"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_025.h5",
+      "bytes": 48853095,
+      "sha256": "99e9588c5f36fe2455c2f19c456631bc2dfcfa7a5ec8684dae005abd9168e545"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_025.json",
+      "bytes": 4041,
+      "sha256": "463327c261ac2988b237098bdc70cd359eec32659134c5593988e16cbc1cd42c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_026.h5",
+      "bytes": 48844533,
+      "sha256": "8fd268dcd9f29f8199d6c3d1faa78733d8b3b4482dc225d44dcbb9c6dad15992"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_026.json",
+      "bytes": 4041,
+      "sha256": "7aca2e78d545fa1ac9cc5434b5f6d95bb86cab5056dc5345a568fcf107f85270"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_027.h5",
+      "bytes": 48856716,
+      "sha256": "5fc94ac34b18939a82b7a704c06511f61d30b2c9b58fe00e30a89bf3205e2c8a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_027.json",
+      "bytes": 4043,
+      "sha256": "46de1b71e111833d353f35f0311fc9bab960396fd8ab82cbfae0a3b208050b0f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_028.h5",
+      "bytes": 48846465,
+      "sha256": "22d5387746858eb8bc0e89367159b67b5ff9c9313f7215ab115763d9d2a3ada3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_028.json",
+      "bytes": 4041,
+      "sha256": "34760d8a294d827f19079ffef4c83d8613849aa9dd5413880583b2b33fd23ad3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_029.h5",
+      "bytes": 48855493,
+      "sha256": "66d044d242d7347314a8a08e405435b684a1f2a3af4935da7e3cff25c6a5fc8b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_029.json",
+      "bytes": 4042,
+      "sha256": "67beac9e0aac2b1b99f4db427f7a6ccd8235f27cfacbc0f74c096ac91443cd2c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_030.h5",
+      "bytes": 49120523,
+      "sha256": "52dd6853e40caa8116ef0edacc2c6dfe974ed2cc345ad020cfaee90a6bcd9c52"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_030.json",
+      "bytes": 4044,
+      "sha256": "868f9f27c73541fd666184afdb8eab1c1573e6d36320e9374a7a531084e74a9e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_031.h5",
+      "bytes": 49119266,
+      "sha256": "b3949feecc17960d6279a6c0a2f01bff41c92b52003686ae35a4f31ba31ff772"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_031.json",
+      "bytes": 4050,
+      "sha256": "b6b2921de3e950ea21460da5a1d35a89e583f624d1090c8f5fd3db52b585f3ac"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_032.h5",
+      "bytes": 49113743,
+      "sha256": "4208955ee5be89cb1af7dc3f0069724a1bc889978b531201f5e57c891366efe3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_032.json",
+      "bytes": 4047,
+      "sha256": "1590ffb131006f6b55db53b4387fff4418a7dc10892935646a4ca9c5afb7a915"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_033.h5",
+      "bytes": 49104374,
+      "sha256": "8de5f12bcd4115006965fc9152494dd6b3a635908e91cd0f9f749083e1f0ca7c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_033.json",
+      "bytes": 4050,
+      "sha256": "b69f0375a043894b63967c78c2b1f3a73f98200c4ce349f3e6822d92c4da323b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_034.h5",
+      "bytes": 49111413,
+      "sha256": "f5b9e10cb1b9e3cc3834f1cdafddb7aefeee6a56e9529c58088fb27af8c9b75e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_034.json",
+      "bytes": 4053,
+      "sha256": "f1fe372144d280ee0d35495a9d7c1e3b04dc8533f5447bdbad304aed9b54d5fe"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_035.h5",
+      "bytes": 49108997,
+      "sha256": "f31f58c2c1b9543677db6a009e5081d6e9b59460914ba0dc240ecfbb4abd7cc2"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_035.json",
+      "bytes": 4047,
+      "sha256": "cd06590ef9f6ab2603e9b2489e598c469ec9dea851cbb64a18586d9548f66acc"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_036.h5",
+      "bytes": 49110298,
+      "sha256": "0df99e6051607261d8b73a5fe2e83f048ea81c682ed7864303f9c598d99bca8a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_036.json",
+      "bytes": 4042,
+      "sha256": "e1ec9fc0a3b50e14e01e7471822238e4b24f6ac348e6fd796f65e6e85743100a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_037.h5",
+      "bytes": 49111031,
+      "sha256": "8c4c0ed0295c2938ed7b592c3bd5dafc065cb0a3e13c0f8b6320074347222f4a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_037.json",
+      "bytes": 4042,
+      "sha256": "8223c795017af30f920b5dbf8225cddb728b3309d693dffea6adcca05144f910"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_038.h5",
+      "bytes": 49112944,
+      "sha256": "3bae53ae65f5d5c3947aa91f51452e916372b30dc2d1a1a46f680425dc8e8218"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_038.json",
+      "bytes": 4030,
+      "sha256": "96dfb824b6eab552fb36a337bd4fdf75617890314ea9a0c326d78985106a4c3e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_039.h5",
+      "bytes": 49118680,
+      "sha256": "ffdac8a42a1a8af3329d1e725d67ef40c7b4dd121dfe17e0fd8fa86e7b4d05ba"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_039.json",
+      "bytes": 4045,
+      "sha256": "d1c36485eb8ad4199d8fd002ffbaafef3717365b6865356ca407e24e478502a8"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_040.h5",
+      "bytes": 49234661,
+      "sha256": "e6c455f74276cef903d4d6f6df33c88ae9b858aa42e140628a674f45db500cd5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_040.json",
+      "bytes": 4050,
+      "sha256": "1424c114e028976d3659f5bb703025e26b8ffbdb263f84d94478fc03ab407371"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_041.h5",
+      "bytes": 49230088,
+      "sha256": "ab8a6c02b7a6a934ea1bf3a1096a12de7ea93ba972ae7045776b5b1166239fdb"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_041.json",
+      "bytes": 4047,
+      "sha256": "5e5da9e2fe527862c88fb90a3f8f93185c6c3b8a50c178b1624df9d393bc484b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_042.h5",
+      "bytes": 49249434,
+      "sha256": "27077916a0e8dc3b7bc492bb0a3d263faea2f842d776647562072591d3d1f850"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_042.json",
+      "bytes": 4049,
+      "sha256": "c9f1bcdfbb8516ff5b9d9a9307603e4003d0661ca20dfd8e5a365087fb769e86"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_043.h5",
+      "bytes": 49227975,
+      "sha256": "65d207ff4a769f949accb2383ba13dc8ccc137a7cd7457711c5b9e1407a4f9fb"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_043.json",
+      "bytes": 4057,
+      "sha256": "4668c09372473d83b7f6a8dc696ae0edf89011b3b3ba5272f1f2395264f804e1"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_044.h5",
+      "bytes": 49236758,
+      "sha256": "81897f0862a40a6c5bd73861d82793bd6f836c2c15cf5704b5219f5de5685342"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_044.json",
+      "bytes": 4052,
+      "sha256": "2bc7287406ac11a2689233cab02cfcf943397eacd6fb54277ea123d50c107ece"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_045.h5",
+      "bytes": 49234606,
+      "sha256": "b3ccf74f8c60dfdacd0beb9bc3e72a130a860bac843fb116b0c3b34015412c8e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_045.json",
+      "bytes": 4055,
+      "sha256": "4d2fdfde436b55a4d0433fd0fcd537afd58357a471a5ae567f7d51beea5d1a3a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_046.h5",
+      "bytes": 49237504,
+      "sha256": "81ca6b8a71ff538c87b5f39c2f84d9c33b2d5d6d8d403f88934cce75c7a521bf"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_046.json",
+      "bytes": 4055,
+      "sha256": "08e00b07d9fb4d73b681f946511a743128a79a120f43205486508978ad9ce675"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_047.h5",
+      "bytes": 49245450,
+      "sha256": "b8653c85211386baa231dce7d7fdca9f954bac90a1c704e0216aba23154463cd"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_047.json",
+      "bytes": 4068,
+      "sha256": "c5339bd2a9345e6c48eeafeb1f908d58b889c60a4c98159ca17883567a56589f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_048.h5",
+      "bytes": 49238385,
+      "sha256": "af2170e8643b0afa322ef439aac4859c471e3a4fae74b31ff0b5bd80037e91c1"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_048.json",
+      "bytes": 4058,
+      "sha256": "49163d51d78631f13cb5085cf30a9457ae9e8425c2b4cbfa32814a430a0bb375"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_049.h5",
+      "bytes": 49243610,
+      "sha256": "b0d8550b5487fc3241699dc3a5493c0a69796ca8b771eaf39355b5a0c99db85b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_049.json",
+      "bytes": 4049,
+      "sha256": "288c144a789774629e98e3dcd62f48511ac1535ef8dca62d7e24fb026a5c3031"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_050.h5",
+      "bytes": 49356875,
+      "sha256": "aae5159f121ae11d98066d5f6a715ae5918cb910a92885d63f64771032ffce2c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_050.json",
+      "bytes": 4069,
+      "sha256": "e334158622d98493bf29f815841d1ea0e09efc7f492ab551da2e273d1652c62e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_051.h5",
+      "bytes": 49375628,
+      "sha256": "983d0ff7a789d675d42911f96c7abd9a436aa2637f20d3cec237dcaa9aa5e1d0"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_051.json",
+      "bytes": 4058,
+      "sha256": "f1869c97167a91d006051dd9e24cc4fc693cd693d19933ceb93e155cef0ce193"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_052.h5",
+      "bytes": 49377761,
+      "sha256": "12597f0072fc8230098c133baaa0ccdaacec07931f3bf85562b52a1ec595d5bb"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_052.json",
+      "bytes": 4058,
+      "sha256": "0f301d76d89a76e04e2eecc477a4086b44f05a016b21710b977ac1ab1187797b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_053.h5",
+      "bytes": 49365874,
+      "sha256": "072877a5a4a115e051416faf4b44389e9c56ca9dfeb3de866c4977813a6481b7"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_053.json",
+      "bytes": 4059,
+      "sha256": "d29b9c9210189533c233832e30b21e4f6dfb9d320a71578b7f24e6591482a3ca"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_054.h5",
+      "bytes": 49362721,
+      "sha256": "ff8f5855a5d020ad8b2f943b108631871ae0001c88c8c30ff6b54df59e674262"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_054.json",
+      "bytes": 4057,
+      "sha256": "198db41e7102eb2333479a31bb0f06ad96f1d804006c6325fb65d998bddbd264"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_055.h5",
+      "bytes": 49371207,
+      "sha256": "0fdfab61512bdc1cf51f9f130900c638621278ab3847fee6d279b8634b970898"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_055.json",
+      "bytes": 4052,
+      "sha256": "ce570436b83b4ab4bb5b1edeeea6964f84462c833ee2aa9d73105707e95fcaef"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_056.h5",
+      "bytes": 49375345,
+      "sha256": "8199f89713ddcee9917604b07c4b71f51fbba9d1a7b95dd33140d7975d1af45d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_056.json",
+      "bytes": 4054,
+      "sha256": "eb851ce16e41f8c889904078fd9253c4a4bb5edb53445534a475ff715efc55f1"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_057.h5",
+      "bytes": 49376248,
+      "sha256": "7e3f05255169467dd1c086486acc052ebed4b9c9328541b87aacbef98cdff6c4"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_057.json",
+      "bytes": 4059,
+      "sha256": "ea0d0a1e054c87a1cd2f9a9bfacbdd29c6b6ad957b2c3f2bc23caf92ed017cb3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_058.h5",
+      "bytes": 49362283,
+      "sha256": "00b63e4b8d742e1ae1aa94777a277b378017bb5f00b4ba2a59197164e96d0a6d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_058.json",
+      "bytes": 4054,
+      "sha256": "0bd0d3a6a62a7258a89e12518b1abdb74318d12feeac2d19f2c359734e13cc4c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_059.h5",
+      "bytes": 49372370,
+      "sha256": "d072f9be471a3bd87b586b25f41f48a829407c13780a84c3e70507db06f3fbf7"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_059.json",
+      "bytes": 4060,
+      "sha256": "36560ccbf70636e00890320a84a14848e59161288b8e04d03a4e7d1485ef4856"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_060.h5",
+      "bytes": 49496638,
+      "sha256": "1c9aa2c344b7832337e8bb1b280654965c37770f45349683b392bf76d248d178"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_060.json",
+      "bytes": 4055,
+      "sha256": "ce94fd333515d979b286477152172d6423541c2eb6737806516f352ffe4682ae"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_061.h5",
+      "bytes": 49495882,
+      "sha256": "efb82e009f48ab46221b7953eaa2606599a9cdffaa292b9bf8ca9307704b9da5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_061.json",
+      "bytes": 4053,
+      "sha256": "c159960510b19cddcf3d233f7b1c6681b846e90047af6a1d5ad70bb6ccf5d203"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_062.h5",
+      "bytes": 49501131,
+      "sha256": "d63a2014282100fb9c699c642981fac39043b64bad4b09a029a713e9e8dcb524"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_062.json",
+      "bytes": 4055,
+      "sha256": "be8fbdc0a132f2829fd3ba662f41983a09268da16800938ab48d8a8efe3ba938"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_063.h5",
+      "bytes": 49506421,
+      "sha256": "15509716790b2132192c8a2ea4f4fd42023cfa78464b30d5ff13c57bb0a181b5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_063.json",
+      "bytes": 4052,
+      "sha256": "058e2652601f99dbbd71bf28f8c2a533944f0ad7e7e4265de7ae6e301ac8cca1"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_064.h5",
+      "bytes": 49500133,
+      "sha256": "cf7b184af0a13e6b1a51c256f1188cdab6b4013ba1ef837dd051c616d54da4af"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_064.json",
+      "bytes": 4056,
+      "sha256": "ad260f9276af08b7dfc82d85963635e5dd5a98d243ff1bc40fa3a305707e9a9d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_065.h5",
+      "bytes": 49505206,
+      "sha256": "94d67ed5a56f820cc2cc7fd3c430514f7248620ed297673082bfd6baea9a013f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_065.json",
+      "bytes": 4052,
+      "sha256": "de4379d2176d1d04d82a647bff43b912627c49447e464803bdebbe584116718b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_066.h5",
+      "bytes": 49500874,
+      "sha256": "eb48a37b1f0131e5f2a687e05b266a0518f1b947bf748af3527ec3c0f9d3e469"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_066.json",
+      "bytes": 4056,
+      "sha256": "47fc56c3972c3b9abeb47948e192e8bbf5fdb6da68c7388da8af5baaedd9f49b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_067.h5",
+      "bytes": 49499873,
+      "sha256": "a9c5e3dc44be3a3799607e6be4b04781b2d05ff4c865ad4dbb5debdb858afb49"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_067.json",
+      "bytes": 4059,
+      "sha256": "b8b56ba6bde8e57e330ac52c6450682b9e9a701545ad7ee12f346c12b4985a71"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_068.h5",
+      "bytes": 49500928,
+      "sha256": "9875898dcb76f782367311d205196f726b0c5d2e069c4445afc3673e65c9ef44"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_068.json",
+      "bytes": 4047,
+      "sha256": "a3cd5ce287e7cbde4c9717bf64947542140baa4a98bdb25da4287617b3ec65d9"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_069.h5",
+      "bytes": 49503126,
+      "sha256": "6b55031611324ddb8d72adb5d3041872cf7a717e9f42cdc6ff3fc4be959286d7"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_069.json",
+      "bytes": 4052,
+      "sha256": "1a1d668fd03d7653efe22fdd4124ff2b07f3a7c78fa08d356a9b0af095b4cdca"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_070.h5",
+      "bytes": 49598645,
+      "sha256": "516fcf416289b17db2308f2b0e036b9aac88b4deeb7acf8573cbeb92a5844c88"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_070.json",
+      "bytes": 4052,
+      "sha256": "49a9ae20447f8bbdfa7bcd017873e72c362bd6eeaaffb3b2d447cd8b7d75d828"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_071.h5",
+      "bytes": 49594147,
+      "sha256": "747e353e0b897a77d59ce5e1232dd73b488e559f4480a5e113a7ac0655f33b9d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_071.json",
+      "bytes": 4045,
+      "sha256": "a963afe9f2c3d8206a69af7d902bad7e1518b1a2cb2d5aa716693ea7ca31b9e7"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_072.h5",
+      "bytes": 49594914,
+      "sha256": "13d95bff316ce03f0746c2bb322cb3bca70c17e0ce916d68f8b19be7d01e1f57"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_072.json",
+      "bytes": 4051,
+      "sha256": "1946ca57a7eaf4608475884fb96e8b3fac44c89f13e7fb69b4ad541172a10c69"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_073.h5",
+      "bytes": 49595465,
+      "sha256": "f2643f3eb59609be5ab6ae1d22039bd016815c29717fc3e8502793a9ddd0278e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_073.json",
+      "bytes": 4048,
+      "sha256": "72e84bfae0763575dc0185a66fda6965915745a27a8069b62fedffa69213913b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_074.h5",
+      "bytes": 49598953,
+      "sha256": "4ea0342daee7a707e2c8ce13475a487a01558cf9dcaca190a2ab26be91a532c3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_074.json",
+      "bytes": 4044,
+      "sha256": "42a303eab72880ae5ac7dc0cee563feefd005d58dc0cc1287501811b22305949"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_075.h5",
+      "bytes": 49591819,
+      "sha256": "fc03d121b9f5710ab121177fa8f75a5f342559c0116418da20c973fca0cdef5f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_075.json",
+      "bytes": 4053,
+      "sha256": "bfd7cd7824ca6e70dbaaaf7643e71437a4e4407bd6f3b95f181029146498fb27"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_076.h5",
+      "bytes": 49596447,
+      "sha256": "bdcecfd5ee998895c8315b38ecdea2d02a0d882a6a6a6cea172397d67554dec9"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_076.json",
+      "bytes": 4050,
+      "sha256": "d269dcb78f7d138b8e43713206058dc4706b38f27f2f90e420a7fc4232ee7995"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_077.h5",
+      "bytes": 49600235,
+      "sha256": "474caca50a2067d5a22f43bad026d50a6e0e422718a21a92e304437f5f66c821"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_077.json",
+      "bytes": 4054,
+      "sha256": "c19c94cc2e954d038275cc8e5facdde83ca47c13ad73534737a177c280ca220c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_078.h5",
+      "bytes": 49602644,
+      "sha256": "088ebc1ef108a9348833d21479becc9b642713f72793906ed8e1d1c2b60b54f2"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_078.json",
+      "bytes": 4054,
+      "sha256": "cefa55afeac3434683afbbd547ff5b9378b819168ee4d52d3d20a820b214ad69"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_079.h5",
+      "bytes": 49592589,
+      "sha256": "a76f48d55f98257411984d91ec445bf887235b6e4b2ff3b19bcba10ed3d43c25"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_079.json",
+      "bytes": 4050,
+      "sha256": "95922e66b21d442c50278d8f241050b9e519d605080369725d8c50422040ed09"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_080.h5",
+      "bytes": 49639837,
+      "sha256": "79fa7c467b9bb2583dede691debcc7d1ca7454bf975ca4a4917c5d8aa79b8781"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_080.json",
+      "bytes": 4050,
+      "sha256": "8638588eb7053d48f6a6e6f52e5c38b4e9defcb515409d0dc7a8cabb853fcfc2"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_081.h5",
+      "bytes": 49642726,
+      "sha256": "1e418b93d3380c5ffd496915cdd822c531bd0e952fe5d12aecc81ae23eb69792"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_081.json",
+      "bytes": 4049,
+      "sha256": "df3647a486e3c74cb798ff6857f09bee016dc8e74ff218773dfe47fa23ae6fe5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_082.h5",
+      "bytes": 49640587,
+      "sha256": "5e870be48774839be82ae84472bdf9e43e10f06914727c6c4a3451642fd3c700"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_082.json",
+      "bytes": 4050,
+      "sha256": "2de4de51cac3f5e8c8d0872cea7c93a1290f2e0d03a0027d1e1116093ad06243"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_083.h5",
+      "bytes": 49643347,
+      "sha256": "58ac740ebf0266099ac063203ad02869590bcf055b21003c434760acea1c73be"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_083.json",
+      "bytes": 4046,
+      "sha256": "252a36690c3281c5f1eeb8270f3921ef51c58955245e1b2dc3ff4ed2e2574d86"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_084.h5",
+      "bytes": 49642733,
+      "sha256": "88a26757d3af6d24485ced645815db037fc1d357ad3debac3e0e74a3d32725ae"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_084.json",
+      "bytes": 4045,
+      "sha256": "cdd3127f845ecf34cea621e870f88945b7d635af8fa72ad124c7b3e198564282"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_085.h5",
+      "bytes": 49643371,
+      "sha256": "3cdc1aed468a2a51d5ed9371e7e3d6ca9129f9ed73f5952c945a0443e87257e6"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_085.json",
+      "bytes": 4054,
+      "sha256": "28e51624e7e653a2160600c91e8a889ed7141cbfced1d338c7b3952b921ec708"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_086.h5",
+      "bytes": 49638581,
+      "sha256": "04c41566c1ec0b25703382f0f10f5da9e8b9d5e6b1e13f0d71684124f96c902a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_086.json",
+      "bytes": 4051,
+      "sha256": "ebced26372efadd3a95accc79b71324379b8ec8f1fac40a43409a09c8259ec99"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_087.h5",
+      "bytes": 49639046,
+      "sha256": "e0e004e530e516b97dbe20126e2d102341539a6201f600e0b44be2a51ea336ae"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_087.json",
+      "bytes": 4056,
+      "sha256": "9acc40a6bbaca658dbba9cd5509bd767b51411a9e89448a041e1a700bb34e02f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_088.h5",
+      "bytes": 49639183,
+      "sha256": "43dd549dd714a49c9d5c9f2f47ea222c6e047c3263eb919a6c4c929c33d68702"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_088.json",
+      "bytes": 4054,
+      "sha256": "4e4a5b5f2036992b1ebf23f6f80549f9059746b082e538ce183aa27fb4583cbd"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_089.h5",
+      "bytes": 49636605,
+      "sha256": "7d0998cf483e10917a1e9fad2870b00b1c0abb7e6ae7a72e57139e30031c9aa0"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_089.json",
+      "bytes": 4047,
+      "sha256": "4f74fa6fe44e6d950b0508d67af31c9f6fd3d45ffbcb97b6532a456e30154c90"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_090.h5",
+      "bytes": 49669484,
+      "sha256": "872a3817c9a0b1b89da4b7ee80bbdfb09a917b66d08ff6163f361f6c2d347518"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_090.json",
+      "bytes": 4048,
+      "sha256": "ad286ecc04446ff759d5aebc6caa2081e036e7986b90df94edb91ebdcbb1af4f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_091.h5",
+      "bytes": 49665764,
+      "sha256": "5ff8cc690c405d97d542295ed3e20ead2edf79db34d72bbc8188460594c72631"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_091.json",
+      "bytes": 4048,
+      "sha256": "e7ef596fcfd294ba64aead63b1a13a5fbd7c467e4e8e10971c98d69fd3fd2a8e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_092.h5",
+      "bytes": 49672592,
+      "sha256": "ea16a6357a15c736cc9a46e265cd0bf0220e68f07dcd08a918d13777c6c0cb50"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_092.json",
+      "bytes": 4050,
+      "sha256": "7a1e2d5a8563a0df3243c4fe712245aa46df04f6fd1846de3af6ec0bb6751294"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_093.h5",
+      "bytes": 49669367,
+      "sha256": "ce4374a455a4ff4955422da7059b4078e09dc1752b4f6f32f412d8504a1abeb3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_093.json",
+      "bytes": 4048,
+      "sha256": "7b8c4f0dbd5613a098671d584d9ea69fb573cc66b826b82bd051c3efdb2e526c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_094.h5",
+      "bytes": 49674544,
+      "sha256": "804b712679a071952eed9f85f397a5d97fbd4672606ee7d76b8e9bdde4dcfc1d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_094.json",
+      "bytes": 4049,
+      "sha256": "ca56eef24c3a74e8f37ffed894e64eaf001fbd19061d318c570453b9899d49ee"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_095.h5",
+      "bytes": 49674173,
+      "sha256": "99123728854b8bd8e6263af7b7607852e7a6d811e5d8cee1ac97a25ad1a67b35"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_095.json",
+      "bytes": 4052,
+      "sha256": "e2c6275531e9498b32e1bd3e4f4a84e128b994caffc4ac3672a4ccb046740768"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_096.h5",
+      "bytes": 49668982,
+      "sha256": "e21b6f5321932d17fe44574ab24b4beb1652f028dde7eb1f1be646cb6d38de89"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_096.json",
+      "bytes": 4048,
+      "sha256": "26b449b35a71fb67fc7529258517d79e388abae6400cceba386b4c86443db1cd"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_097.h5",
+      "bytes": 49669662,
+      "sha256": "cc05eec19817e6f31ec4464e780e573240fe0d39f8790e428f7a171c99501a2c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_097.json",
+      "bytes": 4052,
+      "sha256": "c6bb189006ad79ad9d6c6e498364555f867b54c5675b60755534cc014d6e64b9"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_098.h5",
+      "bytes": 49682047,
+      "sha256": "7090c653da9b4e9e847e3e09c24e8df8e18b1f52c3ed2e1dc58d7b39ad984b61"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_098.json",
+      "bytes": 4049,
+      "sha256": "393160461869e1266be4df82838ca4a6f00c660b67ae8e5575f66a2ef2852dc3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_099.h5",
+      "bytes": 49672380,
+      "sha256": "7b345b311819c8d4c4455d83d6f37115aab4c38cb96a0092202151a22a2056f8"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_099.json",
+      "bytes": 4044,
+      "sha256": "1747075af2bd361bd7b49326a8fe873fd58ea006addf7e6c66adde345fe0cf4f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_100.h5",
+      "bytes": 49719507,
+      "sha256": "00168dd3b4a623bd3647bc6cc53eae1ee15d4d7a96fb3d0bbd90e2f0a72e42bf"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_100.json",
+      "bytes": 4043,
+      "sha256": "b3bb3e9f5ff3c79cfa124ae11902b89dfa8157246190399d044da5234574549c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_101.h5",
+      "bytes": 49716066,
+      "sha256": "a4438c64a29691dbb8e2f7db956fef829b85e92d94d25bc0ce1827807ce50068"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_101.json",
+      "bytes": 4043,
+      "sha256": "bb275e810f1545f90ab83de0db310c387c59caf3eb8251ff5cf66a8d5bcc0d1b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_102.h5",
+      "bytes": 49714761,
+      "sha256": "46ec5e1d4ac749fa74e506d0e19f5c0a37f6a41a3b410392141b575e65581ad8"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_102.json",
+      "bytes": 4048,
+      "sha256": "c1686bf2c630edadd4f459b7b26b114569ad5edb00c93525be5674a654150683"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_103.h5",
+      "bytes": 49721816,
+      "sha256": "96f649274ae25c6883366afb28ac85bb2ed06ce643ac897cffd24e99959ed8a4"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_103.json",
+      "bytes": 4042,
+      "sha256": "e731082f5dc2c4bc989783262e0c9dbb20cbf7e5f4f4d8ac61a463b665611eb4"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_104.h5",
+      "bytes": 49720325,
+      "sha256": "5689c92ab71066b6f37c5306b71a07b79d9db68ed91bb89460ec1675848c917f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_104.json",
+      "bytes": 4045,
+      "sha256": "7d0943d8432b2ff9c367f4ad964f4ffc4c631fa58f1b177e23e5a7e32635efcc"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_105.h5",
+      "bytes": 49721038,
+      "sha256": "41f0fd7e3f5da205caab708e76c1dce24705f47b8eb3a11365a74dd41cd82646"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_105.json",
+      "bytes": 4043,
+      "sha256": "403b5318f1dc5e387154b16a334d72dfec788c02d68851f18105db786da1b5f3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_106.h5",
+      "bytes": 49714538,
+      "sha256": "a774ef1cd75ba465ce3d1d487c33646c8ea6ae8f372e3c3ac0372443e1ea37d5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_106.json",
+      "bytes": 4048,
+      "sha256": "5d779a83c4199dc42708632a60013b73bdd638200e22be46aad53d8d1f2276f6"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_107.h5",
+      "bytes": 49714989,
+      "sha256": "9c8e2347a92a55db824c53fffebfbb348e251a10f23202a549813b09636bfc97"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_107.json",
+      "bytes": 4044,
+      "sha256": "d7f7ad71fc746819fff8a0e167b8ad4581d40f509cadc92a23c1fa28aa608e4c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_108.h5",
+      "bytes": 49722238,
+      "sha256": "4be0c1a0c707dc3bc54d936c4ed8f389f0ae776f5853e9eaf88a4525b221c735"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_108.json",
+      "bytes": 4045,
+      "sha256": "1c915e2746a4b210c7eeedbde11ef253602b3fda68f71362099d28b03754c12c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_109.h5",
+      "bytes": 49721440,
+      "sha256": "4b564c14c296060dbe6fce1ba9a8094a74cd55a9b50407442d1071593d6a8927"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_109.json",
+      "bytes": 4041,
+      "sha256": "d441aa97f286b154ea2ba118213e98946ca417d02f6c752c922fc14dd72c3b30"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_110.h5",
+      "bytes": 49790229,
+      "sha256": "1f16bb3fbdb2d3abd6d463d7e0c2fb5ead6b42c47160f0529edcc0b31f0a4c9a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_110.json",
+      "bytes": 4053,
+      "sha256": "a4aff355e7ed42d22041e341a85ea7c74f92dd3093b32e1e930dcbf4f3062ae7"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_111.h5",
+      "bytes": 49787449,
+      "sha256": "add3ccff0b276247ab75898840a3a63879537f31d6ca0641ad63cbda42f743fc"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_111.json",
+      "bytes": 4057,
+      "sha256": "aa61b67bc280ce8303240392ae951aea7680407fc8215313a74e04ac0ad0ecbb"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_112.h5",
+      "bytes": 49789559,
+      "sha256": "99cbda93a9f5be7e010b76fe8542db95e8edcde8cc3123ee3b1917214581a4ff"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_112.json",
+      "bytes": 4046,
+      "sha256": "080295b268543713c227e45eba901079a9743885076f44d7c29ba304c6b25e1b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_113.h5",
+      "bytes": 49786867,
+      "sha256": "e83eb0dd8dbc61a2093a869af2f946f1b5cde4e2593767232ce812ab8333ea83"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_113.json",
+      "bytes": 4050,
+      "sha256": "ff4658af3f627c88d91bacfe71e381baf26224b8df36ab29e966e98ab30087e5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_114.h5",
+      "bytes": 49789885,
+      "sha256": "87284103277f31c8742f36017094a3539924b6fb183b0cc95fc006b4a33027da"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_114.json",
+      "bytes": 4052,
+      "sha256": "88af32f18fdc305f7f6536b549ce2314717129697b95d2c772f2e04838c5586e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_115.h5",
+      "bytes": 49794814,
+      "sha256": "7f6cdfa5a9b50c77d4dd2b6cbfc8baacf5124cc8743cfe6c85abdfaca8419f91"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_115.json",
+      "bytes": 4048,
+      "sha256": "841be176964e7225fcc42d9464b9c617bf44863285d2cd96e277f2ced1be2103"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_116.h5",
+      "bytes": 49791607,
+      "sha256": "035739c626c0cde473cebcb8445126aabb76f7350f4ff129bbfe788db3a2bb66"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_116.json",
+      "bytes": 4048,
+      "sha256": "0c7b2396925422cab6e8620bdeb1f90ac4997a0869c228b63b7d312128337bc4"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_117.h5",
+      "bytes": 49788155,
+      "sha256": "b82a4b4c9c0e8eb26df45dae493d156c298b20624eeecda832ebc31e350878df"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_117.json",
+      "bytes": 4050,
+      "sha256": "31eef6f7fbf00867b1b02b58287d2df4c8662182225fa564c55eac59d11a7b5f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_118.h5",
+      "bytes": 49792326,
+      "sha256": "464ffcc7e52a82b89f7c5ab2fcb81f5cf22a07fec2c572952510c97f4fc7c8fb"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_118.json",
+      "bytes": 4056,
+      "sha256": "fe7bf2d9ca60b1a374a9d2105c097384affe563b0031cdef02b9687313d0a60a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_119.h5",
+      "bytes": 49788272,
+      "sha256": "a8049a1a4ad5d4c4a39054e649cfe0cb8fe1de524beb5dee51e1d52af7867f43"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/run_119.json",
+      "bytes": 4051,
+      "sha256": "1971b112c1170e72833955c85e0c5da811bdc3b6d1f3fbbf76b5faca09bd7232"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_000.json",
+      "bytes": 164,
+      "sha256": "85d6a36acab2cd7559737cbed4d8e8345d706e6805f7a333bc5e4c7482b0b684"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_001.json",
+      "bytes": 163,
+      "sha256": "fa9a18d3dbecbde562b9407b410f7e7b869da14bf836481631810a1975286bd3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_002.json",
+      "bytes": 163,
+      "sha256": "1edf4ad9ba52d178bef90db88887eb48a3b923aeded6167244768c6238a28174"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_003.json",
+      "bytes": 163,
+      "sha256": "3b1c5f8929f21676377855060ddeab6f945d353046d955edfc794df76376bc1b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_004.json",
+      "bytes": 164,
+      "sha256": "42a62974cc6c737b25919c27060a3e55e0ab227dbfabbf59bda8a777270217d2"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_005.json",
+      "bytes": 163,
+      "sha256": "0ec7630abdb28a990a472d3974bd3612e99f5898e96867d705610b5d8c99cd8f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_006.json",
+      "bytes": 163,
+      "sha256": "d5aa9762b4882f6b3c6a47c69beb688f58a85e4a98fce81987dfaf8577a8ed9d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_007.json",
+      "bytes": 163,
+      "sha256": "1987f9c080e70fbe3b5dcd7922025749029f486032c11521c2e7dd09fa6479a6"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_008.json",
+      "bytes": 164,
+      "sha256": "89231f75f6beaf12de88b0bca09c5388a4862e431c6c7bd46ad59c352382c4cc"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_009.json",
+      "bytes": 162,
+      "sha256": "bbabb9d333a197c83112386b6f5f2251e08a5c974b710c59c20834d98c74cb9b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_010.json",
+      "bytes": 164,
+      "sha256": "0327ecb4d85ab4a83935befdf50497221375f58a4b1c29ce3226c7d1ddd9de56"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_011.json",
+      "bytes": 163,
+      "sha256": "a99139e3271d8a8c5fc4f51b4d97b45981f5f1a36deb7508659568d0fe81bc97"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_012.json",
+      "bytes": 163,
+      "sha256": "bfe55d0eb6dbd4aed19441bf03f16abb565d93221ecd623fe91aedee24a06a61"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_013.json",
+      "bytes": 163,
+      "sha256": "a0e11ed4edf89a89a02cf100a0bc49348adaf3d696ff7a536ad44aad038e4d4b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_014.json",
+      "bytes": 163,
+      "sha256": "aa70401fdd039e5aa9b834018d2e58aab40ab2f8740dc5e04b79ca2d7e0f3137"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_015.json",
+      "bytes": 161,
+      "sha256": "8705447036ec79b7d6ed2ff6372cda359a24aecd2bd72f58b0c969c7c3a1c817"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_016.json",
+      "bytes": 164,
+      "sha256": "3a108362e5a8715353bc705dd78e990fcd7327e3e7d06df642f6d52f548ea857"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_017.json",
+      "bytes": 164,
+      "sha256": "a379844438a43cd498e1e4bc059d40798413d623737fff3e84282d82e926ea0c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_018.json",
+      "bytes": 164,
+      "sha256": "073c6ea310198c3f8e13a53f5aea811962715510bd17de16ee1970aa2e00685b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_019.json",
+      "bytes": 163,
+      "sha256": "4bf841ff904d2e865aee08628b3ef40e11d2a49aaca2665ff968b5e3433bc95d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_020.json",
+      "bytes": 163,
+      "sha256": "e002462ee1f78017666588a5b9967ddbb163f0480fa93ec15415d2ccaad71c63"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_021.json",
+      "bytes": 164,
+      "sha256": "da9040f52ff4a782d4b4904f24a188552dab12039340a9f0895606c3d152637e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_022.json",
+      "bytes": 161,
+      "sha256": "712f037fbb806aa6e3345582af22992de1f6d9b5dfd8adecbd4784261d3a6bb3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_023.json",
+      "bytes": 164,
+      "sha256": "8ac3febe3394e26e38926fbf82b32181dc9be96e92ee36ac1d747e4b9d9f0387"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_024.json",
+      "bytes": 163,
+      "sha256": "37fdc4e15526453610f7788f8d708b907a5c53123005b2b405b31a5de7efacc5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_025.json",
+      "bytes": 164,
+      "sha256": "c20a4a7a5eaeb05ae1f85fda247c67d9f5dafce93171da4e0fcdda5fccfb9936"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_026.json",
+      "bytes": 164,
+      "sha256": "056f37f5736fa2629e31ab2b60f6d66d1571d1ac4617c93c0536f2f7ecf9cdd5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_027.json",
+      "bytes": 164,
+      "sha256": "8cf440c1d5b94f8839d2ecd5d16c2f533fa2d56d4ea6e59a215c2f48698385c7"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_028.json",
+      "bytes": 162,
+      "sha256": "ec41533cad6a0c42bdd8fcdf0e663e5c06f4e73ccfa715c46c86fef73806353a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_029.json",
+      "bytes": 163,
+      "sha256": "342fef46bde75ad1e97636e55c617996320761e02f8e3eaedc1bb9d9201d9f96"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_030.json",
+      "bytes": 160,
+      "sha256": "1689bfa9050de86f111a6ea75cbc1a6df7ab3707798410706d702a593c2a29cd"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_031.json",
+      "bytes": 163,
+      "sha256": "7f71def938d3f17c7a217aff7ffc1f44226f9616f72470f6a5c5c5a645633364"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_032.json",
+      "bytes": 163,
+      "sha256": "f188c81e2126ec9eb5cfa44a41133c56be1cd26d428026acddd780d5e44d3f98"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_033.json",
+      "bytes": 163,
+      "sha256": "e07da907d0feef054d998e25ac23c68a59a019259bf1d469fd84c0b1a91a58a6"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_034.json",
+      "bytes": 164,
+      "sha256": "dd7c2bf19e0b40f5e412ebcf929e10b8331b398089a55550b1334f5365522fce"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_035.json",
+      "bytes": 162,
+      "sha256": "bf23f6b5813dc349b87c60d95a4cd80eaff3cf1e40ee5a6cf21333afe5df72d6"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_036.json",
+      "bytes": 163,
+      "sha256": "8036b1fc823e6925fd11b7805cf06a19b26616f84c0d7c646f7a5c22e7d27163"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_037.json",
+      "bytes": 163,
+      "sha256": "0ba96ed6406d2487189307a7f32aa87eca02de00707ca46b5d71eafa696d5756"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_038.json",
+      "bytes": 157,
+      "sha256": "5cf9623e97e6c62148fad0c5c375187e4581cdf6ab2c1d37148dc8450b896af5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_039.json",
+      "bytes": 162,
+      "sha256": "ef4f5804e4fb2241dffa172c6d715daa85d04ec5804d73102fdb7cf8f736af4e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_040.json",
+      "bytes": 163,
+      "sha256": "c5e7748dd6fd08910f2e2b52f37cd5ca65dbe995fadaf0609e29ba131f373bbb"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_041.json",
+      "bytes": 163,
+      "sha256": "db8d7a8b5bf94a8c039d47c43ebd45d6ccc6c45fda08771f1dccc04e3c746703"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_042.json",
+      "bytes": 163,
+      "sha256": "796555513b4180c5c7fe7698bbf7c1e71374a49a55922e5e54dca551fe857ef0"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_043.json",
+      "bytes": 164,
+      "sha256": "62f624c3576c220b9755f59c997e20d6a316895429d68ea7607299684ba33e6b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_044.json",
+      "bytes": 163,
+      "sha256": "8f4ac977845cd43e3ba45188b9cde58dd02f56cb5e8bcf80f261e4d23736bcfe"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_045.json",
+      "bytes": 163,
+      "sha256": "7e602be1324ac86e338c90d224970d4cb6968e42eed982966d40c0503979ff02"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_046.json",
+      "bytes": 163,
+      "sha256": "be5a9ff4330c8b1ef41d2f785e935287af9f95d4018ce188e534a3f6913de906"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_047.json",
+      "bytes": 164,
+      "sha256": "d19b46bf08e5bae41886cc7b82c85a4220d3dce694d8893b8721e0164db6df26"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_048.json",
+      "bytes": 163,
+      "sha256": "27908a8a7b5e875128e8bfe5fea230c540eb490acadb944d05169c97e76e3cf1"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_049.json",
+      "bytes": 164,
+      "sha256": "37ed5756605da82ac1baea7c6ccbf0daacc02128f6b8fb7b434a5fe1f84cd1cf"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_050.json",
+      "bytes": 164,
+      "sha256": "90151c5df6c910ccb85ff2715765d80c04b3ea7ebad31accbbac9ffea0cccfe8"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_051.json",
+      "bytes": 163,
+      "sha256": "d4fd4bb6c30a49e84eae3225db11a2443f76c57afe56320b642cb49052b40475"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_052.json",
+      "bytes": 161,
+      "sha256": "62b64b05ee20a7cf0783a6a65873cf6f00fed745e32518ea632d5e018f8bc211"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_053.json",
+      "bytes": 164,
+      "sha256": "7c0617bc83628b868d428b0eac5b563d23cea9693abb45d25b6d41281a93a621"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_054.json",
+      "bytes": 163,
+      "sha256": "f880946ad93a2d0f4d3aa22da1967df238082be4d031846d22ab858ac72c2c43"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_055.json",
+      "bytes": 163,
+      "sha256": "a1aa7504a75db4bf4e9a797cbd3477c8b3e05c5efafc987787af9c9ca7702881"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_056.json",
+      "bytes": 162,
+      "sha256": "7161ce153dbdcfad142b260ba8a239b2ac2d99cd4e5550d57a35ffccb85e019f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_057.json",
+      "bytes": 164,
+      "sha256": "9944c366959410a635eb2bc4edb060fdb372e11982e23a7a16a5fb5e52676703"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_058.json",
+      "bytes": 163,
+      "sha256": "78f525bf054999439fbb73ed6ce2e81478b25092b6042536007e1771a7f3baec"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_059.json",
+      "bytes": 163,
+      "sha256": "73ca2351e75646a16cfd1fdba987570f50de6aa0bfb134967e1cf3fb8f4e8a16"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_060.json",
+      "bytes": 164,
+      "sha256": "a6f5589a0590aa18926e1e1104194a4a9e47f74dcb172f0fad869cfefa9f8049"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_061.json",
+      "bytes": 164,
+      "sha256": "db8a5d4d25b5a451a0b99137b7da66113bd638f814702a88b952a19ec1a67e5e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_062.json",
+      "bytes": 163,
+      "sha256": "f5540c089bbda0b7bc648e963de0dc91d53aa1de74a9fcb54bf0dabf4fd576c1"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_063.json",
+      "bytes": 162,
+      "sha256": "2cc4a628f5f60ed41d8052f55ed1b751817e619170c02212d579c11e54ab45d0"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_064.json",
+      "bytes": 164,
+      "sha256": "6a803fa9a49cc13a0217da0dae4ccca456d0a2e64bacb2cbf78db1e07a67c494"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_065.json",
+      "bytes": 163,
+      "sha256": "16425d651a3a571777bc5187ac9ad9cfcd3a291ed9764dc4cd06b955524d7338"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_066.json",
+      "bytes": 164,
+      "sha256": "b71b3399462bd88ff23e330eeecc1bb3d8262edec42ec27ae5f6c78bf3007e29"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_067.json",
+      "bytes": 162,
+      "sha256": "13d2bd36472fd0a6d5c9f3e7d1d95092aa9ce9c7b74cf5ea792f1f9377d85efd"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_068.json",
+      "bytes": 161,
+      "sha256": "a3e4a1e70960865c6668cc0fddda868d0b2c478a68b80b6d08aede026950eca6"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_069.json",
+      "bytes": 164,
+      "sha256": "05c4e030f196ce06f1f420ba87f93aeed4ec3e4a3c6acf2b57826d900f211e61"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_070.json",
+      "bytes": 163,
+      "sha256": "c7a3d397e57bac2457b99d5b2275e59b7ecfa329952015fa404a72a14e160306"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_071.json",
+      "bytes": 160,
+      "sha256": "6b8b0b6df11f4217303169749ba76110896a2712b8702a435212ea278ddc9912"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_072.json",
+      "bytes": 164,
+      "sha256": "6b4dc4e691d8d4becffb7cb7ddbb8ac543e807490e7370641bc018aec1eb3cbf"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_073.json",
+      "bytes": 163,
+      "sha256": "43a9f3819aab5630e6b23af8c14373a5dc6c5b0e538c79e93cb96d86b1ad53a8"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_074.json",
+      "bytes": 163,
+      "sha256": "1a7830d0cfa2951264e41470e7f429a45c953dffd3141b28619a4a91942c8f8d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_075.json",
+      "bytes": 164,
+      "sha256": "84ce476805edfccf3b70401f21644527404c61c31d35c06021a1463a5c6db9a4"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_076.json",
+      "bytes": 164,
+      "sha256": "e597799f46e9ce64118b8d1ca0e83719d4e2dc5d0b7c433d33f7ffec7c509f6a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_077.json",
+      "bytes": 160,
+      "sha256": "01e614c96b30ead84bc693f0c248a4b7e556ab0304a86c8966f80f51c2c4cbfe"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_078.json",
+      "bytes": 164,
+      "sha256": "4c73b90e413292a37f38c50d91726323f9968a5bcb145971e69b7bd569cfb183"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_079.json",
+      "bytes": 163,
+      "sha256": "6950bb17d076bf3f9382cdbe01644bca81ad2189df1198643971ecf999f1d0ce"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_080.json",
+      "bytes": 162,
+      "sha256": "67b3d2bd27556fc18c45eae27021703dd1b46709d305d56feaeec510e1ce78f4"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_081.json",
+      "bytes": 163,
+      "sha256": "6421a1b4f208bf512e29559be64a1159ba854bf90a7fbeaf74c57b8a508bc84c"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_082.json",
+      "bytes": 161,
+      "sha256": "a58df88ede6925af507f1b800cbd4250a00ef0c4166e4e35280eddfc4d094c12"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_083.json",
+      "bytes": 163,
+      "sha256": "4646189059f488a9cd1e75dbb7208d5525962e2239839f29d7daf18b81d8eee9"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_084.json",
+      "bytes": 162,
+      "sha256": "3df785333f0eabeb6709187135b0b7d4709f27e9054d29fe8dc7244b9e8e9649"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_085.json",
+      "bytes": 164,
+      "sha256": "a26e7ba788d0bf478a64a814b131db92285668bed912e3068c5a44ff5781cc75"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_086.json",
+      "bytes": 163,
+      "sha256": "22cd389039c828aa0771300a28f27c7901901fc3b811bfc81c9b72f4ab2a259d"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_087.json",
+      "bytes": 164,
+      "sha256": "28cc684a227be0eb64ddaa4089abf88f40403379614ead42677d80634128bc1e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_088.json",
+      "bytes": 164,
+      "sha256": "286e9009d122e6985295080c692b1312dba52895c036413922d735ea5b52190f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_089.json",
+      "bytes": 162,
+      "sha256": "150bde60b6a1d36774a9718037e0739e55c1dc10d112eacbaafd8dad3192c712"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_090.json",
+      "bytes": 163,
+      "sha256": "ffee7f30684befb6f9b96d125cf2744d4f26e65f8a6496ba73b3c3ef08e07d54"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_091.json",
+      "bytes": 163,
+      "sha256": "8957369db70d914a1ad791984843b2c8a39b05d9c78ba78b66f47f6fda3be456"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_092.json",
+      "bytes": 163,
+      "sha256": "b0d66eea9dae4ae4bff085af6935a7922374c1acb7400221d005e1420a23fab6"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_093.json",
+      "bytes": 163,
+      "sha256": "87d2dab34e44bfc86fc232049f5befbce5b85f623ac0a93eec3b40e561adffa4"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_094.json",
+      "bytes": 161,
+      "sha256": "2086cd9141683ab7c808bb3788738ffa01a8c4cd0d3df537e8989fedda16d11f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_095.json",
+      "bytes": 163,
+      "sha256": "d7a2db06da8a0234cdb9a7e84f9c25035ef111bb27dc51fe2a90135d96c0a65b"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_096.json",
+      "bytes": 160,
+      "sha256": "70be82c6e7d6b485eafa856b7c1febec6138621acb6dad74e65e0906080e655a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_097.json",
+      "bytes": 162,
+      "sha256": "14c7b543bfff85c6732a9cca48a306cf4e3ba59c3f4a0d29c8ee07261db70e59"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_098.json",
+      "bytes": 163,
+      "sha256": "bebc3dae8b131fed76165003ed9e18ed554bb7df9159c4459d7d71ecd2215f75"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_099.json",
+      "bytes": 163,
+      "sha256": "0e59b6f5244c20a757092e4cda94fe4f69f14e732382fc90f895f8452b139a5e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_100.json",
+      "bytes": 162,
+      "sha256": "2460a5db22f0cf658c055748d335967efd8ecf4fe17c811c52aeca0970155675"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_101.json",
+      "bytes": 162,
+      "sha256": "e16b101c0c9a275e642513a904d94434c64533ce493e88a57967738f880f3d6e"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_102.json",
+      "bytes": 164,
+      "sha256": "6cc57698fbf5cec0b054e0286fc16bfbcd77814a0251b08345c464f5f36fe18a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_103.json",
+      "bytes": 164,
+      "sha256": "90271338e05c84773a5cc88c240fe2f7cd867b1fe0f2f63117abfa02b0e2f6a5"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_104.json",
+      "bytes": 163,
+      "sha256": "f7c3f2d134f65493a122d0f5a220e12564ab5e320ce6931f6bf4c5293f5f0779"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_105.json",
+      "bytes": 163,
+      "sha256": "a6aa9792ff90c55983c373efa29e25aa32fe4eed70479bbd4e528088b23a5845"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_106.json",
+      "bytes": 159,
+      "sha256": "c1649ea9aa562d126265aa34204cb3a487159948cb53d45a3aae4ceada960b5a"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_107.json",
+      "bytes": 163,
+      "sha256": "304b27b76c4bc444693468ac2afe2cd2077cdbb1385f7180e178d4e518607d91"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_108.json",
+      "bytes": 163,
+      "sha256": "929a724ccf16d2ee4144a5276f76467c8b2499f3da86dbac1eac1ca962349018"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_109.json",
+      "bytes": 160,
+      "sha256": "7ec08bad14e4770b5696249851e5fea97a084a8a3b29cb307b647de0e81af4be"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_110.json",
+      "bytes": 162,
+      "sha256": "583cde1133319e28720657c4fd9f28e671731f02c064345b57711b64bb4e57d6"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_111.json",
+      "bytes": 163,
+      "sha256": "5bd14c623f6ef9a90b3140816f74609bf6729f0c26f6fc979cbb405702644bc3"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_112.json",
+      "bytes": 164,
+      "sha256": "1036605712db6082b479f8f4d02871fd9dc4355438ee0b1ea0bbbb7fcd7c88f0"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_113.json",
+      "bytes": 162,
+      "sha256": "c924f988b824bb9d8ffed57caec41e0277185f83274caadd750783f84a1dfe72"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_114.json",
+      "bytes": 164,
+      "sha256": "5d34828127e7f5bced0a2cc73bafdeb41982a42ee86a203100147e551bd328c2"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_115.json",
+      "bytes": 157,
+      "sha256": "306f503f75f1368364e5c38802def1c1646db626e6e0375ba626ff6586ff43cc"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_116.json",
+      "bytes": 162,
+      "sha256": "96e49d5f04aabbf4906c10d117f276c33f626592f51fb0b187618d948323b905"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_117.json",
+      "bytes": 164,
+      "sha256": "f0dcb7003c9a8f159b622731dfe59a82a8f152f71e69a0d76571ad3b10ed87d0"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_118.json",
+      "bytes": 163,
+      "sha256": "8e78aab4e886cb67017e667f6e9d4a8cf8a2280d3bb91dcecf8998bdb5a2459f"
+    },
+    {
+      "path": "data/audit/20260909_3b3b824_guide_thermal/nishino/runtime_119.json",
+      "bytes": 162,
+      "sha256": "b938aa30489b9c5632cb01fa5d7a606868a5b0e47da09b4142afdea86210cd97"
+    },
+    {
+      "path": "data/audit/software_check_20260909/nishino/run_000.h5",
+      "bytes": 58957,
+      "sha256": "c2e497c0f47c89d36a27260cea0862dd2f127bff1e7ae764e51533d266eba673"
+    },
+    {
+      "path": "assets/literature/audit/20260909_3b3b824_guide_thermal/nishino_decision.png",
+      "bytes": 25808,
+      "sha256": "18e3fd7c2f58b47e4113c3ac197b56084dcaa15f8457eca9ccdeff348cd79839"
+    }
+  ],
+  "bytes": 5902346943,
+  "recovery_commit": "8df33aca80fa0b6dfe943804400398dad5d31470",
+  "recovery": "All payloads match HEAD blobs or LFS OIDs; restore from Git and existing LFS storage.",
+  "reason": "GUIDE 6.3 obsolete Nishino implementation; not deleting other research data",
+  "replacement_job_id": "669025",
+  "campaign": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/scripts/archive/r0_20260909_8df33ac_6fd7226f"
+}

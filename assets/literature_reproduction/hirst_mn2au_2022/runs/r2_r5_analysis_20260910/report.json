@@ -1,0 +1,1833 @@
+{
+  "paper": "hirst_mn2au_2022",
+  "status": "inconclusive",
+  "limitations": "ASD \u5e73\u8861\u4e3a 8\u00b3/12\u00b3/16\u00b3\uff0c\u800c\u76ee\u6807\u662f 30\u00b3\uff1b\u53ea\u6709\u4e00\u4e2a\u5e73\u8861\u6e29\u5ea6\u53ca\u6bcf\u6761\u4ef6\u4e00\u6761\u8f68\u8ff9\uff0c\u4e0d\u80fd\u786e\u5b9a T_N \u6216\u72ec\u7acb\u91cd\u590d\u7f6e\u4fe1\u533a\u95f4\u3002AFMR \u4ec5 8\u00b3\uff1bLLB \u4f7f\u7528\u6587\u732e\u62df\u5408\u8f93\u5165\u800c\u975e\u672c\u6279 ASD \u62df\u5408\u3002\u7574\u58c1\u5c1a\u7f3a\u5c3a\u5bf8/\u957f\u65f6\u626b\u63cf\u53ca\u9010\u952e\u5916\u90e8\u6838\u9a8c\u3002",
+  "tasks": [
+    {
+      "index": 9,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_009",
+      "protocol": "llb_afmr",
+      "parameters": {
+        "theta_key": "theta_300",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 50
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "518a69f6544a3c5081fbf5f098b35331cb3a1fbc893587c45eb2d1c4c4cc9e45"
+      },
+      "configuration_sha256": "f71ab0bcbfc2053570d3abf15f96b7109f5e2299fd9ecd2e3c511e8f3cd3ca69",
+      "saved_frames": 2001,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": null,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "not_applicable_LLB",
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.3161661273617856,
+            0.08184468506202308,
+            108.67350673438699,
+            -0.15791793753828004,
+            -0.000509314126969163
+          ],
+          "fit_covariance": [
+            [
+              1.0023268813457103e-08,
+              -8.108182417131509e-11,
+              -4.175965039502519e-06,
+              7.2797243710642555e-09,
+              -1.9616761189491115e-10
+            ],
+            [
+              -8.108182417131509e-11,
+              2.992152929281166e-11,
+              2.6558780319602504e-08,
+              -1.6017477585152808e-09,
+              -1.2866287775011627e-11
+            ],
+            [
+              -4.175965039502519e-06,
+              2.6558780319602504e-08,
+              0.0032718137870764484,
+              -2.5398237908725595e-06,
+              1.5067224413999644e-07
+            ],
+            [
+              7.279724371064254e-09,
+              -1.6017477585152812e-09,
+              -2.539823790872559e-06,
+              1.391120760151204e-07,
+              1.741404104264034e-09
+            ],
+            [
+              -1.9616761189491112e-10,
+              -1.286628777501163e-11,
+              1.5067224413999641e-07,
+              1.741404104264034e-09,
+              6.735248896497621e-10
+            ]
+          ],
+          "residual_rmse": 0.0011266786438886376,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        2.605197238684076
+      ]
+    },
+    {
+      "index": 10,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_010",
+      "protocol": "llb_afmr",
+      "parameters": {
+        "theta_key": "theta_300",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 100
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "470028757667f7219a2ed22804c49809e8074c7078e007df6243411d24c1692d"
+      },
+      "configuration_sha256": "9580372858dc6737fc55a868602071f7097254a156367cf6d265e36afffbe530",
+      "saved_frames": 2001,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": null,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "not_applicable_LLB",
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.3161661273594897,
+            0.08184468506199902,
+            108.67350673615614,
+            -0.15791793753659497,
+            -0.0005093141268463897
+          ],
+          "fit_covariance": [
+            [
+              1.0023268813010943e-08,
+              -8.108182490547315e-11,
+              -4.175965040274015e-06,
+              7.2797244324680884e-09,
+              -1.9616760970799972e-10
+            ],
+            [
+              -8.108182490547315e-11,
+              2.992152929520847e-11,
+              2.6558780680444475e-08,
+              -1.6017477586728957e-09,
+              -1.2866287818942674e-11
+            ],
+            [
+              -4.175965040274016e-06,
+              2.6558780680444475e-08,
+              0.003271813788311908,
+              -2.539823821251465e-06,
+              1.50672242584985e-07
+            ],
+            [
+              7.2797244324680884e-09,
+              -1.6017477586728957e-09,
+              -2.539823821251465e-06,
+              1.3911207602218596e-07,
+              1.7414041081478048e-09
+            ],
+            [
+              -1.9616760970799972e-10,
+              -1.2866287818942674e-11,
+              1.5067224258498498e-07,
+              1.7414041081478052e-09,
+              6.735248896274673e-10
+            ]
+          ],
+          "residual_rmse": 0.0011266786438879526,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        2.6051972386833104
+      ]
+    },
+    {
+      "index": 11,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_011",
+      "protocol": "llb_afmr",
+      "parameters": {
+        "theta_key": "theta_300",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "31ac402232b3ff8e1cbd6b56f4345fb104300c9246a3518b6688470a4988ce62"
+      },
+      "configuration_sha256": "e0348dc2a047827f16dd2613fa92ff5fab850a0970cebd365dd88fc223f42e33",
+      "saved_frames": 2001,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": null,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "not_applicable_LLB",
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.31616612736003835,
+            0.08184468506207042,
+            108.67350673579125,
+            -0.15791793754275404,
+            -0.0005093141269528299
+          ],
+          "fit_covariance": [
+            [
+              1.0023268820026553e-08,
+              -8.108182485636061e-11,
+              -4.175965045341956e-06,
+              7.279724425238631e-09,
+              -1.9616761150427608e-10
+            ],
+            [
+              -8.108182485636061e-11,
+              2.992152928182598e-11,
+              2.6558780735246193e-08,
+              -1.6017477574080297e-09,
+              -1.2866287796861902e-11
+            ],
+            [
+              -4.175965045341956e-06,
+              2.6558780735246193e-08,
+              0.0032718137923393514,
+              -2.539823824699074e-06,
+              1.506722440591707e-07
+            ],
+            [
+              7.27972442523863e-09,
+              -1.6017477574080297e-09,
+              -2.539823824699074e-06,
+              1.3911207591082368e-07,
+              1.741404106238434e-09
+            ],
+            [
+              -1.9616761150427606e-10,
+              -1.2866287796861904e-11,
+              1.506722440591707e-07,
+              1.741404106238434e-09,
+              6.735248897486503e-10
+            ]
+          ],
+          "residual_rmse": 0.0011266786438869907,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        2.605197238685583
+      ]
+    },
+    {
+      "index": 12,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_012",
+      "protocol": "llb_afmr",
+      "parameters": {
+        "theta_key": "theta_1000",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 50
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "50ea231f757c5734508128a5458d2766d02819763295839bda03a8b4e037ff4e"
+      },
+      "configuration_sha256": "f6b575006155e17fe6698f44af493fdffc6390c8653c820d24d21b196ac2fce6",
+      "saved_frames": 2001,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": null,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "not_applicable_LLB",
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.2170427784109957,
+            0.045747834502774073,
+            134.31405030755232,
+            -0.20645369096137844,
+            -0.0003465832183396347
+          ],
+          "fit_covariance": [
+            [
+              4.951147959017149e-10,
+              -6.817317342537687e-12,
+              -4.247600016958163e-07,
+              7.263982297217564e-10,
+              -1.2916726411870206e-11
+            ],
+            [
+              -6.817317342537687e-12,
+              2.7910931623885412e-12,
+              3.6844248458632026e-09,
+              -1.9040639912214652e-10,
+              -1.318023844930776e-12
+            ],
+            [
+              -4.247600016958163e-07,
+              3.684424845863203e-09,
+              0.0006885270089042317,
+              -4.787937990682903e-07,
+              1.0198156556400627e-08
+            ],
+            [
+              7.263982297217566e-10,
+              -1.9040639912214652e-10,
+              -4.787937990682903e-07,
+              1.9260536343805423e-08,
+              2.407881779682739e-10
+            ],
+            [
+              -1.2916726411870206e-11,
+              -1.318023844930776e-12,
+              1.0198156556400627e-08,
+              2.407881779682739e-10,
+              4.329417036772464e-11
+            ]
+          ],
+          "residual_rmse": 0.0002752359727527806,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        1.4561987993732908
+      ]
+    },
+    {
+      "index": 13,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_013",
+      "protocol": "llb_afmr",
+      "parameters": {
+        "theta_key": "theta_1000",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 100
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "1309e280ab6fb6d3290c320ef2e9c0cd6312ba3fa968a30819c6d9771df19995"
+      },
+      "configuration_sha256": "2e53f4e3eed45dd08456ec9f8d2d43b5e84bb5d735ff2ef27550f67a5347aa54",
+      "saved_frames": 2001,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": null,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "not_applicable_LLB",
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.21704277841029232,
+            0.04574783450273119,
+            134.3140503088303,
+            -0.2064536909573441,
+            -0.0003465832182547114
+          ],
+          "fit_covariance": [
+            [
+              4.951147957527375e-10,
+              -6.8173173464808905e-12,
+              -4.2476000162452613e-07,
+              7.263982297771856e-10,
+              -1.2916726494333056e-11
+            ],
+            [
+              -6.817317346480891e-12,
+              2.7910931640271283e-12,
+              3.684424874599617e-09,
+              -1.904063992696721e-10,
+              -1.318023847251682e-12
+            ],
+            [
+              -4.2476000162452613e-07,
+              3.684424874599617e-09,
+              0.0006885270089979727,
+              -4.78793801483548e-07,
+              1.0198156672194228e-08
+            ],
+            [
+              7.263982297771856e-10,
+              -1.9040639926967209e-10,
+              -4.78793801483548e-07,
+              1.9260536356650562e-08,
+              2.4078817816057977e-10
+            ],
+            [
+              -1.2916726494333051e-11,
+              -1.318023847251682e-12,
+              1.0198156672194228e-08,
+              2.4078817816057977e-10,
+              4.329417037739198e-11
+            ]
+          ],
+          "residual_rmse": 0.00027523597275299114,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        1.4561987993719259
+      ]
+    },
+    {
+      "index": 14,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_014",
+      "protocol": "llb_afmr",
+      "parameters": {
+        "theta_key": "theta_1000",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "fd6d1c7559c625655955794359c44611a8ec0d85e11bc77a9f9eb734f84fafcb"
+      },
+      "configuration_sha256": "23c67f5059917a364e558885b36420e9d1c4712088c94b8cd4ba6bdcf0087525",
+      "saved_frames": 2001,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": null,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "not_applicable_LLB",
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.21704277841093153,
+            0.04574783450270995,
+            134.31405030787604,
+            -0.20645369095492222,
+            -0.00034658321824629514
+          ],
+          "fit_covariance": [
+            [
+              4.951147946725455e-10,
+              -6.8173173372561085e-12,
+              -4.2476000019394487e-07,
+              7.263982288862838e-10,
+              -1.2916726490032394e-11
+            ],
+            [
+              -6.817317337256109e-12,
+              2.791093161892934e-12,
+              3.684424854392767e-09,
+              -1.9040639906813015e-10,
+              -1.318023842554763e-12
+            ],
+            [
+              -4.247600001939448e-07,
+              3.684424854392767e-09,
+              0.0006885270072372172,
+              -4.787937996157245e-07,
+              1.0198156685658804e-08
+            ],
+            [
+              7.263982288862838e-10,
+              -1.9040639906813015e-10,
+              -4.787937996157246e-07,
+              1.9260536337861776e-08,
+              2.407881777006783e-10
+            ],
+            [
+              -1.2916726490032394e-11,
+              -1.3180238425547629e-12,
+              1.0198156685658807e-08,
+              2.407881777006783e-10,
+              4.3294170368535016e-11
+            ]
+          ],
+          "residual_rmse": 0.0002752359727534502,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        1.4561987993712495
+      ]
+    },
+    {
+      "index": 15,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_015",
+      "protocol": "llb_afmr",
+      "parameters": {
+        "theta_key": "theta_1200",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 50
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "1ef894bc0b7ebdc1deabec9c5105ec095da28968d386c11e8ee2ec8fa3bc5071"
+      },
+      "configuration_sha256": "d799cfe968b3c8fc2b2394f3585b6c38c9c97688d08e96cd8bf7502020d5cf6d",
+      "saved_frames": 2001,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": null,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "not_applicable_LLB",
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.16208543198025704,
+            0.0283047393055243,
+            144.45393800025812,
+            -0.2837816246843589,
+            0.00022182685137355716
+          ],
+          "fit_covariance": [
+            [
+              4.848768066262791e-10,
+              4.769140370538427e-11,
+              -1.1458291636717305e-06,
+              -4.694752830318755e-09,
+              -2.3440937230174737e-10
+            ],
+            [
+              4.769140370538427e-11,
+              1.3917616952151624e-11,
+              -1.690769376201174e-07,
+              -1.3322835451503563e-09,
+              -4.805558052442954e-11
+            ],
+            [
+              -1.1458291636717305e-06,
+              -1.690769376201174e-07,
+              0.0035742529379726457,
+              1.689773604760246e-05,
+              7.648008994036909e-07
+            ],
+            [
+              -4.694752830318754e-09,
+              -1.3322835451503563e-09,
+              1.689773604760246e-05,
+              1.3452936142719669e-07,
+              4.819748662565995e-09
+            ],
+            [
+              -2.3440937230174737e-10,
+              -4.805558052442954e-11,
+              7.648008994036909e-07,
+              4.819748662565996e-09,
+              2.115090285858792e-10
+            ]
+          ],
+          "residual_rmse": 0.00020506498731821774,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        0.9009678346803306
+      ]
+    },
+    {
+      "index": 16,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_016",
+      "protocol": "llb_afmr",
+      "parameters": {
+        "theta_key": "theta_1200",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 100
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "4c0fd5aaddb1222f990b9dd2cd013137eba9b7a776d23016ac4ce53c81217f30"
+      },
+      "configuration_sha256": "b63712d95c97aaa6a0e7a1a546dfe971765ea5b974ee20789abe89e3b783dedd",
+      "saved_frames": 2001,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": null,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "not_applicable_LLB",
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.1620854319846097,
+            0.028304739306374588,
+            144.45393798599514,
+            -0.283781624769725,
+            0.0002218268479260967
+          ],
+          "fit_covariance": [
+            [
+              4.848768102679854e-10,
+              4.769140412174593e-11,
+              -1.145829172312015e-06,
+              -4.694752871945175e-09,
+              -2.344093739150177e-10
+            ],
+            [
+              4.769140412174593e-11,
+              1.3917616946268948e-11,
+              -1.6907693822790505e-07,
+              -1.3322835444674601e-09,
+              -4.805558053046571e-11
+            ],
+            [
+              -1.1458291723120152e-06,
+              -1.690769382279051e-07,
+              0.003574252954994554,
+              1.689773610778895e-05,
+              7.648009017737194e-07
+            ],
+            [
+              -4.694752871945175e-09,
+              -1.3322835444674601e-09,
+              1.689773610778895e-05,
+              1.3452936135023922e-07,
+              4.819748662903614e-09
+            ],
+            [
+              -2.344093739150177e-10,
+              -4.805558053046571e-11,
+              7.648009017737192e-07,
+              4.819748662903614e-09,
+              2.115090286624737e-10
+            ]
+          ],
+          "residual_rmse": 0.0002050649873185895,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        0.9009678347073962
+      ]
+    },
+    {
+      "index": 17,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_017",
+      "protocol": "llb_afmr",
+      "parameters": {
+        "theta_key": "theta_1200",
+        "published_fit_exponent": 0.34,
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 200
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "5d40e019f46e29de634bc9ea5817c00aa631340c087c4df376914194150e7e90"
+      },
+      "configuration_sha256": "30000be50501c073001ba276a309ea844a4bc574522879fc7e531712a829e151",
+      "saved_frames": 2001,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": null,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "not_applicable_LLB",
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.16208543198350697,
+            0.02830473930608525,
+            144.4539379898963,
+            -0.2837816247405357,
+            0.0002218268489965041
+          ],
+          "fit_covariance": [
+            [
+              4.848768080268917e-10,
+              4.769140378546799e-11,
+              -1.1458291666107184e-06,
+              -4.694752839039361e-09,
+              -2.3440937270301966e-10
+            ],
+            [
+              4.769140378546799e-11,
+              1.3917616912791231e-11,
+              -1.690769374955345e-07,
+              -1.332283541208599e-09,
+              -4.805558040539796e-11
+            ],
+            [
+              -1.1458291666107186e-06,
+              -1.690769374955345e-07,
+              0.003574252941918751,
+              1.68977360368628e-05,
+              7.648008992385211e-07
+            ],
+            [
+              -4.694752839039361e-09,
+              -1.332283541208599e-09,
+              1.68977360368628e-05,
+              1.3452936103283572e-07,
+              4.819748650850164e-09
+            ],
+            [
+              -2.3440937270301966e-10,
+              -4.805558040539796e-11,
+              7.648008992385211e-07,
+              4.819748650850164e-09,
+              2.1150902822930724e-10
+            ]
+          ],
+          "residual_rmse": 0.00020506498731870577,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        0.9009678346981862
+      ]
+    },
+    {
+      "index": 32,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_032",
+      "protocol": "equilibrium",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "27d4ea900447bbede0a01bacf0f43cb7334e2432678751ccab7f95b5e994a0eb"
+      },
+      "configuration_sha256": "b4477704d3eca5de29e49659bf6c1b722b4675db8c767dff9e60359292bfaaab",
+      "saved_frames": 201,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": 3.3306690738754696e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.5421795872500003
+        ],
+        "final": [
+          -0.4793799792872687
+        ],
+        "maximum_saved_increase": [
+          0.0371275426824883
+        ],
+        "relative_excursion": [
+          0.12384904739623076
+        ]
+      },
+      "late_windows": {
+        "intervals": [
+          [
+            100.0,
+            150.0
+          ],
+          [
+            150.0,
+            200.0
+          ]
+        ],
+        "first": [
+          0.9145528160075217
+        ],
+        "second": [
+          0.9171147631193122
+        ],
+        "change": [
+          0.0025619471117904746
+        ],
+        "certified": false
+      },
+      "late_length_by_replica": [
+        0.9158464724699109
+      ],
+      "independent_trajectories": 1,
+      "uncertainty": "One trajectory per condition; no independent-replicate CI."
+    },
+    {
+      "index": 33,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_033",
+      "protocol": "equilibrium",
+      "parameters": {
+        "shape": [
+          12,
+          12,
+          12
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "9021074e27a835cd44193bb51c8153dfb54c76ce862f9ef480167266843bea90"
+      },
+      "configuration_sha256": "e11716d5dfca0a17c7a2734fc06a81427552f6067ef5934492fde911fce6a111",
+      "saved_frames": 201,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": 3.3306690738754696e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.5421795872499998
+        ],
+        "final": [
+          -0.47932000258199164
+        ],
+        "maximum_saved_increase": [
+          0.038316725202292234
+        ],
+        "relative_excursion": [
+          0.12313418520214528
+        ]
+      },
+      "late_windows": {
+        "intervals": [
+          [
+            100.0,
+            150.0
+          ],
+          [
+            150.0,
+            200.0
+          ]
+        ],
+        "first": [
+          0.9160731029298931
+        ],
+        "second": [
+          0.9148405220255944
+        ],
+        "change": [
+          -0.0012325809042986746
+        ],
+        "certified": false
+      },
+      "late_length_by_replica": [
+        0.9154507105920789
+      ],
+      "independent_trajectories": 1,
+      "uncertainty": "One trajectory per condition; no independent-replicate CI."
+    },
+    {
+      "index": 34,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_034",
+      "protocol": "equilibrium",
+      "parameters": {
+        "shape": [
+          16,
+          16,
+          16
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "c0a6cb80da579af73ccc7773aa53539968441a171274feb14a3f4edee5c24bb6"
+      },
+      "configuration_sha256": "4e5485d6d18508359fdfe58837b97166fb21a203c9090e529a740eef30748be1",
+      "saved_frames": 201,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": 3.3306690738754696e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.5421795872500003
+        ],
+        "final": [
+          -0.47894330975863775
+        ],
+        "maximum_saved_increase": [
+          0.03813291393882445
+        ],
+        "relative_excursion": [
+          0.12032581219201714
+        ]
+      },
+      "late_windows": {
+        "intervals": [
+          [
+            100.0,
+            150.0
+          ],
+          [
+            150.0,
+            200.0
+          ]
+        ],
+        "first": [
+          0.9141256534332757
+        ],
+        "second": [
+          0.9139067799217958
+        ],
+        "change": [
+          -0.00021887351147986678
+        ],
+        "certified": false
+      },
+      "late_length_by_replica": [
+        0.9140151331453006
+      ],
+      "independent_trajectories": 1,
+      "uncertainty": "One trajectory per condition; no independent-replicate CI."
+    },
+    {
+      "index": 35,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_035",
+      "protocol": "equilibrium",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.001,
+        "steps": 200000,
+        "save_every": 1000,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "481a51a177032f49ebc3e408ddc48e5c4ec7aaf9ecea5e0adb5967fe05a4505f"
+      },
+      "configuration_sha256": "fa8061d0a2c4a8cc7d4340b663ba3d121fbaccb46e50357030629620ca057e75",
+      "saved_frames": 201,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": 3.3306690738754696e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.5421795872500003
+        ],
+        "final": [
+          -0.47918114236720377
+        ],
+        "maximum_saved_increase": [
+          0.03738617516582832
+        ],
+        "relative_excursion": [
+          0.12884516349453032
+        ]
+      },
+      "late_windows": {
+        "intervals": [
+          [
+            100.0,
+            150.0
+          ],
+          [
+            150.0,
+            200.0
+          ]
+        ],
+        "first": [
+          0.917718211103769
+        ],
+        "second": [
+          0.9178857544086552
+        ],
+        "change": [
+          0.00016754330488610858
+        ],
+        "certified": false
+      },
+      "late_length_by_replica": [
+        0.9178028121785134
+      ],
+      "independent_trajectories": 1,
+      "uncertainty": "One trajectory per condition; no independent-replicate CI."
+    },
+    {
+      "index": 36,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_036",
+      "protocol": "equilibrium",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 1.0,
+        "dt": 0.0005,
+        "steps": 400000,
+        "save_every": 2000,
+        "discard_fraction": 0.5,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "4fc9d5aec2c316ffc55db69aa0e603d40e492a5311befe5dd528803ed7deb36c"
+      },
+      "configuration_sha256": "64159e4267e909c3ed92be6fcdd81925ecb07d711c974ff1c6186b3bfd6f1693",
+      "saved_frames": 201,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.5421795872500003
+        ],
+        "final": [
+          -0.4793582187994359
+        ],
+        "maximum_saved_increase": [
+          0.03837797420393774
+        ],
+        "relative_excursion": [
+          0.1255862924037048
+        ]
+      },
+      "late_windows": {
+        "intervals": [
+          [
+            100.0,
+            150.0
+          ],
+          [
+            150.0,
+            200.0
+          ]
+        ],
+        "first": [
+          0.9168408139131572
+        ],
+        "second": [
+          0.9150201092787251
+        ],
+        "change": [
+          -0.0018207046344320688
+        ],
+        "certified": false
+      },
+      "late_length_by_replica": [
+        0.9159214482066618
+      ],
+      "independent_trajectories": 1,
+      "uncertainty": "One trajectory per condition; no independent-replicate CI."
+    },
+    {
+      "index": 37,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_037",
+      "protocol": "afmr",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_300",
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "equilibration_steps": 100000,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "equilibration.h5": "50fc6721a8ed15079252bd316446a79b50196da38b4667255ab13b2a57541fe7",
+        "trajectory.h5": "d2ad68c533de33ad5427dcbeeac79c4f3232d03e46f9253cd414fddb722a297a"
+      },
+      "configuration_sha256": "7ade26ac5a7858fa1894d800d389d8773b735b08cd317b194d5e99d0a5738cd1",
+      "saved_frames": 201,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.479100219957219
+        ],
+        "final": [
+          -0.479839833943747
+        ],
+        "maximum_saved_increase": [
+          0.0009784721974839261
+        ],
+        "relative_excursion": [
+          0.0043719206146300505
+        ]
+      },
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.42973246012534666,
+            0.07888464460484731,
+            72.37660210450466,
+            0.2604340116274833,
+            0.02288565633979677
+          ],
+          "fit_covariance": [
+            [
+              7.319948847768078e-05,
+              -8.789867923104579e-07,
+              -0.012622518746992974,
+              5.9012702369912885e-05,
+              6.334594705652358e-07
+            ],
+            [
+              -8.789867923104579e-07,
+              1.60207104358378e-07,
+              0.00013801414427575784,
+              -6.003463024570177e-06,
+              -1.061186116137418e-07
+            ],
+            [
+              -0.012622518746992974,
+              0.00013801414427575784,
+              4.07612879410293,
+              -0.009546707331031072,
+              5.5548008938948585e-05
+            ],
+            [
+              5.9012702369912885e-05,
+              -6.003463024570177e-06,
+              -0.009546707331031072,
+              0.00039972649269212027,
+              8.705046143638896e-06
+            ],
+            [
+              6.334594705652358e-07,
+              -1.061186116137418e-07,
+              5.5548008938948585e-05,
+              8.705046143638895e-06,
+              2.9765873478494046e-06
+            ]
+          ],
+          "residual_rmse": 0.023256925686692194,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        2.5109762245817726
+      ]
+    },
+    {
+      "index": 38,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_038",
+      "protocol": "afmr",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_1000",
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "equilibration_steps": 100000,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "equilibration.h5": "3ef8337f63b9dd36e39ce2d3004da2356ba4d719daec8ee763bb774cbfa61efc",
+        "trajectory.h5": "8f35c91e997f63fe85f4bd21b9c3556e6a7abb1c5ddb1352e37bf3f9e06f36f3"
+      },
+      "configuration_sha256": "db5a159d6aa6b3396aa11c1b241fcc955cead2bef726704100ca883d8b9cd52b",
+      "saved_frames": 201,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.2999241835640476
+        ],
+        "final": [
+          -0.2967368841114781
+        ],
+        "maximum_saved_increase": [
+          0.002234173993219679
+        ],
+        "relative_excursion": [
+          0.023245648201444705
+        ]
+      },
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.16942029670722764,
+            0.05866317011420604,
+            383387675.90754277,
+            0.33263071793718874,
+            0.10702463734436865
+          ],
+          "fit_covariance": [
+            [
+              1.2900682816022504e-05,
+              -2.0118244438721617e-07,
+              -1.5900926399470903e-19,
+              2.1128859477974087e-05,
+              1.3982454021610834e-06
+            ],
+            [
+              -2.0118244438721617e-07,
+              1.27874734719362e-07,
+              9.722968036458686e-20,
+              -1.2954984217356201e-05,
+              -3.7734434478164624e-07
+            ],
+            [
+              -1.5900926399470903e-19,
+              9.722968036458686e-20,
+              9.562346856009865e-32,
+              -1.2746207036909731e-17,
+              -2.9278239146857445e-19
+            ],
+            [
+              2.1128859477974083e-05,
+              -1.29549842173562e-05,
+              -1.274620703690973e-17,
+              0.0016990415663983272,
+              3.8629737096796094e-05
+            ],
+            [
+              1.3982454021610834e-06,
+              -3.7734434478164624e-07,
+              -2.9278239146857445e-19,
+              3.8629737096796094e-05,
+              7.036983155582338e-06
+            ]
+          ],
+          "residual_rmse": 0.033924277027002535,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        1.8673067002233277
+      ]
+    },
+    {
+      "index": 39,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_039",
+      "protocol": "afmr",
+      "parameters": {
+        "shape": [
+          8,
+          8,
+          8
+        ],
+        "periodic": [
+          true,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta_key": "theta_1200",
+        "alpha": 0.01,
+        "tilt_degrees": 20,
+        "equilibration_steps": 100000,
+        "dt": 0.002,
+        "steps": 100000,
+        "save_every": 500,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "equilibration.h5": "ccbf00e2644cfcc15e7bc640a8f0035460b80121c8bc23d408ad98f85591cc78",
+        "trajectory.h5": "525da535873239a98e7c2f8d73a5fbf67de0791dbe68e8b07e6074706b077601"
+      },
+      "configuration_sha256": "09ba98c59a17bb4abd6b73a2ac5e3d087e3ec6bd5890531c1f48af41a4fcc082",
+      "saved_frames": 201,
+      "duration": 200.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.2188557734299881
+        ],
+        "final": [
+          -0.22577907194235863
+        ],
+        "maximum_saved_increase": [
+          0.0019181201325104147
+        ],
+        "relative_excursion": [
+          0.03734379398415072
+        ]
+      },
+      "afmr": [
+        {
+          "resolved": true,
+          "parameters_order": [
+            "amplitude",
+            "omega",
+            "tau",
+            "phase",
+            "offset"
+          ],
+          "parameters": [
+            0.2351323800846379,
+            0.030477536815938455,
+            917.3961032597241,
+            0.42383143169968723,
+            0.09261226416620447
+          ],
+          "fit_covariance": [
+            [
+              6.940470551194208e-05,
+              -3.0206122755365654e-06,
+              -1.7004925160707185,
+              0.0002861702170018765,
+              2.5090232896697576e-05
+            ],
+            [
+              -3.020612275536566e-06,
+              2.8229576190832447e-07,
+              0.06668593713306631,
+              -2.5196140021403168e-05,
+              -2.1027345556412737e-06
+            ],
+            [
+              -1.7004925160707185,
+              0.06668593713306631,
+              49886.43900356109,
+              -6.506460319800365,
+              -0.5769324647619469
+            ],
+            [
+              0.0002861702170018765,
+              -2.5196140021403168e-05,
+              -6.506460319800365,
+              0.002399921476143366,
+              0.00018979758966394163
+            ],
+            [
+              2.5090232896697576e-05,
+              -2.1027345556412733e-06,
+              -0.5769324647619469,
+              0.00018979758966394163,
+              1.9174538502876825e-05
+            ]
+          ],
+          "residual_rmse": 0.025471969108581093,
+          "uncertainty_warning": "Fit covariance is conditional; independent replicate/block uncertainty still required."
+        }
+      ],
+      "resolved_cycles": [
+        0.970130127504366
+      ]
+    },
+    {
+      "index": 40,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_040",
+      "protocol": "wall",
+      "parameters": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "periodic": [
+          false,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta": 0.0,
+        "alpha": 1.0,
+        "initial_width_cells": 40,
+        "dt": 0.002,
+        "steps": 200000,
+        "save_every": 2000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "9d6f36e995b7a6575a9fc767d309ea083ecb252863e77b3c8210f2c6f3f1ea6f"
+      },
+      "configuration_sha256": "178022b14eea0716c87e331ee8074455da72182ceddfb1ed539f92ad83ad7b23",
+      "saved_frames": 101,
+      "duration": 400.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.5417358552136633
+        ],
+        "final": [
+          -0.5417402474966163
+        ],
+        "maximum_saved_increase": [
+          -1.4557148819704935e-09
+        ],
+        "relative_excursion": [
+          8.107794436611074e-06
+        ]
+      },
+      "wall_final": [
+        {
+          "me": 0.9995941628281907,
+          "position_over_a": 255.7500000007,
+          "delta0_over_a": 38.914668875845585,
+          "neel_width_over_a": 122.25403785723586,
+          "fit_covariance": [
+            [
+              1.5085743696432357e-09,
+              -5.22133688077496e-15,
+              1.3658599233532475e-07
+            ],
+            [
+              -5.221336880774959e-15,
+              1.496771313193687e-05,
+              -1.5848292469778764e-12
+            ],
+            [
+              1.3658599233532475e-07,
+              -1.5848292469778766e-12,
+              5.878272469494152e-05
+            ]
+          ]
+        }
+      ],
+      "wall_late_windows": {
+        "intervals": [
+          [
+            200.0,
+            300.0
+          ],
+          [
+            300.0,
+            400.0
+          ]
+        ],
+        "first": [
+          123.51811461598055
+        ],
+        "second": [
+          122.66545422772249
+        ],
+        "change": [
+          -0.8526603882580588
+        ],
+        "certified": false
+      },
+      "target_width_over_a": 93.69369369369369,
+      "reference_note": "GUIDE 31.2 nm / YAML a=0.333 nm; compare reduced pi*delta0, not tanh delta0."
+    },
+    {
+      "index": 41,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_041",
+      "protocol": "wall",
+      "parameters": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "periodic": [
+          false,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta": 0.0,
+        "alpha": 1.0,
+        "initial_width_cells": 40,
+        "dt": 0.001,
+        "steps": 400000,
+        "save_every": 4000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "2d03220fe263db63ff29391e83719dd388ef7c9471b5a024c3a8d4624c4340ea"
+      },
+      "configuration_sha256": "82e62b3d53befaaacf0e37156a4a53dc6a61756c96609dca98f9ea58db6524d7",
+      "saved_frames": 101,
+      "duration": 400.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.5417358552136633
+        ],
+        "final": [
+          -0.5417402474966163
+        ],
+        "maximum_saved_increase": [
+          -1.4557148819704935e-09
+        ],
+        "relative_excursion": [
+          8.107794436611074e-06
+        ]
+      },
+      "wall_final": [
+        {
+          "me": 0.9995941628278917,
+          "position_over_a": 255.75000000070338,
+          "delta0_over_a": 38.91466887570675,
+          "neel_width_over_a": 122.25403785679971,
+          "fit_covariance": [
+            [
+              1.5085743705037542e-09,
+              -5.2285339597102016e-15,
+              1.36585992270161e-07
+            ],
+            [
+              -5.228533959710201e-15,
+              1.4967713136982444e-05,
+              -1.577765552354914e-12
+            ],
+            [
+              1.3658599227016097e-07,
+              -1.577765552354914e-12,
+              5.87827245136279e-05
+            ]
+          ]
+        }
+      ],
+      "wall_late_windows": {
+        "intervals": [
+          [
+            200.0,
+            300.0
+          ],
+          [
+            300.0,
+            400.0
+          ]
+        ],
+        "first": [
+          123.51811461602689
+        ],
+        "second": [
+          122.66545422778353
+        ],
+        "change": [
+          -0.8526603882433648
+        ],
+        "certified": false
+      },
+      "target_width_over_a": 93.69369369369369,
+      "reference_note": "GUIDE 31.2 nm / YAML a=0.333 nm; compare reduced pi*delta0, not tanh delta0."
+    },
+    {
+      "index": 42,
+      "paper": "hirst_mn2au_2022",
+      "run_id": "20260910_110834_validation_042",
+      "protocol": "wall",
+      "parameters": {
+        "shape": [
+          512,
+          4,
+          4
+        ],
+        "periodic": [
+          false,
+          true,
+          true
+        ],
+        "batch": 1,
+        "theta": 0.0,
+        "alpha": 1.0,
+        "initial_width_cells": 40,
+        "dt": 0.0005,
+        "steps": 800000,
+        "save_every": 8000,
+        "seed": 20260910,
+        "method": "heun_projected_predictor"
+      },
+      "production_certified": false,
+      "raw_sha256": {
+        "trajectory.h5": "9f5080862aed722ed0ef2b9508038222a42fc3200a62732e1ae16aab983dcf2f"
+      },
+      "configuration_sha256": "de7c1736a7c55f506e9c0e3f1e8758dad2c3b36066b592320a82806129edbba6",
+      "saved_frames": 101,
+      "duration": 400.0,
+      "finite": true,
+      "max_saved_norm_error": 2.220446049250313e-16,
+      "projection_predictor_error_saved": false,
+      "norm_gate": "pass",
+      "energy": {
+        "initial": [
+          -0.5417358552136633
+        ],
+        "final": [
+          -0.5417402474966162
+        ],
+        "maximum_saved_increase": [
+          -1.4557148819704935e-09
+        ],
+        "relative_excursion": [
+          8.107794436406136e-06
+        ]
+      },
+      "wall_final": [
+        {
+          "me": 0.999594162828201,
+          "position_over_a": 255.7500000007089,
+          "delta0_over_a": 38.91466887588142,
+          "neel_width_over_a": 122.25403785734844,
+          "fit_covariance": [
+            [
+              1.5085743713918727e-09,
+              -5.2498603225377786e-15,
+              1.3658599260665323e-07
+            ],
+            [
+              -5.249860322537778e-15,
+              1.4967713142232205e-05,
+              -1.5870465654191582e-12
+            ],
+            [
+              1.3658599260665323e-07,
+              -1.5870465654191584e-12,
+              5.87827247596729e-05
+            ]
+          ]
+        }
+      ],
+      "wall_late_windows": {
+        "intervals": [
+          [
+            200.0,
+            300.0
+          ],
+          [
+            300.0,
+            400.0
+          ]
+        ],
+        "first": [
+          123.51811461599931
+        ],
+        "second": [
+          122.6654542278818
+        ],
+        "change": [
+          -0.8526603881175134
+        ],
+        "certified": false
+      },
+      "target_width_over_a": 93.69369369369369,
+      "reference_note": "GUIDE 31.2 nm / YAML a=0.333 nm; compare reduced pi*delta0, not tanh delta0."
+    }
+  ]
+}
