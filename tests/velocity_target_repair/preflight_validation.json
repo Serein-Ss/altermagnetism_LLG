@@ -1,0 +1,29 @@
+{
+  "unit_and_regression_checks": 18,
+  "unit_and_regression_passed": true,
+  "unit_log": "logs/preflight.out",
+  "gpu_smoke_job": "671049",
+  "gpu_smoke_indices": [0, 1],
+  "gpu_smoke_seconds_each": 48,
+  "gpu_smoke_updates_each": 32,
+  "eligible_targets_each": 20,
+  "control_replaced": 0,
+  "repair_replaced": 20,
+  "training_inputs_and_parent_schedules_paired": true,
+  "statistics_smoke_job": "671051",
+  "statistics_smoke_seconds_each": 10,
+  "aggregate_smoke_job": "671052",
+  "aggregate_smoke_seconds": 6,
+  "report_results": 2,
+  "report_missing": [],
+  "report_errors": [],
+  "preliminary_probe": {
+    "scope": "First L16 training parent,4 random target/source draws; no population or all-parent inference",
+    "transport_tau": 0.05,
+    "sampled_target_mse": 0.4453744862006294,
+    "empirical_conditional_field_mse": 0.018769627755433844,
+    "target_noise_mean_square": 0.40853466102110403,
+    "warning": "Empirical mixture teacher, not true LLG velocity; finite-draw quantities need not add exactly due to cross term"
+  },
+  "smoke_not_physical_accuracy_certification": true
+}

@@ -1,0 +1,11 @@
+scope: deterministic_validation_only
+production_enabled: false
+temperature_K: 0
+noise: exactly_zero
+method: heun_projected_predictor
+dt_divisor: 4
+tilt_degrees: 10
+tilted_systems: [bauer, hirst]
+strong_rotation_center_degrees: 35
+strong_rotation_modulation_degrees: 15
+duration_and_geometry: inherit_original_pilot

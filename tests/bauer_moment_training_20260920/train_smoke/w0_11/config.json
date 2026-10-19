@@ -1,0 +1,80 @@
+{
+  "cfg": {
+    "scope": "controlled_mean_constraint_finetuning_not_publication_certification",
+    "weights": [
+      0.0,
+      1.0
+    ],
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "updates": 2,
+    "validate_every": 2,
+    "learning_rate": 0.0001,
+    "moment_steps": 16,
+    "moment_branches_per_group": 4,
+    "moment_parents_per_update": 1,
+    "mean_score_scale": 0.01,
+    "selection": "development_path_score_plus_development_single_step_corrected_mean_mse_scaled",
+    "budget": "equal_updates_and_flow_matching_batches_not_equal_compute",
+    "limitations": [
+      "Moment supervision uses training parent anchors only, not unrelated later branch states.",
+      "Diagnostic test data are excluded from training and selection.",
+      "Integration fidelity at 64 steps must be checked after training."
+    ]
+  },
+  "path_config": {
+    "scope": "controlled_temporal_factorization_experiment_not_publication_certification",
+    "variants": [
+      "path",
+      "transition"
+    ],
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "sizes": [
+      16,
+      25,
+      32
+    ],
+    "evaluation_sizes": [
+      16,
+      25,
+      32,
+      50,
+      100
+    ],
+    "duration_ps": {
+      "path": 1.0,
+      "transition": 0.1
+    },
+    "save_ps": 0.1,
+    "temperature_K": 63.82484966960072,
+    "width": 64,
+    "depth": 3,
+    "batch": 2,
+    "updates": 6000,
+    "validate_every": 1500,
+    "learning_rate": 0.0003,
+    "dev_flow_steps": 2,
+    "evaluation_flow_steps": 64,
+    "branches": 2,
+    "evaluation_duration_ps": 10.0,
+    "warm_start": "corresponding_seed_anchored_model_from_bauer_two_stage_20260919",
+    "data_sampling": "half_original_parent_anchors_half_uniform_windows_stride_one",
+    "comparison_budget": "equal_updates_not_equal_compute_or_equal_future_spins_seen",
+    "selection": "development_mean_scaled_error_including_increment_power_and_adjacent_increment_dot",
+    "extra_score_scales": {
+      "increment_power_relative": 0.1,
+      "adjacent_dot_relative": 0.1
+    },
+    "freeze_final_holdout": "existing_test_data_are_diagnostic_only_new_holdout_required_for_final_claims"
+  },
+  "weight": 0.0,
+  "seed": 11,
+  "checkpoint": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/bauer_transition_20260920/runs/transition_11/best.pt"
+}

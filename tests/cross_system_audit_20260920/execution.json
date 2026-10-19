@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-20",
+  "job_name": "zrs-mag",
+  "gpu_partition": "rtx4090",
+  "miltat_benchmark_job": "670399",
+  "miltat_pilot_job": "670400_[0-2]",
+  "miltat_estimated_minutes_per_task_before_submission": [2, 5],
+  "miltat_updates": 1000,
+  "bauer_benchmark_job": "670403_3",
+  "bauer_diagnostic_job": "670404_[0-5]",
+  "bauer_estimated_minutes_per_task_before_submission": [4, 6],
+  "bauer_updates": 1000,
+  "all_formal_tasks_completed_exit_zero": true,
+  "scientific_certification": false,
+  "note": "Retrospective execution record, not a preregistration. All tasks short and monitored under user policy. No final test data used for the new 2D pilot. 1D fixed-parent experiments are in-sample diagnostics."
+}

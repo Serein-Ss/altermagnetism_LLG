@@ -1,0 +1,27 @@
+{
+  "preflight": {
+    "unit_tests_passed": 11,
+    "structural_tests_passed": 4,
+    "gpu": 671950,
+    "statistics": 671953,
+    "web": 671956,
+    "all_completed_exit0": true,
+    "gpu_elapsed_seconds": [62, 63, 63],
+    "pairing_errors": [],
+    "first_step_native_gradient_norm": 0.7558851838111877,
+    "first_step_replay_gradient_norm": 0.312225878238678,
+    "first_step_cosine": 0.012801960110664368,
+    "scope": "Software preflight only; replay gradient dominance or physical repair not established. Spin-only axial diagnostic is separate from joint SO3 structural tests."
+  },
+  "formal": {
+    "gpu": {"job": 671957, "array": "0-8", "partition": "rtx4090", "seeds": [11,22,33], "weights": [1,0.25,0], "updates": 6000, "estimated_hours_per_task": [2,3], "allocated_hours": 4},
+    "statistics": {"job": 671965, "array": "0-8", "partition": "fat", "dependency": "afterok:671957", "estimated_minutes": [3,6]},
+    "web": {"job": 671966, "partition": "fat", "dependency": "afterok:671965", "estimated_minutes": [1,3]}
+  },
+  "job_name": "zrs-mag",
+  "all_submissions_accepted": true,
+  "monitoring": "Stopped after formal acceptance; await user completion notice.",
+  "result_page": "tests/replay_weight_repair/assets/index.html",
+  "main_page": "tests/index.html#replay-weight-repair",
+  "physical_repair_certified": false
+}

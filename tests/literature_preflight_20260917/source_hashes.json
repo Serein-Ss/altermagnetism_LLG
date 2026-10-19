@@ -1,0 +1,12 @@
+{
+  "tests/literature_preflight_20260917/config.yaml": "a43705c10eadf7a9c94533fd50c525335c5135094c0ba6758d97ee5bc398a5c4",
+  "tests/literature_preflight_20260917/models.py": "132d25d1e894339609ecd9f66cce5451fbc78f2e7312a47e523fc5fca8460b8a",
+  "tests/literature_preflight_20260917/run.py": "5c03030c62044921578c0f371f408531ee18d5ffb45b14a905490cae2dd54d89",
+  "tests/literature_preflight_20260917/test_models.py": "e7e900ee9f9f77be8abfe05214c7a745e0132508fb90710289dd658c1d1e3bc7",
+  "tests/literature_preflight_20260917/pilot.sbatch": "12ebad3120e395affe19cd91bed87b92e4d6df52e419cea9a0c7b4e93928f7bd",
+  "tests/literature_preflight_20260917/submit.py": "437a71c34f965a4c9f61b1ebffca7f59af85f24df9e45e4465612424c7bea988",
+  "scripts/core/cell_hamiltonian.py": "6fde94744ff2ad43bac4fcde09c6132b8628b23fe636c6b64975b37f99d34c94",
+  "scripts/core/reduced_llg.py": "96c6975a2881dd54c9496d0b840be1e070bff9c1f6f27e1f866290bbac11ba25",
+  "scripts/core/literature_config.py": "80fe7801098901168503c417761356f08cdd07c44e68f6ce633ca748578a6fa7",
+  "scripts/literature/hirst_mn2au_2022/model.py": "d616a67bb61cc9ed86523c7050746619951c1420db416200d737c7ec51748bf2"
+}

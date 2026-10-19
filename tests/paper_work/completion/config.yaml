@@ -1,0 +1,26 @@
+scope: exploratory_completion_not_publication_certificate
+sites: [25, 50, 100]
+theta: [0.11, 0.13]
+kinds: [aligned, tilted, wall]
+anisotropy: 0.1
+damping: 0.1
+lag: 0.01
+paths: 64
+duration: 32.0
+long_duration: 200.0
+long_states: [2, 5, 14, 17]
+save_dt: 0.01
+reference_dt: 0.00125
+flow_steps: 32
+seeds: [11, 22, 33]
+fractions: [0.25, 0.5, 1.0]
+updates: 24000
+validation_every: 6000
+selection: mean_biased_energy_distance_full_spin_endpoint_at_0.08_on_six_development_anchors
+state_seed: 241914
+subset_seed: 241915
+reference_seed_base: 3100000000
+latent_seed_base: 3200000000
+frozen_checkpoint: tests/output/reflection_augmentation/22/final.pt
+literature_duration: 750000.0
+literature_submission: requires_runtime_budget_approval

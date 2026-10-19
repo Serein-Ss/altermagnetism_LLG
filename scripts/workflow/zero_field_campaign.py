@@ -179,10 +179,10 @@ def worker(campaign,mode,index):
         device='cuda' if mode=='gpu_checks' else 'cpu'
         if mode=='checks':
             subprocess.run([sys.executable,'scripts/config/validate_literature_configs.py'],check=True)
-            subprocess.run([sys.executable,'-m','pytest','scripts/tests','-q'],check=True)
+            subprocess.run([sys.executable,'-m','pytest','tests/unit','-q'],check=True)
             subprocess.run([sys.executable,'-m','scripts.workflow.zero_field_inventory','--campaign',str(campaign)],check=True)
         else:
-            subprocess.run([sys.executable,'-m','pytest','scripts/tests/test_zero_field_program.py','-q'],check=True)
+            subprocess.run([sys.executable,'-m','pytest','tests/unit/test_zero_field_program.py','-q'],check=True)
         subprocess.run([sys.executable,'-m','scripts.validation.zero_field_bath','--output',str(out/f'bath_{device}.json'),'--device',device],check=True)
         return
     if mode=='gate':

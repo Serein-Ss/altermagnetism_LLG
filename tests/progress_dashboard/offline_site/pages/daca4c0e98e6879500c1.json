@@ -1,0 +1,70 @@
+{
+  "selected_step": 3000,
+  "dev_score": 1.2674569349968956,
+  "parameters": 94224,
+  "updates": 3000,
+  "windows_seen": 48000,
+  "target_future_spins_seen": 11727200,
+  "exposure_note": "same updates/windows, not compute or target-frame matched; compare recorded costs",
+  "training_and_io_seconds": 3086.1456806473434,
+  "peak_cuda_bytes": 116066304,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "config": {
+    "scope": "one_ps_small_open_chain_pilot_not_large_size_or_long_time_certification",
+    "data": "tests/bauer_active_data_20260918/data",
+    "sizes": [
+      16,
+      25,
+      32
+    ],
+    "models": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "duration_ps": 1.0,
+    "save_ps": 0.1,
+    "temperature_K": 63.82484966,
+    "width": 64,
+    "depth": 3,
+    "batch": 16,
+    "updates": 3000,
+    "validate_every": 750,
+    "learning_rate": 0.001,
+    "dev_flow_steps": 32,
+    "test_flow_steps": [
+      32,
+      64,
+      128
+    ],
+    "branches": 16,
+    "bootstrap_repeats": 1000,
+    "margins": {
+      "mz_mean": 0.05,
+      "mz_var": 0.02,
+      "energy_mean": 0.05,
+      "spatial_corr": 0.05,
+      "temporal_corr": 0.05,
+      "increment_mean": 0.05,
+      "increment_cov": 0.02,
+      "endpoint_w1": 0.1,
+      "wall_proxy": 0.05,
+      "path_energy_distance": 0.15
+    },
+    "limitations": [
+      "Reference precision remains a separate finite-sample check, not an automatic certificate.",
+      "One temperature and open chains only; no temperature transfer or PBC claim.",
+      "One ps is a first gate, not proof of 100 ps or 10 ns dynamics.",
+      "Sign-change wall proxy is not a committed switching event or physical wall tracker.",
+      "Bootstrap intervals describe this balanced parent population; future-branch uncertainty is limited by 16 references.",
+      "A single global checkpoint is selected only by development metrics; no test-based selection.",
+      "D is a deterministic local joint-path predictor with the B backbone, not a distribution model."
+    ]
+  }
+}

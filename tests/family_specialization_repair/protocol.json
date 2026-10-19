@@ -1,0 +1,98 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "mixed",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "tilted",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "interior_domain",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "single_wall",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "mixed",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "tilted",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "interior_domain",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "single_wall",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "mixed",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "tilted",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "interior_domain",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "single_wall",
+      "updates": 6000
+    }
+  ],
+  "hypothesis": "Does removing other preparation families improve held-out conditional dynamics with matched target-family exposure?",
+  "source": "All arms start per-seed local_condition baseline step36000, unchanged TransitionNet and restored Adam. No readout adapters, no best-dev source selection.",
+  "data": "Existing48L16TRAINrestart states,16perfamily from8parents,each64TRAINfutures. Three families total24parents. No new LLG data, no outcome selection, no dev/fine/probe in loss. Family is preparation provenance, not inferred event label.",
+  "controls": "Each update draws one future for all48states with paired latent/tau/interpolation RNG, then selects16or48. Each participating state appears6000times. Specialist loss=sum per-state FM/48, mixed=sum48/48; matched family contribution, not renormalized specialist mean. Old Adam restored,cos3e-5->3e-6,clip10,weightdecay1e-5. All arms omit native windows to isolate replay-family interference.",
+  "limits": "Specialist removes two loss components; adaptive Adam/clipping changes effective updates. Not proof of persistent gradient conflict. Same updates and target exposure, NOT same total examples/compute. Specialist16*64=1024unique available futures,96000exposures;mixed3072unique,288000exposures. Pretraining remains mixed; not single-family from scratch. Family label never a neural input or inference router.",
+  "evaluation": "Freeze final42000. All models evaluated on all families,not only their chosen family:48TRAINorigin independent probes,72LLG DEVstates,18DEV128paths1psmidpoint128/512,24oldseen64paths. L16 primary in-size, L25/32 reused diagnostic targets not fresh transfer certification. Wholebranchbootstrap100;descriptive family averages,three trainingseeds;no arbitrary acceptance threshold.",
+  "physics": "Unchanged Bauer open,J50meV,kappa.1,alpha.1,theta.11,T63.824849668K. Learnedlag.1ps;reference dt.25/.125fs;1ps rollout10fresh-noise transitions. No Hamiltonian input or time relabel.",
+  "decision": "Specialist helps held-out same-family without covariance/time failure: supports specialization benefit under this recipe,not unique cause. Seen-only gains leave generalization unresolved. No gains motivates representation/objective rather than another blind budget increase. Cross-family regression disclosed;no production promotion.",
+  "budget": "Four GPU smoke1-4min each.12formalGPU2-3h each including evaluation;12fatstats3-6min;aggregate<3min. GPUrtx4090,zrs-mag. No long monitoring.",
+  "skill_use": "karpathy-guidelines and experimental-design:paired target exposure and explicit unequal total compute."
+}

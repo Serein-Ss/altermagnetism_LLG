@@ -1,0 +1,58 @@
+{
+  "preflight": {
+    "reference": 671684,
+    "gpu": 671685,
+    "statistics": 671686,
+    "web": 671687,
+    "all_completed_exit0": true,
+    "reference_elapsed_seconds": 25,
+    "gpu_elapsed_seconds": 26,
+    "gpu_norm_error_max": 1.1920928955078125e-7,
+    "gpu_anchor_error": 0,
+    "unit_tests_passed": 9,
+    "scope": "Software smoke only: model4 paths 8/16flow steps, reused real-state64paths128steps; not a fair physical comparison."
+  },
+  "formal": {
+    "reference": {
+      "job": 671688,
+      "array": "1-23",
+      "reuse_parent0": true
+    },
+    "audit": {
+      "job": 671711,
+      "dependency": 671688
+    },
+    "gpu": {
+      "job": 671712,
+      "array": "0-2",
+      "partition": "rtx4090",
+      "dependency": 671711
+    },
+    "statistics": {
+      "job": 671713,
+      "array": "0-2",
+      "dependency": 671712
+    },
+    "web": {
+      "job": 671716,
+      "dependency": 671713
+    }
+  },
+  "all_jobs_accepted": true,
+  "job_name": "zrs-mag",
+  "estimates_queue_excluded": {
+    "reference_per_parent_seconds": 25,
+    "gpu_per_model_minutes": [
+      15,
+      30
+    ],
+    "statistics_per_model_minutes": [
+      3,
+      6
+    ]
+  },
+  "monitoring": "Stopped after formal dependency chain acceptance, as requested",
+  "result_page": "tests/model_state_coverage_repair/assets/index.html",
+  "main_page": "tests/index.html#model-state-coverage-repair",
+  "repair_status": "Independent TRAIN future bank is being supplemented; no new training or physical accuracy certification in this campaign."
+}

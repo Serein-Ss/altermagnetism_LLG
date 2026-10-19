@@ -1,0 +1,26 @@
+{
+  "selected": "flow22",
+  "checkpoint": "tests/output/reflection_augmentation/22/final.pt",
+  "criterion": "Post-hoc display choice: minimum mean field RMSE over 12 development states at t=8; other metrics reported, not combined.",
+  "scope": "Best among these three flow seeds on this development bank, not global best or independent final selection; all seed data retained.",
+  "ranking": [
+    {
+      "arm": "flow22",
+      "mean_rmse": 0.04196930636213125,
+      "bond_rmse": 0.01718886953056139,
+      "mz_W1": 0.012467595093583047
+    },
+    {
+      "arm": "flow11",
+      "mean_rmse": 0.042102632894470284,
+      "bond_rmse": 0.017403170280325692,
+      "mz_W1": 0.016089784953186442
+    },
+    {
+      "arm": "flow33",
+      "mean_rmse": 0.1169709938838835,
+      "bond_rmse": 0.33548777210357805,
+      "mz_W1": 0.06945769880953535
+    }
+  ]
+}

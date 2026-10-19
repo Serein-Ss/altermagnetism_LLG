@@ -1,0 +1,25 @@
+scope: first_small_system_training_library_not_long_time_diffusion_certification
+source_config: tests/literature_preflight_20260917/config.yaml
+cell_shapes: [[64, 38], [96, 56], [128, 74]]
+temperature_K: 12.5
+alpha: 0.5
+dt_fs: 0.3125
+save_ps: 0.1
+cold_duration_ps: 50.0
+parent_preparation_ps: 20.0
+future_duration_ps: 10.0
+parents_per_size: 20
+split_ratio: [3, 1, 1]
+branches_per_parent: 8
+layout_seed: 260920410
+noise_seed_root: 260920411
+strong_rotation_center_degrees: 35
+strong_rotation_modulation_degrees: 15
+protocol: analytic_single_core_then_perturbed_zeroT_preparation_then_independent_thermal_parents
+statistical_unit: independent_thermal_preparation_seed
+shared_deterministic_cold_base: fixed_protocol_not_a_shared_stochastic_ancestor
+retention: retain_all_outcomes_including_core_loss_no_success_filtering
+large_reference: [200, 116]
+large_reference_in_training: false
+production_requires: release.json
+sampling_budget_note: first_training_library_budget_not_a_powered_confirmatory_sample_size

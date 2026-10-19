@@ -1,0 +1,10 @@
+{
+  "scope": "All three 40000-update EMA candidates; development-only sampling audit, not physical certification or seed selection.",
+  "steps": [32, 64, 128, 256],
+  "latent_seed": 913000,
+  "checkpoint_sha256": {
+    "11": "4eefe21bb5a65f4e115fa454901eee5f4ece86b3f9e7a3a20bd7023895da8b8f",
+    "22": "e1dba3ccd9abee8e46c550aa0c58722b78d9b08d5ac3fdda3ea8ab38d0071647",
+    "33": "8602474d4c77a4ebaca95d20718ff2d53db78c0294424ec18e902bd885d036e0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "preflight": {
+    "unit_tests_passed": 9,
+    "unit_log": "logs/unit.out",
+    "gpu": 671996,
+    "statistics": 671999,
+    "web": 672003,
+    "all_completed_exit0": true,
+    "pairing_errors": [],
+    "gpu_seconds_per_task": 28,
+    "device": "NVIDIA GeForce RTX 3090",
+    "scheduler_incident": {
+      "failed_web": 672000,
+      "cause": "aggregate initially depended on GPU instead of statistics; missing report.json",
+      "repair": "resubmitted with afterok:671999",
+      "frozen_logs_preserved": true
+    },
+    "scope": "Software only; 16updates,low flow steps/few branches. No physical accuracy certification."
+  },
+  "formal": {
+    "gpu": {
+      "job": 672004,
+      "array": "0-8",
+      "partition": "rtx4090",
+      "seeds": [
+        11,
+        22,
+        33
+      ],
+      "arms": [
+        "control",
+        "attenuated",
+        "local"
+      ],
+      "updates": 6000,
+      "estimated_hours_per_task": [
+        2,
+        3
+      ],
+      "allocation_hours": 4
+    },
+    "statistics": {
+      "job": 672012,
+      "array": "0-8",
+      "partition": "fat",
+      "dependency": "afterok:672004",
+      "estimated_minutes_per_task": [
+        3,
+        10
+      ]
+    },
+    "web": {
+      "job": 672013,
+      "partition": "fat",
+      "dependency": "afterok:672012",
+      "estimated_minutes": [
+        1,
+        3
+      ]
+    }
+  },
+  "all_submissions_accepted": true,
+  "job_name": "zrs-mag",
+  "monitoring": "Stopped after formal acceptance; await user notice.",
+  "result_page": "tests/spatial_gate_repair/assets/index.html",
+  "main_page": "tests/index.html#spatial-gate-repair",
+  "physical_repair_certified": false
+}

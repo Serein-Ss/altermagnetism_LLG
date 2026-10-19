@@ -1,0 +1,22 @@
+{
+  "date":"2026-09-24",
+  "smoke_array":"670751",
+  "smoke_result":"both tasks completed, 21-22s scheduler elapsed; complete checkpoint/sampling/metrics chain",
+  "software_checks":"2 tests passed: numerical convergence, Euler compatibility, unit norm, anchoring, restart and Wilson interval; all 12 required checkpoint packages loaded strictly on CPU",
+  "gpu_array":"670753",
+  "indices":"0-8",
+  "job_name":"zrs-mag",
+  "partition":"rtx4090",
+  "report_job":"670762",
+  "report_partition":"fat",
+  "dependency":"afterany:670753",
+  "estimated_minutes_per_gpu_task":[10,25],
+  "estimate_note":"Conservative extrapolation from short preflight and preceding model generation timings; queue excluded, not measured full runtime",
+  "estimated_report_minutes":1,
+  "concurrency_cap":null,
+  "training":false,
+  "monitoring":"Stopped after scheduler accepted formal jobs, per user request",
+  "artifacts":"tests/transport_audit/run; tests/transport_audit/assets/index.html; tests/index.html#transport-audit",
+  "scientific_certification":false,
+  "production_changes":false
+}

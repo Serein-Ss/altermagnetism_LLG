@@ -1,0 +1,1150 @@
+{
+  "status": "COMPLETE_BYTES_VERIFIED_BEFORE_PATH_EDITS",
+  "mapping": {
+    "scripts/tests": "tests/unit",
+    "scripts/analysis/bauer_checkpoint_diagnostics.py": "tests/experiments/bauer_checkpoint_diagnostics.py",
+    "scripts/training/bauer_budget_comparison.py": "tests/experiments/bauer_budget_comparison.py",
+    "scripts/inference/bauer_window.py": "tests/experiments/bauer_window.py",
+    "output/bauer_training_budget": "tests/output/bauer_training_budget",
+    "output/smoke": "tests/output/smoke",
+    "assets/research/bauer_training_budget": "tests/results/bauer_training_budget",
+    "data/research/bauer_training_budget": "tests/data/bauer_training_budget",
+    "data/research/generated/diagnostics": "tests/data/legacy_diagnostics",
+    "conf/research/bauer_diagnostics_20260913.json": "tests/conf/bauer_diagnostics_20260913.json",
+    "data/research/diagnostics/bauer_20260913": "tests/data/bauer_20260913",
+    "assets/research/bauer_L25_first_loop/20260913_v1/analysis/checkpoint_diagnostics_20260913": "tests/results/checkpoint_diagnostics_20260913",
+    "logs/research/bauer_diagnostics_20260913": "tests/logs/bauer_diagnostics_20260913",
+    "conf/research/bauer_diagnostics_20260913_v2.json": "tests/conf/bauer_diagnostics_20260913_v2.json",
+    "data/research/diagnostics/bauer_20260913_v2": "tests/data/bauer_20260913_v2",
+    "assets/research/bauer_L25_first_loop/20260913_v1/analysis/checkpoint_diagnostics_20260913_v2": "tests/results/checkpoint_diagnostics_20260913_v2",
+    "logs/research/bauer_diagnostics_20260913_v2": "tests/logs/bauer_diagnostics_20260913_v2",
+    "conf/research/bauer_training_budget_20260913.json": "tests/conf/bauer_training_budget_20260913.json",
+    "slurm/bauer_training_budget.sbatch": "tests/slurm/bauer_training_budget.sbatch",
+    "slurm/bauer_checkpoint_diagnostics.sbatch": "tests/slurm/bauer_checkpoint_diagnostics.sbatch",
+    "logs/research/bauer_training_budget_20260913": "tests/logs/bauer_training_budget_20260913",
+    "logs/research/gpu_partition_policy": "tests/logs/gpu_partition_policy"
+  },
+  "files": [
+    {
+      "old": "scripts/tests/test_altermagnet_dynamics.py",
+      "new": "tests/unit/test_altermagnet_dynamics.py",
+      "sha256": "e47af12ae95974c62f43a1996c687761ca47498201056d47ed975fc3e604ddaf"
+    },
+    {
+      "old": "scripts/tests/test_hdf5_trajectory_dataset.py",
+      "new": "tests/unit/test_hdf5_trajectory_dataset.py",
+      "sha256": "aa28014c5e0c520cb94738dcc381655f970ad155d982a90c2099f7da35fb914d"
+    },
+    {
+      "old": "scripts/tests/test_path_evaluation.py",
+      "new": "tests/unit/test_path_evaluation.py",
+      "sha256": "77d8ff8765921802d9b3e7a059ba02f08d5f45ee173d3bffa5abe10b6fea3865"
+    },
+    {
+      "old": "scripts/tests/test_training.py",
+      "new": "tests/unit/test_training.py",
+      "sha256": "4df07b7763dcece1494b961d1490869c00b4c861210b3531055347f2bcb4e847"
+    },
+    {
+      "old": "scripts/tests/test_size_equivariant_model.py",
+      "new": "tests/unit/test_size_equivariant_model.py",
+      "sha256": "50995f4e6fcf03090e8c63cfd3dc5071b71c8c8e5bd71021d40286d6d1fcd18e"
+    },
+    {
+      "old": "scripts/tests/test_scalable_path_dataset.py",
+      "new": "tests/unit/test_scalable_path_dataset.py",
+      "sha256": "0fb833281a1f940114be0df7e735fdb7482df0e5066f25b774b97303f00af937"
+    },
+    {
+      "old": "scripts/tests/test_unified_llg.py",
+      "new": "tests/unit/test_unified_llg.py",
+      "sha256": "7cdcae3433dc9d6914c5c80a8b79d9a37ee57588d46819ca5b148a84d6159200"
+    },
+    {
+      "old": "scripts/tests/test_standard_v3_preflight.py",
+      "new": "tests/unit/test_standard_v3_preflight.py",
+      "sha256": "8e5577b0abfe04d1250e37077518969f4ec53eb1ec43658d9435126ad9a57de3"
+    },
+    {
+      "old": "scripts/tests/conftest.py",
+      "new": "tests/unit/conftest.py",
+      "sha256": "e476a99fddad8904592b44f423e86d1cf9c8e42d172bc6fc796bf9ca88b6c3a2"
+    },
+    {
+      "old": "scripts/tests/test_audit_integrators.py",
+      "new": "tests/unit/test_audit_integrators.py",
+      "sha256": "92d5a90d17b598575eb47722dd20d872671275a3dd90d3c460d9e09161fccda8"
+    },
+    {
+      "old": "scripts/tests/test_equilibrium_statistics.py",
+      "new": "tests/unit/test_equilibrium_statistics.py",
+      "sha256": "58b7b7e8144c188b27f374d154042a5b51817a5d07580e6aa424089175b99f78"
+    },
+    {
+      "old": "scripts/tests/test_guide_audit_pipeline.py",
+      "new": "tests/unit/test_guide_audit_pipeline.py",
+      "sha256": "ee05ff536052aed68a4e63cc9414dc870e371113869a323f3a409101a5c4f151"
+    },
+    {
+      "old": "scripts/tests/test_project_layout.py",
+      "new": "tests/unit/test_project_layout.py",
+      "sha256": "4063248859ece420d4103b73428fc60b9536ac02791d38a26f69748ab38b34f9"
+    },
+    {
+      "old": "scripts/tests/test_layout_submission.py",
+      "new": "tests/unit/test_layout_submission.py",
+      "sha256": "a3adaf522a576b4098df763e29179cd40c83f1bfa9afd4aaa439186d38cb499c"
+    },
+    {
+      "old": "scripts/tests/test_model_plot_layout.py",
+      "new": "tests/unit/test_model_plot_layout.py",
+      "sha256": "aab7c67fa56b1231633cfda121fae50e9d657c591a4d29fe018b06a4455dbf81"
+    },
+    {
+      "old": "scripts/tests/test_reduced_literature.py",
+      "new": "tests/unit/test_reduced_literature.py",
+      "sha256": "e95564b06d1296f1d37aa4dbf4c2604a3f6cff9c3a140ad77bbb8015cddfb725"
+    },
+    {
+      "old": "scripts/tests/test_reduced_workflow.py",
+      "new": "tests/unit/test_reduced_workflow.py",
+      "sha256": "63f9e5ddaa16a1fc9695ce88eace8d062d81ed1ba2df239399e36f8f504a57f6"
+    },
+    {
+      "old": "scripts/tests/test_nishino_acceptance.py",
+      "new": "tests/unit/test_nishino_acceptance.py",
+      "sha256": "dd63a754d0e87a48f82d30a28982cd1e8772c92c5cadfa9b5b036ec2e34419da"
+    },
+    {
+      "old": "scripts/tests/test_bauer_reduced.py",
+      "new": "tests/unit/test_bauer_reduced.py",
+      "sha256": "aaa4d70d7a4ded88c11147eea26c31a0776438d4d69e2c7e46c303b11caa6137"
+    },
+    {
+      "old": "scripts/tests/test_remaining_pipeline.py",
+      "new": "tests/unit/test_remaining_pipeline.py",
+      "sha256": "9af0950080361481d8e1af0c5114fdd471048aa82bc2e65db692555a98da9929"
+    },
+    {
+      "old": "scripts/tests/test_hirst_llb.py",
+      "new": "tests/unit/test_hirst_llb.py",
+      "sha256": "4441b45288eaa6e62792af23de9c87935cf3d790835d015a79096e3b424ac3b8"
+    },
+    {
+      "old": "scripts/tests/test_bauer_weak_rk.py",
+      "new": "tests/unit/test_bauer_weak_rk.py",
+      "sha256": "f0769c7be5485d1c77a5c928f0edfdfc04aabd827602d3e483c54b208d43f67f"
+    },
+    {
+      "old": "scripts/tests/test_validation_submission.py",
+      "new": "tests/unit/test_validation_submission.py",
+      "sha256": "cad23358c059d2b2947912d2f8f33cabca3f7b30a8172c2e34a504b42dee6d29"
+    },
+    {
+      "old": "scripts/tests/test_remaining_analysis.py",
+      "new": "tests/unit/test_remaining_analysis.py",
+      "sha256": "1e0effdb1943214eae118f06104cd0c51da09678089e456c09db51a8ac57ac44"
+    },
+    {
+      "old": "scripts/tests/test_bauer_campaign.py",
+      "new": "tests/unit/test_bauer_campaign.py",
+      "sha256": "5a3217d26d28693abde5cfa23faffcc1a5e5c68d3bf6fe1591d559b6a758e300"
+    },
+    {
+      "old": "scripts/tests/test_bauer_fast.py",
+      "new": "tests/unit/test_bauer_fast.py",
+      "sha256": "ced35b67df404867a14faa3b5510fe45ea71e6a50f51387f874a1f9124b0ec71"
+    },
+    {
+      "old": "scripts/tests/test_bauer_first_loop.py",
+      "new": "tests/unit/test_bauer_first_loop.py",
+      "sha256": "305bd6a920eb0abab3e9e9d5d6b3f799fcf882833f670d04078cafdb1fc39211"
+    },
+    {
+      "old": "scripts/tests/test_bauer_gate_f.py",
+      "new": "tests/unit/test_bauer_gate_f.py",
+      "sha256": "2d7affb46517cd98005272636b8e2ffb5057050dc90f0c6a94ec8478a6bc7181"
+    },
+    {
+      "old": "scripts/tests/test_bauer_revision4_audit.py",
+      "new": "tests/unit/test_bauer_revision4_audit.py",
+      "sha256": "7db82cb21090edbb0217679419c620db25ba6c8746f690a18bf6833490ead4c4"
+    },
+    {
+      "old": "scripts/tests/test_gate_f.py",
+      "new": "tests/unit/test_gate_f.py",
+      "sha256": "d220b6d858fb11ba0d194f966b28657fe85278560f12f4d2b0e9c52747197e75"
+    },
+    {
+      "old": "scripts/tests/test_gate_f_prerequisites.py",
+      "new": "tests/unit/test_gate_f_prerequisites.py",
+      "sha256": "6b7ddfde8fcc7109a7b9edb1f03b96cfe7d2dce2a1b2a7bea2f26f25f112233c"
+    },
+    {
+      "old": "scripts/tests/test_remaining_literature.py",
+      "new": "tests/unit/test_remaining_literature.py",
+      "sha256": "4898708a54135c681def40e57dcb89b8f7f0327ea4e0802a72038c75e2dfe6d3"
+    },
+    {
+      "old": "scripts/tests/test_zero_field_program.py",
+      "new": "tests/unit/test_zero_field_program.py",
+      "sha256": "06946896fb8151c3bbc8d244d14e83e6b66f3b245c34a1b920938c23a47a3809"
+    },
+    {
+      "old": "scripts/tests/test_artifact_layout.py",
+      "new": "tests/unit/test_artifact_layout.py",
+      "sha256": "68f271c76c514fe579bb8438332b7627eb6bf2084d4ed60fb925b4729f68d727"
+    },
+    {
+      "old": "scripts/tests/test_asset_structure.py",
+      "new": "tests/unit/test_asset_structure.py",
+      "sha256": "8a579102be5c8686a3de750f5d94036c56546983fc47cb6a8cb76a4062d0e8ff"
+    },
+    {
+      "old": "scripts/tests/test_bauer_physical_comparison.py",
+      "new": "tests/unit/test_bauer_physical_comparison.py",
+      "sha256": "49d949bbd8507b77fc18f07785a6f7ea8920a771fc9679e313a3776cbd59dd14"
+    },
+    {
+      "old": "scripts/tests/test_bauer_window.py",
+      "new": "tests/unit/test_bauer_window.py",
+      "sha256": "5c4b99df7fe616fd77d73fddc4648781f05e3fa2a6cdff17210ec14d0ca85674"
+    },
+    {
+      "old": "scripts/tests/test_gpu_partition_policy.py",
+      "new": "tests/unit/test_gpu_partition_policy.py",
+      "sha256": "29b8e9bb487430f5d5baf9b9a7993186e909ad13ab10a6d6adfaeb624845399c"
+    },
+    {
+      "old": "scripts/tests/test_bauer_budget.py",
+      "new": "tests/unit/test_bauer_budget.py",
+      "sha256": "540e25ea6da3ecf558cfbe93a00989a2537c68e7ef14badc286b48fc67869a64"
+    },
+    {
+      "old": "scripts/analysis/bauer_checkpoint_diagnostics.py",
+      "new": "tests/experiments/bauer_checkpoint_diagnostics.py",
+      "sha256": "c547f5de61c39ac3365a6770b830b72803c2bea3233fa31225b29e8f6ac06e91"
+    },
+    {
+      "old": "scripts/training/bauer_budget_comparison.py",
+      "new": "tests/experiments/bauer_budget_comparison.py",
+      "sha256": "e445ec9ba83a679f81adf5502c10e7535aff93f0ab81f944df8b06392fcfe487"
+    },
+    {
+      "old": "scripts/inference/bauer_window.py",
+      "new": "tests/experiments/bauer_window.py",
+      "sha256": "45c582b9d4fa39573c118e6533a6c746ed5c9c917f8c44051e386605a2b37385"
+    },
+    {
+      "old": "output/bauer_training_budget/20260913_v1/22/step_600.pt",
+      "new": "tests/output/bauer_training_budget/20260913_v1/22/step_600.pt",
+      "sha256": "5038405dfd0fdf4eb2abd4fee121f1a24f19c6354762181f6a3850cab6b465b9"
+    },
+    {
+      "old": "output/bauer_training_budget/20260913_v1/22/step_3000.pt",
+      "new": "tests/output/bauer_training_budget/20260913_v1/22/step_3000.pt",
+      "sha256": "000903305653f0dafa944736e4f0cd2ab7cd03df565661dfec168af4524a9e88"
+    },
+    {
+      "old": "output/bauer_training_budget/20260913_v1/22/step_6000.pt",
+      "new": "tests/output/bauer_training_budget/20260913_v1/22/step_6000.pt",
+      "sha256": "b05e68e84808ebab71e0d14fef09986e7b8de67f26ff9b7d24d5831e31305f9d"
+    },
+    {
+      "old": "output/bauer_training_budget/20260913_v1/11/step_600.pt",
+      "new": "tests/output/bauer_training_budget/20260913_v1/11/step_600.pt",
+      "sha256": "398664d075672e56336a6c84f884b688739af2468132c8b5fb6fe496f5cd2dbb"
+    },
+    {
+      "old": "output/bauer_training_budget/20260913_v1/11/step_3000.pt",
+      "new": "tests/output/bauer_training_budget/20260913_v1/11/step_3000.pt",
+      "sha256": "757f4f4a858e93448a9bb9d45b99ed5aa4547a7e51ddb4c3aee5982893c24399"
+    },
+    {
+      "old": "output/bauer_training_budget/20260913_v1/11/step_6000.pt",
+      "new": "tests/output/bauer_training_budget/20260913_v1/11/step_6000.pt",
+      "sha256": "3876f2ab23ea184056d6609895d210a8fdad449c862730390f8a7aca58ff5b87"
+    },
+    {
+      "old": "output/bauer_training_budget/20260913_v1/33/step_600.pt",
+      "new": "tests/output/bauer_training_budget/20260913_v1/33/step_600.pt",
+      "sha256": "b431d63fc3eae47ec33b8a1938510ae6fb70e3928e5e5a379463d40dabd19678"
+    },
+    {
+      "old": "output/bauer_training_budget/20260913_v1/33/step_3000.pt",
+      "new": "tests/output/bauer_training_budget/20260913_v1/33/step_3000.pt",
+      "sha256": "4d4e2396df26bf6518d90ac1c0f4941256585c336098b1f43493e38f6cb36e5f"
+    },
+    {
+      "old": "output/bauer_training_budget/20260913_v1/33/step_6000.pt",
+      "new": "tests/output/bauer_training_budget/20260913_v1/33/step_6000.pt",
+      "sha256": "45987b5dcaf8874e3d40386d42fe16ef2b47f583f96e22a6e58792b32cf5e399"
+    },
+    {
+      "old": "output/smoke/gpu_smoke/baseline/best_checkpoint.pt",
+      "new": "tests/output/smoke/gpu_smoke/baseline/best_checkpoint.pt",
+      "sha256": "35ac21c7fd48aa51c81cbda072bbd83b25f9eec2443dd3397d3eacb801481a7b"
+    },
+    {
+      "old": "output/smoke/gpu_smoke/baseline/training_metrics.json",
+      "new": "tests/output/smoke/gpu_smoke/baseline/training_metrics.json",
+      "sha256": "6ecf2d025bdddf40a301706e4c5cf9e4aa1c6b61ad7a70efb4186ac495cd16a1"
+    },
+    {
+      "old": "output/smoke/gpu_smoke/flow/best_checkpoint.pt",
+      "new": "tests/output/smoke/gpu_smoke/flow/best_checkpoint.pt",
+      "sha256": "21b29700c07cf3370ad787c9708301922253343313ad4dc8aef40e421b9776ea"
+    },
+    {
+      "old": "output/smoke/gpu_smoke/flow/training_metrics.json",
+      "new": "tests/output/smoke/gpu_smoke/flow/training_metrics.json",
+      "sha256": "c52b824c4f68d5d61b2bcea650cacea11ada0ec4f56cb01910423c4941a5970b"
+    },
+    {
+      "old": "output/smoke/gpu_smoke_v2/deterministic/best_checkpoint.pt",
+      "new": "tests/output/smoke/gpu_smoke_v2/deterministic/best_checkpoint.pt",
+      "sha256": "474be5732811d6a4cbbc5b9c85b4d1e7a3c85ae4a836a95414a3afdf53457f43"
+    },
+    {
+      "old": "output/smoke/gpu_smoke_v2/deterministic/training_metrics.json",
+      "new": "tests/output/smoke/gpu_smoke_v2/deterministic/training_metrics.json",
+      "sha256": "e7cc2b063be81c14e00d0ef8ab05e9bc3f7fb8c1069c0bf8e9bded07cc2dbe78"
+    },
+    {
+      "old": "output/smoke/gpu_smoke_v2/flow/best_checkpoint.pt",
+      "new": "tests/output/smoke/gpu_smoke_v2/flow/best_checkpoint.pt",
+      "sha256": "4bee31685c6e43bfedb02bcda70b9228027de1214a08a8e9da27763bb0f61091"
+    },
+    {
+      "old": "output/smoke/gpu_smoke_v2/flow/training_metrics.json",
+      "new": "tests/output/smoke/gpu_smoke_v2/flow/training_metrics.json",
+      "sha256": "b437e4ad672f97a55a9b86cc15e240fbba864b2bc9a68d60e97ff38c2e42328a"
+    },
+    {
+      "old": "output/smoke/gpu_smoke_v2_L64/deterministic/best_checkpoint.pt",
+      "new": "tests/output/smoke/gpu_smoke_v2_L64/deterministic/best_checkpoint.pt",
+      "sha256": "03ae733b290677bf60d3dacb28f2e606f8498b55ad8f7f25d7fd6c274423b310"
+    },
+    {
+      "old": "output/smoke/gpu_smoke_v2_L64/deterministic/training_metrics.json",
+      "new": "tests/output/smoke/gpu_smoke_v2_L64/deterministic/training_metrics.json",
+      "sha256": "b765c89ae9e24af2f8f0116aa85a630dfab9453bacee2686a944e8a027b761d7"
+    },
+    {
+      "old": "output/smoke/gpu_smoke_v2_L64/flow/best_checkpoint.pt",
+      "new": "tests/output/smoke/gpu_smoke_v2_L64/flow/best_checkpoint.pt",
+      "sha256": "f83c4ccb204d049b6392d76679dbbb5f134592544c66ba997a435b8cd6c665da"
+    },
+    {
+      "old": "output/smoke/gpu_smoke_v2_L64/flow/training_metrics.json",
+      "new": "tests/output/smoke/gpu_smoke_v2_L64/flow/training_metrics.json",
+      "sha256": "a925c31d560befa2d5c8b1716e323245f2c4faebf002e88faec80ab75b758c49"
+    },
+    {
+      "old": "assets/research/bauer_training_budget/20260913_v1/22/summary.json",
+      "new": "tests/results/bauer_training_budget/20260913_v1/22/summary.json",
+      "sha256": "c9af33ffc271830b481daafdcb1cd50363fa2d50dd7241bd36c297e6297426bd"
+    },
+    {
+      "old": "assets/research/bauer_training_budget/20260913_v1/22/training_loss.json",
+      "new": "tests/results/bauer_training_budget/20260913_v1/22/training_loss.json",
+      "sha256": "39ecbffbb592926a595d0f8903390d0ddd13c3c8e6387e760d0918acf9e1546b"
+    },
+    {
+      "old": "assets/research/bauer_training_budget/20260913_v1/11/summary.json",
+      "new": "tests/results/bauer_training_budget/20260913_v1/11/summary.json",
+      "sha256": "a222510e2f3596fee4963e4e7b2aab5114c13160a2e608291c57260539d3a153"
+    },
+    {
+      "old": "assets/research/bauer_training_budget/20260913_v1/11/training_loss.json",
+      "new": "tests/results/bauer_training_budget/20260913_v1/11/training_loss.json",
+      "sha256": "a3045d989a3c24402ba3d195ecd55809da29d2bf3121628ae44fd7db5f315327"
+    },
+    {
+      "old": "assets/research/bauer_training_budget/20260913_v1/33/summary.json",
+      "new": "tests/results/bauer_training_budget/20260913_v1/33/summary.json",
+      "sha256": "9348fd655774b9a8216b1d764669e17e024cf117733c7ad5c2dd3e693797406e"
+    },
+    {
+      "old": "assets/research/bauer_training_budget/20260913_v1/33/training_loss.json",
+      "new": "tests/results/bauer_training_budget/20260913_v1/33/training_loss.json",
+      "sha256": "90ea3f875c5708b2f0e53712641e6c5afd31eed2b8476b169fa7aa8b3614baf0"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/22/step_600_T0.11.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/22/step_600_T0.11.npy",
+      "sha256": "e3e3d1a03226e5814df7fb2bdb7e650e63dc35302bc0d40f99e687a962a396a3"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/22/step_600_T0.13.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/22/step_600_T0.13.npy",
+      "sha256": "e7aaff9faa11fe3ace6ec7a6aeb2ef4d153feee2c7f57932fae6edda24eb6435"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/22/step_3000_T0.11.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/22/step_3000_T0.11.npy",
+      "sha256": "83bf89e919813cb88a5b8f621bb3ff8ffba0237b5e2a8aa5261ba837e061d31b"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/22/step_3000_T0.13.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/22/step_3000_T0.13.npy",
+      "sha256": "53a3e8b6d12efef217307ab9992340bb780ae1554b121c0e5e2b270abe53bd86"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/22/step_6000_T0.11.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/22/step_6000_T0.11.npy",
+      "sha256": "4dffea6acbeeb59db45eddf04d883e10a645db21209f2becb0b85961b6baeec0"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/22/step_6000_T0.13.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/22/step_6000_T0.13.npy",
+      "sha256": "248baffd21caf206704050f444fd730e11cca0463cf3071fbb50bb2491c3e141"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/11/step_600_T0.11.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/11/step_600_T0.11.npy",
+      "sha256": "4cba80767fd25927d82bb9107967ceb4c19be02b53e651c095e7efd0dc6e9ae4"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/11/step_600_T0.13.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/11/step_600_T0.13.npy",
+      "sha256": "407398d8a579ee9444d899254e6b1aa996624784d9ce97ae1cb971242bacae4c"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/11/step_3000_T0.11.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/11/step_3000_T0.11.npy",
+      "sha256": "55b781be90257039474a3127804b223a01dd96bf458b813fba17609b96881587"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/11/step_3000_T0.13.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/11/step_3000_T0.13.npy",
+      "sha256": "f371c11694595b29a6dcbc754d5db0bbb5abfce9206ff6bd670693e0a84ed771"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/11/step_6000_T0.11.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/11/step_6000_T0.11.npy",
+      "sha256": "f45a943064c316c3e4d9babe89247229f643ca8c3c78384e8e60b9e973c2b2e7"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/11/step_6000_T0.13.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/11/step_6000_T0.13.npy",
+      "sha256": "0059c579da881a3a04161370aeb329c98c3558d7cb43477f100fbf49b908bd00"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/33/step_600_T0.11.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/33/step_600_T0.11.npy",
+      "sha256": "0b38516e24fd1f86ef503c21442cc33eaaf30c6b68969d0549630884aca8e580"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/33/step_600_T0.13.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/33/step_600_T0.13.npy",
+      "sha256": "d3437f484d00773ed16ed15c7e1b327c6b8dcfd14333dc2c0c26befba24cd9cc"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/33/step_3000_T0.11.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/33/step_3000_T0.11.npy",
+      "sha256": "ac8b17a8c2dd4edf43e0c085c788e4a1f1c326c74f9d11c354d90b2e3084ee57"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/33/step_3000_T0.13.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/33/step_3000_T0.13.npy",
+      "sha256": "bc367c1517d250baa4bb0f16b8de84677ceaff15cdd9743f5c35de5bc981b983"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/33/step_6000_T0.11.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/33/step_6000_T0.11.npy",
+      "sha256": "94a9514f34a986cf6d22dff5dcc32040d76d1c90e27a9c26e4d8ae81ddbcfad1"
+    },
+    {
+      "old": "data/research/bauer_training_budget/20260913_v1/33/step_6000_T0.13.npy",
+      "new": "tests/data/bauer_training_budget/20260913_v1/33/step_6000_T0.13.npy",
+      "sha256": "ebcecfec975b4c44b58ff18fa985716ce1b229f826aae5f3cda373a23d2e99e7"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/ablations/diagnostic_trajectories.h5",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/ablations/diagnostic_trajectories.h5",
+      "sha256": "dc9820288db18378ac3c060bf876465e90b9855b1babe9a1b4d59acac6203e51"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint/L16/generated_trajectories.h5",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint/L16/generated_trajectories.h5",
+      "sha256": "d88377042155c4ed84c88f3d378060dd01b462283c0b82711f79df681f8a70d5"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint/L32/generated_trajectories.h5",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint/L32/generated_trajectories.h5",
+      "sha256": "078ec51506ac56edeedadc482630cfd9901078e0ee1d1bd18b54a29eff0b514e"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint/L64/generated_trajectories.h5",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint/L64/generated_trajectories.h5",
+      "sha256": "0855ee1741483c80d0ba8b3d8c07e2d6a6ae4448300a49913dcbdd3c6ef82da3"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5",
+      "sha256": "815bf0c0887588471a95cbe0ab8a57bb621a8fdbd8b5815f5fcf2b464ccf1be4"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5.part-00",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5.part-00",
+      "sha256": "c46bc69bdf56b6411225a123bb45481db5b74ef580eb7ac09aa26bfec073efbe"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5.part-01",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint/L96/generated_trajectories.h5.part-01",
+      "sha256": "4b257dd45ea9c432cd3a4762f95655e4441e4b1957b4633d2f59a8d2c468d1ac"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint_128/L16/generated_trajectories.h5",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint_128/L16/generated_trajectories.h5",
+      "sha256": "70438ffda9122f216676df34d1bc8e3acfa4243fa93e034bf3e37cda518c8b28"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint_128/L32/generated_trajectories.h5",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint_128/L32/generated_trajectories.h5",
+      "sha256": "d82468792c32b11c7921279fac82ea00a4ad7cae150476e2d3ebe8724ee67dd4"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint_128/L64/generated_trajectories.h5",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint_128/L64/generated_trajectories.h5",
+      "sha256": "b243265d66cbf0c9fd312491128b69b6e3adc129eacf48f4d857c26abf25e610"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5",
+      "sha256": "bfe289a79e2c0ce30122b315144b1b1f0fb8daa92a0db9d230435470410ca53e"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5.part-00",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5.part-00",
+      "sha256": "5e49b18abe20e279b6f022b7d353b1f98cc72a9a6355a78a4d6fc91a7f746580"
+    },
+    {
+      "old": "data/research/generated/diagnostics/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5.part-01",
+      "new": "tests/data/legacy_diagnostics/diagnostics_v2/current_checkpoint_128/L96/generated_trajectories.h5.part-01",
+      "sha256": "fc8440d6c5d2675e0231ec3acf11c4049ceda3edfe356ff9dc87f194c99d35d0"
+    },
+    {
+      "old": "conf/research/bauer_diagnostics_20260913.json",
+      "new": "tests/conf/bauer_diagnostics_20260913.json",
+      "sha256": "f87d44b63a52a72b18ff4f5775695688c23ed6d3f4148dc13f8cfa6214aa0c23"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/T0.11_steps16.npy",
+      "new": "tests/data/bauer_20260913/33/T0.11_steps16.npy",
+      "sha256": "cac6c85195b385c7685a749c5627217c132d29e476028643b348e6403c4a9308"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/T0.11_steps32.npy",
+      "new": "tests/data/bauer_20260913/33/T0.11_steps32.npy",
+      "sha256": "f2930b43379c41273b1568c16c8c9382603a58fc492ffcf4c31c1384f5f0c9eb"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/T0.11_steps64.npy",
+      "new": "tests/data/bauer_20260913/33/T0.11_steps64.npy",
+      "sha256": "e87e13f18f3f0a8e094ab003b9d8e22f488247a493d510f4db9004fa691de714"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/T0.11_steps128.npy",
+      "new": "tests/data/bauer_20260913/33/T0.11_steps128.npy",
+      "sha256": "31a7c6587e26e7314b97f0c33b98e417603c12ddbd6d681bdde7abb4be88e4ee"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/paired_condition_T0.11.npy",
+      "new": "tests/data/bauer_20260913/33/paired_condition_T0.11.npy",
+      "sha256": "e87e13f18f3f0a8e094ab003b9d8e22f488247a493d510f4db9004fa691de714"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/T0.13_steps16.npy",
+      "new": "tests/data/bauer_20260913/33/T0.13_steps16.npy",
+      "sha256": "4f139a6bcdbf6bc8e9729ee55cee222accb786332c4c5f744a010b0e9e4f1f87"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/T0.13_steps32.npy",
+      "new": "tests/data/bauer_20260913/33/T0.13_steps32.npy",
+      "sha256": "dafe3ba80fbfc6bf5c238ee460460c1c67b65955808cc8ad2eb0db0d862af659"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/T0.13_steps64.npy",
+      "new": "tests/data/bauer_20260913/33/T0.13_steps64.npy",
+      "sha256": "28467def64a64c62e75302bd5628057c105e28c1ccb1c8db039d74647d955a05"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/T0.13_steps128.npy",
+      "new": "tests/data/bauer_20260913/33/T0.13_steps128.npy",
+      "sha256": "8d99004d0507c1a02bfce11890b31952f366d3d12598903e200cba0b0a50a54e"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/paired_condition_T0.13.npy",
+      "new": "tests/data/bauer_20260913/33/paired_condition_T0.13.npy",
+      "sha256": "59e714fdc4cf019fa9449ca4c79bc4d272c87352a5ba7a6ec0e0686ca0f64f0d"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/interface_L25.npy",
+      "new": "tests/data/bauer_20260913/33/interface_L25.npy",
+      "sha256": "552ee2ecc6722c0aa5dde8c0e8e0a27afe962754a467846692ec5b5e5726e8bd"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/interface_L50.npy",
+      "new": "tests/data/bauer_20260913/33/interface_L50.npy",
+      "sha256": "9aa0272dca8070f2472e10c20a1c60ba961feb8466207a1ca32dd9f45098a313"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/interface_L100.npy",
+      "new": "tests/data/bauer_20260913/33/interface_L100.npy",
+      "sha256": "3e5f432b8b6e3ab10c2b141c76bbd822d9fbe7cdc02cd0e450411098c11fbaac"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/chunk_rollout_software_only.npy",
+      "new": "tests/data/bauer_20260913/33/chunk_rollout_software_only.npy",
+      "sha256": "613f44813679e6dbe99ec24fa87ec2be97a6f0391038aca7ddd1bb3683c39484"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/33/direct_long_window_software_only.npy",
+      "new": "tests/data/bauer_20260913/33/direct_long_window_software_only.npy",
+      "sha256": "0519f7d0ef8cbb629828193407a1cd822e51fa19707c0781dc14c81090f19244"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/T0.11_steps16.npy",
+      "new": "tests/data/bauer_20260913/22/T0.11_steps16.npy",
+      "sha256": "2a79de45d4a84ab366497e5470d2a638179c1bfd2a34f456cf94b66b7f00cd02"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/T0.11_steps32.npy",
+      "new": "tests/data/bauer_20260913/22/T0.11_steps32.npy",
+      "sha256": "487ee1bbf3d1b4c6a8c6212530355e45fc0324a995b33162f8b10218ba3b2037"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/T0.11_steps64.npy",
+      "new": "tests/data/bauer_20260913/22/T0.11_steps64.npy",
+      "sha256": "40c972f32bd780a36728fbda770a8b7f4b441de995bd12742a88fe939f9bd6ac"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/T0.11_steps128.npy",
+      "new": "tests/data/bauer_20260913/22/T0.11_steps128.npy",
+      "sha256": "26f588e295d4a3ea33ceeeabc7e4ea08d7f0fa3a050180fe85c5750eb0fe56d5"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/paired_condition_T0.11.npy",
+      "new": "tests/data/bauer_20260913/22/paired_condition_T0.11.npy",
+      "sha256": "40c972f32bd780a36728fbda770a8b7f4b441de995bd12742a88fe939f9bd6ac"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/T0.13_steps16.npy",
+      "new": "tests/data/bauer_20260913/22/T0.13_steps16.npy",
+      "sha256": "1da590333d1803667b59088019d1864f87851d1a363296923babe2de81dff781"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/T0.13_steps32.npy",
+      "new": "tests/data/bauer_20260913/22/T0.13_steps32.npy",
+      "sha256": "a679d54bd5ed3650fd133b65b60a127f7341867871edab9d01d5b4c2eaf3ce0f"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/T0.13_steps64.npy",
+      "new": "tests/data/bauer_20260913/22/T0.13_steps64.npy",
+      "sha256": "65878947bdb791e3df19c01913674bd414a4bbd23734d5aee73f10abbc2ea75f"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/T0.13_steps128.npy",
+      "new": "tests/data/bauer_20260913/22/T0.13_steps128.npy",
+      "sha256": "cd947b351c03e51e6d29136fdf78950179cffe63b63c790e7506c26f1432c2d2"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/paired_condition_T0.13.npy",
+      "new": "tests/data/bauer_20260913/22/paired_condition_T0.13.npy",
+      "sha256": "4779b094c57ea5b93cb49607d630a89d3f050af9df2f3baac16ae4bbe4a08c83"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/interface_L25.npy",
+      "new": "tests/data/bauer_20260913/22/interface_L25.npy",
+      "sha256": "ef7bbdcfceb950bf72d4f0ff28f2710520eda41614859cb48222e0490770bb70"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/interface_L50.npy",
+      "new": "tests/data/bauer_20260913/22/interface_L50.npy",
+      "sha256": "e2ab312369ae3d5151765003bc0f326f62beb715abd9cabf8bbd1ff5f9a715b5"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/interface_L100.npy",
+      "new": "tests/data/bauer_20260913/22/interface_L100.npy",
+      "sha256": "15fc0c81433a0931f5f965253b19f00a75c8e15f38b746c4cb89cc7ecde072ea"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/chunk_rollout_software_only.npy",
+      "new": "tests/data/bauer_20260913/22/chunk_rollout_software_only.npy",
+      "sha256": "7798280ae809a68d29f2070fb6c60c29f0693977c95cbdbaab70e6e5b89326e6"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/22/direct_long_window_software_only.npy",
+      "new": "tests/data/bauer_20260913/22/direct_long_window_software_only.npy",
+      "sha256": "3ff76bb7c4377a34ef291d865f25ef143475d2e0059d10a1b6e7905da19496d8"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/T0.11_steps16.npy",
+      "new": "tests/data/bauer_20260913/11/T0.11_steps16.npy",
+      "sha256": "08c91def2881884a00cdf3383facec17cc02c629122ba36a797cc56df634f613"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/T0.11_steps32.npy",
+      "new": "tests/data/bauer_20260913/11/T0.11_steps32.npy",
+      "sha256": "eb5cd37cb83e1e344e88e8b409e932367a884cdc02b8140f7465af84e2f00b0f"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/T0.11_steps64.npy",
+      "new": "tests/data/bauer_20260913/11/T0.11_steps64.npy",
+      "sha256": "ea26989bf3faedee9bed8a414c791f79e6ef2d8429c6fd83a4b85d42d23834e4"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/T0.11_steps128.npy",
+      "new": "tests/data/bauer_20260913/11/T0.11_steps128.npy",
+      "sha256": "6b7ec3813d903ef1ce51bec8c6b5c4fd54e9754627f3863c7e64af7b7423ea86"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/paired_condition_T0.11.npy",
+      "new": "tests/data/bauer_20260913/11/paired_condition_T0.11.npy",
+      "sha256": "ea26989bf3faedee9bed8a414c791f79e6ef2d8429c6fd83a4b85d42d23834e4"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/T0.13_steps16.npy",
+      "new": "tests/data/bauer_20260913/11/T0.13_steps16.npy",
+      "sha256": "05278853a46c6ac26935bcbb8afe61b4ce7f705d9e752e368a518b2da7528a2f"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/T0.13_steps32.npy",
+      "new": "tests/data/bauer_20260913/11/T0.13_steps32.npy",
+      "sha256": "72e62e2fe4c31b1dc8b803fd8ccb7db5342d08e8438f7b9957baa56ace4cc974"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/T0.13_steps64.npy",
+      "new": "tests/data/bauer_20260913/11/T0.13_steps64.npy",
+      "sha256": "58c3838e5c5453c78eb4749ee43663b6f653a47e81de031a20d596094cb179ea"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/T0.13_steps128.npy",
+      "new": "tests/data/bauer_20260913/11/T0.13_steps128.npy",
+      "sha256": "782e4b2205cbd4cfe234cfd202adaef22718b952971c6359c800e22d7e33e95b"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/paired_condition_T0.13.npy",
+      "new": "tests/data/bauer_20260913/11/paired_condition_T0.13.npy",
+      "sha256": "08bbfae59e5cc1d78527d49a42740e1ce1720f47c4c80c4a2bc7ff6af1dd5314"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/interface_L25.npy",
+      "new": "tests/data/bauer_20260913/11/interface_L25.npy",
+      "sha256": "5b52ef615a29c51926f15e02ff6d3e5f6d3e817ea85575fdb41e677404abfcff"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/interface_L50.npy",
+      "new": "tests/data/bauer_20260913/11/interface_L50.npy",
+      "sha256": "76c2dfd0260d0ebc4255e8426378a4a9bf507de3da6e87b1846ed1ed8cc7ce39"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/interface_L100.npy",
+      "new": "tests/data/bauer_20260913/11/interface_L100.npy",
+      "sha256": "2b766dec41a5d1acf04f02cdbc5e68e0316b5453dc00f2f409633d3c6dc8ce66"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/chunk_rollout_software_only.npy",
+      "new": "tests/data/bauer_20260913/11/chunk_rollout_software_only.npy",
+      "sha256": "a5b539b6f37cac4c03fa4e9c3e31f1f076ea75357da82683bc5a72bbc8011005"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913/11/direct_long_window_software_only.npy",
+      "new": "tests/data/bauer_20260913/11/direct_long_window_software_only.npy",
+      "sha256": "42f1a35d4c0ef30ec236a434b08de7705b1f7a086894faf421af9bb56a24213f"
+    },
+    {
+      "old": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/checkpoint_diagnostics_20260913/33/summary.json",
+      "new": "tests/results/checkpoint_diagnostics_20260913/33/summary.json",
+      "sha256": "d98a79f8dfc0d1d7a761aae9311507c422cef5dc9b1ced742887ffa9a4614e4f"
+    },
+    {
+      "old": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/checkpoint_diagnostics_20260913/22/summary.json",
+      "new": "tests/results/checkpoint_diagnostics_20260913/22/summary.json",
+      "sha256": "8f61c2a2cd1823304b5f9163f2dbf172c57f3b6684f91f301e7d038a9dc4f9a0"
+    },
+    {
+      "old": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/checkpoint_diagnostics_20260913/11/summary.json",
+      "new": "tests/results/checkpoint_diagnostics_20260913/11/summary.json",
+      "sha256": "1377f245d52da0bae007e5b8cc10c00050c3bd17594d1d11ea8b58175e1283f7"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913/preflight.log",
+      "new": "tests/logs/bauer_diagnostics_20260913/preflight.log",
+      "sha256": "fadcd7bb877c84e9d441a194a6072df2bff213e3214af501fff45a98cb0b2e9b"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913/stopped_jobs.txt",
+      "new": "tests/logs/bauer_diagnostics_20260913/stopped_jobs.txt",
+      "sha256": "9de0ca4b1d7bae042c257a3cf30cc85a7c7f4fc55493c931a6473362b17bdddf"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913/submitted_job.txt",
+      "new": "tests/logs/bauer_diagnostics_20260913/submitted_job.txt",
+      "sha256": "ce14b89522fe15ffc765588b2c12b2a861d4058e3f52c3666a20ea66e31b2b74"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913/669349_0.log",
+      "new": "tests/logs/bauer_diagnostics_20260913/669349_0.log",
+      "sha256": "6c1f3914f2ad31d80783b6022ef4044cb022d595c94ae64dbc2448746adac0fa"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913/669349_1.log",
+      "new": "tests/logs/bauer_diagnostics_20260913/669349_1.log",
+      "sha256": "8f81e18c20baae87a9e71b91a7f4a79c68f87c51f5ef750be6bf25f0dad81cbb"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913/669349_2.log",
+      "new": "tests/logs/bauer_diagnostics_20260913/669349_2.log",
+      "sha256": "0781b6ff6723bf48773fd6670bab67e725262c748650101a10727f610def9156"
+    },
+    {
+      "old": "conf/research/bauer_diagnostics_20260913_v2.json",
+      "new": "tests/conf/bauer_diagnostics_20260913_v2.json",
+      "sha256": "f6ec1f36a9180c09af5274d0108aedcc50417b1b487808379a2e07b49920c8e7"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/T0.11_steps16.npy",
+      "new": "tests/data/bauer_20260913_v2/33/T0.11_steps16.npy",
+      "sha256": "a83cc34b5fb8394d8097bc66db333cde13410c0ef7e1f1deaf78ac9c6828683b"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/T0.11_steps32.npy",
+      "new": "tests/data/bauer_20260913_v2/33/T0.11_steps32.npy",
+      "sha256": "f705157825dc4a52ff58f6e90cab840e868fbac0cfcbfb56eba9f89d83c8c971"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/T0.11_steps64.npy",
+      "new": "tests/data/bauer_20260913_v2/33/T0.11_steps64.npy",
+      "sha256": "3bcde4e60366738515b51f69b54b387f50333110b83395601d9c580122839dff"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/T0.11_steps128.npy",
+      "new": "tests/data/bauer_20260913_v2/33/T0.11_steps128.npy",
+      "sha256": "0b38516e24fd1f86ef503c21442cc33eaaf30c6b68969d0549630884aca8e580"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/paired_condition_T0.11.npy",
+      "new": "tests/data/bauer_20260913_v2/33/paired_condition_T0.11.npy",
+      "sha256": "3bcde4e60366738515b51f69b54b387f50333110b83395601d9c580122839dff"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/T0.13_steps16.npy",
+      "new": "tests/data/bauer_20260913_v2/33/T0.13_steps16.npy",
+      "sha256": "c746974201976cf747d35d256bfd40139a8f17cc6ff20b61ddb75e72971ff0f2"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/T0.13_steps32.npy",
+      "new": "tests/data/bauer_20260913_v2/33/T0.13_steps32.npy",
+      "sha256": "86227e5643e45ce01658130ca36baecdfdadc94ecdc4eabf4571b0da77080a2f"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/T0.13_steps64.npy",
+      "new": "tests/data/bauer_20260913_v2/33/T0.13_steps64.npy",
+      "sha256": "98613df171f859d4a39d6b46d631c392ab601900270a09db31d22b20540868f0"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/T0.13_steps128.npy",
+      "new": "tests/data/bauer_20260913_v2/33/T0.13_steps128.npy",
+      "sha256": "d3437f484d00773ed16ed15c7e1b327c6b8dcfd14333dc2c0c26befba24cd9cc"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/paired_condition_T0.13.npy",
+      "new": "tests/data/bauer_20260913_v2/33/paired_condition_T0.13.npy",
+      "sha256": "8b190189df335da94f7993968a3bd2de66ff01b83f1cd81f40402631bacd8c7a"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/interface_L25.npy",
+      "new": "tests/data/bauer_20260913_v2/33/interface_L25.npy",
+      "sha256": "552ee2ecc6722c0aa5dde8c0e8e0a27afe962754a467846692ec5b5e5726e8bd"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/interface_L50.npy",
+      "new": "tests/data/bauer_20260913_v2/33/interface_L50.npy",
+      "sha256": "9aa0272dca8070f2472e10c20a1c60ba961feb8466207a1ca32dd9f45098a313"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/interface_L100.npy",
+      "new": "tests/data/bauer_20260913_v2/33/interface_L100.npy",
+      "sha256": "3e5f432b8b6e3ab10c2b141c76bbd822d9fbe7cdc02cd0e450411098c11fbaac"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/chunk_rollout_software_only.npy",
+      "new": "tests/data/bauer_20260913_v2/33/chunk_rollout_software_only.npy",
+      "sha256": "613f44813679e6dbe99ec24fa87ec2be97a6f0391038aca7ddd1bb3683c39484"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/33/direct_long_window_software_only.npy",
+      "new": "tests/data/bauer_20260913_v2/33/direct_long_window_software_only.npy",
+      "sha256": "0519f7d0ef8cbb629828193407a1cd822e51fa19707c0781dc14c81090f19244"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/T0.11_steps16.npy",
+      "new": "tests/data/bauer_20260913_v2/11/T0.11_steps16.npy",
+      "sha256": "469d990413d89044314242408b1300351cf2328366c17656195850edb0115a69"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/T0.11_steps32.npy",
+      "new": "tests/data/bauer_20260913_v2/11/T0.11_steps32.npy",
+      "sha256": "7b336ae1eb407a53fb0639956fd8dff2ab0040afcfe24b8573ca71341e776997"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/T0.11_steps64.npy",
+      "new": "tests/data/bauer_20260913_v2/11/T0.11_steps64.npy",
+      "sha256": "609c87e266dc59a1f39e827acec7a10db480f9086212ed2f381d5dbd5904ec17"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/T0.11_steps128.npy",
+      "new": "tests/data/bauer_20260913_v2/11/T0.11_steps128.npy",
+      "sha256": "4cba80767fd25927d82bb9107967ceb4c19be02b53e651c095e7efd0dc6e9ae4"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/paired_condition_T0.11.npy",
+      "new": "tests/data/bauer_20260913_v2/11/paired_condition_T0.11.npy",
+      "sha256": "609c87e266dc59a1f39e827acec7a10db480f9086212ed2f381d5dbd5904ec17"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/T0.13_steps16.npy",
+      "new": "tests/data/bauer_20260913_v2/11/T0.13_steps16.npy",
+      "sha256": "d30d4c699c4401d4df49f2c110a6f14896b475c20426f5da8145f54d4a076690"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/T0.13_steps32.npy",
+      "new": "tests/data/bauer_20260913_v2/11/T0.13_steps32.npy",
+      "sha256": "13ceec09e10b19047b25397257aee38c5cc6d06c1cbbe653dbeb04435cacced3"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/T0.13_steps64.npy",
+      "new": "tests/data/bauer_20260913_v2/11/T0.13_steps64.npy",
+      "sha256": "c0c6ff0ab4acdf6c5d16c1cc5917fabde68cfb1aa3c0384c53d8c2dad6476a78"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/T0.13_steps128.npy",
+      "new": "tests/data/bauer_20260913_v2/11/T0.13_steps128.npy",
+      "sha256": "407398d8a579ee9444d899254e6b1aa996624784d9ce97ae1cb971242bacae4c"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/paired_condition_T0.13.npy",
+      "new": "tests/data/bauer_20260913_v2/11/paired_condition_T0.13.npy",
+      "sha256": "29dfc8a47c84cf964404e34dc51d46ff619609dbe04c7af1b615f02a0f1f149f"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/interface_L25.npy",
+      "new": "tests/data/bauer_20260913_v2/11/interface_L25.npy",
+      "sha256": "5b52ef615a29c51926f15e02ff6d3e5f6d3e817ea85575fdb41e677404abfcff"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/interface_L50.npy",
+      "new": "tests/data/bauer_20260913_v2/11/interface_L50.npy",
+      "sha256": "76c2dfd0260d0ebc4255e8426378a4a9bf507de3da6e87b1846ed1ed8cc7ce39"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/interface_L100.npy",
+      "new": "tests/data/bauer_20260913_v2/11/interface_L100.npy",
+      "sha256": "2b766dec41a5d1acf04f02cdbc5e68e0316b5453dc00f2f409633d3c6dc8ce66"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/chunk_rollout_software_only.npy",
+      "new": "tests/data/bauer_20260913_v2/11/chunk_rollout_software_only.npy",
+      "sha256": "a5b539b6f37cac4c03fa4e9c3e31f1f076ea75357da82683bc5a72bbc8011005"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/11/direct_long_window_software_only.npy",
+      "new": "tests/data/bauer_20260913_v2/11/direct_long_window_software_only.npy",
+      "sha256": "42f1a35d4c0ef30ec236a434b08de7705b1f7a086894faf421af9bb56a24213f"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/T0.11_steps16.npy",
+      "new": "tests/data/bauer_20260913_v2/22/T0.11_steps16.npy",
+      "sha256": "3fc6cff734996dc0fc08466fb038c8333cef7d77d1677562e1b62f7c3884f8bc"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/T0.11_steps32.npy",
+      "new": "tests/data/bauer_20260913_v2/22/T0.11_steps32.npy",
+      "sha256": "ba0fb149566a6f3653c2251a8f455a4e77846300b9d71a45645ca75234ec078c"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/T0.11_steps64.npy",
+      "new": "tests/data/bauer_20260913_v2/22/T0.11_steps64.npy",
+      "sha256": "659ef1e3554ae80f46a5c367a5321ad3eb11c4f20379fe0658fb3a529f9d2dec"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/T0.11_steps128.npy",
+      "new": "tests/data/bauer_20260913_v2/22/T0.11_steps128.npy",
+      "sha256": "e3e3d1a03226e5814df7fb2bdb7e650e63dc35302bc0d40f99e687a962a396a3"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/paired_condition_T0.11.npy",
+      "new": "tests/data/bauer_20260913_v2/22/paired_condition_T0.11.npy",
+      "sha256": "659ef1e3554ae80f46a5c367a5321ad3eb11c4f20379fe0658fb3a529f9d2dec"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/T0.13_steps16.npy",
+      "new": "tests/data/bauer_20260913_v2/22/T0.13_steps16.npy",
+      "sha256": "7822f58bae6132e796c28de88367154112487131fe9b360ce4d3e7caa4af11d5"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/T0.13_steps32.npy",
+      "new": "tests/data/bauer_20260913_v2/22/T0.13_steps32.npy",
+      "sha256": "0daf848c353498879609eac32b5a8e0fc4f98d0fff4ff160f11e850584173c48"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/T0.13_steps64.npy",
+      "new": "tests/data/bauer_20260913_v2/22/T0.13_steps64.npy",
+      "sha256": "58f973493e345023af5af1182444182c469d8110ae2268d7275ec78c1ec2d9fb"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/T0.13_steps128.npy",
+      "new": "tests/data/bauer_20260913_v2/22/T0.13_steps128.npy",
+      "sha256": "e7aaff9faa11fe3ace6ec7a6aeb2ef4d153feee2c7f57932fae6edda24eb6435"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/paired_condition_T0.13.npy",
+      "new": "tests/data/bauer_20260913_v2/22/paired_condition_T0.13.npy",
+      "sha256": "1b8b64c4a5358e24f86e3e954c970241f9c6a8ff0bf70b1d34a419514633892c"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/interface_L25.npy",
+      "new": "tests/data/bauer_20260913_v2/22/interface_L25.npy",
+      "sha256": "ef7bbdcfceb950bf72d4f0ff28f2710520eda41614859cb48222e0490770bb70"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/interface_L50.npy",
+      "new": "tests/data/bauer_20260913_v2/22/interface_L50.npy",
+      "sha256": "e2ab312369ae3d5151765003bc0f326f62beb715abd9cabf8bbd1ff5f9a715b5"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/interface_L100.npy",
+      "new": "tests/data/bauer_20260913_v2/22/interface_L100.npy",
+      "sha256": "15fc0c81433a0931f5f965253b19f00a75c8e15f38b746c4cb89cc7ecde072ea"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/chunk_rollout_software_only.npy",
+      "new": "tests/data/bauer_20260913_v2/22/chunk_rollout_software_only.npy",
+      "sha256": "7798280ae809a68d29f2070fb6c60c29f0693977c95cbdbaab70e6e5b89326e6"
+    },
+    {
+      "old": "data/research/diagnostics/bauer_20260913_v2/22/direct_long_window_software_only.npy",
+      "new": "tests/data/bauer_20260913_v2/22/direct_long_window_software_only.npy",
+      "sha256": "3ff76bb7c4377a34ef291d865f25ef143475d2e0059d10a1b6e7905da19496d8"
+    },
+    {
+      "old": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/checkpoint_diagnostics_20260913_v2/33/summary.json",
+      "new": "tests/results/checkpoint_diagnostics_20260913_v2/33/summary.json",
+      "sha256": "86440314219aec43a257e76ee46258849f389d55548e045557f0ba3dbdebc230"
+    },
+    {
+      "old": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/checkpoint_diagnostics_20260913_v2/11/summary.json",
+      "new": "tests/results/checkpoint_diagnostics_20260913_v2/11/summary.json",
+      "sha256": "f18a0d6cb69a3d24162eb56e84f38bc57d6696f72ba7c9db8bf30a8dde85c519"
+    },
+    {
+      "old": "assets/research/bauer_L25_first_loop/20260913_v1/analysis/checkpoint_diagnostics_20260913_v2/22/summary.json",
+      "new": "tests/results/checkpoint_diagnostics_20260913_v2/22/summary.json",
+      "sha256": "5a2a0b2ed71037c427638e666cf875301350a5c117c34550b684bb2e8e1ee40f"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913_v2/preflight.log",
+      "new": "tests/logs/bauer_diagnostics_20260913_v2/preflight.log",
+      "sha256": "fd486fc1dc9b6d93c8aa805fcdd010b149188258a2e43a729b2ec999df73b5f6"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913_v2/submitted_job.txt",
+      "new": "tests/logs/bauer_diagnostics_20260913_v2/submitted_job.txt",
+      "sha256": "cf8a932d434eba24cd2f87381c7607e73dcd5c8e8287d0d401bd918213ef7c31"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913_v2/669352_0.log",
+      "new": "tests/logs/bauer_diagnostics_20260913_v2/669352_0.log",
+      "sha256": "7ad5d4971aef24b64bbd4897bda75e3d88b4ea42430a09e8a104f9cc0a575e7f"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913_v2/669352_1.log",
+      "new": "tests/logs/bauer_diagnostics_20260913_v2/669352_1.log",
+      "sha256": "0849c733093fbad2346f120d4475aa40cdc1186bd3eb9bb7a06258c81a9b02c6"
+    },
+    {
+      "old": "logs/research/bauer_diagnostics_20260913_v2/669352_2.log",
+      "new": "tests/logs/bauer_diagnostics_20260913_v2/669352_2.log",
+      "sha256": "c7ddbb6de02f9396dd1910e991e595b47af5ed1bc61f56c1b6cf884818884ca7"
+    },
+    {
+      "old": "conf/research/bauer_training_budget_20260913.json",
+      "new": "tests/conf/bauer_training_budget_20260913.json",
+      "sha256": "ac58f5d07def6f954d7aaa32907bc1378986db2e6d71b0023c8a585dd94ddd38"
+    },
+    {
+      "old": "slurm/bauer_training_budget.sbatch",
+      "new": "tests/slurm/bauer_training_budget.sbatch",
+      "sha256": "1a3337c7e883d85c5b153c9dd9c44d9e109b8df1edd93157c8ef244e133c23f4"
+    },
+    {
+      "old": "slurm/bauer_checkpoint_diagnostics.sbatch",
+      "new": "tests/slurm/bauer_checkpoint_diagnostics.sbatch",
+      "sha256": "e775d0b08707de91982151b85055bc9f303fe748a152b7df18b8ea0b6bda6c0e"
+    },
+    {
+      "old": "logs/research/bauer_training_budget_20260913/preflight.log",
+      "new": "tests/logs/bauer_training_budget_20260913/preflight.log",
+      "sha256": "f8efe122025579e6369c66e9d8a72f37eebea00261ec628f519d8a5a3db81103"
+    },
+    {
+      "old": "logs/research/bauer_training_budget_20260913/submitted_job.txt",
+      "new": "tests/logs/bauer_training_budget_20260913/submitted_job.txt",
+      "sha256": "52b5c5b9f988fc3fd96069555dc1902850ffa5bc67d581900ed43dc97c0847ed"
+    },
+    {
+      "old": "logs/research/bauer_training_budget_20260913/669355_0.log",
+      "new": "tests/logs/bauer_training_budget_20260913/669355_0.log",
+      "sha256": "7763c23e844a89bf53431f095af6c44a9a101a8a91909cbdc84537e9f0c6805f"
+    },
+    {
+      "old": "logs/research/bauer_training_budget_20260913/669355_1.log",
+      "new": "tests/logs/bauer_training_budget_20260913/669355_1.log",
+      "sha256": "95ef00f99cae5976db942b6f7b001125f2d043976e9d70ab4e24dedee3d6d229"
+    },
+    {
+      "old": "logs/research/bauer_training_budget_20260913/669355_2.log",
+      "new": "tests/logs/bauer_training_budget_20260913/669355_2.log",
+      "sha256": "30bc4947f9f2c5dc80649b1fa17d658a508cfbbe93bb8758fb65dc50fe403e31"
+    },
+    {
+      "old": "logs/research/gpu_partition_policy/preflight.log",
+      "new": "tests/logs/gpu_partition_policy/preflight.log",
+      "sha256": "7c463f7b88ec8c99e3d4db33677f3e7775895ff27f77f3a38c5674e070411352"
+    }
+  ],
+  "path_edits": [
+    "pytest.ini",
+    "scripts/validation/run_gate_f_software.py",
+    "scripts/workflow/prepare_reduced_campaign.py",
+    "scripts/workflow/submit_remaining_validation.py",
+    "scripts/workflow/bauer_revision4.py",
+    "scripts/workflow/gate_f_prerequisites.py",
+    "scripts/workflow/submit_gate_f_software.py",
+    "scripts/workflow/zero_field_campaign.py",
+    "slurm/zero_field_preflight.sbatch",
+    "slurm/evaluate_current_checkpoint.sbatch",
+    "slurm/train_and_evaluate.sbatch",
+    "slurm/gpu_smoke.sbatch",
+    "slurm/train_v2_three_seeds.sbatch",
+    "slurm/gpu_v2_architecture_smoke.sbatch",
+    "slurm/gpu_v2_l64_smoke.sbatch",
+    "slurm/guide_thermal_audit.sbatch",
+    "slurm/bauer_campaign.sbatch",
+    "tests/experiments/bauer_checkpoint_diagnostics.py",
+    "tests/experiments/bauer_budget_comparison.py",
+    "tests/unit/test_remaining_pipeline.py",
+    "tests/unit/test_hirst_llb.py",
+    "tests/unit/test_bauer_window.py",
+    "tests/unit/test_bauer_budget.py",
+    "tests/slurm/bauer_training_budget.sbatch",
+    "tests/slurm/bauer_checkpoint_diagnostics.sbatch",
+    "tests/conf/bauer_diagnostics_20260913.json",
+    "tests/conf/bauer_diagnostics_20260913_v2.json",
+    "tests/conf/bauer_training_budget_20260913.json"
+  ],
+  "frozen_archives": "preserved unchanged"
+}

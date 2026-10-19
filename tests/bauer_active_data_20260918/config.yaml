@@ -1,0 +1,42 @@
+scope: bounded_round0_data_pilot_not_distribution_certified
+physics:
+  sizes: [16, 25, 32]
+  boundary: open
+  exchange_meV: 50.0
+  anisotropy_over_J: 0.1
+  damping: 0.1
+  theta: 0.11
+  external_field: 0.0
+numerics:
+  dt_fs: 0.25
+  fine_dt_fs: 0.125
+  preparation_ps: 20.0
+  duration_ps: 100.0
+  save_ps: 0.1
+  diagnostic_windows_ps: [1.0, 10.0, 100.0]
+  method: projected_Milstein_Tretyakov_5.9
+sampling:
+  families: [positive, negative, tilted, edge_domain, interior_domain, single_wall]
+  candidates_per_family: {train: 24, dev: 4, test: 4}
+  selected_per_family: {train: 8, dev: 2, test: 2}
+  branches: {train: 8, dev: 16, test: 16}
+  seed: 20260918
+  fine_control_split: dev
+  jitter_range: [0.02, 0.15]
+  wall_width_sites: [1.5, 4.0]
+  tilt_radians: [0.2, 1.2]
+selection:
+  method: stratified_farthest_point_on_train_fitted_descriptors
+  descriptor: z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z
+  heldout_selection: seeded_uniform_without_future_outcomes
+  use_target_size_data: false
+  preserve_all_futures: true
+limitations:
+  - Budgeted pilot sizes, not a statistical-power claim.
+  - Single temperature and open boundary only; no temperature or PBC transfer claim.
+  - Balanced families are not natural state occupancy frequencies.
+  - Natural families use fixed 20 ps preparation, not certified equilibrium.
+  - No future-outcome selection; no model-generated supervision.
+  - dev branches 0:8 and 8:16 are independent conditional reference replicates.
+  - 100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.
+  - No large-system final test, training, or uncertainty committee in round zero.

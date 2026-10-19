@@ -6,6 +6,10 @@ _统一阅读入口；历史记录不是当前研究结论。_
 
 ## 📚 分类文档
 
+当前研究先阅读[项目总览](../../GUIDE/PROJECT_OVERVIEW.md)和[工作计划](../../GUIDE/WORK_PLAN.md)。下列历史目录仅用于追溯。
+
+修订9新增[物理调研与路径模型决策](../../GUIDE/PATH_MODEL_AND_PHYSICS_PLAN.md)，包含近期论文证据、单步／整段受控比较和分阶段验收。
+
 ### history
 
 - [history/scripts/archive/20260909_3b3b824_guide_thermal/code/altermagnetism_LLG/GUIDE/LITERATURE_BENCHMARK_AND_COMPARISON_DATA_PLAN.md](../history/scripts/archive/20260909_3b3b824_guide_thermal/code/altermagnetism_LLG/GUIDE/LITERATURE_BENCHMARK_AND_COMPARISON_DATA_PLAN.md)
@@ -170,4 +174,10 @@ _统一阅读入口；历史记录不是当前研究结论。_
 
 ## 🔗 研究计划
 
-[GUIDE](../../GUIDE/) 保留原位，只下载不上传。
+[GUIDE](../../GUIDE/README.md) 保留原位，2026-09-14 起允许正常提交推送；当前主线和任务以其导航为准。原始数据目录继续排除。
+# 最新状态
+
+- [2026-10-19研究进展与正式目录入口](../../GUIDE/CURRENT_PROGRESS_20261019.md)
+- [测试与冻结实验边界](../../tests/README.md)
+- [精简结果网页](../../assets/research/bauer_path/progress_20261019/index.html)
+

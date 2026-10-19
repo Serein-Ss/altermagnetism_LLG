@@ -1,0 +1,14 @@
+{
+  "block_seconds": [
+    3.8258389085531235,
+    3.786004550755024,
+    3.7830908708274364,
+    3.7666290812194347,
+    3.769189517945051
+  ],
+  "total_blocks": 1000,
+  "estimated_generation_seconds": 3776.140194386244,
+  "output_uncompressed_bytes": 5568556800,
+  "note": "Generation benchmark excludes file I/O; scheduling estimates add margin",
+  "peak_memory_bytes": 1125186560
+}

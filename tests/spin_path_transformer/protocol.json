@@ -1,0 +1,286 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "latent",
+      "seed": 11,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "bauer",
+      "arm": "latent",
+      "seed": 33,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "dense",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "exact"
+    },
+    {
+      "domain": "bauer",
+      "arm": "local",
+      "seed": 11,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "dense",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "exact"
+    },
+    {
+      "domain": "toy",
+      "arm": "dense",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "exact"
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "miltat",
+      "arm": "local",
+      "seed": 11,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 1,
+      "supervision": "fm"
+    },
+    {
+      "domain": "bauer",
+      "arm": "latent",
+      "seed": 22,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "miltat",
+      "arm": "local",
+      "seed": 22,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "miltat",
+      "arm": "latent",
+      "seed": 33,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "miltat",
+      "arm": "latent",
+      "seed": 22,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "miltat",
+      "arm": "hierarchical",
+      "seed": 22,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "miltat",
+      "arm": "hierarchical",
+      "seed": 11,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "bauer",
+      "arm": "local",
+      "seed": 33,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "local",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "miltat",
+      "arm": "latent",
+      "seed": 11,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "latent",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "dense",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 1,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "dense",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "bauer",
+      "arm": "local",
+      "seed": 22,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "latent",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "dense",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "latent",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "miltat",
+      "arm": "hierarchical",
+      "seed": 33,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "local",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "local",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 1,
+      "supervision": "fm"
+    },
+    {
+      "domain": "miltat",
+      "arm": "local",
+      "seed": 33,
+      "updates": 6000,
+      "supervision": "fm"
+    }
+  ],
+  "purpose": "Test local temporal / latent / regional communication, not certify universal magnetism",
+  "architecture": "width64 depth4, per-token LayerNorm, adaLN-zero gates, fixed registered crystal frame; one fine/coarse level only",
+  "physical_grid": "1 ps block, 0.1 ps saved frames; original reference dt unchanged",
+  "data": "Existing parent/source splits only; no new data, no clean future conditions; development not untouched test",
+  "pairing": "Shared tensor initialization, separate identical data/source RNG per seed; scheduling shuffled seed92488",
+  "optimizer": "AdamW lr0.001 weight_decay1e-5 clip10; FM-only except explicit synthetic oracle control",
+  "budget": "6000 physical /12000 synthetic updates; equal updates NOT equal compute; fixed final checkpoint primary",
+  "physical_scope": "Bauer open L16/25/32 at63.824849668K; Miltat open64x38x2 at12.5K, larger diagnostics not certification",
+  "estimand": "Conditional path statistics per independent dev parent; whole branches are replicates, not frames/sites",
+  "limitations": "No new temperature, no 3D physical training, no arbitrary lattice registration, no approved event gates, no long-time claim",
+  "decision": "Need physical joint-statistical improvement, not merely lower FM loss or legal spins; compare each seed separately",
+  "historical_comparison": "Old backbone is descriptive only: new depth and optimizer geometry differ; concurrent local is the causal architecture control"
+}

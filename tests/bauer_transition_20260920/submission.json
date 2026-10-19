@@ -1,0 +1,18 @@
+{
+  "jobs": {
+    "smoke": "670274",
+    "train": "670275",
+    "evaluate": "670276",
+    "report": "670277"
+  },
+  "monitor": false,
+  "array": [
+    "path_11",
+    "path_22",
+    "path_33",
+    "transition_11",
+    "transition_22",
+    "transition_33"
+  ],
+  "scientific_certification": false
+}

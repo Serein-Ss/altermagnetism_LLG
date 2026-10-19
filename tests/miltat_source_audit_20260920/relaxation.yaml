@@ -1,0 +1,16 @@
+scope: zero_temperature_boundary_diagnostic_not_training_data
+cell_shapes: [[32, 18], [64, 38], [96, 56], [128, 74], [200, 116]]
+duration_ps: 50.0
+save_ps: 0.5
+dt_fs: 1.25
+temperature_K: 0.0
+alpha: 0.5
+strong_rotation_center_degrees: 35
+strong_rotation_modulation_degrees: 15
+initial_protocol: rotate_full_saved_parent_then_center_crop_identical_interior_states
+source_parent: tests/miltat_1ns_20260919/results/preparation_final.pt
+limits:
+  - Cropped_perturbed_parent_is_only_for_boundary_control_not_independent_training_samples
+  - Fifty_ps_is_an_observation_window_not_an_assumed_relaxation_certificate
+  - Must_compare_core_size_energy_residual_torque_and_last_window_drift
+  - Zero_temperature_check_does_not_replace_finite_temperature_edge_encounter_control

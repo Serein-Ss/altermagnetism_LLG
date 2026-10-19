@@ -1,0 +1,4 @@
+{
+  "steps": [128, 256, 512, 1024],
+  "reason": "Follow-up development diagnostic: 128-to-256 endpoint sensitivity remains, especially theta0.13 seed33. No training, seed selection or fresh-reference certification. Preserve the original candidate freeze."
+}

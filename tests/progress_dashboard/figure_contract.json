@@ -1,0 +1,23 @@
+{
+  "backend": "python",
+  "reuse": "Style-only adaptation of existing plotting code; frozen statistical reports unchanged",
+  "claim": "Overall statistics and endpoint densities must be compared alongside unresolved temporal errors, not presented as full path certification",
+  "archetypes": ["quantitative grid", "image plate + quant"],
+  "destination": "Research inspection webpage, not a named-journal submission",
+  "exports": "PNG only, 300 dpi, per user instruction; no PDF/SVG/TIFF retained",
+  "source_mapping": {
+    "bar_height": "Existing per-parent metric mean",
+    "interval": "Existing stratified parent bootstrap 95% interval, unchanged",
+    "histograms": "Existing endpoint observations, identical bins and density normalization; filled side-by-side bars",
+    "replicates": "Model metrics: 36 test parents, 16 reference/generated futures per parent; R1/R2 uses 8+8. Seeds displayed separately",
+    "examples": "Existing dev-selected model and predetermined test parents, unchanged"
+  },
+  "exclusions": "No new data exclusions; no new model selection; existing example selection retained",
+  "uncertainty": "No invented histogram error bars; histograms show empirical density. Branch curves show all futures plus mean, not confidence intervals",
+  "qa_exceptions": {
+    "EXPORT-VECTOR": "Explicit user PNG-only instruction overrides vector export; validator's submission contract not applicable",
+    "EXPORT-RASTER": "No TIFF requested; PNG-only",
+    "FINAL-WIDTH": "Web inspection panels retain readable large layout; not claimed to fit final journal columns",
+    "pdf_text_audit": "Not applicable: no PDF export permitted/requested"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "tasks": [
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "repair": "baseline",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "joint",
+      "seed": 11,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "baseline",
+      "seed": 33,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "repair": "early",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "repair": "importance",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "early",
+      "seed": 33,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "early_joint",
+      "seed": 11,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "early",
+      "seed": 22,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "repair": "importance",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "repair": "baseline",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "early_joint",
+      "seed": 33,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "joint",
+      "seed": 33,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "repair": "early",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "early_joint",
+      "seed": 22,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "repair": "early",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "baseline",
+      "seed": 22,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "repair": "importance",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "baseline",
+      "seed": 11,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "toy",
+      "arm": "hierarchical",
+      "repair": "baseline",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "early",
+      "seed": 11,
+      "updates": 6000,
+      "modes": 2
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "repair": "joint",
+      "seed": 22,
+      "updates": 6000,
+      "modes": 2
+    }
+  ],
+  "network": "unchanged hierarchical SpinPathTransformer width64 depth4",
+  "physical": "Bauer open L16/25/32,63.824849668K,1ps/0.1ps; all reference data/physics unchanged",
+  "tau": "baseline U(0,stop); early mixture 0.5U(0,0.1)+0.5U(0,stop); importance uses density ratio (1/stop)/q to preserve original expected objective; early intentionally changes weighting",
+  "joint": "Every16 updates: add coefficient1 auxiliary gradient through32 spherical Euler steps,8 generated branches versus16 reference branches of one randomly chosen TRAIN anchor parent; squared normalized increment-variance and upper-triangle two-time-correlation mean differences",
+  "normalization": "Reference-only per-parent scales: mean increment variance floored0.05; mean(1-C) floored0.05. No fitted dev statistics.",
+  "limitations": "Auxiliary finite-branch squared moments have sampling bias;32-step discretization can be overfit. Anchor-only auxiliary does not cover all later-window conditional ensembles. No Hamiltonian, energy conservation, event rules or future input.",
+  "pairing": "Same initial parameters/data/source streams per seed; separate tau and auxiliary RNGs. Additional ensemble examples/compute disclosed, NOT compute-matched.",
+  "evaluation": "Existing36 Bauer dev parents and first4 synthetic dev parents; fixed final checkpoint primary. No new holdout. Toy256 branches, theoretical mode prior0.5, first-parent128/512; Bauer64 branches, first-parent16/64/128/256 via frozen evaluator.",
+  "uncertainty": "Whole-branch pointwise intervals; training seeds separate; no equivalence certification or inferred power guarantee",
+  "decisions": "Compare uniform vs importance vs early on toy; Bauer2x2 early weighting and joint-statistics auxiliary. Check unoptimized energy/spatial observables as well as optimized kinetics.",
+  "skills": "Karpathy isolation and tests; Experimental Design paired streams, concurrent controls, blocked seeds"
+}

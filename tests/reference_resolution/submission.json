@@ -1,0 +1,23 @@
+{
+  "reference_job": "670937",
+  "reference_tasks": 18,
+  "job_name": "zrs-mag",
+  "monitor_after_submission": false,
+  "estimated_minutes": {
+    "reference": [
+      2,
+      8
+    ],
+    "gpu": [
+      10,
+      25
+    ],
+    "report": [
+      10,
+      30
+    ]
+  },
+  "gpu_job": "670938",
+  "gpu_tasks": 9,
+  "report_job": "670939"
+}

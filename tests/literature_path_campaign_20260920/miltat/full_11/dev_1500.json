@@ -1,0 +1,127 @@
+{
+  "rows": [
+    {
+      "parent_id": "parent_000",
+      "shape": [
+        64,
+        38
+      ],
+      "mean_mse": 0.007567164022475481,
+      "power_ratio": 0.9825062155723572,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_005",
+      "shape": [
+        64,
+        38
+      ],
+      "mean_mse": 0.0069099231623113155,
+      "power_ratio": 0.9571213722229004,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_013",
+      "shape": [
+        64,
+        38
+      ],
+      "mean_mse": 0.007083451841026545,
+      "power_ratio": 0.999030351638794,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_017",
+      "shape": [
+        64,
+        38
+      ],
+      "mean_mse": 0.007829234004020691,
+      "power_ratio": 1.0319085121154785,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_022",
+      "shape": [
+        96,
+        56
+      ],
+      "mean_mse": 0.006943561602383852,
+      "power_ratio": 0.931658148765564,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_027",
+      "shape": [
+        96,
+        56
+      ],
+      "mean_mse": 0.006459364201873541,
+      "power_ratio": 0.8917331695556641,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_031",
+      "shape": [
+        96,
+        56
+      ],
+      "mean_mse": 0.006297784391790628,
+      "power_ratio": 0.9597715735435486,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_036",
+      "shape": [
+        96,
+        56
+      ],
+      "mean_mse": 0.006491863168776035,
+      "power_ratio": 0.9660078287124634,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_043",
+      "shape": [
+        128,
+        74
+      ],
+      "mean_mse": 0.006346067879348993,
+      "power_ratio": 0.8829225301742554,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_047",
+      "shape": [
+        128,
+        74
+      ],
+      "mean_mse": 0.006370056886225939,
+      "power_ratio": 0.8452171087265015,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_050",
+      "shape": [
+        128,
+        74
+      ],
+      "mean_mse": 0.006245152559131384,
+      "power_ratio": 0.8829699754714966,
+      "norm_error": 1.1920928955078125e-07
+    },
+    {
+      "parent_id": "parent_058",
+      "shape": [
+        128,
+        74
+      ],
+      "mean_mse": 0.00637615704908967,
+      "power_ratio": 0.8834673762321472,
+      "norm_error": 1.1920928955078125e-07
+    }
+  ],
+  "score": 0.7489914509054381,
+  "selection": "Mean field MSE / .01 plus absolute log increment-power ratio; development only",
+  "scientific_certification": false
+}

@@ -1,0 +1,112 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "fixed32",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "fm",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "ramp64",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "fixed32",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "ramp32",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "ramp64",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "ramp32",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "fm",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "ramp32",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "ramp64",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "fm",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "fixed32",
+      "updates": 3000
+    }
+  ],
+  "start": "old FM-only step6000 with optimizer and all RNG states restored",
+  "scope": "Bauer open L16/25/32,63.824849668K,1ps;0.1ps output; no physical/data/backbone change",
+  "objectives": "FM-only; fixed weak32; ramp32; ramp64. Every16 updates auxiliary8 generated vs16 train branches.",
+  "curriculum": "First500 updates FM only; linear auxiliary0 to0.1 through1500; hold0.1 thereafter.",
+  "fixed_weight": 0.06684491978609611,
+  "matching": "Exact sum of weights on scheduled auxiliary updates matched fixed32/ramp32. Same FM and auxiliary draws; NOT equal compute or equal effective gradient.",
+  "diagnosis": "Frozen baseline/joint6000 for3seeds; six L16 train families;2 repeated draws; FM/aux gradients32/64; paired32/128/256 sampling.",
+  "evaluation": "All36 existing development parents,64 generated/16 reference,128flow; firstparent convergence via frozen evaluator. Fixed final checkpoint primary; no new final holdout.",
+  "limitations": "Finite-branch squared moment loss retains sampling bias. Ramping does not prove physics. No hard-path filtering, physical-time curriculum or automatic production promotion.",
+  "provenance": "Karpathy: isolated changes/tests; experimental-design: seed blocks, paired streams, concurrent FM control. Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065",
+  "estimates_minutes": {
+    "diagnose": [
+      3,
+      8
+    ],
+    "training": [
+      10,
+      25
+    ],
+    "report": [
+      3,
+      10
+    ]
+  }
+}

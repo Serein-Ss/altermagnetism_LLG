@@ -1,0 +1,68 @@
+{
+  "campaign": "model_state_replay_repair",
+  "preflight": {
+    "unit_tests": 8,
+    "passed": true,
+    "gpu_job": 671720,
+    "statistics_job": 671722,
+    "web_job": 671723,
+    "all_completed_exit0": true,
+    "gpu_elapsed_seconds": [
+      51,
+      51
+    ],
+    "optimizer_steps": [
+      16,
+      16
+    ],
+    "pairing_errors": [],
+    "role_exposures": {
+      "real_control": [
+        768,
+        0
+      ],
+      "model_replay": [
+        384,
+        384
+      ]
+    },
+    "norm_error_max": 1.1920928955078125e-7,
+    "anchor_error_max": 0,
+    "interpretation": "Software smoke only.4generatedbranches,lowflowsteps and16updates are not physically comparable to baseline full evaluation."
+  },
+  "formal": {
+    "gpu": {
+      "job": 671725,
+      "array": "0-5",
+      "arms": [
+        "real_control",
+        "model_replay"
+      ],
+      "seeds": [
+        11,
+        22,
+        33
+      ],
+      "updates": 6000,
+      "partition": "rtx4090",
+      "estimated_hours_per_task": 2,
+      "allocation_hours": 4
+    },
+    "statistics": {
+      "job": 671731,
+      "array": "0-5",
+      "dependency": 671725
+    },
+    "web": {
+      "job": 671732,
+      "dependency": 671731
+    }
+  },
+  "all_jobs_accepted": true,
+  "name": "zrs-mag",
+  "monitoring": "Stopped after formal submission acceptance as requested",
+  "result_dir": "tests/model_state_replay_repair",
+  "result_page": "tests/model_state_replay_repair/assets/index.html",
+  "main_page": "tests/index.html#model-state-replay-repair",
+  "status": "Targeted repair training and independent physical verification submitted; no repair certification yet."
+}

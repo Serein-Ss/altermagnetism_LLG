@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-29",
+  "environment": "zrs-mag",
+  "unit_and_regression_tests_passed": 19,
+  "shell_syntax_passed": true,
+  "gpu_smoke_job": "671227_0-1",
+  "gpu_smoke_elapsed_seconds_each": 40,
+  "coverage_smoke_job": 671228,
+  "coverage_smoke_elapsed_seconds": 32,
+  "stats_smoke_job": "671230_0-1",
+  "stats_smoke_elapsed_seconds_each": 9,
+  "aggregation_missing": [],
+  "aggregation_pairing_errors": [],
+  "norm_error_max": 1.1920928955078125e-7,
+  "anchor_error": 0.0,
+  "png_visual_inspection": "fit_curves.png readable; smoke only, not a physical claim",
+  "coverage_smoke": {"replayed_updates": 16, "training_site_descriptors": 3376, "state_arm_rows": 216, "site_arm_rows": 5256},
+  "formal_estimates_minutes": {"gpu_each": [20, 60], "fat_coverage_each": [10, 30], "fat_statistics_each": [2, 8], "aggregate": [1, 3]},
+  "limitations": "Full6000update CPU replay hash/RNG endpoint checks execute in formal coverage jobs. Focused fit does not certify broader dynamics. No new physical trajectories generated.",
+  "scientific_certification": false
+}

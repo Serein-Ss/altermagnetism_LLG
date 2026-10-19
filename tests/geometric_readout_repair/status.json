@@ -1,0 +1,9 @@
+{
+  "audit_task": 671618,
+  "audit_complete": true,
+  "software_tests": 4,
+  "trainable_candidate_status": "NOT SUBMITTED: freshlatent empirical residual improvement negligible",
+  "source_width_audit": "TRAIN .757566rad,shift2 .719691rad; excessivewidth notsupported",
+  "retained_candidate": "Experimental geometry model/tests and draft trainer/report only; not validated for physicalstatistics",
+  "next": "tests/transport_time_weight_repair"
+}

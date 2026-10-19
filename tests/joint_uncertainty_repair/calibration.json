@@ -1,0 +1,42 @@
+{
+  "rows": [
+    {
+      "p": 0.5,
+      "q": 0.5,
+      "population_distance": 0.0,
+      "trials": 400,
+      "branches_each": 64,
+      "legacy_coverage": 0.995,
+      "centered_coverage": 0.975,
+      "equality_rejection_fraction": 0.04,
+      "bootstrap_center_residual_mean": 0.0001249780687367267,
+      "coverage_MC_standard_error_bound": 0.025
+    },
+    {
+      "p": 0.5,
+      "q": 0.1,
+      "population_distance": 0.6400000000000001,
+      "trials": 400,
+      "branches_each": 64,
+      "legacy_coverage": 0.9375,
+      "centered_coverage": 0.9125,
+      "equality_rejection_fraction": 1.0,
+      "bootstrap_center_residual_mean": 0.00018790658263453816,
+      "coverage_MC_standard_error_bound": 0.025
+    },
+    {
+      "p": 0.5,
+      "q": 0.48,
+      "population_distance": 0.001600000000000003,
+      "trials": 400,
+      "branches_each": 64,
+      "legacy_coverage": 0.9975,
+      "centered_coverage": 0.93,
+      "equality_rejection_fraction": 0.0175,
+      "bootstrap_center_residual_mean": -0.0001494363199364533,
+      "coverage_MC_standard_error_bound": 0.025
+    }
+  ],
+  "seconds": 8.559349849820137,
+  "scope": "Exploratory finite-support calibration, not proof for high-dimensional spin ensembles. Null/near-null basic interval remains uncertified; permutation nonrejection is not equivalence."
+}

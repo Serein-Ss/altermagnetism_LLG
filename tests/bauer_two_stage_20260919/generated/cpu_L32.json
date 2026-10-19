@@ -1,0 +1,68 @@
+{
+  "reference": [
+    {
+      "parent": 0,
+      "seconds": 35.00931944325566,
+      "branches": 32,
+      "duration_ps": 100.0
+    },
+    {
+      "parent": 1,
+      "seconds": 34.33397910743952,
+      "branches": 32,
+      "duration_ps": 100.0
+    },
+    {
+      "parent": 2,
+      "seconds": 34.394140508025885,
+      "branches": 32,
+      "duration_ps": 100.0
+    },
+    {
+      "parent": 3,
+      "seconds": 34.25663169845939,
+      "branches": 32,
+      "duration_ps": 100.0
+    },
+    {
+      "parent": 4,
+      "seconds": 33.87508800253272,
+      "branches": 32,
+      "duration_ps": 100.0
+    },
+    {
+      "parent": 5,
+      "seconds": 34.66620781645179,
+      "branches": 32,
+      "duration_ps": 100.0
+    }
+  ],
+  "same_cpu_one_thread_1ps": [
+    {
+      "llg_seconds": 0.06433050334453583,
+      "model_seconds": 0.5359572470188141,
+      "raw_ratio": 0.12002916968165855,
+      "llg_preparation_seconds": 1.2720324620604515,
+      "model_initial_seconds": 0.1972733438014984,
+      "end_to_end_raw_ratio": 1.822568482733258
+    },
+    {
+      "llg_seconds": 0.06498326733708382,
+      "model_seconds": 0.5378719046711922,
+      "raw_ratio": 0.12081550787972259,
+      "llg_preparation_seconds": 1.2860727421939373,
+      "model_initial_seconds": 0.20062671974301338,
+      "end_to_end_raw_ratio": 1.829463136241737
+    },
+    {
+      "llg_seconds": 0.06407629698514938,
+      "model_seconds": 0.5619245506823063,
+      "raw_ratio": 0.11403007202185053,
+      "llg_preparation_seconds": 1.2710569389164448,
+      "model_initial_seconds": 0.1982678659260273,
+      "end_to_end_raw_ratio": 1.7563095957447332
+    }
+  ],
+  "cpu": "x86_64",
+  "benchmark": "Same node, one thread, one path, 0.1ps output; warm; no file IO; not accuracy matched"
+}

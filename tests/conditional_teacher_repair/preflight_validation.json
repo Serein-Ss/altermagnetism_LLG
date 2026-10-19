@@ -1,0 +1,20 @@
+{
+  "unit_tests":{"passed":15,"seconds":1.442,"runner":"unittest module names"},
+  "empirical_oracle_tests":{"passed":3,"seconds":1.73,"runner":"pytest tests/empirical_transport_repair/test_oracle.py"},
+  "initial_runner_issue":"pytest path collection of namespace-relative tests failed; reran their original unittest module entrypoints successfully, no frozen source changes",
+  "shell_syntax":"passed",
+  "teacher_data_audit":"teacher_audit.json;48TRAINstates from24sourceparents;no unsupported rows",
+  "gpu_smoke":"671558_0-1 COMPLETED exit0;52/53seconds",
+  "statistics_smoke":"671560_0-1 COMPLETED exit0;14seconds each",
+  "web_smoke":"671561 COMPLETED exit0;10seconds;PNG visually checked",
+  "model_and_optimizer_step":48016,
+  "paired_native_hash":"b54ed0d16c509d950f88acbc093a97657f414f5d5093acb50c685ef150956612",
+  "paired_extra_noise_hash":"39b3eaec635e0dd002daa659377e6be2e7928d95b8535ae9505eeceda095be4f",
+  "paired_group_schedule_hash":"059a05bf2004f86c54e5a047bea1fdf741f859cd1b1eff962ece369d4950ba30",
+  "paired_native_refill_hash":"6ce8a5cf272217e8ee76b729ec37f18353456879fcb74ee0e6ca6b903fb0361b",
+  "smoke_teacher_count":696,
+  "smoke_teacher_residual_power":0.15122098317384525,
+  "max_norm_error":1.1920928955078125e-7,
+  "max_anchor_error":0.0,
+  "physical_certification":false
+}

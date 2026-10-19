@@ -1,0 +1,13 @@
+{
+  "batch": 64,
+  "L": 16,
+  "order": 8,
+  "flow_steps": 8,
+  "seconds": 1.4005080424249172,
+  "peak_allocated_bytes": 21493760,
+  "device": "NVIDIA GeForce RTX 3090",
+  "formal_C8_estimated_seconds": 9142.51650094986,
+  "formal_C4_estimated_seconds": 4571.25825047493,
+  "formal_C1_estimated_seconds": 1142.8145626187325,
+  "accuracy_claim": false
+}

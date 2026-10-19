@@ -1,0 +1,20 @@
+{
+  "sites": 25,
+  "theta": [0.11, 0.13],
+  "families_per_kind": 2,
+  "kinds": ["aligned", "tilted", "wall"],
+  "initial_seed": 993000000,
+  "noise_base": 1100000000,
+  "schedule_seed": 993001000,
+  "aligned_noise": 0.05,
+  "texture_noise": 0.15,
+  "tilt_radians": 0.8,
+  "wall_width_sites": 3.0,
+  "paths_per_anchor": 256,
+  "duration": 0.8,
+  "save_dt": 0.01,
+  "anisotropy": 0.1,
+  "damping": 0.1,
+  "cases": [{"method":"mt", "dt":0.0025}, {"method":"mt", "dt":0.00125}, {"method":"heun", "dt":0.00125}],
+  "scope": "Fresh procedural initial-state stress test, not equilibrium sampling or a reproduction of the paper initial ensemble. Six distinct initial families crossed with two temperatures. Budget-limited 256 paths per condition, not power-sized. Freeze all three director24000 checkpoints before generating data. No training or tuning on this bank. Primary MT dt0.00125, with coarser MT and Heun checks. Analyze means, spatial and temporal connected correlations, variance and distributional discrepancies at .01,.08,.2,.4,.8. Whole paths are sampling units; temperatures share initial families. No large-size or long-switching-time certification."
+}

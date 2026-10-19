@@ -1,0 +1,12 @@
+{
+  "checkpoint": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/literature_path_campaign_20260920/miltat/local_11/best.pt",
+  "reference": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/miltat_1ns_20260919/results/thermal.h5",
+  "seconds_this_invocation": 604.4194203726947,
+  "resumed": false,
+  "total_blocks": 1000,
+  "physical_duration_ps": 1000.0,
+  "branches": 1,
+  "flow_steps": 32,
+  "scientific_certification": false,
+  "max_norm_error": 1.1920928955078125e-07
+}

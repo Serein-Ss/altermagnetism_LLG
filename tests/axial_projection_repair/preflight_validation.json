@@ -1,0 +1,20 @@
+{
+  "cpu_unit_tests": {"count": 9, "seconds": 1.946, "passed": true,
+    "command": "bash ../run_zrs_mag.sh -m unittest tests.axial_projection_repair.test_contract tests.axial_symmetry_repair.test_contract -v"},
+  "shell_syntax": "passed",
+  "gpu_smoke_job": "671486",
+  "gpu_smoke_status": "671486_0-2 COMPLETED exit0;24/29/36 seconds",
+  "smoke_statistics": "671489_0-2 COMPLETED exit0;8-9 seconds",
+  "smoke_web": "671490 COMPLETED exit0;7 seconds;PNG visually checked",
+  "paired_input_hash_all_three_arms": "6c78cec63454afa23662764b1d2f359b43a41682a4f35ce1c7017201ee7131b6",
+  "max_norm_error": 1.7881393432617188e-7,
+  "max_anchor_error": 0.0,
+  "C4_C8_group_rotation_max_relative_error": 1.2352425847330557e-7,
+  "offgrid_0_37radian_mean_relative_error_C1_C4_C8": [0.05329329750732316,0.019445736714326534,0.004898930962407056],
+  "production_batch_benchmark_job": "671493",
+  "production_batch_benchmark_status": "COMPLETED exit0;23seconds",
+  "batch64_C8_eightflowstep_seconds": 1.4005080424249172,
+  "peak_gpu_allocated_bytes": 21493760,
+  "benchmark_hardware": "NVIDIA GeForce RTX3090 allocated via rtx4090 partition",
+  "physical_certification": false
+}

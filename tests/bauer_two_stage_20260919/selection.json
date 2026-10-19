@@ -1,0 +1,108 @@
+{
+  "chosen": {
+    "initial": "initial_22",
+    "path": "anchored_22"
+  },
+  "runs": {
+    "initial_11": {
+      "kind": "initial",
+      "seed": 11,
+      "dev_score": 0.0508293916416323,
+      "seconds": 104.49783668667078,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "updates": 6000,
+      "smoke": false,
+      "protocol": "all_plus_z_then_20ps_independent_thermal_preparation",
+      "scientific_certification": false
+    },
+    "initial_22": {
+      "kind": "initial",
+      "seed": 22,
+      "dev_score": 0.049473355319148114,
+      "seconds": 107.1288277618587,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "updates": 6000,
+      "smoke": false,
+      "protocol": "all_plus_z_then_20ps_independent_thermal_preparation",
+      "scientific_certification": false
+    },
+    "initial_33": {
+      "kind": "initial",
+      "seed": 33,
+      "dev_score": 0.05107302094510846,
+      "seconds": 107.69174302741885,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "updates": 6000,
+      "smoke": false,
+      "protocol": "all_plus_z_then_20ps_independent_thermal_preparation",
+      "scientific_certification": false
+    },
+    "uniform_11": {
+      "kind": "uniform",
+      "seed": 11,
+      "dev_score": 1.2206189164188088,
+      "seconds": 9009.57011943683,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "updates": 6000,
+      "smoke": false,
+      "protocol": "all_plus_z_then_20ps_independent_thermal_preparation",
+      "scientific_certification": false
+    },
+    "uniform_22": {
+      "kind": "uniform",
+      "seed": 22,
+      "dev_score": 1.223263735995174,
+      "seconds": 9007.252006560564,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "updates": 6000,
+      "smoke": false,
+      "protocol": "all_plus_z_then_20ps_independent_thermal_preparation",
+      "scientific_certification": false
+    },
+    "uniform_33": {
+      "kind": "uniform",
+      "seed": 33,
+      "dev_score": 1.2067065915102402,
+      "seconds": 9011.089496582747,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "updates": 6000,
+      "smoke": false,
+      "protocol": "all_plus_z_then_20ps_independent_thermal_preparation",
+      "scientific_certification": false
+    },
+    "anchored_11": {
+      "kind": "anchored",
+      "seed": 11,
+      "dev_score": 1.1754409241398371,
+      "seconds": 9069.215443134308,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "updates": 6000,
+      "smoke": false,
+      "protocol": "all_plus_z_then_20ps_independent_thermal_preparation",
+      "scientific_certification": false
+    },
+    "anchored_22": {
+      "kind": "anchored",
+      "seed": 22,
+      "dev_score": 1.1479964327833414,
+      "seconds": 9024.58173179254,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "updates": 6000,
+      "smoke": false,
+      "protocol": "all_plus_z_then_20ps_independent_thermal_preparation",
+      "scientific_certification": false
+    },
+    "anchored_33": {
+      "kind": "anchored",
+      "seed": 33,
+      "dev_score": 1.16230437624194,
+      "seconds": 8899.102099783719,
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "updates": 6000,
+      "smoke": false,
+      "protocol": "all_plus_z_then_20ps_independent_thermal_preparation",
+      "scientific_certification": false
+    }
+  },
+  "selection": "development only, frozen before new test futures"
+}

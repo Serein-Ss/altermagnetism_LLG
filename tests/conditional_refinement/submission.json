@@ -1,0 +1,90 @@
+{
+  "train_job": "670918",
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "accum4",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "anchor90",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "anchor90",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "anchor90",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "accum4",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "accum4",
+      "updates": 6000
+    }
+  ],
+  "job_name": "zrs-mag",
+  "partition": "rtx4090",
+  "estimated_minutes": {
+    "control": [
+      8,
+      15
+    ],
+    "anchor90": [
+      8,
+      15
+    ],
+    "accum4": [
+      20,
+      35
+    ],
+    "report": [
+      5,
+      15
+    ]
+  },
+  "monitor_after_submission": false,
+  "report_job": "670919"
+}

@@ -1,0 +1,211 @@
+{
+  "benchmark_job": "670675",
+  "toy_smoke_job": "670676",
+  "oracle_job": "670677",
+  "actual_benchmark_gpu": "NVIDIA GeForce RTX 3090",
+  "partition": "rtx4090",
+  "job_name": "zrs-mag",
+  "two_d_measured_linear_seconds": 1722.5708435381714,
+  "two_d_conservative_minutes": [
+    30,
+    45
+  ],
+  "toy_training_seconds": 300.1810759305954,
+  "toy_total_estimated_minutes": [
+    6,
+    12
+  ],
+  "cpu_report_estimated_minutes": [
+    5,
+    20
+  ],
+  "gpu_hours_estimated": [
+    6.3,
+    10.35
+  ],
+  "wall_time": "Queue-dependent; parallel jobs, do not sum elapsed times as wall-clock forecast.",
+  "limits": "90min per 2D task,45min per toy task,60min report; safety limits are not planned run durations",
+  "monitor": "Only short preflight monitored. No polling of submitted long tasks.",
+  "tasks": [
+    {
+      "domain": "toy",
+      "arm": "fm",
+      "seed": 11,
+      "modes": 2,
+      "updates": 12000
+    },
+    {
+      "domain": "miltat",
+      "arm": "shifted",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "toy",
+      "arm": "global",
+      "seed": 22,
+      "modes": 1,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "fm",
+      "seed": 22,
+      "modes": 1,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "oracle_supervision",
+      "seed": 22,
+      "modes": 2,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "oracle_supervision",
+      "seed": 33,
+      "modes": 2,
+      "updates": 12000
+    },
+    {
+      "domain": "miltat",
+      "arm": "global",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "miltat",
+      "arm": "global",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "miltat",
+      "arm": "shifted",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "miltat",
+      "arm": "shifted",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "toy",
+      "arm": "global",
+      "seed": 11,
+      "modes": 1,
+      "updates": 12000
+    },
+    {
+      "domain": "miltat",
+      "arm": "global",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "toy",
+      "arm": "global",
+      "seed": 11,
+      "modes": 2,
+      "updates": 12000
+    },
+    {
+      "domain": "miltat",
+      "arm": "uniform",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "toy",
+      "arm": "fm",
+      "seed": 11,
+      "modes": 1,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "oracle_supervision",
+      "seed": 22,
+      "modes": 1,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "fm",
+      "seed": 22,
+      "modes": 2,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "global",
+      "seed": 33,
+      "modes": 1,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "oracle_supervision",
+      "seed": 33,
+      "modes": 1,
+      "updates": 12000
+    },
+    {
+      "domain": "miltat",
+      "arm": "uniform",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "toy",
+      "arm": "oracle_supervision",
+      "seed": 11,
+      "modes": 2,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "oracle_supervision",
+      "seed": 11,
+      "modes": 1,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "fm",
+      "seed": 33,
+      "modes": 1,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "global",
+      "seed": 33,
+      "modes": 2,
+      "updates": 12000
+    },
+    {
+      "domain": "toy",
+      "arm": "global",
+      "seed": 22,
+      "modes": 2,
+      "updates": 12000
+    },
+    {
+      "domain": "miltat",
+      "arm": "uniform",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "toy",
+      "arm": "fm",
+      "seed": 33,
+      "modes": 2,
+      "updates": 12000
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-07",
+  "previous_uncertainty": {
+    "analysis": 672029,
+    "calibration": 672044,
+    "web": 672045,
+    "all_completed_exit0": true,
+    "point_estimates_unchanged": true,
+    "strong_alternative_approx_interval_coverage": 0.9125,
+    "nominal_95_certified": false,
+    "model_bias_unresolved": true
+  },
+  "preflight": {
+    "tests_passed": 10,
+    "unit_log": "logs/unit.out",
+    "native_and_related_state_checks": 1161306,
+    "min_selected_transverse": 0.0004009859436973156,
+    "all_audited_supported": true,
+    "gpu": 672053,
+    "statistics": 672055,
+    "web": 672056,
+    "all_completed_exit0": true,
+    "gpu_elapsed_seconds_each": 53,
+    "pairing_errors": [],
+    "max_spin_only_axial_relative_rms": {
+      "control": 0.21354201376033838,
+      "gauge2": 2.2919464134640816e-7
+    },
+    "actual_gpu": "NVIDIA GeForce RTX 3090",
+    "scope": "Software and structural covariance only; 16updates,low-step/few-path generation. Not physical accuracy."
+  },
+  "formal": {
+    "gpu": {
+      "job": 672059,
+      "array": "0-5",
+      "partition": "rtx4090",
+      "seeds": [
+        11,
+        22,
+        33
+      ],
+      "arms": [
+        "control",
+        "gauge2"
+      ],
+      "updates": 6000,
+      "source_step": 108144,
+      "final_step": 114144,
+      "estimated_hours_each": [
+        2,
+        4.5
+      ],
+      "allocation_hours": 5
+    },
+    "statistics": {
+      "job": 672064,
+      "array": "0-5",
+      "partition": "fat",
+      "dependency": "afterok:672059",
+      "estimated_minutes_each": [
+        2,
+        10
+      ]
+    },
+    "web": {
+      "job": 672065,
+      "partition": "fat",
+      "dependency": "afterok:672064",
+      "estimated_minutes": [
+        1,
+        3
+      ]
+    }
+  },
+  "all_submissions_accepted": true,
+  "job_name": "zrs-mag",
+  "monitoring": "Stopped after formal acceptance; await user completion notice.",
+  "result_page": "tests/continuous_axial_repair/assets/index.html",
+  "main_page": "tests/index.html#continuous-axial-repair",
+  "unsupported_initials": "Bauer candidate rejects if sum transverse squared over initial sites0/1 <=1e-12; not applied universally or to DMI.",
+  "physical_repair_certified": false
+}

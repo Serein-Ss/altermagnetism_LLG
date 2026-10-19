@@ -1,0 +1,17 @@
+{
+  "source": "tests/axial_symmetry_repair/assets/summary.json",
+  "all_previous_jobs_completed": ["671465_0-5", "671471_0-5", "671472"],
+  "intermediate_mean_across_all_sizes_and_three_seeds": {
+    "columns": ["increment_mean_RMSE", "increment_covariance_RMSE", "signed_variance_bias", "energy_mean_RMSE"],
+    "control": [0.09263975,0.01179947,0.01761961,0.00381529],
+    "axial_aug": [0.09110955,0.01221212,0.02246969,0.00405327]
+  },
+  "L16_full1ps_three_seed_mean": {
+    "columns": ["increment_variance_RMSE", "two_time_RMSE", "energy_mean_RMSE"],
+    "control": {"tilted":[0.02895443,0.02301208,0.00425868],"interior_domain":[0.06008859,0.04680241,0.00559084],"single_wall":[0.03106602,0.02504562,0.00359216]},
+    "axial_aug": {"tilted":[0.02387468,0.01662357,0.00450380],"interior_domain":[0.05299156,0.04431739,0.00496462],"single_wall":[0.02094699,0.02186972,0.00418678]}
+  },
+  "interpretation": "Axial augmentation improves L16 full1ps time and increment variance errors across all3families, while conditional intermediate covariance and positive variance bias worsen on overall summary. Energy tradeoff differs by family. No unique root cause established; do not call physically certified. New projection checks residual azimuth dependence without additional optimization/data.",
+  "uncertainty": "Rounded descriptive aggregate values only, not equivalence intervals; full fixed-parent bootstrap evidence stays in source reports. Three paired training seeds. No final holdout.",
+  "scientific_certification": false
+}

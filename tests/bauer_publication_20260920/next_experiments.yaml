@@ -1,0 +1,42 @@
+status: diagnostic_complete_training_not_yet_submitted
+objective: publication_quality_Bauer_path_distribution_and_literature_statistics
+diagnostic_source: results/audit.json
+frozen_model_source: tests/bauer_two_stage_20260919
+scope:
+  training_sizes: [16, 25, 32]
+  size_transfer: [50, 100]
+  physical_condition: same_as_frozen_Bauer_Figure2_config
+  final_literature_duration_ps: 10000
+  explicit_analytic_field_input_to_network: false
+findings:
+  - Conditional_increment_mean_bias_remains_after_branch_variance_correction_at_all_sizes
+  - Increment_power_is_modulated_by_position_inside_generated_1ps_blocks
+  - Initial_generator_overproduces_low_neighbor_dot_products
+next_controlled_comparison:
+  question: Does_learning_the_0.1ps_transition_remove_the_block_phase_artifact
+  control: frozen_1ps_path_generator
+  candidate: same_spatial_backbone_trained_on_0.1ps_transitions_and_composed_to_1ps
+  selection: development_parents_only
+  training_seeds: [11, 22, 33]
+  unchanged: [Hamiltonian, physical_temperature, boundary, training_parent_split, spatial_backbone]
+  report:
+    - increment_mean_and_covariance_at_each_lag
+    - increment_power_at_each_position_within_1ps
+    - adjacent_increment_correlation_across_and_within_blocks
+    - space_time_correlations_and_endpoint_distributions
+    - three_seed_stability
+    - inference_cost_including_ten_transition_calls_per_1ps
+  caveat: More_accurate_composition_is_not_automatically_faster_and_does_not_certify_10ns
+initial_generator_followup:
+  report: [per_configuration_local_tail_fractions, edge_vs_interior, finite_size_extreme_statistics]
+  avoid: selecting_only_good_looking_generated_initial_states
+final_holdout:
+  requirement: new_independent_preparation_and_branch_seeds_after_model_selection
+  reason: existing_test_outputs_are_now_exploratory_diagnostic_evidence
+publication_requirements_remaining:
+  - Independent_numerical_reference_convergence_and_source_parameter_audit
+  - Conditional_distribution_accuracy_with_parent_level_uncertainty
+  - Validated_initial_distribution_or_explicitly_fixed_preparation_scope
+  - Independent_basin_definition_and_censored_switching_statistics
+  - Large_size_long_path_literature_comparison
+  - Accuracy_matched_speed_benchmark

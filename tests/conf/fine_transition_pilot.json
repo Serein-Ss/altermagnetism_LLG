@@ -1,0 +1,16 @@
+{
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "data_sha256": "67fd62fa1261be36c69ceb5ee5ab7a21bcc59d12fe2dfb3ec11e78626574909c",
+  "theta": [0.11, 0.13],
+  "families_per_theta": 2,
+  "start_frames": [0, 50, 150],
+  "paths_per_anchor": 256,
+  "duration": 0.08,
+  "anisotropy": 0.1,
+  "damping": 0.1,
+  "cases": [{"method":"mt","dt":0.01},{"method":"mt","dt":0.005},{"method":"mt","dt":0.0025},{"method":"heun","dt":0.0025}],
+  "noise_base": 920000000,
+  "schedule_seed": 20260916,
+  "scope": "Budget-limited local-transition feasibility pilot, not a power calculation or certification. Select first member of first two distinct train initial families per theta. Three states per parent are clustered, not independent families. Explicitly project float32 states to float64 unit length and preserve originals. Distinct noise seeds across all cases/anchors; not a coupled-Brownian strong-convergence experiment. Save every integration step. No new long trajectories, development/test inputs, training or automatic expansion.",
+  "analysis": "After all 48 groups complete, compare ambient and tangent increments, drift estimates and covariance at shared lags .01,.02,.04,.08; retain parent/state/temperature, whole-noise-path resampling and finite-sample uncertainty. Integrator and lag agreement must be established before using finite-lag moments as an instantaneous generator. Do not pool time frames/sites as independent samples. No model certification from increment moments."
+}

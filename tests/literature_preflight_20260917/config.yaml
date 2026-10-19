@@ -1,0 +1,76 @@
+scope: bounded_numerical_preflight_not_training_data_or_literature_certification
+production_enabled: false
+gamma_convention:
+  value: 1.76085963023e+11
+  unit: 1/(second*tesla)
+  source: conventional_electron_value_not_explicitly_verified_in_both_papers
+  strict_physical_time_certified: false
+systems:
+  bauer:
+    doi: 10.1088/0953-8984/23/39/394204
+    source: https://arxiv.org/html/1010.4730v2
+    parameter_location: section_IV_material_estimate
+    physics:
+      J: {value: 50, unit: meV}
+      barrier_low: {value: 0.8, unit: meV}
+      barrier_high: {value: 1.0, unit: meV}
+      alpha: 0.1
+      temperature_K: 50
+    geometry: {shape: [50], periodic: [false]}
+    numerics: {duration_ps: 2, dt_fs: 0.2, save_ps: 0.1, batch: 8}
+    provenance_notes:
+      - Damping is an author estimate, not a measured Co/Pt damping.
+      - 50 K and 2 ps are project diagnostic choices, not digitized paper figure points.
+      - Time scale is hbar/J from Bauer Eq.2; no gamma assumption is used.
+      - No lifetime claim is possible from this bounded preflight.
+    certification_holds: [temperature_grid_not_paper_digitized, lifetime_statistics_not_tested]
+  miltat:
+    doi: 10.1103/PhysRevB.97.214426
+    source: https://arxiv.org/pdf/1806.03172
+    parameter_location: section_III_A_and_Fig10
+    physics:
+      J: {value: 29, unit: meV}
+      D: {value: -1.5, unit: meV}
+      K: {value: 0.4, unit: meV}
+      moment: {value: 2.1, unit: mu_B}
+      a: {value: 2.51, unit: angstrom}
+      alpha: 0.5
+      temperature_K: 25
+    geometry: {shape: [200, 116], periodic: [false, false], basis: 2}
+    numerics: {duration_ps: 1, dt_fs: 2.5, save_ps: 0.05, batch: 2}
+    preparation: {radius_nm: 1.25, width_nm: 0.4, relax_ps: 1}
+    provenance_notes:
+      - Rectangular two-site cell reconstructs a triangular lattice with 46400 spins.
+      - Full open-boundary dipoles computed by zero-padded FFT, not local shape anisotropy.
+      - Fixed window and finite initial relaxation are diagnostic choices; paper moves its window.
+      - DMI convention is explicitly E=-sum D_ij dot (s_i cross s_j), D_ij=d*(z cross rhat_ij).
+    certification_holds: [gamma_source_unresolved, dmi_sign_mapping_needs_independent_source_confirmation, prepared_texture_not_certified, moving_window_not_implemented, diffusion_statistics_not_tested]
+  hirst:
+    doi: 10.1103/PhysRevB.106.094402
+    source: https://shura.shu.ac.uk/30728/1/PhysRevB.106.094402.pdf
+    parameter_location: published_Table_I_and_Fig7
+    physics:
+      J1: {value: -5.3422, unit: mRy}
+      J2: {value: 0.6484, unit: mRy}
+      J3: {value: -0.6341, unit: mRy}
+      J4: {value: -6.8986, unit: mRy}
+      d_z: {value: -0.0663, unit: mRy}
+      d_x: {value: 0.0026, unit: mRy}
+      moment: {value: 3.8663, unit: mu_B}
+      a: {value: 3.330, unit: angstrom}
+      c: {value: 8.537, unit: angstrom}
+      alpha: 0.01
+      temperature_K: 600
+    geometry: {shape: [30, 30, 30], periodic: [true, true, true], basis: 4}
+    numerics: {duration_ps: 0.1, dt_fs: 0.05, save_ps: 0.005, batch: 2}
+    provenance_notes:
+      - Published anisotropies differ from early arXiv version; use published values only.
+      - Ordered initial AFM followed by a constant-temperature bath, as Fig7 protocol.
+      - 30^3 PBC size is explicit for equilibrium section; Fig7-specific size must be confirmed.
+      - 0.1 ps is a bounded timing/stability pilot, not full Fig7 time coverage.
+    certification_holds: [gamma_source_unresolved, fractional_coordinates_and_bond_orientation_audit_pending, Fig7_specific_size_unresolved, full_relaxation_statistics_not_tested]
+acceptance:
+  gradient_absolute: 1.0e-9
+  unit_norm_absolute: 1.0e-10
+  dt_levels: [1, 2, 4]
+  training_release: manual_only_after_source_and_independent_physical_validation

@@ -1,0 +1,10 @@
+{
+  "failed_gpu": "672113_1",
+  "cancelled_blocked_dependencies": [
+    672114,
+    672115
+  ],
+  "reason": "Old synthetic gauge continuity probe set right anchors pure polar. Correct probe initial configuration only; no model support or physical data relaxation.",
+  "old_lock": "preflight_source_lock_1.json",
+  "preserved_outputs": "failed_smoke_1"
+}

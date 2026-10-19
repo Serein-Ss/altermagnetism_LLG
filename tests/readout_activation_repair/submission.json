@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-01",
+  "gpu_array": "671364",
+  "statistics_array": "671373",
+  "aggregate": "671374",
+  "job_name": "zrs-mag",
+  "gpu_partition": "rtx4090",
+  "cpu_partition": "fat",
+  "array": "0-8",
+  "runtime_estimate_per_gpu": "2-3 hours including evaluation, queue excluded",
+  "monitoring": "Stop after submission acceptance; user will notify completion",
+  "formal_results": "tests/readout_activation_repair/assets/index.html",
+  "smoke": {
+    "gpu": "671357",
+    "statistics": "671360",
+    "aggregate": "671363",
+    "passed": true
+  }
+}

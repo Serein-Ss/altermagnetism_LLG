@@ -1,0 +1,15 @@
+{
+  "scope": "Exploratory frozen-checkpoint real-anchor restart diagnostic; not conditional-law certification or a new training run.",
+  "audit": "tests/results/independent_input_audit/summary.json",
+  "freeze": "tests/conf/stable_candidate_freeze.json",
+  "training_seeds": [11, 22, 33],
+  "start_frames": [50, 150],
+  "frames": 11,
+  "n_parents": 128,
+  "batch_size": 32,
+  "steps": 1024,
+  "latent_base": 870000000,
+  "schedule_seed": 20260915,
+  "design": "All eight primary reference groups. First128 R1 parents, one generated continuation per exact intermediate spin state. Same latent batch seeds across trained models. Different groups/start frames use distinct seeds. No future reference spins fed to model.",
+  "analysis": "Compare short-window nearest-neighbor dot, magnetization moments and increments with the matching observed continuations and autonomous rollout slices. Preserve parent pairing across times and model seeds; keep original family and theta separate. One continuation per intermediate state only supports transition averages over the state ensemble. No per-anchor diversity certification, automatic GO, retraining or seed selection."
+}

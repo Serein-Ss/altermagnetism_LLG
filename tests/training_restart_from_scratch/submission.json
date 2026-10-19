@@ -1,0 +1,22 @@
+{
+  "gpu_array": "671665_0-5",
+  "statistics_array": "671671_0-5",
+  "statistics_dependency": "afterok:671665",
+  "web_aggregate": "671673",
+  "web_dependency": "afterok:671671",
+  "mapping": "index=2*seed_index+arm_index;seeds11,22,33;armswarm,fresh",
+  "job_name": "zrs-mag",
+  "gpu_partition": "rtx4090",
+  "cpu_partition": "fat",
+  "estimated_hours_per_gpu": [
+    2,
+    3.5
+  ],
+  "allocation_hours": 5,
+  "queue_excluded": true,
+  "monitoring_stopped_after_acceptance": true,
+  "result": "tests/training_restart_from_scratch/assets/index.html",
+  "dashboard": "tests/index.html#training-restart-from-scratch",
+  "all_paths_and_checkpoints": "tests/training_restart_from_scratch/train/00-05",
+  "scientific_certification": false
+}

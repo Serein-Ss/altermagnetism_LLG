@@ -1,0 +1,16 @@
+{
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "data_sha256": "67fd62fa1261be36c69ceb5ee5ab7a21bcc59d12fe2dfb3ec11e78626574909c",
+  "freeze": "tests/conf/stable_candidate_freeze.json",
+  "seeds": [11, 22, 33],
+  "arms": ["control", "flow_film"],
+  "steps": 6000,
+  "batch_size": 8,
+  "window_frames": 11,
+  "learning_rate": 0.0001,
+  "min_lr": 0.00001,
+  "ema_decay": 0.999,
+  "random_seed": 890000000,
+  "scope": "Exploratory equal-update warm-start comparison, NOT equal compute or certification. Both arms start from identical 40000-step EMA weights with FRESH Adam; zero-initialized FiLM initially preserves the control function. Same training parents/windows/source/flow-time RNG per seed. No explicit Hamiltonian or new physical penalty. Full L25 short windows; three seeds retained; no early stopping, best-seed selection or automatic promotion.",
+  "evaluation": "After all six train runs complete, compare both EMA arms and frozen original on the same development parents and paired latent seeds. First-window and full16000 rollout, two development initial families per temperature, 128 generated paths per family, 1024 sampling steps. Report magnetization distribution/diversity, spatial and temporal correlations and increments, endpoint/crossing counts, runtime, all seeds separately. Development is reused and not a fresh certification set; independent-reference diagnostics already inspected must not be relabeled final tests. Do not judge success from loss alone."
+}

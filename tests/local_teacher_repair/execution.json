@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-14",
+  "status": "formal jobs accepted; no monitoring after acceptance",
+  "previous_campaign": {
+    "gpu": "672183_0-8",
+    "statistics": "672184_0-8",
+    "aggregate": "672185",
+    "all_completed": true,
+    "interpretation": "equal-coefficient higher frequency had small descriptive differences;8x coefficient budget slightly improved short conditional covariance but worsened full1ps increment variance and increased training cost. No equivalence or statistical pass claim"
+  },
+  "diagnosis": {
+    "file": "audit.json",
+    "whole_ess_tau0_5": 2.01959388733275,
+    "patch2_ess_tau0_5": 11.993956854233014,
+    "interpretation": "finite-library high-dimensional posterior degeneracy is measurable, not yet established as dominant model failure source; patch projection can bias joint dynamics"
+  },
+  "skills": ["karpathy-guidelines", "statistical-analysis", "experimental-design"],
+  "software": {
+    "unit_tests": 39,
+    "unit_test_seconds": 14.831,
+    "unit_passed": true,
+    "slurm_shell_syntax_passed": true,
+    "smoke_gpu": "672239_0-1",
+    "smoke_statistics": "672240_0-1",
+    "smoke_aggregate": "672241",
+    "all_smoke_completed": true,
+    "smoke_wall_per_gpu_seconds": 106,
+    "updates_per_arm": 16,
+    "auxiliary_calls_per_arm": 2,
+    "paired_teacher_records_equal": true,
+    "pairing_errors": [],
+    "max_norm_error": 1.1920928955078125e-7,
+    "max_rotation_relative_rms": 1.8661427543005316e-7,
+    "physical_accuracy_certified": false
+  },
+  "formal_jobs": {
+    "gpu_array": "672244_0-5",
+    "statistics_array": "672245_0-5",
+    "aggregate": "672246",
+    "name": "zrs-mag",
+    "gpu_partition": "rtx4090",
+    "statistics_partition": "fat",
+    "array_concurrency_cap": null,
+    "estimated_gpu_hours_per_run": [3,4],
+    "allocation_limit_hours": 6,
+    "queue_time_in_estimate": false
+  },
+  "artifacts": {
+    "smoke_page": "smoke_assets/index.html",
+    "future_formal_page": "assets/index.html",
+    "future_formal_reports": "train/00-05/report.json",
+    "future_generated_paths_and_checkpoints": "train/00-05",
+    "logs": "logs",
+    "main_page_update": "tests/index.html#local-teacher-repair after all dependencies succeed"
+  },
+  "scope": "unchanged Bauer open-chain physics/data/time/backbone; only empirical teacher scope changes. No production promotion, no new LLG data, no Git push, no physical-success or validated-speedup claim"
+}

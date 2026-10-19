@@ -1,0 +1,19 @@
+{
+  "base_config": "conf/research/runs/bauer_first_loop/20260913_v1/config.json",
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "old_checkpoints": "output/bauer_first_loop/20260913_v1",
+  "budgets": [600, 3000, 6000],
+  "seeds": [11, 22, 33],
+  "initials": 2,
+  "latents": 16,
+  "sampling_steps": 128,
+  "loss_draws": 20,
+  "threshold": 0.6,
+  "dwell": 160.0,
+  "output": "tests/output/bauer_training_budget/20260913_v1",
+  "raw": "tests/data/bauer_training_budget/20260913_v1",
+  "analysis": "tests/results/bauer_training_budget/20260913_v1",
+  "scope": "Exploratory RFM budget-only comparison; no test-set access, no automatic model selection or scale-up",
+  "controls": "Same initialization, Adam lr0.001, batch8, width24, blocks2, objective, full L25 paths and training RNG as first loop. Train continuously; evaluate only after all milestones saved.",
+  "interpretation": "Compare physical statistics and train/development losses across all three seeds. Lower training loss alone is not success. Legacy basin definition and two development initial families are not formal certification. Other model kinds are not retrained; this is not a fair-budget cross-model comparison."
+}

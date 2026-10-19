@@ -1,0 +1,16 @@
+{
+  "hypothesis": "Finite64-future whole-configuration empirical teacher degenerates toward single target early in high-dimensional transport; patch-projected teacher may improve local generalization but can bias joint laws",
+  "prior_evidence": "frequency campaign completed all9 runs; equal scalar-budget frequency change negligible,8x stronger budget modest conditional covariance gain with full increment-variance regression and6x training cost;128/512 flow outputs close",
+  "diagnostic": "8 preselected TRAIN states from real/refreshed origins,16fixed branches,tau0/0.1/0.3/0.5/0.7/0.9,radii0/1/2/4; full0.5 ESS2.0196 versus radius2 ESS11.994; full0.7 ESS1.00003 versus radius2 ESS2.15384. Finite empirical posterior,not physical modes",
+  "source": "per-seed auxiliary_frequency_repair sparse64 checkpoint128192, fixed by strategy not best-seed selection",
+  "tasks": "seeds11/22/33 x whole/patch2;2048updates to130240,Adam reset identically,lr3e-4 warmup200/cosine9e-6,clip10",
+  "fixed": "same network/parameters,nativebatch8,extra48 balanced teacher groups,replayweight0.25,local+spatial moment weight0.1 every64,matched data/RNG",
+  "teacher": "64TRAIN futures. Float64 spherical interpolation and oracle; full versus per-site open radius2 actual patch posterior conditional mean. Both calculated by both arms; switch labels only; tau>0.9 ordinary sampled CFM. Native full-chain FM retained. No assertion patch is an exact joint-law teacher",
+  "physics": "unchanged Bauer openL16/25/32, J50meV,K/J0.1,alpha0.1,theta0.11,T63.824849668K,H0. learned0.1ps transition,1ps10step free rollout,LLG0.25/0.125fs,saved0.1ps,flow128/512 separate",
+  "data": "reuse TRAIN bank and frozen native split, no LLG regeneration, no DEV or probe/fine futures for loss, all descendants/source groups stay in existing split",
+  "evaluation": "independent development conditional/path statistics; TRAIN-origin untouched noise separate; compare whole-branch uncertainty,energy,increment covariance,time correlation,fulljoint and distance-resolved spatial covariance. Reused DEV not final test. Joint v2 approximate CI known undercoverage retained, no equivalence inference",
+  "decision": "if only TRAIN/local moments improve but DEV/fulljoint or long-range worsen, reject broad repair claim; reduced posterior degeneracy or software pass not physical accuracy. Perseed report,not best model or automatic promotion",
+  "preflight": "CPU exact old-label comparison/fullradius oracle/openedge/tangent/SO3/reversal/late_tau tests; GPU2arms16updates2auxcalls, reduced evaluation",
+  "budget": "six formal GPU tasks3-4h each inclusive3h evaluation;6h allocation;fat statistics3-10min each;web<2min. rtx4090 jobzrs-mag,no concurrency cap;no monitoring long tasks after acceptance",
+  "scientific_certification": false
+}

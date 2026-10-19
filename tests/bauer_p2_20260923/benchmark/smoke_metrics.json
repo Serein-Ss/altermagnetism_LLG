@@ -1,0 +1,240 @@
+{
+  "split": "dev",
+  "steps": 64,
+  "parents": [
+    {
+      "parent_id": "L16_parent145",
+      "L": 16,
+      "family": "positive",
+      "metrics": {
+        "mz_mean": {
+          "rmse": 0.21045275341398126,
+          "mean_difference": -0.19852308806877195,
+          "mean_difference_ci95": [
+            -0.22672740132523264,
+            -0.15626852347191766
+          ]
+        },
+        "mz_var": {
+          "rmse": 0.009705857817468435,
+          "mean_difference": 0.006947609620312988,
+          "mean_difference_ci95": [
+            -0.0067518831837984124,
+            0.01744711386740282
+          ]
+        },
+        "energy_mean": {
+          "rmse": 0.22256903247274643,
+          "mean_difference": 0.21076377095906437,
+          "mean_difference_ci95": [
+            0.19788366890039716,
+            0.2189062270190499
+          ]
+        },
+        "energy_var": {
+          "rmse": 0.015441695969844377,
+          "mean_difference": 0.013879941931674217,
+          "mean_difference_ci95": [
+            0.01109603955390749,
+            0.015016379225813501
+          ]
+        },
+        "temporal": {
+          "rmse": 0.08763551970537042,
+          "mean_difference": -0.07526041818484418,
+          "mean_difference_ci95": [
+            -0.10250252762381484,
+            -0.03481183080136888
+          ]
+        },
+        "spatial": {
+          "rmse": 0.325026043864493,
+          "mean_difference": -0.2993620067199404,
+          "mean_difference_ci95": [
+            -0.3171450281603419,
+            -0.27241594035196615
+          ]
+        },
+        "increment_mean": {
+          "rmse": 0.2330825066191878,
+          "mean_difference": -0.010726204724081374,
+          "mean_difference_ci95": [
+            -0.019554623601060635,
+            -0.0064467973608437505
+          ]
+        },
+        "increment_cov": {
+          "rmse": 0.1509838429079127,
+          "mean_difference": 0.04747063668413235,
+          "mean_difference_ci95": [
+            0.03338379844130358,
+            0.050363375838905176
+          ]
+        }
+      },
+      "generation_seconds": 0.4008708670735359,
+      "max_norm_error": 1.1920928955078125e-07,
+      "anchor_error": 3.527307212980446e-08
+    },
+    {
+      "parent_id": "L16_parent146",
+      "L": 16,
+      "family": "positive",
+      "metrics": {
+        "mz_mean": {
+          "rmse": 0.26771755083169,
+          "mean_difference": -0.25438023116905906,
+          "mean_difference_ci95": [
+            -0.304637643191154,
+            -0.24228684404564857
+          ]
+        },
+        "mz_var": {
+          "rmse": 0.025875820912951444,
+          "mean_difference": 0.019692298102332237,
+          "mean_difference_ci95": [
+            0.012020621196008637,
+            0.025567467896318183
+          ]
+        },
+        "energy_mean": {
+          "rmse": 0.25715571502395634,
+          "mean_difference": 0.24396437822557304,
+          "mean_difference_ci95": [
+            0.2229732136598212,
+            0.27862953420908587
+          ]
+        },
+        "energy_var": {
+          "rmse": 0.019640956059740578,
+          "mean_difference": 0.01781590961656772,
+          "mean_difference_ci95": [
+            0.01421665236440863,
+            0.01965122317803906
+          ]
+        },
+        "temporal": {
+          "rmse": 0.05176143266618734,
+          "mean_difference": -0.040111092471524806,
+          "mean_difference_ci95": [
+            -0.09372158151473893,
+            -0.018323872003514506
+          ]
+        },
+        "spatial": {
+          "rmse": 0.366534036567568,
+          "mean_difference": -0.34019643178288417,
+          "mean_difference_ci95": [
+            -0.3848233590599912,
+            -0.3167043141183353
+          ]
+        },
+        "increment_mean": {
+          "rmse": 0.22491496302830502,
+          "mean_difference": -0.010602375823320168,
+          "mean_difference_ci95": [
+            -0.015831584871750883,
+            -0.005603804152626332
+          ]
+        },
+        "increment_cov": {
+          "rmse": 0.17119518871441242,
+          "mean_difference": 0.05939991903508138,
+          "mean_difference_ci95": [
+            0.048637267730591266,
+            0.06571004931523215
+          ]
+        }
+      },
+      "generation_seconds": 0.24542630091309547,
+      "max_norm_error": 1.1920928955078125e-07,
+      "anchor_error": 7.844742999640886e-08
+    },
+    {
+      "parent_id": "L16_parent148",
+      "L": 16,
+      "family": "negative",
+      "metrics": {
+        "mz_mean": {
+          "rmse": 0.13147300926726946,
+          "mean_difference": 0.12398649671895741,
+          "mean_difference_ci95": [
+            0.10622110615269248,
+            0.1466276022529986
+          ]
+        },
+        "mz_var": {
+          "rmse": 0.015463276440890222,
+          "mean_difference": 0.011413574288114932,
+          "mean_difference_ci95": [
+            0.00797639358008143,
+            0.016451822885596403
+          ]
+        },
+        "energy_mean": {
+          "rmse": 0.18928733222707186,
+          "mean_difference": 0.17823293075032728,
+          "mean_difference_ci95": [
+            0.16529114730582753,
+            0.19903385134078033
+          ]
+        },
+        "energy_var": {
+          "rmse": 0.017026522633700754,
+          "mean_difference": 0.015143556145716512,
+          "mean_difference_ci95": [
+            0.011602414443429302,
+            0.017491547529929673
+          ]
+        },
+        "temporal": {
+          "rmse": 0.044187091593154426,
+          "mean_difference": -0.0034490395042946083,
+          "mean_difference_ci95": [
+            -0.024037697588375644,
+            0.019382777109738025
+          ]
+        },
+        "spatial": {
+          "rmse": 0.2549309416695929,
+          "mean_difference": -0.23711853190161308,
+          "mean_difference_ci95": [
+            -0.2577208411584683,
+            -0.21121136550077
+          ]
+        },
+        "increment_mean": {
+          "rmse": 0.25206190947524476,
+          "mean_difference": 0.002053825813061394,
+          "mean_difference_ci95": [
+            -0.002947565357155213,
+            0.0057404353051883055
+          ]
+        },
+        "increment_cov": {
+          "rmse": 0.12665016808077842,
+          "mean_difference": 0.03403593043630893,
+          "mean_difference_ci95": [
+            0.023725652314358782,
+            0.041549737613133145
+          ]
+        }
+      },
+      "generation_seconds": 0.24495449289679527,
+      "max_norm_error": 1.1920928955078125e-07,
+      "anchor_error": 6.501997507069035e-08
+    }
+  ],
+  "mean_parent_RMSE": {
+    "mz_mean": 0.20321443783764692,
+    "mz_var": 0.01701498505710337,
+    "energy_mean": 0.22300402657459154,
+    "energy_var": 0.017369724887761902,
+    "temporal": 0.06119468132157072,
+    "spatial": 0.3154970073672179,
+    "increment_mean": 0.2366864597075792,
+    "increment_cov": 0.14960973323436785
+  },
+  "inference": "fixed-parent per-parent whole-branch bootstrap, pointwise scalar CIs; no population CI or automatic equivalence",
+  "status": "DIAGNOSTIC_NOT_PHYSICAL_CERTIFICATION"
+}

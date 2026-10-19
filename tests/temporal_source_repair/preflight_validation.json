@@ -1,0 +1,20 @@
+{
+  "environment": "zrs-mag via ../run_zrs_mag.sh",
+  "unit_tests_passed": 14,
+  "test_modules": ["tests.temporal_source_repair.test_source", "tests.transport_path_repair.test_sampler", "tests.sampling_balance_repair.test_sampler", "tests.velocity_target_repair.test_target"],
+  "smoke_gpu_job": "671088",
+  "smoke_gpu_array": "0-1",
+  "smoke_gpu_elapsed_seconds_each": 45,
+  "smoke_statistics_job": "671090",
+  "smoke_statistics_array": "0-1",
+  "smoke_statistics_elapsed_seconds_each": 11,
+  "all_smoke_jobs_completed": true,
+  "paired_initial_weights": true,
+  "paired_target_raw_noise_tau_streams": true,
+  "paired_data_selection": true,
+  "checkpoint_reload_tested": true,
+  "evaluation_does_not_advance_training_rng": true,
+  "html_json_smoke_aggregation_passed": true,
+  "scientific_certification": false,
+  "production_promoted": false
+}

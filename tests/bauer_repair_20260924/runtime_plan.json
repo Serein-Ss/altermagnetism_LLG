@@ -1,0 +1,409 @@
+{
+  "tasks": [
+    {
+      "index": 0,
+      "task": {
+        "domain": "bauer",
+        "arm": "relational_global",
+        "seed": 33,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.277043251817425,
+      "minutes_with_margin": 20.298677853271368
+    },
+    {
+      "index": 1,
+      "task": {
+        "domain": "mixture",
+        "arm": "local_fixed",
+        "seed": 22,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.3092961070438225,
+      "minutes_with_margin": 9.556732992678882
+    },
+    {
+      "index": 2,
+      "task": {
+        "domain": "mixture",
+        "arm": "baseline",
+        "seed": 22,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.696387830873331,
+      "minutes_with_margin": 10.253498095571995
+    },
+    {
+      "index": 3,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_shared",
+        "seed": 33,
+        "updates": 24000
+      },
+      "minutes_estimate": 12.087989115466675,
+      "minutes_with_margin": 21.758380407840015
+    },
+    {
+      "index": 4,
+      "task": {
+        "domain": "mixture",
+        "arm": "relational_shared",
+        "seed": 22,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.597828073551257,
+      "minutes_with_margin": 10.076090532392264
+    },
+    {
+      "index": 5,
+      "task": {
+        "domain": "bauer",
+        "arm": "local_fixed",
+        "seed": 33,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.021456038330992,
+      "minutes_with_margin": 19.838620868995786
+    },
+    {
+      "index": 6,
+      "task": {
+        "domain": "mixture",
+        "arm": "temporal_fixed",
+        "seed": 22,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.300609701623519,
+      "minutes_with_margin": 9.541097462922334
+    },
+    {
+      "index": 7,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_shared",
+        "seed": 22,
+        "updates": 24000
+      },
+      "minutes_estimate": 12.087989115466675,
+      "minutes_with_margin": 21.758380407840015
+    },
+    {
+      "index": 8,
+      "task": {
+        "domain": "mixture",
+        "arm": "temporal_fixed",
+        "seed": 33,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.300609701623519,
+      "minutes_with_margin": 9.541097462922334
+    },
+    {
+      "index": 9,
+      "task": {
+        "domain": "mixture",
+        "arm": "baseline",
+        "seed": 33,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.696387830873331,
+      "minutes_with_margin": 10.253498095571995
+    },
+    {
+      "index": 10,
+      "task": {
+        "domain": "bauer",
+        "arm": "relational_shared",
+        "seed": 33,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.597650209193429,
+      "minutes_with_margin": 20.87577037654817
+    },
+    {
+      "index": 11,
+      "task": {
+        "domain": "mixture",
+        "arm": "relational_global",
+        "seed": 33,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.435647864391407,
+      "minutes_with_margin": 9.784166155904531
+    },
+    {
+      "index": 12,
+      "task": {
+        "domain": "bauer",
+        "arm": "relational_shared",
+        "seed": 22,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.597650209193429,
+      "minutes_with_margin": 20.87577037654817
+    },
+    {
+      "index": 13,
+      "task": {
+        "domain": "mixture",
+        "arm": "relational_global",
+        "seed": 22,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.435647864391407,
+      "minutes_with_margin": 9.784166155904531
+    },
+    {
+      "index": 14,
+      "task": {
+        "domain": "bauer",
+        "arm": "baseline",
+        "seed": 11,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.763803846140702,
+      "minutes_with_margin": 21.174846923053266
+    },
+    {
+      "index": 15,
+      "task": {
+        "domain": "bauer",
+        "arm": "local_fixed",
+        "seed": 11,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.021456038330992,
+      "minutes_with_margin": 19.838620868995786
+    },
+    {
+      "index": 16,
+      "task": {
+        "domain": "mixture",
+        "arm": "temporal_shared",
+        "seed": 33,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.84125168522199,
+      "minutes_with_margin": 10.514253033399582
+    },
+    {
+      "index": 17,
+      "task": {
+        "domain": "bauer",
+        "arm": "relational_global",
+        "seed": 11,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.277043251817425,
+      "minutes_with_margin": 20.298677853271368
+    },
+    {
+      "index": 18,
+      "task": {
+        "domain": "mixture",
+        "arm": "relational_shared",
+        "seed": 11,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.597828073551257,
+      "minutes_with_margin": 10.076090532392264
+    },
+    {
+      "index": 19,
+      "task": {
+        "domain": "bauer",
+        "arm": "relational_global",
+        "seed": 22,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.277043251817425,
+      "minutes_with_margin": 20.298677853271368
+    },
+    {
+      "index": 20,
+      "task": {
+        "domain": "mixture",
+        "arm": "relational_global",
+        "seed": 11,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.435647864391407,
+      "minutes_with_margin": 9.784166155904531
+    },
+    {
+      "index": 21,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_fixed",
+        "seed": 33,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.001855377232035,
+      "minutes_with_margin": 19.803339679017665
+    },
+    {
+      "index": 22,
+      "task": {
+        "domain": "bauer",
+        "arm": "local_fixed",
+        "seed": 22,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.021456038330992,
+      "minutes_with_margin": 19.838620868995786
+    },
+    {
+      "index": 23,
+      "task": {
+        "domain": "mixture",
+        "arm": "local_fixed",
+        "seed": 33,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.3092961070438225,
+      "minutes_with_margin": 9.556732992678882
+    },
+    {
+      "index": 24,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_fixed",
+        "seed": 11,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.001855377232035,
+      "minutes_with_margin": 19.803339679017665
+    },
+    {
+      "index": 25,
+      "task": {
+        "domain": "mixture",
+        "arm": "relational_shared",
+        "seed": 33,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.597828073551257,
+      "minutes_with_margin": 10.076090532392264
+    },
+    {
+      "index": 26,
+      "task": {
+        "domain": "mixture",
+        "arm": "temporal_fixed",
+        "seed": 11,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.300609701623519,
+      "minutes_with_margin": 9.541097462922334
+    },
+    {
+      "index": 27,
+      "task": {
+        "domain": "mixture",
+        "arm": "temporal_shared",
+        "seed": 11,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.84125168522199,
+      "minutes_with_margin": 10.514253033399582
+    },
+    {
+      "index": 28,
+      "task": {
+        "domain": "mixture",
+        "arm": "baseline",
+        "seed": 11,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.696387830873331,
+      "minutes_with_margin": 10.253498095571995
+    },
+    {
+      "index": 29,
+      "task": {
+        "domain": "mixture",
+        "arm": "local_fixed",
+        "seed": 11,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.3092961070438225,
+      "minutes_with_margin": 9.556732992678882
+    },
+    {
+      "index": 30,
+      "task": {
+        "domain": "mixture",
+        "arm": "temporal_shared",
+        "seed": 22,
+        "updates": 12000
+      },
+      "minutes_estimate": 5.84125168522199,
+      "minutes_with_margin": 10.514253033399582
+    },
+    {
+      "index": 31,
+      "task": {
+        "domain": "bauer",
+        "arm": "baseline",
+        "seed": 22,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.763803846140702,
+      "minutes_with_margin": 21.174846923053266
+    },
+    {
+      "index": 32,
+      "task": {
+        "domain": "bauer",
+        "arm": "baseline",
+        "seed": 33,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.763803846140702,
+      "minutes_with_margin": 21.174846923053266
+    },
+    {
+      "index": 33,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_shared",
+        "seed": 11,
+        "updates": 24000
+      },
+      "minutes_estimate": 12.087989115466675,
+      "minutes_with_margin": 21.758380407840015
+    },
+    {
+      "index": 34,
+      "task": {
+        "domain": "bauer",
+        "arm": "relational_shared",
+        "seed": 11,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.597650209193429,
+      "minutes_with_margin": 20.87577037654817
+    },
+    {
+      "index": 35,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_fixed",
+        "seed": 22,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.001855377232035,
+      "minutes_with_margin": 19.803339679017665
+    }
+  ],
+  "aggregate_gpu_hours": 5.096540955044329,
+  "aggregate_gpu_hours_with_margin": 9.173773719079794,
+  "time_limit_minutes": 45,
+  "report_minutes": [
+    3,
+    8
+  ],
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "warning": "estimates exclude queue; no array concurrency cap; no physical accuracy or speedup claim"
+}

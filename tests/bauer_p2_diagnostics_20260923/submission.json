@@ -1,0 +1,10 @@
+{
+  "array": "670505",
+  "report": "670506",
+  "estimated_seconds_per_seed": [
+    120,
+    300
+  ],
+  "estimate_excludes_queue": true,
+  "retraining": false
+}

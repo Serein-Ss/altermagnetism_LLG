@@ -32,7 +32,7 @@ BASELINE=altermagnetism_LLG/output/production/production_v1/baseline/best_checkp
 OUT=altermagnetism_LLG/output/diagnostics/diagnostics_v2/current_checkpoint_128
 
 bash run_zrs_mag.sh -c 'import torch; assert torch.cuda.is_available(); print(torch.cuda.get_device_name(0))'
-bash run_zrs_mag.sh -m pytest   altermagnetism_LLG/scripts/tests/test_path_evaluation.py   altermagnetism_LLG/scripts/tests/test_size_equivariant_model.py   altermagnetism_LLG/scripts/tests/test_scalable_path_dataset.py -q
+bash run_zrs_mag.sh -m pytest   altermagnetism_LLG/tests/unit/test_path_evaluation.py   altermagnetism_LLG/tests/unit/test_size_equivariant_model.py   altermagnetism_LLG/tests/unit/test_scalable_path_dataset.py -q
 
 for index in "${!SIZES[@]}"; do
   bash run_zrs_mag.sh -m altermagnetism_LLG.scripts.analysis.evaluate     --input "${INPUTS[$index]}"     --calibration-input "${CALIBRATION[@]}"     --flow-checkpoint "$FLOW"     --baseline-checkpoint "$BASELINE"     --integration-steps 128     --device cuda     --output-dir "$OUT/L${SIZES[$index]}"

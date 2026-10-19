@@ -1,0 +1,56 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "axial_aug",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "axial_aug",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "axial_aug",
+      "updates": 6000
+    }
+  ],
+  "hypothesis": "Fixed-checkpoint TRAIN transport probes show about15percent average axial-spin covariance defect. Test whether symmetry-derived augmentation improves independent conditional dynamics.",
+  "distinction": "JointSO3 spin+crystalframe covariance already implemented;this tests spin-only SO2 about fixed easyz for auditedBauer H=-JsumSi.Sj-KsumSiz^2,noDMI/dipolar/transversefield. Not arbitrary spinSO3. Transport-map covariance failure alone does not prove a generated distribution is wrong.",
+  "source": "Per-seed local_condition baseline step36000 restoredweights/Adam. Twoarms control/axial_aug,6000updates,cos3e-5->3e-6. No newnetwork or head,no posthoc sampler guidance.",
+  "augmentation": "Uniform global spinz angle perpath shared across allsites andframes. After pathinterpolate rotate draft,targetvelocity,actualS0 together;geometry remainsfixed. Applies to native and restartloss. Independent augmentationRNG consumed identically inbotharms;underlying sample/latent/tau streams paired. No clean futureextra condition.",
+  "physics": "Bauer J50meV,kappa.1,alpha.1,theta.11,T63.824849668K,open. OriginalLLGdt.25/.125fs,learnedlag.1ps,ten transitions1ps. Energy,deterministicdrift,GaussianHeunstep axialcovariance checked. MT discrete weaknoise is NOT exactly rotation invariant atfinite dt;rotated-reference audit uses6DEVstates,2angles,128branches perbase/fine. Rotatedfinite-dttraining approximates physicalSDE,not exact discretekernel.",
+  "data": "Same nativebatch8+48TRAINrestart balanced eachupdateweight1. Rotated samples correlated with originals,not new independentdata or naturaloccupancy. SourceIDs/splits unchanged;no developmentfutures trained.",
+  "evaluation": "Final42000,frozen physical evaluator48seenrestart,72independentDEVintermediate,18dev1psmidpoint128/512,24oldseen. Report unrotated realDEV primary;perfamily/L/time mean,covariance,variance,energy,space,time and100wholebranchbootstrap. Fixedtransportprobe separately;lower symmetrydefect not sufficient physicalaccuracy.",
+  "decisions": "Physicalgains required beyond structuralprobe. No unvalidated2D/DMIaugmentation,no productionpromotion. Reuseddev not finaltest. This intervention uses verified symmetryknowledge,not Hamiltoniancoefficients or analyticfield as networkinputs.",
+  "budget": "2GPU smoke1-4min;6formalGPU2-3h eachincludingfullsampling;6fatstats3-6min;aggregate<3min. rtx4090,zrs-mag;no longmonitoring.",
+  "skills": "karpathy-guidelines;experimental-design pairedcontrols;matplotlib PNG"
+}

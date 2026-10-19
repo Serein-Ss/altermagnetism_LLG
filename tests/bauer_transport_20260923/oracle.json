@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "steps": 16,
+      "rmse": 0.0032042449750907683,
+      "norm_error": 2.220446049250313e-16,
+      "anchor_error": 0.0
+    },
+    {
+      "steps": 32,
+      "rmse": 0.0016034934868269174,
+      "norm_error": 2.220446049250313e-16,
+      "anchor_error": 0.0
+    },
+    {
+      "steps": 64,
+      "rmse": 0.0008020701891481647,
+      "norm_error": 2.220446049250313e-16,
+      "anchor_error": 0.0
+    },
+    {
+      "steps": 128,
+      "rmse": 0.0004011135224257418,
+      "norm_error": 2.220446049250313e-16,
+      "anchor_error": 0.0
+    },
+    {
+      "steps": 256,
+      "rmse": 0.0002005760628812838,
+      "norm_error": 2.220446049250313e-16,
+      "anchor_error": 0.0
+    }
+  ],
+  "scope": "Analytic rotational pushforward on a correlated path ensemble. Checks sampler and time indexing only, NOT trained flow recovery or LLG."
+}

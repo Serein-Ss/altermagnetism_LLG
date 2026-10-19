@@ -1,0 +1,9 @@
+{
+  "job_id": "670309",
+  "job_name": "zrs-mag",
+  "partition": "fat",
+  "dependency": "afterok:670302",
+  "purpose": "Read-only whole-library content and frozen-seed audit; retain all outcomes",
+  "unit_tests_passed": 1,
+  "scientific_certification": false
+}

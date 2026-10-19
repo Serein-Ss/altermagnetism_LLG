@@ -1,0 +1,12 @@
+{
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "data_sha256": "67fd62fa1261be36c69ceb5ee5ab7a21bcc59d12fe2dfb3ec11e78626574909c",
+  "freeze": "tests/conf/stable_candidate_freeze.json",
+  "seeds": [11, 22, 33],
+  "tau": [0.0, 0.05, 0.25, 0.5, 0.75, 0.9, 0.95, 0.99],
+  "windows_per_parent": 4,
+  "window_frames": 11,
+  "batch_size": 32,
+  "random_seed": 880000000,
+  "scope": "Descriptive supervised velocity-risk audit of frozen EMA models, not irreducible-error estimation or physical-distribution certification. All train/development parents; uniform random windows. Same windows and source paths across model seeds and flow times. Preserve parent and window axes; no pseudo-independent frame counts, best-seed selection or automatic training."
+}

@@ -1,0 +1,9 @@
+{
+  "hypothesis": "Conditional teacher vs sampled labels produced practically unchanged physical diagnostics. Test whether low LR and/or inherited Adam state limits adaptation; no root cause established.",
+  "design": "2x2 restored/reset Adam x peak3e-5/3e-4, 3seeds11/22/33. Start conditional_teacher indices1/3/5 step54000.512updates cosinefloor10%; identical data, labels,augmentation,RNG and sampler across arms. Allconditional teachers; 48TRAINstates from24parents,64futures each, native8 +restart3x16 perupdate.",
+  "diagnostic": "Fixed fresh TRAIN transport probes tau.05-.85 before/after, relativeweightchange, optimizersteps. Diagnostic finite-library risk not heldoutphysics. Restored Adam step54000->54512;reset0->512, logicalmodelstep54512.",
+  "evaluation": "Save48seenTRAINstate64generated independent futures and72DEVintermediate128generated futures at0.1ps,128flowsteps. Compare independent fine/probe LLG references with existing wholebranch bootstrap100. No full1ps longrollout in this bounded screen; no larger-size or long-time certification. Existing DEV repeatedly used is not finalholdout.",
+  "decision": "Report allarms,seeds and physical metrics; never choose from TRAINrisk alone. Lower risk without better physicalstats means optimization response is insufficient. Check inputRNG equality, structureconstraints and failureflags before interpretation. No automaticpromotion, furtherfullrollout only after review.",
+  "runtime": "smoke4arms estimate1-3min each; formal12GPU estimate10-25min each including sampling,60min allocation; CPUstatistics estimate2-5min each. Queue excluded. rtx4090,zrs-mag; stopmonitoring formaljobs on submission.",
+  "scope": "tests only; no new reference generation,noHamiltonian input,no losschange,no oldcheckpoint time relabel,no frozen modifications."
+}

@@ -1,0 +1,26 @@
+{
+  "gpu_array": "671646_0-5",
+  "statistics_array": "671652_0-5",
+  "statistics_dependency": "afterok:671646",
+  "web_aggregate": "671653",
+  "web_dependency": "afterok:671652",
+  "mapping": "index=2*seed_index+arm_index;seeds11,22,33;armscontrol,deep",
+  "job_name": "zrs-mag",
+  "gpu_partition": "rtx4090",
+  "cpu_partition": "fat",
+  "estimated_hours_control": [
+    1.5,
+    2.5
+  ],
+  "estimated_hours_deep": [
+    3,
+    4
+  ],
+  "allocation_hours": 6,
+  "queue_excluded": true,
+  "monitoring_stopped_after_acceptance": true,
+  "result": "tests/depth_capacity_repair/assets/index.html",
+  "dashboard": "tests/index.html#depth-capacity-repair",
+  "all_paths_and_checkpoints": "tests/depth_capacity_repair/train/00-05",
+  "scientific_certification": false
+}

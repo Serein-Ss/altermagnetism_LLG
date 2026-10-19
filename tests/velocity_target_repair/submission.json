@@ -1,0 +1,23 @@
+{
+  "train_job": "671054",
+  "train_array": "0-5",
+  "train_partition": "rtx4090",
+  "statistics_job": "671060",
+  "statistics_array": "0-5",
+  "statistics_partition": "fat",
+  "statistics_dependency": "afterany:671054",
+  "aggregate_job": "671061",
+  "aggregate_partition": "fat",
+  "aggregate_dependency": "afterany:671060",
+  "job_name": "zrs-mag",
+  "estimated_gpu_minutes_each": [25, 50],
+  "estimated_statistics_minutes_each": [10, 25],
+  "estimated_aggregation_minutes_max": 3,
+  "queue_time_included": false,
+  "monitor_after_submission": false,
+  "new_reference_generation": false,
+  "task_map": "protocol.json:tasks",
+  "report_destination": "tests/velocity_target_repair/assets/index.html",
+  "dashboard_destination": "tests/index.html",
+  "scientific_certification": false
+}

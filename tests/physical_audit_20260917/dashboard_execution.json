@@ -1,0 +1,13 @@
+{
+  "scope": "parameter and physics comparison, deterministic controls, 3D spin visualization; no production dataset or model training",
+  "cold_controls": {"array": 670087, "status": "COMPLETED", "trajectories": {"bauer": 2, "miltat": 1, "hirst": 2}},
+  "strong_initial_perturbation_first_attempt": {"array": 670090, "status": "FAILED", "reason": "local variable shadowing before data output; corrected and tested"},
+  "strong_initial_perturbation": {"array": 670093, "status": "COMPLETED", "trajectories": {"bauer": 1, "miltat": 1, "hirst": 1}},
+  "rotation_angle_degrees": [20, 50],
+  "perturbation_is_applied_only_at_initial_time": true,
+  "thermal_noise_during_cold_evolution": "exactly zero",
+  "partition": "rtx4090",
+  "job_name": "zrs-mag",
+  "original_data_preserved": true,
+  "production_enabled": false
+}

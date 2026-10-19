@@ -1,0 +1,5290 @@
+{
+  "rows": [
+    {
+      "time_ps": 0.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9473087886824924,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.010810432592498033,
+          "stored_norm_error": 2.220446049250313e-16,
+          "energy_per_spin": -2.9923866946101714,
+          "mean_sz": -0.9714294714767104,
+          "core_sites": 148,
+          "all_threshold_sites_center_nm": [
+            24.96432432432433,
+            24.9008869502439
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9473087886824924,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.010810432592498033,
+          "stored_norm_error": 2.220446049250313e-16,
+          "energy_per_spin": -2.9923866946101714,
+          "mean_sz": -0.9714294714767104,
+          "core_sites": 148,
+          "all_threshold_sites_center_nm": [
+            24.96432432432433,
+            24.9008869502439
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9473087886824924,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.010810432592498033,
+          "stored_norm_error": 2.220446049250313e-16,
+          "energy_per_spin": -2.9923866946101714,
+          "mean_sz": -0.9714294714767104,
+          "core_sites": 148,
+          "all_threshold_sites_center_nm": [
+            24.96432432432433,
+            24.9008869502439
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.0,
+      "spin_rmse_middle_fine": 0.0
+    },
+    {
+      "time_ps": 0.1,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.926510985137781,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06199096127893662,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9567714852187934,
+          "mean_sz": -0.9613327926855426,
+          "core_sites": 166,
+          "all_threshold_sites_center_nm": [
+            24.98432831325302,
+            24.90223181352969
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9272102273648477,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06803292820267734,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9565167804680783,
+          "mean_sz": -0.9612635809038694,
+          "core_sites": 166,
+          "all_threshold_sites_center_nm": [
+            25.000204819277112,
+            24.895684452796257
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9291480175202413,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0675209812301061,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561177993213543,
+          "mean_sz": -0.9612040017957453,
+          "core_sites": 166,
+          "all_threshold_sites_center_nm": [
+            24.98432831325302,
+            24.90223181352969
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012609721433972905,
+      "spin_rmse_middle_fine": 0.004882949192466779
+    },
+    {
+      "time_ps": 0.2,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9589855603244942,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07849903184230651,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9563047816117622,
+          "mean_sz": -0.9599652871138744,
+          "core_sites": 149,
+          "all_threshold_sites_center_nm": [
+            24.912171140939602,
+            24.895702029603594
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9554430135350575,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0773602039640633,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956034026996897,
+          "mean_sz": -0.9598793889435379,
+          "core_sites": 147,
+          "all_threshold_sites_center_nm": [
+            24.94035034013606,
+            24.876567941049398
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9566650771869476,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08125822162526133,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955620569788625,
+          "mean_sz": -0.9598131328168968,
+          "core_sites": 147,
+          "all_threshold_sites_center_nm": [
+            24.94035034013606,
+            24.876567941049398
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012579462564091974,
+      "spin_rmse_middle_fine": 0.00490107218976693
+    },
+    {
+      "time_ps": 0.30000000000000004,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.996070679665419,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07491616915356292,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561215121772,
+          "mean_sz": -0.9595330473638786,
+          "core_sites": 145,
+          "all_threshold_sites_center_nm": [
+            24.881889655172422,
+            24.85540689573267
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.001487707331358,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07698094292499459,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955784433237208,
+          "mean_sz": -0.9594278657091532,
+          "core_sites": 146,
+          "all_threshold_sites_center_nm": [
+            24.893698630136996,
+            24.85787120231387
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.001918548573193,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07555054043428114,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553505177039088,
+          "mean_sz": -0.9593589374086267,
+          "core_sites": 145,
+          "all_threshold_sites_center_nm": [
+            24.881024137931046,
+            24.850909536221984
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012669260955296108,
+      "spin_rmse_middle_fine": 0.0049229897433162965
+    },
+    {
+      "time_ps": 0.4,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9587792124495786,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06974595444996984,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956049254828358,
+          "mean_sz": -0.9589004517476688,
+          "core_sites": 140,
+          "all_threshold_sites_center_nm": [
+            24.898303571428578,
+            24.80374080135394
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9556178385524995,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06810473324704372,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955700974267797,
+          "mean_sz": -0.958796394164739,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            24.897551094890513,
+            24.794730841020357
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.953493073661129,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06733011866552414,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553026117573684,
+          "mean_sz": -0.9587259894407054,
+          "core_sites": 136,
+          "all_threshold_sites_center_nm": [
+            24.89052573529412,
+            24.804425798338237
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012647233156656737,
+      "spin_rmse_middle_fine": 0.0049524476979187
+    },
+    {
+      "time_ps": 0.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9723696497145911,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0646070784722212,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955890096512107,
+          "mean_sz": -0.9588380776403373,
+          "core_sites": 160,
+          "all_threshold_sites_center_nm": [
+            24.902337500000005,
+            24.775016594479133
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9733485849749636,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06675220268161125,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955619902897123,
+          "mean_sz": -0.9587601580928536,
+          "core_sites": 158,
+          "all_threshold_sites_center_nm": [
+            24.921281645569625,
+            24.765317384015418
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9712753449557987,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06744857363413478,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955201146357219,
+          "mean_sz": -0.9586848638976605,
+          "core_sites": 157,
+          "all_threshold_sites_center_nm": [
+            24.912149681528664,
+            24.77075914188502
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012698375030520532,
+      "spin_rmse_middle_fine": 0.004931127259124107
+    },
+    {
+      "time_ps": 0.6000000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9459759791719309,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0682337905959855,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955762297361793,
+          "mean_sz": -0.9586888288323302,
+          "core_sites": 151,
+          "all_threshold_sites_center_nm": [
+            24.83653311258279,
+            24.86826358572459
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9469500447830393,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07596689769636981,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553679592412694,
+          "mean_sz": -0.9586054011190915,
+          "core_sites": 154,
+          "all_threshold_sites_center_nm": [
+            24.7976590909091,
+            24.883491056313474
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.946181642063637,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07788698315636562,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.954952829427906,
+          "mean_sz": -0.9585354302203513,
+          "core_sites": 154,
+          "all_threshold_sites_center_nm": [
+            24.81721753246754,
+            24.877845020564127
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012678679130622175,
+      "spin_rmse_middle_fine": 0.004939111287822654
+    },
+    {
+      "time_ps": 0.7000000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9398099621723368,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08106970516633524,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561121945424413,
+          "mean_sz": -0.9581582654635177,
+          "core_sites": 154,
+          "all_threshold_sites_center_nm": [
+            24.80580844155845,
+            24.87784502056413
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9361805549963367,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07535635071713043,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955837245050566,
+          "mean_sz": -0.9580901630571763,
+          "core_sites": 153,
+          "all_threshold_sites_center_nm": [
+            24.81208823529413,
+            24.85574983164307
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9356125197390821,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07387981131692437,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554255421425686,
+          "mean_sz": -0.9580148118039608,
+          "core_sites": 153,
+          "all_threshold_sites_center_nm": [
+            24.81208823529413,
+            24.85574983164307
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012721237114376546,
+      "spin_rmse_middle_fine": 0.004939560797277886
+    },
+    {
+      "time_ps": 0.8,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9385789051119077,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06585341348408487,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956132932927252,
+          "mean_sz": -0.958058049491071,
+          "core_sites": 146,
+          "all_threshold_sites_center_nm": [
+            24.963325342465755,
+            24.835538423921758
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9402057302510937,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06282611437414924,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558687575266727,
+          "mean_sz": -0.9579789003466563,
+          "core_sites": 146,
+          "all_threshold_sites_center_nm": [
+            24.963325342465755,
+            24.835538423921758
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9392768455429,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06368792716817796,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554704304667236,
+          "mean_sz": -0.95790616069722,
+          "core_sites": 146,
+          "all_threshold_sites_center_nm": [
+            24.94785273972603,
+            24.853404646635447
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.01266782036389374,
+      "spin_rmse_middle_fine": 0.004945717551735438
+    },
+    {
+      "time_ps": 0.9,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9535305555448547,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06073117178136031,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9563846315760722,
+          "mean_sz": -0.9581862262085294,
+          "core_sites": 157,
+          "all_threshold_sites_center_nm": [
+            24.972101910828023,
+            24.8773685239165
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9528219325911712,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06500091212658499,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560803639152806,
+          "mean_sz": -0.9581060045022897,
+          "core_sites": 156,
+          "all_threshold_sites_center_nm": [
+            24.96001923076923,
+            24.875202965373735
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9526536593339942,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06705338623345238,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556726518541305,
+          "mean_sz": -0.9580350615090909,
+          "core_sites": 157,
+          "all_threshold_sites_center_nm": [
+            24.970503184713372,
+            24.8773685239165
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012657451561989386,
+      "spin_rmse_middle_fine": 0.004949067408942861
+    },
+    {
+      "time_ps": 1.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9960049240008556,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.061059949006727364,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956077877343178,
+          "mean_sz": -0.9580438470162463,
+          "core_sites": 139,
+          "all_threshold_sites_center_nm": [
+            24.998877697841728,
+            24.808599844710173
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9966482905865484,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06185907411690254,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557856961560702,
+          "mean_sz": -0.9579603677583594,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.008084507042255,
+            24.780450903887886
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9982757664852759,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06256360411691031,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553510333757487,
+          "mean_sz": -0.9578884371891461,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.008084507042255,
+            24.780450903887886
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012652232228149205,
+      "spin_rmse_middle_fine": 0.004938173168459812
+    },
+    {
+      "time_ps": 1.1,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9673110914200964,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06880507871844285,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559342423667507,
+          "mean_sz": -0.958150164555689,
+          "core_sites": 150,
+          "all_threshold_sites_center_nm": [
+            24.952746666666673,
+            24.765959412131227
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9653429678779127,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.074264591175349,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955641636311783,
+          "mean_sz": -0.9580650600763633,
+          "core_sites": 149,
+          "all_threshold_sites_center_nm": [
+            24.955127516778525,
+            24.74835565368857
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9649700515256519,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07732316094459217,
+          "stored_norm_error": 2.220446049250313e-16,
+          "energy_per_spin": -2.955243206865681,
+          "mean_sz": -0.958005224607397,
+          "core_sites": 151,
+          "all_threshold_sites_center_nm": [
+            24.947903973509938,
+            24.74734120417896
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012762842281637642,
+      "spin_rmse_middle_fine": 0.004960781383507371
+    },
+    {
+      "time_ps": 1.2000000000000002,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9537936106138718,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0700257639240932,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559780127071122,
+          "mean_sz": -0.9579382150107109,
+          "core_sites": 139,
+          "all_threshold_sites_center_nm": [
+            24.936579136690654,
+            24.710078551832165
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9532816427360882,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.061608529458420117,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557055412125774,
+          "mean_sz": -0.9578573725700054,
+          "core_sites": 140,
+          "all_threshold_sites_center_nm": [
+            24.932367857142864,
+            24.704370572165423
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9510303647419707,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06147127058617056,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553029521609355,
+          "mean_sz": -0.9577966828013548,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            24.93561267605634,
+            24.70084975198511
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012761694773865462,
+      "spin_rmse_middle_fine": 0.004953397522983428
+    },
+    {
+      "time_ps": 1.3,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9792020057707693,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07860398312123637,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9563175146488496,
+          "mean_sz": -0.9583931242636042,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            24.86479720279721,
+            24.698366230301215
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9831042313538014,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0745241813086037,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560953969948787,
+          "mean_sz": -0.9583296045567822,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            24.848122377622392,
+            24.6877256244659
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9847960189180169,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07399748018607279,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955687454005776,
+          "mean_sz": -0.9582755657134112,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            24.849000000000007,
+            24.676357089861177
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012713347675000767,
+      "spin_rmse_middle_fine": 0.004961253252579856
+    },
+    {
+      "time_ps": 1.4000000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9379943979312259,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06896884774932109,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557711784169873,
+          "mean_sz": -0.9579803017806552,
+          "core_sites": 131,
+          "all_threshold_sites_center_nm": [
+            25.038687022900756,
+            24.720714983669595
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.934608035806188,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06821178185085158,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955475704620113,
+          "mean_sz": -0.9578953418942917,
+          "core_sites": 131,
+          "all_threshold_sites_center_nm": [
+            25.049225190839692,
+            24.72237431478677
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9311802988005653,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06844082958991828,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9550236536442496,
+          "mean_sz": -0.9578303061091542,
+          "core_sites": 131,
+          "all_threshold_sites_center_nm": [
+            25.049225190839692,
+            24.72237431478677
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012711750878972786,
+      "spin_rmse_middle_fine": 0.004970190306339064
+    },
+    {
+      "time_ps": 1.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9777075346560196,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.10206944729476335,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561781791958035,
+          "mean_sz": -0.9583823884943359,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.068377952755892,
+            24.694871228159585
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9755020228654812,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.10018410336882533,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558446104559164,
+          "mean_sz": -0.9582944123780688,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.06936614173227,
+            24.672620512470225
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9748162499608398,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.10181676438036592,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554531165672584,
+          "mean_sz": -0.958249816128596,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            25.071566406249985,
+            24.683652267544577
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012681923014577443,
+      "spin_rmse_middle_fine": 0.0049306135190756595
+    },
+    {
+      "time_ps": 1.6,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9714294094966821,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06934512559500869,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956176765172879,
+          "mean_sz": -0.9581277506563047,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            25.048220279720283,
+            24.757649605669364
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9686028833684253,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06992035241588232,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558725107169916,
+          "mean_sz": -0.9580437638541504,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.04166901408451,
+            24.74983507623297
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9697648103292588,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0709482023493299,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554527114550573,
+          "mean_sz": -0.9579835655717084,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.04166901408451,
+            24.74983507623297
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.01270890004985556,
+      "spin_rmse_middle_fine": 0.00496381980727501
+    },
+    {
+      "time_ps": 1.7000000000000002,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9958754142216681,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06672116843484917,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9562254681075193,
+          "mean_sz": -0.9578193306262089,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            25.09648951048951,
+            24.76525003840887
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9948057491586977,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07019186181058669,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955893058082368,
+          "mean_sz": -0.9577291867796417,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            25.090346153846152,
+            24.75764960566936
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9953760372306653,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07294527777083339,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9555227746334922,
+          "mean_sz": -0.9576864702820906,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.08232394366197,
+            24.765142990060422
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012732871485240176,
+      "spin_rmse_middle_fine": 0.004957028524600683
+    },
+    {
+      "time_ps": 1.8,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9638863695898383,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09252549276582486,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95625618244129,
+          "mean_sz": -0.9571839816327344,
+          "core_sites": 139,
+          "all_threshold_sites_center_nm": [
+            25.101805755395677,
+            24.792961544253348
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9615983953985039,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08692447436827473,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559645046200678,
+          "mean_sz": -0.9571004779680373,
+          "core_sites": 139,
+          "all_threshold_sites_center_nm": [
+            25.09999999999999,
+            24.774195583705158
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9622987971754577,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08534296843071007,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9555942171417398,
+          "mean_sz": -0.957058994559094,
+          "core_sites": 140,
+          "all_threshold_sites_center_nm": [
+            25.092828571428566,
+            24.78355622355003
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012678839407276368,
+      "spin_rmse_middle_fine": 0.004956388793712255
+    },
+    {
+      "time_ps": 1.9000000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9745786781020734,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07267925357968828,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956021604765922,
+          "mean_sz": -0.9566441791696665,
+          "core_sites": 147,
+          "all_threshold_sites_center_nm": [
+            25.129027210884352,
+            24.77157856199605
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9767176390292769,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06953392889099985,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955661716201719,
+          "mean_sz": -0.9565589656069553,
+          "core_sites": 145,
+          "all_threshold_sites_center_nm": [
+            25.106924137931028,
+            24.75646498649755
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9739599795715743,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06797341534372763,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95525582519792,
+          "mean_sz": -0.9565084883569133,
+          "core_sites": 145,
+          "all_threshold_sites_center_nm": [
+            25.106924137931028,
+            24.75646498649755
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012632778810765126,
+      "spin_rmse_middle_fine": 0.004953596244596609
+    },
+    {
+      "time_ps": 2.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9928277052728407,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07694603918412271,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561867511110598,
+          "mean_sz": -0.9574213953030288,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.174200729926994,
+            24.794730841020357
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9941848161135804,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07185963597619734,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559220200659535,
+          "mean_sz": -0.9573509777787207,
+          "core_sites": 135,
+          "all_threshold_sites_center_nm": [
+            25.14090370370369,
+            24.780450903887886
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.995258948515402,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07190279051488875,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95549499696332,
+          "mean_sz": -0.9573043163361888,
+          "core_sites": 135,
+          "all_threshold_sites_center_nm": [
+            25.14090370370369,
+            24.780450903887886
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.01270335711535827,
+      "spin_rmse_middle_fine": 0.004949925078146447
+    },
+    {
+      "time_ps": 2.1,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9405889919286263,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06153816341400011,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561750813685967,
+          "mean_sz": -0.9576971437503261,
+          "core_sites": 139,
+          "all_threshold_sites_center_nm": [
+            24.99707194244604,
+            24.689748761238288
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9402423144190255,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06482773393988361,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955891437072831,
+          "mean_sz": -0.9576144982156498,
+          "core_sites": 141,
+          "all_threshold_sites_center_nm": [
+            25.0118829787234,
+            24.69874355674927
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9412532919244851,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0657564587655087,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554974473797504,
+          "mean_sz": -0.9575694633380625,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.01692253521126,
+            24.69166500368863
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012700396818623146,
+      "spin_rmse_middle_fine": 0.004946367201067194
+    },
+    {
+      "time_ps": 2.2,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9985716665888209,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.05944035461821992,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955981615955033,
+          "mean_sz": -0.9575183355995741,
+          "core_sites": 130,
+          "all_threshold_sites_center_nm": [
+            25.03145769230768,
+            24.73530433341522
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9974055909256498,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.05856401148243853,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556546900857423,
+          "mean_sz": -0.9574374566703266,
+          "core_sites": 130,
+          "all_threshold_sites_center_nm": [
+            25.03145769230768,
+            24.73530433341522
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9964064933679923,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.05929941279143045,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552257662575037,
+          "mean_sz": -0.9573906421469908,
+          "core_sites": 131,
+          "all_threshold_sites_center_nm": [
+            25.023358778625944,
+            24.727352308138293
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.0127382035258217,
+      "spin_rmse_middle_fine": 0.004949564225967985
+    },
+    {
+      "time_ps": 2.3000000000000003,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9648036559440878,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0710404480412565,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956298352969735,
+          "mean_sz": -0.95694625066748,
+          "core_sites": 154,
+          "all_threshold_sites_center_nm": [
+            25.038064935064934,
+            24.66188415315158
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9636999411337518,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07831401524832961,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956009714661441,
+          "mean_sz": -0.9568660497510645,
+          "core_sites": 153,
+          "all_threshold_sites_center_nm": [
+            25.048323529411764,
+            24.64832259669481
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9636325917502171,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07909396935603545,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955595115285234,
+          "mean_sz": -0.9568276861341869,
+          "core_sites": 154,
+          "all_threshold_sites_center_nm": [
+            25.038879870129872,
+            24.643534536966197
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012710639170097189,
+      "spin_rmse_middle_fine": 0.0049534970638426545
+    },
+    {
+      "time_ps": 2.4000000000000004,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9725453988495918,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08066109726399609,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955641479540804,
+          "mean_sz": -0.9568274383432741,
+          "core_sites": 145,
+          "all_threshold_sites_center_nm": [
+            25.071437931034485,
+            24.724983469922737
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9695351898143939,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08830316959114369,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955323726138423,
+          "mean_sz": -0.9567350889604321,
+          "core_sites": 147,
+          "all_threshold_sites_center_nm": [
+            25.071826530612245,
+            24.73756791807736
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9700025369867425,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08727580979473581,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.954897674195733,
+          "mean_sz": -0.9566856876225757,
+          "core_sites": 148,
+          "all_threshold_sites_center_nm": [
+            25.082192567567567,
+            24.740795132526753
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012718303409772721,
+      "spin_rmse_middle_fine": 0.0049467776208799025
+    },
+    {
+      "time_ps": 2.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9645936063572507,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06623454928892394,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559977514634577,
+          "mean_sz": -0.9563296890105091,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.048700729927003,
+            24.68842464236749
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9642539918701453,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0651374164598527,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556296735708596,
+          "mean_sz": -0.9562477267545368,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.048700729927003,
+            24.68842464236749
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9646921017303618,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0673461156416858,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955207300313493,
+          "mean_sz": -0.9562068591300119,
+          "core_sites": 136,
+          "all_threshold_sites_center_nm": [
+            25.057551470588237,
+            24.68135467349308
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012711534907577137,
+      "spin_rmse_middle_fine": 0.004955873399991
+    },
+    {
+      "time_ps": 2.6,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9369883400672975,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0777023108903991,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559094447748993,
+          "mean_sz": -0.9565226230491981,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.026874015748028,
+            24.5476741859069
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9363968186418603,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0780730592039668,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556454073321023,
+          "mean_sz": -0.9564448655982766,
+          "core_sites": 126,
+          "all_threshold_sites_center_nm": [
+            25.033265873015864,
+            24.537200863686817
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9364465478251787,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07706511712748908,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552301819748905,
+          "mean_sz": -0.9564091668325182,
+          "core_sites": 125,
+          "all_threshold_sites_center_nm": [
+            25.04277199999999,
+            24.535254863365207
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012734726723686819,
+      "spin_rmse_middle_fine": 0.004998946757786337
+    },
+    {
+      "time_ps": 2.7,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9402933622445169,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08508876389955906,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559227000505475,
+          "mean_sz": -0.9569186342928409,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.06244881889762,
+            24.749642220625695
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.938203084999208,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08210194784736238,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955653248485237,
+          "mean_sz": -0.9568382974231846,
+          "core_sites": 130,
+          "all_threshold_sites_center_nm": [
+            25.07200384615383,
+            24.735304333415215
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9396081606099127,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08180505830871729,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552681402463272,
+          "mean_sz": -0.9568031842926701,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.078596899224788,
+            24.746749760267743
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012739095669558057,
+      "spin_rmse_middle_fine": 0.004977712805769432
+    },
+    {
+      "time_ps": 2.8000000000000003,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9669700513855305,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.059810788867318096,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956032788046622,
+          "mean_sz": -0.9571183524163791,
+          "core_sites": 135,
+          "all_threshold_sites_center_nm": [
+            25.047011111111107,
+            24.675790130089787
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9659264056736537,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.05993830503042144,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556946181381356,
+          "mean_sz": -0.9570344369293305,
+          "core_sites": 134,
+          "all_threshold_sites_center_nm": [
+            25.042869402985072,
+            24.665275988060703
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9656922346421681,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.05979022546899789,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552533790303817,
+          "mean_sz": -0.9569845361014948,
+          "core_sites": 133,
+          "all_threshold_sites_center_nm": [
+            25.047157894736838,
+            24.652969359863135
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012757626372863845,
+      "spin_rmse_middle_fine": 0.004987849227429875
+    },
+    {
+      "time_ps": 2.9000000000000004,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 1.0426068407922833,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07638607512621735,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561578550945264,
+          "mean_sz": -0.9574151405105883,
+          "core_sites": 133,
+          "all_threshold_sites_center_nm": [
+            25.059424812030066,
+            24.579422315233476
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.0419323045648152,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07406114492272398,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95579913464603,
+          "mean_sz": -0.9573158587678331,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            25.066723484848477,
+            24.577899371380035
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.0427269794823542,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07459385737588921,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553748548210494,
+          "mean_sz": -0.9572657850355938,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            25.05436363636363,
+            24.563078527537996
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012722311476267756,
+      "spin_rmse_middle_fine": 0.004960562194151424
+    },
+    {
+      "time_ps": 3.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9603870992459397,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07257087736176157,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955907945526198,
+          "mean_sz": -0.9579173087313541,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            25.004924242424238,
+            24.602600777783433
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9625028072724182,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07628138187500955,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955585801944879,
+          "mean_sz": -0.9578248982399272,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.00660465116278,
+            24.60183484270116
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9620482470076599,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07752188064506554,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9551507812508517,
+          "mean_sz": -0.9577700433971399,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            24.997050781249992,
+            24.595344739652436
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012696228880571281,
+      "spin_rmse_middle_fine": 0.004946737505233975
+    },
+    {
+      "time_ps": 3.1,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9660026302656223,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.061748906061621714,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956043423656587,
+          "mean_sz": -0.9581194964121384,
+          "core_sites": 139,
+          "all_threshold_sites_center_nm": [
+            25.038604316546763,
+            24.66472748050737
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9659115474536366,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06418379067339693,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557830450953295,
+          "mean_sz": -0.9580246161569294,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.06152554744525,
+            24.66621140682809
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9654654983819493,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06428580094027589,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553765639248253,
+          "mean_sz": -0.9579755521545745,
+          "core_sites": 136,
+          "all_threshold_sites_center_nm": [
+            25.061242647058815,
+            24.655781452746037
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012703935424146742,
+      "spin_rmse_middle_fine": 0.004959948923225426
+    },
+    {
+      "time_ps": 3.2,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9402824634232915,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0812525232068839,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559287981095737,
+          "mean_sz": -0.958171680242601,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            24.967299180327856,
+            24.621875973599852
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9450760536541026,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08727702458625411,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955638948192641,
+          "mean_sz": -0.9580554912346113,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            24.98890163934425,
+            24.609403788071578
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9439582093530638,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08717590025463354,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552677091355264,
+          "mean_sz": -0.9580258670982752,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            24.98890163934425,
+            24.609403788071578
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012710092665422418,
+      "spin_rmse_middle_fine": 0.004964175003118699
+    },
+    {
+      "time_ps": 3.3000000000000003,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9747496543690332,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06826004687768474,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561369127269876,
+          "mean_sz": -0.9580727263344345,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.018968503936996,
+            24.65379298381
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9749616657815345,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07156903673748771,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558737960439676,
+          "mean_sz": -0.9579659591785694,
+          "core_sites": 131,
+          "all_threshold_sites_center_nm": [
+            25.0329389312977,
+            24.61783645440476
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9727551636104792,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07662996522116834,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955408285078367,
+          "mean_sz": -0.9579146233260234,
+          "core_sites": 130,
+          "all_threshold_sites_center_nm": [
+            25.02373461538461,
+            24.621601859632197
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012702272206643977,
+      "spin_rmse_middle_fine": 0.00498594430533007
+    },
+    {
+      "time_ps": 3.4000000000000004,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 1.0172409821349502,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06469554520722387,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955934569527298,
+          "mean_sz": -0.957918833811151,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.076182481751818,
+            24.64717149065146
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.018506531701838,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06485914623741912,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556941324156583,
+          "mean_sz": -0.9578213252583381,
+          "core_sites": 136,
+          "all_threshold_sites_center_nm": [
+            25.081544117647045,
+            24.636601537185754
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.0161679447123944,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06944799238382027,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553029014799796,
+          "mean_sz": -0.9577738236528034,
+          "core_sites": 138,
+          "all_threshold_sites_center_nm": [
+            25.080902173913035,
+            24.65916341853324
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012749315794170935,
+      "spin_rmse_middle_fine": 0.004980419026869466
+    },
+    {
+      "time_ps": 3.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 1.027338932954138,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0663015414543802,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561650915144204,
+          "mean_sz": -0.9584381408941615,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            25.085738636363622,
+            24.673411476139837
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.0293053008009434,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07368943753429084,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558519715844622,
+          "mean_sz": -0.9583339844050249,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.112647286821684,
+            24.677662415846466
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.0306268709900586,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07102376135573628,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955429003988411,
+          "mean_sz": -0.9582860403214256,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.112647286821684,
+            24.677662415846466
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012692835769284623,
+      "spin_rmse_middle_fine": 0.004968412302883508
+    },
+    {
+      "time_ps": 3.6,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9562359303369831,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06768637185435514,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956127633335816,
+          "mean_sz": -0.959114407782001,
+          "core_sites": 126,
+          "all_threshold_sites_center_nm": [
+            25.03326587301585,
+            24.59240654656933
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9552706120380715,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06903903949136556,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955806991145622,
+          "mean_sz": -0.9590192968539574,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.07628346456691,
+            24.571636495110827
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.955875331722127,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06701366586472952,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95541009935154,
+          "mean_sz": -0.9589934454504258,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.07373255813951,
+            24.559708413175983
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012767019377386541,
+      "spin_rmse_middle_fine": 0.004973453845149037
+    },
+    {
+      "time_ps": 3.7,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9565971714080738,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07295045241826967,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561806709499208,
+          "mean_sz": -0.9589783198840126,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            24.97552868852458,
+            24.746597828882578
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9500094794023288,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07906131272810889,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955900132906239,
+          "mean_sz": -0.9588689666986492,
+          "core_sites": 121,
+          "all_threshold_sites_center_nm": [
+            24.97449999999999,
+            24.73553925588171
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.951075021483198,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07940596501262051,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955478112002329,
+          "mean_sz": -0.9588356699718978,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            24.9734713114754,
+            24.721653457826033
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012690921375930139,
+      "spin_rmse_middle_fine": 0.00496345370723176
+    },
+    {
+      "time_ps": 3.8000000000000003,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9549473757730916,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07401811380865082,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560648722097733,
+          "mean_sz": -0.9588903666805326,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            25.060781249999984,
+            24.600439404723133
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9532194079760309,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06905341624333684,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557706663594643,
+          "mean_sz": -0.9587921588067002,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.072759689922464,
+            24.60520495706317
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.952598310988324,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06714202526407435,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955367582232645,
+          "mean_sz": -0.9587671223462371,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            25.072546874999983,
+            24.610628734864534
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012734916661513558,
+      "spin_rmse_middle_fine": 0.0049756607106674075
+    },
+    {
+      "time_ps": 3.9000000000000004,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9600853644327896,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07692721594911753,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956214869111282,
+          "mean_sz": -0.9589508297413448,
+          "core_sites": 130,
+          "all_threshold_sites_center_nm": [
+            25.035319230769222,
+            24.598192526794517
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9542272700622626,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0737881590670702,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559262556562693,
+          "mean_sz": -0.9588632143492901,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            25.034397727272722,
+            24.558138246257318
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9559965674682294,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07811193923045882,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9555297623123367,
+          "mean_sz": -0.9588418883183463,
+          "core_sites": 131,
+          "all_threshold_sites_center_nm": [
+            25.036770992366403,
+            24.56805652088952
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012721756734473856,
+      "spin_rmse_middle_fine": 0.0049614378517774714
+    },
+    {
+      "time_ps": 4.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9910200262296593,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07128103913922695,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561079129190824,
+          "mean_sz": -0.9586709629294908,
+          "core_sites": 135,
+          "all_threshold_sites_center_nm": [
+            25.036785185185174,
+            24.65807830683165
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9964280020852908,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07269951926891352,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558892673978603,
+          "mean_sz": -0.9586010170194884,
+          "core_sites": 136,
+          "all_threshold_sites_center_nm": [
+            25.03817279411764,
+            24.631806558295683
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9960862699518598,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07454191062730776,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554636576487687,
+          "mean_sz": -0.9585667196716362,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.03129562043795,
+            24.623371595430665
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012692792269576146,
+      "spin_rmse_middle_fine": 0.0049594834073605374
+    },
+    {
+      "time_ps": 4.1000000000000005,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9154845014312473,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06876366784055318,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561176914147875,
+          "mean_sz": -0.9584513818306695,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.17512323943661,
+            24.674826298478433
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9172068478487817,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06243304389243514,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558275248263204,
+          "mean_sz": -0.958376183646914,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.187496478873225,
+            24.659518384650973
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9174277319750715,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06241473614847523,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554284439356695,
+          "mean_sz": -0.9583599684606368,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.187496478873225,
+            24.659518384650973
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.01266741631707327,
+      "spin_rmse_middle_fine": 0.004970989261653184
+    },
+    {
+      "time_ps": 4.2,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 1.0185383541149315,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06612935596853317,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9562659465705217,
+          "mean_sz": -0.9579140901513502,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.18061313868611,
+            24.555145229131064
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.0170710106833936,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06058187404437156,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95599932108479,
+          "mean_sz": -0.9578627543505961,
+          "core_sites": 136,
+          "all_threshold_sites_center_nm": [
+            25.18766544117645,
+            24.577463464208208
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.014885238598529,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.05859583020385995,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955608981438171,
+          "mean_sz": -0.9578392999978602,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.18244525547443,
+            24.567838506582152
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012713973397485442,
+      "spin_rmse_middle_fine": 0.004981205461561688
+    },
+    {
+      "time_ps": 4.3,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9638108355716862,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.062220240072816506,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95608549906084,
+          "mean_sz": -0.9577723925357108,
+          "core_sites": 141,
+          "all_threshold_sites_center_nm": [
+            25.145393617021263,
+            24.711076741223028
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9640513784189373,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06576256483762337,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558390981967864,
+          "mean_sz": -0.9577270383186649,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.135352112676046,
+            24.703911334750597
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9631293763433771,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06523631782429502,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955433286191567,
+          "mean_sz": -0.95770131266041,
+          "core_sites": 141,
+          "all_threshold_sites_center_nm": [
+            25.14005319148935,
+            24.695660260630834
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012719536701933345,
+      "spin_rmse_middle_fine": 0.0049525388639442055
+    },
+    {
+      "time_ps": 4.4,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9767876218176408,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09525818004216578,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956103660471448,
+          "mean_sz": -0.957512605235822,
+          "core_sites": 141,
+          "all_threshold_sites_center_nm": [
+            25.039475177304965,
+            24.613952913492223
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9765957785185488,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09740530399080605,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558017782448656,
+          "mean_sz": -0.957462873015335,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            25.049975524475524,
+            24.599560604687625
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9770287573444711,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09313270006406854,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554095930915523,
+          "mean_sz": -0.957439495400018,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            25.034178321678322,
+            24.611721297070833
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012753250684015064,
+      "spin_rmse_middle_fine": 0.004968731692228564
+    },
+    {
+      "time_ps": 4.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9139446210936043,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07467362273669395,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955917374550352,
+          "mean_sz": -0.9574815283907234,
+          "core_sites": 141,
+          "all_threshold_sites_center_nm": [
+            24.993191489361706,
+            24.641702578558167
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9141103526495054,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07261863429057251,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556009643123007,
+          "mean_sz": -0.9574255972587449,
+          "core_sites": 141,
+          "all_threshold_sites_center_nm": [
+            25.024343971631207,
+            24.63399433826207
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9144926146258257,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06984791607952105,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552042340127933,
+          "mean_sz": -0.9574020272577329,
+          "core_sites": 140,
+          "all_threshold_sites_center_nm": [
+            25.015735714285718,
+            24.640711519091525
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012685141153257723,
+      "spin_rmse_middle_fine": 0.004954951175570522
+    },
+    {
+      "time_ps": 4.6000000000000005,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9492081232082117,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09123966574313651,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956110668376204,
+          "mean_sz": -0.9574792970702314,
+          "core_sites": 134,
+          "all_threshold_sites_center_nm": [
+            25.022264925373136,
+            24.675009079539056
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.949622480788046,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09070866253150378,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955827650694598,
+          "mean_sz": -0.9574294236075004,
+          "core_sites": 134,
+          "all_threshold_sites_center_nm": [
+            25.034440298507462,
+            24.663653806147643
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9509508373682751,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0910109237284514,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955428691539785,
+          "mean_sz": -0.9574085926175367,
+          "core_sites": 134,
+          "all_threshold_sites_center_nm": [
+            25.034440298507462,
+            24.663653806147643
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.01274156956038166,
+      "spin_rmse_middle_fine": 0.0049606387849427435
+    },
+    {
+      "time_ps": 4.7,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9197474199757865,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07157276262195894,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956006507331245,
+          "mean_sz": -0.9574865925334398,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            24.99924647887324,
+            24.716157665812563
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9177884423594292,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07306466517627455,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556851420341177,
+          "mean_sz": -0.9574293827866207,
+          "core_sites": 141,
+          "all_threshold_sites_center_nm": [
+            25.043035460992904,
+            24.700285204808495
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9184009471397382,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07180363363489507,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955267857901996,
+          "mean_sz": -0.9574197184874259,
+          "core_sites": 140,
+          "all_threshold_sites_center_nm": [
+            25.034560714285714,
+            24.69194929351686
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012781278188441823,
+      "spin_rmse_middle_fine": 0.004961444054050045
+    },
+    {
+      "time_ps": 4.800000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.8953731130479917,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08578637923036495,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560730805603264,
+          "mean_sz": -0.9576112434449414,
+          "core_sites": 138,
+          "all_threshold_sites_center_nm": [
+            25.07908333333333,
+            24.722169904431755
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.8949108100575134,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08985757114123392,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955790730341684,
+          "mean_sz": -0.9575616635774897,
+          "core_sites": 139,
+          "all_threshold_sites_center_nm": [
+            25.089165467625893,
+            24.699131741512385
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.8957643515636466,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09053234540721247,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955367383673305,
+          "mean_sz": -0.9575427097738525,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.09541970802919,
+            24.699531260137196
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012754731578321054,
+      "spin_rmse_middle_fine": 0.004958482581280754
+    },
+    {
+      "time_ps": 4.9,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9429015903639513,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07739645777288151,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561490747551202,
+          "mean_sz": -0.9577531539739002,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            25.011360139860145,
+            24.690765797561703
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9421009530402229,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07717869480223133,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955796714639919,
+          "mean_sz": -0.957679265594492,
+          "core_sites": 148,
+          "all_threshold_sites_center_nm": [
+            25.006722972972973,
+            24.657077392986594
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9425675772464928,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07716655559931093,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95539322908563,
+          "mean_sz": -0.9576664552635721,
+          "core_sites": 148,
+          "all_threshold_sites_center_nm": [
+            25.006722972972973,
+            24.657077392986594
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012741870524038754,
+      "spin_rmse_middle_fine": 0.005012563960712869
+    },
+    {
+      "time_ps": 5.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.913517928901439,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.11215549026189588,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559721402524914,
+          "mean_sz": -0.9574371918941866,
+          "core_sites": 142,
+          "all_threshold_sites_center_nm": [
+            25.12828169014084,
+            24.657987593268228
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9179360473285497,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.10372737872882923,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556899441061244,
+          "mean_sz": -0.9573629123501918,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            25.148269230769227,
+            24.64212302802886
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9178808684040133,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.10262122641012565,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552701084845396,
+          "mean_sz": -0.957354652286408,
+          "core_sites": 143,
+          "all_threshold_sites_center_nm": [
+            25.148269230769227,
+            24.64212302802886
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012728042642523443,
+      "spin_rmse_middle_fine": 0.004962847322687753
+    },
+    {
+      "time_ps": 5.1000000000000005,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9972329882480899,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06609091291616398,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559587700409766,
+          "mean_sz": -0.9578495203894896,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            25.094295454545442,
+            24.652003590590223
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9930878413611776,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07322213680250586,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955706663985067,
+          "mean_sz": -0.9577755388473232,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            25.106655303030287,
+            24.633889225894396
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9922265219665415,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07662413258494233,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95529067369108,
+          "mean_sz": -0.9577615504228475,
+          "core_sites": 133,
+          "all_threshold_sites_center_nm": [
+            25.104718045112765,
+            24.621916163241725
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.01276484827667948,
+      "spin_rmse_middle_fine": 0.004964727222345777
+    },
+    {
+      "time_ps": 5.2,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9769537033658338,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.05985621600798097,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956109125826892,
+          "mean_sz": -0.9582515429783606,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            24.994707627118625,
+            24.638606217625668
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9816598678306916,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06632160295839841,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557868884914718,
+          "mean_sz": -0.9581616048347052,
+          "core_sites": 116,
+          "all_threshold_sites_center_nm": [
+            25.009120689655152,
+            24.623043321013828
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.983117890585914,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06886521260686895,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955364467372202,
+          "mean_sz": -0.9581511245058514,
+          "core_sites": 117,
+          "all_threshold_sites_center_nm": [
+            25.017405982905967,
+            24.629962335645654
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012679216017406509,
+      "spin_rmse_middle_fine": 0.004982714344095897
+    },
+    {
+      "time_ps": 5.300000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9892872139307686,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06861457478727838,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955879053426439,
+          "mean_sz": -0.9579015428740937,
+          "core_sites": 111,
+          "all_threshold_sites_center_nm": [
+            25.02424774774772,
+            24.633577676624448
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9870704064225785,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06952655282164742,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955615079329045,
+          "mean_sz": -0.9578094436748349,
+          "core_sites": 115,
+          "all_threshold_sites_center_nm": [
+            25.054165217391276,
+            24.598992224500147
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9893847291808092,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06832876380401591,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955171300509481,
+          "mean_sz": -0.9577967647113869,
+          "core_sites": 114,
+          "all_threshold_sites_center_nm": [
+            25.041653508771905,
+            24.60312080739192
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012729617661434302,
+      "spin_rmse_middle_fine": 0.00495496006261781
+    },
+    {
+      "time_ps": 5.4,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.92243623917303,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07246579657436993,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956074123276942,
+          "mean_sz": -0.9581395652736485,
+          "core_sites": 121,
+          "all_threshold_sites_center_nm": [
+            25.019099173553702,
+            24.532538606893798
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9204413090371273,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08181920346066399,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557201665978874,
+          "mean_sz": -0.958041456819917,
+          "core_sites": 124,
+          "all_threshold_sites_center_nm": [
+            25.018020161290313,
+            24.512241439520686
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9204690430560469,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08390710739706372,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552914105479506,
+          "mean_sz": -0.9580207682403817,
+          "core_sites": 124,
+          "all_threshold_sites_center_nm": [
+            25.018020161290313,
+            24.512241439520686
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012703513593961312,
+      "spin_rmse_middle_fine": 0.004967371817672775
+    },
+    {
+      "time_ps": 5.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9605554710117085,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0694451339021429,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560164585007076,
+          "mean_sz": -0.9574874731071256,
+          "core_sites": 124,
+          "all_threshold_sites_center_nm": [
+            24.944137096774188,
+            24.580608557888795
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9604196564581756,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0648203853311778,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955693628802283,
+          "mean_sz": -0.9573895947101997,
+          "core_sites": 124,
+          "all_threshold_sites_center_nm": [
+            24.9572943548387,
+            24.575349548783556
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9598478851833592,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0664852149273129,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955302170755643,
+          "mean_sz": -0.9573805704784569,
+          "core_sites": 123,
+          "all_threshold_sites_center_nm": [
+            24.94899186991869,
+            24.58605284373758
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012702774839744444,
+      "spin_rmse_middle_fine": 0.004952762648360238
+    },
+    {
+      "time_ps": 5.6000000000000005,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9979671159498403,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07276840534573016,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956124054225311,
+          "mean_sz": -0.9573917528336611,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            24.8806220472441,
+            24.59559880431475
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9965082337077503,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06834766964090429,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955859781404493,
+          "mean_sz": -0.9573072965926517,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            24.901291666666673,
+            24.568018808818675
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9960866359185256,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06556407560191105,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955453603194027,
+          "mean_sz": -0.957301800789753,
+          "core_sites": 133,
+          "all_threshold_sites_center_nm": [
+            24.913165413533843,
+            24.564712906307545
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012739974346819527,
+      "spin_rmse_middle_fine": 0.004947832974985511
+    },
+    {
+      "time_ps": 5.7,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9649980778633952,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07104881310602712,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956017567377444,
+          "mean_sz": -0.9574710502611996,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.067895348837194,
+            24.552968184451956
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9684023615558769,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07438585043661998,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95568366075235,
+          "mean_sz": -0.957379052978342,
+          "core_sites": 130,
+          "all_threshold_sites_center_nm": [
+            25.06717692307691,
+            24.56642271794338
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9699020375744762,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07376531763724556,
+          "stored_norm_error": 2.220446049250313e-16,
+          "energy_per_spin": -2.955264572505757,
+          "mean_sz": -0.9573769973141772,
+          "core_sites": 131,
+          "all_threshold_sites_center_nm": [
+            25.06263740458014,
+            24.556441203069298
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012709866869470642,
+      "spin_rmse_middle_fine": 0.004961684195660967
+    },
+    {
+      "time_ps": 5.800000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9359372037179222,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08309351722269609,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9562540471408543,
+          "mean_sz": -0.9575749326195416,
+          "core_sites": 126,
+          "all_threshold_sites_center_nm": [
+            25.069123015873,
+            24.637261163911372
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9352218014808498,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07796539716795835,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559299082717705,
+          "mean_sz": -0.957489830199844,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            25.056859374999988,
+            24.64119672528874
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9333823759248148,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07595532138881038,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9555211513790915,
+          "mean_sz": -0.9574886049164922,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            25.056859374999988,
+            24.64119672528874
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012727567331931222,
+      "spin_rmse_middle_fine": 0.004987384910760496
+    },
+    {
+      "time_ps": 5.9,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9499270394563692,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07251862656107656,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560981489557383,
+          "mean_sz": -0.9572247177398608,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            25.04979999999998,
+            24.650027478077952
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9507078597254603,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08205744458204152,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558583944222296,
+          "mean_sz": -0.9571565857034551,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            25.051651639344243,
+            24.618312492020344
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9512504525551035,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08185106466790218,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955487265962349,
+          "mean_sz": -0.9571627881925664,
+          "core_sites": 121,
+          "all_threshold_sites_center_nm": [
+            25.039842975206593,
+            24.62236190290615
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012748206948876557,
+      "spin_rmse_middle_fine": 0.004967475169430561
+    },
+    {
+      "time_ps": 6.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9553502960014933,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06966898839101712,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559020130445646,
+          "mean_sz": -0.9575872693702154,
+          "core_sites": 121,
+          "all_threshold_sites_center_nm": [
+            25.102074380165263,
+            24.658291221311092
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9556474891930462,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07177057437278966,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955557320237782,
+          "mean_sz": -0.9574939132955582,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            25.112549999999974,
+            24.653650351017117
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9547665230692371,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0681971757396322,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9551287832815434,
+          "mean_sz": -0.957487314951128,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            25.112549999999974,
+            24.653650351017117
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012788848724003123,
+      "spin_rmse_middle_fine": 0.004958978820897091
+    },
+    {
+      "time_ps": 6.1000000000000005,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9561192055616665,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07861574587722343,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560078643000067,
+          "mean_sz": -0.9582142412182126,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            25.12571721311473,
+            24.589804639384294
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9593525743481575,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08238157381972233,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557176885636913,
+          "mean_sz": -0.9581241340528727,
+          "core_sites": 119,
+          "all_threshold_sites_center_nm": [
+            25.164331932773088,
+            24.584998431035466
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9593217145452011,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0770770891428039,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552968935957273,
+          "mean_sz": -0.9581162906195174,
+          "core_sites": 119,
+          "all_threshold_sites_center_nm": [
+            25.164331932773088,
+            24.584998431035466
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012708775229072551,
+      "spin_rmse_middle_fine": 0.004977591484862253
+    },
+    {
+      "time_ps": 6.2,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9625232676571487,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07385238124465122,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560439180638904,
+          "mean_sz": -0.9581946009913394,
+          "core_sites": 123,
+          "all_threshold_sites_center_nm": [
+            25.142853658536563,
+            24.4906210687547
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9610823299513614,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07180685863721932,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955804559293494,
+          "mean_sz": -0.9581310106579998,
+          "core_sites": 123,
+          "all_threshold_sites_center_nm": [
+            25.124487804878026,
+            24.4906210687547
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.959889368784768,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07306738130195659,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554175815816164,
+          "mean_sz": -0.9581235248793608,
+          "core_sites": 121,
+          "all_threshold_sites_center_nm": [
+            25.143561983471052,
+            24.51098101585083
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012731001596412068,
+      "spin_rmse_middle_fine": 0.005001192778736352
+    },
+    {
+      "time_ps": 6.300000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9115652048354113,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07955415744323682,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560009464633787,
+          "mean_sz": -0.958431652259142,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            25.162749999999974,
+            24.530472671085516
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9103461890988933,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07640662151693146,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955665233655015,
+          "mean_sz": -0.9583342086296368,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            25.162749999999974,
+            24.530472671085516
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.911591102529985,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07861411410946798,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552413678179605,
+          "mean_sz": -0.9583176541343079,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            25.1478601694915,
+            24.52439361310285
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012790660203665566,
+      "spin_rmse_middle_fine": 0.004976678918721054
+    },
+    {
+      "time_ps": 6.4,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9518645944768868,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06945534382354177,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9563684747829297,
+          "mean_sz": -0.9591239808140688,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            25.092679166666642,
+            24.517792615798434
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9523947568741785,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0679376980822136,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956010410645738,
+          "mean_sz": -0.9590226942069868,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            25.109572033898285,
+            24.502287947711334
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9505556589287434,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07054684248342896,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556173166140107,
+          "mean_sz": -0.9590104771874316,
+          "core_sites": 117,
+          "all_threshold_sites_center_nm": [
+            25.12145299145297,
+            24.501768370105978
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012819395237010431,
+      "spin_rmse_middle_fine": 0.0049950820930318805
+    },
+    {
+      "time_ps": 6.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.95136530999351,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07225727569644073,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559498441827454,
+          "mean_sz": -0.9586521459442934,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.22747637795273,
+            24.52200028318841
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9519904784905289,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06699513104281855,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955628775552162,
+          "mean_sz": -0.9585726980512952,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.221547244094456,
+            24.498037973984488
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9524368490792635,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06854832583238321,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552217772495477,
+          "mean_sz": -0.9585575680227154,
+          "core_sites": 126,
+          "all_threshold_sites_center_nm": [
+            25.20956349206346,
+            24.50097213429517
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012704890778221732,
+      "spin_rmse_middle_fine": 0.0049820665374742164
+    },
+    {
+      "time_ps": 6.6000000000000005,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9432129167957236,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0775701215509195,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955943817017722,
+          "mean_sz": -0.9589462984983324,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            25.28927868852458,
+            24.555951564378983
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9458262081239153,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07866798011750278,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95565674328864,
+          "mean_sz": -0.9588636730548286,
+          "core_sites": 123,
+          "all_threshold_sites_center_nm": [
+            25.299983739837383,
+            24.55070774189207
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.946503756419206,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07949280945190354,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955270330089656,
+          "mean_sz": -0.9588454241084482,
+          "core_sites": 121,
+          "all_threshold_sites_center_nm": [
+            25.27735950413222,
+            24.559485595697502
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012751166077519641,
+      "spin_rmse_middle_fine": 0.00499443973539698
+    },
+    {
+      "time_ps": 6.7,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9310654720430408,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0797526159088732,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9562615910766286,
+          "mean_sz": -0.9588442598942817,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.246251968503913,
+            24.431285826916408
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.932652494157109,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08069170556490161,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956027779992621,
+          "mean_sz": -0.9587644235696406,
+          "core_sites": 125,
+          "all_threshold_sites_center_nm": [
+            25.26164399999998,
+            24.41700429063087
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9314251332232354,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08082315263146901,
+          "stored_norm_error": 2.220446049250313e-16,
+          "energy_per_spin": -2.9556171595724097,
+          "mean_sz": -0.9587367773888339,
+          "core_sites": 123,
+          "all_threshold_sites_center_nm": [
+            25.254069105691034,
+            24.4110945896023
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012788002921983805,
+      "spin_rmse_middle_fine": 0.0049789713139696285
+    },
+    {
+      "time_ps": 6.800000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9638823420187472,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06664058442746393,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560289723006528,
+          "mean_sz": -0.9586306465906481,
+          "core_sites": 145,
+          "all_threshold_sites_center_nm": [
+            25.15972068965516,
+            24.464136618302874
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9639319871828523,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06691244961637227,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556511642360075,
+          "mean_sz": -0.9585609668696077,
+          "core_sites": 145,
+          "all_threshold_sites_center_nm": [
+            25.17789655172412,
+            24.42965686205427
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9610163071039651,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06835104833159729,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552393537619115,
+          "mean_sz": -0.9585281104382367,
+          "core_sites": 145,
+          "all_threshold_sites_center_nm": [
+            25.17789655172412,
+            24.42965686205427
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012756835408349137,
+      "spin_rmse_middle_fine": 0.0049859028308387315
+    },
+    {
+      "time_ps": 6.9,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9354870513726599,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08155531593180014,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560940325369307,
+          "mean_sz": -0.959205932256207,
+          "core_sites": 140,
+          "all_threshold_sites_center_nm": [
+            25.117032142857138,
+            24.511840753112665
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9349193980855772,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0815875995639948,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558400232126347,
+          "mean_sz": -0.9591544074316297,
+          "core_sites": 138,
+          "all_threshold_sites_center_nm": [
+            25.139105072463757,
+            24.489045906607235
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9352542623542143,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0827910099681176,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554191873624234,
+          "mean_sz": -0.9591218099897723,
+          "core_sites": 140,
+          "all_threshold_sites_center_nm": [
+            25.127789285714275,
+            24.50563011378838
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.01278068147061765,
+      "spin_rmse_middle_fine": 0.004975054020289234
+    },
+    {
+      "time_ps": 7.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9618839106772743,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07302776714364301,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955758451218541,
+          "mean_sz": -0.9591677802710558,
+          "core_sites": 147,
+          "all_threshold_sites_center_nm": [
+            25.081217687074833,
+            24.458089148484646
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9600879475905558,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.071435903955013,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955471361918457,
+          "mean_sz": -0.9591175910182883,
+          "core_sites": 152,
+          "all_threshold_sites_center_nm": [
+            25.114036184210523,
+            24.421500466625893
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9592845578737357,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07207125641653096,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9550734457505063,
+          "mean_sz": -0.9590907256232952,
+          "core_sites": 151,
+          "all_threshold_sites_center_nm": [
+            25.108311258278142,
+            24.42920017654104
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012763081611538302,
+      "spin_rmse_middle_fine": 0.004975386248328907
+    },
+    {
+      "time_ps": 7.1000000000000005,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9192183613805708,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07336543479538488,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558066258982096,
+          "mean_sz": -0.9593488103545543,
+          "core_sites": 144,
+          "all_threshold_sites_center_nm": [
+            25.030277777777776,
+            24.535906980494257
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9186610389183519,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07755973625328773,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9555060730049143,
+          "mean_sz": -0.959290994402509,
+          "core_sites": 144,
+          "all_threshold_sites_center_nm": [
+            25.041607638888884,
+            24.525340267755027
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9184959320382647,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07774898178324777,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955120390874443,
+          "mean_sz": -0.9592723102805868,
+          "core_sites": 144,
+          "all_threshold_sites_center_nm": [
+            25.041607638888884,
+            24.525340267755027
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012823420607536995,
+      "spin_rmse_middle_fine": 0.004976011475903871
+    },
+    {
+      "time_ps": 7.2,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9465721626523679,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0946784824509005,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559549511076706,
+          "mean_sz": -0.9591164649401236,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            25.106655303030287,
+            24.620715142479252
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.941443571121809,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09365207011356569,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556641373435673,
+          "mean_sz": -0.9590680584575201,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.118484496124008,
+            24.590039442434104
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9386149255644916,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09227687802204586,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552698942771736,
+          "mean_sz": -0.9590447219857394,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.118484496124008,
+            24.590039442434104
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012814587599367233,
+      "spin_rmse_middle_fine": 0.004987647647550273
+    },
+    {
+      "time_ps": 7.300000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9512586570451022,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07581526630406243,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558614003696286,
+          "mean_sz": -0.9586544117717849,
+          "core_sites": 140,
+          "all_threshold_sites_center_nm": [
+            25.05248928571428,
+            24.542893949734076
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9497350736352286,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08436847046413838,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955624787649527,
+          "mean_sz": -0.9586180830763339,
+          "core_sites": 139,
+          "all_threshold_sites_center_nm": [
+            25.076525179856105,
+            24.53649341676139
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9497137729484566,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08689521070549573,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955252750330604,
+          "mean_sz": -0.9585985452429265,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.056945255474442,
+            24.528172014547504
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012784636819785021,
+      "spin_rmse_middle_fine": 0.0049802533212470156
+    },
+    {
+      "time_ps": 7.4,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9467966760014536,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08674070596251097,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956127942104464,
+          "mean_sz": -0.958598860017749,
+          "core_sites": 124,
+          "all_threshold_sites_center_nm": [
+            25.11416935483869,
+            24.489452400064646
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9466405153713875,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08646885337273162,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557944376531915,
+          "mean_sz": -0.958554087426141,
+          "core_sites": 125,
+          "all_threshold_sites_center_nm": [
+            25.12911599999998,
+            24.469173660954844
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.948865716124591,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08748526267225581,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553762332100324,
+          "mean_sz": -0.958523289905233,
+          "core_sites": 123,
+          "all_threshold_sites_center_nm": [
+            25.12550813008128,
+            24.467646752555115
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012720674784191626,
+      "spin_rmse_middle_fine": 0.004949108453947875
+    },
+    {
+      "time_ps": 7.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9800054024949569,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06636613348486683,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956240382566544,
+          "mean_sz": -0.9587939458352137,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            25.208012295081943,
+            24.500717599896635
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9842223991316447,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06891923318115654,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559904588569363,
+          "mean_sz": -0.9587543865806784,
+          "core_sites": 122,
+          "all_threshold_sites_center_nm": [
+            25.204926229508168,
+            24.48111845120935
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9827976978885192,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07102318564141957,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9555868737160456,
+          "mean_sz": -0.9587250265368118,
+          "core_sites": 121,
+          "all_threshold_sites_center_nm": [
+            25.20268181818179,
+            24.491219890728118
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012672715102843917,
+      "spin_rmse_middle_fine": 0.004978420768881858
+    },
+    {
+      "time_ps": 7.6000000000000005,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9668998849914248,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07146351687791237,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956120562104367,
+          "mean_sz": -0.9594263679662586,
+          "core_sites": 116,
+          "all_threshold_sites_center_nm": [
+            25.134620689655147,
+            24.581817525499194
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9712613131131655,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06790719256712192,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558039240984777,
+          "mean_sz": -0.959381414337155,
+          "core_sites": 116,
+          "all_threshold_sites_center_nm": [
+            25.140030172413773,
+            24.56120462774188
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9717347074139898,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06600413506854075,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553710583396264,
+          "mean_sz": -0.9593391499542595,
+          "core_sites": 116,
+          "all_threshold_sites_center_nm": [
+            25.140030172413773,
+            24.56120462774188
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012747544117948009,
+      "spin_rmse_middle_fine": 0.004977876129295742
+    },
+    {
+      "time_ps": 7.7,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9327100694813121,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.062885233701528,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559526109721315,
+          "mean_sz": -0.9594353669274959,
+          "core_sites": 117,
+          "all_threshold_sites_center_nm": [
+            25.149341880341858,
+            24.60952561650165
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9328891344767722,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06520245027695358,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556657700947295,
+          "mean_sz": -0.9593928320322878,
+          "core_sites": 117,
+          "all_threshold_sites_center_nm": [
+            25.149341880341858,
+            24.60209408226746
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9341505289165365,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06430653060004164,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552573463803955,
+          "mean_sz": -0.9593542695529937,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            25.1382881355932,
+            24.603605580755772
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012750186241984334,
+      "spin_rmse_middle_fine": 0.004985478848503068
+    },
+    {
+      "time_ps": 7.800000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9194519028439719,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.10058948772161344,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956146356369178,
+          "mean_sz": -0.9598100946698016,
+          "core_sites": 116,
+          "all_threshold_sites_center_nm": [
+            25.11406465517238,
+            24.60617822284875
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9208007543208243,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08461720761201265,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557984986621215,
+          "mean_sz": -0.9597587039194124,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            25.118080508474545,
+            24.59071060927739
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9211657936034742,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08235374502073932,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553772023217477,
+          "mean_sz": -0.9597235179656158,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            25.118080508474545,
+            24.59071060927739
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012766357088827772,
+      "spin_rmse_middle_fine": 0.004962380204521841
+    },
+    {
+      "time_ps": 7.9,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 1.006314733073314,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0810905183267322,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558648186320573,
+          "mean_sz": -0.9597603903698966,
+          "core_sites": 117,
+          "all_threshold_sites_center_nm": [
+            24.987371794871773,
+            24.659688472582392
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.0043716372647216,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0855593360816209,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9555676864312446,
+          "mean_sz": -0.9597191852413873,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            24.981944915254214,
+            24.623869107364662
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.0039928849581727,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08501126877144895,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9551446449234975,
+          "mean_sz": -0.959682729408035,
+          "core_sites": 116,
+          "all_threshold_sites_center_nm": [
+            24.972336206896525,
+            24.649277918159505
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012798224094973748,
+      "spin_rmse_middle_fine": 0.004989164933730035
+    },
+    {
+      "time_ps": 8.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9794960150102562,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0823440266735526,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559449952011674,
+          "mean_sz": -0.960114643274493,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            24.998031249999993,
+            24.68195404585434
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9857328213250496,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07680570874576559,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556860806898726,
+          "mean_sz": -0.9600585092963265,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.00414566929133,
+            24.67262051247022
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9865107209651282,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07295614980396198,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955271558881515,
+          "mean_sz": -0.9600198133918021,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.00414566929133,
+            24.67262051247022
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012832702535063729,
+      "spin_rmse_middle_fine": 0.004982936342932957
+    },
+    {
+      "time_ps": 8.1,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9449746838610849,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0816357822193238,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9562534572634473,
+          "mean_sz": -0.9601347790137522,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            24.923254166666663,
+            24.70255913569584
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9440496998438594,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07922267553529666,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559864905756736,
+          "mean_sz": -0.9600737027111279,
+          "core_sites": 119,
+          "all_threshold_sites_center_nm": [
+            24.93231512605042,
+            24.6945979485228
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9433644688931853,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07772754556419088,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955587295644723,
+          "mean_sz": -0.9600391683349853,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            24.943656779661012,
+            24.693870381104453
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012730200476172269,
+      "spin_rmse_middle_fine": 0.004992878536547728
+    },
+    {
+      "time_ps": 8.200000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9673189258739905,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06554082438847075,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.95607858272814,
+          "mean_sz": -0.9593912397539595,
+          "core_sites": 117,
+          "all_threshold_sites_center_nm": [
+            24.91228632478631,
+            24.62253080141147
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9727018718618339,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06532790690700524,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558093440258206,
+          "mean_sz": -0.9593462508487909,
+          "core_sites": 117,
+          "all_threshold_sites_center_nm": [
+            24.91228632478631,
+            24.62253080141147
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9721892711739488,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06589244239755296,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554291868114624,
+          "mean_sz": -0.9593143571993779,
+          "core_sites": 117,
+          "all_threshold_sites_center_nm": [
+            24.91228632478631,
+            24.62253080141147
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012730405431793131,
+      "spin_rmse_middle_fine": 0.004971216913550028
+    },
+    {
+      "time_ps": 8.3,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9538564458468135,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08913780800767625,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561605724373488,
+          "mean_sz": -0.9599198733283745,
+          "core_sites": 115,
+          "all_threshold_sites_center_nm": [
+            24.984321739130415,
+            24.512043273960195
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9525255883059078,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.10140560150696225,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558301455117713,
+          "mean_sz": -0.9598474252793099,
+          "core_sites": 114,
+          "all_threshold_sites_center_nm": [
+            24.97780263157893,
+            24.481087192599002
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9539836020834036,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09660058812287652,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955418103630541,
+          "mean_sz": -0.9598084853320027,
+          "core_sites": 113,
+          "all_threshold_sites_center_nm": [
+            24.98671681415927,
+            24.48805620295706
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012684729286367553,
+      "spin_rmse_middle_fine": 0.004934412082231222
+    },
+    {
+      "time_ps": 8.4,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 1.0172535016850544,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08207117412015383,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956100603029106,
+          "mean_sz": -0.9591662785450811,
+          "core_sites": 114,
+          "all_threshold_sites_center_nm": [
+            25.103302631578924,
+            24.50396849537268
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.0192771563668068,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.083963544176869,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955782885695216,
+          "mean_sz": -0.9591022761508612,
+          "core_sites": 114,
+          "all_threshold_sites_center_nm": [
+            25.103302631578924,
+            24.50396849537268
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.0189977112290933,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08224754569934563,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553447069885737,
+          "mean_sz": -0.9590577204423307,
+          "core_sites": 114,
+          "all_threshold_sites_center_nm": [
+            25.103302631578924,
+            24.50396849537268
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012771080132097226,
+      "spin_rmse_middle_fine": 0.004973879760632994
+    },
+    {
+      "time_ps": 8.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 1.0222067048738201,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0659094203368197,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9560978691790383,
+          "mean_sz": -0.959016012172702,
+          "core_sites": 119,
+          "all_threshold_sites_center_nm": [
+            25.060978991596606,
+            24.632491555279977
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.0264084065328707,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06550265572318108,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955789402647725,
+          "mean_sz": -0.958958062456533,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            25.051076271186414,
+            24.596237025625268
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.0277203447060372,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06419014217137577,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553429354502083,
+          "mean_sz": -0.9589026430719406,
+          "core_sites": 119,
+          "all_threshold_sites_center_nm": [
+            25.059924369747872,
+            24.59047840690983
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012743353480461628,
+      "spin_rmse_middle_fine": 0.004998451007106718
+    },
+    {
+      "time_ps": 8.6,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9838752844003433,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06907370847549107,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561018467870657,
+          "mean_sz": -0.9589046664336576,
+          "core_sites": 118,
+          "all_threshold_sites_center_nm": [
+            25.010661016949133,
+            24.610974135886277
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9849080283681424,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06954366665246903,
+          "stored_norm_error": 2.220446049250313e-16,
+          "energy_per_spin": -2.9557925712135606,
+          "mean_sz": -0.9588452406285087,
+          "core_sites": 112,
+          "all_threshold_sites_center_nm": [
+            25.038370535714254,
+            24.576664301059868
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9824055405418674,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07161989159796141,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553801638422237,
+          "mean_sz": -0.9588008242062974,
+          "core_sites": 113,
+          "all_threshold_sites_center_nm": [
+            25.0300309734513,
+            24.58616231971675
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.01275855098690378,
+      "spin_rmse_middle_fine": 0.004979555996604821
+    },
+    {
+      "time_ps": 8.700000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9972861634074199,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07548809743936281,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9559832358848337,
+          "mean_sz": -0.9582906671079141,
+          "core_sites": 135,
+          "all_threshold_sites_center_nm": [
+            24.932666666666673,
+            24.535705709775417
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.0007444458101427,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08489848688882864,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557066654704003,
+          "mean_sz": -0.9582270168946445,
+          "core_sites": 135,
+          "all_threshold_sites_center_nm": [
+            24.938244444444447,
+            24.522824383769496
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.000688612204006,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08708390500324224,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9552922569975704,
+          "mean_sz": -0.9581841255074595,
+          "core_sites": 134,
+          "all_threshold_sites_center_nm": [
+            24.96045149253732,
+            24.51603525205929
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012731788956377518,
+      "spin_rmse_middle_fine": 0.004988948802553722
+    },
+    {
+      "time_ps": 8.8,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9748056852649903,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07781694328445811,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561590518715355,
+          "mean_sz": -0.9582895075306733,
+          "core_sites": 136,
+          "all_threshold_sites_center_nm": [
+            25.03079044117647,
+            24.638199863482445
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9785878174612898,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07196555043689472,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955831936909218,
+          "mean_sz": -0.9582109754018626,
+          "core_sites": 134,
+          "all_threshold_sites_center_nm": [
+            25.048488805970145,
+            24.58416689240776
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9794112119139048,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07376766890236688,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554262533220057,
+          "mean_sz": -0.9581623960280172,
+          "core_sites": 137,
+          "all_threshold_sites_center_nm": [
+            25.03587591240876,
+            24.612264977660963
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012702784458109705,
+      "spin_rmse_middle_fine": 0.004977748815570308
+    },
+    {
+      "time_ps": 8.9,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9806538213251773,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.071651899809086,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956258050050214,
+          "mean_sz": -0.9585410555764727,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            25.05097656249999,
+            24.498546103309124
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.982993956701366,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07462814494739345,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956036322930023,
+          "mean_sz": -0.9584950138156763,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.03576771653542,
+            24.50488434804275
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9834105210488833,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07566661885456523,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955620631180546,
+          "mean_sz": -0.9584514429715175,
+          "core_sites": 126,
+          "all_threshold_sites_center_nm": [
+            25.029281746031735,
+            24.513048377425722
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012760969230907351,
+      "spin_rmse_middle_fine": 0.0049597939724231755
+    },
+    {
+      "time_ps": 9.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9453516638324253,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08618909851751941,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955974612815744,
+          "mean_sz": -0.9588488533911748,
+          "core_sites": 125,
+          "all_threshold_sites_center_nm": [
+            25.011647999999994,
+            24.585685254678385
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9452687651530786,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09250110125879325,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556732281173326,
+          "mean_sz": -0.9587731022710777,
+          "core_sites": 126,
+          "all_threshold_sites_center_nm": [
+            25.02131349206348,
+            24.557902994767762
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9451713641091771,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.09243531926023131,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955252749567801,
+          "mean_sz": -0.9587263591675197,
+          "core_sites": 126,
+          "all_threshold_sites_center_nm": [
+            25.02131349206348,
+            24.557902994767762
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012803076425290955,
+      "spin_rmse_middle_fine": 0.004973105681699102
+    },
+    {
+      "time_ps": 9.1,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9285498604656699,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0841784883588619,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561219398921255,
+          "mean_sz": -0.9586262678742735,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            24.91384166666666,
+            24.59568438399048
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9296697878095551,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08680553431744087,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558440005835904,
+          "mean_sz": -0.9585323734911257,
+          "core_sites": 123,
+          "all_threshold_sites_center_nm": [
+            24.916341463414632,
+            24.58605284373758
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9297568155345555,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.090389694219841,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955419479564365,
+          "mean_sz": -0.9584754316486386,
+          "core_sites": 123,
+          "all_threshold_sites_center_nm": [
+            24.906138211382114,
+            24.56484578263027
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.01272896609083932,
+      "spin_rmse_middle_fine": 0.004953551039245467
+    },
+    {
+      "time_ps": 9.200000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9298361566280051,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08076407206237293,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955983110440025,
+          "mean_sz": -0.9587634651690864,
+          "core_sites": 134,
+          "all_threshold_sites_center_nm": [
+            25.028820895522387,
+            24.70258617206106
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9272455328231495,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08051775723439279,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9556977478039825,
+          "mean_sz": -0.9586656968548289,
+          "core_sites": 131,
+          "all_threshold_sites_center_nm": [
+            25.058805343511438,
+            24.69914367914632
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9258405985411827,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0816917970685311,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955272104213297,
+          "mean_sz": -0.9586160901878373,
+          "core_sites": 130,
+          "all_threshold_sites_center_nm": [
+            25.048834615384603,
+            24.69517404855062
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012773595762009593,
+      "spin_rmse_middle_fine": 0.004960182974903148
+    },
+    {
+      "time_ps": 9.3,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9620755572836212,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06850905868064551,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956058165812533,
+          "mean_sz": -0.9591902580426939,
+          "core_sites": 121,
+          "all_threshold_sites_center_nm": [
+            25.149785123966918,
+            24.66907001683257
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9669897443094649,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06716666885340299,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955767817645008,
+          "mean_sz": -0.9590978177054436,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            25.16379583333331,
+            24.669953279243362
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9680046291229775,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06618458820198425,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553497150514265,
+          "mean_sz": -0.9590546521780342,
+          "core_sites": 120,
+          "all_threshold_sites_center_nm": [
+            25.16379583333331,
+            24.669953279243362
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012714499453924659,
+      "spin_rmse_middle_fine": 0.004985611584047456
+    },
+    {
+      "time_ps": 9.4,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9512931010833099,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08647974217530281,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955970870897089,
+          "mean_sz": -0.9594257223603033,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.09416279069766,
+            24.726529074095666
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9545860198676236,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0843981231664158,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955677569986703,
+          "mean_sz": -0.9593313489444786,
+          "core_sites": 127,
+          "all_threshold_sites_center_nm": [
+            25.11482283464565,
+            24.713698756819806
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9542292620448184,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08799092526759322,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955293247663822,
+          "mean_sz": -0.9592937248955721,
+          "core_sites": 126,
+          "all_threshold_sites_center_nm": [
+            25.125896825396804,
+            24.711443800284744
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012727529936474847,
+      "spin_rmse_middle_fine": 0.0049715519834043626
+    },
+    {
+      "time_ps": 9.5,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 1.0073164330254671,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.0721132483898095,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956025664118999,
+          "mean_sz": -0.9592324251616955,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            24.984304687499993,
+            24.55968208415753
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 1.008141820038359,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07707895943689716,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557790400163,
+          "mean_sz": -0.9591359054830276,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.00660465116278,
+            24.54117278418491
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 1.0051542786139933,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07583134429747819,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553923479436,
+          "mean_sz": -0.9590895114841965,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            25.00660465116278,
+            24.54117278418491
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012759431068613186,
+      "spin_rmse_middle_fine": 0.004963893811728017
+    },
+    {
+      "time_ps": 9.600000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9902044556436562,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07250305030553707,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9561296649277065,
+          "mean_sz": -0.9595973914691701,
+          "core_sites": 129,
+          "all_threshold_sites_center_nm": [
+            24.99882170542635,
+            24.66923712994143
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9871798502893454,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07763571779383119,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558304792272603,
+          "mean_sz": -0.959487397560445,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            25.006855468749993,
+            24.66327360726177
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9861131423676994,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07610817756520868,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955417631637837,
+          "mean_sz": -0.9594332013837891,
+          "core_sites": 128,
+          "all_threshold_sites_center_nm": [
+            25.006855468749993,
+            24.66327360726177
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012756826057779037,
+      "spin_rmse_middle_fine": 0.004986065286247502
+    },
+    {
+      "time_ps": 9.700000000000001,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9521060702118136,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06598959766752992,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956087938623328,
+          "mean_sz": -0.9593450543619618,
+          "core_sites": 135,
+          "all_threshold_sites_center_nm": [
+            24.92801851851852,
+            24.724095102611987
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9489307069732942,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.062404388533715265,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9557421930314836,
+          "mean_sz": -0.9592256009601449,
+          "core_sites": 134,
+          "all_threshold_sites_center_nm": [
+            24.938910447761195,
+            24.69609744440882
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9473203292542552,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06240563205970275,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9553403758317254,
+          "mean_sz": -0.959179686911426,
+          "core_sites": 132,
+          "all_threshold_sites_center_nm": [
+            24.928863636363637,
+            24.698112882543228
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012738635548938209,
+      "spin_rmse_middle_fine": 0.004987540585544708
+    },
+    {
+      "time_ps": 9.8,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9759322554286217,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07293836093196787,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9558238612451393,
+          "mean_sz": -0.9597557505997413,
+          "core_sites": 125,
+          "all_threshold_sites_center_nm": [
+            24.926308000000002,
+            24.736976428617904
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9756737624498357,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.06873732789830492,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9555064770469923,
+          "mean_sz": -0.959651066140354,
+          "core_sites": 130,
+          "all_threshold_sites_center_nm": [
+            24.92623076923077,
+            24.706878714969463
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9747645891101087,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07119904799275112,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955088541797322,
+          "mean_sz": -0.9595965788299783,
+          "core_sites": 130,
+          "all_threshold_sites_center_nm": [
+            24.92623076923077,
+            24.706878714969463
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012776112817480548,
+      "spin_rmse_middle_fine": 0.004954831166368661
+    },
+    {
+      "time_ps": 9.9,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9797035042646235,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07028386848511683,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955910205936665,
+          "mean_sz": -0.9596188047420287,
+          "core_sites": 125,
+          "all_threshold_sites_center_nm": [
+            24.933335999999997,
+            24.783928861909484
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.9816435204336652,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07310602440335755,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9555835059367808,
+          "mean_sz": -0.9595072589862899,
+          "core_sites": 125,
+          "all_threshold_sites_center_nm": [
+            24.969479999999997,
+            24.745671323671903
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.980258324417238,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.07526686978750803,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955191846666396,
+          "mean_sz": -0.9594559190960285,
+          "core_sites": 125,
+          "all_threshold_sites_center_nm": [
+            24.959439999999994,
+            24.745671323671903
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012766805199255361,
+      "spin_rmse_middle_fine": 0.005006176941366485
+    },
+    {
+      "time_ps": 10.0,
+      "levels": [
+        {
+          "dt_fs": 2.5,
+          "Q": 0.9566170866381545,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08849956255614438,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.956172875961798,
+          "mean_sz": -0.9602041047761771,
+          "core_sites": 134,
+          "all_threshold_sites_center_nm": [
+            25.038186567164175,
+            24.67663126145212
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 1.25,
+          "Q": 0.962058963506027,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08564967070251464,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.955890598013191,
+          "mean_sz": -0.9600906284020416,
+          "core_sites": 135,
+          "all_threshold_sites_center_nm": [
+            25.04143333333333,
+            24.64680714657647
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        },
+        {
+          "dt_fs": 0.625,
+          "Q": 0.9631986907052689,
+          "ambiguous_faces": 0,
+          "max_face_solid_angle": 0.08679454608362891,
+          "stored_norm_error": 3.3306690738754696e-16,
+          "energy_per_spin": -2.9554725267663633,
+          "mean_sz": -0.9600359492576868,
+          "core_sites": 136,
+          "all_threshold_sites_center_nm": [
+            25.03725,
+            24.655781452746034
+          ],
+          "warning": "threshold center is not largest-component tracking"
+        }
+      ],
+      "spin_rmse_coarse_fine": 0.012740385181740843,
+      "spin_rmse_middle_fine": 0.00497596949827927
+    }
+  ],
+  "seconds": 184.7681627832353,
+  "smoke": false,
+  "config": {
+    "scope": "coupled_noise_short_time_step_diagnostic_not_dataset_certification",
+    "source_config": "tests/literature_preflight_20260917/config.yaml",
+    "initial_checkpoint": "tests/miltat_1ns_20260919/results/preparation_final.pt",
+    "temperature_K": 12.5,
+    "alpha": 0.5,
+    "coarse_dt_fs": 2.5,
+    "refinement_factors": [
+      1,
+      2,
+      4
+    ],
+    "duration_ps": 10.0,
+    "save_ps": 0.1,
+    "branch_seeds": [
+      260920301,
+      260920302,
+      260920303,
+      260920304
+    ],
+    "noise_coupling": "four_fine_Wiener_increments_sum_to_one_coarse_increment",
+    "initial_protocol": "same_saved_zero_temperature_preparation_for_all_branches",
+    "limits": [
+      "Four_noise_branches_from_one_parent_are_not_four_independent_preparations",
+      "No_diffusion_coefficient_claim_from_10ps",
+      "Strong_path_error_may_grow_even_when_weak_statistics_converge",
+      "Open_boundaries_and_DMI_gamma_source_holds_remain"
+    ]
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "scientific_certification": false,
+  "note": "Paired strong-error diagnostic from one fixed parent; no equivalence claim"
+}

@@ -1,0 +1,57 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "prefix",
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "adjacent",
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "prefix",
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "adjacent",
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "prefix",
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "adjacent",
+      "updates": 12000
+    }
+  ],
+  "hypothesis": "Separate first0.1ps conditional fit from1ps path organization and accumulated rollout bias. Shorter trained window alone is not physical certification.",
+  "history": "Earlier conditional_restart and bauer_teacher_state_20260920 restart old models at true states; they are not current-backbone two-frame training. Current-backbone matched experiment not found. Reuse temporal_source_repair rho0 joint11 controls, final12000, rather than retrain them.",
+  "package": "New explicit Bauer two-frame package [0,.1]ps using unchanged hierarchical backbone. Internal variable-length software engine is guarded by strict physical grid and temperature/boundary checks. Serialized metadata rejects historical11-frame checkpoints; initialization copies weights only, never relabels trained checkpoints.",
+  "physics": "Unchanged Bauer open L16/25/32;J50meV,kappa.1,alpha.1,theta.11,T63.824849668K,zero field. Reference base dt.25fs/fine.125fs; saved.1ps. No new physical data.",
+  "training": "Same native windows and72branch-refill as temporal_source_repair rho0. From scratch identical shared parameters, AdamW cosine.001->.00003,12000updates,batch8. prefix takes original first2frames. adjacent selects j=0 with probability.5, otherwise uniform1..9, using separate RNG. Retains origin parent splits; correlated windows not independent test units. Candidate intentionally changes conditioning-state coverage and reduces exposure to original anchors.",
+  "pairing": "Target whole11-frame windows, source-generator state and tau state hashes must match both new arms and frozen joint11 rho0 controls. Consume11-frame Gaussian source and full11-frame cut-noise RNG before slicing first2source frames; target-pair selection uses independent RNG. Source marginal unchanged; no future labels used in rollout. Same updates are NOT equal FLOPs or supervised frame counts.",
+  "evaluation": "Final12000 fixed primary;6000checkpoint saved without adaptive selection.18dev parents128paths and24seen parents64paths. New models generate10 consecutive.1ps steps with fresh RNG, deduplicated boundaries; midpoint128/512 per transition for dev,128 for seen. Joint control uses existing matching generated counts/seed/refs. Report first0.1ps separately using new two-frame mean,covariance,variance,energy,spatial statistics; full1ps via existing evaluator. Save complete paths,RNG state and timings. No one-to-one LLG noise matching.",
+  "uncertainty": "Whole-trajectory bootstrap100 per fixed parent with both reference and model sampling variation. No lag2/5 computed from2frames. Reused dev, not final holdout. Seen probe futures not used for training. No assumed accuracy, speedup or equivalent compute. No automatic promotion.",
+  "decisions": "If first0.1ps fails, joint-block complexity alone is not sufficient explanation. If first step improves but1ps rollout degrades, investigate accumulated bias/conditioning-state coverage. prefix vs adjacent isolates a specific state-sampling intervention, not all coverage. Compare allseed andsizes, disclose tradeoffs.",
+  "budget": "6rtx4090 training/evaluation jobs estimated40-90min each;6fat stats10-25min each;aggregate<3min. Smoke<5min. Submit formal then no monitoring.",
+  "skill_use": "Karpathy isolation; experimental-design paired controls and explicit historical comparator limitations; Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

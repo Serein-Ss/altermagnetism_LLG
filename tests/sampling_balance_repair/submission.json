@@ -1,0 +1,18 @@
+{
+  "train_job": "671016",
+  "train_array": "0-5",
+  "train_partition": "rtx4090",
+  "report_job": "671022",
+  "report_partition": "fat",
+  "report_dependency": "afterany:671016",
+  "job_name": "zrs-mag",
+  "estimated_gpu_minutes_each": [15, 30],
+  "estimated_report_minutes": [25, 60],
+  "queue_time_included": false,
+  "monitor_after_submission": false,
+  "new_reference_generation": false,
+  "task_map": "protocol.json:tasks",
+  "report_destination": "tests/sampling_balance_repair/assets/index.html",
+  "dashboard_destination": "tests/index.html",
+  "scientific_certification": false
+}

@@ -1,0 +1,9 @@
+{
+  "jobs": {
+    "smoke": "670283",
+    "convergence": "670284",
+    "report": "670285"
+  },
+  "monitor": false,
+  "scientific_certification": false
+}

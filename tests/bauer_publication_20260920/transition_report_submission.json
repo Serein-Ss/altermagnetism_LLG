@@ -1,0 +1,13 @@
+{
+  "job_id": "670306",
+  "job_name": "zrs-mag",
+  "partition": "fat",
+  "dependency": "afterok:670276",
+  "cpus": 1,
+  "memory_GB": 4,
+  "wall_limit_minutes": 30,
+  "purpose": "Read-only analysis of all six completed model evaluations; no training or model selection",
+  "result": "tests/bauer_publication_20260920/results/transition_temporal_comparison.json",
+  "unit_tests_passed": 3,
+  "scientific_certification": false
+}

@@ -1,0 +1,31 @@
+{
+  "arms": {
+    "control": 0.001,
+    "low_lr": 0.0001
+  },
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "updates": 3000,
+  "snapshots": [
+    0,
+    1000,
+    2000,
+    3000
+  ],
+  "data": "unchanged full P2 train L16/25/32, half anchors/half windows",
+  "pairing": "same parent checkpoint, optimizer moments, data and flow RNG sequences within seed",
+  "selection": "fixed final step primary; intermediate snapshots descriptive, no new physical tolerance",
+  "evaluation": "36 dev parents only, 16 independent branches each, 1ps at 0.1ps grid, 128 flow steps; final also 256",
+  "hypothesis": "smaller optimizer steps reduce oscillatory fitting and improve joint statistics without changing architecture or loss",
+  "interpretation": "lower loss alone not success; require time/energy/increment metrics together, report tradeoffs and all seeds",
+  "estimate_minutes_per_job": [
+    20,
+    30
+  ],
+  "time_limit_minutes": 60,
+  "scope": "bounded optimizer intervention, not size transfer or physical certification",
+  "skill_reference": "Experimental Design, Scientific Agent Skills, doi:10.48550/arXiv.2609.00065"
+}

@@ -1,0 +1,107 @@
+{
+  "config": {
+    "source": "tests/literature_preflight_20260917/config.yaml",
+    "temperature_K": 12.5,
+    "alpha": 0.5,
+    "dt_fs": 2.5,
+    "preparation_ps": 50,
+    "duration_ps": 1000,
+    "save_ps": 1,
+    "seed": 20260919,
+    "strong_rotation_center_degrees": 35,
+    "strong_rotation_modulation_degrees": 15
+  },
+  "physical_source": {
+    "doi": "10.1103/PhysRevB.97.214426",
+    "source": "https://arxiv.org/pdf/1806.03172",
+    "parameter_location": "section_III_A_and_Fig10",
+    "physics": {
+      "J": {
+        "value": 29,
+        "unit": "meV"
+      },
+      "D": {
+        "value": -1.5,
+        "unit": "meV"
+      },
+      "K": {
+        "value": 0.4,
+        "unit": "meV"
+      },
+      "moment": {
+        "value": 2.1,
+        "unit": "mu_B"
+      },
+      "a": {
+        "value": 2.51,
+        "unit": "angstrom"
+      },
+      "alpha": 0.5,
+      "temperature_K": 12.5
+    },
+    "geometry": {
+      "shape": [
+        200,
+        116
+      ],
+      "periodic": [
+        false,
+        false
+      ],
+      "basis": 2
+    },
+    "numerics": {
+      "duration_ps": 1,
+      "dt_fs": 2.5,
+      "save_ps": 0.05,
+      "batch": 2
+    },
+    "preparation": {
+      "radius_nm": 1.25,
+      "width_nm": 0.4,
+      "relax_ps": 1
+    },
+    "provenance_notes": [
+      "Rectangular two-site cell reconstructs a triangular lattice with 46400 spins.",
+      "Full open-boundary dipoles computed by zero-padded FFT, not local shape anisotropy.",
+      "Fixed window and finite initial relaxation are diagnostic choices; paper moves its window.",
+      "DMI convention is explicitly E=-sum D_ij dot (s_i cross s_j), D_ij=d*(z cross rhat_ij)."
+    ],
+    "certification_holds": [
+      "gamma_source_unresolved",
+      "dmi_sign_mapping_needs_independent_source_confirmation",
+      "prepared_texture_not_certified",
+      "moving_window_not_implemented",
+      "diffusion_statistics_not_tested"
+    ]
+  },
+  "device": "cuda",
+  "scope": "single_trajectory_demonstration_not_equilibrated_distribution_certification",
+  "limitations": [
+    "fixed open window, not the paper moving window",
+    "finite zero-T preparation is not an equilibrium certificate",
+    "1 ns does not cover the full Fig.10 fitting range"
+  ],
+  "phases": {
+    "preparation": {
+      "seconds": 121.32180447876453,
+      "duration_ps": 50,
+      "max_saved_norm_error_float64": 2.220446049250313e-16
+    },
+    "thermal": {
+      "seconds": 2417.0622588917613,
+      "duration_ps": 1000,
+      "max_saved_norm_error_float64": 3.3306690738754696e-16
+    }
+  },
+  "hashes": {
+    "tests/miltat_1ns_20260919/run.py": "5bcf068fac767a550734262b626a1715127a5e30ad59ff5391ce9ef703a848d6",
+    "tests/miltat_1ns_20260919/config.yaml": "4540e2f377883b5cbfd9a949ca40ef75d06234b8983fa63f1e1395de7fb8edf5",
+    "tests/literature_preflight_20260917/config.yaml": "a43705c10eadf7a9c94533fd50c525335c5135094c0ba6758d97ee5bc398a5c4",
+    "tests/literature_preflight_20260917/models.py": "132d25d1e894339609ecd9f66cce5451fbc78f2e7312a47e523fc5fca8460b8a",
+    "scripts/core/reduced_llg.py": "96c6975a2881dd54c9496d0b840be1e070bff9c1f6f27e1f866290bbac11ba25",
+    "tests/physical_audit_20260917/cold.py": "bdf54c12b72e0a97647881abe0b1cd31f56534895799c6589f05fe8b463eef67"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "preparation_final_energy_span_per_spin": 1.5922241486962243e-10
+}

@@ -1,0 +1,10 @@
+source: tests/literature_preflight_20260917/config.yaml
+temperature_K: 12.5
+alpha: 0.5
+dt_fs: 2.5
+preparation_ps: 50
+duration_ps: 1000
+save_ps: 1
+seed: 20260919
+strong_rotation_center_degrees: 35
+strong_rotation_modulation_degrees: 15

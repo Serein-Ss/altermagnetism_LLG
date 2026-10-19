@@ -92,6 +92,11 @@ def resolve_recorded_path(path):
         latest_rules = {old: relocated.get(str(Path(new).relative_to(ROOT)) if Path(new).is_absolute() and Path(new).is_relative_to(ROOT) else new, new)
                         for old, new in latest_rules.items()}
         latest_rules.update(relocated)
+    test_manifest = ROOT / 'tests/relocation.json'
+    if test_manifest.exists():
+        relocated = {row['old']: row['new'] for row in json.loads(test_manifest.read_text())['files']}
+        latest_rules = {old: relocated.get(new, new) for old, new in latest_rules.items()}
+        latest_rules.update(relocated)
     if value in latest_rules:
         return ROOT / latest_rules[value]
     literature_manifest = ROOT / "logs/restructure/history/LITERATURE_DIRECTORY_MIGRATION.json"

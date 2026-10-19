@@ -1,0 +1,98 @@
+{
+  "seed": 22,
+  "frozen_weights": true,
+  "model_hash": "bc541137c2ba216536024a467e3ca952505619598d3a52d7e9d9541c0a703039",
+  "blocks": [
+    {
+      "batches": 16,
+      "start_batch": 0,
+      "cosine": -0.12472997453249363,
+      "native_norm": 0.251940975829939,
+      "replay_norm": 0.16117920398671912
+    },
+    {
+      "batches": 16,
+      "start_batch": 16,
+      "cosine": -0.13529239846819874,
+      "native_norm": 0.2642996636238036,
+      "replay_norm": 0.16836593643832495
+    },
+    {
+      "batches": 16,
+      "start_batch": 32,
+      "cosine": 0.07561397229673565,
+      "native_norm": 0.21915132495502623,
+      "replay_norm": 0.13444331507300475
+    },
+    {
+      "batches": 16,
+      "start_batch": 48,
+      "cosine": 0.08562297311729444,
+      "native_norm": 0.2581199572404335,
+      "replay_norm": 0.13089740495767024
+    },
+    {
+      "batches": 16,
+      "start_batch": 64,
+      "cosine": -0.05049283829002695,
+      "native_norm": 0.23182720232648796,
+      "replay_norm": 0.12419489640946232
+    },
+    {
+      "batches": 16,
+      "start_batch": 80,
+      "cosine": 0.10610830395431728,
+      "native_norm": 0.25333431288019026,
+      "replay_norm": 0.1864443599996973
+    },
+    {
+      "batches": 16,
+      "start_batch": 96,
+      "cosine": 0.21553439960793308,
+      "native_norm": 0.24009948729042102,
+      "replay_norm": 0.14388582777463238
+    },
+    {
+      "batches": 16,
+      "start_batch": 112,
+      "cosine": 0.14839506964403382,
+      "native_norm": 0.30585240259926844,
+      "replay_norm": 0.1307533255543519
+    },
+    {
+      "batches": 64,
+      "start_batch": 0,
+      "cosine": -0.13869346678254896,
+      "native_norm": 0.1151952152238616,
+      "replay_norm": 0.09763476184709885
+    },
+    {
+      "batches": 64,
+      "start_batch": 64,
+      "cosine": 0.1243308513110595,
+      "native_norm": 0.14604333944329093,
+      "replay_norm": 0.0932410780658262
+    },
+    {
+      "batches": 128,
+      "start_batch": 0,
+      "cosine": -0.14334520070556359,
+      "native_norm": 0.09615907300142733,
+      "replay_norm": 0.07982349796109574
+    }
+  ],
+  "same_objective_half_cosine": {
+    "0": [
+      0.07096250895401178
+    ],
+    "1": [
+      0.39878408070688687
+    ]
+  },
+  "rms_individual_gradient": [
+    1.119274806463547,
+    0.5520104185540942
+  ],
+  "seconds": 13.424473945051432,
+  "interpretation": "TRAIN-only diagnostic. Block means correlated within each checkpoint; no physical certification, formal pvalues or independent-parent claims."
+}

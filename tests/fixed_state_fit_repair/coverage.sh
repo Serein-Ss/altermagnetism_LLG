@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#SBATCH --job-name=zrs-mag
+#SBATCH --partition=fat
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=24G
+#SBATCH --time=01:00:00
+#SBATCH --output=tests/fixed_state_fit_repair/logs/coverage_%A_%a.out
+#SBATCH --error=tests/fixed_state_fit_repair/logs/coverage_%A_%a.err
+set -euo pipefail
+cd /share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1
+bash ../run_zrs_mag.sh -m tests.fixed_state_fit_repair.coverage --index "${SLURM_ARRAY_TASK_ID:-0}" "$@"

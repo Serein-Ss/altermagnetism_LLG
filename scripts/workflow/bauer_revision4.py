@@ -20,8 +20,8 @@ FILES = ['scripts/workflow/bauer_revision4.py', 'scripts/analysis/bauer_revision
          'scripts/analysis/bauer_features.py', 'scripts/model/bauer_gate_f.py',
          'scripts/model/gate_f.py', 'scripts/model/sphere.py',
          'scripts/literature/bauer_2011/model.py', 'scripts/validation/bauer_contract.py',
-         'scripts/tests/test_bauer_gate_f.py', 'scripts/tests/test_bauer_revision4_audit.py',
-         'scripts/tests/conftest.py', 'conf/research/models/bauer_path/draft.yaml', 'slurm/bauer_revision4.sbatch']
+         'tests/unit/test_bauer_gate_f.py', 'tests/unit/test_bauer_revision4_audit.py',
+         'tests/unit/conftest.py', 'conf/research/models/bauer_path/draft.yaml', 'slurm/bauer_revision4.sbatch']
 
 
 def digest(path):
@@ -127,7 +127,7 @@ def worker(path, stage, index):
         folder = Path(m['output'])/('software_'+stage); folder.mkdir(exist_ok=False)
         env = dict(os.environ, GATE_F_TEST_DEVICE=stage)
         command = [sys.executable, '-m', 'pytest', '-q', '-s', '-p', 'no:cacheprovider',
-                   'scripts/tests/test_bauer_gate_f.py', 'scripts/tests/test_bauer_revision4_audit.py',
+                   'tests/unit/test_bauer_gate_f.py', 'tests/unit/test_bauer_revision4_audit.py',
                    '--junitxml='+str(folder/'junit.xml')]
         with (folder/'pytest.log').open('x') as f:
             result = subprocess.run(command, env=env, stdout=f, stderr=subprocess.STDOUT)

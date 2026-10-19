@@ -1,0 +1,12 @@
+{
+  "smoke": true,
+  "jobs": {
+    "references": "672356",
+    "data_audit": "672357",
+    "gpu": "672358",
+    "statistics": "672359",
+    "aggregate": "672360"
+  },
+  "status": "all accepted; no formal monitoring",
+  "estimated_gpu_hours": null
+}

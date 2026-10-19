@@ -1,0 +1,10 @@
+{
+  "supersedes": "protocol.json diagnosis/auxiliary reference branch count only",
+  "train_branches_per_parent": 8,
+  "dev_branches_per_parent": 16,
+  "auxiliary_generated_branches": 8,
+  "impact": "The old and current auxiliary implementations read all actual train branches (8); the textual 16-train-branch description was wrong. No data or training change. Diagnostic v1 incorrectly sliced a nonexistent second set of8 and failed; diagnose_v2 reuses the same8 physical branches with fresh latent/tau draws.",
+  "failed_diagnostic_job": "670813",
+  "preservation": "Failed partial outputs remain in diagnose/00..02; corrected outputs use retry2 subfolders. Repeated gradients are not independent physical reference samples.",
+  "scientific_certification": false
+}

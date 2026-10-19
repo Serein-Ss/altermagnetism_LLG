@@ -1,0 +1,34 @@
+{
+  "scientific_certification": false,
+  "reviewed_sources": [
+    "tests/bauer_transition_20260920/run.py",
+    "tests/bauer_transition_20260920/config.yaml",
+    "tests/bauer_two_stage_20260919/models.py",
+    "tests/bauer_publication_20260920/audit.py"
+  ],
+  "current_experiment": {
+    "purpose": "Compare joint 1 ps paths and composed 0.1 ps transitions with the same spatial backbone and three training seeds.",
+    "checkpoint_selection": "Development parents only; score is a ranking heuristic, not a physical acceptance threshold.",
+    "diagnostic_horizons_ps": [1, 10],
+    "literature_target_horizon_ps": 10000,
+    "largest_current_horizon_fraction_of_target": 0.001,
+    "temperature_K": 63.82484966960072,
+    "temperature_scope": "Sampler hardcodes this temperature. It matches this frozen experiment but does not establish configurable temperature conditioning or temperature transfer.",
+    "reference_scope": "Previously inspected test parents are diagnostic data, not a fresh final holdout.",
+    "initial_distribution_scope": "Evaluation begins at reference initial states; it does not validate the learned initial-state generator.",
+    "increment_interpretation": "Later-time branch means are conditional on the common initial parent, not on a shared instantaneous state. They must not be described as a direct local drift estimator at later times.",
+    "phase_interpretation": "For the 0.1 ps model every transition is a composition boundary; grouping by ten frames is a diagnostic clock, not a distinction between within-block and seam transitions.",
+    "compute_scope": "Equal optimizer updates do not imply equal wall time or equal numbers of future spin targets. Generation timing has no matched reference timing in this experiment."
+  },
+  "remaining_evidence": [
+    "Finish all three seeds of both variants and evaluate before concluding that temporal factorization helps.",
+    "Freeze the selected method using development evidence before a new independent final holdout.",
+    "Validate initial-state distributions separately, or explicitly restrict the claim to a prescribed initial preparation.",
+    "Quantify uncertainty at the independent preparation/parent level; spins and frames are not independent experimental replicates.",
+    "Validate event definitions and account for censored trajectories; a negative endpoint alone is not a completed reversal.",
+    "Check target-size and 10 ns path statistics against independent, numerically validated LLG references.",
+    "Benchmark model and LLG generation under stated hardware, batch, output cadence and accuracy requirements.",
+    "Do not claim temperature generalization, long-time validity or publication-level reproduction from current short-time diagnostics."
+  ],
+  "frozen_experiment_modified": false
+}

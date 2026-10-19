@@ -32,5 +32,5 @@ trap record_exit EXIT
 sha256sum -c code.sha256 >/dev/null
 bash "$wrapper" -m scripts.workflow.bauer_campaign --config "$config" --stage "$stage" --device "$device"
 if [[ "$stage" == software ]]; then
-    GATE_F_TEST_DEVICE=cuda bash "$wrapper" -m pytest -q scripts/tests/test_gate_f.py --junitxml="$output/software/gate_f_cuda_pytest.xml"
+    GATE_F_TEST_DEVICE=cuda bash "$wrapper" -m pytest -q tests/unit/test_gate_f.py --junitxml="$output/software/gate_f_cuda_pytest.xml"
 fi

@@ -1,0 +1,64 @@
+{
+  "source": "tests/model_state_refresh_repair/assets/summary.json",
+  "all_previous_jobs_completed": true,
+  "pairing_errors": [],
+  "dev_metrics": {
+    "before": [
+      0.07356681,
+      0.01009115,
+      0.00992566,
+      0.00324985
+    ],
+    "stale": [
+      0.07171817,
+      0.00991362,
+      0.00903281,
+      0.00322108
+    ],
+    "refreshed": [
+      0.07137336,
+      0.00992923,
+      0.00946589,
+      0.00309595
+    ]
+  },
+  "full_metrics": {
+    "before": [
+      0.03283892,
+      0.02257138,
+      0.00403112
+    ],
+    "stale": [
+      0.03087733,
+      0.02153452,
+      0.00387331
+    ],
+    "refreshed": [
+      0.02929819,
+      0.02165184,
+      0.00377002
+    ]
+  },
+  "fixed_refreshed_model_state": {
+    "before": [
+      0.06369589,
+      0.01133198,
+      0.0089687,
+      0.00397817
+    ],
+    "stale": [
+      0.05993809,
+      0.01110438,
+      0.00788902,
+      0.00410596
+    ],
+    "refreshed": [
+      0.05532113,
+      0.01102402,
+      0.00827341,
+      0.00378696
+    ]
+  },
+  "interpretation": "Refresh gives descriptive conditional/variance/energy improvement but limited incremental DEVmean/cov and slightly worsefulltwo-time than stale concurrentcontrol. Thus coverage helps but notcomplete explanation. No physicalcertification orstatisticalsignificance claimed from aggregatepointmeans.",
+  "next": "Keep currentdata/frozen checkpoints. Compare unchanged training versus deployed-sampler localmean/cov cross-product regularization atweights.1/.5. Inspectgradientmanipulation andindependent unoptimized fullpathstatistics;retain earliermoment experiments ashistory."
+}

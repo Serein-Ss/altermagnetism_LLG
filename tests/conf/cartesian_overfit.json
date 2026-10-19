@@ -1,0 +1,15 @@
+{
+  "base_experiment": "tests/conf/bauer_training_budget_20260913.json",
+  "experiment": "cartesian_overfit",
+  "model": "cartesian",
+  "seeds": [11, 22, 33],
+  "arms": {
+    "single_positive": [99],
+    "single_negative": [97],
+    "mixed_eight": [96, 97, 98, 99, 100, 101, 102, 103]
+  },
+  "budgets": [600, 3000, 6000],
+  "latents": 32,
+  "sampling_steps": 128,
+  "scope": "Exploratory random-source capacity control paired with bauer_overfit by training seed, data, optimization budget and evaluation latent. Architecture changes multiple factors, so differences cannot isolate equivariance or Hamiltonian effects. Selected examples are not unbiased physical samples. No held-out generalization or size-transfer certification; no production promotion."
+}

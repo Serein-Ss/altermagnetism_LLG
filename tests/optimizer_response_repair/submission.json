@@ -1,0 +1,20 @@
+{
+  "gpu_array": "671587_0-11",
+  "statistics_array": "671596_0-11",
+  "statistics_dependency": "afterok:671587",
+  "web_aggregate": "671597",
+  "web_dependency": "afterok:671596",
+  "mapping": "index=4*seed_index+arm_index;seeds11,22,33;arms restore_low,reset_low,restore_high,reset_high",
+  "gpu_partition": "rtx4090",
+  "job_name": "zrs-mag",
+  "estimated_minutes_each": [
+    10,
+    25
+  ],
+  "allocation_minutes": 60,
+  "queue_excluded": true,
+  "monitoring_stopped_after_submission": true,
+  "results": "tests/optimizer_response_repair/assets/index.html",
+  "scope": "512updates plus0.1ps independent-future checks; not full1ps validation",
+  "scientific_certification": false
+}

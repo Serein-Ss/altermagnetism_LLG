@@ -76,7 +76,7 @@ def prepare():
     campaign.mkdir()
     snapshot=campaign/'code/altermagnetism_LLG'
     files=[]
-    for folder in ('scripts/core','scripts/literature','scripts/tests'):
+    for folder in ('scripts/core','scripts/literature','tests/unit'):
         files.extend((ROOT/folder).rglob('*.py'))
     files += [ROOT/'scripts/workflow/run_reduced_literature_campaign.py',Path(__file__),ROOT/'slurm/remaining_validation.sbatch',ROOT/'GUIDE/STRICT_LITERATURE_REPRODUCTION_PLAN.md']
     files += list((ROOT/'conf/literature_reproduction/physics').glob('*.yaml'))
@@ -117,7 +117,7 @@ def run_task(campaign,kind,index):
         if sha256(snapshot/rel)!=digest: raise RuntimeError('Frozen source hash mismatch: '+rel)
     os.chdir(snapshot)
     if kind=='tests':
-        subprocess.run([sys.executable,'-m','pytest','-q',*[f'scripts/tests/{name}' for name in TESTS]],check=True)
+        subprocess.run([sys.executable,'-m','pytest','-q',*[f'tests/unit/{name}' for name in TESTS]],check=True)
         return
     if kind=='gpu_check':
         import torch

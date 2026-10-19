@@ -1,0 +1,17 @@
+{
+  "unit_tests": 11,
+  "passed": true,
+  "smoke_gpu": "671619_0-1",
+  "smoke_statistics": "671621_0-1",
+  "smoke_web": 671622,
+  "all_completed_exit_zero": true,
+  "paired_missing": [],
+  "paired_errors": [],
+  "parameter_count_both": 678662,
+  "max_norm_error": 1.1920928955078125e-7,
+  "max_initial_error": 0,
+  "checkpoint_step_both": 54016,
+  "adam_step_both": 54016,
+  "figure_checked": true,
+  "scientific_certification": false
+}

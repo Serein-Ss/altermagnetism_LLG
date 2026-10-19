@@ -1,0 +1,1 @@
+{"schema": "miltat_parent_v1", "parents": [{"parent_id": "parent0", "split": "train", "preparation_group": "prep0", "file": "train.h5"}, {"parent_id": "parent1", "split": "dev", "preparation_group": "prep1", "file": "dev.h5"}, {"parent_id": "parent2", "split": "test", "preparation_group": "prep0", "file": "test.h5"}]}

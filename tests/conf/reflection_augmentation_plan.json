@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_FOR_CONTROLLED_EXPERIMENT",
+  "question": "Can sample-pair chain reversal improve learned conditional dynamics without inference projection or additional flow evaluations?",
+  "control": "tests/results/coverage_intervention_training",
+  "training_seeds": [11, 22, 33],
+  "augmentation_rng_seed_base": 1004000000,
+  "augmentation_probability": 0.5,
+  "transform": "Reverse lattice index of initial and target together; no time reversal, spin inversion or theta change.",
+  "fixed": ["12288 mixed training pairs", "24000 updates", "DirectorTransition width64", "uniform site loss", "optimizer and schedule", "latent scale", "original training RNG", "ordinary midpoint32 inference"],
+  "unit": "Training seed; initial-family and temperature comparisons remain dependent diagnostic conditions, not independent training replicates.",
+  "evaluation": "All 12 development conditions for all three seeds; saved whole paths; paired latent seeds against coverage control. Report mean, variance, spatial and temporal associations and selected joint-path statistics; retain unfavorable conditions.",
+  "limitations": "Reuse of historical computational controls requires matching code, checkpoint and data hashes; not a randomized concurrent hardware timing study. Three seeds are a bounded diagnostic, not a powered certification. Augmentation does not enforce exact learned reflection equivariance. This plan does not establish long-time or large-system validity.",
+  "preflight": "Pair mapping, involution, no input mutation, independent RNG reproducibility and physical reference chain reversal must pass before wiring and submission."
+}

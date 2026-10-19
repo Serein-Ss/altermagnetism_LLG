@@ -1,0 +1,15 @@
+{
+  "training_array": "670501",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "report_job": "670502",
+  "estimated_per_seed_seconds": 3807.3407491073012,
+  "estimate_excludes_queue": true,
+  "partition": "rtx4090",
+  "job_name": "zrs-mag",
+  "status": "SUBMITTED_NOT_COMPLETED",
+  "monitor_after_submission": false
+}

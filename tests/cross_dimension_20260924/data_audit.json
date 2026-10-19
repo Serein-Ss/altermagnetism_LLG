@@ -1,0 +1,1187 @@
+{
+  "counts": {
+    "((64, 38), 'dev')": 4,
+    "((64, 38), 'test')": 4,
+    "((64, 38), 'train')": 12,
+    "((96, 56), 'train')": 12,
+    "((96, 56), 'dev')": 4,
+    "((96, 56), 'test')": 4,
+    "((128, 74), 'train')": 12,
+    "((128, 74), 'dev')": 4,
+    "((128, 74), 'test')": 4
+  },
+  "parents": [
+    {
+      "parent_id": "parent_000",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_002",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_003",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_004",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_005",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_006",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_008",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_009",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_010",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_011",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_013",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_014",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_016",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_017",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_018",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_019",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        64,
+        38,
+        2,
+        3
+      ],
+      "source_bytes": 47463488
+    },
+    {
+      "parent_id": "parent_020",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_021",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_022",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_024",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_026",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_027",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_028",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_029",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_030",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_031",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_033",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_034",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_036",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_037",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_038",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_039",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        96,
+        56,
+        2,
+        3
+      ],
+      "source_bytes": 104765504
+    },
+    {
+      "parent_id": "parent_040",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_041",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_042",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_043",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_046",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_047",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_048",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_049",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_050",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_051",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_052",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_053",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_055",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_056",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_058",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    },
+    {
+      "parent_id": "parent_059",
+      "physics": {
+        "boundary": "open",
+        "temperature_K": 12.5,
+        "J_meV": 29,
+        "K_meV": 0.4,
+        "D_meV": -1.5,
+        "moment_muB": 2.1,
+        "a_angstrom": 2.51,
+        "gamma_per_second_tesla": 176085963023.0,
+        "alpha": 0.5
+      },
+      "shape": [
+        8,
+        101,
+        128,
+        74,
+        2,
+        3
+      ],
+      "source_bytes": 184490048
+    }
+  ],
+  "physical_release": "engineering release, not blanket equivalence certification",
+  "reference_dt_fs": 0.3125,
+  "source_manifest_sha256": "a3e199de98a9f2fa806e7f6d9eac5b40e393ba788a3cb7c30e8f6f78f7284a57",
+  "source_config": {
+    "doi": "10.1103/PhysRevB.97.214426",
+    "source": "https://arxiv.org/pdf/1806.03172",
+    "parameter_location": "section_III_A_and_Fig10",
+    "physics": {
+      "J": {
+        "value": 29,
+        "unit": "meV"
+      },
+      "D": {
+        "value": -1.5,
+        "unit": "meV"
+      },
+      "K": {
+        "value": 0.4,
+        "unit": "meV"
+      },
+      "moment": {
+        "value": 2.1,
+        "unit": "mu_B"
+      },
+      "a": {
+        "value": 2.51,
+        "unit": "angstrom"
+      },
+      "alpha": 0.5,
+      "temperature_K": 25
+    },
+    "geometry": {
+      "shape": [
+        200,
+        116
+      ],
+      "periodic": [
+        false,
+        false
+      ],
+      "basis": 2
+    },
+    "numerics": {
+      "duration_ps": 1,
+      "dt_fs": 2.5,
+      "save_ps": 0.05,
+      "batch": 2
+    },
+    "preparation": {
+      "radius_nm": 1.25,
+      "width_nm": 0.4,
+      "relax_ps": 1
+    },
+    "provenance_notes": [
+      "Rectangular two-site cell reconstructs a triangular lattice with 46400 spins.",
+      "Full open-boundary dipoles computed by zero-padded FFT, not local shape anisotropy.",
+      "Fixed window and finite initial relaxation are diagnostic choices; paper moves its window.",
+      "DMI convention is explicitly E=-sum D_ij dot (s_i cross s_j), D_ij=d*(z cross rhat_ij)."
+    ],
+    "certification_holds": [
+      "gamma_source_unresolved",
+      "dmi_sign_mapping_needs_independent_source_confirmation",
+      "prepared_texture_not_certified",
+      "moving_window_not_implemented",
+      "diffusion_statistics_not_tested"
+    ]
+  },
+  "provenance_holds": "Retain source gamma/moving-window/literature caveats; not a new claim of exact paper reproduction."
+}

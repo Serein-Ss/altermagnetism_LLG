@@ -1,0 +1,9 @@
+{
+  "base_experiment": "tests/conf/bauer_training_budget_20260913.json",
+  "experiment": "stable_window_learning",
+  "arms": {"window11": 11},
+  "seeds": [11, 22, 33],
+  "budgets": [6000, 20000, 40000],
+  "optimization": {"min_lr": 0.00001, "ema_decay": 0.999},
+  "scope": "Optimization recipe comparison, not isolated-factor causality: 40000 updates, cosine lr .001 to .00001, EMA .999 evaluated at all three fixed milestones. Preserve raw_model and EMA model; optimizer is paired with raw_model, not EMA. Same192 train paths and autonomous11-frame windows, uniform sphere source, Cartesian backbone, no new data/Hamiltonian or equilibrium constraint. Compare first-window and full-rollout conditional distributions and all seeds, not only loss; reused development is not final certification. More update/GPU budget than prior6000-step control, explicitly not equal-compute. No best-seed selection or production promotion."
+}

@@ -1,0 +1,56 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "fm",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "moments",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "fm",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "moments",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "fm",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "moments",
+      "updates": 6000
+    }
+  ],
+  "hypothesis": "Does directly supervising local conditional mean and full3x3 covariance repair the real-state transition bias, without worsening unoptimized path statistics?",
+  "controls": "Same adjacent step12000 checkpoint and Adam state per seed,6000updates cosine3e-5->3e-6. Same native windows,72train-branch refill,source/tau/pair streams. FM-only concurrent control. Same updates not equal compute.",
+  "auxiliary": "Every16updates,one uniformly chosen training parent among24L16,all72 existing TRAIN futures sliced0->.1ps,64 independent generated branches split32+32. Midpoint128 differentiable exactly matching deployment,activation checkpointing. Weight ramps linearly to.1 over1000updates. Cross-products of independent estimates avoid generated sample-variance shrinkage from naive squared moment estimates; stochastic loss may be negative. Target remains noisy finite72 reference moments,not exact population moments.",
+  "limitation": "Auxiliary support only original t0 TRAIN states; no intermediate dev data trained. Tests whether this supervision transfers to real intermediate states; lack of transfer would leave conditional coverage unresolved. No new data generation. No Hamiltonian or analytic torque in loss. Local3x3 covariance is not all intersite correlations.",
+  "history": "Older flow_training_repair and curriculum_repair optimized full-path scalar increment variance/time correlation with sphereEuler32/64 and did not establish accuracy. This changes to two-frame local vector mean/full covariance, unbiased generated-ensemble cross-products and deployment midpoint128; cannot attribute benefit to each ingredient separately.",
+  "physics": "Unchanged Bauer J50meV,kappa.1,alpha.1,theta.11,T63.824849668K,open; trained lag.1ps,reference dt.25/.125fs. Rollout1ps10steps; no physical time relabelling.",
+  "evaluation": "Fixed final checkpoint only. Reuse full18dev128paths midpoint128/512 and24seen64paths midpoint128 evaluator. Additionally72fixed real-LLG intermediate dev states(.3/.8ps)128futures midpoint128. New independent latent seeds paired across arms. Reference base/fine from previous diagnostic,never training. Whole-branch bootstrap100; fixed-parent estimands,not216independent parents. Three training seeds separately; no arbitrary pass criterion.",
+  "decision": "Compare first mean/covariance/variance jointly,real intermediate states,and unoptimized energy/spatial/two-time/full1ps statistics. Improvement on training-only but not independent parents means no repaired generalization. Do not call successful execution physical certification.",
+  "budget": "Smoke estimated2-6min;6GPU jobs estimated2-4h each including full sampling;6fat statistics5-15min;aggregate<3min. rtx4090 GPU,job zrs-mag,no long monitoring.",
+  "skill_use": "Karpathy surgical changes; experimental-design paired controls and fixed estimands. Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

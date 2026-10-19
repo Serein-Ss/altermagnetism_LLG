@@ -37,7 +37,7 @@ def main():
     if noise_result['status']!='pass' or noise_result['config_sha256']!=sha256(config):
         raise ValueError('noise gate failed or config changed')
     # Real regression tests, not a manually supplied "pass" flag.
-    test=subprocess.run([sys.executable,'-m','pytest','scripts/tests','-q','--disable-warnings'],
+    test=subprocess.run([sys.executable,'-m','pytest','tests/unit','-q','--disable-warnings'],
                         cwd=ROOT,capture_output=True,text=True)
     print(test.stdout,flush=True)
     if test.returncode: print(test.stderr);raise RuntimeError('regression tests failed')
@@ -53,8 +53,8 @@ def main():
         'scripts/workflow/run_reduced_literature_campaign.py',
         'scripts/workflow/prepare_reduced_campaign.py',
         'scripts/validation/reduced_noise_gate.py',
-        'scripts/tests/conftest.py','scripts/tests/test_reduced_literature.py',
-        'scripts/tests/test_reduced_workflow.py','slurm/reduced_literature_r0.sbatch',
+        'tests/unit/conftest.py','tests/unit/test_reduced_literature.py',
+        'tests/unit/test_reduced_workflow.py','slurm/reduced_literature_r0.sbatch',
         'GUIDE/STRICT_LITERATURE_REPRODUCTION_PLAN.md','requirements.txt']
     source_files+=['conf/reduced_llg.yaml']+[str(p.relative_to(ROOT)) for p in sorted((ROOT/'conf/literature_reproduction/physics').glob('*.yaml'))]
     source_files += [str(p.relative_to(ROOT)) for p in sorted((ROOT/'data/literature_reproduction'/PAPER/'reference').iterdir()) if p.is_file()]

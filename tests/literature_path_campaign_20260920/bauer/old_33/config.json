@@ -1,0 +1,9 @@
+{
+  "kind": "old",
+  "seed": 33,
+  "updates": 1500,
+  "moment_weight": 10,
+  "warm": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/bauer_moment_training_20260920/runs/w0_33/best.pt",
+  "comparison": "Same batches, warm checkpoint, updates and mean weight; unequal compute",
+  "scientific_certification": false
+}

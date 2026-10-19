@@ -1,0 +1,11 @@
+{
+  "train_array": "670380",
+  "arms": 2,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "updates": 1500,
+  "scope": "Controlled diagnostic training; no publication certification"
+}

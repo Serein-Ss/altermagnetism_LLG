@@ -1,0 +1,36 @@
+{
+  "train_pilot_parents": [
+    0,
+    96
+  ],
+  "development_pilot_parents": [
+    16,
+    112
+  ],
+  "overlapping_noise_seeds": 0,
+  "inventory": [
+    {
+      "split": "train",
+      "pairs": 12288,
+      "independent_noise_paths": 1536,
+      "source_files": 30,
+      "families": 14,
+      "sites": 25,
+      "lag": 0.01,
+      "source_duration": 0.08,
+      "role": "optimizer input"
+    },
+    {
+      "split": "development",
+      "pairs": 12288,
+      "independent_noise_paths": 1536,
+      "source_files": 6,
+      "families": 2,
+      "sites": 25,
+      "lag": 0.01,
+      "source_duration": 0.08,
+      "role": "development; reused for design, not final test"
+    }
+  ],
+  "caveat": "Family identities are source-qualified. Coverage initial families and pilot parents have different provenance; no claim of population-wide independence."
+}

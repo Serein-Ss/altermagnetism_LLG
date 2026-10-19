@@ -1,0 +1,414 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "global_temporal",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "gaussian",
+      "arm": "temporal",
+      "seed": 22,
+      "updates": 3000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal",
+      "seed": 33,
+      "updates": 3000
+    },
+    {
+      "domain": "gaussian",
+      "arm": "temporal",
+      "seed": 33,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "global_temporal_long",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline_long",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "deterministic",
+      "arm": "temporal",
+      "seed": 22,
+      "updates": 3000
+    },
+    {
+      "domain": "deterministic",
+      "arm": "temporal",
+      "seed": 33,
+      "updates": 3000
+    },
+    {
+      "domain": "deterministic",
+      "arm": "global_temporal",
+      "seed": 22,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "local_extra",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "local_extra",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline_long",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_source_long",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "global_temporal_long",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "deterministic",
+      "arm": "temporal",
+      "seed": 11,
+      "updates": 3000
+    },
+    {
+      "domain": "gaussian",
+      "arm": "global_temporal",
+      "seed": 33,
+      "updates": 3000
+    },
+    {
+      "domain": "mixture",
+      "arm": "global_temporal",
+      "seed": 11,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "wide",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "mixture",
+      "arm": "global_temporal",
+      "seed": 33,
+      "updates": 3000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal",
+      "seed": 11,
+      "updates": 3000
+    },
+    {
+      "domain": "gaussian",
+      "arm": "temporal",
+      "seed": 11,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "anchors",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "deterministic",
+      "arm": "baseline",
+      "seed": 33,
+      "updates": 3000
+    },
+    {
+      "domain": "gaussian",
+      "arm": "global_temporal",
+      "seed": 11,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "anchors",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "anchors",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "global_temporal",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "mixture",
+      "arm": "global_temporal",
+      "seed": 22,
+      "updates": 3000
+    },
+    {
+      "domain": "gaussian",
+      "arm": "baseline",
+      "seed": 22,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "source",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "source",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "gaussian",
+      "arm": "baseline",
+      "seed": 33,
+      "updates": 3000
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 11,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_source_long",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "global_temporal",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_source",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "local_extra",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "global_temporal_long",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "deterministic",
+      "arm": "baseline",
+      "seed": 22,
+      "updates": 3000
+    },
+    {
+      "domain": "gaussian",
+      "arm": "baseline",
+      "seed": 11,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal",
+      "seed": 22,
+      "updates": 3000
+    },
+    {
+      "domain": "deterministic",
+      "arm": "global_temporal",
+      "seed": 33,
+      "updates": 3000
+    },
+    {
+      "domain": "gaussian",
+      "arm": "global_temporal",
+      "seed": 22,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_source_long",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "source",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "wide",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 22,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_source",
+      "seed": 22,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_source",
+      "seed": 11,
+      "updates": 6000
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 33,
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline_long",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "wide",
+      "seed": 33,
+      "updates": 6000
+    },
+    {
+      "domain": "deterministic",
+      "arm": "global_temporal",
+      "seed": 11,
+      "updates": 3000
+    },
+    {
+      "domain": "deterministic",
+      "arm": "baseline",
+      "seed": 11,
+      "updates": 3000
+    }
+  ],
+  "physical": {
+    "sizes": [
+      16,
+      25,
+      32
+    ],
+    "boundary": "open",
+    "temperature_K": 63.824849668,
+    "reference_dt_ps": 0.00025,
+    "output_dt_ps": 0.1,
+    "block_ps": 1.0
+  },
+  "controls": {
+    "baseline_long": "baseline extended to 24000 updates; paired first 6000-step budget",
+    "temporal_source_long": "temporal+source extended to 24000 updates; budget interaction",
+    "global_temporal_long": "global communication extended to 24000 updates; budget interaction",
+    "baseline": "same P2 width64/depth3 from scratch, same FM-only objective",
+    "global_temporal": "temporal residual plus all-site mean scalar/vector context, preserving vector magnitude; diagnostic global path, not full hierarchical multiscale",
+    "wide": "width128, depth3; isolates capacity within old topology; not equal FLOPs",
+    "local_extra": "parameter-matched new residual with no cross-time vector values",
+    "temporal": "new invariant temporal attention with vector values, plus original graph",
+    "source": "baseline with normalize(N(0,I)+2*S0) full-support source in both training and sampling",
+    "temporal_source": "tests interaction of temporal residual and source",
+    "anchors": "baseline trained only on original first-1ps anchors, tests window distribution mismatch"
+  },
+  "synthetic": "independent train/dev parent configurations; freshly sampled analytic futures; not LLG; deterministic / correlated tangent Gaussian / equal two-mode rotation mixture",
+  "synthetic_reference_branches": 128,
+  "generated_branches": 64,
+  "real_reference_branches": 16,
+  "final_flow_steps": [
+    128,
+    256
+  ],
+  "pairing": "identical baseline initialization and explicit data/noise/tau RNG streams within each seed; wider model naturally has different weights; anchor treatment intentionally changes targets",
+  "selection": "fixed final update is primary; half-budget snapshots descriptive; no retrospective best-checkpoint selection",
+  "uncertainty": "100 fixed-parent independent whole-branch bootstrap replicates for final 128-step metrics; pointwise bands, not simultaneous; reference split repetitions are not independent physical experiments",
+  "finite_sample": "32 repeated disjoint 8+8 reference splits, and matched 8+8 model/reference comparisons; not a physical acceptance threshold",
+  "scope": "Bauer supported 1ps window diagnostic, NOT time/size transfer, temperature generalization, or complete multiscale model",
+  "limitations": "not an exhaustive mathematical guarantee; new final holdout and approved physical tolerances remain needed; no event acceptance rules",
+  "decisions": [
+    "synthetic deterministic failure implicates learning/representation/optimization before complex stochastic LLG",
+    "deterministic success but stochastic failure isolates stochastic-law difficulty; compare temporal controls",
+    "global_temporal versus temporal tests nonlocal communication, especially global mixture coherence; not proof all large-scale physics",
+    "temporal versus local_extra isolates vector-value transmission at matched parameter count",
+    "wide improvement alone supports capacity limitation, subject to extra compute cost",
+    "source improvement supports transport coupling difficulty, not proof uniform source is mathematically invalid",
+    "anchors improvement is distribution-allocation evidence, not reason to discard non-anchor data without coverage review",
+    "reference-reference spread quantifies sampling limitations, never an automatic pass/fail threshold"
+  ],
+  "skill_use": "Experimental Design: blocked seeds, common random numbers, concurrent controls, declared estimands; Karpathy: isolated tests only"
+}

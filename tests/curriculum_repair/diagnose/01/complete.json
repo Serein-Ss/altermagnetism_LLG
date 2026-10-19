@@ -1,0 +1,9 @@
+{
+  "seed": 22,
+  "gradient_rows": 48,
+  "scientific_certification": false,
+  "total_seconds": 144.05894979834557,
+  "output": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/curriculum_repair/diagnose/01/retry2",
+  "reference_branches": 8,
+  "repeat_interpretation": "Same8 train futures; independent latent/tau draws, not additional physical samples"
+}

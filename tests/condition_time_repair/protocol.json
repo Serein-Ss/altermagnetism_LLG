@@ -1,0 +1,75 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "anchor",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "relative_time",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "anchor",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "relative_time",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "anchor",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "relative_time",
+      "updates": 6000
+    }
+  ],
+  "scope": "Existing Bauer open L16/25/32, T63.824849668K,1ps/.1ps grid. FM-only. No new training data, no dev futures in training, no production changes.",
+  "design": "Three seed-blocked arms: unchanged control, per-block anchor FiLM, relative physical-time attention bias. All start control step18000; existing Adam state restored, new parameters fresh state; identical data/source/tau streams.6000 updates cosine3e-4 to3e-6. Fixed final step24000 primary.",
+  "anchor": "Each block gets actual S0, neighbor-mean S0, their dot product and physical frame-time Fourier features, in registered crystal-frame coordinates; zero-init shift/scale residual. No Hamiltonian or clean future added.",
+  "relative_time": "Each existing temporal attention receives learned additive per-head bias from signed and absolute physical time differences (ps). Zero-init bias; no new attention/value backbone, no clean future input.",
+  "controls": "Zero-initialization preserves starting function within floating-point tolerance. Added capacity/compute not parameter-matched; measure both. Positive findings are candidate-level, not proof mechanism independent of capacity. No combined arm before separate effects.",
+  "evaluation": "Full18train/36dev64paths128Euler plus first32/256. Expanded18dev256paths with paired latent Euler128 and midpoint128 versus frozen128base+128fine references. Whole-branch bootstrap100. Reused dev, no untouched holdout or automatic certification.",
+  "budget": "9GPU jobs estimated15-35min each including expanded sampling; fat report20-50min. Smoke three arms estimated1-3min. No long-job monitoring.",
+  "skills": "Karpathy zero-init/regression/isolation; experimental-design concurrent paired seed controls. Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

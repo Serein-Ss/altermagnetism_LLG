@@ -1,0 +1,30 @@
+{
+  "base_config": "conf/research/runs/bauer_first_loop/20260913_v1/config.json",
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "old_checkpoints": "output/bauer_first_loop/20260913_v1",
+  "budgets": [
+    600,
+    3000,
+    6000
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "initials": 2,
+  "latents": 16,
+  "sampling_steps": 128,
+  "loss_draws": 20,
+  "threshold": 0.6,
+  "dwell": 160.0,
+  "output": "tests/output/window_learning/full",
+  "raw": "tests/data/window_learning/full",
+  "analysis": "tests/results/window_learning/full",
+  "scope": "Learn conditional dynamics from all 192 train paths, both theta .11/.13, no equilibrium requirement. Compare same Cartesian backbone on full 201-frame paths vs uniform 11-frame windows within training parents. Parent train/development split retained; developer-used validation is not a fresh final test. Constant-condition autonomous full-state Markov assumption motivates endpoint-conditioned composition, which must be checked for distributional drift and boundary artifacts. Window physical duration800, spacing80; 20 chunks recover16000, no time-axis stretching. Same6000 updates/batch8 but not equal processed frames or GPU cost; RNG shapes differ, do not claim paired latent paths across arms. Three robustness seeds. No explicit Hamiltonian, target endpoint or future real-state teacher forcing during rollout. No size-transfer or physical-law certification.",
+  "controls": "Same Cartesian width64 blocks4 and initial weights per seed; Adam lr.001, batch8, uniform flow matching. Same update budget, unequal frame/compute budget.",
+  "interpretation": "Compare development full-path distributions, not losses across unequal windows; no promotion or scale-up based only on loss.",
+  "model": "cartesian",
+  "window_frames": 201,
+  "compare_legacy": false
+}

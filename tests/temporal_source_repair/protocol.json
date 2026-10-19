@@ -1,0 +1,56 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "rho": 0.0,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "rho": 0.8,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "rho": 0.0,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "rho": 0.8,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "rho": 0.0,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "rho": 0.8,
+      "updates": 12000
+    }
+  ],
+  "hypothesis": "Test whether stationary temporal correlation of source futures reduces transport learning difficulty and early physical increment variance bias. Not assumed correct or a diagnosis already established.",
+  "historical_audit": "empirical_transport_repair/extended_summary.json already contains three-seed matched empirical8 CFM versus exact conditional velocity with no uniform advantage. Do not repeat. Earlier bauer_repair_20260924 used global shared rotational source on older backbone; this is per-site decaying temporal correlation on current SpinPathTransformer, not first-ever correlated-source claim.",
+  "source": "eta1=eps1; eta_t=rho*eta_(t-1)+sqrt(1-rho^2)*eps_t for future frames2..10; sites independent. z=normalize(2*S0+eta). rho0 control vs fixed rho.8 candidate, same single-frame marginal. Full joint support retained. Correlation is latent regularization, NOT LLG noise/time dynamics. Independent-frame oracle density must NOT be reused for rho.8.",
+  "physics": "Bauer open L16/25/32; J50meV,kappa.1,alpha.1,theta.11,T63.824849668K,zero field.1ps,11frames,.1ps saved grid. No new LLG data or boundary/physical-time changes.",
+  "training": "Both arms fresh, identical current hierarchical width64/depth4 initialization per seed, original native parent/size/window sampler plus existing72-branch refill for eligible24L16 train parents. FM-only,12000updates cosine1e-3->3e-5, batch8. Same target/raw-noise/tau random streams. No checkpoint source substitution. Same updates not equal measured compute.",
+  "stages": "6000 and12000; final12000 primary,6000 descriptive. Save model/Adam/RNG/source contract. Evaluation does not consume training RNG. No adaptive stop or checkpoint selection.",
+  "evaluation": "18independent dev parents128paths, two samplers midpoint128/512 from same latent; compare both independent base128/fine128.24seen train parents64new latent paths against probe128 independent futures at midpoint128. Preserve every generated path, raw latent seeds and times. Per-transport-tau velocity training diagnostics on fixed held-out random draws; MSE targets differ across source laws, not directly comparable physical accuracy.",
+  "uncertainty": "Whole-branch bootstrap100 including independent reference variation. Reused dev not final test. Report all3seeds/sizes; reference-reference spread not tolerance. No automatic promotion or equivalence. No off-policy true velocity oracle for correlated source.",
+  "budget": "6rtx4090 jobs estimated20-45min each;6fat stats10-25min each; aggregate<3min. Paired GPU smoke<5min. Formal submission then no monitoring.",
+  "skill_use": "Karpathy isolated source change; experimental-design paired controls; Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

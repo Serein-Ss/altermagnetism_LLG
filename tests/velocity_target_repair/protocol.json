@@ -1,0 +1,54 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "sampled_fm",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "conditional_mean",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "sampled_fm",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "conditional_mean",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "sampled_fm",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "conditional_mean",
+      "updates": 6000
+    }
+  ],
+  "scope": "Existing Bauer open L16/25/32,1ps/.1ps, unchanged physics/network/source. Start control24000; native_expanded sampler; no new data or dev training.",
+  "diagnosis": "Before/after by physical frame and tau0,.02,.05,.1,.25,.5,.75,.9: sampled-target MSE, model versus finite-mixture conditional velocity, target residual noise, posterior effective target count.24train pools72,24training-parent unseen128,18independent dev base128.64 source/target draws per condition. Finite-mixture teachers are NOT true LLG population fields.",
+  "repair": "Replace sampled velocity with its finite-training-mixture conditional mean ONLY for eligible original windows of24 L16 parents, tau<=0.9. Else ordinary FM. Uniform72 training branches exactly match existing refill sampler. No Hamiltonian teacher, no new weighting, no dev/probe supervision. Float64 oracle; outside-support error aborts rather than nearest extension. Same expected FM minimizer under exact finite-mixture arithmetic; finite precision and changed gradient variance are tested.",
+  "control": "Sampled-FM and conditional-mean arms, three seeds; identical target/source/tau/parent/window draws,6000updates cosine3e-5->3e-6. Lower restart avoids previous100x restart, but not asserted optimal. Same updates not same compute; conditional oracle adds cost. Original inference unchanged.",
+  "evaluation": "Fixed final checkpoint; original36dev64paths,expanded18dev256paths paired Euler128/midpoint128,24seen128paths. Whole-branch bootstrap100. Previous single-parent eight-path teacher experiments are not overwritten; this tests restricted variance-reduced supervision inside full data training.",
+  "limitations": "Reduction in empirical velocity MSE does not establish true physical accuracy. No automatic certification or promotion. Conditional averaging cannot add missing physics or remedy all coverage deficits. No final-test claim; uncertainty and metric tradeoffs retained.",
+  "budget": "Six rtx4090 jobs estimated25-50min each; six fat report jobs10-25min each; aggregation<3min. Three-family quick checks and paired GPU smoke<5min. No long monitoring.",
+  "skills": "Karpathy isolated regression; experimental-design paired controls. Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

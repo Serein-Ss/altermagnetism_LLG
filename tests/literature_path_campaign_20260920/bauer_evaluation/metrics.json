@@ -1,0 +1,2047 @@
+{
+  "checkpoint": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/literature_path_campaign_20260920/bauer/fixed_11/best.pt",
+  "rows": [
+    {
+      "L": 16,
+      "parent": 0,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.019110338382963155,
+        "mz_var": 0.0028900425648131695,
+        "energy_mean": 0.009580775678414224,
+        "spatial_corr": 0.0342717191040201,
+        "temporal_corr": 0.02944063696099992,
+        "increment_mean": 0.1922558757121934,
+        "increment_cov": 0.06899655981419768,
+        "endpoint_w1": 0.04492655908688903,
+        "wall_proxy": 0.005757077330897979,
+        "path_energy_distance": 0.013314015722020928
+      },
+      "reference_floor": {
+        "mz_mean": 0.014200954089037852,
+        "mz_var": 0.002595789134991951,
+        "energy_mean": 0.007796089375093595,
+        "spatial_corr": 0.02358233178928688,
+        "temporal_corr": 0.02074545206590166,
+        "increment_mean": 0.12978842212064226,
+        "increment_cov": 0.061758139241524894,
+        "endpoint_w1": 0.016128184885019436,
+        "wall_proxy": 0.0077443364773715434,
+        "path_energy_distance": 0.009818391443391639
+      },
+      "temporal": {
+        "increment_power_relative": 0.09964004968161436,
+        "adjacent_dot_relative": 0.040562959086285516
+      },
+      "seconds_10ps": 52.156175810843706
+    },
+    {
+      "L": 16,
+      "parent": 0,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.08173112360760112,
+        "mz_var": 0.04627278430866969,
+        "energy_mean": 0.012059591788022678,
+        "spatial_corr": 0.07720901581591443,
+        "temporal_corr": 0.0723318067448154,
+        "increment_mean": 0.15593979588332968,
+        "increment_cov": 0.07591772060041943,
+        "endpoint_w1": 0.11774522058658476,
+        "wall_proxy": 0.014646550861729002,
+        "path_energy_distance": 0.0336554351723623
+      },
+      "reference_floor": {
+        "mz_mean": 0.0649714053909098,
+        "mz_var": 0.04772015533092741,
+        "energy_mean": 0.01028880489259315,
+        "spatial_corr": 0.04223443817514751,
+        "temporal_corr": 0.06447475055797632,
+        "increment_mean": 0.1454715154994859,
+        "increment_cov": 0.07304197309358426,
+        "endpoint_w1": 0.041849795832604286,
+        "wall_proxy": 0.012691059108605941,
+        "path_energy_distance": 0.019654760365356738
+      },
+      "temporal": {
+        "increment_power_relative": 0.1060264184896699,
+        "adjacent_dot_relative": 0.07182325530511746
+      },
+      "seconds_10ps": 52.17168362811208
+    },
+    {
+      "L": 16,
+      "parent": 1,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.014318741127131034,
+        "mz_var": 0.007018031095044103,
+        "energy_mean": 0.010614011169713956,
+        "spatial_corr": 0.022226031847514822,
+        "temporal_corr": 0.07656935427061821,
+        "increment_mean": 0.2511370345404684,
+        "increment_cov": 0.07495531621598714,
+        "endpoint_w1": 0.019343572930665687,
+        "wall_proxy": 0.006281486345370076,
+        "path_energy_distance": 0.02072577024180186
+      },
+      "reference_floor": {
+        "mz_mean": 0.014345346395143573,
+        "mz_var": 0.005737217866724213,
+        "energy_mean": 0.007089804010556665,
+        "spatial_corr": 0.02297901933430182,
+        "temporal_corr": 0.027764218617758657,
+        "increment_mean": 0.142627013765866,
+        "increment_cov": 0.06472631569460663,
+        "endpoint_w1": 0.03422148144727544,
+        "wall_proxy": 0.012811768579763457,
+        "path_energy_distance": 0.011706961848439945
+      },
+      "temporal": {
+        "increment_power_relative": 0.13822966712809853,
+        "adjacent_dot_relative": 0.12147304466378389
+      },
+      "seconds_10ps": 51.656379628926516
+    },
+    {
+      "L": 16,
+      "parent": 1,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.06268066038314145,
+        "mz_var": 0.0826633079756521,
+        "energy_mean": 0.010083211498275317,
+        "spatial_corr": 0.041304141028577615,
+        "temporal_corr": 0.05499281446282752,
+        "increment_mean": 0.1589261972500756,
+        "increment_cov": 0.07723820297237372,
+        "endpoint_w1": 0.10799429339658673,
+        "wall_proxy": 0.012623155683344026,
+        "path_energy_distance": 0.02253553680724013
+      },
+      "reference_floor": {
+        "mz_mean": 0.06217678678451238,
+        "mz_var": 0.04615117092122691,
+        "energy_mean": 0.01079082874809707,
+        "spatial_corr": 0.04147546842414555,
+        "temporal_corr": 0.06485979716241795,
+        "increment_mean": 0.1469440583610717,
+        "increment_cov": 0.0751850404425309,
+        "endpoint_w1": 0.14425493991711846,
+        "wall_proxy": 0.015103010795649633,
+        "path_energy_distance": 0.0217253187474985
+      },
+      "temporal": {
+        "increment_power_relative": 0.09181048807691639,
+        "adjacent_dot_relative": 0.0744242246785895
+      },
+      "seconds_10ps": 51.67196610197425
+    },
+    {
+      "L": 16,
+      "parent": 2,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.014457442637424402,
+        "mz_var": 0.003436933859736135,
+        "energy_mean": 0.009401458630167265,
+        "spatial_corr": 0.024923601999429383,
+        "temporal_corr": 0.016121314283180872,
+        "increment_mean": 0.17200345883720142,
+        "increment_cov": 0.072412026814183,
+        "endpoint_w1": 0.019424921963945962,
+        "wall_proxy": 0.007325408941596104,
+        "path_energy_distance": 0.010927584476716934
+      },
+      "reference_floor": {
+        "mz_mean": 0.02269236049604559,
+        "mz_var": 0.004166865423300414,
+        "energy_mean": 0.00803191949209618,
+        "spatial_corr": 0.029369488160379716,
+        "temporal_corr": 0.021426480200943086,
+        "increment_mean": 0.1313013446648348,
+        "increment_cov": 0.06462399603883898,
+        "endpoint_w1": 0.03118877981614787,
+        "wall_proxy": 0.008794080883518107,
+        "path_energy_distance": 0.01224154487137466
+      },
+      "temporal": {
+        "increment_power_relative": 0.11737572967594327,
+        "adjacent_dot_relative": 0.07816512745704815
+      },
+      "seconds_10ps": 51.719307485967875
+    },
+    {
+      "L": 16,
+      "parent": 2,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.060766934269006694,
+        "mz_var": 0.025557587875604488,
+        "energy_mean": 0.009541967967344517,
+        "spatial_corr": 0.06787727796046338,
+        "temporal_corr": 0.05705334637317741,
+        "increment_mean": 0.16142352578860691,
+        "increment_cov": 0.07707727908426058,
+        "endpoint_w1": 0.09956253176824248,
+        "wall_proxy": 0.015656253122193146,
+        "path_energy_distance": 0.03125738299644246
+      },
+      "reference_floor": {
+        "mz_mean": 0.08517425279435804,
+        "mz_var": 0.12003283062176512,
+        "energy_mean": 0.008977648841935113,
+        "spatial_corr": 0.037304819298718116,
+        "temporal_corr": 0.07616304364586055,
+        "increment_mean": 0.15775548491112737,
+        "increment_cov": 0.0741722838583284,
+        "endpoint_w1": 0.14445726842495787,
+        "wall_proxy": 0.009436109050631067,
+        "path_energy_distance": 0.02102197617220769
+      },
+      "temporal": {
+        "increment_power_relative": 0.11100887099965288,
+        "adjacent_dot_relative": 0.06912916038850697
+      },
+      "seconds_10ps": 51.73486929014325
+    },
+    {
+      "L": 16,
+      "parent": 3,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.01782266259240738,
+        "mz_var": 0.00565142058731178,
+        "energy_mean": 0.012663161967114344,
+        "spatial_corr": 0.02296253338403799,
+        "temporal_corr": 0.0320109636564654,
+        "increment_mean": 0.14821797594320746,
+        "increment_cov": 0.07273301751682679,
+        "endpoint_w1": 0.035939686644269386,
+        "wall_proxy": 0.008612740152198541,
+        "path_energy_distance": 0.01182428156162843
+      },
+      "reference_floor": {
+        "mz_mean": 0.03234940267375254,
+        "mz_var": 0.007349369180873665,
+        "energy_mean": 0.012125445171023446,
+        "spatial_corr": 0.04550132198859994,
+        "temporal_corr": 0.0339167842163966,
+        "increment_mean": 0.11515773336971077,
+        "increment_cov": 0.06481691987669438,
+        "endpoint_w1": 0.06576375102304155,
+        "wall_proxy": 0.009731236802019037,
+        "path_energy_distance": 0.01547214171884101
+      },
+      "temporal": {
+        "increment_power_relative": 0.08699969895498205,
+        "adjacent_dot_relative": 0.09249088156127983
+      },
+      "seconds_10ps": 51.62204693257809
+    },
+    {
+      "L": 16,
+      "parent": 3,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.14214909806488624,
+        "mz_var": 0.059993618962704824,
+        "energy_mean": 0.013559881633044077,
+        "spatial_corr": 0.11350123056179996,
+        "temporal_corr": 0.11961638149052653,
+        "increment_mean": 0.150525930310171,
+        "increment_cov": 0.076869169120528,
+        "endpoint_w1": 0.1648394737394483,
+        "wall_proxy": 0.024618932941659327,
+        "path_energy_distance": 0.05977764378038161
+      },
+      "reference_floor": {
+        "mz_mean": 0.07110722900998753,
+        "mz_var": 0.06019511816321429,
+        "energy_mean": 0.01294696977193285,
+        "spatial_corr": 0.05174757563162579,
+        "temporal_corr": 0.06524816806705867,
+        "increment_mean": 0.14622818984161082,
+        "increment_cov": 0.07476937828425777,
+        "endpoint_w1": 0.1135862462760997,
+        "wall_proxy": 0.014078057187318745,
+        "path_energy_distance": 0.025160242627253887
+      },
+      "temporal": {
+        "increment_power_relative": 0.10417616935082408,
+        "adjacent_dot_relative": 0.07111577864501882
+      },
+      "seconds_10ps": 51.63781349360943
+    },
+    {
+      "L": 16,
+      "parent": 4,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.03493304167126555,
+        "mz_var": 0.01039605607394222,
+        "energy_mean": 0.010178879599495299,
+        "spatial_corr": 0.0460377750183676,
+        "temporal_corr": 0.06590389806368509,
+        "increment_mean": 0.22272047219324698,
+        "increment_cov": 0.07071018135041483,
+        "endpoint_w1": 0.029185748964664526,
+        "wall_proxy": 0.014157751205326332,
+        "path_energy_distance": 0.02048422601956862
+      },
+      "reference_floor": {
+        "mz_mean": 0.027943448721341,
+        "mz_var": 0.002235334952695843,
+        "energy_mean": 0.008136350457188388,
+        "spatial_corr": 0.037793065448411864,
+        "temporal_corr": 0.03479538649879499,
+        "increment_mean": 0.13241179269718326,
+        "increment_cov": 0.06479797362725363,
+        "endpoint_w1": 0.02125707359664375,
+        "wall_proxy": 0.009059288441743484,
+        "path_energy_distance": 0.015678731340035473
+      },
+      "temporal": {
+        "increment_power_relative": 0.07607063319976404,
+        "adjacent_dot_relative": 0.0742950730437739
+      },
+      "seconds_10ps": 51.602977354079485
+    },
+    {
+      "L": 16,
+      "parent": 4,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.13251989846818393,
+        "mz_var": 0.11996886512273881,
+        "energy_mean": 0.010813051024865348,
+        "spatial_corr": 0.07391805016291514,
+        "temporal_corr": 0.11060543416196383,
+        "increment_mean": 0.16390346986059692,
+        "increment_cov": 0.07561791302802415,
+        "endpoint_w1": 0.13482976811064873,
+        "wall_proxy": 0.014646550861729,
+        "path_energy_distance": 0.04201019360951366
+      },
+      "reference_floor": {
+        "mz_mean": 0.03280743941370458,
+        "mz_var": 0.010225751840539522,
+        "energy_mean": 0.010763791662951426,
+        "spatial_corr": 0.040881902657062,
+        "temporal_corr": 0.047256477904399845,
+        "increment_mean": 0.15549195573206054,
+        "increment_cov": 0.07404376860754583,
+        "endpoint_w1": 0.026956487673487572,
+        "wall_proxy": 0.012354766854392789,
+        "path_energy_distance": 0.019778138187850597
+      },
+      "temporal": {
+        "increment_power_relative": 0.09669815522435649,
+        "adjacent_dot_relative": 0.08032029793933373
+      },
+      "seconds_10ps": 51.61893264204264
+    },
+    {
+      "L": 16,
+      "parent": 5,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.015328468432505614,
+        "mz_var": 0.005309987266144657,
+        "energy_mean": 0.007808520065824687,
+        "spatial_corr": 0.021449087101856543,
+        "temporal_corr": 0.03555029024137757,
+        "increment_mean": 0.18521010314594294,
+        "increment_cov": 0.07317396785154498,
+        "endpoint_w1": 0.037362608301918954,
+        "wall_proxy": 0.012049980091353687,
+        "path_energy_distance": 0.013958445394716704
+      },
+      "reference_floor": {
+        "mz_mean": 0.041720745029591465,
+        "mz_var": 0.0026622242784423273,
+        "energy_mean": 0.010797037434123935,
+        "spatial_corr": 0.060848296680658054,
+        "temporal_corr": 0.05588047254916885,
+        "increment_mean": 0.1381219453414714,
+        "increment_cov": 0.06299280398540928,
+        "endpoint_w1": 0.061179109256045194,
+        "wall_proxy": 0.0077443364773715434,
+        "path_energy_distance": 0.029246273702766598
+      },
+      "temporal": {
+        "increment_power_relative": 0.09493131999653369,
+        "adjacent_dot_relative": 0.03471875010706655
+      },
+      "seconds_10ps": 51.634899988770485
+    },
+    {
+      "L": 16,
+      "parent": 5,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.09189459543733583,
+        "mz_var": 0.08371351111678772,
+        "energy_mean": 0.010337618490921277,
+        "spatial_corr": 0.07465930613445276,
+        "temporal_corr": 0.0813518894859391,
+        "increment_mean": 0.15349905014487578,
+        "increment_cov": 0.07800096882455328,
+        "endpoint_w1": 0.09807169166015228,
+        "wall_proxy": 0.013706865535791968,
+        "path_energy_distance": 0.03173488187272258
+      },
+      "reference_floor": {
+        "mz_mean": 0.03770259428222374,
+        "mz_var": 0.007744737767868118,
+        "energy_mean": 0.011504243782074985,
+        "spatial_corr": 0.04812383677084701,
+        "temporal_corr": 0.03995489350748765,
+        "increment_mean": 0.15515371646220874,
+        "increment_cov": 0.07448551328370803,
+        "endpoint_w1": 0.06218099210673245,
+        "wall_proxy": 0.010513166871488667,
+        "path_energy_distance": 0.020402102055971483
+      },
+      "temporal": {
+        "increment_power_relative": 0.11624300997632028,
+        "adjacent_dot_relative": 0.09144241843027145
+      },
+      "seconds_10ps": 51.65059554949403
+    },
+    {
+      "L": 25,
+      "parent": 0,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.0405060933211268,
+        "mz_var": 0.0031473534283003837,
+        "energy_mean": 0.007934411509964589,
+        "spatial_corr": 0.06272537212889734,
+        "temporal_corr": 0.05063367772520968,
+        "increment_mean": 0.22165752783106227,
+        "increment_cov": 0.07525289612754606,
+        "endpoint_w1": 0.05794275117572394,
+        "wall_proxy": 0.013979835597958923,
+        "path_energy_distance": 0.02878595925037085
+      },
+      "reference_floor": {
+        "mz_mean": 0.021716324917640584,
+        "mz_var": 0.0013810570355266727,
+        "energy_mean": 0.0069431273317062964,
+        "spatial_corr": 0.031347738250616444,
+        "temporal_corr": 0.01758697785619281,
+        "increment_mean": 0.14376266764530343,
+        "increment_cov": 0.0622996614756966,
+        "endpoint_w1": 0.025185199873521934,
+        "wall_proxy": 0.007196346663622473,
+        "path_energy_distance": 0.011617730228381085
+      },
+      "temporal": {
+        "increment_power_relative": 0.0906865325418723,
+        "adjacent_dot_relative": 0.0626258811031087
+      },
+      "seconds_10ps": 61.50816686451435
+    },
+    {
+      "L": 25,
+      "parent": 0,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.09568062926710048,
+        "mz_var": 0.08173244742055626,
+        "energy_mean": 0.009555495615286479,
+        "spatial_corr": 0.06531799992162922,
+        "temporal_corr": 0.06921491140349673,
+        "increment_mean": 0.15962322474553295,
+        "increment_cov": 0.07330462060533052,
+        "endpoint_w1": 0.11585494744591415,
+        "wall_proxy": 0.011339462728988671,
+        "path_energy_distance": 0.03222298414272362
+      },
+      "reference_floor": {
+        "mz_mean": 0.027377861766067456,
+        "mz_var": 0.004532235734153985,
+        "energy_mean": 0.007351242893384057,
+        "spatial_corr": 0.031202544281829364,
+        "temporal_corr": 0.03590767858697848,
+        "increment_mean": 0.15078567214976502,
+        "increment_cov": 0.07034492476201767,
+        "endpoint_w1": 0.03403509906900582,
+        "wall_proxy": 0.0095875979265025,
+        "path_energy_distance": 0.01432728512763115
+      },
+      "temporal": {
+        "increment_power_relative": 0.10669295013612502,
+        "adjacent_dot_relative": 0.06047984859980382
+      },
+      "seconds_10ps": 61.531635254621506
+    },
+    {
+      "L": 25,
+      "parent": 1,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.051726679203176716,
+        "mz_var": 0.006918485297384315,
+        "energy_mean": 0.011984516350226659,
+        "spatial_corr": 0.07508452630224768,
+        "temporal_corr": 0.059108807015415925,
+        "increment_mean": 0.17438745106629217,
+        "increment_cov": 0.06478912965138078,
+        "endpoint_w1": 0.07919170325854794,
+        "wall_proxy": 0.013091663411646297,
+        "path_energy_distance": 0.03666544600907745
+      },
+      "reference_floor": {
+        "mz_mean": 0.023344659781342283,
+        "mz_var": 0.001718269926272953,
+        "energy_mean": 0.012887118038885365,
+        "spatial_corr": 0.036885450863985245,
+        "temporal_corr": 0.0298034597622641,
+        "increment_mean": 0.13602613651235623,
+        "increment_cov": 0.0619462560303761,
+        "endpoint_w1": 0.016503596566617484,
+        "wall_proxy": 0.004645221796957525,
+        "path_energy_distance": 0.015639019996413886
+      },
+      "temporal": {
+        "increment_power_relative": 0.09035006345660947,
+        "adjacent_dot_relative": 0.10355705136752685
+      },
+      "seconds_10ps": 61.433553505688906
+    },
+    {
+      "L": 25,
+      "parent": 1,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.03993541696053808,
+        "mz_var": 0.005841644118920833,
+        "energy_mean": 0.008504246208161675,
+        "spatial_corr": 0.05263884406002081,
+        "temporal_corr": 0.040443627801369994,
+        "increment_mean": 0.15414087193091452,
+        "increment_cov": 0.07444410834244918,
+        "endpoint_w1": 0.0268605057359673,
+        "wall_proxy": 0.010069236986216904,
+        "path_energy_distance": 0.0231295424243477
+      },
+      "reference_floor": {
+        "mz_mean": 0.03502976661504467,
+        "mz_var": 0.00592988610716685,
+        "energy_mean": 0.010160245875847145,
+        "spatial_corr": 0.04050916585677404,
+        "temporal_corr": 0.034205037905160766,
+        "increment_mean": 0.14553897124527637,
+        "increment_cov": 0.0718014232938039,
+        "endpoint_w1": 0.07449793975800276,
+        "wall_proxy": 0.007478777098066451,
+        "path_energy_distance": 0.017170362652584897
+      },
+      "temporal": {
+        "increment_power_relative": 0.09743491527252737,
+        "adjacent_dot_relative": 0.0673343343328611
+      },
+      "seconds_10ps": 61.457006096839905
+    },
+    {
+      "L": 25,
+      "parent": 2,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.012673923967600585,
+        "mz_var": 0.00266901836538944,
+        "energy_mean": 0.008939157671908764,
+        "spatial_corr": 0.02255517052566834,
+        "temporal_corr": 0.03249131572924999,
+        "increment_mean": 0.18439442544291082,
+        "increment_cov": 0.07183312721357915,
+        "endpoint_w1": 0.03228659766726197,
+        "wall_proxy": 0.007733183224934222,
+        "path_energy_distance": 0.010730128092722627
+      },
+      "reference_floor": {
+        "mz_mean": 0.02848106362640222,
+        "mz_var": 0.002353185505808832,
+        "energy_mean": 0.009376248715247493,
+        "spatial_corr": 0.038126452763995185,
+        "temporal_corr": 0.03137779517346964,
+        "increment_mean": 0.13510107561793352,
+        "increment_cov": 0.06489149169600587,
+        "endpoint_w1": 0.02174153175066748,
+        "wall_proxy": 0.007851857931712595,
+        "path_energy_distance": 0.0167164685714324
+      },
+      "temporal": {
+        "increment_power_relative": 0.05293416165617957,
+        "adjacent_dot_relative": 0.05303741658555314
+      },
+      "seconds_10ps": 61.45994012802839
+    },
+    {
+      "L": 25,
+      "parent": 2,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.06731350953401122,
+        "mz_var": 0.04090181065424111,
+        "energy_mean": 0.008784515003957069,
+        "spatial_corr": 0.03056504736311175,
+        "temporal_corr": 0.05674256490040869,
+        "increment_mean": 0.1481308536762655,
+        "increment_cov": 0.07662631263726764,
+        "endpoint_w1": 0.095682795670582,
+        "wall_proxy": 0.014050175659261544,
+        "path_energy_distance": 0.017672991097566065
+      },
+      "reference_floor": {
+        "mz_mean": 0.10000508992824689,
+        "mz_var": 0.05143344480103577,
+        "energy_mean": 0.010807645928087455,
+        "spatial_corr": 0.055282822404724936,
+        "temporal_corr": 0.08474483720407798,
+        "increment_mean": 0.15146772446856932,
+        "increment_cov": 0.07501969305819672,
+        "endpoint_w1": 0.15970054661738686,
+        "wall_proxy": 0.014211731855485916,
+        "path_energy_distance": 0.031030156383325402
+      },
+      "temporal": {
+        "increment_power_relative": 0.10464897826222837,
+        "adjacent_dot_relative": 0.0705543569641989
+      },
+      "seconds_10ps": 61.48303472995758
+    },
+    {
+      "L": 25,
+      "parent": 3,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.028979806447303323,
+        "mz_var": 0.0013957908710110936,
+        "energy_mean": 0.006257682020095877,
+        "spatial_corr": 0.04579005993551433,
+        "temporal_corr": 0.02871833615359573,
+        "increment_mean": 0.16708717643521104,
+        "increment_cov": 0.0708724783111228,
+        "endpoint_w1": 0.025625819489359873,
+        "wall_proxy": 0.0035981733318112366,
+        "path_energy_distance": 0.02037381930866372
+      },
+      "reference_floor": {
+        "mz_mean": 0.00941135545987823,
+        "mz_var": 0.0009045351756004343,
+        "energy_mean": 0.009259407592745548,
+        "spatial_corr": 0.01492924630689855,
+        "temporal_corr": 0.01667835152093087,
+        "increment_mean": 0.1286304509758964,
+        "increment_cov": 0.06518380859060015,
+        "endpoint_w1": 0.013226792187488179,
+        "wall_proxy": 0.002719963374307779,
+        "path_energy_distance": 0.007843652885786812
+      },
+      "temporal": {
+        "increment_power_relative": 0.18175232197699376,
+        "adjacent_dot_relative": 0.09413653919551968
+      },
+      "seconds_10ps": 61.39219840615988
+    },
+    {
+      "L": 25,
+      "parent": 3,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.11266198199772397,
+        "mz_var": 0.039616565531883086,
+        "energy_mean": 0.013020242343207934,
+        "spatial_corr": 0.08323308631173006,
+        "temporal_corr": 0.10418976599622513,
+        "increment_mean": 0.1531853347933312,
+        "increment_cov": 0.07368853893118506,
+        "endpoint_w1": 0.1601978933776263,
+        "wall_proxy": 0.021161110131384275,
+        "path_energy_distance": 0.046322754483205886
+      },
+      "reference_floor": {
+        "mz_mean": 0.021285030600743073,
+        "mz_var": 0.0036976514891072275,
+        "energy_mean": 0.008538669675934068,
+        "spatial_corr": 0.027788807694619482,
+        "temporal_corr": 0.02333821645406067,
+        "increment_mean": 0.1464195589018055,
+        "increment_cov": 0.07155347051964676,
+        "endpoint_w1": 0.04853983583627268,
+        "wall_proxy": 0.0072831899101133335,
+        "path_energy_distance": 0.012628815401305088
+      },
+      "temporal": {
+        "increment_power_relative": 0.10119662338238654,
+        "adjacent_dot_relative": 0.05465249574873055
+      },
+      "seconds_10ps": 61.415115151554346
+    },
+    {
+      "L": 25,
+      "parent": 4,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.022302819854577882,
+        "mz_var": 0.0010682690884083724,
+        "energy_mean": 0.008453298704090357,
+        "spatial_corr": 0.03276313544346701,
+        "temporal_corr": 0.031255900087769295,
+        "increment_mean": 0.18826654361914358,
+        "increment_cov": 0.06532786411721557,
+        "endpoint_w1": 0.016489038206636907,
+        "wall_proxy": 0.007531237557096053,
+        "path_energy_distance": 0.014004397160093801
+      },
+      "reference_floor": {
+        "mz_mean": 0.015765531070193704,
+        "mz_var": 0.0022684012463281304,
+        "energy_mean": 0.006915336737650991,
+        "spatial_corr": 0.021636835642407405,
+        "temporal_corr": 0.019682785808934383,
+        "increment_mean": 0.11837911435597749,
+        "increment_cov": 0.06351027390954953,
+        "endpoint_w1": 0.041616151649504884,
+        "wall_proxy": 0.0058230936914057015,
+        "path_energy_distance": 0.01230603576963804
+      },
+      "temporal": {
+        "increment_power_relative": 0.07912929210344616,
+        "adjacent_dot_relative": 0.059200356235913736
+      },
+      "seconds_10ps": 61.258316319435835
+    },
+    {
+      "L": 25,
+      "parent": 4,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.0961021951205417,
+        "mz_var": 0.09877130780196987,
+        "energy_mean": 0.00903352455938745,
+        "spatial_corr": 0.05331256948615918,
+        "temporal_corr": 0.08625745926417686,
+        "increment_mean": 0.15514968973674353,
+        "increment_cov": 0.07444912054244904,
+        "endpoint_w1": 0.15436592870857568,
+        "wall_proxy": 0.013762889779144577,
+        "path_energy_distance": 0.026978108026517275
+      },
+      "reference_floor": {
+        "mz_mean": 0.0424425918713237,
+        "mz_var": 0.007818397537368602,
+        "energy_mean": 0.009004450489985919,
+        "spatial_corr": 0.046219166025892544,
+        "temporal_corr": 0.04370054410010435,
+        "increment_mean": 0.14481414470952236,
+        "increment_cov": 0.07327140657695873,
+        "endpoint_w1": 0.03805958791635932,
+        "wall_proxy": 0.010709076523888484,
+        "path_energy_distance": 0.020536541619156454
+      },
+      "temporal": {
+        "increment_power_relative": 0.09133057505495774,
+        "adjacent_dot_relative": 0.05292515121684795
+      },
+      "seconds_10ps": 61.281693156808615
+    },
+    {
+      "L": 25,
+      "parent": 5,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.02078749382632126,
+        "mz_var": 0.0008992663120771258,
+        "energy_mean": 0.005344940505703561,
+        "spatial_corr": 0.0329633314090209,
+        "temporal_corr": 0.032407626732359064,
+        "increment_mean": 0.1779502428330355,
+        "increment_cov": 0.06680647666874329,
+        "endpoint_w1": 0.03860454844310881,
+        "wall_proxy": 0.003041011500630949,
+        "path_energy_distance": 0.01453724237876726
+      },
+      "reference_floor": {
+        "mz_mean": 0.017874412847517007,
+        "mz_var": 0.0006895249784013914,
+        "energy_mean": 0.007195457636778188,
+        "spatial_corr": 0.02529614227453242,
+        "temporal_corr": 0.017486684579652877,
+        "increment_mean": 0.12077681199722529,
+        "increment_cov": 0.0618770240487926,
+        "endpoint_w1": 0.03865151081234218,
+        "wall_proxy": 0.0044416815907418845,
+        "path_energy_distance": 0.010847246020640133
+      },
+      "temporal": {
+        "increment_power_relative": 0.12308631907482517,
+        "adjacent_dot_relative": 0.0640391721109871
+      },
+      "seconds_10ps": 60.98666071891785
+    },
+    {
+      "L": 25,
+      "parent": 5,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.026015082583962422,
+        "mz_var": 0.0051218655806102645,
+        "energy_mean": 0.008597250820721478,
+        "spatial_corr": 0.04013749399761812,
+        "temporal_corr": 0.027282813814264627,
+        "increment_mean": 0.15679664587373826,
+        "increment_cov": 0.07504132529712552,
+        "endpoint_w1": 0.04654594213003292,
+        "wall_proxy": 0.006677165310119097,
+        "path_energy_distance": 0.017162159680445987
+      },
+      "reference_floor": {
+        "mz_mean": 0.021206177386037018,
+        "mz_var": 0.003966678144317194,
+        "energy_mean": 0.00818075084279823,
+        "spatial_corr": 0.02949728659455841,
+        "temporal_corr": 0.025770578422155098,
+        "increment_mean": 0.14831753576216897,
+        "increment_cov": 0.07337097020961088,
+        "endpoint_w1": 0.04007159256609157,
+        "wall_proxy": 0.006722264875499971,
+        "path_energy_distance": 0.012240281661154609
+      },
+      "temporal": {
+        "increment_power_relative": 0.10665604707844498,
+        "adjacent_dot_relative": 0.06096296865456128
+      },
+      "seconds_10ps": 61.00968414917588
+    },
+    {
+      "L": 32,
+      "parent": 0,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.012462134766372904,
+        "mz_var": 0.0009926073221910388,
+        "energy_mean": 0.007470381393095576,
+        "spatial_corr": 0.01774180442028496,
+        "temporal_corr": 0.0334235561417665,
+        "increment_mean": 0.1829982887959967,
+        "increment_cov": 0.0693811166303409,
+        "endpoint_w1": 0.012588693123689154,
+        "wall_proxy": 0.0049009318024636865,
+        "path_energy_distance": 0.009863342740408065
+      },
+      "reference_floor": {
+        "mz_mean": 0.006587941535137103,
+        "mz_var": 0.0010107274241928413,
+        "energy_mean": 0.007515104120481939,
+        "spatial_corr": 0.0178470473572882,
+        "temporal_corr": 0.016455846287349644,
+        "increment_mean": 0.12666293080267085,
+        "increment_cov": 0.06134052183519669,
+        "endpoint_w1": 0.011443362716818228,
+        "wall_proxy": 0.004863086202867155,
+        "path_energy_distance": 0.007852358249645058
+      },
+      "temporal": {
+        "increment_power_relative": 0.09108368399657384,
+        "adjacent_dot_relative": 0.08519309707676341
+      },
+      "seconds_10ps": 56.35929901152849
+    },
+    {
+      "L": 32,
+      "parent": 0,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.04272696609271536,
+        "mz_var": 0.013614482204335044,
+        "energy_mean": 0.008133046342851905,
+        "spatial_corr": 0.030034375718681543,
+        "temporal_corr": 0.03743102125123534,
+        "increment_mean": 0.1547912136465527,
+        "increment_cov": 0.07306874906795163,
+        "endpoint_w1": 0.04853016557569845,
+        "wall_proxy": 0.007699437714234789,
+        "path_energy_distance": 0.014808418991729189
+      },
+      "reference_floor": {
+        "mz_mean": 0.021939512685278453,
+        "mz_var": 0.0024309879058457533,
+        "energy_mean": 0.008342377736685398,
+        "spatial_corr": 0.03146619086137635,
+        "temporal_corr": 0.030304310340689467,
+        "increment_mean": 0.15407942215148657,
+        "increment_cov": 0.07242927530050385,
+        "endpoint_w1": 0.030149311638183462,
+        "wall_proxy": 0.0064788778322800045,
+        "path_energy_distance": 0.01334250876182308
+      },
+      "temporal": {
+        "increment_power_relative": 0.07918873201865771,
+        "adjacent_dot_relative": 0.06238170795438748
+      },
+      "seconds_10ps": 56.38787576556206
+    },
+    {
+      "L": 32,
+      "parent": 1,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.01238846089007922,
+        "mz_var": 0.0021167199050035747,
+        "energy_mean": 0.007052840786501824,
+        "spatial_corr": 0.021974328638003575,
+        "temporal_corr": 0.032178793347613206,
+        "increment_mean": 0.19780380373365003,
+        "increment_cov": 0.07005039637221418,
+        "endpoint_w1": 0.01446023703465471,
+        "wall_proxy": 0.004786497381671772,
+        "path_energy_distance": 0.011222593610466458
+      },
+      "reference_floor": {
+        "mz_mean": 0.01414808567812889,
+        "mz_var": 0.002286132704720481,
+        "energy_mean": 0.0065766389928842255,
+        "spatial_corr": 0.02331906909526679,
+        "temporal_corr": 0.026070152106706268,
+        "increment_mean": 0.1260369856682342,
+        "increment_cov": 0.06601881269326883,
+        "endpoint_w1": 0.013862845908533927,
+        "wall_proxy": 0.004425475244739603,
+        "path_energy_distance": 0.010274744602581987
+      },
+      "temporal": {
+        "increment_power_relative": 0.08992309684743402,
+        "adjacent_dot_relative": 0.08127357321907622
+      },
+      "seconds_10ps": 56.40018189698458
+    },
+    {
+      "L": 32,
+      "parent": 1,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.041486020171445204,
+        "mz_var": 0.011349821290421511,
+        "energy_mean": 0.009575800247871798,
+        "spatial_corr": 0.04558878296824857,
+        "temporal_corr": 0.03916186079620665,
+        "increment_mean": 0.15621244844351242,
+        "increment_cov": 0.07410496282871828,
+        "endpoint_w1": 0.07202352509557386,
+        "wall_proxy": 0.009564391712800489,
+        "path_energy_distance": 0.018469305237955105
+      },
+      "reference_floor": {
+        "mz_mean": 0.020079103523590835,
+        "mz_var": 0.0024470119993168383,
+        "energy_mean": 0.00706572148684758,
+        "spatial_corr": 0.026388903134253433,
+        "temporal_corr": 0.026781910444037247,
+        "increment_mean": 0.15020670835338015,
+        "increment_cov": 0.07202977264679629,
+        "endpoint_w1": 0.019073806743108435,
+        "wall_proxy": 0.006170256309870599,
+        "path_energy_distance": 0.01151593127860516
+      },
+      "temporal": {
+        "increment_power_relative": 0.08372403176849029,
+        "adjacent_dot_relative": 0.05293908644410245
+      },
+      "seconds_10ps": 56.428085923194885
+    },
+    {
+      "L": 32,
+      "parent": 2,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.019387820515617243,
+        "mz_var": 0.0012484383372146695,
+        "energy_mean": 0.007562824452928332,
+        "spatial_corr": 0.032741508407472614,
+        "temporal_corr": 0.018516314867386908,
+        "increment_mean": 0.17042185136401714,
+        "increment_cov": 0.07168899692192743,
+        "endpoint_w1": 0.01875097605807241,
+        "wall_proxy": 0.006288019354255294,
+        "path_energy_distance": 0.012011744625136905
+      },
+      "reference_floor": {
+        "mz_mean": 0.01892094786156635,
+        "mz_var": 0.001537729945583877,
+        "energy_mean": 0.00988665395377218,
+        "spatial_corr": 0.030757126657041663,
+        "temporal_corr": 0.01789441701777394,
+        "increment_mean": 0.12520988189566673,
+        "increment_cov": 0.06377404800899818,
+        "endpoint_w1": 0.03144289487681817,
+        "wall_proxy": 0.004122881920528589,
+        "path_energy_distance": 0.01043013515611188
+      },
+      "temporal": {
+        "increment_power_relative": 0.09481931793888188,
+        "adjacent_dot_relative": 0.0391954658986389
+      },
+      "seconds_10ps": 56.3304357342422
+    },
+    {
+      "L": 32,
+      "parent": 2,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.040711777323616916,
+        "mz_var": 0.016269682322288787,
+        "energy_mean": 0.007685122659240898,
+        "spatial_corr": 0.04336782563537921,
+        "temporal_corr": 0.03803944838562957,
+        "increment_mean": 0.15580666325053466,
+        "increment_cov": 0.07620129091616265,
+        "endpoint_w1": 0.06070038162943092,
+        "wall_proxy": 0.008858800924432864,
+        "path_energy_distance": 0.018477023931889824
+      },
+      "reference_floor": {
+        "mz_mean": 0.029330640998575533,
+        "mz_var": 0.009531305719942455,
+        "energy_mean": 0.008584283573386675,
+        "spatial_corr": 0.028339999765047003,
+        "temporal_corr": 0.032161804842120396,
+        "increment_mean": 0.15766359596759663,
+        "increment_cov": 0.07168314367874962,
+        "endpoint_w1": 0.05309794422282721,
+        "wall_proxy": 0.006629319583372808,
+        "path_energy_distance": 0.012702038459795048
+      },
+      "temporal": {
+        "increment_power_relative": 0.0910159495607304,
+        "adjacent_dot_relative": 0.04468421182259645
+      },
+      "seconds_10ps": 56.35881523787975
+    },
+    {
+      "L": 32,
+      "parent": 3,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.03028230788126113,
+        "mz_var": 0.005188448097665363,
+        "energy_mean": 0.008088686965749246,
+        "spatial_corr": 0.03398257780853997,
+        "temporal_corr": 0.032120049742738715,
+        "increment_mean": 0.17439494087352703,
+        "increment_cov": 0.06600588130891402,
+        "endpoint_w1": 0.051671271016857645,
+        "wall_proxy": 0.006490443991798304,
+        "path_energy_distance": 0.014628546249259758
+      },
+      "reference_floor": {
+        "mz_mean": 0.026226220617798016,
+        "mz_var": 0.001404970120364127,
+        "energy_mean": 0.009093392758662208,
+        "spatial_corr": 0.03349722635439648,
+        "temporal_corr": 0.019010928712380432,
+        "increment_mean": 0.11809678875474544,
+        "increment_cov": 0.06579311262334012,
+        "endpoint_w1": 0.01087138157163281,
+        "wall_proxy": 0.007395249634102644,
+        "path_energy_distance": 0.013565525195472813
+      },
+      "temporal": {
+        "increment_power_relative": 0.05744147253274933,
+        "adjacent_dot_relative": 0.0371951732321381
+      },
+      "seconds_10ps": 56.35858216136694
+    },
+    {
+      "L": 32,
+      "parent": 3,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.048961708496166954,
+        "mz_var": 0.02091248875224855,
+        "energy_mean": 0.008393111800848415,
+        "spatial_corr": 0.040997631503867864,
+        "temporal_corr": 0.044481491740946254,
+        "increment_mean": 0.158930256779253,
+        "increment_cov": 0.07426633438153721,
+        "endpoint_w1": 0.07016344781368389,
+        "wall_proxy": 0.007583570893105254,
+        "path_energy_distance": 0.017970213092201065
+      },
+      "reference_floor": {
+        "mz_mean": 0.035794299548107554,
+        "mz_var": 0.002367372898355746,
+        "energy_mean": 0.008960931637891748,
+        "spatial_corr": 0.04474275849997312,
+        "temporal_corr": 0.03477461116875254,
+        "increment_mean": 0.14565237235594594,
+        "increment_cov": 0.07241287636644435,
+        "endpoint_w1": 0.026941366399114486,
+        "wall_proxy": 0.008774353387096917,
+        "path_energy_distance": 0.01980556576656986
+      },
+      "temporal": {
+        "increment_power_relative": 0.11422452779271035,
+        "adjacent_dot_relative": 0.06698356642309114
+      },
+      "seconds_10ps": 56.38705964013934
+    },
+    {
+      "L": 32,
+      "parent": 4,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.009995679499284944,
+        "mz_var": 0.0007728534791974837,
+        "energy_mean": 0.007641561895630252,
+        "spatial_corr": 0.02452904427142225,
+        "temporal_corr": 0.02808503886621444,
+        "increment_mean": 0.16737245411926063,
+        "increment_cov": 0.06622737300730722,
+        "endpoint_w1": 0.018785573513014242,
+        "wall_proxy": 0.00374725958582494,
+        "path_energy_distance": 0.010971264605258685
+      },
+      "reference_floor": {
+        "mz_mean": 0.010696119079948597,
+        "mz_var": 0.0009507131274187391,
+        "energy_mean": 0.004659816888237834,
+        "spatial_corr": 0.014314796183329058,
+        "temporal_corr": 0.012520499950613679,
+        "increment_mean": 0.1474058071407298,
+        "increment_cov": 0.05916923607230007,
+        "endpoint_w1": 0.0178688228916144,
+        "wall_proxy": 0.004425475244739602,
+        "path_energy_distance": 0.0063473180167540055
+      },
+      "temporal": {
+        "increment_power_relative": 0.15480785971751015,
+        "adjacent_dot_relative": 0.09709104412054824
+      },
+      "seconds_10ps": 56.31455842778087
+    },
+    {
+      "L": 32,
+      "parent": 4,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.08481655738897803,
+        "mz_var": 0.0449640940593436,
+        "energy_mean": 0.01135523555377763,
+        "spatial_corr": 0.06547804075839564,
+        "temporal_corr": 0.07832389838423962,
+        "increment_mean": 0.15609256622879233,
+        "increment_cov": 0.07375709183222798,
+        "endpoint_w1": 0.1289370378217427,
+        "wall_proxy": 0.011399653716753458,
+        "path_energy_distance": 0.03485897079802747
+      },
+      "reference_floor": {
+        "mz_mean": 0.028314049998403253,
+        "mz_var": 0.0044957509238106146,
+        "energy_mean": 0.00827639402673526,
+        "spatial_corr": 0.03404671472362232,
+        "temporal_corr": 0.029590324267930304,
+        "increment_mean": 0.1466880673869386,
+        "increment_cov": 0.0710897516899747,
+        "endpoint_w1": 0.03039074465050362,
+        "wall_proxy": 0.007738541255310365,
+        "path_energy_distance": 0.013803947073973158
+      },
+      "temporal": {
+        "increment_power_relative": 0.10843855116578252,
+        "adjacent_dot_relative": 0.055985637947488995
+      },
+      "seconds_10ps": 56.3424859046936
+    },
+    {
+      "L": 32,
+      "parent": 5,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.01672984923648854,
+        "mz_var": 0.003566802834007658,
+        "energy_mean": 0.00762747380483664,
+        "spatial_corr": 0.027418912487036186,
+        "temporal_corr": 0.03082431109476907,
+        "increment_mean": 0.1816618206065412,
+        "increment_cov": 0.06757359090653518,
+        "endpoint_w1": 0.029395441291853786,
+        "wall_proxy": 0.007469825466391067,
+        "path_energy_distance": 0.014141464647951602
+      },
+      "reference_floor": {
+        "mz_mean": 0.02024490836074266,
+        "mz_var": 0.000800707379285113,
+        "energy_mean": 0.012199442023956423,
+        "spatial_corr": 0.03171824631678054,
+        "temporal_corr": 0.013196362534951413,
+        "increment_mean": 0.15527256945218604,
+        "increment_cov": 0.06617165311526707,
+        "endpoint_w1": 0.025743232552486006,
+        "wall_proxy": 0.0048630862028671545,
+        "path_energy_distance": 0.012434476308615577
+      },
+      "temporal": {
+        "increment_power_relative": 0.06468412603416954,
+        "adjacent_dot_relative": 0.03928318394433143
+      },
+      "seconds_10ps": 56.31446324661374
+    },
+    {
+      "L": 32,
+      "parent": 5,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.04031879150323825,
+        "mz_var": 0.007142015352851101,
+        "energy_mean": 0.008792719250667665,
+        "spatial_corr": 0.04900092124683675,
+        "temporal_corr": 0.04443082040039653,
+        "increment_mean": 0.1562005486910732,
+        "increment_cov": 0.07419123587352743,
+        "endpoint_w1": 0.074451494588061,
+        "wall_proxy": 0.009864743216892591,
+        "path_energy_distance": 0.021096465223688812
+      },
+      "reference_floor": {
+        "mz_mean": 0.017884543829631335,
+        "mz_var": 0.0030584516190199492,
+        "energy_mean": 0.007814511592430419,
+        "spatial_corr": 0.023604861499267955,
+        "temporal_corr": 0.025157127323262172,
+        "increment_mean": 0.15667674056321193,
+        "increment_cov": 0.07112366432983794,
+        "endpoint_w1": 0.01545476948376745,
+        "wall_proxy": 0.005674173747824934,
+        "path_energy_distance": 0.010736434722168287
+      },
+      "temporal": {
+        "increment_power_relative": 0.09785401064391112,
+        "adjacent_dot_relative": 0.05192714142545291
+      },
+      "seconds_10ps": 56.342646669596434
+    },
+    {
+      "L": 50,
+      "parent": 0,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.03608115107567305,
+        "mz_var": 0.0025552462534023904,
+        "energy_mean": 0.007843658970368279,
+        "spatial_corr": 0.04618982982777583,
+        "temporal_corr": 0.03997720913770191,
+        "increment_mean": 0.1709040355369424,
+        "increment_cov": 0.06628949126828927,
+        "endpoint_w1": 0.04558539450503303,
+        "wall_proxy": 0.006319307325342631,
+        "path_energy_distance": 0.022716088738598303
+      },
+      "reference_floor": {
+        "mz_mean": 0.00901162861237116,
+        "mz_var": 0.0006503486719143226,
+        "energy_mean": 0.005075024019794992,
+        "spatial_corr": 0.013787412835146003,
+        "temporal_corr": 0.022038305677393236,
+        "increment_mean": 0.14144339647429974,
+        "increment_cov": 0.06078733833119137,
+        "endpoint_w1": 0.01997352904072614,
+        "wall_proxy": 0.003940780488860489,
+        "path_energy_distance": 0.007050788452987677
+      },
+      "temporal": {
+        "increment_power_relative": 0.0977790561399949,
+        "adjacent_dot_relative": 0.041794072870896794
+      },
+      "seconds_10ps": 65.86855950951576
+    },
+    {
+      "L": 50,
+      "parent": 0,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.0611914119484223,
+        "mz_var": 0.02620797847991232,
+        "energy_mean": 0.007723959460159346,
+        "spatial_corr": 0.04138981549651329,
+        "temporal_corr": 0.05648113955968261,
+        "increment_mean": 0.15766219850846672,
+        "increment_cov": 0.07242265168136064,
+        "endpoint_w1": 0.067318838336505,
+        "wall_proxy": 0.006719466596027434,
+        "path_energy_distance": 0.02161710779665195
+      },
+      "reference_floor": {
+        "mz_mean": 0.013811601578933023,
+        "mz_var": 0.0013230563811646755,
+        "energy_mean": 0.005592666959205592,
+        "spatial_corr": 0.018905578157127543,
+        "temporal_corr": 0.021483180893886157,
+        "increment_mean": 0.15032770604215032,
+        "increment_cov": 0.07079638359670286,
+        "endpoint_w1": 0.02147203762549907,
+        "wall_proxy": 0.0045989174431938645,
+        "path_energy_distance": 0.008599342894302253
+      },
+      "temporal": {
+        "increment_power_relative": 0.08154455195227168,
+        "adjacent_dot_relative": 0.045810165020028
+      },
+      "seconds_10ps": 65.91173244267702
+    },
+    {
+      "L": 50,
+      "parent": 1,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.012968044376913268,
+        "mz_var": 0.0008717709492050043,
+        "energy_mean": 0.003761957268502458,
+        "spatial_corr": 0.01581545010628151,
+        "temporal_corr": 0.02690185133384173,
+        "increment_mean": 0.1968991688854151,
+        "increment_cov": 0.07076392608737442,
+        "endpoint_w1": 0.01601147588109597,
+        "wall_proxy": 0.004070020587844212,
+        "path_energy_distance": 0.009805785943466094
+      },
+      "reference_floor": {
+        "mz_mean": 0.012679005866738969,
+        "mz_var": 0.0009658132872752809,
+        "energy_mean": 0.005124016763224974,
+        "spatial_corr": 0.015475621696353352,
+        "temporal_corr": 0.02137873803226855,
+        "increment_mean": 0.1418107180833275,
+        "increment_cov": 0.062167473252515336,
+        "endpoint_w1": 0.024356466112658376,
+        "wall_proxy": 0.0063075940486823495,
+        "path_energy_distance": 0.00782587323223155
+      },
+      "temporal": {
+        "increment_power_relative": 0.04503947198733003,
+        "adjacent_dot_relative": 0.053041484742215525
+      },
+      "seconds_10ps": 65.82109182327986
+    },
+    {
+      "L": 50,
+      "parent": 1,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.014576653475076657,
+        "mz_var": 0.0016681857960164838,
+        "energy_mean": 0.006052422247523673,
+        "spatial_corr": 0.02150229134905278,
+        "temporal_corr": 0.023037202048933603,
+        "increment_mean": 0.15670582699252478,
+        "increment_cov": 0.07366852593226213,
+        "endpoint_w1": 0.016446995219448583,
+        "wall_proxy": 0.004930237836531051,
+        "path_energy_distance": 0.010522660444747381
+      },
+      "reference_floor": {
+        "mz_mean": 0.017051809824375288,
+        "mz_var": 0.00553343113360734,
+        "energy_mean": 0.006025073855029604,
+        "spatial_corr": 0.016855627465858142,
+        "temporal_corr": 0.024207794706323508,
+        "increment_mean": 0.15150103144900395,
+        "increment_cov": 0.07124704477770293,
+        "endpoint_w1": 0.03431191171286627,
+        "wall_proxy": 0.005016072040712088,
+        "path_energy_distance": 0.008825429029655316
+      },
+      "temporal": {
+        "increment_power_relative": 0.07326858038874903,
+        "adjacent_dot_relative": 0.056752262818306046
+      },
+      "seconds_10ps": 65.86596220359206
+    },
+    {
+      "L": 50,
+      "parent": 2,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.016366717601898995,
+        "mz_var": 0.0010980088529323575,
+        "energy_mean": 0.005302199664114563,
+        "spatial_corr": 0.022220583419221715,
+        "temporal_corr": 0.020401730626902193,
+        "increment_mean": 0.16572367699898277,
+        "increment_cov": 0.07013669001476526,
+        "endpoint_w1": 0.01902090361341835,
+        "wall_proxy": 0.0038458079665531076,
+        "path_energy_distance": 0.008221589551112643
+      },
+      "reference_floor": {
+        "mz_mean": 0.009789536514086076,
+        "mz_var": 0.0005371289576642747,
+        "energy_mean": 0.00542142653172518,
+        "spatial_corr": 0.01221277738419203,
+        "temporal_corr": 0.019941732841767642,
+        "increment_mean": 0.14341554160458753,
+        "increment_cov": 0.06376868138510115,
+        "endpoint_w1": 0.020271056670462716,
+        "wall_proxy": 0.00249236842071019,
+        "path_energy_distance": 0.006923693652608462
+      },
+      "temporal": {
+        "increment_power_relative": 0.057730627498640705,
+        "adjacent_dot_relative": 0.03212348471853593
+      },
+      "seconds_10ps": 65.78964160382748
+    },
+    {
+      "L": 50,
+      "parent": 2,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.019163453957688984,
+        "mz_var": 0.004951115710232062,
+        "energy_mean": 0.0062752394510379155,
+        "spatial_corr": 0.029307455241532304,
+        "temporal_corr": 0.024578171308227946,
+        "increment_mean": 0.1553233692682858,
+        "increment_cov": 0.07290180318552976,
+        "endpoint_w1": 0.013841795601183537,
+        "wall_proxy": 0.004905672472740561,
+        "path_energy_distance": 0.012442618227105295
+      },
+      "reference_floor": {
+        "mz_mean": 0.015502277078583416,
+        "mz_var": 0.0034812882182941323,
+        "energy_mean": 0.0052929462069192384,
+        "spatial_corr": 0.018252202785562704,
+        "temporal_corr": 0.0223661078292063,
+        "increment_mean": 0.1524553966980103,
+        "increment_cov": 0.07176651809518143,
+        "endpoint_w1": 0.015407253515440963,
+        "wall_proxy": 0.004827891662303172,
+        "path_energy_distance": 0.008719265505703275
+      },
+      "temporal": {
+        "increment_power_relative": 0.08280497657190546,
+        "adjacent_dot_relative": 0.043790703283778376
+      },
+      "seconds_10ps": 65.83219696208835
+    },
+    {
+      "L": 50,
+      "parent": 3,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.012513045998639602,
+        "mz_var": 0.001617363540088041,
+        "energy_mean": 0.004807014410684625,
+        "spatial_corr": 0.021306030773323482,
+        "temporal_corr": 0.01502672050098266,
+        "increment_mean": 0.1895285768198219,
+        "increment_cov": 0.06414257218775585,
+        "endpoint_w1": 0.016452820999547833,
+        "wall_proxy": 0.00505837061947756,
+        "path_energy_distance": 0.010649371581236869
+      },
+      "reference_floor": {
+        "mz_mean": 0.014100544362312829,
+        "mz_var": 0.0019178623237398643,
+        "energy_mean": 0.004261285975333313,
+        "spatial_corr": 0.024938313514401334,
+        "temporal_corr": 0.021125187110925352,
+        "increment_mean": 0.14348149031186933,
+        "increment_cov": 0.05940319198134398,
+        "endpoint_w1": 0.017653960622847083,
+        "wall_proxy": 0.006803928850733117,
+        "path_energy_distance": 0.013182652940820841
+      },
+      "temporal": {
+        "increment_power_relative": 0.058788931399223754,
+        "adjacent_dot_relative": 0.04277474176662875
+      },
+      "seconds_10ps": 65.78900560364127
+    },
+    {
+      "L": 50,
+      "parent": 3,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.021867393911304843,
+        "mz_var": 0.004177385055194897,
+        "energy_mean": 0.006347014737059619,
+        "spatial_corr": 0.027523625468863642,
+        "temporal_corr": 0.026656150583290284,
+        "increment_mean": 0.1567877323182525,
+        "increment_cov": 0.07441942941131076,
+        "endpoint_w1": 0.04432808034005574,
+        "wall_proxy": 0.00475730956540085,
+        "path_energy_distance": 0.012761445294326185
+      },
+      "reference_floor": {
+        "mz_mean": 0.012252984355073101,
+        "mz_var": 0.0024286678712165414,
+        "energy_mean": 0.004660027156880102,
+        "spatial_corr": 0.017774036883871136,
+        "temporal_corr": 0.01828179370564119,
+        "increment_mean": 0.14602117982942575,
+        "increment_cov": 0.07192245332985563,
+        "endpoint_w1": 0.01927227163105271,
+        "wall_proxy": 0.004926969531341551,
+        "path_energy_distance": 0.008006430064335365
+      },
+      "temporal": {
+        "increment_power_relative": 0.07963281509316152,
+        "adjacent_dot_relative": 0.04069174166759381
+      },
+      "seconds_10ps": 65.83332981541753
+    },
+    {
+      "L": 50,
+      "parent": 4,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.015241637777937491,
+        "mz_var": 0.00028926869397183195,
+        "energy_mean": 0.005644421949159593,
+        "spatial_corr": 0.026166502761604562,
+        "temporal_corr": 0.020771598726765827,
+        "increment_mean": 0.16675488612117287,
+        "increment_cov": 0.06774816776281885,
+        "endpoint_w1": 0.014074274161830533,
+        "wall_proxy": 0.0013322269588446263,
+        "path_energy_distance": 0.011040148401978547
+      },
+      "reference_floor": {
+        "mz_mean": 0.01038621083020399,
+        "mz_var": 0.0006236170559141833,
+        "energy_mean": 0.0017335599979381583,
+        "spatial_corr": 0.01659431947154786,
+        "temporal_corr": 0.01649558692274634,
+        "increment_mean": 0.1281441846822587,
+        "increment_cov": 0.06317783178888377,
+        "endpoint_w1": 0.022680795394699096,
+        "wall_proxy": 0.002141255254246218,
+        "path_energy_distance": 0.007040225063353604
+      },
+      "temporal": {
+        "increment_power_relative": 0.08061825148051202,
+        "adjacent_dot_relative": 0.04084919365841331
+      },
+      "seconds_10ps": 65.73589115217328
+    },
+    {
+      "L": 50,
+      "parent": 4,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.044456003668178645,
+        "mz_var": 0.019160787716140288,
+        "energy_mean": 0.0061142125092555535,
+        "spatial_corr": 0.026998682718185105,
+        "temporal_corr": 0.040015380990384423,
+        "increment_mean": 0.15315182605502178,
+        "increment_cov": 0.07313963031404257,
+        "endpoint_w1": 0.06745942021720111,
+        "wall_proxy": 0.004713086207054506,
+        "path_energy_distance": 0.012634447521227582
+      },
+      "reference_floor": {
+        "mz_mean": 0.012361467122914555,
+        "mz_var": 0.0010725195404285802,
+        "energy_mean": 0.004890121085639623,
+        "spatial_corr": 0.017489201368571607,
+        "temporal_corr": 0.016103485832318208,
+        "increment_mean": 0.14700848973343936,
+        "increment_cov": 0.07203160961124201,
+        "endpoint_w1": 0.030477114627137793,
+        "wall_proxy": 0.0043708469045105475,
+        "path_energy_distance": 0.0075265091626450925
+      },
+      "temporal": {
+        "increment_power_relative": 0.06211608284168537,
+        "adjacent_dot_relative": 0.0423693726132342
+      },
+      "seconds_10ps": 65.77835112065077
+    },
+    {
+      "L": 50,
+      "parent": 5,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.01003780439054574,
+        "mz_var": 0.0008367078420998201,
+        "energy_mean": 0.00474521485960927,
+        "spatial_corr": 0.01755335338163823,
+        "temporal_corr": 0.025531718328766887,
+        "increment_mean": 0.18710987752418162,
+        "increment_cov": 0.06770809793228044,
+        "endpoint_w1": 0.018752903018539678,
+        "wall_proxy": 0.004212871550228421,
+        "path_energy_distance": 0.00871619362512592
+      },
+      "reference_floor": {
+        "mz_mean": 0.0181901846454995,
+        "mz_var": 0.0011063083465141265,
+        "energy_mean": 0.006227055452559363,
+        "spatial_corr": 0.026833670143003998,
+        "temporal_corr": 0.017192004739065438,
+        "increment_mean": 0.14777434518176893,
+        "increment_cov": 0.06275399688071168,
+        "endpoint_w1": 0.026516183873100084,
+        "wall_proxy": 0.004015141394522446,
+        "path_energy_distance": 0.012757150130816075
+      },
+      "temporal": {
+        "increment_power_relative": 0.04421492163377031,
+        "adjacent_dot_relative": 0.06169710089830536
+      },
+      "seconds_10ps": 65.80512293428183
+    },
+    {
+      "L": 50,
+      "parent": 5,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.018093813413013676,
+        "mz_var": 0.0017920193747159652,
+        "energy_mean": 0.007129063551351938,
+        "spatial_corr": 0.02929058869213311,
+        "temporal_corr": 0.021001742696188326,
+        "increment_mean": 0.1574059455044573,
+        "increment_cov": 0.07365464066854784,
+        "endpoint_w1": 0.013095747757470216,
+        "wall_proxy": 0.005070370486613188,
+        "path_energy_distance": 0.011711363887308243
+      },
+      "reference_floor": {
+        "mz_mean": 0.021984989290182867,
+        "mz_var": 0.001672198262549104,
+        "energy_mean": 0.006591798248101662,
+        "spatial_corr": 0.02809872733581556,
+        "temporal_corr": 0.02256983580413128,
+        "increment_mean": 0.14585109042350347,
+        "increment_cov": 0.07129267649419233,
+        "endpoint_w1": 0.025198909066384653,
+        "wall_proxy": 0.0057014304566777784,
+        "path_energy_distance": 0.011967342055326263
+      },
+      "temporal": {
+        "increment_power_relative": 0.07865500948866444,
+        "adjacent_dot_relative": 0.04121395984396881
+      },
+      "seconds_10ps": 65.84826637431979
+    },
+    {
+      "L": 100,
+      "parent": 0,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.008880929321435426,
+        "mz_var": 0.0003962936244282613,
+        "energy_mean": 0.005190419375006029,
+        "spatial_corr": 0.01867427070031628,
+        "temporal_corr": 0.0252638960838909,
+        "increment_mean": 0.1878345306031904,
+        "increment_cov": 0.06982273880702823,
+        "endpoint_w1": 0.0076106344506842935,
+        "wall_proxy": 0.0032693354840739475,
+        "path_energy_distance": 0.008889273576116435
+      },
+      "reference_floor": {
+        "mz_mean": 0.008113374860529177,
+        "mz_var": 0.0005017813406692748,
+        "energy_mean": 0.00254527460281534,
+        "spatial_corr": 0.00999360158975431,
+        "temporal_corr": 0.011334027842064389,
+        "increment_mean": 0.14007937224298678,
+        "increment_cov": 0.061243119141523666,
+        "endpoint_w1": 0.008853467151348007,
+        "wall_proxy": 0.004524521998049185,
+        "path_energy_distance": 0.004959443692901751
+      },
+      "temporal": {
+        "increment_power_relative": 0.08688777484807549,
+        "adjacent_dot_relative": 0.06193441528192908
+      },
+      "seconds_10ps": 72.0822655595839
+    },
+    {
+      "L": 100,
+      "parent": 0,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.015224091621060351,
+        "mz_var": 0.0012069748520225044,
+        "energy_mean": 0.0064325417742963345,
+        "spatial_corr": 0.02307588737410703,
+        "temporal_corr": 0.018493508531204645,
+        "increment_mean": 0.15337054541779513,
+        "increment_cov": 0.07390125249083396,
+        "endpoint_w1": 0.02553179868773442,
+        "wall_proxy": 0.0033612035214109813,
+        "path_energy_distance": 0.010484862811781973
+      },
+      "reference_floor": {
+        "mz_mean": 0.009263014694085688,
+        "mz_var": 0.000893155007016364,
+        "energy_mean": 0.003952923413090644,
+        "spatial_corr": 0.015476703860691074,
+        "temporal_corr": 0.014543325096478304,
+        "increment_mean": 0.14485285125647177,
+        "increment_cov": 0.0716342291510842,
+        "endpoint_w1": 0.008143179025064444,
+        "wall_proxy": 0.0032785943601952245,
+        "path_energy_distance": 0.006799547847898997
+      },
+      "temporal": {
+        "increment_power_relative": 0.07698510994592611,
+        "adjacent_dot_relative": 0.04975661462436186
+      },
+      "seconds_10ps": 72.16881313547492
+    },
+    {
+      "L": 100,
+      "parent": 1,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.009228975374323451,
+        "mz_var": 0.0003272421764587147,
+        "energy_mean": 0.0063365192401108805,
+        "spatial_corr": 0.016720832531889853,
+        "temporal_corr": 0.019505088033486103,
+        "increment_mean": 0.16947660437311485,
+        "increment_cov": 0.0676481954388677,
+        "endpoint_w1": 0.021978092587087314,
+        "wall_proxy": 0.0020323612499570454,
+        "path_energy_distance": 0.009156838026321598
+      },
+      "reference_floor": {
+        "mz_mean": 0.012925113197361905,
+        "mz_var": 0.0003066739269503344,
+        "energy_mean": 0.0049374763761472484,
+        "spatial_corr": 0.019099679011594876,
+        "temporal_corr": 0.014721557643951517,
+        "increment_mean": 0.12990014414183879,
+        "increment_cov": 0.06028761084279792,
+        "endpoint_w1": 0.023946076871361598,
+        "wall_proxy": 0.002346768629506528,
+        "path_energy_distance": 0.008116689007271527
+      },
+      "temporal": {
+        "increment_power_relative": 0.09075167353715276,
+        "adjacent_dot_relative": 0.10020436545381516
+      },
+      "seconds_10ps": 72.08584599196911
+    },
+    {
+      "L": 100,
+      "parent": 1,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.015389425764218196,
+        "mz_var": 0.0008358511746499942,
+        "energy_mean": 0.007159855191682181,
+        "spatial_corr": 0.021604054031033892,
+        "temporal_corr": 0.01787991738675194,
+        "increment_mean": 0.15509405202597978,
+        "increment_cov": 0.07332422552000101,
+        "endpoint_w1": 0.01148629615141545,
+        "wall_proxy": 0.0030185342106957714,
+        "path_energy_distance": 0.009445127818762021
+      },
+      "reference_floor": {
+        "mz_mean": 0.023087751623122557,
+        "mz_var": 0.004832217803285153,
+        "energy_mean": 0.004612190752970507,
+        "spatial_corr": 0.017186542382006155,
+        "temporal_corr": 0.02281899461607811,
+        "increment_mean": 0.14656135851811203,
+        "increment_cov": 0.07033533274165865,
+        "endpoint_w1": 0.03265298800630262,
+        "wall_proxy": 0.00378475218496229,
+        "path_energy_distance": 0.0081576367785259
+      },
+      "temporal": {
+        "increment_power_relative": 0.07684512673776173,
+        "adjacent_dot_relative": 0.06091129247129461
+      },
+      "seconds_10ps": 72.17061191424727
+    },
+    {
+      "L": 100,
+      "parent": 2,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.012676904606110479,
+        "mz_var": 0.0004368071468403507,
+        "energy_mean": 0.0065973679693953,
+        "spatial_corr": 0.01952990669080386,
+        "temporal_corr": 0.02567203628333838,
+        "increment_mean": 0.19835801775847425,
+        "increment_cov": 0.06922990646214834,
+        "endpoint_w1": 0.016738507734844484,
+        "wall_proxy": 0.003015680591234998,
+        "path_energy_distance": 0.009520945107520905
+      },
+      "reference_floor": {
+        "mz_mean": 0.009956735840856117,
+        "mz_var": 0.00041017774454084495,
+        "energy_mean": 0.004430677191305473,
+        "spatial_corr": 0.015024349948030378,
+        "temporal_corr": 0.011614100945617324,
+        "increment_mean": 0.14334386633167462,
+        "increment_cov": 0.05966689960292944,
+        "endpoint_w1": 0.015096260291757063,
+        "wall_proxy": 0.0022198208913927595,
+        "path_energy_distance": 0.006009428476237699
+      },
+      "temporal": {
+        "increment_power_relative": 0.11230678068344813,
+        "adjacent_dot_relative": 0.06761772912686514
+      },
+      "seconds_10ps": 72.06142212450504
+    },
+    {
+      "L": 100,
+      "parent": 2,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.027007490017961124,
+        "mz_var": 0.0036168024240168786,
+        "energy_mean": 0.007365203837593629,
+        "spatial_corr": 0.0274983464338816,
+        "temporal_corr": 0.026756552848861748,
+        "increment_mean": 0.1581746131103196,
+        "increment_cov": 0.07376918457123827,
+        "endpoint_w1": 0.02804717572173104,
+        "wall_proxy": 0.003915431653113101,
+        "path_energy_distance": 0.012389073718136322
+      },
+      "reference_floor": {
+        "mz_mean": 0.015104437674625654,
+        "mz_var": 0.0009748428454112,
+        "energy_mean": 0.004570895028683274,
+        "spatial_corr": 0.01782872471122285,
+        "temporal_corr": 0.016572364512425598,
+        "increment_mean": 0.1482566298802175,
+        "increment_cov": 0.0703775049619863,
+        "endpoint_w1": 0.015739318496198397,
+        "wall_proxy": 0.003967492861368626,
+        "path_energy_distance": 0.007415021279147609
+      },
+      "temporal": {
+        "increment_power_relative": 0.08877504997498976,
+        "adjacent_dot_relative": 0.05426740132943926
+      },
+      "seconds_10ps": 72.14901461824775
+    },
+    {
+      "L": 100,
+      "parent": 3,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.013913612459820745,
+        "mz_var": 0.00039754264658921264,
+        "energy_mean": 0.005998124960849652,
+        "spatial_corr": 0.024796947187320697,
+        "temporal_corr": 0.014984015300425872,
+        "increment_mean": 0.18689858750850472,
+        "increment_cov": 0.07012297291956983,
+        "endpoint_w1": 0.010132791494252176,
+        "wall_proxy": 0.0014244345323680965,
+        "path_energy_distance": 0.011610836006922677
+      },
+      "reference_floor": {
+        "mz_mean": 0.009461661829354274,
+        "mz_var": 0.0002828886456165915,
+        "energy_mean": 0.004560123229556582,
+        "spatial_corr": 0.014064097603741993,
+        "temporal_corr": 0.01041856208704444,
+        "increment_mean": 0.13649173152930913,
+        "increment_cov": 0.0611412650898025,
+        "endpoint_w1": 0.016430651345290252,
+        "wall_proxy": 0.002664872995005487,
+        "path_energy_distance": 0.006569577090545474
+      },
+      "temporal": {
+        "increment_power_relative": 0.11164399604304864,
+        "adjacent_dot_relative": 0.05922990596625766
+      },
+      "seconds_10ps": 72.10663592815399
+    },
+    {
+      "L": 100,
+      "parent": 3,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.018314102098437375,
+        "mz_var": 0.0008947845370670077,
+        "energy_mean": 0.006961920018563042,
+        "spatial_corr": 0.028339689786114966,
+        "temporal_corr": 0.01772244083859864,
+        "increment_mean": 0.15878352282159452,
+        "increment_cov": 0.07360552785439638,
+        "endpoint_w1": 0.006145261595956963,
+        "wall_proxy": 0.0030283230188264047,
+        "path_energy_distance": 0.01191134048946517
+      },
+      "reference_floor": {
+        "mz_mean": 0.011801164673074958,
+        "mz_var": 0.00046125699493574534,
+        "energy_mean": 0.004239454440166044,
+        "spatial_corr": 0.01650532865692877,
+        "temporal_corr": 0.013422231261004043,
+        "increment_mean": 0.1532105163061563,
+        "increment_cov": 0.07137980559521047,
+        "endpoint_w1": 0.009723375914036297,
+        "wall_proxy": 0.0028773114754013134,
+        "path_energy_distance": 0.007031244050310435
+      },
+      "temporal": {
+        "increment_power_relative": 0.09058499483775931,
+        "adjacent_dot_relative": 0.04779473680002867
+      },
+      "seconds_10ps": 72.19350560754538
+    },
+    {
+      "L": 100,
+      "parent": 4,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.030770224910585436,
+        "mz_var": 0.0012096818048422451,
+        "energy_mean": 0.003978263460452989,
+        "spatial_corr": 0.019332721618005252,
+        "temporal_corr": 0.033134875048016245,
+        "increment_mean": 0.19936919197754935,
+        "increment_cov": 0.07036490074466936,
+        "endpoint_w1": 0.048697737226966624,
+        "wall_proxy": 0.0067190442511052455,
+        "path_energy_distance": 0.012166844180168244
+      },
+      "reference_floor": {
+        "mz_mean": 0.015498671045783194,
+        "mz_var": 0.000986802519732297,
+        "energy_mean": 0.004679941783943664,
+        "spatial_corr": 0.017050684774947165,
+        "temporal_corr": 0.012781891161693723,
+        "increment_mean": 0.1289986284058,
+        "increment_cov": 0.06232182899461532,
+        "endpoint_w1": 0.033412726650776665,
+        "wall_proxy": 0.007048021294548266,
+        "path_energy_distance": 0.007195416634776915
+      },
+      "temporal": {
+        "increment_power_relative": 0.05489688156239015,
+        "adjacent_dot_relative": 0.07136140611982575
+      },
+      "seconds_10ps": 72.0983412899077
+    },
+    {
+      "L": 100,
+      "parent": 4,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.026577242888852243,
+        "mz_var": 0.0032036438553489106,
+        "energy_mean": 0.006223727007765006,
+        "spatial_corr": 0.023970682686794812,
+        "temporal_corr": 0.03356602962849398,
+        "increment_mean": 0.15596578997726868,
+        "increment_cov": 0.07398300473569511,
+        "endpoint_w1": 0.03079441073539783,
+        "wall_proxy": 0.00549756243928369,
+        "path_energy_distance": 0.012594389557414737
+      },
+      "reference_floor": {
+        "mz_mean": 0.03980530490626138,
+        "mz_var": 0.0058196690836312195,
+        "energy_mean": 0.00484696880220649,
+        "spatial_corr": 0.024915127908800676,
+        "temporal_corr": 0.028264945310152303,
+        "increment_mean": 0.14504030662260375,
+        "increment_cov": 0.07143078197470028,
+        "endpoint_w1": 0.07264333434621223,
+        "wall_proxy": 0.005554688924031918,
+        "path_energy_distance": 0.012852086052917905
+      },
+      "temporal": {
+        "increment_power_relative": 0.07291786179278259,
+        "adjacent_dot_relative": 0.06487524968883676
+      },
+      "seconds_10ps": 72.18532033264637
+    },
+    {
+      "L": 100,
+      "parent": 5,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.014289682245109018,
+        "mz_var": 0.000371745135988893,
+        "energy_mean": 0.0053647044843405985,
+        "spatial_corr": 0.021663388076869943,
+        "temporal_corr": 0.024342269716591237,
+        "increment_mean": 0.18492605167620987,
+        "increment_cov": 0.06923859328720167,
+        "endpoint_w1": 0.009294903643894938,
+        "wall_proxy": 0.0025252525252525255,
+        "path_energy_distance": 0.01112522537839166
+      },
+      "reference_floor": {
+        "mz_mean": 0.0055387903020779955,
+        "mz_var": 0.00011661959280385179,
+        "energy_mean": 0.002517435438559914,
+        "spatial_corr": 0.008111751924689752,
+        "temporal_corr": 0.007311339068630344,
+        "increment_mean": 0.13766603052008586,
+        "increment_cov": 0.06195827207084297,
+        "endpoint_w1": 0.004420025117287889,
+        "wall_proxy": 0.0018747110848325384,
+        "path_energy_distance": 0.0035766369772433915
+      },
+      "temporal": {
+        "increment_power_relative": 0.07237477676211822,
+        "adjacent_dot_relative": 0.050633782303967964
+      },
+      "seconds_10ps": 72.05269256979227
+    },
+    {
+      "L": 100,
+      "parent": 5,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.012863595834201744,
+        "mz_var": 0.0017009320522939062,
+        "energy_mean": 0.0061021292061720165,
+        "spatial_corr": 0.02162051107493863,
+        "temporal_corr": 0.01637625689647085,
+        "increment_mean": 0.15409011569551204,
+        "increment_cov": 0.07353099236636824,
+        "endpoint_w1": 0.038613903799850975,
+        "wall_proxy": 0.004119252022851137,
+        "path_energy_distance": 0.008358688811746173
+      },
+      "reference_floor": {
+        "mz_mean": 0.01810695085858611,
+        "mz_var": 0.0021772029585957657,
+        "energy_mean": 0.00437601628050479,
+        "spatial_corr": 0.016719909232337394,
+        "temporal_corr": 0.019436632842374284,
+        "increment_mean": 0.1496041028264555,
+        "increment_cov": 0.07201094669756523,
+        "endpoint_w1": 0.03195452441344968,
+        "wall_proxy": 0.0035424007883331056,
+        "path_energy_distance": 0.007758150335948191
+      },
+      "temporal": {
+        "increment_power_relative": 0.06310139355284086,
+        "adjacent_dot_relative": 0.04165731090837024
+      },
+      "seconds_10ps": 72.13928281143308
+    }
+  ],
+  "scientific_certification": false,
+  "note": "Previously inspected diagnostic test parents, not a fresh final holdout. Development-only checkpoint selection."
+}

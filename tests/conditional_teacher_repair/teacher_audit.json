@@ -1,0 +1,3030 @@
+{
+  "rows": [
+    {
+      "state": 0,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.18043994258314244,
+      "sampled_label_power": 0.8803960680961609,
+      "conditional_label_power": 0.6975030899047852
+    },
+    {
+      "state": 0,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 55.7721222971513,
+      "target_residual_mse": 0.20445764548012835,
+      "sampled_label_power": 0.8803960680961609,
+      "conditional_label_power": 0.6767328381538391
+    },
+    {
+      "state": 0,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 14.924610384041113,
+      "target_residual_mse": 0.2557357547806956,
+      "sampled_label_power": 0.8803960680961609,
+      "conditional_label_power": 0.6195552349090576
+    },
+    {
+      "state": 0,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.547068599389169,
+      "target_residual_mse": 0.05117736905150694,
+      "sampled_label_power": 0.8803960680961609,
+      "conditional_label_power": 0.7661079168319702
+    },
+    {
+      "state": 0,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000011593186582,
+      "target_residual_mse": 9.30153242167083e-12,
+      "sampled_label_power": 0.8803960680961609,
+      "conditional_label_power": 0.8803954124450684
+    },
+    {
+      "state": 0,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.900220119423224e-30,
+      "sampled_label_power": 0.8803960084915161,
+      "conditional_label_power": 0.8803960084915161
+    },
+    {
+      "state": 0,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8803960680961609,
+      "conditional_label_power": 0.8803960680961609
+    },
+    {
+      "state": 1,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.16297728954291751,
+      "sampled_label_power": 1.027846097946167,
+      "conditional_label_power": 0.8813738822937012
+    },
+    {
+      "state": 1,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 53.346954689750206,
+      "target_residual_mse": 0.18317023590507514,
+      "sampled_label_power": 1.027846097946167,
+      "conditional_label_power": 0.8430802822113037
+    },
+    {
+      "state": 1,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.859948668300923,
+      "target_residual_mse": 0.24608433290288897,
+      "sampled_label_power": 1.027846097946167,
+      "conditional_label_power": 0.737563967704773
+    },
+    {
+      "state": 1,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.0479451028473097,
+      "target_residual_mse": 0.2917253035132978,
+      "sampled_label_power": 1.027846097946167,
+      "conditional_label_power": 0.7853738069534302
+    },
+    {
+      "state": 1,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000071732859834,
+      "target_residual_mse": 4.16666783798996e-10,
+      "sampled_label_power": 1.027846097946167,
+      "conditional_label_power": 1.0278373956680298
+    },
+    {
+      "state": 1,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.633876644862412e-30,
+      "sampled_label_power": 1.027846097946167,
+      "conditional_label_power": 1.027846097946167
+    },
+    {
+      "state": 1,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.027846097946167,
+      "conditional_label_power": 1.027846097946167
+    },
+    {
+      "state": 2,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.18395683007433106,
+      "sampled_label_power": 0.8562760353088379,
+      "conditional_label_power": 0.6932843327522278
+    },
+    {
+      "state": 2,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 54.95801106999479,
+      "target_residual_mse": 0.2091788028785318,
+      "sampled_label_power": 0.8562760353088379,
+      "conditional_label_power": 0.6685200929641724
+    },
+    {
+      "state": 2,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 15.21445196373741,
+      "target_residual_mse": 0.24581289683966112,
+      "sampled_label_power": 0.8562760353088379,
+      "conditional_label_power": 0.6239054203033447
+    },
+    {
+      "state": 2,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.014188148134698,
+      "target_residual_mse": 0.1204916613024189,
+      "sampled_label_power": 0.8562760353088379,
+      "conditional_label_power": 0.7263056039810181
+    },
+    {
+      "state": 2,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.000044199935006,
+      "target_residual_mse": 1.0226167270836166e-08,
+      "sampled_label_power": 0.8562760949134827,
+      "conditional_label_power": 0.8562559485435486
+    },
+    {
+      "state": 2,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.665347822213303e-30,
+      "sampled_label_power": 0.8562760353088379,
+      "conditional_label_power": 0.8562760353088379
+    },
+    {
+      "state": 2,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8562760353088379,
+      "conditional_label_power": 0.8562760353088379
+    },
+    {
+      "state": 3,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.1836607957383269,
+      "sampled_label_power": 1.0275123119354248,
+      "conditional_label_power": 0.8548567295074463
+    },
+    {
+      "state": 3,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 53.18236812737559,
+      "target_residual_mse": 0.21105808907296036,
+      "sampled_label_power": 1.0275123119354248,
+      "conditional_label_power": 0.8288708925247192
+    },
+    {
+      "state": 3,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 12.971729111188163,
+      "target_residual_mse": 0.3050188149965349,
+      "sampled_label_power": 1.0275123119354248,
+      "conditional_label_power": 0.7705864906311035
+    },
+    {
+      "state": 3,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.366018609086086,
+      "target_residual_mse": 0.15127290157993575,
+      "sampled_label_power": 1.0275123119354248,
+      "conditional_label_power": 0.8662824034690857
+    },
+    {
+      "state": 3,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.00000020968226,
+      "target_residual_mse": 6.917570543522047e-14,
+      "sampled_label_power": 1.0275123119354248,
+      "conditional_label_power": 1.0275121927261353
+    },
+    {
+      "state": 3,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.240837113629341e-30,
+      "sampled_label_power": 1.0275123119354248,
+      "conditional_label_power": 1.0275123119354248
+    },
+    {
+      "state": 3,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.0275123119354248,
+      "conditional_label_power": 1.0275123119354248
+    },
+    {
+      "state": 4,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.23302663912654648,
+      "sampled_label_power": 1.0566108226776123,
+      "conditional_label_power": 0.7999476194381714
+    },
+    {
+      "state": 4,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.999607888278085,
+      "target_residual_mse": 0.2709399175674605,
+      "sampled_label_power": 1.0566108226776123,
+      "conditional_label_power": 0.7706565856933594
+    },
+    {
+      "state": 4,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 14.634136639651352,
+      "target_residual_mse": 0.367346898368367,
+      "sampled_label_power": 1.0566108226776123,
+      "conditional_label_power": 0.7237364649772644
+    },
+    {
+      "state": 4,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.49381149110263,
+      "target_residual_mse": 0.1644680268888118,
+      "sampled_label_power": 1.0566108226776123,
+      "conditional_label_power": 0.8694702386856079
+    },
+    {
+      "state": 4,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000000684060089,
+      "target_residual_mse": 3.473251868350358e-14,
+      "sampled_label_power": 1.0566108226776123,
+      "conditional_label_power": 1.0566105842590332
+    },
+    {
+      "state": 4,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.8839318898634365e-30,
+      "sampled_label_power": 1.0566108226776123,
+      "conditional_label_power": 1.0566108226776123
+    },
+    {
+      "state": 4,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.0566108226776123,
+      "conditional_label_power": 1.0566108226776123
+    },
+    {
+      "state": 5,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.25416889010271676,
+      "sampled_label_power": 1.5124645233154297,
+      "conditional_label_power": 1.252275824546814
+    },
+    {
+      "state": 5,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.00435559654615,
+      "target_residual_mse": 0.28572057699521675,
+      "sampled_label_power": 1.5124645233154297,
+      "conditional_label_power": 1.2329543828964233
+    },
+    {
+      "state": 5,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 12.086968816052362,
+      "target_residual_mse": 0.3444834084861978,
+      "sampled_label_power": 1.5124645233154297,
+      "conditional_label_power": 1.2016339302062988
+    },
+    {
+      "state": 5,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.678665726153655,
+      "target_residual_mse": 0.09868464372037485,
+      "sampled_label_power": 1.5124645233154297,
+      "conditional_label_power": 1.3574713468551636
+    },
+    {
+      "state": 5,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.000000693444108,
+      "target_residual_mse": 1.7952557026091588e-12,
+      "sampled_label_power": 1.5124645233154297,
+      "conditional_label_power": 1.5124636888504028
+    },
+    {
+      "state": 5,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.002849292385157e-30,
+      "sampled_label_power": 1.5124645233154297,
+      "conditional_label_power": 1.5124645233154297
+    },
+    {
+      "state": 5,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.5124645233154297,
+      "conditional_label_power": 1.5124645233154297
+    },
+    {
+      "state": 6,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.1652513086857583,
+      "sampled_label_power": 0.8556734919548035,
+      "conditional_label_power": 0.6631157398223877
+    },
+    {
+      "state": 6,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 54.11646963629512,
+      "target_residual_mse": 0.19607670339139374,
+      "sampled_label_power": 0.8556733727455139,
+      "conditional_label_power": 0.6316964626312256
+    },
+    {
+      "state": 6,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 16.05902153080826,
+      "target_residual_mse": 0.30861060885257796,
+      "sampled_label_power": 0.8556733727455139,
+      "conditional_label_power": 0.5729646682739258
+    },
+    {
+      "state": 6,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.4195554384039033,
+      "target_residual_mse": 0.1531298475442248,
+      "sampled_label_power": 0.8556734919548035,
+      "conditional_label_power": 0.7081671357154846
+    },
+    {
+      "state": 6,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.000000337820628,
+      "target_residual_mse": 1.7719302578232538e-13,
+      "sampled_label_power": 0.8556733727455139,
+      "conditional_label_power": 0.8556732535362244
+    },
+    {
+      "state": 6,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.048527586114782e-30,
+      "sampled_label_power": 0.8556734919548035,
+      "conditional_label_power": 0.8556734919548035
+    },
+    {
+      "state": 6,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8556734323501587,
+      "conditional_label_power": 0.8556734323501587
+    },
+    {
+      "state": 7,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.24587090489349828,
+      "sampled_label_power": 1.1682744026184082,
+      "conditional_label_power": 0.9973596334457397
+    },
+    {
+      "state": 7,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 50.740519949390475,
+      "target_residual_mse": 0.27339826900745445,
+      "sampled_label_power": 1.1682744026184082,
+      "conditional_label_power": 0.9748451113700867
+    },
+    {
+      "state": 7,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.284263523761705,
+      "target_residual_mse": 0.3457263511315489,
+      "sampled_label_power": 1.1682744026184082,
+      "conditional_label_power": 0.93485426902771
+    },
+    {
+      "state": 7,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.7670095082009376,
+      "target_residual_mse": 0.13390730286549124,
+      "sampled_label_power": 1.1682744026184082,
+      "conditional_label_power": 1.048532247543335
+    },
+    {
+      "state": 7,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000000336535624,
+      "target_residual_mse": 3.371203644000473e-15,
+      "sampled_label_power": 1.1682744026184082,
+      "conditional_label_power": 1.1682744026184082
+    },
+    {
+      "state": 7,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.872590036912412e-30,
+      "sampled_label_power": 1.1682744026184082,
+      "conditional_label_power": 1.1682744026184082
+    },
+    {
+      "state": 7,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.1682744026184082,
+      "conditional_label_power": 1.1682744026184082
+    },
+    {
+      "state": 8,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.219917122899497,
+      "sampled_label_power": 1.071598768234253,
+      "conditional_label_power": 0.7904759645462036
+    },
+    {
+      "state": 8,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.07690545940182,
+      "target_residual_mse": 0.25650591093910474,
+      "sampled_label_power": 1.071598768234253,
+      "conditional_label_power": 0.7534496784210205
+    },
+    {
+      "state": 8,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.869774343415099,
+      "target_residual_mse": 0.335732637018744,
+      "sampled_label_power": 1.071598768234253,
+      "conditional_label_power": 0.7145423293113708
+    },
+    {
+      "state": 8,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.35859394333931,
+      "target_residual_mse": 0.15557021894612844,
+      "sampled_label_power": 1.071598768234253,
+      "conditional_label_power": 0.890400767326355
+    },
+    {
+      "state": 8,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.000000238125744,
+      "target_residual_mse": 1.0058641240531663e-13,
+      "sampled_label_power": 1.071598768234253,
+      "conditional_label_power": 1.0715986490249634
+    },
+    {
+      "state": 8,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.767027514363026e-30,
+      "sampled_label_power": 1.071598768234253,
+      "conditional_label_power": 1.071598768234253
+    },
+    {
+      "state": 8,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.0715986490249634,
+      "conditional_label_power": 1.0715986490249634
+    },
+    {
+      "state": 9,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.16716298880070596,
+      "sampled_label_power": 0.8536742329597473,
+      "conditional_label_power": 0.7074342966079712
+    },
+    {
+      "state": 9,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 55.06134504217268,
+      "target_residual_mse": 0.19029445371287784,
+      "sampled_label_power": 0.8536742329597473,
+      "conditional_label_power": 0.6870746612548828
+    },
+    {
+      "state": 9,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 13.354798816932234,
+      "target_residual_mse": 0.22166688259171896,
+      "sampled_label_power": 0.8536742329597473,
+      "conditional_label_power": 0.6400172710418701
+    },
+    {
+      "state": 9,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.146224975057197,
+      "target_residual_mse": 0.11030360493934631,
+      "sampled_label_power": 0.8536742329597473,
+      "conditional_label_power": 0.760085940361023
+    },
+    {
+      "state": 9,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.000001788200795,
+      "target_residual_mse": 6.423784115731068e-12,
+      "sampled_label_power": 0.8536742329597473,
+      "conditional_label_power": 0.8536732196807861
+    },
+    {
+      "state": 9,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.397968047431091e-30,
+      "sampled_label_power": 0.8536742329597473,
+      "conditional_label_power": 0.8536742329597473
+    },
+    {
+      "state": 9,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8536742329597473,
+      "conditional_label_power": 0.8536742329597473
+    },
+    {
+      "state": 10,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.22722203431741703,
+      "sampled_label_power": 0.9532908201217651,
+      "conditional_label_power": 0.6648250222206116
+    },
+    {
+      "state": 10,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 51.895530795794905,
+      "target_residual_mse": 0.27148890377354523,
+      "sampled_label_power": 0.9532908201217651,
+      "conditional_label_power": 0.6282855868339539
+    },
+    {
+      "state": 10,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.845915049959634,
+      "target_residual_mse": 0.3858229292473624,
+      "sampled_label_power": 0.9532909393310547,
+      "conditional_label_power": 0.5621564388275146
+    },
+    {
+      "state": 10,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.168805344703987,
+      "target_residual_mse": 0.20103590847573538,
+      "sampled_label_power": 0.9532909393310547,
+      "conditional_label_power": 0.7287093997001648
+    },
+    {
+      "state": 10,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000045317088446,
+      "target_residual_mse": 2.308867367599591e-10,
+      "sampled_label_power": 0.9532908201217651,
+      "conditional_label_power": 0.9532856345176697
+    },
+    {
+      "state": 10,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.859046863313177e-30,
+      "sampled_label_power": 0.9532909393310547,
+      "conditional_label_power": 0.9532909393310547
+    },
+    {
+      "state": 10,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9532908201217651,
+      "conditional_label_power": 0.9532908201217651
+    },
+    {
+      "state": 11,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.2461149012796688,
+      "sampled_label_power": 1.075010061264038,
+      "conditional_label_power": 0.8426118493080139
+    },
+    {
+      "state": 11,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 50.36365712120773,
+      "target_residual_mse": 0.2652448376614624,
+      "sampled_label_power": 1.075010061264038,
+      "conditional_label_power": 0.8247435688972473
+    },
+    {
+      "state": 11,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.628626419481328,
+      "target_residual_mse": 0.3237616609016382,
+      "sampled_label_power": 1.075010061264038,
+      "conditional_label_power": 0.785092294216156
+    },
+    {
+      "state": 11,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.8857628393859707,
+      "target_residual_mse": 0.18971772279450597,
+      "sampled_label_power": 1.075010061264038,
+      "conditional_label_power": 0.9224084615707397
+    },
+    {
+      "state": 11,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000406860217614,
+      "target_residual_mse": 9.212049607685811e-09,
+      "sampled_label_power": 1.075010061264038,
+      "conditional_label_power": 1.0749778747558594
+    },
+    {
+      "state": 11,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.176435206223367e-30,
+      "sampled_label_power": 1.075010061264038,
+      "conditional_label_power": 1.075010061264038
+    },
+    {
+      "state": 11,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.075010061264038,
+      "conditional_label_power": 1.075010061264038
+    },
+    {
+      "state": 12,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.24490338704112447,
+      "sampled_label_power": 1.1921974420547485,
+      "conditional_label_power": 0.9828457236289978
+    },
+    {
+      "state": 12,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 51.92387541994333,
+      "target_residual_mse": 0.2591670709695442,
+      "sampled_label_power": 1.192197561264038,
+      "conditional_label_power": 0.9761119484901428
+    },
+    {
+      "state": 12,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.849534999262378,
+      "target_residual_mse": 0.3094659414975533,
+      "sampled_label_power": 1.1921974420547485,
+      "conditional_label_power": 0.9178868532180786
+    },
+    {
+      "state": 12,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.221388953647612,
+      "target_residual_mse": 0.20767440474143306,
+      "sampled_label_power": 1.192197561264038,
+      "conditional_label_power": 1.012239933013916
+    },
+    {
+      "state": 12,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000006889223592,
+      "target_residual_mse": 1.14661931674759e-12,
+      "sampled_label_power": 1.1921974420547485,
+      "conditional_label_power": 1.192197322845459
+    },
+    {
+      "state": 12,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.182526309841238e-30,
+      "sampled_label_power": 1.1921974420547485,
+      "conditional_label_power": 1.1921974420547485
+    },
+    {
+      "state": 12,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.1921974420547485,
+      "conditional_label_power": 1.1921974420547485
+    },
+    {
+      "state": 13,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.20819413088512626,
+      "sampled_label_power": 1.1330962181091309,
+      "conditional_label_power": 0.906551718711853
+    },
+    {
+      "state": 13,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 53.20499706860099,
+      "target_residual_mse": 0.22891993102120375,
+      "sampled_label_power": 1.1330963373184204,
+      "conditional_label_power": 0.8919599056243896
+    },
+    {
+      "state": 13,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 15.190771855292406,
+      "target_residual_mse": 0.2874396070348665,
+      "sampled_label_power": 1.1330962181091309,
+      "conditional_label_power": 0.8354791402816772
+    },
+    {
+      "state": 13,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.0446933413490123,
+      "target_residual_mse": 0.1460776146847975,
+      "sampled_label_power": 1.1330963373184204,
+      "conditional_label_power": 0.9525671601295471
+    },
+    {
+      "state": 13,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.00008331422498,
+      "target_residual_mse": 4.1723518358828265e-08,
+      "sampled_label_power": 1.1330962181091309,
+      "conditional_label_power": 1.133025884628296
+    },
+    {
+      "state": 13,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.248915257739246e-30,
+      "sampled_label_power": 1.1330962181091309,
+      "conditional_label_power": 1.1330962181091309
+    },
+    {
+      "state": 13,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.1330962181091309,
+      "conditional_label_power": 1.1330962181091309
+    },
+    {
+      "state": 14,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.19451851201138426,
+      "sampled_label_power": 1.0231363773345947,
+      "conditional_label_power": 0.8860213160514832
+    },
+    {
+      "state": 14,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 54.28550556553099,
+      "target_residual_mse": 0.22435250711381743,
+      "sampled_label_power": 1.0231363773345947,
+      "conditional_label_power": 0.8732843995094299
+    },
+    {
+      "state": 14,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 17.670999397749263,
+      "target_residual_mse": 0.28965474807568,
+      "sampled_label_power": 1.0231363773345947,
+      "conditional_label_power": 0.8425329327583313
+    },
+    {
+      "state": 14,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.708911886206919,
+      "target_residual_mse": 0.12708581870296637,
+      "sampled_label_power": 1.0231363773345947,
+      "conditional_label_power": 0.9210830330848694
+    },
+    {
+      "state": 14,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000001543967363,
+      "target_residual_mse": 1.4052884968682889e-13,
+      "sampled_label_power": 1.0231363773345947,
+      "conditional_label_power": 1.0231362581253052
+    },
+    {
+      "state": 14,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.831815673744139e-30,
+      "sampled_label_power": 1.0231363773345947,
+      "conditional_label_power": 1.0231363773345947
+    },
+    {
+      "state": 14,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.0231363773345947,
+      "conditional_label_power": 1.0231363773345947
+    },
+    {
+      "state": 15,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.1674991460035561,
+      "sampled_label_power": 1.0380972623825073,
+      "conditional_label_power": 0.9091100692749023
+    },
+    {
+      "state": 15,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 56.0439530493808,
+      "target_residual_mse": 0.18942521976525423,
+      "sampled_label_power": 1.0380972623825073,
+      "conditional_label_power": 0.8900246620178223
+    },
+    {
+      "state": 15,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 16.62430771179965,
+      "target_residual_mse": 0.2199529791288825,
+      "sampled_label_power": 1.0380972623825073,
+      "conditional_label_power": 0.8359034061431885
+    },
+    {
+      "state": 15,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.613033154140155,
+      "target_residual_mse": 0.06584639896509199,
+      "sampled_label_power": 1.0380973815917969,
+      "conditional_label_power": 0.9553075432777405
+    },
+    {
+      "state": 15,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000284727888826,
+      "target_residual_mse": 5.563734093968121e-09,
+      "sampled_label_power": 1.0380972623825073,
+      "conditional_label_power": 1.0380793809890747
+    },
+    {
+      "state": 15,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.8477326810889606e-30,
+      "sampled_label_power": 1.0380972623825073,
+      "conditional_label_power": 1.0380972623825073
+    },
+    {
+      "state": 15,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.0380972623825073,
+      "conditional_label_power": 1.0380972623825073
+    },
+    {
+      "state": 16,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.20362689629332006,
+      "sampled_label_power": 1.081309199333191,
+      "conditional_label_power": 0.8719188570976257
+    },
+    {
+      "state": 16,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.46252190288258,
+      "target_residual_mse": 0.23254628599760646,
+      "sampled_label_power": 1.081309199333191,
+      "conditional_label_power": 0.8393849730491638
+    },
+    {
+      "state": 16,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 10.919230113441378,
+      "target_residual_mse": 0.27171016103658,
+      "sampled_label_power": 1.081309199333191,
+      "conditional_label_power": 0.7830765247344971
+    },
+    {
+      "state": 16,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.4088213909216938,
+      "target_residual_mse": 0.19707191942283833,
+      "sampled_label_power": 1.081309199333191,
+      "conditional_label_power": 0.9854168891906738
+    },
+    {
+      "state": 16,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000113401433923,
+      "target_residual_mse": 3.872120571577393e-10,
+      "sampled_label_power": 1.081309199333191,
+      "conditional_label_power": 1.0813041925430298
+    },
+    {
+      "state": 16,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.3863239516446815e-30,
+      "sampled_label_power": 1.081309199333191,
+      "conditional_label_power": 1.081309199333191
+    },
+    {
+      "state": 16,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.0813090801239014,
+      "conditional_label_power": 1.0813090801239014
+    },
+    {
+      "state": 17,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.2775437003940832,
+      "sampled_label_power": 1.364193081855774,
+      "conditional_label_power": 1.1658306121826172
+    },
+    {
+      "state": 17,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 49.91279565428232,
+      "target_residual_mse": 0.2778768122359017,
+      "sampled_label_power": 1.364193081855774,
+      "conditional_label_power": 1.1612577438354492
+    },
+    {
+      "state": 17,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.724302471196461,
+      "target_residual_mse": 0.30181932093522196,
+      "sampled_label_power": 1.364193081855774,
+      "conditional_label_power": 1.1700440645217896
+    },
+    {
+      "state": 17,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.4032372780526043,
+      "target_residual_mse": 0.06370584690690312,
+      "sampled_label_power": 1.364193081855774,
+      "conditional_label_power": 1.3093223571777344
+    },
+    {
+      "state": 17,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000000149751411,
+      "target_residual_mse": 1.2725765161185913e-15,
+      "sampled_label_power": 1.364193081855774,
+      "conditional_label_power": 1.364193081855774
+    },
+    {
+      "state": 17,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.511384956101609e-30,
+      "sampled_label_power": 1.364193081855774,
+      "conditional_label_power": 1.364193081855774
+    },
+    {
+      "state": 17,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.364193081855774,
+      "conditional_label_power": 1.364193081855774
+    },
+    {
+      "state": 18,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.23174205254996186,
+      "sampled_label_power": 1.0754090547561646,
+      "conditional_label_power": 0.8394948244094849
+    },
+    {
+      "state": 18,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 51.989160145162614,
+      "target_residual_mse": 0.2574885869208594,
+      "sampled_label_power": 1.0754090547561646,
+      "conditional_label_power": 0.8136204481124878
+    },
+    {
+      "state": 18,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 10.780284041904288,
+      "target_residual_mse": 0.27893013970359526,
+      "sampled_label_power": 1.0754090547561646,
+      "conditional_label_power": 0.7660610675811768
+    },
+    {
+      "state": 18,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.3765829853988456,
+      "target_residual_mse": 0.10574862360802469,
+      "sampled_label_power": 1.0754090547561646,
+      "conditional_label_power": 0.9583462476730347
+    },
+    {
+      "state": 18,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000016125886453,
+      "target_residual_mse": 8.284073138262057e-12,
+      "sampled_label_power": 1.0754090547561646,
+      "conditional_label_power": 1.0754081010818481
+    },
+    {
+      "state": 18,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.849369955171192e-30,
+      "sampled_label_power": 1.0754090547561646,
+      "conditional_label_power": 1.0754090547561646
+    },
+    {
+      "state": 18,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.0754090547561646,
+      "conditional_label_power": 1.0754090547561646
+    },
+    {
+      "state": 19,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 63.99999999999999,
+      "target_residual_mse": 0.20423373167838893,
+      "sampled_label_power": 0.9636228084564209,
+      "conditional_label_power": 0.7689948081970215
+    },
+    {
+      "state": 19,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.9452231645501,
+      "target_residual_mse": 0.23992809861412354,
+      "sampled_label_power": 0.9636228084564209,
+      "conditional_label_power": 0.7379863262176514
+    },
+    {
+      "state": 19,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 12.846563552670634,
+      "target_residual_mse": 0.32114783649084977,
+      "sampled_label_power": 0.9636228084564209,
+      "conditional_label_power": 0.6553795337677002
+    },
+    {
+      "state": 19,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.2251432203411703,
+      "target_residual_mse": 0.21722587804261995,
+      "sampled_label_power": 0.9636228084564209,
+      "conditional_label_power": 0.7687000036239624
+    },
+    {
+      "state": 19,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0001446832640952,
+      "target_residual_mse": 1.2120800660418704e-07,
+      "sampled_label_power": 0.9636228084564209,
+      "conditional_label_power": 0.9635440111160278
+    },
+    {
+      "state": 19,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.586150139197564e-30,
+      "sampled_label_power": 0.9636228084564209,
+      "conditional_label_power": 0.9636228084564209
+    },
+    {
+      "state": 19,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9636227488517761,
+      "conditional_label_power": 0.9636227488517761
+    },
+    {
+      "state": 20,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.2156884554734927,
+      "sampled_label_power": 0.9468901753425598,
+      "conditional_label_power": 0.7497451901435852
+    },
+    {
+      "state": 20,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 51.77285788424989,
+      "target_residual_mse": 0.25074645738956414,
+      "sampled_label_power": 0.9468901753425598,
+      "conditional_label_power": 0.7089115381240845
+    },
+    {
+      "state": 20,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 10.664698903873663,
+      "target_residual_mse": 0.32437908530143467,
+      "sampled_label_power": 0.946890115737915,
+      "conditional_label_power": 0.6410306692123413
+    },
+    {
+      "state": 20,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.5496527638468094,
+      "target_residual_mse": 0.04515701887270476,
+      "sampled_label_power": 0.946890115737915,
+      "conditional_label_power": 0.8254073262214661
+    },
+    {
+      "state": 20,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000013299867745,
+      "target_residual_mse": 9.462445160580674e-12,
+      "sampled_label_power": 0.946890115737915,
+      "conditional_label_power": 0.9468894004821777
+    },
+    {
+      "state": 20,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.306805386256255e-30,
+      "sampled_label_power": 0.9468901753425598,
+      "conditional_label_power": 0.9468901753425598
+    },
+    {
+      "state": 20,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9468901753425598,
+      "conditional_label_power": 0.9468901753425598
+    },
+    {
+      "state": 21,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.23045182569543232,
+      "sampled_label_power": 1.2510476112365723,
+      "conditional_label_power": 0.9853891134262085
+    },
+    {
+      "state": 21,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 51.93828508522901,
+      "target_residual_mse": 0.2580789475009211,
+      "sampled_label_power": 1.2510476112365723,
+      "conditional_label_power": 0.967555820941925
+    },
+    {
+      "state": 21,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.387463245716031,
+      "target_residual_mse": 0.30283141899220284,
+      "sampled_label_power": 1.2510476112365723,
+      "conditional_label_power": 0.9109579920768738
+    },
+    {
+      "state": 21,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.3250491235553175,
+      "target_residual_mse": 0.19051903040939394,
+      "sampled_label_power": 1.2510476112365723,
+      "conditional_label_power": 1.0596550703048706
+    },
+    {
+      "state": 21,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000000857496936,
+      "target_residual_mse": 2.7259529087200323e-14,
+      "sampled_label_power": 1.2510476112365723,
+      "conditional_label_power": 1.2510474920272827
+    },
+    {
+      "state": 21,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.461173967586956e-30,
+      "sampled_label_power": 1.2510476112365723,
+      "conditional_label_power": 1.2510476112365723
+    },
+    {
+      "state": 21,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.2510476112365723,
+      "conditional_label_power": 1.2510476112365723
+    },
+    {
+      "state": 22,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.19863895858454433,
+      "sampled_label_power": 1.13064706325531,
+      "conditional_label_power": 0.8991106748580933
+    },
+    {
+      "state": 22,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.981001458409466,
+      "target_residual_mse": 0.22228289654085906,
+      "sampled_label_power": 1.13064706325531,
+      "conditional_label_power": 0.8656665086746216
+    },
+    {
+      "state": 22,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 12.57558962679257,
+      "target_residual_mse": 0.24981888508285294,
+      "sampled_label_power": 1.13064706325531,
+      "conditional_label_power": 0.7958075404167175
+    },
+    {
+      "state": 22,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.137296951173509,
+      "target_residual_mse": 0.17550807563019846,
+      "sampled_label_power": 1.13064706325531,
+      "conditional_label_power": 0.928398609161377
+    },
+    {
+      "state": 22,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0009226919765113,
+      "target_residual_mse": 4.26533058148486e-06,
+      "sampled_label_power": 1.13064706325531,
+      "conditional_label_power": 1.1300814151763916
+    },
+    {
+      "state": 22,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.9945208951305114e-30,
+      "sampled_label_power": 1.13064706325531,
+      "conditional_label_power": 1.13064706325531
+    },
+    {
+      "state": 22,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.13064706325531,
+      "conditional_label_power": 1.13064706325531
+    },
+    {
+      "state": 23,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.18613940967673084,
+      "sampled_label_power": 0.7936438322067261,
+      "conditional_label_power": 0.6048217415809631
+    },
+    {
+      "state": 23,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 53.88075812687593,
+      "target_residual_mse": 0.22147097730660034,
+      "sampled_label_power": 0.7936438322067261,
+      "conditional_label_power": 0.5745571851730347
+    },
+    {
+      "state": 23,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 15.403211149720958,
+      "target_residual_mse": 0.32436497275138637,
+      "sampled_label_power": 0.7936437129974365,
+      "conditional_label_power": 0.5174378752708435
+    },
+    {
+      "state": 23,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.4509633729534426,
+      "target_residual_mse": 0.16567686598180367,
+      "sampled_label_power": 0.7936438322067261,
+      "conditional_label_power": 0.6298211812973022
+    },
+    {
+      "state": 23,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000047148512272,
+      "target_residual_mse": 9.089042880493767e-11,
+      "sampled_label_power": 0.7936437129974365,
+      "conditional_label_power": 0.7936413288116455
+    },
+    {
+      "state": 23,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.088597757921367e-30,
+      "sampled_label_power": 0.7936437129974365,
+      "conditional_label_power": 0.7936437129974365
+    },
+    {
+      "state": 23,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.7936437129974365,
+      "conditional_label_power": 0.7936437129974365
+    },
+    {
+      "state": 24,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.2319624025439094,
+      "sampled_label_power": 0.9826583862304688,
+      "conditional_label_power": 0.8405770063400269
+    },
+    {
+      "state": 24,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.29250870696117,
+      "target_residual_mse": 0.25545846956138835,
+      "sampled_label_power": 0.9826583862304688,
+      "conditional_label_power": 0.8250266313552856
+    },
+    {
+      "state": 24,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 12.679167071301109,
+      "target_residual_mse": 0.25861312294136324,
+      "sampled_label_power": 0.9826583862304688,
+      "conditional_label_power": 0.7935989499092102
+    },
+    {
+      "state": 24,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.4281994830060607,
+      "target_residual_mse": 0.03855634682781807,
+      "sampled_label_power": 0.9826583862304688,
+      "conditional_label_power": 0.9084680080413818
+    },
+    {
+      "state": 24,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000067830506287,
+      "target_residual_mse": 2.6337098731210225e-10,
+      "sampled_label_power": 0.9826583862304688,
+      "conditional_label_power": 0.9826521873474121
+    },
+    {
+      "state": 24,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.1928035802219205e-30,
+      "sampled_label_power": 0.9826583862304688,
+      "conditional_label_power": 0.9826583862304688
+    },
+    {
+      "state": 24,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9826583862304688,
+      "conditional_label_power": 0.9826583862304688
+    },
+    {
+      "state": 25,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 63.999999999999986,
+      "target_residual_mse": 0.1819705945890325,
+      "sampled_label_power": 0.8178080320358276,
+      "conditional_label_power": 0.6510031819343567
+    },
+    {
+      "state": 25,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 54.47397792935728,
+      "target_residual_mse": 0.20581572679396445,
+      "sampled_label_power": 0.8178079724311829,
+      "conditional_label_power": 0.6264057159423828
+    },
+    {
+      "state": 25,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 15.054404199472897,
+      "target_residual_mse": 0.2638154424295446,
+      "sampled_label_power": 0.8178079724311829,
+      "conditional_label_power": 0.5709616541862488
+    },
+    {
+      "state": 25,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.9432467355239003,
+      "target_residual_mse": 0.12561058284042842,
+      "sampled_label_power": 0.8178079128265381,
+      "conditional_label_power": 0.678210973739624
+    },
+    {
+      "state": 25,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.000000417571674,
+      "target_residual_mse": 8.453726956651375e-13,
+      "sampled_label_power": 0.8178079128265381,
+      "conditional_label_power": 0.8178077936172485
+    },
+    {
+      "state": 25,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.8195233550023395e-30,
+      "sampled_label_power": 0.8178079128265381,
+      "conditional_label_power": 0.8178079128265381
+    },
+    {
+      "state": 25,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8178079128265381,
+      "conditional_label_power": 0.8178079128265381
+    },
+    {
+      "state": 26,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.21877747174818685,
+      "sampled_label_power": 1.060431718826294,
+      "conditional_label_power": 0.8216655254364014
+    },
+    {
+      "state": 26,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 53.74158468794843,
+      "target_residual_mse": 0.25153703348280176,
+      "sampled_label_power": 1.0604315996170044,
+      "conditional_label_power": 0.7979220151901245
+    },
+    {
+      "state": 26,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 14.808047394647193,
+      "target_residual_mse": 0.3055073892168896,
+      "sampled_label_power": 1.0604315996170044,
+      "conditional_label_power": 0.7556819915771484
+    },
+    {
+      "state": 26,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.2872356487175463,
+      "target_residual_mse": 0.04361342320363723,
+      "sampled_label_power": 1.060431718826294,
+      "conditional_label_power": 0.965410053730011
+    },
+    {
+      "state": 26,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.000075515823518,
+      "target_residual_mse": 2.939851963707729e-08,
+      "sampled_label_power": 1.060431718826294,
+      "conditional_label_power": 1.0603938102722168
+    },
+    {
+      "state": 26,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.512479638575358e-30,
+      "sampled_label_power": 1.060431718826294,
+      "conditional_label_power": 1.060431718826294
+    },
+    {
+      "state": 26,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.060431718826294,
+      "conditional_label_power": 1.060431718826294
+    },
+    {
+      "state": 27,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.21754646486039692,
+      "sampled_label_power": 0.9606869220733643,
+      "conditional_label_power": 0.7294507026672363
+    },
+    {
+      "state": 27,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.9924497925564,
+      "target_residual_mse": 0.24966502675693988,
+      "sampled_label_power": 0.9606869220733643,
+      "conditional_label_power": 0.708400547504425
+    },
+    {
+      "state": 27,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 15.415791142293681,
+      "target_residual_mse": 0.31976514165160225,
+      "sampled_label_power": 0.9606869220733643,
+      "conditional_label_power": 0.6545463800430298
+    },
+    {
+      "state": 27,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.4240046242491236,
+      "target_residual_mse": 0.13182968305905443,
+      "sampled_label_power": 0.9606869220733643,
+      "conditional_label_power": 0.8473811149597168
+    },
+    {
+      "state": 27,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.000000164764572,
+      "target_residual_mse": 6.900688855802595e-14,
+      "sampled_label_power": 0.9606869220733643,
+      "conditional_label_power": 0.9606867432594299
+    },
+    {
+      "state": 27,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.6392786306209835e-30,
+      "sampled_label_power": 0.9606869220733643,
+      "conditional_label_power": 0.9606869220733643
+    },
+    {
+      "state": 27,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9606869220733643,
+      "conditional_label_power": 0.9606869220733643
+    },
+    {
+      "state": 28,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.20711691335287616,
+      "sampled_label_power": 1.1418381929397583,
+      "conditional_label_power": 0.8683354258537292
+    },
+    {
+      "state": 28,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.83172061067872,
+      "target_residual_mse": 0.251403587186861,
+      "sampled_label_power": 1.1418381929397583,
+      "conditional_label_power": 0.8254071474075317
+    },
+    {
+      "state": 28,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 13.556619362200392,
+      "target_residual_mse": 0.3579267249755799,
+      "sampled_label_power": 1.1418381929397583,
+      "conditional_label_power": 0.7525451183319092
+    },
+    {
+      "state": 28,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.583808261947301,
+      "target_residual_mse": 0.21132171527346516,
+      "sampled_label_power": 1.1418381929397583,
+      "conditional_label_power": 0.9120908975601196
+    },
+    {
+      "state": 28,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000011965758802,
+      "target_residual_mse": 2.349768376542979e-12,
+      "sampled_label_power": 1.1418381929397583,
+      "conditional_label_power": 1.1418375968933105
+    },
+    {
+      "state": 28,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.430754343873543e-30,
+      "sampled_label_power": 1.1418381929397583,
+      "conditional_label_power": 1.1418381929397583
+    },
+    {
+      "state": 28,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.1418381929397583,
+      "conditional_label_power": 1.1418381929397583
+    },
+    {
+      "state": 29,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.19712937256549137,
+      "sampled_label_power": 1.05085027217865,
+      "conditional_label_power": 0.8450794219970703
+    },
+    {
+      "state": 29,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 53.040130010068154,
+      "target_residual_mse": 0.2342492765080775,
+      "sampled_label_power": 1.0508501529693604,
+      "conditional_label_power": 0.8096453547477722
+    },
+    {
+      "state": 29,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 13.536136391628483,
+      "target_residual_mse": 0.32952853275540617,
+      "sampled_label_power": 1.05085027217865,
+      "conditional_label_power": 0.7430059313774109
+    },
+    {
+      "state": 29,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.8555686465579957,
+      "target_residual_mse": 0.1924439632604449,
+      "sampled_label_power": 1.05085027217865,
+      "conditional_label_power": 0.9114677309989929
+    },
+    {
+      "state": 29,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000059599011473,
+      "target_residual_mse": 1.9797710213638796e-10,
+      "sampled_label_power": 1.0508501529693604,
+      "conditional_label_power": 1.0508458614349365
+    },
+    {
+      "state": 29,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.029156225746947e-30,
+      "sampled_label_power": 1.0508501529693604,
+      "conditional_label_power": 1.0508501529693604
+    },
+    {
+      "state": 29,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.05085027217865,
+      "conditional_label_power": 1.05085027217865
+    },
+    {
+      "state": 30,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.20829078913519505,
+      "sampled_label_power": 0.8879091739654541,
+      "conditional_label_power": 0.6890841126441956
+    },
+    {
+      "state": 30,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.70322144771591,
+      "target_residual_mse": 0.2375468418252314,
+      "sampled_label_power": 0.8879091739654541,
+      "conditional_label_power": 0.6581095457077026
+    },
+    {
+      "state": 30,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.759505119646734,
+      "target_residual_mse": 0.3114699311005321,
+      "sampled_label_power": 0.8879091739654541,
+      "conditional_label_power": 0.5932764410972595
+    },
+    {
+      "state": 30,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.92670444201858,
+      "target_residual_mse": 0.2183534516899328,
+      "sampled_label_power": 0.8879091739654541,
+      "conditional_label_power": 0.692481279373169
+    },
+    {
+      "state": 30,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000260955870235,
+      "target_residual_mse": 5.965269088983578e-09,
+      "sampled_label_power": 0.8879091739654541,
+      "conditional_label_power": 0.8878844976425171
+    },
+    {
+      "state": 30,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.926694684926035e-30,
+      "sampled_label_power": 0.8879091143608093,
+      "conditional_label_power": 0.8879091143608093
+    },
+    {
+      "state": 30,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8879091739654541,
+      "conditional_label_power": 0.8879091739654541
+    },
+    {
+      "state": 31,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 63.99999999999999,
+      "target_residual_mse": 0.20004303917659144,
+      "sampled_label_power": 0.7624492645263672,
+      "conditional_label_power": 0.6014076471328735
+    },
+    {
+      "state": 31,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 54.305404461641764,
+      "target_residual_mse": 0.23285055814077152,
+      "sampled_label_power": 0.7624492645263672,
+      "conditional_label_power": 0.5734083652496338
+    },
+    {
+      "state": 31,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.628850065282094,
+      "target_residual_mse": 0.27911281988926734,
+      "sampled_label_power": 0.7624492645263672,
+      "conditional_label_power": 0.5138763189315796
+    },
+    {
+      "state": 31,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.1197359583915683,
+      "target_residual_mse": 0.19538218476846866,
+      "sampled_label_power": 0.7624492645263672,
+      "conditional_label_power": 0.6440655589103699
+    },
+    {
+      "state": 31,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000011029350682,
+      "target_residual_mse": 3.283617503989958e-12,
+      "sampled_label_power": 0.7624492645263672,
+      "conditional_label_power": 0.7624487280845642
+    },
+    {
+      "state": 31,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.297504203635072e-30,
+      "sampled_label_power": 0.7624492645263672,
+      "conditional_label_power": 0.7624492645263672
+    },
+    {
+      "state": 31,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.7624492645263672,
+      "conditional_label_power": 0.7624492645263672
+    },
+    {
+      "state": 32,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 63.99999999999999,
+      "target_residual_mse": 0.1638430236223039,
+      "sampled_label_power": 0.7639946341514587,
+      "conditional_label_power": 0.6207557320594788
+    },
+    {
+      "state": 32,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 54.98331274673134,
+      "target_residual_mse": 0.1907541175223884,
+      "sampled_label_power": 0.7639946341514587,
+      "conditional_label_power": 0.5925164222717285
+    },
+    {
+      "state": 32,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 14.744592422542366,
+      "target_residual_mse": 0.24862619660349375,
+      "sampled_label_power": 0.7639946341514587,
+      "conditional_label_power": 0.5283790230751038
+    },
+    {
+      "state": 32,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.311676431675913,
+      "target_residual_mse": 0.13086956390576865,
+      "sampled_label_power": 0.7639946341514587,
+      "conditional_label_power": 0.6214639544487
+    },
+    {
+      "state": 32,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000027570137675,
+      "target_residual_mse": 2.4633794771234067e-11,
+      "sampled_label_power": 0.7639946341514587,
+      "conditional_label_power": 0.7639929056167603
+    },
+    {
+      "state": 32,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.971301547138404e-30,
+      "sampled_label_power": 0.7639946341514587,
+      "conditional_label_power": 0.7639946341514587
+    },
+    {
+      "state": 32,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.7639946341514587,
+      "conditional_label_power": 0.7639946341514587
+    },
+    {
+      "state": 33,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 63.99999999999999,
+      "target_residual_mse": 0.18066618256890074,
+      "sampled_label_power": 1.0435371398925781,
+      "conditional_label_power": 0.8225353956222534
+    },
+    {
+      "state": 33,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 53.12176032399255,
+      "target_residual_mse": 0.20322652054142587,
+      "sampled_label_power": 1.0435370206832886,
+      "conditional_label_power": 0.798449695110321
+    },
+    {
+      "state": 33,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 15.120357626872195,
+      "target_residual_mse": 0.2569537097767697,
+      "sampled_label_power": 1.0435370206832886,
+      "conditional_label_power": 0.7348032593727112
+    },
+    {
+      "state": 33,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.8719683755052765,
+      "target_residual_mse": 0.18960697852104222,
+      "sampled_label_power": 1.0435370206832886,
+      "conditional_label_power": 0.8204865455627441
+    },
+    {
+      "state": 33,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0013724008092049,
+      "target_residual_mse": 6.149339206269794e-06,
+      "sampled_label_power": 1.0435370206832886,
+      "conditional_label_power": 1.0429657697677612
+    },
+    {
+      "state": 33,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.800225495819573e-30,
+      "sampled_label_power": 1.0435370206832886,
+      "conditional_label_power": 1.0435370206832886
+    },
+    {
+      "state": 33,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.0435370206832886,
+      "conditional_label_power": 1.0435370206832886
+    },
+    {
+      "state": 34,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.18904816136794156,
+      "sampled_label_power": 0.958632230758667,
+      "conditional_label_power": 0.7767298221588135
+    },
+    {
+      "state": 34,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.68668825863375,
+      "target_residual_mse": 0.21646574499004234,
+      "sampled_label_power": 0.958632230758667,
+      "conditional_label_power": 0.747633695602417
+    },
+    {
+      "state": 34,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 13.581765003494917,
+      "target_residual_mse": 0.29217861324956396,
+      "sampled_label_power": 0.9586322903633118,
+      "conditional_label_power": 0.6998763680458069
+    },
+    {
+      "state": 34,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.0976256394606105,
+      "target_residual_mse": 0.14226387121437054,
+      "sampled_label_power": 0.9586322903633118,
+      "conditional_label_power": 0.854548454284668
+    },
+    {
+      "state": 34,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000230566334436,
+      "target_residual_mse": 2.055437772354063e-09,
+      "sampled_label_power": 0.9586322903633118,
+      "conditional_label_power": 0.9586219191551208
+    },
+    {
+      "state": 34,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.522514503090592e-30,
+      "sampled_label_power": 0.958632230758667,
+      "conditional_label_power": 0.958632230758667
+    },
+    {
+      "state": 34,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9586323499679565,
+      "conditional_label_power": 0.9586323499679565
+    },
+    {
+      "state": 35,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.19804809042269417,
+      "sampled_label_power": 0.9647179245948792,
+      "conditional_label_power": 0.762048602104187
+    },
+    {
+      "state": 35,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 53.685429543889526,
+      "target_residual_mse": 0.22980731855497558,
+      "sampled_label_power": 0.9647179245948792,
+      "conditional_label_power": 0.7279819250106812
+    },
+    {
+      "state": 35,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 13.296706321903578,
+      "target_residual_mse": 0.3065445801530863,
+      "sampled_label_power": 0.9647179245948792,
+      "conditional_label_power": 0.6466270685195923
+    },
+    {
+      "state": 35,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.814533542066605,
+      "target_residual_mse": 0.28016086937504625,
+      "sampled_label_power": 0.9647179245948792,
+      "conditional_label_power": 0.7174866199493408
+    },
+    {
+      "state": 35,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0002007774825468,
+      "target_residual_mse": 1.9666021629014339e-07,
+      "sampled_label_power": 0.9647179245948792,
+      "conditional_label_power": 0.964643120765686
+    },
+    {
+      "state": 35,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.765539724866817e-30,
+      "sampled_label_power": 0.9647179245948792,
+      "conditional_label_power": 0.9647179245948792
+    },
+    {
+      "state": 35,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9647179245948792,
+      "conditional_label_power": 0.9647179245948792
+    },
+    {
+      "state": 36,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.20867399583002236,
+      "sampled_label_power": 0.9956149458885193,
+      "conditional_label_power": 0.8081334829330444
+    },
+    {
+      "state": 36,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.77532097260755,
+      "target_residual_mse": 0.23709925257542228,
+      "sampled_label_power": 0.9956148862838745,
+      "conditional_label_power": 0.781707227230072
+    },
+    {
+      "state": 36,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.003581668184578,
+      "target_residual_mse": 0.2842492627933878,
+      "sampled_label_power": 0.9956148862838745,
+      "conditional_label_power": 0.7039216756820679
+    },
+    {
+      "state": 36,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.082116439032184,
+      "target_residual_mse": 0.22976787168986368,
+      "sampled_label_power": 0.9956148862838745,
+      "conditional_label_power": 0.8667985200881958
+    },
+    {
+      "state": 36,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0017613702684018,
+      "target_residual_mse": 1.3816708668352277e-05,
+      "sampled_label_power": 0.9956148862838745,
+      "conditional_label_power": 0.9949045777320862
+    },
+    {
+      "state": 36,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.340343727958006e-30,
+      "sampled_label_power": 0.9956148862838745,
+      "conditional_label_power": 0.9956148862838745
+    },
+    {
+      "state": 36,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9956148266792297,
+      "conditional_label_power": 0.9956148266792297
+    },
+    {
+      "state": 37,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.3477798635702333,
+      "sampled_label_power": 1.2633707523345947,
+      "conditional_label_power": 0.9160317778587341
+    },
+    {
+      "state": 37,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 47.83028076056668,
+      "target_residual_mse": 0.3268772205096433,
+      "sampled_label_power": 1.2633707523345947,
+      "conditional_label_power": 0.9062275886535645
+    },
+    {
+      "state": 37,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 11.367105317548134,
+      "target_residual_mse": 0.39258391860274894,
+      "sampled_label_power": 1.2633707523345947,
+      "conditional_label_power": 0.9115569591522217
+    },
+    {
+      "state": 37,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.1335178947618045,
+      "target_residual_mse": 0.25969922755562347,
+      "sampled_label_power": 1.2633707523345947,
+      "conditional_label_power": 1.0839647054672241
+    },
+    {
+      "state": 37,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.00000004117442,
+      "target_residual_mse": 6.157690594796765e-15,
+      "sampled_label_power": 1.2633707523345947,
+      "conditional_label_power": 1.2633706331253052
+    },
+    {
+      "state": 37,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.778664292360493e-30,
+      "sampled_label_power": 1.2633707523345947,
+      "conditional_label_power": 1.2633707523345947
+    },
+    {
+      "state": 37,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.2633707523345947,
+      "conditional_label_power": 1.2633707523345947
+    },
+    {
+      "state": 38,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.1805967979513711,
+      "sampled_label_power": 0.9608303904533386,
+      "conditional_label_power": 0.7341896295547485
+    },
+    {
+      "state": 38,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.286764238522004,
+      "target_residual_mse": 0.2164430234126885,
+      "sampled_label_power": 0.9608303308486938,
+      "conditional_label_power": 0.6897109746932983
+    },
+    {
+      "state": 38,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 13.710361967521944,
+      "target_residual_mse": 0.3166214658798919,
+      "sampled_label_power": 0.9608303308486938,
+      "conditional_label_power": 0.6101002097129822
+    },
+    {
+      "state": 38,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.3923808515739666,
+      "target_residual_mse": 0.2766225172039586,
+      "sampled_label_power": 0.9608303308486938,
+      "conditional_label_power": 0.7515249848365784
+    },
+    {
+      "state": 38,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0001479397733435,
+      "target_residual_mse": 1.493457461708672e-07,
+      "sampled_label_power": 0.9608303904533386,
+      "conditional_label_power": 0.9607166051864624
+    },
+    {
+      "state": 38,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.928005600083163e-30,
+      "sampled_label_power": 0.9608303904533386,
+      "conditional_label_power": 0.9608303904533386
+    },
+    {
+      "state": 38,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9608303904533386,
+      "conditional_label_power": 0.9608303904533386
+    },
+    {
+      "state": 39,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.2807839420815931,
+      "sampled_label_power": 1.3594120740890503,
+      "conditional_label_power": 1.0692291259765625
+    },
+    {
+      "state": 39,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 51.55235099901995,
+      "target_residual_mse": 0.2995264577874801,
+      "sampled_label_power": 1.3594120740890503,
+      "conditional_label_power": 1.038411259651184
+    },
+    {
+      "state": 39,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 12.450276715506467,
+      "target_residual_mse": 0.3630431988121066,
+      "sampled_label_power": 1.3594120740890503,
+      "conditional_label_power": 0.9930953979492188
+    },
+    {
+      "state": 39,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.542919454242181,
+      "target_residual_mse": 0.24310678618055728,
+      "sampled_label_power": 1.3594120740890503,
+      "conditional_label_power": 1.110823392868042
+    },
+    {
+      "state": 39,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0001129357094827,
+      "target_residual_mse": 8.741144460511902e-08,
+      "sampled_label_power": 1.3594120740890503,
+      "conditional_label_power": 1.3593279123306274
+    },
+    {
+      "state": 39,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.0850666854358976e-30,
+      "sampled_label_power": 1.3594120740890503,
+      "conditional_label_power": 1.3594120740890503
+    },
+    {
+      "state": 39,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.3594120740890503,
+      "conditional_label_power": 1.3594120740890503
+    },
+    {
+      "state": 40,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.19419283623894754,
+      "sampled_label_power": 0.8672701716423035,
+      "conditional_label_power": 0.6490048170089722
+    },
+    {
+      "state": 40,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 55.25055874988597,
+      "target_residual_mse": 0.22813294501453363,
+      "sampled_label_power": 0.8672701716423035,
+      "conditional_label_power": 0.6185706853866577
+    },
+    {
+      "state": 40,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 15.954512781234902,
+      "target_residual_mse": 0.30138217879726426,
+      "sampled_label_power": 0.8672701716423035,
+      "conditional_label_power": 0.553576648235321
+    },
+    {
+      "state": 40,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.6213300353149267,
+      "target_residual_mse": 0.13338950999604346,
+      "sampled_label_power": 0.8672701716423035,
+      "conditional_label_power": 0.7138549089431763
+    },
+    {
+      "state": 40,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000005216977281,
+      "target_residual_mse": 1.1513346928818313e-12,
+      "sampled_label_power": 0.8672701716423035,
+      "conditional_label_power": 0.8672699332237244
+    },
+    {
+      "state": 40,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.0528740106483616e-30,
+      "sampled_label_power": 0.8672701716423035,
+      "conditional_label_power": 0.8672701716423035
+    },
+    {
+      "state": 40,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8672701716423035,
+      "conditional_label_power": 0.8672701716423035
+    },
+    {
+      "state": 41,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.17396568404068402,
+      "sampled_label_power": 0.8590003252029419,
+      "conditional_label_power": 0.6765966415405273
+    },
+    {
+      "state": 41,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 55.01603454209195,
+      "target_residual_mse": 0.20362379751552212,
+      "sampled_label_power": 0.8590003848075867,
+      "conditional_label_power": 0.6482322216033936
+    },
+    {
+      "state": 41,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 15.761468352644673,
+      "target_residual_mse": 0.2685371073910191,
+      "sampled_label_power": 0.8590003252029419,
+      "conditional_label_power": 0.5845824480056763
+    },
+    {
+      "state": 41,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.9408135288333712,
+      "target_residual_mse": 0.14780742515200912,
+      "sampled_label_power": 0.8590003252029419,
+      "conditional_label_power": 0.7183776497840881
+    },
+    {
+      "state": 41,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000096108441747,
+      "target_residual_mse": 1.5587594613925933e-10,
+      "sampled_label_power": 0.8590003252029419,
+      "conditional_label_power": 0.8589969873428345
+    },
+    {
+      "state": 41,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.319951718036563e-30,
+      "sampled_label_power": 0.8590003252029419,
+      "conditional_label_power": 0.8590003252029419
+    },
+    {
+      "state": 41,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8590003252029419,
+      "conditional_label_power": 0.8590003252029419
+    },
+    {
+      "state": 42,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 63.999999999999986,
+      "target_residual_mse": 0.1884041954030908,
+      "sampled_label_power": 0.8645591735839844,
+      "conditional_label_power": 0.7034872174263
+    },
+    {
+      "state": 42,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 53.52847209624053,
+      "target_residual_mse": 0.22181769018769246,
+      "sampled_label_power": 0.8645591735839844,
+      "conditional_label_power": 0.6719585657119751
+    },
+    {
+      "state": 42,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 13.013952036772842,
+      "target_residual_mse": 0.3001560203165089,
+      "sampled_label_power": 0.8645592927932739,
+      "conditional_label_power": 0.6004414558410645
+    },
+    {
+      "state": 42,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.4939237917720245,
+      "target_residual_mse": 0.11774906588254173,
+      "sampled_label_power": 0.8645592927932739,
+      "conditional_label_power": 0.7090083360671997
+    },
+    {
+      "state": 42,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000027796781885,
+      "target_residual_mse": 2.322294108613334e-11,
+      "sampled_label_power": 0.8645591735839844,
+      "conditional_label_power": 0.8645574450492859
+    },
+    {
+      "state": 42,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.065721919103855e-30,
+      "sampled_label_power": 0.8645591735839844,
+      "conditional_label_power": 0.8645591735839844
+    },
+    {
+      "state": 42,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8645591735839844,
+      "conditional_label_power": 0.8645591735839844
+    },
+    {
+      "state": 43,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.24133981868198606,
+      "sampled_label_power": 0.8169575333595276,
+      "conditional_label_power": 0.596347451210022
+    },
+    {
+      "state": 43,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 54.000362043636876,
+      "target_residual_mse": 0.25419806377532883,
+      "sampled_label_power": 0.8169575333595276,
+      "conditional_label_power": 0.5768393278121948
+    },
+    {
+      "state": 43,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 13.300031935980755,
+      "target_residual_mse": 0.2867833421520654,
+      "sampled_label_power": 0.8169575333595276,
+      "conditional_label_power": 0.5271500945091248
+    },
+    {
+      "state": 43,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.7553546732346077,
+      "target_residual_mse": 0.10454355594111277,
+      "sampled_label_power": 0.8169575333595276,
+      "conditional_label_power": 0.6889858245849609
+    },
+    {
+      "state": 43,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000007715871773,
+      "target_residual_mse": 1.5576935082910974e-12,
+      "sampled_label_power": 0.8169575333595276,
+      "conditional_label_power": 0.8169569969177246
+    },
+    {
+      "state": 43,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.761940434176571e-30,
+      "sampled_label_power": 0.8169575333595276,
+      "conditional_label_power": 0.8169575333595276
+    },
+    {
+      "state": 43,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.8169575333595276,
+      "conditional_label_power": 0.8169575333595276
+    },
+    {
+      "state": 44,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.1596969897561475,
+      "sampled_label_power": 0.88307785987854,
+      "conditional_label_power": 0.6761096715927124
+    },
+    {
+      "state": 44,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 54.72908590880046,
+      "target_residual_mse": 0.19373164539364426,
+      "sampled_label_power": 0.88307785987854,
+      "conditional_label_power": 0.6424731016159058
+    },
+    {
+      "state": 44,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 15.358565862294228,
+      "target_residual_mse": 0.29397004137869476,
+      "sampled_label_power": 0.88307785987854,
+      "conditional_label_power": 0.5801286697387695
+    },
+    {
+      "state": 44,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.665376701587216,
+      "target_residual_mse": 0.2725485284782471,
+      "sampled_label_power": 0.8830778002738953,
+      "conditional_label_power": 0.6714920997619629
+    },
+    {
+      "state": 44,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000009281566622,
+      "target_residual_mse": 2.514230647185375e-12,
+      "sampled_label_power": 0.88307785987854,
+      "conditional_label_power": 0.8830774426460266
+    },
+    {
+      "state": 44,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.8009603148673724e-30,
+      "sampled_label_power": 0.88307785987854,
+      "conditional_label_power": 0.88307785987854
+    },
+    {
+      "state": 44,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.88307785987854,
+      "conditional_label_power": 0.88307785987854
+    },
+    {
+      "state": 45,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.2246358143206976,
+      "sampled_label_power": 1.066298246383667,
+      "conditional_label_power": 0.8201977014541626
+    },
+    {
+      "state": 45,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 52.55932825740331,
+      "target_residual_mse": 0.2587443178326533,
+      "sampled_label_power": 1.066298246383667,
+      "conditional_label_power": 0.7949361205101013
+    },
+    {
+      "state": 45,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 13.562450426018486,
+      "target_residual_mse": 0.3286569454064817,
+      "sampled_label_power": 1.066298246383667,
+      "conditional_label_power": 0.7504718899726868
+    },
+    {
+      "state": 45,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.8619612349389891,
+      "target_residual_mse": 0.2015268234807233,
+      "sampled_label_power": 1.066298246383667,
+      "conditional_label_power": 0.8593813180923462
+    },
+    {
+      "state": 45,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000227352112718,
+      "target_residual_mse": 2.3507361993964834e-09,
+      "sampled_label_power": 1.066298246383667,
+      "conditional_label_power": 1.0662728548049927
+    },
+    {
+      "state": 45,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.987422367312238e-30,
+      "sampled_label_power": 1.066298246383667,
+      "conditional_label_power": 1.066298246383667
+    },
+    {
+      "state": 45,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.066298246383667,
+      "conditional_label_power": 1.066298246383667
+    },
+    {
+      "state": 46,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.2178782601943429,
+      "sampled_label_power": 1.106643557548523,
+      "conditional_label_power": 0.8749958276748657
+    },
+    {
+      "state": 46,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 54.108608214384205,
+      "target_residual_mse": 0.24969902483099726,
+      "sampled_label_power": 1.106643557548523,
+      "conditional_label_power": 0.8456500172615051
+    },
+    {
+      "state": 46,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 14.883650411938028,
+      "target_residual_mse": 0.32578989788193,
+      "sampled_label_power": 1.106643557548523,
+      "conditional_label_power": 0.7882731556892395
+    },
+    {
+      "state": 46,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 1.5793935142118962,
+      "target_residual_mse": 0.12093818129683084,
+      "sampled_label_power": 1.106643557548523,
+      "conditional_label_power": 0.9689272046089172
+    },
+    {
+      "state": 46,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000907982098317,
+      "target_residual_mse": 4.699505782759785e-08,
+      "sampled_label_power": 1.106643557548523,
+      "conditional_label_power": 1.1066046953201294
+    },
+    {
+      "state": 46,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 4.2738064577210555e-30,
+      "sampled_label_power": 1.106643557548523,
+      "conditional_label_power": 1.106643557548523
+    },
+    {
+      "state": 46,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 1.1066436767578125,
+      "conditional_label_power": 1.1066436767578125
+    },
+    {
+      "state": 47,
+      "tau": 0.0,
+      "teacher_count": 16,
+      "effective_modes": 64.0,
+      "target_residual_mse": 0.20673336348165539,
+      "sampled_label_power": 0.9776923656463623,
+      "conditional_label_power": 0.7713379263877869
+    },
+    {
+      "state": 47,
+      "tau": 0.1,
+      "teacher_count": 16,
+      "effective_modes": 51.82116869756415,
+      "target_residual_mse": 0.24243330474785807,
+      "sampled_label_power": 0.9776923656463623,
+      "conditional_label_power": 0.728608250617981
+    },
+    {
+      "state": 47,
+      "tau": 0.3,
+      "teacher_count": 16,
+      "effective_modes": 10.868229033797437,
+      "target_residual_mse": 0.34012437616286706,
+      "sampled_label_power": 0.9776923656463623,
+      "conditional_label_power": 0.6388447284698486
+    },
+    {
+      "state": 47,
+      "tau": 0.5,
+      "teacher_count": 16,
+      "effective_modes": 2.351911372837199,
+      "target_residual_mse": 0.23485708074977407,
+      "sampled_label_power": 0.9776923656463623,
+      "conditional_label_power": 0.7519945502281189
+    },
+    {
+      "state": 47,
+      "tau": 0.7,
+      "teacher_count": 16,
+      "effective_modes": 1.0000032730608288,
+      "target_residual_mse": 2.925694791134535e-11,
+      "sampled_label_power": 0.9776923656463623,
+      "conditional_label_power": 0.9776900410652161
+    },
+    {
+      "state": 47,
+      "tau": 0.9,
+      "teacher_count": 16,
+      "effective_modes": 1.0,
+      "target_residual_mse": 3.157416864889315e-30,
+      "sampled_label_power": 0.9776923656463623,
+      "conditional_label_power": 0.9776923656463623
+    },
+    {
+      "state": 47,
+      "tau": 0.95,
+      "teacher_count": 0,
+      "effective_modes": 0.0,
+      "target_residual_mse": 0.0,
+      "sampled_label_power": 0.9776923656463623,
+      "conditional_label_power": 0.9776923656463623
+    }
+  ],
+  "scope": "48TRAINstates from24sourceparents,first16TRAINbranches,descriptive only",
+  "physical_certification": false
+}

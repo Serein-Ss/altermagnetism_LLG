@@ -1,0 +1,53 @@
+{
+  "task": {
+    "domain": "miltat",
+    "arm": "local",
+    "seed": 11,
+    "updates": 6000,
+    "supervision": "fm"
+  },
+  "metadata": {
+    "version": 1,
+    "domain": "miltat",
+    "architecture": "local",
+    "width": 64,
+    "depth": 4,
+    "periodic": [
+      false,
+      false
+    ],
+    "temperature_K": 12.5,
+    "source_shift": 2.0,
+    "time_unit": "ps",
+    "frames": 11,
+    "frame_interval": 0.1,
+    "transport_stop": 1.0,
+    "crystal_frame": "registered orthonormal triad",
+    "symmetry": "joint SO(3), not reflection or spin-only symmetry",
+    "region_cells": 4,
+    "latents": 8
+  },
+  "history": [],
+  "evaluation": [
+    {
+      "parent_id": "parent_000",
+      "steps": 16,
+      "branches": 2,
+      "seconds": 1.237442433834076,
+      "shape": [
+        64,
+        38
+      ],
+      "split": "dev",
+      "scope": "same_size"
+    }
+  ],
+  "warm_step_seconds": 0.11678632162511349,
+  "train_seconds": 5.997003007680178,
+  "parameters": 456966,
+  "peak_bytes": 3275872768,
+  "device": "NVIDIA GeForce RTX 3090",
+  "first8_input_hash": "bcbff477b3b4fc9036e54dc8a077390e4fda2d4513b6a8be1b9af14e3aee3183",
+  "scientific_certification": false,
+  "total_seconds": 12.0274906642735
+}

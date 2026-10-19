@@ -1,0 +1,28 @@
+{
+  "unit_and_regression_checks": 11,
+  "unit_and_regression_passed": true,
+  "unit_log": "logs/preflight.out",
+  "checks": [
+    "Original LLG paths replay at original seeds to float32 archival precision",
+    "Three step24000 checkpoint weights and Adam states restore",
+    "24 training parents do not overlap development parent IDs",
+    "4608 new branch seeds are unique and checked against previous streams",
+    "Training pool accesses train.h5, not diagnostic probe.h5",
+    "Different branch-pool sizes preserve paired parent and quantile draws",
+    "Existing population and empirical statistics regression tests pass"
+  ],
+  "reference_smoke_job": "670978",
+  "reference_smoke_seconds": 8,
+  "gpu_smoke_job": "670979",
+  "gpu_smoke_indices": [0, 3],
+  "gpu_smoke_seconds_each": 43,
+  "gpu_smoke_scope": "32 updates per arm plus before/after generation, original evaluation and expanded evaluation; small branch counts and 8 flow steps where specified",
+  "paired_parent_schedule_hash_equal": true,
+  "paired_source_tau_state_hash_equal": true,
+  "report_smoke_job": "670981",
+  "report_smoke_seconds": 7,
+  "report_results": 2,
+  "report_missing": [],
+  "report_errors": [],
+  "smoke_not_physical_accuracy_certification": true
+}

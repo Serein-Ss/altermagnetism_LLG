@@ -1,0 +1,10 @@
+{
+  "gpu": "672166",
+  "report": "672167",
+  "estimated_minutes": [
+    8,
+    15
+  ],
+  "status": "accepted; stop monitoring formal jobs",
+  "actual_training_updates": 0
+}

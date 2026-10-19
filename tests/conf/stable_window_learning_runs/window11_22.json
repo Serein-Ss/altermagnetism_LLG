@@ -1,0 +1,35 @@
+{
+  "base_config": "conf/research/runs/bauer_first_loop/20260913_v1/config.json",
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "old_checkpoints": "output/bauer_first_loop/20260913_v1",
+  "budgets": [
+    6000,
+    20000,
+    40000
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "initials": 2,
+  "latents": 16,
+  "sampling_steps": 128,
+  "loss_draws": 20,
+  "threshold": 0.6,
+  "dwell": 160.0,
+  "output": "tests/output/stable_window_learning/window11",
+  "raw": "tests/data/stable_window_learning/window11",
+  "analysis": "tests/results/stable_window_learning/window11",
+  "scope": "Optimization recipe comparison, not isolated-factor causality: 40000 updates, cosine lr .001 to .00001, EMA .999 evaluated at all three fixed milestones. Preserve raw_model and EMA model; optimizer is paired with raw_model, not EMA. Same192 train paths and autonomous11-frame windows, uniform sphere source, Cartesian backbone, no new data/Hamiltonian or equilibrium constraint. Compare first-window and full-rollout conditional distributions and all seeds, not only loss; reused development is not final certification. More update/GPU budget than prior6000-step control, explicitly not equal-compute. No best-seed selection or production promotion.",
+  "controls": "Same Cartesian backbone, data and batch8; longer-budget cosine/EMA optimization recipe, not an equal-compute or single-factor comparison.",
+  "interpretation": "Compare development full-path distributions, not losses across unequal windows; no promotion or scale-up based only on loss.",
+  "model": "cartesian",
+  "window_frames": 11,
+  "compare_legacy": false,
+  "source_scale": null,
+  "optimization": {
+    "min_lr": 1e-05,
+    "ema_decay": 0.999
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-30",
+  "job_name": "zrs-mag",
+  "gpu": {
+    "job_id": "671301",
+    "array": "0-2",
+    "partition": "rtx4090",
+    "kind": "frozen_checkpoint_gradient_diagnostic",
+    "seeds": [11, 22, 33],
+    "batches_per_seed": 8192,
+    "estimated_minutes_per_task": [15, 25],
+    "time_limit_minutes": 40,
+    "model_weights_updated": false
+  },
+  "report": {
+    "job_id": "671304",
+    "partition": "fat",
+    "dependency": "afterok:671301",
+    "estimated_minutes": [1, 3]
+  },
+  "submission_accepted": true,
+  "formal_completion_not_checked": true,
+  "monitoring": "Stopped after scheduler acceptance, user will notify after completion.",
+  "formal_projection_training_submitted": false,
+  "reason": "Initial128batch diagnostics did not establish persistent cross-objective conflict beyond stochastic gradient variability; improve diagnosis before committing nine physical evaluation campaigns.",
+  "candidate_repairs": ["sum", "project", "rescale"],
+  "candidate_status": "Implemented and software-tested; not physically validated or promoted.",
+  "outputs_after_success": {
+    "data": "tests/gradient_conflict_repair/extended_audit/00..02/summary.json",
+    "page": "tests/gradient_conflict_repair/audit_assets/index.html",
+    "main_page": "tests/index.html#gradient-conflict-audit"
+  },
+  "no_new_LLG_data": true,
+  "no_production_promotion": true,
+  "no_remote_push": true
+}

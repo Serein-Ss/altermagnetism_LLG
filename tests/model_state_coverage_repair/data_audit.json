@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "states": 48,
+  "source_groups": 24,
+  "trajectories": 15360,
+  "train_futures": 3072,
+  "probe_fine_futures": 12288,
+  "physical_certification": false
+}

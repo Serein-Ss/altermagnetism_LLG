@@ -1,0 +1,11 @@
+{
+  "rotation_velocity": 4.917383193969727e-07,
+  "rotation_generated_path": 4.172325134277344e-07,
+  "periodic_translation": [
+    8.940696716308594e-08,
+    6.705522537231445e-08
+  ],
+  "open_boundary_aggregation": 5.960464477539063e-08,
+  "tangent_error": 9.918585419654846e-08,
+  "passed": true
+}

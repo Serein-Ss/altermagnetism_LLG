@@ -1,0 +1,110 @@
+[
+  {
+    "L": 16,
+    "time_ps": 1,
+    "split": "train",
+    "n": 384
+  },
+  {
+    "L": 16,
+    "time_ps": 1,
+    "split": "dev",
+    "n": 192
+  },
+  {
+    "L": 16,
+    "time_ps": 10,
+    "split": "train",
+    "n": 384
+  },
+  {
+    "L": 16,
+    "time_ps": 10,
+    "split": "dev",
+    "n": 192
+  },
+  {
+    "L": 16,
+    "time_ps": 100,
+    "split": "train",
+    "n": 384
+  },
+  {
+    "L": 16,
+    "time_ps": 100,
+    "split": "dev",
+    "n": 192
+  },
+  {
+    "L": 25,
+    "time_ps": 1,
+    "split": "train",
+    "n": 384
+  },
+  {
+    "L": 25,
+    "time_ps": 1,
+    "split": "dev",
+    "n": 192
+  },
+  {
+    "L": 25,
+    "time_ps": 10,
+    "split": "train",
+    "n": 384
+  },
+  {
+    "L": 25,
+    "time_ps": 10,
+    "split": "dev",
+    "n": 192
+  },
+  {
+    "L": 25,
+    "time_ps": 100,
+    "split": "train",
+    "n": 384
+  },
+  {
+    "L": 25,
+    "time_ps": 100,
+    "split": "dev",
+    "n": 192
+  },
+  {
+    "L": 32,
+    "time_ps": 1,
+    "split": "train",
+    "n": 384
+  },
+  {
+    "L": 32,
+    "time_ps": 1,
+    "split": "dev",
+    "n": 192
+  },
+  {
+    "L": 32,
+    "time_ps": 10,
+    "split": "train",
+    "n": 384
+  },
+  {
+    "L": 32,
+    "time_ps": 10,
+    "split": "dev",
+    "n": 192
+  },
+  {
+    "L": 32,
+    "time_ps": 100,
+    "split": "train",
+    "n": 384
+  },
+  {
+    "L": 32,
+    "time_ps": 100,
+    "split": "dev",
+    "n": 192
+  }
+]

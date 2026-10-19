@@ -1,0 +1,86 @@
+{
+  "preflight": {
+    "unit_tests": 9,
+    "passed": true,
+    "jobs": {
+      "reference": 671740,
+      "gpu": 671741,
+      "statistics": 671743,
+      "web": 671744
+    },
+    "all_completed_exit0": true,
+    "gpu_elapsed_seconds": [
+      55,
+      55
+    ],
+    "reference_elapsed_seconds": 18,
+    "pairing_errors": [],
+    "optimizer_updates": [
+      16,
+      16
+    ],
+    "exposures": {
+      "stale_replay": [
+        384,
+        384,
+        0
+      ],
+      "refreshed_replay": [
+        384,
+        0,
+        384
+      ]
+    },
+    "norm_error_max": 1.1920928955078125e-7,
+    "anchor_error": 0,
+    "physical_certification": false
+  },
+  "formal": {
+    "reference": {
+      "job": 671746,
+      "array": "1-23",
+      "reuse_first_parent": 671740
+    },
+    "audit": {
+      "job": 671769,
+      "dependency": 671746
+    },
+    "gpu": {
+      "job": 671770,
+      "array": "0-5",
+      "partition": "rtx4090",
+      "updates": 6000,
+      "seeds": [
+        11,
+        22,
+        33
+      ],
+      "arms": [
+        "stale_replay",
+        "refreshed_replay"
+      ],
+      "dependency": 671769,
+      "estimated_hours_per_task": 2,
+      "allocation_hours": 4
+    },
+    "statistics": {
+      "job": 671776,
+      "array": "0-5",
+      "dependency": 671770,
+      "estimated_minutes_per_task": [
+        4,
+        6
+      ]
+    },
+    "web": {
+      "job": 671777,
+      "dependency": 671776
+    }
+  },
+  "all_formal_jobs_accepted": true,
+  "job_name": "zrs-mag",
+  "monitoring": "Stopped after formal chain accepted as requested; no further polling.",
+  "results": "tests/model_state_refresh_repair/assets/index.html",
+  "main_page": "tests/index.html#model-state-refresh-repair",
+  "status": "Refresh-state data repair and matched follow-up training submitted; execution is not physical certification."
+}

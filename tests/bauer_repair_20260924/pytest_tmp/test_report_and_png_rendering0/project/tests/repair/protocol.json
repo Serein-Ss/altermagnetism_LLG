@@ -1,0 +1,223 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "relational_global",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "local_fixed",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_shared",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_shared",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "local_fixed",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_fixed",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_shared",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_fixed",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_shared",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_global",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_shared",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_global",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "local_fixed",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_shared",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_global",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_shared",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_global",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_global",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_fixed",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "local_fixed",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "local_fixed",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_fixed",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_shared",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_fixed",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_shared",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "local_fixed",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_shared",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_shared",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_shared",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_fixed",
+      "seed": 22,
+      "updates": 24000
+    }
+  ],
+  "controls": {
+    "local_fixed": "active residual"
+  }
+}

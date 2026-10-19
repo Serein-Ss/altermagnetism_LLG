@@ -1,0 +1,831 @@
+{
+  "index": 6,
+  "seed": 33,
+  "arm": "control",
+  "step": 126144,
+  "rows": [
+    {
+      "role": 0,
+      "state": 0,
+      "native_loss": 0.4481070935726166,
+      "teacher_loss": 0.34990763664245605,
+      "local_loss": 0.053018420934677124,
+      "spatial_loss": 0.01221107691526413,
+      "base_norm": 0.4407215118408203,
+      "local_norm": 0.6680258512496948,
+      "spatial_norm": 0.05028688162565231,
+      "local_spatial_cosine": -0.5117430090904236,
+      "baseline_update_norm": 0.0016661434201523662,
+      "baseline_clipping": {
+        "preclip_norm": 0.4407215416431427,
+        "clip_factor": 1.0
+      },
+      "variants": [
+        {
+          "mode": "local",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.15157550573349,
+          "raw_frequency_normalized_ratio": 0.002368367277085781,
+          "cosine_base_aux": 0.24864700436592102,
+          "update_increment_ratio": 0.03490104898810387,
+          "update_cosine": 0.9993923306465149,
+          "first_order_aux_change": -2.0595967725967057e-05,
+          "baseline_first_order_aux_change": -1.0867340279219206e-05,
+          "preclip_norm": 0.46188637614250183,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 1.5157550573349,
+          "raw_frequency_normalized_ratio": 0.02368367277085781,
+          "cosine_base_aux": 0.24864700436592102,
+          "update_increment_ratio": 0.3475615382194519,
+          "update_cosine": 0.9451097249984741,
+          "first_order_aux_change": -0.0001078556088032201,
+          "baseline_first_order_aux_change": -1.0867340279219206e-05,
+          "preclip_norm": 0.8870760798454285,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.011410126462578773,
+          "raw_frequency_normalized_ratio": 0.00017828322597779334,
+          "cosine_base_aux": -0.021329205483198166,
+          "update_increment_ratio": 0.0031829499639570713,
+          "update_cosine": 0.9999949932098389,
+          "first_order_aux_change": 1.0016826763603603e-06,
+          "baseline_first_order_aux_change": 1.0600126643112162e-06,
+          "preclip_norm": 0.44064298272132874,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 0.11410126090049744,
+          "raw_frequency_normalized_ratio": 0.0017828322015702724,
+          "cosine_base_aux": -0.021329205483198166,
+          "update_increment_ratio": 0.0277805607765913,
+          "update_cosine": 0.9996141791343689,
+          "first_order_aux_change": 4.789166609953099e-07,
+          "baseline_first_order_aux_change": 1.0600126643112162e-06,
+          "preclip_norm": 0.44251418113708496,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.14606577157974243,
+          "raw_frequency_normalized_ratio": 0.0022822776809334755,
+          "cosine_base_aux": 0.2563599944114685,
+          "update_increment_ratio": 0.034765392541885376,
+          "update_cosine": 0.9993968605995178,
+          "first_order_aux_change": -1.9405342754907906e-05,
+          "baseline_first_order_aux_change": -9.807327842281666e-06,
+          "preclip_norm": 0.46143901348114014,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 1.4606577157974243,
+          "raw_frequency_normalized_ratio": 0.022822776809334755,
+          "cosine_base_aux": 0.2563599944114685,
+          "update_increment_ratio": 0.346180260181427,
+          "update_cosine": 0.9453773498535156,
+          "first_order_aux_change": -0.000105450970295351,
+          "baseline_first_order_aux_change": -9.807327842281666e-06,
+          "preclip_norm": 0.8683924674987793,
+          "clip_factor": 1.0
+        }
+      ],
+      "loss_parts": {
+        "mean_loss": 0.023383919149637222,
+        "covariance_loss": 0.02963450364768505,
+        "spatial_loss": 0.01221107691526413
+      }
+    },
+    {
+      "role": 2,
+      "state": 0,
+      "native_loss": 0.4937691390514374,
+      "teacher_loss": 0.33728939294815063,
+      "local_loss": 0.0459531806409359,
+      "spatial_loss": 0.018439803272485733,
+      "base_norm": 0.6344053149223328,
+      "local_norm": 0.8528215289115906,
+      "spatial_norm": 0.05124461278319359,
+      "local_spatial_cosine": 0.12685033679008484,
+      "baseline_update_norm": 0.0017818025080487132,
+      "baseline_clipping": {
+        "preclip_norm": 0.6344053149223328,
+        "clip_factor": 1.0
+      },
+      "variants": [
+        {
+          "mode": "local",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.1344285011291504,
+          "raw_frequency_normalized_ratio": 0.002100445330142975,
+          "cosine_base_aux": 0.05021118372678757,
+          "update_increment_ratio": 0.03634044900536537,
+          "update_cosine": 0.9993395209312439,
+          "first_order_aux_change": 2.944106427094084e-06,
+          "baseline_first_order_aux_change": 1.595150024513714e-05,
+          "preclip_norm": 0.6443418264389038,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 1.344285011291504,
+          "raw_frequency_normalized_ratio": 0.02100445330142975,
+          "cosine_base_aux": 0.05021118372678757,
+          "update_increment_ratio": 0.361762672662735,
+          "update_cosine": 0.9386658072471619,
+          "first_order_aux_change": -0.00011357806215528399,
+          "baseline_first_order_aux_change": 1.595150024513714e-05,
+          "preclip_norm": 1.08816659450531,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.008077582344412804,
+          "raw_frequency_normalized_ratio": 0.00012621222413145006,
+          "cosine_base_aux": -0.16601991653442383,
+          "update_increment_ratio": 0.003682479728013277,
+          "update_cosine": 0.9999931454658508,
+          "first_order_aux_change": -7.182931085480959e-07,
+          "baseline_first_order_aux_change": -6.303926056716591e-07,
+          "preclip_norm": 0.6335747241973877,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 0.08077582716941833,
+          "raw_frequency_normalized_ratio": 0.0012621222995221615,
+          "cosine_base_aux": -0.16601991653442383,
+          "update_increment_ratio": 0.03349216654896736,
+          "update_cosine": 0.9994397163391113,
+          "first_order_aux_change": -1.5115558653633343e-06,
+          "baseline_first_order_aux_change": -6.303926056716591e-07,
+          "preclip_norm": 0.6279343366622925,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.1356898993253708,
+          "raw_frequency_normalized_ratio": 0.0021201546769589186,
+          "cosine_base_aux": 0.0398612841963768,
+          "update_increment_ratio": 0.036642201244831085,
+          "update_cosine": 0.9993284344673157,
+          "first_order_aux_change": 2.166492777178064e-06,
+          "baseline_first_order_aux_change": 1.532110763946548e-05,
+          "preclip_norm": 0.6436101794242859,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 1.3568990230560303,
+          "raw_frequency_normalized_ratio": 0.021201547235250473,
+          "cosine_base_aux": 0.0398612841963768,
+          "update_increment_ratio": 0.36474838852882385,
+          "update_cosine": 0.9377447366714478,
+          "first_order_aux_change": -0.0001156419311882928,
+          "baseline_first_order_aux_change": 1.532110763946548e-05,
+          "preclip_norm": 1.089506983757019,
+          "clip_factor": 1.0
+        }
+      ],
+      "loss_parts": {
+        "mean_loss": 0.015392135828733444,
+        "covariance_loss": 0.030561044812202454,
+        "spatial_loss": 0.01843980699777603
+      }
+    },
+    {
+      "role": 0,
+      "state": 12,
+      "native_loss": 0.45464831590652466,
+      "teacher_loss": 0.2652393579483032,
+      "local_loss": 0.03119601309299469,
+      "spatial_loss": 0.010530933737754822,
+      "base_norm": 0.432998925447464,
+      "local_norm": 1.3103584051132202,
+      "spatial_norm": 0.10416945070028305,
+      "local_spatial_cosine": -0.1509319394826889,
+      "baseline_update_norm": 0.0017118813702836633,
+      "baseline_clipping": {
+        "preclip_norm": 0.432998925447464,
+        "clip_factor": 1.0
+      },
+      "variants": [
+        {
+          "mode": "local",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.3026239573955536,
+          "raw_frequency_normalized_ratio": 0.004728499334305525,
+          "cosine_base_aux": -0.017019612714648247,
+          "update_increment_ratio": 0.0656316950917244,
+          "update_cosine": 0.9978677034378052,
+          "first_order_aux_change": -4.0646827983437106e-05,
+          "baseline_first_order_aux_change": -8.223330951295793e-06,
+          "preclip_norm": 0.45025232434272766,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 3.0262393951416016,
+          "raw_frequency_normalized_ratio": 0.047284990549087524,
+          "cosine_base_aux": -0.017019612714648247,
+          "update_increment_ratio": 0.6501073241233826,
+          "update_cosine": 0.8445810675621033,
+          "first_order_aux_change": -0.00032910797744989395,
+          "baseline_first_order_aux_change": -8.223330951295793e-06,
+          "preclip_norm": 1.3730309009552002,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.024057669565081596,
+          "raw_frequency_normalized_ratio": 0.00037590108695439994,
+          "cosine_base_aux": 0.026055335998535156,
+          "update_increment_ratio": 0.006286992691457272,
+          "update_cosine": 0.9999802112579346,
+          "first_order_aux_change": -6.811073944845702e-07,
+          "baseline_first_order_aux_change": -4.34885350841796e-07,
+          "preclip_norm": 0.43339547514915466,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 0.24057669937610626,
+          "raw_frequency_normalized_ratio": 0.0037590109277516603,
+          "cosine_base_aux": 0.026055335998535156,
+          "update_increment_ratio": 0.060528069734573364,
+          "update_cosine": 0.9981732368469238,
+          "first_order_aux_change": -2.8950062187504955e-06,
+          "baseline_first_order_aux_change": -4.34885350841796e-07,
+          "preclip_norm": 0.44798415899276733,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.2999371886253357,
+          "raw_frequency_normalized_ratio": 0.00468651857227087,
+          "cosine_base_aux": -0.015082192607223988,
+          "update_increment_ratio": 0.06538120657205582,
+          "update_cosine": 0.9978839755058289,
+          "first_order_aux_change": -4.088206333108246e-05,
+          "baseline_first_order_aux_change": -8.658215847390238e-06,
+          "preclip_norm": 0.4501762390136719,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 2.9993720054626465,
+          "raw_frequency_normalized_ratio": 0.04686518758535385,
+          "cosine_base_aux": -0.015082192607223988,
+          "update_increment_ratio": 0.6475759148597717,
+          "update_cosine": 0.8455313444137573,
+          "first_order_aux_change": -0.00032760415342636406,
+          "baseline_first_order_aux_change": -8.658215847390238e-06,
+          "preclip_norm": 1.3627954721450806,
+          "clip_factor": 1.0
+        }
+      ],
+      "loss_parts": {
+        "mean_loss": 0.021526692435145378,
+        "covariance_loss": 0.009669320657849312,
+        "spatial_loss": 0.010530932806432247
+      }
+    },
+    {
+      "role": 2,
+      "state": 12,
+      "native_loss": 0.5836275219917297,
+      "teacher_loss": 0.28407931327819824,
+      "local_loss": 0.035769857466220856,
+      "spatial_loss": 0.011779919266700745,
+      "base_norm": 0.4489777386188507,
+      "local_norm": 0.7538686394691467,
+      "spatial_norm": 0.08432959765195847,
+      "local_spatial_cosine": 0.628838062286377,
+      "baseline_update_norm": 0.0016776606207713485,
+      "baseline_clipping": {
+        "preclip_norm": 0.4489777684211731,
+        "clip_factor": 1.0
+      },
+      "variants": [
+        {
+          "mode": "local",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.16790780425071716,
+          "raw_frequency_normalized_ratio": 0.0026235594414174557,
+          "cosine_base_aux": -0.016528882086277008,
+          "update_increment_ratio": 0.05100877955555916,
+          "update_cosine": 0.9987021684646606,
+          "first_order_aux_change": -2.2516796889249235e-05,
+          "baseline_first_order_aux_change": -4.185759280517232e-06,
+          "preclip_norm": 0.4540322721004486,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 1.6790779829025269,
+          "raw_frequency_normalized_ratio": 0.026235593482851982,
+          "cosine_base_aux": -0.016528882086277008,
+          "update_increment_ratio": 0.5070369839668274,
+          "update_cosine": 0.8922436833381653,
+          "first_order_aux_change": -0.00018650454876478761,
+          "baseline_first_order_aux_change": -4.185759280517232e-06,
+          "preclip_norm": 0.8710395693778992,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.01878258027136326,
+          "raw_frequency_normalized_ratio": 0.0002934778167400509,
+          "cosine_base_aux": 0.06464975327253342,
+          "update_increment_ratio": 0.004806496202945709,
+          "update_cosine": 0.9999884366989136,
+          "first_order_aux_change": 5.053606173532899e-07,
+          "baseline_first_order_aux_change": 6.402245276149188e-07,
+          "preclip_norm": 0.4496017396450043,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 0.1878257840871811,
+          "raw_frequency_normalized_ratio": 0.0029347778763622046,
+          "cosine_base_aux": 0.06464975327253342,
+          "update_increment_ratio": 0.0446961373090744,
+          "update_cosine": 0.9990020394325256,
+          "first_order_aux_change": -7.017715120127832e-07,
+          "baseline_first_order_aux_change": 6.402245276149188e-07,
+          "preclip_norm": 0.46215590834617615,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.1803113967180252,
+          "raw_frequency_normalized_ratio": 0.002817365573719144,
+          "cosine_base_aux": -0.00865747220814228,
+          "update_increment_ratio": 0.05324389785528183,
+          "update_cosine": 0.9985862374305725,
+          "first_order_aux_change": -2.3601962311659008e-05,
+          "baseline_first_order_aux_change": -3.5455348097457318e-06,
+          "preclip_norm": 0.45552775263786316,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 1.8031139373779297,
+          "raw_frequency_normalized_ratio": 0.02817365527153015,
+          "cosine_base_aux": -0.00865747220814228,
+          "update_increment_ratio": 0.5291754603385925,
+          "update_cosine": 0.8841649889945984,
+          "first_order_aux_change": -0.00020292249973863363,
+          "baseline_first_order_aux_change": -3.5455348097457318e-06,
+          "preclip_norm": 0.922318696975708,
+          "clip_factor": 1.0
+        }
+      ],
+      "loss_parts": {
+        "mean_loss": 0.013442318886518478,
+        "covariance_loss": 0.022327538579702377,
+        "spatial_loss": 0.011779917404055595
+      }
+    },
+    {
+      "role": 0,
+      "state": 24,
+      "native_loss": 0.619545042514801,
+      "teacher_loss": 0.3035679757595062,
+      "local_loss": 0.051541537046432495,
+      "spatial_loss": 0.024501994252204895,
+      "base_norm": 0.5628904700279236,
+      "local_norm": 1.35917067527771,
+      "spatial_norm": 0.0947413370013237,
+      "local_spatial_cosine": 0.43678873777389526,
+      "baseline_update_norm": 0.0017243571346625686,
+      "baseline_clipping": {
+        "preclip_norm": 0.5628904700279236,
+        "clip_factor": 1.0
+      },
+      "variants": [
+        {
+          "mode": "local",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.24146272242069244,
+          "raw_frequency_normalized_ratio": 0.0037728550378233194,
+          "cosine_base_aux": 0.07023084908723831,
+          "update_increment_ratio": 0.12116990983486176,
+          "update_cosine": 0.9926598072052002,
+          "first_order_aux_change": -3.8306084206851665e-06,
+          "baseline_first_order_aux_change": 6.121299520600587e-05,
+          "preclip_norm": 0.588273286819458,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 2.4146273136138916,
+          "raw_frequency_normalized_ratio": 0.037728551775217056,
+          "cosine_base_aux": 0.07023084908723831,
+          "update_increment_ratio": 1.1673310995101929,
+          "update_cosine": 0.6218622326850891,
+          "first_order_aux_change": -0.0005762830842286348,
+          "baseline_first_order_aux_change": 6.121299520600587e-05,
+          "preclip_norm": 1.5072003602981567,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.01683122105896473,
+          "raw_frequency_normalized_ratio": 0.0002629878290463239,
+          "cosine_base_aux": -0.06260427832603455,
+          "update_increment_ratio": 0.01167613361030817,
+          "update_cosine": 0.999931812286377,
+          "first_order_aux_change": 3.716973537848389e-07,
+          "baseline_first_order_aux_change": 8.058656248977059e-07,
+          "preclip_norm": 0.562376856803894,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 0.168312206864357,
+          "raw_frequency_normalized_ratio": 0.002629878232255578,
+          "cosine_base_aux": -0.06260427832603455,
+          "update_increment_ratio": 0.11519098281860352,
+          "update_cosine": 0.9934197664260864,
+          "first_order_aux_change": -3.535929181452957e-06,
+          "baseline_first_order_aux_change": 8.058656248977059e-07,
+          "preclip_norm": 0.5649287104606628,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.24927465617656708,
+          "raw_frequency_normalized_ratio": 0.0038949165027588606,
+          "cosine_base_aux": 0.06380283087491989,
+          "update_increment_ratio": 0.1268019825220108,
+          "update_cosine": 0.9919668436050415,
+          "first_order_aux_change": -7.586691026517656e-06,
+          "baseline_first_order_aux_change": 6.201885844347998e-05,
+          "preclip_norm": 0.5887378454208374,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 2.492746591567993,
+          "raw_frequency_normalized_ratio": 0.03894916549324989,
+          "cosine_base_aux": 0.06380283087491989,
+          "update_increment_ratio": 1.2155630588531494,
+          "update_cosine": 0.6059163808822632,
+          "first_order_aux_change": -0.0006191799184307456,
+          "baseline_first_order_aux_change": 6.201885844347998e-05,
+          "preclip_norm": 1.5448111295700073,
+          "clip_factor": 1.0
+        }
+      ],
+      "loss_parts": {
+        "mean_loss": 0.01092004869133234,
+        "covariance_loss": 0.04062148928642273,
+        "spatial_loss": 0.024501992389559746
+      }
+    },
+    {
+      "role": 2,
+      "state": 24,
+      "native_loss": 0.4255162179470062,
+      "teacher_loss": 0.3298530578613281,
+      "local_loss": 0.015201685018837452,
+      "spatial_loss": 0.008690926246345043,
+      "base_norm": 0.3462803363800049,
+      "local_norm": 0.7912378907203674,
+      "spatial_norm": 0.0786295011639595,
+      "local_spatial_cosine": 0.4412856996059418,
+      "baseline_update_norm": 0.0016408362425863743,
+      "baseline_clipping": {
+        "preclip_norm": 0.34628036618232727,
+        "clip_factor": 1.0
+      },
+      "variants": [
+        {
+          "mode": "local",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.22849632799625397,
+          "raw_frequency_normalized_ratio": 0.0035702551249414682,
+          "cosine_base_aux": -0.19593988358974457,
+          "update_increment_ratio": 0.06806701421737671,
+          "update_cosine": 0.9976950287818909,
+          "first_order_aux_change": -3.193920565536246e-05,
+          "baseline_first_order_aux_change": -1.0533586646488402e-05,
+          "preclip_norm": 0.3397550880908966,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 2.284963369369507,
+          "raw_frequency_normalized_ratio": 0.035702552646398544,
+          "cosine_base_aux": -0.19593988358974457,
+          "update_increment_ratio": 0.6706430315971375,
+          "update_cosine": 0.8321024775505066,
+          "first_order_aux_change": -0.00022270120098255575,
+          "baseline_first_order_aux_change": -1.0533586646488402e-05,
+          "preclip_norm": 0.7991222143173218,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.0227068942040205,
+          "raw_frequency_normalized_ratio": 0.0003547952219378203,
+          "cosine_base_aux": -0.17645719647407532,
+          "update_increment_ratio": 0.011056855320930481,
+          "update_cosine": 0.99993896484375,
+          "first_order_aux_change": -1.103178647099412e-06,
+          "baseline_first_order_aux_change": -7.151116392378754e-07,
+          "preclip_norm": 0.3449796736240387,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 0.2270689159631729,
+          "raw_frequency_normalized_ratio": 0.0035479518119245768,
+          "cosine_base_aux": -0.17645719647407532,
+          "update_increment_ratio": 0.10882159322500229,
+          "update_cosine": 0.9941537976264954,
+          "first_order_aux_change": -4.598805389832705e-06,
+          "baseline_first_order_aux_change": -7.151116392378754e-07,
+          "preclip_norm": 0.341296911239624,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.23938536643981934,
+          "raw_frequency_normalized_ratio": 0.003740396350622177,
+          "cosine_base_aux": -0.2037649303674698,
+          "update_increment_ratio": 0.07292535901069641,
+          "update_cosine": 0.9973567724227905,
+          "first_order_aux_change": -3.5252258385298774e-05,
+          "baseline_first_order_aux_change": -1.1248697774135508e-05,
+          "preclip_norm": 0.33923962712287903,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 2.3938536643981934,
+          "raw_frequency_normalized_ratio": 0.03740396350622177,
+          "cosine_base_aux": -0.2037649303674698,
+          "update_increment_ratio": 0.7166755795478821,
+          "update_cosine": 0.8149679899215698,
+          "first_order_aux_change": -0.0002489047183189541,
+          "baseline_first_order_aux_change": -1.1248697774135508e-05,
+          "preclip_norm": 0.83070969581604,
+          "clip_factor": 1.0
+        }
+      ],
+      "loss_parts": {
+        "mean_loss": 0.008974455296993256,
+        "covariance_loss": 0.006227229721844196,
+        "spatial_loss": 0.008690927177667618
+      }
+    },
+    {
+      "role": 0,
+      "state": 36,
+      "native_loss": 0.5606410503387451,
+      "teacher_loss": 0.305946946144104,
+      "local_loss": 0.07140222191810608,
+      "spatial_loss": 0.01809115707874298,
+      "base_norm": 0.7927000522613525,
+      "local_norm": 1.0709943771362305,
+      "spatial_norm": 0.11222268640995026,
+      "local_spatial_cosine": 0.3704706132411957,
+      "baseline_update_norm": 0.0017521352274343371,
+      "baseline_clipping": {
+        "preclip_norm": 0.7927000522613525,
+        "clip_factor": 1.0
+      },
+      "variants": [
+        {
+          "mode": "local",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.1351071447134018,
+          "raw_frequency_normalized_ratio": 0.002111049136146903,
+          "cosine_base_aux": 0.21756641566753387,
+          "update_increment_ratio": 0.07039204984903336,
+          "update_cosine": 0.9975228309631348,
+          "first_order_aux_change": -2.4668435798957944e-05,
+          "baseline_first_order_aux_change": 6.837190994701814e-06,
+          "preclip_norm": 0.8226696848869324,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 1.3510713577270508,
+          "raw_frequency_normalized_ratio": 0.02111048996448517,
+          "cosine_base_aux": 0.21756641566753387,
+          "update_increment_ratio": 0.6981077194213867,
+          "update_cosine": 0.8131677508354187,
+          "first_order_aux_change": -0.0003058672009501606,
+          "baseline_first_order_aux_change": 6.837190994701814e-06,
+          "preclip_norm": 1.4645204544067383,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.014157017692923546,
+          "raw_frequency_normalized_ratio": 0.0002212034014519304,
+          "cosine_base_aux": 0.049383725970983505,
+          "update_increment_ratio": 0.009958707727491856,
+          "update_cosine": 0.9999505281448364,
+          "first_order_aux_change": 9.237625704372476e-07,
+          "baseline_first_order_aux_change": 1.4534499541696277e-06,
+          "preclip_norm": 0.7933334112167358,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 0.14157018065452576,
+          "raw_frequency_normalized_ratio": 0.002212034072726965,
+          "cosine_base_aux": 0.049383725970983505,
+          "update_increment_ratio": 0.09787333756685257,
+          "update_cosine": 0.9952186346054077,
+          "first_order_aux_change": -3.842543264909182e-06,
+          "baseline_first_order_aux_change": 1.4534499541696277e-06,
+          "preclip_norm": 0.8060728907585144,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.14096656441688538,
+          "raw_frequency_normalized_ratio": 0.002202602569013834,
+          "cosine_base_aux": 0.21348252892494202,
+          "update_increment_ratio": 0.07388854026794434,
+          "update_cosine": 0.997270405292511,
+          "first_order_aux_change": -2.6068992156069726e-05,
+          "baseline_first_order_aux_change": 8.290640835184604e-06,
+          "preclip_norm": 0.8238207101821899,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 1.409665584564209,
+          "raw_frequency_normalized_ratio": 0.022026024758815765,
+          "cosine_base_aux": 0.21348252892494202,
+          "update_increment_ratio": 0.7323505878448486,
+          "update_cosine": 0.7986865639686584,
+          "first_order_aux_change": -0.00033261580392718315,
+          "baseline_first_order_aux_change": 8.290640835184604e-06,
+          "preclip_norm": 1.5017503499984741,
+          "clip_factor": 1.0
+        }
+      ],
+      "loss_parts": {
+        "mean_loss": 0.027534887194633484,
+        "covariance_loss": 0.0438673309981823,
+        "spatial_loss": 0.018091153353452682
+      }
+    },
+    {
+      "role": 2,
+      "state": 36,
+      "native_loss": 0.37379634380340576,
+      "teacher_loss": 0.3213443160057068,
+      "local_loss": 0.04282953590154648,
+      "spatial_loss": 0.01660020649433136,
+      "base_norm": 0.48739445209503174,
+      "local_norm": 1.2209264039993286,
+      "spatial_norm": 0.06799087673425674,
+      "local_spatial_cosine": 0.07368072122335434,
+      "baseline_update_norm": 0.0016642458504065871,
+      "baseline_clipping": {
+        "preclip_norm": 0.48739445209503174,
+        "clip_factor": 1.0
+      },
+      "variants": [
+        {
+          "mode": "local",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.2505006790161133,
+          "raw_frequency_normalized_ratio": 0.00391407310962677,
+          "cosine_base_aux": -0.0624457411468029,
+          "update_increment_ratio": 0.07393945008516312,
+          "update_cosine": 0.9972831606864929,
+          "first_order_aux_change": -4.5552347728516906e-05,
+          "baseline_first_order_aux_change": -8.946396519604605e-06,
+          "preclip_norm": 0.4950030744075775,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 2.505006790161133,
+          "raw_frequency_normalized_ratio": 0.0391407310962677,
+          "cosine_base_aux": -0.0624457411468029,
+          "update_increment_ratio": 0.7319664359092712,
+          "update_cosine": 0.8091829419136047,
+          "first_order_aux_change": -0.0003711742756422609,
+          "baseline_first_order_aux_change": -8.946396519604605e-06,
+          "preclip_norm": 1.2860383987426758,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.013949867337942123,
+          "raw_frequency_normalized_ratio": 0.00021796667715534568,
+          "cosine_base_aux": -0.16772963106632233,
+          "update_increment_ratio": 0.006550574209541082,
+          "update_cosine": 0.9999786615371704,
+          "first_order_aux_change": 2.4739571813370276e-07,
+          "baseline_first_order_aux_change": 4.5267239556778804e-07,
+          "preclip_norm": 0.4863002300262451,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "spatial_only",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 0.13949866592884064,
+          "raw_frequency_normalized_ratio": 0.002179666655138135,
+          "cosine_base_aux": -0.16772963106632233,
+          "update_increment_ratio": 0.06281806528568268,
+          "update_cosine": 0.9980303049087524,
+          "first_order_aux_change": -1.5996192814782262e-06,
+          "baseline_first_order_aux_change": 4.5267239556778804e-07,
+          "preclip_norm": 0.4806865155696869,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 0.1,
+          "weighted_gradient_ratio": 0.251912921667099,
+          "raw_frequency_normalized_ratio": 0.003936139401048422,
+          "cosine_base_aux": -0.07138383388519287,
+          "update_increment_ratio": 0.07482095062732697,
+          "update_cosine": 0.9972178339958191,
+          "first_order_aux_change": -4.584288762998767e-05,
+          "baseline_first_order_aux_change": -8.493723726132885e-06,
+          "preclip_norm": 0.4940494894981384,
+          "clip_factor": 1.0
+        },
+        {
+          "mode": "local_plus_spatial",
+          "weight": 1.0,
+          "weighted_gradient_ratio": 2.5191290378570557,
+          "raw_frequency_normalized_ratio": 0.039361391216516495,
+          "cosine_base_aux": -0.07138383388519287,
+          "update_increment_ratio": 0.7404304146766663,
+          "update_cosine": 0.8057469129562378,
+          "first_order_aux_change": -0.00037789790076203644,
+          "baseline_first_order_aux_change": -8.493723726132885e-06,
+          "preclip_norm": 1.288267731666565,
+          "clip_factor": 1.0
+        }
+      ],
+      "loss_parts": {
+        "mean_loss": 0.021061720326542854,
+        "covariance_loss": 0.021767817437648773,
+        "spatial_loss": 0.01660020649433136
+      }
+    }
+  ],
+  "native_input_hash": "9913338df5b4f42fb4634326d212b2bb62bfaa8efe14ca3edfcb2910c791848f",
+  "auxiliary_input_hash": "01eb4db96f9c2ca91b8b3c88e7a9553702a8a56bbc00a54ca941a00d26ae363d",
+  "seconds": 295.75886192172766,
+  "device": "NVIDIA GeForce RTX 3090",
+  "actual_model_updates": 0,
+  "scientific_certification": false,
+  "scope": "Frozen TRAIN-only optimization diagnostic. Replay here uses three nearby bank IDs per probe, not exact historical full48 schedule. Terminal Adam/lr, not reconstruction of all6000 updates. Raw frequency ratio not equivalent Adam effect; weight1 diagnostic not adopted training. No DEV or final holdout used."
+}

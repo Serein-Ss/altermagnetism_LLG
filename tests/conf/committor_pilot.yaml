@@ -1,0 +1,42 @@
+schema: committor_pilot_v1
+status: prospective_exploratory_not_certification
+source_doi: 10.1038/s41586-026-11025-1
+source_scope: Public abstract and author repository; inspired diagnostic, not Gen-COMPAS reproduction
+sites: 25
+theta: [0.11, 0.13]
+anisotropy: 0.1
+damping: 0.1
+selection_seed: 2026091402
+calibration:
+  paths: 32
+  duration: 200.0
+  save_dt: 0.1
+  seed_base: 2100000000
+  cases: [{method: mt, dt: 0.0025}, {method: mt, dt: 0.00125}]
+  tail_start: 150.0
+  quantiles: [0.05, 0.1, 0.2]
+  primary_quantile: 0.1
+shooting:
+  kinds: {aligned: 1, tilted: 2, wall: 3}
+  source_frames: [8, 40, 80]
+  paths: 128
+  duration: 8.0
+  save_dt: 0.01
+  seed_base: 2110000000
+  baseline_seed_base: 2120000000
+  flow_seed_base: 2130000000
+  cases: [{method: mt, dt: 0.00125}, {method: heun, dt: 0.00125}]
+  flow_steps: 32
+  generation_batch: 64
+  model_seeds: [11, 22, 33]
+  dwell_sensitivity: [0.0, 0.1, 0.5]
+  horizons: [0.8, 2.0, 8.0]
+scope:
+  - 128 branches is a bounded pilot, not power-sized equivalence certification
+  - Calibration cores are empirical proposals, not validated metastable basins
+  - No infinite-time committor or published lifetime certification
+  - No equilibrium assumption, no reversibility-based committor loss
+  - No transition-selected sample counts interpreted as physical occupancy
+  - No training or adaptive resampling in this campaign
+  - State selection is stratified and outcome-blind; same starts for all arms
+  - New labels and priority queue are development-only, not final holdout data

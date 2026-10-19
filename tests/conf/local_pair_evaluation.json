@@ -1,0 +1,22 @@
+{
+  "training_config": "tests/conf/local_pair_controlled.json",
+  "arms": [
+    "control",
+    "local_pair"
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "theta": [
+    0.11,
+    0.13
+  ],
+  "n_per_half": 128,
+  "batch_size": 32,
+  "damping": 0.1,
+  "generated_sampling_steps": 1024,
+  "generated_latent_base": 900000000,
+  "scope": "Paired-latent development comparison only. Exactly two saved initial families per theta, 16 real reference paths per family versus128 generated; report unequal reference precision, not an equal-n equivalence test. Latents shared across all arms/seeds/theta within initial-family rank; not batch-partition invariant. No final-test or physical-law certificate. Save full trajectories and inspect first800 and full16000."
+}

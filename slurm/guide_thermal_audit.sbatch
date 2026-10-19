@@ -22,7 +22,7 @@ case "$STAGE" in
     bash "$RUNNER" -m pip freeze > "$LOG_DIR/python_environment.txt"
     lscpu > "$LOG_DIR/cpu_environment.txt"
     free -h > "$LOG_DIR/memory_environment.txt"
-    bash "$RUNNER" -m pytest scripts/tests -q -p no:cacheprovider
+    bash "$RUNNER" -m pytest tests/unit -q -p no:cacheprovider
     bash "$RUNNER" scripts/validation/validate_thermal_noise_statistics.py \
       --output "$AUDIT_ROOT/thermal_noise_statistics.json"
     ;;

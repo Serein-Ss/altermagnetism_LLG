@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-28",
+  "environment": "zrs-mag",
+  "new_unit_tests_passed": 6,
+  "existing_regression_tests_passed": 6,
+  "new_tests": ["sample covariance versus numpy", "same initial state guard", "identical moments zero loss", "finite difference gradient", "joint rotation invariant loss", "checkpoint gradient and deployment midpoint equality"],
+  "smoke_gpu_job": "671158_0-1",
+  "smoke_gpu_elapsed_seconds": [51, 67],
+  "smoke_stats_job": "671160_0-1",
+  "smoke_stats_elapsed_seconds": [10, 11],
+  "smoke_aggregation": "completed; no missing results or pairing errors",
+  "gpu_device": "NVIDIA GeForce RTX 3090",
+  "gpu_partition": "rtx4090",
+  "smoke_max_norm_error": 1.1920928955078125e-7,
+  "smoke_anchor_error": 0.0,
+  "formal_estimate_hours_per_gpu_task": {"fm": 2, "moments": [3, 4]},
+  "formal_limit_hours": 6,
+  "limitations": "One auxiliary update in smoke proves execution and finite backpropagation only. Long training stability and physical accuracy await formal results. Auxiliary training only uses existing t0 training parents, not new intermediate-state references.",
+  "scientific_certification": false
+}

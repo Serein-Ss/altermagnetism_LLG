@@ -1,0 +1,12 @@
+{
+  "base_experiment": "tests/conf/bauer_training_budget_20260913.json",
+  "experiment": "temporal_dilation_overfit",
+  "model": "cartesian",
+  "temporal_dilations": [1, 4, 16, 64],
+  "seeds": [11, 22, 33],
+  "arms": {"mixed_eight": [96, 97, 98, 99, 100, 101, 102, 103]},
+  "budgets": [600, 3000, 6000],
+  "latents": 32,
+  "sampling_steps": 128,
+  "scope": "Exploratory temporal receptive-field comparison against completed cartesian_overfit/mixed_eight, paired by seed, source RNG, examples, optimizer and steps. Only temporal dilation changes; parameters and spatial receptive field unchanged. Theoretical per-evaluation temporal span 341 instead of 17 frames, not a guarantee of effective long-range learning. Compare time-resolved connected temporal correlations at lags 1,2,4,8,16,32, spatial correlations and magnetization variance; report all seeds and checkpoints without selecting the best. Three training seeds are robustness checks, not a powered population inference. Selected eight training paths are not a physical probability reference. No production promotion or size-transfer claim."
+}

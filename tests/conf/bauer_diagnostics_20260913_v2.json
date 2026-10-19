@@ -1,0 +1,32 @@
+{
+  "scope": "Exploratory corrected distinct-initial matched-reference diagnostics, not certification",
+  "training_seeds": [11, 22, 33],
+  "theta": [0.11, 0.13],
+  "lambda": 0.1,
+  "initials": 2,
+  "latent_seeds": 16,
+  "latent_seed_base": 913000,
+  "integration_steps": [16, 32, 64, 128],
+  "benchmark_repeats": 5,
+  "physical_window": 16000.0,
+  "frames": 201,
+  "threshold": 0.6,
+  "dwell": 160.0,
+  "interface_lengths": [25, 50, 100],
+  "interface_steps": 2,
+  "rollout_chunks": 2,
+  "rollout_steps": 32,
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "checkpoints": "output/bauer_first_loop/20260913_v1",
+  "raw_output": "tests/data/bauer_20260913_v2",
+  "analysis_output": "tests/results/checkpoint_diagnostics_20260913_v2",
+  "limitations": [
+    "Exact initial-state deduplication, first-occurrence order; equal real/generated count per family",
+    "Two distinct development initial families per temperature, sixteen noise samples each; exploratory not powered certification",
+    "Temperature intervention uses low-temperature initials for both temperatures; high-temperature intervention has no matched true reference",
+    "Legacy threshold and dwell remain exploratory",
+    "Variable shape and chunk continuity are software checks only",
+    "No retraining or new true LLG data; preserve v1 artifacts",
+    "Benchmark batch1 latency and batch32 throughput with CUDA synchronization, one warmup and five repeats"
+  ]
+}

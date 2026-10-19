@@ -1,6 +1,6 @@
 # 无外场 Gomonay 路径数据与文献复现补全：服务器 AI 执行方案
 
-> **2026-09-13适用范围更新**：本文保留历史任务和技术细节；当前零场路径主线按[研究与验收协议修订4](PUBLICATION_GRADE_RESEARCH_PROTOCOL_20260911.md#scope)执行。本文的Gomonay优先阶段、固定数据矩阵、五体系整体训练放行门及历史执行授权描述，不作为当前主线的顺序、规模、放行或启动依据。各文献原条件和既定容差由严格计划独立保留；实际生产仍须相关合同与证据。
+> **2026-09-14历史范围标记**：本文不是当前启动计划。当前主线按[研究与验收协议修订6](PUBLICATION_GRADE_RESEARCH_PROTOCOL_20260911.md#scope)、[方法实施细则](MULTISCALE_DYNAMICS_AND_DATA_PLAN.md)及[工作计划](WORK_PLAN.md)执行。Gomonay优先阶段、固定数据矩阵、五体系整体训练放行门及旧授权全部不作为当前执行依据。Bauer尺寸与时间推广已属于当前主线；原条件和既定文献容差仍保留，实际生产须有相关合同与证据。
 
 > 日期：2026-09-11；编写依据：main 的 a568204f9ea4d648b8db0b4628e1ca5bd8b1d837。
 > 交付对象：在服务器执行代码修改、Slurm 计算、数据认证与后续训练的 AI。
@@ -9,7 +9,7 @@
 
 ## 0. 执行范围、优先级与不可更改约束
 
-1. 本文件的主线执行优先级已由[研究与验收协议修订4](PUBLICATION_GRADE_RESEARCH_PROTOCOL_20260911.md#scope)取代；[严格文献计划](STRICT_LITERATURE_REPRODUCTION_PLAN.md)继续保留各文献原条件与容差。本文未被取代的技术细节仅在与当前合同一致时使用，不再宣称冲突时优先。
+1. 本文件的主线执行优先级已由[研究与验收协议修订6](PUBLICATION_GRADE_RESEARCH_PROTOCOL_20260911.md#scope)及[方法实施细则](MULTISCALE_DYNAMICS_AND_DATA_PLAN.md)取代；[严格文献计划](STRICT_LITERATURE_REPRODUCTION_PLAN.md)继续保留各文献原条件与容差。本文未被取代的技术细节仅在与当前合同一致时使用，不再宣称冲突时优先。
 2. 实际执行前读取最新代码、冻结配置、日志和报告，不因本文件的历史状态表而重做已完成且仍有效的工作。文献公式以正式原文及勘误为准，必须记录与旧 GUIDE 的差异。
 3. 新增 Gomonay/匹配 AFM 路径训练数据必须满足：Zeeman 外场为零、磁场梯度为零、SOT 为零、STT 为零、无电流驱动、无脉冲、无磁针。保留交换场、各向异性有效场及满足涨落耗散关系的热噪声。
 4. 原文复现任务独立保留原文要求的场、激励和电流：例如 Nishino 的静场、Gomonay 色散测量的 sinc 激励、Laliena 的横场和电流。它们属于 literature_validation，不得混入 zero_field_paths。不得为满足无场训练要求而删去原文必要项并声称复现成功。
@@ -37,10 +37,10 @@
 
 参考事实来源：
 
-- [最新 R2–R5 分析](../output/literature_reproduction/r2_r5_analysis_20260910/report.md)
-- [实现交接](../LITERATURE_IMPLEMENTATION_20260910.md)
-- [Nishino primary](../output/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957/report.md)
-- [Nishino 偏差接受记录](../output/literature_reproduction/nishino_miyashita_2015/20260909_8df33ac_bb48dc64/user_acceptance_20260910.json)
+- [历史 R2–R5 分析](../docs/reports/output/literature_reproduction/r2_r5_analysis_20260910/report.md)
+- [实现交接](../docs/reference/LITERATURE_IMPLEMENTATION_20260910.md)
+- [Nishino primary](../docs/reports/output/literature_reproduction/nishino_miyashita_2015/20260910_8df33ac_d30ae957/report.md)
+- [Nishino 偏差接受记录](../assets/literature_reproduction/nishino_miyashita_2015/experiments/figure1_validation/20260909_v1/analysis/user_acceptance_20260910.json)
 
 ## 2. 历史执行链和科学门（当前顺序已被替代）
 

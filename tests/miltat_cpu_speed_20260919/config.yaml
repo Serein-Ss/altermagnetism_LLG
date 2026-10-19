@@ -1,0 +1,13 @@
+purpose: throughput_only_not_physical_validation
+source: tests/literature_preflight_20260917/config.yaml
+system: miltat
+temperature_K: 25
+alpha: 0.5
+dt_fs: 2.5
+batch: 1
+threads: [1, 4, 8]
+warmup_steps: 10
+steps_per_repeat: 200
+repeats: 3
+save_every_steps: 40
+seed: 20260919

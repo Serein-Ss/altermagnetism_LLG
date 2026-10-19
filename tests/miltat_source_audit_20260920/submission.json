@@ -1,0 +1,27 @@
+{
+  "job": "670289",
+  "array_shapes": [
+    [
+      32,
+      18
+    ],
+    [
+      64,
+      38
+    ],
+    [
+      96,
+      56
+    ],
+    [
+      128,
+      74
+    ],
+    [
+      200,
+      116
+    ]
+  ],
+  "monitor": false,
+  "scope": "zero_temperature_boundary_control_not_training_data"
+}

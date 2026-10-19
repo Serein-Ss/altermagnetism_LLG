@@ -1,0 +1,191 @@
+[
+  {
+    "family": "interior_domain",
+    "tau": 0.1,
+    "angle": 0.7853981633974483,
+    "absolute_rms": 7.530898926688678e-08,
+    "relative_rms": 1.5529621564169554e-07
+  },
+  {
+    "family": "single_wall",
+    "tau": 0.1,
+    "angle": 0.7853981633974483,
+    "absolute_rms": 7.506827159886598e-08,
+    "relative_rms": 1.53059534875005e-07
+  },
+  {
+    "family": "tilted",
+    "tau": 0.1,
+    "angle": 0.7853981633974483,
+    "absolute_rms": 7.699667747829153e-08,
+    "relative_rms": 1.4304202081440827e-07
+  },
+  {
+    "family": "interior_domain",
+    "tau": 0.1,
+    "angle": 1.5707963267948966,
+    "absolute_rms": 6.885176162541029e-08,
+    "relative_rms": 1.4198063371688046e-07
+  },
+  {
+    "family": "single_wall",
+    "tau": 0.1,
+    "angle": 1.5707963267948966,
+    "absolute_rms": 6.992736700794921e-08,
+    "relative_rms": 1.4257755029266137e-07
+  },
+  {
+    "family": "tilted",
+    "tau": 0.1,
+    "angle": 1.5707963267948966,
+    "absolute_rms": 6.911947991738998e-08,
+    "relative_rms": 1.2840800939510556e-07
+  },
+  {
+    "family": "interior_domain",
+    "tau": 0.1,
+    "angle": 3.141592653589793,
+    "absolute_rms": 6.61987584749113e-08,
+    "relative_rms": 1.3650982135611566e-07
+  },
+  {
+    "family": "single_wall",
+    "tau": 0.1,
+    "angle": 3.141592653589793,
+    "absolute_rms": 6.702700972027742e-08,
+    "relative_rms": 1.366639022497899e-07
+  },
+  {
+    "family": "tilted",
+    "tau": 0.1,
+    "angle": 3.141592653589793,
+    "absolute_rms": 7.199652429790149e-08,
+    "relative_rms": 1.3375289252044732e-07
+  },
+  {
+    "family": "interior_domain",
+    "tau": 0.5,
+    "angle": 0.7853981633974483,
+    "absolute_rms": 7.077469632577049e-08,
+    "relative_rms": 1.688589970588897e-07
+  },
+  {
+    "family": "single_wall",
+    "tau": 0.5,
+    "angle": 0.7853981633974483,
+    "absolute_rms": 7.568590376649809e-08,
+    "relative_rms": 1.8360574028709093e-07
+  },
+  {
+    "family": "tilted",
+    "tau": 0.5,
+    "angle": 0.7853981633974483,
+    "absolute_rms": 7.303430038518854e-08,
+    "relative_rms": 1.5821001902054494e-07
+  },
+  {
+    "family": "interior_domain",
+    "tau": 0.5,
+    "angle": 1.5707963267948966,
+    "absolute_rms": 6.404513186453187e-08,
+    "relative_rms": 1.5280315274502105e-07
+  },
+  {
+    "family": "single_wall",
+    "tau": 0.5,
+    "angle": 1.5707963267948966,
+    "absolute_rms": 6.686772735520208e-08,
+    "relative_rms": 1.62213806949369e-07
+  },
+  {
+    "family": "tilted",
+    "tau": 0.5,
+    "angle": 1.5707963267948966,
+    "absolute_rms": 6.572360433665381e-08,
+    "relative_rms": 1.4237327717743874e-07
+  },
+  {
+    "family": "interior_domain",
+    "tau": 0.5,
+    "angle": 3.141592653589793,
+    "absolute_rms": 6.534048679895932e-08,
+    "relative_rms": 1.55893697055602e-07
+  },
+  {
+    "family": "single_wall",
+    "tau": 0.5,
+    "angle": 3.141592653589793,
+    "absolute_rms": 6.635936955490251e-08,
+    "relative_rms": 1.609805864207131e-07
+  },
+  {
+    "family": "tilted",
+    "tau": 0.5,
+    "angle": 3.141592653589793,
+    "absolute_rms": 6.644319938686749e-08,
+    "relative_rms": 1.4393209469168831e-07
+  },
+  {
+    "family": "interior_domain",
+    "tau": 0.9,
+    "angle": 0.7853981633974483,
+    "absolute_rms": 4.76806896188009e-08,
+    "relative_rms": 1.338604247097898e-07
+  },
+  {
+    "family": "single_wall",
+    "tau": 0.9,
+    "angle": 0.7853981633974483,
+    "absolute_rms": 4.4611855543053025e-08,
+    "relative_rms": 1.3574831727305104e-07
+  },
+  {
+    "family": "tilted",
+    "tau": 0.9,
+    "angle": 0.7853981633974483,
+    "absolute_rms": 4.4885503314162634e-08,
+    "relative_rms": 1.1628941338812841e-07
+  },
+  {
+    "family": "interior_domain",
+    "tau": 0.9,
+    "angle": 1.5707963267948966,
+    "absolute_rms": 4.0959147185049005e-08,
+    "relative_rms": 1.1499013294009769e-07
+  },
+  {
+    "family": "single_wall",
+    "tau": 0.9,
+    "angle": 1.5707963267948966,
+    "absolute_rms": 3.826614047852672e-08,
+    "relative_rms": 1.1643909707994843e-07
+  },
+  {
+    "family": "tilted",
+    "tau": 0.9,
+    "angle": 1.5707963267948966,
+    "absolute_rms": 4.1128828343062196e-08,
+    "relative_rms": 1.0655661557094781e-07
+  },
+  {
+    "family": "interior_domain",
+    "tau": 0.9,
+    "angle": 3.141592653589793,
+    "absolute_rms": 3.976149542950225e-08,
+    "relative_rms": 1.116278037889543e-07
+  },
+  {
+    "family": "single_wall",
+    "tau": 0.9,
+    "angle": 3.141592653589793,
+    "absolute_rms": 3.781813617820262e-08,
+    "relative_rms": 1.1507587582049204e-07
+  },
+  {
+    "family": "tilted",
+    "tau": 0.9,
+    "angle": 3.141592653589793,
+    "absolute_rms": 4.114495055773659e-08,
+    "relative_rms": 1.0659838502318902e-07
+  }
+]

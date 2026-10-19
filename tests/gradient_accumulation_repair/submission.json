@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-30",
+  "job_name": "zrs-mag",
+  "gpu": {"job_id": "671312", "array": "0-8", "partition": "rtx4090", "estimated_hours_per_task": [2, 4], "time_limit_hours": 6},
+  "statistics": {"job_id": "671321", "array": "0-8", "partition": "fat", "dependency": "aftercorr:671312", "estimated_minutes_per_task": [3, 6]},
+  "web": {"job_id": "671330", "partition": "fat", "dependency": "afterok:671321", "estimated_minutes": [1, 3]},
+  "task_mapping": [
+    [0,11,"batch1"], [1,11,"acc8_equal_data"], [2,11,"acc8_equal_updates"],
+    [3,22,"batch1"], [4,22,"acc8_equal_data"], [5,22,"acc8_equal_updates"],
+    [6,33,"batch1"], [7,33,"acc8_equal_data"], [8,33,"acc8_equal_updates"]
+  ],
+  "budgets": {
+    "batch1": {"optimizer_updates":6000,"microbatches":6000},
+    "acc8_equal_data": {"optimizer_updates":750,"microbatches":6000},
+    "acc8_equal_updates": {"optimizer_updates":6000,"microbatches":48000}
+  },
+  "submission_accepted": true,
+  "completion_not_checked": true,
+  "monitoring": "Stopped after scheduler acceptance; user will notify after completion.",
+  "outputs_after_success": {
+    "models_and_paths": "tests/gradient_accumulation_repair/train/00..08/",
+    "web": "tests/gradient_accumulation_repair/assets/index.html",
+    "main_page": "tests/index.html#gradient-accumulation-repair"
+  },
+  "no_new_LLG_data": true,
+  "no_production_promotion": true,
+  "no_remote_push": true,
+  "physical_repair_validated": false
+}

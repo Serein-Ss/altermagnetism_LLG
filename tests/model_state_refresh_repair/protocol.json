@@ -1,0 +1,34 @@
+{
+  "question": "Does refreshing model-visited-state replay after a supported first intervention improve calibration at current rollout states and independently improve DEV/full1ps, versus continuing stale-state replay?",
+  "evidence": {
+    "prior_all_jobs_completed": true,
+    "prior_model_replay_vs_stale_real_control": {
+      "full_incvar": [
+        0.03283892,
+        0.03682994
+      ],
+      "full_two_time": [
+        0.02257138,
+        0.02359363
+      ],
+      "visited_increment_mean": [
+        0.05813169,
+        0.0711827
+      ]
+    },
+    "remaining": "DEV conditional mean .07356681 and full1ps two-time .02257138 remain biased; modest average improvements are not certification.",
+    "stale_vs_current_snapshot_mean_angle_rad": 0.17932323426025398,
+    "maximum_state_mean_angle_rad": 0.928319244174065,
+    "finite_bank_diagnostic": "Generated mean is almost equally far from64TRAIN mean and128fine mean at old model states (.05730488/.05813169), not strong evidence that simply more teacher branches removes remaining bias."
+  },
+  "source": "Previous model_state_replay_repair model_replay checkpoints1/3/5 step78144. Canonical seed11 branch0 TRAIN-only snapshots at .3/.8ps from seen parentpaths; no best-seed or outcome selection.",
+  "data": "48states24TRAINsources same parent groups;64TRAIN dt.25fs +128probe dt.25fs +128fine dt.125fs perstate;all futures0.1ps,total15360. Fresh1980000000 seeded streams disjoint from known physical seeds. DEV nottrained; frozen old banks retained.",
+  "arms": "3seeds x stale_replay/refreshed_replay. Both50%realTRAINstates/50%modelTRAINstates in balanced groups. stale uses old72144statebank,refresh uses current78144statebank+freshLLGlabels. Joint state+label refresh intervention; not uniquely identifies state versus target-resampling effects.",
+  "training": "Same nativebatch8+three identical-state groups16branches, empiricalteacher64<=tau.9/sampleCFM>.9,uniformtau,axialaugmentation. Same initial weights,newAdamW,6000updates,200warmup peak3e-4 cosine9e-6. Fixed final step84144;matched RNG/native/schedule/group inputs. No loss,architecture or physical-grid change.",
+  "freeze": "data.prepare freezes source/scripts/protocol/states; audit freezes all generatedrole HDF5 hashes and validates exact initial,config,time,seeds,norm. run.verify checks both locks before evaluation. TRAINloader admits only complete TRAINrole metadata. Smoke first2states fromoneTRAINsource (all formal48onlyafteraudit).",
+  "evaluation": "Before/after eachmodel currentmodelstates64generatedfutures midpoint128,newindependentprobe/fine128;formal also18DEV128full1ps128/512,24seen64,72realDEVintermediate128,48realTRAINintermediate64. All paths saved. Separate short calibration,unoptimized space/time statistics and full1ps regressions, perseed/L/family. Before checkpoint formal cached DEVbaseline.",
+  "statistics": "100whole independentbranch bootstrap percondition, sampling/model/ref error; sharedparent snapshots correlated, seed aggregates descriptive not CI. ReusedDEV development only, no final certification. No automatic event/tolerance gates. Refinement offlow notextension ofphysical time.",
+  "runtime": "fat reference firstparent20-30s compute plus startup,23remaining similar;GPU smoke1-3min each;6formalGPU about2h each basedlatest1h53-1h57 measuredtasks.4h allocations. Fatstats4-6min,web<2min. Queue excluded. AllGPU rtx4090 zrs-mag. Stopmonitoring after formalacceptance.",
+  "skills": "karpathy-guidelines surgical isolated code; experimental-design seeded matched training runs, source-group replication and concurrent control (local skill provenance; no novelty claim).",
+  "scope": "tests/model_state_refresh_repair only; no productionpromotion, deletion, remote push or time/size-transfer certification."
+}

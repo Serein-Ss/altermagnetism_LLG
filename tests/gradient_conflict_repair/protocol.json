@@ -1,0 +1,79 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "sum",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "project",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "rescale",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "sum",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "project",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "rescale",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "sum",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "project",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "rescale",
+      "updates": 6000
+    }
+  ],
+  "question": "Do native and restart FM gradients conflict, and does removing the conflicting component improve independent dynamics rather than only changing effective weight?",
+  "source": "Each seed starts latest balanced_replay sparse_iid step24000 with retained Adam and native RNG. No architecture, data, physics, time-grid or reference changes.",
+  "audit": "Freeze all weights;128paired TRAIN minibatches for each3seed. Native window batch8 plus all48restartstates one random TRAIN branch each. Report gradient dot,cosine,norm,projection fraction and successive same-objective batch gradient cosines as stochastic-gradient baseline. Negative dot alone does not establish harmful physical interference.",
+  "arms": "6000updates at cosine3e-5->3e-6. Every arm same native batch and dense balanced restart batch. sum=g_native+g_restart; project=g_native+g_restart-min(dot,0)/norm_native_squared*g_native; rescale=g_native+ratio*g_restart,ratio=norm(projected_restart)/norm(restart). Equal-norm sham distinguishes direction from magnitude at a given gradient pair; after models diverge their ratios need not match.",
+  "limitations": "One-sided Euclidean projection on raw parameter gradients, not a proof of descent under Adam,momentum,clipping or finite steps. Record actual update dot native/restart gradient. No guarantee that improved FM losses repair conditional physics. Do not describe projection as a new magnetic architecture or automatically activate production.",
+  "pairing": "Restore data/refill/pair/source/tau/cut streams, common independent extra RNG. All3arms must have identical native schedule/input hashes and extra generator hashes. Same6000updates and batches, measured compute. Native supervision remains present every update. Probe/fine/dev never train.",
+  "physics": "Bauer open chain,J50meV,kappa.1,alpha.1,theta.11,T63.824849668K; lag.1ps and1ps10step composition. Midpoint128/512 same physical grid and source. ActualS0anchored,unitnorm. No new LLG data.",
+  "evaluation": "Reuse full frozen evaluator:48TRAIN-origin states64generated/probe128/fine128,18dev128paths1ps midpoint128/512,24oldseen64paths,72dev intermediate128futures. Before source after_restart reused with matched latent seeds. Fixed final30000 checkpoint. Means,covariance,variance,energy,spatial and temporal statistics,family,size and time strata; save all generated trajectories.",
+  "uncertainty": "Fixed-parent whole-branch bootstrap100;both sample sets vary. Cross-state averages descriptive;24sourcegroups underlying48states are correlated. Three seed variation separately. Dev repeatedly reused,not finalholdout. No invented equivalence band or certification.",
+  "decisions": "Audit first, then run controlled repair if conflicts occur consistently across seeds; this is a diagnostic selection, not a physical pass/fail threshold. If projection equals rescaling gains, direction mechanism unsupported. If loss improves without independent path improvement, optimization conflict is not sufficient explanation.",
+  "budget": "Audit3GPUjobs estimated1-3min;smoke3GPUjobs1-3min;formal9rtx4090jobs2-3h each,9fat stats3-6min,web<3min. After formal submission no monitoring.",
+  "skills": "karpathy-guidelines isolated tests-only edits;experimental-design paired controls and sham comparison. No automatic production promotion or remote push."
+}

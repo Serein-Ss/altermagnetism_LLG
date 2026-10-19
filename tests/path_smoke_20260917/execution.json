@@ -1,0 +1,13 @@
+{
+  "data_generation_array": 670073,
+  "data_generation_tasks": {"bauer": "670073_0", "miltat": "670073_1", "hirst": "670073_2"},
+  "model_smoke_array": 670077,
+  "model_smoke_tasks": {"bauer": "670077_0", "miltat": "670077_1", "hirst": "670077_2"},
+  "scheduler_status": "all_six_tasks_COMPLETED_exit_0",
+  "requested_partition": "rtx4090",
+  "actual_smoke_gpu": "NVIDIA GeForce RTX 3090",
+  "note": "The rtx4090 partition assigned RTX 3090 GPUs. SLURM_JOB_ID in each summary is the scheduler's individual array-element job ID.",
+  "scope": "software_smoke_only_no_training_dataset_release",
+  "physical_certification": "NOT_CERTIFIED",
+  "no_production_code_modified": true
+}

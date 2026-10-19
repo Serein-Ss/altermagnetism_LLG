@@ -1,0 +1,13 @@
+{
+  "train_seconds": 11.821886658668518,
+  "steps": 30,
+  "seconds_per_update": 0.39406288862228395,
+  "evaluation_seconds": 1.0731471255421638,
+  "parents": 3,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "peak_cuda_bytes": 84943360,
+  "loss_initial": 2.990330696105957,
+  "loss_last": 1.5612072944641113,
+  "estimated_train_eval_seconds": 3807.3407491073012,
+  "status": "SOFTWARE_SMOKE_ONLY_NOT_TRAINED_DYNAMICS"
+}

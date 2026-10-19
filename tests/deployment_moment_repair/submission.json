@@ -1,0 +1,61 @@
+{
+  "preflight": {
+    "tests": 11,
+    "passed": true,
+    "gpu": 671892,
+    "statistics": 671895,
+    "web": 671896,
+    "all_completed_exit0": true,
+    "gpu_elapsed_seconds": [
+      69,
+      120,
+      120
+    ],
+    "pairing_errors": [],
+    "auxiliary_max_gradient": {
+      "control": 0,
+      "moments_0p1": 0.2615412175655365,
+      "moments_0p5": 1.5475395917892456
+    },
+    "norm_error_max": 1.1920928955078125e-7,
+    "scope": "Software smoke:16updates,actual64branches128samplersteps for4auxiliarycalls;lowstep4branch physicalreport cannot certify accuracy."
+  },
+  "formal": {
+    "gpu": {
+      "job": 671899,
+      "array": "0-8",
+      "seeds": [
+        11,
+        22,
+        33
+      ],
+      "arms": [
+        "control",
+        "moments_0p1",
+        "moments_0p5"
+      ],
+      "updates": 6000,
+      "partition": "rtx4090",
+      "estimated_hours_per_task": [
+        2,
+        4
+      ],
+      "allocation_hours": 5
+    },
+    "statistics": {
+      "job": 671908,
+      "array": "0-8",
+      "dependency": 671899
+    },
+    "web": {
+      "job": 671909,
+      "dependency": 671908
+    }
+  },
+  "all_jobs_accepted": true,
+  "job_name": "zrs-mag",
+  "monitoring": "Stopped after formal acceptance; no continued monitoring.",
+  "result_page": "tests/deployment_moment_repair/assets/index.html",
+  "main_page": "tests/index.html#deployment-moment-repair",
+  "status": "New auxiliary loss comparison submitted; no physicalrepair certification, no productionpromotion."
+}

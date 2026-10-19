@@ -1,0 +1,14 @@
+{
+  "selection_seed": 996000000,
+  "schedule_seed": 996001000,
+  "noise_base": 1300000000,
+  "latent_base": 1400000000,
+  "frames": [20, 40],
+  "parent_paths": 2,
+  "paths": 1024,
+  "lag": 0.01,
+  "flow_steps": 32,
+  "generation_batch": 64,
+  "cases": [{"method": "mt", "dt": 0.0025}, {"method": "mt", "dt": 0.00125}, {"method": "heun", "dt": 0.00125}],
+  "scope": "Exploratory conditional restart from actual LLG states. All 12 conditions, original state plus two preselected parent paths at .2 and .4. Fixed 24000-update models; no fitting. 1024 repeats chosen for a fourfold sample count over prior validation, not power-sized. Whole fresh-noise paths are units within each fixed state; states share parent families and trajectories. Primary reference fine MT; coarse MT and Heun numerical controls. Analyze conditional mean, variance, neighbor and full covariance; no automatic certification."
+}

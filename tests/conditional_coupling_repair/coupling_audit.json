@@ -1,0 +1,74 @@
+{
+  "rows": [
+    {
+      "random_cost": 0.9603759713005585,
+      "assignment_cost": 0.8127741613687292
+    },
+    {
+      "random_cost": 1.0732315799015122,
+      "assignment_cost": 0.8955008396224741
+    },
+    {
+      "random_cost": 1.2197164108430678,
+      "assignment_cost": 1.0402800329811428
+    },
+    {
+      "random_cost": 0.9675287915950538,
+      "assignment_cost": 0.8113687029884896
+    },
+    {
+      "random_cost": 0.9770487610091164,
+      "assignment_cost": 0.8057380807573433
+    },
+    {
+      "random_cost": 1.1634564388176862,
+      "assignment_cost": 0.9875884380500569
+    },
+    {
+      "random_cost": 1.0256249962792927,
+      "assignment_cost": 0.8643840774373355
+    },
+    {
+      "random_cost": 1.0199043444774856,
+      "assignment_cost": 0.8579454644611632
+    },
+    {
+      "random_cost": 0.9311959531611396,
+      "assignment_cost": 0.7847739750639219
+    },
+    {
+      "random_cost": 1.010035441341923,
+      "assignment_cost": 0.8437055204317175
+    },
+    {
+      "random_cost": 0.9887266819848611,
+      "assignment_cost": 0.8194246265589857
+    },
+    {
+      "random_cost": 0.9108086602582742,
+      "assignment_cost": 0.746114565791113
+    },
+    {
+      "random_cost": 1.0025401846646478,
+      "assignment_cost": 0.8144669608291181
+    },
+    {
+      "random_cost": 0.9881456722253518,
+      "assignment_cost": 0.8338349667704312
+    },
+    {
+      "random_cost": 1.0125475141411446,
+      "assignment_cost": 0.876388873096429
+    },
+    {
+      "random_cost": 1.0948232456870908,
+      "assignment_cost": 0.9367659090769388
+    }
+  ],
+  "mean_random_cost": 1.021606915480513,
+  "mean_assignment_cost": 0.8581909497053368,
+  "fixed_conditioning_states": 48,
+  "source_parents": 24,
+  "training_only": true,
+  "physical_certification": false
+}

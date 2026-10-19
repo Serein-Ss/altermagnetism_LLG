@@ -1,0 +1,20 @@
+{
+  "best_dev_score": 1.3474118436095164,
+  "seconds": 360.76177318766713,
+  "heldout_test_used": false,
+  "scientific_certification": false,
+  "training_shapes": [
+    [
+      64,
+      38
+    ],
+    [
+      96,
+      56
+    ],
+    [
+      128,
+      74
+    ]
+  ]
+}

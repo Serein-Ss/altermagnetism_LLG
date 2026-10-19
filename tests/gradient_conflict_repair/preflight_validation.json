@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-30",
+  "environment": "zrs-mag",
+  "unit_regression_tests": 22,
+  "unit_regression_passed": true,
+  "unit_command": "bash ../run_zrs_mag.sh -m unittest tests.gradient_conflict_repair.test_contract tests.balanced_replay_repair.test_contract tests.training_restart_repair.test_contract tests.transition_block_repair.test_contract",
+  "completed_jobs": {
+    "frozen_128_batch_audit": "671277_[0,3,6]",
+    "repair_software_smoke": "671280_[0-2]",
+    "smoke_statistics": "671283_[0-2]",
+    "smoke_web": "671288",
+    "mean_gradient_128_batch_audit": "671291_[0-2]",
+    "extended_code_32_batch_smoke": "671297_[0-2]",
+    "extended_report_smoke": "671300"
+  },
+  "all_completed_exit_zero": true,
+  "paired_native_and_extra_streams": true,
+  "maximum_smoke_norm_error": 1.1920928955078125e-7,
+  "maximum_smoke_initial_frame_error": 0.0,
+  "frozen_audit_seed_order": [11, 22, 33],
+  "minibatch_conflict_counts_of_128": [58, 58, 65],
+  "mean_gradient_cosines_128_batches": [-0.13283476167035035, -0.14334520070556359, 0.15747476182564765],
+  "interpretation": "No stable systematic interference established. Same-objective batch noise also frequently gives negative cosine. Do not equate this diagnostic with an identified cause of physical bias.",
+  "decision": "Preserve tested sum/project/rescale candidates but defer nine formal repair trainings. Submit three8192batch frozen audits plus report first, to improve gradient direction estimates without changing weights.",
+  "gradient_cache_estimated_GiB": 5.1777801513671875,
+  "png_visually_checked": true,
+  "scientific_certification": false,
+  "skill_influence": "Karpathy tests-only surgical edits; experimental-design paired and norm-matched controls with stochastic-gradient baseline; matplotlib PNG diagnostic panels."
+}

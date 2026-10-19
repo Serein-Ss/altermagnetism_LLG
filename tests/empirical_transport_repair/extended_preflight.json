@@ -1,0 +1,6 @@
+{
+  "supervision_inputs_paired": true,
+  "oracle_targets_supported": true,
+  "resampling_interface_pass": true,
+  "scientific_certification": false
+}

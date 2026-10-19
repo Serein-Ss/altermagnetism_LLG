@@ -1,0 +1,17 @@
+{
+  "experiment": "paired auxiliary frequency versus scalar coefficient budget",
+  "seeds": [11,22,33],
+  "updates": 2048,
+  "source": "spatial_covariance_repair control126144 for each seed",
+  "arms": {"sparse64": [64,0.1], "dense8_same_mass": [8,0.0125], "dense8_strong": [8,0.1]},
+  "ramp": "constant within each 64-step block; min(block endpoint/1000,1)",
+  "paired_inputs": "all arms consume auxiliary selection and latent streams every 8 updates; skip computation only",
+  "training": "native FM + 0.25 empirical teacher + local and spatial moment auxiliary; identical Adam reset and rate",
+  "physical_task": "Bauer open chain theta0.11, trained L16/25/32; 0.1ps conditional and 1ps composed paths",
+  "selection": "diagnostic comparison only; no automatic checkpoint selection or promotion",
+  "evaluation": "reuse frozen independent development metrics, numerical reference and uncertainty conventions",
+  "constraints": "no added Hamiltonian input, no data generation, no boundary change, no physical time relabel",
+  "estimated_gpu_hours_per_run": [3,5.5],
+  "estimated_statistics_minutes_per_run": [3,10],
+  "scientific_certification": false
+}

@@ -1,0 +1,30 @@
+{
+  "unit_tests_passed": 11,
+  "smoke_gpu": "671660_0-1",
+  "smoke_statistics": "671662_0-1",
+  "smoke_web": 671663,
+  "all_completed_exit_zero": true,
+  "missing": [],
+  "paired_errors": [],
+  "initial_hashes_differ": true,
+  "optimizer_steps_both": [
+    [
+      16
+    ]
+  ],
+  "warm_model_step": 60160,
+  "fresh_model_step": 16,
+  "max_norm_error": 1.1920928955078125e-7,
+  "max_anchor_error": 0,
+  "warm_empirical_risk_before_after": [
+    0.3419066146016121,
+    0.35383007070049644
+  ],
+  "fresh_empirical_risk_before_after": [
+    0.9029066264629364,
+    0.7535034120082855
+  ],
+  "learning_curve_checked": true,
+  "interpretation": "software smoke only;no physical certification from16updates orTRAINrisk",
+  "scientific_certification": false
+}

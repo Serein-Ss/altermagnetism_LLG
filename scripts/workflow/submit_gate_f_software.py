@@ -15,8 +15,8 @@ FILES = [
     'scripts/validation/gate_f_contract.py', 'scripts/validation/zero_field_certificates.py',
     'scripts/validation/run_gate_f_software.py', 'scripts/datasets/gate_f_paths.py',
     'scripts/analysis/gate_f_metrics.py', 'scripts/training/train_gate_f.py',
-    'scripts/inference/sample_gate_f.py', 'scripts/tests/test_gate_f.py',
-    'scripts/tests/conftest.py', 'conf/research/experiments/gate_f/draft.yaml', 'slurm/gate_f_software.sbatch',
+    'scripts/inference/sample_gate_f.py', 'tests/unit/test_gate_f.py',
+    'tests/unit/conftest.py', 'conf/research/experiments/gate_f/draft.yaml', 'slurm/gate_f_software.sbatch',
     'scripts/workflow/submit_gate_f_software.py',
 ]
 

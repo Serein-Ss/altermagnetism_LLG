@@ -1,0 +1,159 @@
+{
+  "approved_for_generation": true,
+  "scientific_certification": false,
+  "config_sha256": "a87d9e266617209eeabaf81f6129e65c8b9b3df8c0b1266aba7fbfb2d9a2497c",
+  "layout_sha256": "05ec7d21c8f1841ce6452b93ed616d4ddab6cebe86a198550260757b7666de3b",
+  "source_sha256": "a43705c10eadf7a9c94533fd50c525335c5135094c0ba6758d97ee5bc398a5c4",
+  "step_evidence": [
+    {
+      "branch": 0,
+      "source": "tests/miltat_refinement_20260920/data/branch_0",
+      "max_energy_difference_vs0625_J": 0.00017752269887205685,
+      "final_energy_difference_vs0625_J": 0.00013725875560099965,
+      "final_spin_rmse_vs0625": 0.0025065748095267474,
+      "metrics_sha256": "54f205c2f0dd69072af437dc427d24f879d447503f97c460a9f604294c914f7d"
+    },
+    {
+      "branch": 1,
+      "source": "tests/miltat_refinement_20260920/data/branch_1",
+      "max_energy_difference_vs0625_J": 0.00017003107560409347,
+      "final_energy_difference_vs0625_J": 0.0001428660960134387,
+      "final_spin_rmse_vs0625": 0.002497038277639335,
+      "metrics_sha256": "e88e3dfc5612e121a9ef284c5e8eb42a30c8c037d7b96b520dc60abfca84b2d7"
+    },
+    {
+      "branch": 2,
+      "source": "tests/miltat_refinement_20260920/data/branch_2",
+      "max_energy_difference_vs0625_J": 0.00017223653966658148,
+      "final_energy_difference_vs0625_J": 0.00016141638294708827,
+      "final_spin_rmse_vs0625": 0.0025144551209535008,
+      "metrics_sha256": "5c32f77a16eb969436c5e3c4e87407f4f9b225de35e2fc44b3e2ea40ab18d647"
+    },
+    {
+      "branch": 3,
+      "source": "tests/miltat_refinement_20260920/data/branch_3",
+      "max_energy_difference_vs0625_J": 0.00017231992973210097,
+      "final_energy_difference_vs0625_J": 0.00015964756541775316,
+      "final_spin_rmse_vs0625": 0.0024939835281054105,
+      "metrics_sha256": "d0b441d26406f721b4eaa5b91eeed209ad2fa58b429fee94eee110dc7a3e69e7"
+    }
+  ],
+  "boundary_evidence": [
+    {
+      "shape": [
+        32,
+        18
+      ],
+      "final": {
+        "time_ps": 50.0,
+        "Q": 0.045354949465943144,
+        "ambiguous_faces": 0,
+        "max_face_solid_angle": 0.0008513547136212022,
+        "stored_norm_error": 2.220446049250313e-16,
+        "core_sites": 1152,
+        "core_area_radius_nm": 4.4729118616970025,
+        "energy_per_spin": -2.8959472534029462,
+        "torque_rms": 3.141124928107057e-09,
+        "torque_max": 5.701409912850127e-09,
+        "warning": "core area includes all sz>=0.5 sites, inspect texture for disconnected components"
+      },
+      "source": "tests/miltat_source_audit_20260920/relaxation/size_0/metrics.json",
+      "sha256": "86dc57fc64d5d01298433478f14f02b85a7ce2aef15177a32a8a24ff060d6211"
+    },
+    {
+      "shape": [
+        64,
+        38
+      ],
+      "final": {
+        "time_ps": 50.0,
+        "Q": 0.9541743450492808,
+        "ambiguous_faces": 0,
+        "max_face_solid_angle": 0.03398707796645912,
+        "stored_norm_error": 2.220446049250313e-16,
+        "core_sites": 55,
+        "core_area_radius_nm": 0.9773394870068837,
+        "energy_per_spin": -2.951036418800031,
+        "torque_rms": 3.097994767878473e-05,
+        "torque_max": 0.00026203050856155605,
+        "warning": "core area includes all sz>=0.5 sites, inspect texture for disconnected components"
+      },
+      "source": "tests/miltat_source_audit_20260920/relaxation/size_1/metrics.json",
+      "sha256": "35ad9f2e9ebc20c0e232381ac36ba9d63f1923a5896013d971185b318e385fd9"
+    },
+    {
+      "shape": [
+        96,
+        56
+      ],
+      "final": {
+        "time_ps": 50.0,
+        "Q": 0.9482630433841527,
+        "ambiguous_faces": 0,
+        "max_face_solid_angle": 0.014733172588092402,
+        "stored_norm_error": 2.220446049250313e-16,
+        "core_sites": 112,
+        "core_area_radius_nm": 1.3946753089756143,
+        "energy_per_spin": -2.9715643729931034,
+        "torque_rms": 9.135252527479825e-06,
+        "torque_max": 7.933235861798514e-05,
+        "warning": "core area includes all sz>=0.5 sites, inspect texture for disconnected components"
+      },
+      "source": "tests/miltat_source_audit_20260920/relaxation/size_2/metrics.json",
+      "sha256": "b25df7790ce171edbadc7ce71fbd87c76665bae27af4413e64bac9201e14f31f"
+    },
+    {
+      "shape": [
+        128,
+        74
+      ],
+      "final": {
+        "time_ps": 50.0,
+        "Q": 0.9474137577622237,
+        "ambiguous_faces": 0,
+        "max_face_solid_angle": 0.011574322783588746,
+        "stored_norm_error": 2.220446049250313e-16,
+        "core_sites": 139,
+        "core_area_radius_nm": 1.5537155099832618,
+        "energy_per_spin": -2.9815879483093797,
+        "torque_rms": 1.675036656591787e-06,
+        "torque_max": 1.859039654212337e-05,
+        "warning": "core area includes all sz>=0.5 sites, inspect texture for disconnected components"
+      },
+      "source": "tests/miltat_source_audit_20260920/relaxation/size_3/metrics.json",
+      "sha256": "abc0c5ab6afdbdfd485307c280dd19708e4800372275a8e38fec08613d1c8369"
+    },
+    {
+      "shape": [
+        200,
+        116
+      ],
+      "final": {
+        "time_ps": 50.0,
+        "Q": 0.9473088053400532,
+        "ambiguous_faces": 0,
+        "max_face_solid_angle": 0.010801811121255405,
+        "stored_norm_error": 2.220446049250313e-16,
+        "core_sites": 150,
+        "core_area_radius_nm": 1.6140230421326467,
+        "energy_per_spin": -2.9923866929304164,
+        "torque_rms": 9.853087040091417e-08,
+        "torque_max": 1.3413050502341539e-06,
+        "warning": "core area includes all sz>=0.5 sites, inspect texture for disconnected components"
+      },
+      "source": "tests/miltat_source_audit_20260920/relaxation/size_4/metrics.json",
+      "sha256": "285af5d3a283fc0f38b6506c2bfdc21df87d494412bf559aff0ce0b9655d4076"
+    }
+  ],
+  "decision": "Explicit engineering release for the frozen first short-path small-size library; NOT a retrospective equivalence test.",
+  "required_next_gate": "New deterministic cold preparation must preserve an isolated positive core for all selected sizes.",
+  "limitations": [
+    "Single temperature and preparation protocol; not an equilibrium or comprehensive state library.",
+    "Finite-size changes in core size are retained, not tuned away.",
+    "Gamma is a documented conventional value; no material-specific gamma measurement is asserted.",
+    "DMI convention explicit; no independently verified 2018 in-plane chirality claim.",
+    "Four coupled branches from one parent provide only bounded short-time numerical evidence.",
+    "Keep all stochastic outcomes, including core loss; final data review still required.",
+    "No long-time diffusion coefficient or model size-generalization certification."
+  ]
+}

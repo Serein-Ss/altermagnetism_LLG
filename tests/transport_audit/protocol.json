@@ -1,0 +1,93 @@
+{
+  "tasks": [
+    {
+      "old_index": 1,
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "old_index": 3,
+      "domain": "toy",
+      "arm": "dense",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "exact"
+    },
+    {
+      "old_index": 5,
+      "domain": "toy",
+      "arm": "dense",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "exact"
+    },
+    {
+      "old_index": 6,
+      "domain": "toy",
+      "arm": "dense",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "exact"
+    },
+    {
+      "old_index": 7,
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "old_index": 12,
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "updates": 6000,
+      "supervision": "fm"
+    },
+    {
+      "old_index": 13,
+      "domain": "toy",
+      "arm": "hierarchical",
+      "seed": 11,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "old_index": 22,
+      "domain": "toy",
+      "arm": "hierarchical",
+      "seed": 33,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    },
+    {
+      "old_index": 28,
+      "domain": "toy",
+      "arm": "hierarchical",
+      "seed": 22,
+      "updates": 12000,
+      "modes": 2,
+      "supervision": "fm"
+    }
+  ],
+  "training": "none; frozen checkpoints only",
+  "toy": "256 fresh sources per each of first4 fixed dev parents; theory probability0.5; Wilson intervals per parent. Restart only first parent, inference-only diagnostic using true mixture.",
+  "bauer": "128 fresh generated branches, 16 references, L16 first parent per preparation family. Half/final checkpoints and same sources for solvers.",
+  "numerical": "Euler128/512 versus normalized ambient midpoint256 (512 network calls); actual physical time unchanged",
+  "claims": "Exploratory attribution, no equivalence thresholds, no event gates, no scientific certification",
+  "decisions": [
+    "Bias unchanged with independent larger source draws supports model bias, not finite reference imbalance",
+    "Restart-time sensitivity localizes transport accumulation but is not an inference improvement",
+    "Solver disagreement requires numerical investigation before architecture change",
+    "Checkpoint change distinguishes progress/metric trade-offs; no new best-checkpoint claim"
+  ]
+}

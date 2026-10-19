@@ -1,0 +1,39 @@
+{
+  "previous_campaign": "model_state_coverage_repair",
+  "all_previous_jobs_completed": true,
+  "evidence": {
+    "real_llg_state": {
+      "increment_mean_RMSE": 0.048835572114024346,
+      "increment_cov_RMSE": 0.010982364418259295,
+      "signed_variance_bias": 0.009336790344822071,
+      "energy_mean_RMSE": 0.004207481447938281
+    },
+    "model_visited_state_midpoint128": {
+      "increment_mean_RMSE": 0.07275829879418912,
+      "increment_cov_RMSE": 0.011688126838820317,
+      "signed_variance_bias": 0.009816175711712442,
+      "energy_mean_RMSE": 0.0037283708246651365
+    },
+    "model_visited_state_midpoint512": {
+      "increment_mean_RMSE": 0.0727582997613075,
+      "increment_cov_RMSE": 0.011688035715777943,
+      "signed_variance_bias": 0.00981517909030264,
+      "energy_mean_RMSE": 0.0037283372156219313
+    },
+    "interior_domain_mean_RMSE": {
+      "real": 0.050108305211066156,
+      "model": 0.08899922667652015
+    },
+    "data_audit": {
+      "states": 48,
+      "source_groups": 24,
+      "total_futures": 15360,
+      "train_futures": 3072,
+      "probe_fine": 12288,
+      "passed": true
+    }
+  },
+  "interpretation": "Model increment mean error increases at its visited states, most strongly interior_domain; covariance grows only mildly and energy error is lower, so not uniform collapse. Near-identical128/512 results disfavor sampling truncation as main error source. Different initial-state populations and finite branch sampling prevent unique causal attribution.",
+  "repair": "Paired fixed-budget continuation: original real states versus half model-visited states labeled by independent LLG. Preserve native objective, architecture and physical grid. Judge independentDEV and1ps regressions separately from trained-state calibration.",
+  "status": "Diagnosis recorded; targeted repair training not yet physically validated."
+}

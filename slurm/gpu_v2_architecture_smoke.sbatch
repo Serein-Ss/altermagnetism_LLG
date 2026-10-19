@@ -16,7 +16,7 @@ export OPENBLAS_NUM_THREADS=1
 unset PYTHONPATH PYTHONHOME
 
 INPUT=altermagnetism_LLG/data/research/datasets/standard_v2_extended_2ps/train/d_wave_altermagnet_L16.h5
-OUT=altermagnetism_LLG/output/smoke/gpu_smoke_v2
+OUT=altermagnetism_LLG/tests/output/smoke/gpu_smoke_v2
 
 bash run_zrs_mag.sh -c 'import torch; assert torch.cuda.is_available(); print(torch.cuda.get_device_name(0))'
 for MODEL in deterministic flow; do

@@ -1,0 +1,18 @@
+{
+  "gpu_array":"671563_0-5",
+  "statistics_array":"671569_0-5",
+  "statistics_dependency":"afterok:671563",
+  "web_aggregate":"671570",
+  "web_dependency":"afterok:671569",
+  "job_name":"zrs-mag",
+  "partition":"rtx4090",
+  "mapping":"index=2*seed_index+arm_index;seeds[11,22,33];arms[sampled,conditional]",
+  "estimated_hours_each":[2,3],
+  "allocation_hours":4,
+  "queue_excluded":true,
+  "long_tasks_not_monitored_after_acceptance":true,
+  "results":"tests/conditional_teacher_repair/assets/",
+  "checkpoints_and_all_generated_paths":"tests/conditional_teacher_repair/train/00-05/",
+  "dashboard_anchor":"tests/index.html#conditional-teacher-repair",
+  "scientific_certification":false
+}

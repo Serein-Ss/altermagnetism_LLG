@@ -1,0 +1,80 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "baseline",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "pointwise",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "neighbor",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "baseline",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "pointwise",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "neighbor",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "baseline",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "pointwise",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "neighbor",
+      "updates": 6000
+    }
+  ],
+  "question": "Does a direct learned local-state residual readout improve conditional transfer beyond a parameter-matched pointwise readout?",
+  "audit": "Current backbone already receives actualS0 and passes neighbor messages. There is no demonstrated missing-initial-state bug. Repeated training/weighting/noise interventions mainly improved seen states. This tests a representation shortcut, not proof that old hidden features discarded information.",
+  "model": "Unchanged pretrained hierarchical two-frame backbone. baseline adds nothing. pointwise and neighbor each add31->64->64->3SiLU readout with6403parameters,zero final layer. Inputs:four3component feature blocks in registered crystal frame,nineFourierphysical-time,nineFouriertransport-time,log1pdegree. Both first blocks=current transport draft and actualS0. neighbor additional blocks=mean neighborS0 and mean neighbor draft;pointwise=componentwise draft*S0 and draft-S0. Output transformed back and tangent-projected,frame0zero. No Hamiltonian coefficients,analytic field,LLG torque or clean future condition.",
+  "limitation": "Extra branch features include crystal-frame component invariants under JOINT rotations,not spin-only symmetry or reflection. Neighbor mean retains cancellation magnitude; topology uses existingregistered geometry. A readout shortcut does not establish a new multiscale theory or large-size physics. This Bauer package remains open-boundary and.1ps perstep.",
+  "controls": "All start matching previous gradient_accumulation batch1 step30000 weights/Adam,not select best on dev.6000updates cosine3e-5->3e-6,original native batch8 plus balanced48TRAIN restart batch weight1 everyupdate. Baseline optimizer states retained;adapters new optimizer group,oldstates retained. Pointwise and neighbor initialization paired and parametercount equal. Allthree initialization velocities equal oldmodel byzerohead. Backbone alsofinetuned. Baseline smaller/faster;measuredcosts reported.",
+  "pairing": "Identical native data/refill/pair/source/tau/cut and extra target/noise streams perseed;hashes checked. Only64TRAINfutures per48states enter restart loss. Sourcegroups/splits/frozenrecords unchanged. No newLLGdata.",
+  "evaluation": "Reuse frozen full evaluator:48trainorigin64generated versus128probe/fine,before sourceafter_restart;18dev128paths1ps midpoint128/512,24oldseen64paths,72devrealintermediate128futures. Save all generatedpaths;report conditionalmeans,covariance,variance,energy,space,time,family/size/time strata. Fixed final36000checkpoint;no adaptive winner selection.",
+  "uncertainty": "Wholebranch bootstrap100 atfixedparent;bothreference/generatedsampling,errorbars notphysicalbranchspread. Correlated source states averaged descriptively,three seedsseparate. Reuseddev notfinalholdout,no inventedthresholds.",
+  "decision": "Neighbor better than pointwise supports useful direct neighborhood encoding underthisrecipe. Both similar gains suggest extra readout/capacity effect. Only trainorigin improvementsleavegeneralizationunfixed. If allfail,do notblindlyincreasebudget. Mixed versus specialized-family training remains a separate possible diagnostic,not runinthisexperiment. No productionpromotion.",
+  "tests": "Zero-init identity;nonzerohead jointSO3,tangency,initialclamp,matched-latent samplingcovariance;openedgecount,nocrossboundary,cancellation;neighbor feature sensitivity versus pointwisecontrol;metadata rejection;oldoptimizerstepretention.",
+  "physics": "Bauer open,J50meV,kappa.1,alpha.1,theta.11,T63.824849668K;reference dt.25/.125fs,savedlag.1ps,tenfreshnoise transitions1ps. No temporalrelabelling.",
+  "budget": "3GPU smoke1-4min;9formalGPUjobs estimated2-3h eachincludingfullsampling,9fatstats3-6min,web<3min. AllGPUrtx4090,zrs-mag;no longmonitoring.",
+  "skills": "karpathy-guidelines surgicaltests-only;experimental-design parameter-matchedcontrols;matplotlibPNGreport."
+}

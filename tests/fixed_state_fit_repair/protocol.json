@@ -1,0 +1,387 @@
+{
+  "tasks": [
+    {
+      "seed": 11,
+      "repair": "low_lr",
+      "updates": 6000,
+      "lr": 3e-05
+    },
+    {
+      "seed": 11,
+      "repair": "higher_lr",
+      "updates": 6000,
+      "lr": 0.0003
+    },
+    {
+      "seed": 22,
+      "repair": "low_lr",
+      "updates": 6000,
+      "lr": 3e-05
+    },
+    {
+      "seed": 22,
+      "repair": "higher_lr",
+      "updates": 6000,
+      "lr": 0.0003
+    },
+    {
+      "seed": 33,
+      "repair": "low_lr",
+      "updates": 6000,
+      "lr": 3e-05
+    },
+    {
+      "seed": 33,
+      "repair": "higher_lr",
+      "updates": 6000,
+      "lr": 0.0003
+    }
+  ],
+  "selected": [
+    {
+      "index": 1,
+      "parent_index": 0,
+      "parent": {
+        "file": "train_parent60_base.h5",
+        "parent_id": "L16_parent60",
+        "split": "train",
+        "family": "tilted",
+        "arm": "base",
+        "branches": 8,
+        "frames": 1001,
+        "dt_fs": 0.25,
+        "sha256": "5a17264a0febb6b08868710e84833dff14ef9279a841e6eff7de089a93abd046",
+        "L": 16,
+        "path": "tests/bauer_active_data_20260918/data/L16/train_parent60_base.h5",
+        "candidate_seed": 21860978,
+        "preparation_seed": 21870978
+      },
+      "source_path": "tests/bauer_active_data_20260918/data/L16/train_parent60_base.h5",
+      "source_key": "spins",
+      "branch": 0,
+      "frame": 8,
+      "source_time_ps": 0.8,
+      "source_group": "L16_parent60",
+      "split": "train",
+      "config": {
+        "scope": "bounded_round0_data_pilot_not_distribution_certified",
+        "physics": {
+          "sizes": [
+            16,
+            25,
+            32
+          ],
+          "boundary": "open",
+          "exchange_meV": 50.0,
+          "anisotropy_over_J": 0.1,
+          "damping": 0.1,
+          "theta": 0.11,
+          "external_field": 0.0
+        },
+        "numerics": {
+          "dt_fs": 0.25,
+          "fine_dt_fs": 0.125,
+          "preparation_ps": 20.0,
+          "duration_ps": 100.0,
+          "save_ps": 0.1,
+          "diagnostic_windows_ps": [
+            1.0,
+            10.0,
+            100.0
+          ],
+          "method": "projected_Milstein_Tretyakov_5.9"
+        },
+        "sampling": {
+          "families": [
+            "positive",
+            "negative",
+            "tilted",
+            "edge_domain",
+            "interior_domain",
+            "single_wall"
+          ],
+          "candidates_per_family": {
+            "train": 24,
+            "dev": 4,
+            "test": 4
+          },
+          "selected_per_family": {
+            "train": 8,
+            "dev": 2,
+            "test": 2
+          },
+          "branches": {
+            "train": 8,
+            "dev": 16,
+            "test": 16
+          },
+          "seed": 20260918,
+          "fine_control_split": "dev",
+          "jitter_range": [
+            0.02,
+            0.15
+          ],
+          "wall_width_sites": [
+            1.5,
+            4.0
+          ],
+          "tilt_radians": [
+            0.2,
+            1.2
+          ]
+        },
+        "selection": {
+          "method": "stratified_farthest_point_on_train_fitted_descriptors",
+          "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+          "heldout_selection": "seeded_uniform_without_future_outcomes",
+          "use_target_size_data": false,
+          "preserve_all_futures": true
+        },
+        "limitations": [
+          "Budgeted pilot sizes, not a statistical-power claim.",
+          "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+          "Balanced families are not natural state occupancy frequencies.",
+          "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+          "No future-outcome selection; no model-generated supervision.",
+          "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+          "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+          "No large-system final test, training, or uncertainty committee in round zero."
+        ]
+      },
+      "state_sha256": "01528ec0a08a21134e253da10f994d2c3359966cdb3f29b845f05a2b523f4154"
+    },
+    {
+      "index": 17,
+      "parent_index": 8,
+      "parent": {
+        "file": "train_parent96_base.h5",
+        "parent_id": "L16_parent96",
+        "split": "train",
+        "family": "interior_domain",
+        "arm": "base",
+        "branches": 8,
+        "frames": 1001,
+        "dt_fs": 0.25,
+        "sha256": "214b7e724b9b4e7d1a7b140202c8c84f9a8cba99676513180e0e58c23e7ba7fc",
+        "L": 16,
+        "path": "tests/bauer_active_data_20260918/data/L16/train_parent96_base.h5",
+        "candidate_seed": 21861014,
+        "preparation_seed": 21871014
+      },
+      "source_path": "tests/bauer_active_data_20260918/data/L16/train_parent96_base.h5",
+      "source_key": "spins",
+      "branch": 0,
+      "frame": 8,
+      "source_time_ps": 0.8,
+      "source_group": "L16_parent96",
+      "split": "train",
+      "config": {
+        "scope": "bounded_round0_data_pilot_not_distribution_certified",
+        "physics": {
+          "sizes": [
+            16,
+            25,
+            32
+          ],
+          "boundary": "open",
+          "exchange_meV": 50.0,
+          "anisotropy_over_J": 0.1,
+          "damping": 0.1,
+          "theta": 0.11,
+          "external_field": 0.0
+        },
+        "numerics": {
+          "dt_fs": 0.25,
+          "fine_dt_fs": 0.125,
+          "preparation_ps": 20.0,
+          "duration_ps": 100.0,
+          "save_ps": 0.1,
+          "diagnostic_windows_ps": [
+            1.0,
+            10.0,
+            100.0
+          ],
+          "method": "projected_Milstein_Tretyakov_5.9"
+        },
+        "sampling": {
+          "families": [
+            "positive",
+            "negative",
+            "tilted",
+            "edge_domain",
+            "interior_domain",
+            "single_wall"
+          ],
+          "candidates_per_family": {
+            "train": 24,
+            "dev": 4,
+            "test": 4
+          },
+          "selected_per_family": {
+            "train": 8,
+            "dev": 2,
+            "test": 2
+          },
+          "branches": {
+            "train": 8,
+            "dev": 16,
+            "test": 16
+          },
+          "seed": 20260918,
+          "fine_control_split": "dev",
+          "jitter_range": [
+            0.02,
+            0.15
+          ],
+          "wall_width_sites": [
+            1.5,
+            4.0
+          ],
+          "tilt_radians": [
+            0.2,
+            1.2
+          ]
+        },
+        "selection": {
+          "method": "stratified_farthest_point_on_train_fitted_descriptors",
+          "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+          "heldout_selection": "seeded_uniform_without_future_outcomes",
+          "use_target_size_data": false,
+          "preserve_all_futures": true
+        },
+        "limitations": [
+          "Budgeted pilot sizes, not a statistical-power claim.",
+          "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+          "Balanced families are not natural state occupancy frequencies.",
+          "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+          "No future-outcome selection; no model-generated supervision.",
+          "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+          "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+          "No large-system final test, training, or uncertainty committee in round zero."
+        ]
+      },
+      "state_sha256": "5ddbd593c6988878d4a9ae0cd62507fd100877c11cf92fcf906724e7681baa6a"
+    },
+    {
+      "index": 33,
+      "parent_index": 16,
+      "parent": {
+        "file": "train_parent124_base.h5",
+        "parent_id": "L16_parent124",
+        "split": "train",
+        "family": "single_wall",
+        "arm": "base",
+        "branches": 8,
+        "frames": 1001,
+        "dt_fs": 0.25,
+        "sha256": "2edd9fadb86e2a682a4e1ca52ab78f16daffee16e63492f373e77208c44b28a8",
+        "L": 16,
+        "path": "tests/bauer_active_data_20260918/data/L16/train_parent124_base.h5",
+        "candidate_seed": 21861042,
+        "preparation_seed": 21871042
+      },
+      "source_path": "tests/bauer_active_data_20260918/data/L16/train_parent124_base.h5",
+      "source_key": "spins",
+      "branch": 0,
+      "frame": 8,
+      "source_time_ps": 0.8,
+      "source_group": "L16_parent124",
+      "split": "train",
+      "config": {
+        "scope": "bounded_round0_data_pilot_not_distribution_certified",
+        "physics": {
+          "sizes": [
+            16,
+            25,
+            32
+          ],
+          "boundary": "open",
+          "exchange_meV": 50.0,
+          "anisotropy_over_J": 0.1,
+          "damping": 0.1,
+          "theta": 0.11,
+          "external_field": 0.0
+        },
+        "numerics": {
+          "dt_fs": 0.25,
+          "fine_dt_fs": 0.125,
+          "preparation_ps": 20.0,
+          "duration_ps": 100.0,
+          "save_ps": 0.1,
+          "diagnostic_windows_ps": [
+            1.0,
+            10.0,
+            100.0
+          ],
+          "method": "projected_Milstein_Tretyakov_5.9"
+        },
+        "sampling": {
+          "families": [
+            "positive",
+            "negative",
+            "tilted",
+            "edge_domain",
+            "interior_domain",
+            "single_wall"
+          ],
+          "candidates_per_family": {
+            "train": 24,
+            "dev": 4,
+            "test": 4
+          },
+          "selected_per_family": {
+            "train": 8,
+            "dev": 2,
+            "test": 2
+          },
+          "branches": {
+            "train": 8,
+            "dev": 16,
+            "test": 16
+          },
+          "seed": 20260918,
+          "fine_control_split": "dev",
+          "jitter_range": [
+            0.02,
+            0.15
+          ],
+          "wall_width_sites": [
+            1.5,
+            4.0
+          ],
+          "tilt_radians": [
+            0.2,
+            1.2
+          ]
+        },
+        "selection": {
+          "method": "stratified_farthest_point_on_train_fitted_descriptors",
+          "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+          "heldout_selection": "seeded_uniform_without_future_outcomes",
+          "use_target_size_data": false,
+          "preserve_all_futures": true
+        },
+        "limitations": [
+          "Budgeted pilot sizes, not a statistical-power claim.",
+          "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+          "Balanced families are not natural state occupancy frequencies.",
+          "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+          "No future-outcome selection; no model-generated supervision.",
+          "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+          "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+          "No large-system final test, training, or uncertainty committee in round zero."
+        ]
+      },
+      "state_sha256": "edc69d110b813965cd8a7f400775e2e28b72962c70829677da2f1b2832e079ab"
+    }
+  ],
+  "question": "Can the current two-frame model fit three fixed TRAIN configurations and their64 empirical futures? Does higher optimization step size improve fit or just overfit finite branches?",
+  "history": "Earlier empirical_transport_repair used one positive initial state,8whole11frame paths and tau<=.95,not these3nonuniform intermediate states,current2frame network,64branches or fulltau1. Preserve those results; this is a changed supported fitting task,not a repeated proof of capacity.",
+  "control": "Same restart_fm18000 checkpoint and Adam state per seed. Restrict FM training to3states(IDs1,17,33),all64existing TRAIN futures. Uniform state and branch sampling,batch32,6000updates. Only LR differs: cosine3e-5 or3e-4 ->3e-6. Both retain identical RNG/target schedule. No moments or Hamiltonian loss; no new LLG simulation.",
+  "times": "Bauer openL16,T63.824849668K,unchanged Hamiltonian. Physical0.1ps transition;2frames. Uniform transporttau[0,1],shiftednormal2S0 latent. Flowmidpoint128/512 do not change physical duration.",
+  "evaluation": "Fixed snapshots0,500,1500,3000,6000;256new generated branches per state atmid128;final also512 paired latent. Compare finite empirical TRAIN law with ddof0 target covariance separately from untouched128probe/fine futures with population ddof1 and wholebranch bootstrap100. Final checkpoint fixed,not selected ondev. Save every generated sample/checkpoint/time.",
+  "limitations": "This concentrated fit intentionally discards broad training distribution. Successful fit is not broad dynamics/generalization,production repair or size/time validation. Three configurations cannot certify all capacity; failure does not isolate architecture from optimization. Empirical covariance fitting and physical population fitting are distinct.",
+  "coverage": "Independent CPU diagnostic replays native6000condition schedules for3seeds fromadjacent12000,including72branchrefill; extracts radius1/2 SO3invariants and edge distance. Train-only feature scaling,then nearest-neighbor distance to replaybank vs bank+48restartstates. Link to prior independentdev state mean/cov errors; descriptive associations only,not threshold,causation or exhaustive sufficient statistics.",
+  "budget": "6GPU jobs estimated20-60min each;3fat coverage jobs10-30min;6fat fitstats2-8min;aggregate<3min. GPUrtx4090,jobzrs-mag;no long monitoring. Short smoke<5min.",
+  "skills": "Karpathy surgical tests; experimental-design pairedLR controls; matplotlib PNG diagnostics. Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

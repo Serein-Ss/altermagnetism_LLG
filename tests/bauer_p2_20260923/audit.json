@@ -1,0 +1,775 @@
+{
+  "integrity_pass": true,
+  "sources": {
+    "tests/bauer_active_data_20260918/run.py": "bd399346ac819f3155a9f1f9167db1a27a864dc3284710cac48f0ceb5f29db6d",
+    "tests/bauer_active_data_20260918/config.yaml": "b1bd463fc99b199692e6d1b08d5a57094237119ff4762528d5e33a3dc6a605c9",
+    "tests/bauer_fig2_10ns_20260917/kernel.py": "f03df660b43eb7ea51087e9f9aaf9c1a6190169184fb463aa1f7b50d95885bc3"
+  },
+  "counts": {
+    "train": {
+      "parents": 144,
+      "branches": 1152,
+      "families": {
+        "positive": 24,
+        "negative": 24,
+        "tilted": 24,
+        "edge_domain": 24,
+        "interior_domain": 24,
+        "single_wall": 24
+      }
+    },
+    "dev": {
+      "parents": 36,
+      "branches": 576,
+      "families": {
+        "positive": 6,
+        "negative": 6,
+        "tilted": 6,
+        "edge_domain": 6,
+        "interior_domain": 6,
+        "single_wall": 6
+      }
+    },
+    "diagnostic": {
+      "parents": 36,
+      "branches": 576,
+      "families": {
+        "positive": 6,
+        "negative": 6,
+        "tilted": 6,
+        "edge_domain": 6,
+        "interior_domain": 6,
+        "single_wall": 6
+      }
+    }
+  },
+  "max_norm_error": 5.072463649113956e-08,
+  "max_stored_energy_error": 3.632582068480161e-08,
+  "physics": "H/J = -sum(open nearest neighbours) s_i dot s_j - 0.1 sum s_iz^2; no field, no dipole, no DMI",
+  "physical_time": "tau=t J/hbar; hbar=0.6582119569 meV ps; T=theta J/kB",
+  "numerical_status": "finite-ensemble dt comparison available; quantitative tolerance certification pending",
+  "final_holdout": "none: historical test is diagnostic only",
+  "coverage": "6 deliberately balanced preparation families, not natural occupancy; positive/negative names describe preparation, not guaranteed final sign",
+  "training_dynamics": [
+    {
+      "parent_id": "L16_parent14",
+      "family": "positive",
+      "displacement_1ps": 0.4444092202564998
+    },
+    {
+      "parent_id": "L16_parent18",
+      "family": "positive",
+      "displacement_1ps": 1.019952595756138
+    },
+    {
+      "parent_id": "L16_parent1",
+      "family": "positive",
+      "displacement_1ps": 0.4433623102313671
+    },
+    {
+      "parent_id": "L16_parent17",
+      "family": "positive",
+      "displacement_1ps": 0.8055872846812151
+    },
+    {
+      "parent_id": "L16_parent20",
+      "family": "positive",
+      "displacement_1ps": 0.7395448218401287
+    },
+    {
+      "parent_id": "L16_parent13",
+      "family": "positive",
+      "displacement_1ps": 0.6051217864792143
+    },
+    {
+      "parent_id": "L16_parent15",
+      "family": "positive",
+      "displacement_1ps": 0.47860303524853887
+    },
+    {
+      "parent_id": "L16_parent2",
+      "family": "positive",
+      "displacement_1ps": 0.9900224925172173
+    },
+    {
+      "parent_id": "L16_parent35",
+      "family": "negative",
+      "displacement_1ps": 0.987498215367904
+    },
+    {
+      "parent_id": "L16_parent27",
+      "family": "negative",
+      "displacement_1ps": 0.5503832343389121
+    },
+    {
+      "parent_id": "L16_parent36",
+      "family": "negative",
+      "displacement_1ps": 0.5206150845118303
+    },
+    {
+      "parent_id": "L16_parent41",
+      "family": "negative",
+      "displacement_1ps": 0.508195781803631
+    },
+    {
+      "parent_id": "L16_parent47",
+      "family": "negative",
+      "displacement_1ps": 0.43678232420878377
+    },
+    {
+      "parent_id": "L16_parent25",
+      "family": "negative",
+      "displacement_1ps": 0.819095380227391
+    },
+    {
+      "parent_id": "L16_parent44",
+      "family": "negative",
+      "displacement_1ps": 0.833991885993919
+    },
+    {
+      "parent_id": "L16_parent43",
+      "family": "negative",
+      "displacement_1ps": 0.8273003648519175
+    },
+    {
+      "parent_id": "L16_parent60",
+      "family": "tilted",
+      "displacement_1ps": 0.5567026034643647
+    },
+    {
+      "parent_id": "L16_parent71",
+      "family": "tilted",
+      "displacement_1ps": 0.4123439654422495
+    },
+    {
+      "parent_id": "L16_parent66",
+      "family": "tilted",
+      "displacement_1ps": 1.487278372705822
+    },
+    {
+      "parent_id": "L16_parent56",
+      "family": "tilted",
+      "displacement_1ps": 1.3569239719841304
+    },
+    {
+      "parent_id": "L16_parent49",
+      "family": "tilted",
+      "displacement_1ps": 1.1569923174573635
+    },
+    {
+      "parent_id": "L16_parent64",
+      "family": "tilted",
+      "displacement_1ps": 1.6544986560859423
+    },
+    {
+      "parent_id": "L16_parent58",
+      "family": "tilted",
+      "displacement_1ps": 0.7335600501180302
+    },
+    {
+      "parent_id": "L16_parent50",
+      "family": "tilted",
+      "displacement_1ps": 0.7024056528749163
+    },
+    {
+      "parent_id": "L16_parent79",
+      "family": "edge_domain",
+      "displacement_1ps": 1.2620332585258591
+    },
+    {
+      "parent_id": "L16_parent82",
+      "family": "edge_domain",
+      "displacement_1ps": 0.9466381172271264
+    },
+    {
+      "parent_id": "L16_parent75",
+      "family": "edge_domain",
+      "displacement_1ps": 0.6020064698450682
+    },
+    {
+      "parent_id": "L16_parent78",
+      "family": "edge_domain",
+      "displacement_1ps": 0.5898170903846023
+    },
+    {
+      "parent_id": "L16_parent90",
+      "family": "edge_domain",
+      "displacement_1ps": 0.6302418013220538
+    },
+    {
+      "parent_id": "L16_parent95",
+      "family": "edge_domain",
+      "displacement_1ps": 1.0067703357566258
+    },
+    {
+      "parent_id": "L16_parent72",
+      "family": "edge_domain",
+      "displacement_1ps": 0.7703341104087127
+    },
+    {
+      "parent_id": "L16_parent77",
+      "family": "edge_domain",
+      "displacement_1ps": 1.1260843053430527
+    },
+    {
+      "parent_id": "L16_parent96",
+      "family": "interior_domain",
+      "displacement_1ps": 1.3820066772374282
+    },
+    {
+      "parent_id": "L16_parent107",
+      "family": "interior_domain",
+      "displacement_1ps": 1.698070267744907
+    },
+    {
+      "parent_id": "L16_parent117",
+      "family": "interior_domain",
+      "displacement_1ps": 1.7554974081453594
+    },
+    {
+      "parent_id": "L16_parent113",
+      "family": "interior_domain",
+      "displacement_1ps": 1.5096878245946193
+    },
+    {
+      "parent_id": "L16_parent104",
+      "family": "interior_domain",
+      "displacement_1ps": 1.5097735509353065
+    },
+    {
+      "parent_id": "L16_parent97",
+      "family": "interior_domain",
+      "displacement_1ps": 1.6181497238533806
+    },
+    {
+      "parent_id": "L16_parent114",
+      "family": "interior_domain",
+      "displacement_1ps": 1.5625417980244272
+    },
+    {
+      "parent_id": "L16_parent105",
+      "family": "interior_domain",
+      "displacement_1ps": 1.517291562181334
+    },
+    {
+      "parent_id": "L16_parent124",
+      "family": "single_wall",
+      "displacement_1ps": 0.9859484724926196
+    },
+    {
+      "parent_id": "L16_parent136",
+      "family": "single_wall",
+      "displacement_1ps": 0.8658450033987607
+    },
+    {
+      "parent_id": "L16_parent138",
+      "family": "single_wall",
+      "displacement_1ps": 0.7102647281476019
+    },
+    {
+      "parent_id": "L16_parent132",
+      "family": "single_wall",
+      "displacement_1ps": 0.6049980162928634
+    },
+    {
+      "parent_id": "L16_parent121",
+      "family": "single_wall",
+      "displacement_1ps": 0.7166751422351811
+    },
+    {
+      "parent_id": "L16_parent141",
+      "family": "single_wall",
+      "displacement_1ps": 0.8437048403179995
+    },
+    {
+      "parent_id": "L16_parent123",
+      "family": "single_wall",
+      "displacement_1ps": 0.5818873817479302
+    },
+    {
+      "parent_id": "L16_parent137",
+      "family": "single_wall",
+      "displacement_1ps": 1.237821646114057
+    },
+    {
+      "parent_id": "L25_parent21",
+      "family": "positive",
+      "displacement_1ps": 0.5967975549586128
+    },
+    {
+      "parent_id": "L25_parent9",
+      "family": "positive",
+      "displacement_1ps": 0.49795302576900957
+    },
+    {
+      "parent_id": "L25_parent17",
+      "family": "positive",
+      "displacement_1ps": 1.765213117334502
+    },
+    {
+      "parent_id": "L25_parent20",
+      "family": "positive",
+      "displacement_1ps": 0.5321369458750699
+    },
+    {
+      "parent_id": "L25_parent4",
+      "family": "positive",
+      "displacement_1ps": 1.0503277527279171
+    },
+    {
+      "parent_id": "L25_parent1",
+      "family": "positive",
+      "displacement_1ps": 0.6527515374920657
+    },
+    {
+      "parent_id": "L25_parent14",
+      "family": "positive",
+      "displacement_1ps": 0.6049007227196241
+    },
+    {
+      "parent_id": "L25_parent3",
+      "family": "positive",
+      "displacement_1ps": 0.5403396101372526
+    },
+    {
+      "parent_id": "L25_parent26",
+      "family": "negative",
+      "displacement_1ps": 0.4989678071292816
+    },
+    {
+      "parent_id": "L25_parent24",
+      "family": "negative",
+      "displacement_1ps": 0.6536012317893785
+    },
+    {
+      "parent_id": "L25_parent27",
+      "family": "negative",
+      "displacement_1ps": 0.5200315303648962
+    },
+    {
+      "parent_id": "L25_parent45",
+      "family": "negative",
+      "displacement_1ps": 0.9287223100515851
+    },
+    {
+      "parent_id": "L25_parent32",
+      "family": "negative",
+      "displacement_1ps": 0.6088066725977478
+    },
+    {
+      "parent_id": "L25_parent37",
+      "family": "negative",
+      "displacement_1ps": 0.9616853433662625
+    },
+    {
+      "parent_id": "L25_parent25",
+      "family": "negative",
+      "displacement_1ps": 0.5248243088139826
+    },
+    {
+      "parent_id": "L25_parent46",
+      "family": "negative",
+      "displacement_1ps": 0.8915542277345446
+    },
+    {
+      "parent_id": "L25_parent65",
+      "family": "tilted",
+      "displacement_1ps": 0.41452995981130086
+    },
+    {
+      "parent_id": "L25_parent70",
+      "family": "tilted",
+      "displacement_1ps": 1.492686259448321
+    },
+    {
+      "parent_id": "L25_parent53",
+      "family": "tilted",
+      "displacement_1ps": 0.4895551573513711
+    },
+    {
+      "parent_id": "L25_parent55",
+      "family": "tilted",
+      "displacement_1ps": 0.9750446400515017
+    },
+    {
+      "parent_id": "L25_parent63",
+      "family": "tilted",
+      "displacement_1ps": 0.9422188747266453
+    },
+    {
+      "parent_id": "L25_parent66",
+      "family": "tilted",
+      "displacement_1ps": 0.637772802986781
+    },
+    {
+      "parent_id": "L25_parent64",
+      "family": "tilted",
+      "displacement_1ps": 2.038236671386642
+    },
+    {
+      "parent_id": "L25_parent48",
+      "family": "tilted",
+      "displacement_1ps": 0.7054768082628057
+    },
+    {
+      "parent_id": "L25_parent72",
+      "family": "edge_domain",
+      "displacement_1ps": 0.8074578532984077
+    },
+    {
+      "parent_id": "L25_parent90",
+      "family": "edge_domain",
+      "displacement_1ps": 0.5526221432686076
+    },
+    {
+      "parent_id": "L25_parent73",
+      "family": "edge_domain",
+      "displacement_1ps": 0.41393467832527975
+    },
+    {
+      "parent_id": "L25_parent89",
+      "family": "edge_domain",
+      "displacement_1ps": 0.9386595201116563
+    },
+    {
+      "parent_id": "L25_parent74",
+      "family": "edge_domain",
+      "displacement_1ps": 0.7624585605860139
+    },
+    {
+      "parent_id": "L25_parent93",
+      "family": "edge_domain",
+      "displacement_1ps": 0.5156352855688269
+    },
+    {
+      "parent_id": "L25_parent76",
+      "family": "edge_domain",
+      "displacement_1ps": 0.3998938005596442
+    },
+    {
+      "parent_id": "L25_parent78",
+      "family": "edge_domain",
+      "displacement_1ps": 0.48939619953938945
+    },
+    {
+      "parent_id": "L25_parent106",
+      "family": "interior_domain",
+      "displacement_1ps": 1.323834856556222
+    },
+    {
+      "parent_id": "L25_parent109",
+      "family": "interior_domain",
+      "displacement_1ps": 1.256246057417157
+    },
+    {
+      "parent_id": "L25_parent112",
+      "family": "interior_domain",
+      "displacement_1ps": 0.8040105392253298
+    },
+    {
+      "parent_id": "L25_parent98",
+      "family": "interior_domain",
+      "displacement_1ps": 1.4052590828270997
+    },
+    {
+      "parent_id": "L25_parent113",
+      "family": "interior_domain",
+      "displacement_1ps": 0.7535560405617275
+    },
+    {
+      "parent_id": "L25_parent107",
+      "family": "interior_domain",
+      "displacement_1ps": 1.1395789185215097
+    },
+    {
+      "parent_id": "L25_parent101",
+      "family": "interior_domain",
+      "displacement_1ps": 0.6338461181753036
+    },
+    {
+      "parent_id": "L25_parent116",
+      "family": "interior_domain",
+      "displacement_1ps": 0.9323483756764338
+    },
+    {
+      "parent_id": "L25_parent122",
+      "family": "single_wall",
+      "displacement_1ps": 0.8611530875069744
+    },
+    {
+      "parent_id": "L25_parent136",
+      "family": "single_wall",
+      "displacement_1ps": 0.5682641450268593
+    },
+    {
+      "parent_id": "L25_parent139",
+      "family": "single_wall",
+      "displacement_1ps": 0.43941472204055737
+    },
+    {
+      "parent_id": "L25_parent130",
+      "family": "single_wall",
+      "displacement_1ps": 0.4009940962680142
+    },
+    {
+      "parent_id": "L25_parent121",
+      "family": "single_wall",
+      "displacement_1ps": 0.5049631721487269
+    },
+    {
+      "parent_id": "L25_parent127",
+      "family": "single_wall",
+      "displacement_1ps": 0.39584673744860976
+    },
+    {
+      "parent_id": "L25_parent137",
+      "family": "single_wall",
+      "displacement_1ps": 0.4281403179427109
+    },
+    {
+      "parent_id": "L25_parent135",
+      "family": "single_wall",
+      "displacement_1ps": 0.5357391849275147
+    },
+    {
+      "parent_id": "L32_parent18",
+      "family": "positive",
+      "displacement_1ps": 0.5950016169086139
+    },
+    {
+      "parent_id": "L32_parent16",
+      "family": "positive",
+      "displacement_1ps": 0.5256050104991881
+    },
+    {
+      "parent_id": "L32_parent14",
+      "family": "positive",
+      "displacement_1ps": 0.7174307730924139
+    },
+    {
+      "parent_id": "L32_parent17",
+      "family": "positive",
+      "displacement_1ps": 0.881893528488044
+    },
+    {
+      "parent_id": "L32_parent12",
+      "family": "positive",
+      "displacement_1ps": 0.5285926572428935
+    },
+    {
+      "parent_id": "L32_parent10",
+      "family": "positive",
+      "displacement_1ps": 0.6248797867049634
+    },
+    {
+      "parent_id": "L32_parent21",
+      "family": "positive",
+      "displacement_1ps": 0.9887573680566357
+    },
+    {
+      "parent_id": "L32_parent6",
+      "family": "positive",
+      "displacement_1ps": 1.0695654228425715
+    },
+    {
+      "parent_id": "L32_parent35",
+      "family": "negative",
+      "displacement_1ps": 0.7264907642295888
+    },
+    {
+      "parent_id": "L32_parent41",
+      "family": "negative",
+      "displacement_1ps": 0.4867971034507754
+    },
+    {
+      "parent_id": "L32_parent42",
+      "family": "negative",
+      "displacement_1ps": 0.7936036014767016
+    },
+    {
+      "parent_id": "L32_parent26",
+      "family": "negative",
+      "displacement_1ps": 0.8374631539346146
+    },
+    {
+      "parent_id": "L32_parent46",
+      "family": "negative",
+      "displacement_1ps": 0.605177416026631
+    },
+    {
+      "parent_id": "L32_parent33",
+      "family": "negative",
+      "displacement_1ps": 0.815085054952294
+    },
+    {
+      "parent_id": "L32_parent28",
+      "family": "negative",
+      "displacement_1ps": 0.4825137041107601
+    },
+    {
+      "parent_id": "L32_parent32",
+      "family": "negative",
+      "displacement_1ps": 0.5257434380767322
+    },
+    {
+      "parent_id": "L32_parent51",
+      "family": "tilted",
+      "displacement_1ps": 0.3739586009128419
+    },
+    {
+      "parent_id": "L32_parent68",
+      "family": "tilted",
+      "displacement_1ps": 1.439247417313525
+    },
+    {
+      "parent_id": "L32_parent60",
+      "family": "tilted",
+      "displacement_1ps": 0.4013554061400948
+    },
+    {
+      "parent_id": "L32_parent67",
+      "family": "tilted",
+      "displacement_1ps": 0.9189666389866514
+    },
+    {
+      "parent_id": "L32_parent57",
+      "family": "tilted",
+      "displacement_1ps": 1.6867567566770671
+    },
+    {
+      "parent_id": "L32_parent61",
+      "family": "tilted",
+      "displacement_1ps": 0.9465016843030825
+    },
+    {
+      "parent_id": "L32_parent71",
+      "family": "tilted",
+      "displacement_1ps": 1.104203679515647
+    },
+    {
+      "parent_id": "L32_parent54",
+      "family": "tilted",
+      "displacement_1ps": 1.5729825590157407
+    },
+    {
+      "parent_id": "L32_parent82",
+      "family": "edge_domain",
+      "displacement_1ps": 0.7507954174598874
+    },
+    {
+      "parent_id": "L32_parent87",
+      "family": "edge_domain",
+      "displacement_1ps": 0.3957880658244703
+    },
+    {
+      "parent_id": "L32_parent76",
+      "family": "edge_domain",
+      "displacement_1ps": 0.4270097242240105
+    },
+    {
+      "parent_id": "L32_parent88",
+      "family": "edge_domain",
+      "displacement_1ps": 0.3833796231370245
+    },
+    {
+      "parent_id": "L32_parent93",
+      "family": "edge_domain",
+      "displacement_1ps": 0.36485144878503784
+    },
+    {
+      "parent_id": "L32_parent84",
+      "family": "edge_domain",
+      "displacement_1ps": 0.4429517285315991
+    },
+    {
+      "parent_id": "L32_parent91",
+      "family": "edge_domain",
+      "displacement_1ps": 0.4781654171433847
+    },
+    {
+      "parent_id": "L32_parent74",
+      "family": "edge_domain",
+      "displacement_1ps": 0.5412281534295467
+    },
+    {
+      "parent_id": "L32_parent111",
+      "family": "interior_domain",
+      "displacement_1ps": 0.5560958259801065
+    },
+    {
+      "parent_id": "L32_parent100",
+      "family": "interior_domain",
+      "displacement_1ps": 0.6602472621183868
+    },
+    {
+      "parent_id": "L32_parent117",
+      "family": "interior_domain",
+      "displacement_1ps": 0.6884484156615407
+    },
+    {
+      "parent_id": "L32_parent110",
+      "family": "interior_domain",
+      "displacement_1ps": 0.7761698252573176
+    },
+    {
+      "parent_id": "L32_parent105",
+      "family": "interior_domain",
+      "displacement_1ps": 0.5532719762594671
+    },
+    {
+      "parent_id": "L32_parent119",
+      "family": "interior_domain",
+      "displacement_1ps": 0.5224517786445553
+    },
+    {
+      "parent_id": "L32_parent109",
+      "family": "interior_domain",
+      "displacement_1ps": 0.6839724503553367
+    },
+    {
+      "parent_id": "L32_parent106",
+      "family": "interior_domain",
+      "displacement_1ps": 0.5638012779297319
+    },
+    {
+      "parent_id": "L32_parent134",
+      "family": "single_wall",
+      "displacement_1ps": 0.40888644580507894
+    },
+    {
+      "parent_id": "L32_parent127",
+      "family": "single_wall",
+      "displacement_1ps": 0.4681167017506147
+    },
+    {
+      "parent_id": "L32_parent141",
+      "family": "single_wall",
+      "displacement_1ps": 0.4254396179900676
+    },
+    {
+      "parent_id": "L32_parent125",
+      "family": "single_wall",
+      "displacement_1ps": 0.3883933888190209
+    },
+    {
+      "parent_id": "L32_parent123",
+      "family": "single_wall",
+      "displacement_1ps": 0.4084333139301718
+    },
+    {
+      "parent_id": "L32_parent138",
+      "family": "single_wall",
+      "displacement_1ps": 0.39018398776773655
+    },
+    {
+      "parent_id": "L32_parent124",
+      "family": "single_wall",
+      "displacement_1ps": 0.35730813867471967
+    },
+    {
+      "parent_id": "L32_parent133",
+      "family": "single_wall",
+      "displacement_1ps": 0.3829972816623132
+    }
+  ]
+}

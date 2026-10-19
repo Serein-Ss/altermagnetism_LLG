@@ -13,10 +13,10 @@ sys.path.insert(0, str(ROOT / "scripts" / "core"))
 from unified_llg import CrNb3S6Helimagnet  # noqa: E402
 
 
-REGISTRY = ROOT / "data" / "datasets" / "standard_v3" / "registry.yaml"
+REGISTRY = ROOT / "conf" / "research" / "datasets" / "standard_v3" / "registry.yaml"
 CANDIDATE = (
     ROOT
-    / "data" / "datasets" / "standard_v3"
+    / "conf" / "research" / "datasets" / "standard_v3"
     / "altermagnet_gomonay2024"
     / "protocol.candidate.yaml"
 )

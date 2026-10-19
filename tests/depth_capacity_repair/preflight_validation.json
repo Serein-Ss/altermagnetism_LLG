@@ -1,0 +1,35 @@
+{
+  "unit_tests_passed": 7,
+  "smoke_gpu": "671641_0-1",
+  "smoke_statistics": "671643_0-1",
+  "smoke_web": 671644,
+  "all_completed_exit_zero": true,
+  "paired_missing": [],
+  "paired_errors": [],
+  "parameters_control": 678662,
+  "parameters_deep": 1350150,
+  "deep_activation_before_allzero": true,
+  "deep_activation_after_relative_rms": [
+    0.013552664779126644,
+    0.030655495822429657,
+    0.026154207065701485
+  ],
+  "added_parameter_relative_delta": 0.010601134039461613,
+  "optimizer_steps_control": [
+    [
+      57088
+    ]
+  ],
+  "optimizer_steps_deep": [
+    [
+      57088
+    ],
+    [
+      16
+    ]
+  ],
+  "max_norm_error": 1.1920928955078125e-7,
+  "max_anchor_error": 0,
+  "png_checked": true,
+  "scientific_certification": false
+}

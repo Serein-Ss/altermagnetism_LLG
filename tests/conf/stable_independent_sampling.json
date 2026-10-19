@@ -1,0 +1,8 @@
+{
+  "reference_manifest": "tests/results/stable_independent_reference/manifest.json",
+  "batch_size": 32,
+  "training_seeds": [11, 22, 33],
+  "latent_mapping": "generated_latent_base + 10000*initial_family + batch_index; same seed across temperatures and trained models. Within-batch path index defines latent identity. Batch partition is frozen, not claimed invariant to repartitioning.",
+  "scope": "Frozen-model inference only,128 paths per condition and initial for each of3 trained seeds. No real future trajectory is loaded. No model selection, automatic retries or analysis before complete batch.",
+  "gpu_budget": {"partition": "rtx4090", "jobs": 3, "wall_minutes_each": 60}
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-18",
+  "status": "CPU pilot and regression passed; GPU preflight queued, conditional formal handoff accepted",
+  "previous_campaign": {
+    "gpu": "672244_0-5",
+    "statistics": "672245_0-5",
+    "aggregate": "672246",
+    "all_completed": true,
+    "whole_dev_mean_cov_variance_energy": [0.06269020767343604,0.009430753344972996,0.007666804256404254,0.003022704332030651],
+    "patch2_dev_mean_cov_variance_energy": [0.06263207455197557,0.009422898958790171,0.007546813824055756,0.003022370060620312],
+    "whole_full_incvar_time_energy": [0.02347407963091218,0.020022750108083676,0.0036320809979110105],
+    "patch2_full_incvar_time_energy": [0.02362820626400934,0.02000312738403788,0.003631298271612968],
+    "interpretation": "Very small conditional improvement and mixed fullpath effects. Descriptive averages,not an equivalence or efficacy certification; retain whole control"
+  },
+  "confirmed_provenance_gap": {
+    "old_model_state_library": "seed11 checkpoint78144",
+    "current_model_sources": "seeds11/22/33,whole checkpoint130240",
+    "mean_same_index_old_to_current_spin_angle_rad": {"11":0.25369827676966866,"22":0.16231443704123596,"33":0.19150901809109033},
+    "interpretation": "Inputs have changed. Geodesic differences and limited axial-invariant descriptors do not prove an exhaustive coverage gap or sole failure cause. Old states remain physically valid"
+  },
+  "new_data_plan": {
+    "current_states":144,
+    "ancestral_train_source_groups":24,
+    "future_branches_per_state":{"train":64,"probe":128,"fine":128},
+    "total_short_futures":46080,
+    "training_futures":9216,
+    "physical_duration_ps":0.1,
+    "reference_dt_fs":[0.25,0.125],
+    "selection":"fixed TRAIN branch0 frames3/8,not future-outcome selected",
+    "physics_and_archives_unchanged":true
+  },
+  "completed_checks": {
+    "unit_tests":43,
+    "unit_seconds":63.492,
+    "unit_passed":true,
+    "slurm_shell_syntax_passed":true,
+    "cpu_pilot_job":"672356_0",
+    "cpu_pilot_trajectories":1920,
+    "cpu_simulation_seconds":13.111611261963844,
+    "cpu_job_wall_seconds":50,
+    "data_audit_job":"672357",
+    "data_audit_passed":true,
+    "pilot_states":6,
+    "pilot_ancestral_source_groups":1,
+    "pilot_audited_hdf5_files":18,
+    "gpu_preflight_passed":false
+  },
+  "accepted_jobs": {
+    "smoke_references":"672356",
+    "smoke_data_audit":"672357",
+    "smoke_gpu":"672358_0-1",
+    "smoke_statistics":"672359_0-1",
+    "smoke_aggregate":"672360",
+    "conditional_formal_submission":"672361"
+  },
+  "scheduler_observation": {
+    "partition":"rtx4090",
+    "state":"both nodes drained* at last read-only check",
+    "reasons":["Ubuntu24_heisenberg_migration","Thermal_inlet_critical"],
+    "action":"do not change partition or bypass node protections; retain pending GPU jobs and conditional continuation",
+    "queue_delay_unknown":true
+  },
+  "future_formal_chain_after_smoke_success": {
+    "remaining_cpu_reference_parents":"1-23; reuse pilot parent0",
+    "data_gate":"full data audit must pass before GPU training",
+    "gpu_runs":6,
+    "comparison":"stale versus own-seed current state replay,three training seeds",
+    "updates":2048,
+    "final_logical_step":132288,
+    "estimated_gpu_compute_hours_per_run":[3,4],
+    "gpu_allocation_limit_hours":6,
+    "array_concurrency_cap":null,
+    "queue_time_excluded":true,
+    "formal_job_ids":"written to submission.json only after handoff runs",
+    "result_page":"assets/index.html after all successful dependencies; main tests/index.html then updated automatically"
+  },
+  "scientific_certification":false,
+  "limits":"No new GPU result or physical repair claim. New-state independent-noise diagnostics are TRAIN-origin,not independent-parent finalholdout. Old/current input tensors intentionally differ; native and raw RNG pairing checked. No production promotion,archive overwrite,deletion or Git push. No monitoring after handoff acceptance"
+}

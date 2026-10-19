@@ -1,0 +1,31 @@
+source:
+  doi: 10.1088/0953-8984/23/39/394204
+  figure: 2
+  url: https://arxiv.org/html/1010.4730v2#S2.F2
+physics:
+  length: 100
+  boundary: open
+  exchange_meV: 50.0
+  anisotropy_over_J: 0.1
+  temperature_kBT_over_J: 0.11
+  damping_lambda: 0.1
+  external_field: 0.0
+  convention: bauer_ll
+initial:
+  protocol: all_plus_z_then_fixed_thermal_preparation
+  preparation_ps: 20.0
+  note: Project choice inspired by the positive plateau; no seed selection or forced Mz=85; not a claimed equilibrium preparation.
+numerics:
+  duration_ns: 10.0
+  dt_fs: 0.25
+  save_ps: 0.1
+  block_ps: 100.0
+  trajectories: 3
+  seeds: [202609171, 202609172, 202609173]
+  method: Milstein-Tretyakov-5.9
+  final_projection: true
+  note: Step size, preparation, output interval and final projection are project choices; not a claim of paper-identical discretization.
+visualization:
+  gif_frames: 201
+  static_format: png
+scope: Figure-2-style trajectory demonstration only; no lifetime certification, training, or other figures.

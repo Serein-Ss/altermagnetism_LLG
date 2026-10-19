@@ -1,0 +1,9 @@
+{
+  "base_experiment": "tests/conf/bauer_training_budget_20260913.json",
+  "experiment": "conditional_source_learning",
+  "arms": {"window11": 11},
+  "seeds": [11, 22, 33],
+  "budgets": [600, 3000, 6000],
+  "source_scale": 1.0,
+  "scope": "Compare with window_learning/window11 using identical model, training paths, window-start RNG, budgets and conditions. Source is normalize(current_initial + standard Gaussian), independently at free spins/frames, with first frame fixed. Full angular support follows from positive Gaussian density before projection; no confinement to initial hemisphere. Scale1 fixed, not fitted to development data. Each rollout chunk uses its generated initial, never future reference states. Source is an inference construction, NOT physical thermal noise. Training/evaluation loss interpolation differs from uniform-source baseline, so compare generated physical profiles, not raw losses. Development reused; no certification/promotion/size generalization claim."
+}

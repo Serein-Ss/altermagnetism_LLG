@@ -1,0 +1,23 @@
+[
+  {
+    "index": 2,
+    "repair": "relative_time",
+    "warm_start_max_error": 0.0,
+    "optimizer_parameters_complete": true,
+    "restored_state_count": 142
+  },
+  {
+    "index": 4,
+    "repair": "anchor",
+    "warm_start_max_error": 0.0,
+    "optimizer_parameters_complete": true,
+    "restored_state_count": 142
+  },
+  {
+    "index": 5,
+    "repair": "control",
+    "warm_start_max_error": 0.0,
+    "optimizer_parameters_complete": true,
+    "restored_state_count": 142
+  }
+]

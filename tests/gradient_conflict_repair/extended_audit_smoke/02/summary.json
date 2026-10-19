@@ -1,0 +1,44 @@
+{
+  "seed": 33,
+  "batches": 32,
+  "code_sha256": "237028f865531e4791310e2205737d5ce50ea5f2795dc50f4b4c99085b676794",
+  "frozen_weights": true,
+  "model_hash": "e3abadcb2c134d8e06aa5ffa6b033fea1c1e1a21f528faf77148b38164d929c2",
+  "blocks": [
+    {
+      "batches": 16,
+      "start_batch": 0,
+      "cosine": 0.009081176400364339,
+      "native_norm": 0.2273888913236688,
+      "replay_norm": 0.12137153709838851
+    },
+    {
+      "batches": 16,
+      "start_batch": 16,
+      "cosine": 0.05447640115613096,
+      "native_norm": 0.20765272837295276,
+      "replay_norm": 0.2051508435766362
+    },
+    {
+      "batches": 32,
+      "start_batch": 0,
+      "cosine": 0.0003047400825525543,
+      "native_norm": 0.15607155595335895,
+      "replay_norm": 0.13294995042280375
+    }
+  ],
+  "same_objective_half_cosine": {
+    "0": [
+      0.027616195388710754
+    ],
+    "1": [
+      0.278817919321392
+    ]
+  },
+  "rms_individual_gradient": [
+    1.065228872054168,
+    0.5481867852602118
+  ],
+  "seconds": 2.7014235742390156,
+  "interpretation": "TRAIN-only diagnostic. Block means correlated within each checkpoint; no physical certification, formal pvalues or independent-parent claims."
+}

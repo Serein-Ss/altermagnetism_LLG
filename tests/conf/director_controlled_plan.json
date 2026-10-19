@@ -1,0 +1,9 @@
+{
+  "arms": ["control", "director"],
+  "paired_seeds": [11, 22, 33],
+  "training_config": "tests/conf/local_transition_training.json",
+  "updates_per_arm": 6000,
+  "comparison": "Same initial parameters, batches, latent random streams and update count. Director averages velocities over both axis signs; two backbone evaluations rather than one. Not compute-matched.",
+  "primary_diagnostics": ["conditional mean increment error at all eight saved lags", "full and cross-site increment covariance", "nearest-neighbor correlation", "temporal correlation and stochastic diversity"],
+  "reporting": "All 12 anchors retained; train/development separated; seed-paired changes. Negative-magnetization anchors identified in prior exploratory work, not a newly independent test. No success threshold selected from outcomes. Record timing. Do not infer certification from mean error alone."
+}

@@ -1,0 +1,12 @@
+{
+  "base_experiment": "tests/conf/bauer_training_budget_20260913.json",
+  "experiment": "weighted_flow_overfit",
+  "model": "cartesian",
+  "flow_weighting": "quadratic",
+  "seeds": [11, 22, 33],
+  "arms": {"mixed_eight": [96, 97, 98, 99, 100, 101, 102, 103]},
+  "budgets": [600, 3000, 6000],
+  "latents": 32,
+  "sampling_steps": 128,
+  "scope": "Exploratory loss-weight control against cartesian_overfit/mixed_eight. Weight 3*(1-tau)^2 with unchanged uniform tau/source/target draws and network. Mean weight is one under uniform tau; realized gradient weighting changes. Same Adam, steps, batch, three seeds. Training weighted loss is NOT comparable to baseline training loss; evaluation loss remains unweighted. Compare all saved path statistics and milestones. High endpoint-stage velocity MSE alone does not prove weighting useful or identify its irreducible component. No held-out physical certification, probability calibration or production promotion."
+}

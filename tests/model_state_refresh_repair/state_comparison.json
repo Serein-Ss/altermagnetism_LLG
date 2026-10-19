@@ -1,0 +1,866 @@
+[
+  {
+    "state": 0,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9536780038354534,
+    "mz": 0.9117974932881513,
+    "neighbor_alignment": 0.9283327084496326
+  },
+  {
+    "state": 0,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9610605814739132,
+    "mz": 0.9254259424712976,
+    "neighbor_alignment": 0.9329733131945913
+  },
+  {
+    "state": 1,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9460035902567203,
+    "mz": 0.8143112805284918,
+    "neighbor_alignment": 0.9364344444984738
+  },
+  {
+    "state": 1,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9232016342701462,
+    "mz": 0.8226867437853749,
+    "neighbor_alignment": 0.9107777490439478
+  },
+  {
+    "state": 2,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9771570122750012,
+    "mz": -0.9125136081272447,
+    "neighbor_alignment": 0.952788437456556
+  },
+  {
+    "state": 2,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.912613785948395,
+    "mz": -0.8462598888557085,
+    "neighbor_alignment": 0.8945180885157924
+  },
+  {
+    "state": 3,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9060149524654398,
+    "mz": -0.8168746551331388,
+    "neighbor_alignment": 0.8922999403661046
+  },
+  {
+    "state": 3,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.942367547260042,
+    "mz": -0.894689785654916,
+    "neighbor_alignment": 0.9187631318903601
+  },
+  {
+    "state": 4,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8805850952276052,
+    "mz": -0.42760044245769874,
+    "neighbor_alignment": 0.89496816647316
+  },
+  {
+    "state": 4,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9066583372489367,
+    "mz": -0.6202161986752702,
+    "neighbor_alignment": 0.9169174720549929
+  },
+  {
+    "state": 5,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8578438828472859,
+    "mz": -0.624842283348618,
+    "neighbor_alignment": 0.8615540091730887
+  },
+  {
+    "state": 5,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9461731580530031,
+    "mz": -0.7818528285408082,
+    "neighbor_alignment": 0.940197615241041
+  },
+  {
+    "state": 6,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9353472117970338,
+    "mz": 0.5491335146090274,
+    "neighbor_alignment": 0.9468919177222744
+  },
+  {
+    "state": 6,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9253086895682072,
+    "mz": 0.770747155335408,
+    "neighbor_alignment": 0.9204501095073007
+  },
+  {
+    "state": 7,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9127367788561596,
+    "mz": 0.788807923733786,
+    "neighbor_alignment": 0.899343571592977
+  },
+  {
+    "state": 7,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9126232865745563,
+    "mz": 0.6938232739615376,
+    "neighbor_alignment": 0.9148819796011125
+  },
+  {
+    "state": 8,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8817923937062447,
+    "mz": -0.5473377163886906,
+    "neighbor_alignment": 0.9000437774142608
+  },
+  {
+    "state": 8,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9332352458806414,
+    "mz": -0.7146043406603492,
+    "neighbor_alignment": 0.9364118637481093
+  },
+  {
+    "state": 9,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9119098915019483,
+    "mz": -0.5114226377024556,
+    "neighbor_alignment": 0.9118157079675322
+  },
+  {
+    "state": 9,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9420016586767382,
+    "mz": -0.8513118913759817,
+    "neighbor_alignment": 0.9238978763384101
+  },
+  {
+    "state": 10,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8589072820929764,
+    "mz": -0.22055997626921614,
+    "neighbor_alignment": 0.9030413688937817
+  },
+  {
+    "state": 10,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9283965151129104,
+    "mz": -0.5586989667894502,
+    "neighbor_alignment": 0.9548924737026039
+  },
+  {
+    "state": 11,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8193618643314319,
+    "mz": -0.11691667047948254,
+    "neighbor_alignment": 0.825892972235642
+  },
+  {
+    "state": 11,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8798626317191492,
+    "mz": -0.6064997036788171,
+    "neighbor_alignment": 0.8858769573449117
+  },
+  {
+    "state": 12,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8567699830425558,
+    "mz": -0.6769882684837045,
+    "neighbor_alignment": 0.8606321455335718
+  },
+  {
+    "state": 12,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9705721669179075,
+    "mz": -0.8335355427276059,
+    "neighbor_alignment": 0.959045107669586
+  },
+  {
+    "state": 13,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.933996068854288,
+    "mz": -0.7882445925672874,
+    "neighbor_alignment": 0.9255136346203818
+  },
+  {
+    "state": 13,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8974924712167511,
+    "mz": -0.7219669071011191,
+    "neighbor_alignment": 0.8941082435371992
+  },
+  {
+    "state": 14,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9019017508892428,
+    "mz": 0.7553850449889944,
+    "neighbor_alignment": 0.8963654540858563
+  },
+  {
+    "state": 14,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8584488897058565,
+    "mz": 0.7825498826926718,
+    "neighbor_alignment": 0.8464471368297118
+  },
+  {
+    "state": 15,
+    "family": "tilted",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9058059186144597,
+    "mz": 0.8164105962394118,
+    "neighbor_alignment": 0.8934592271428847
+  },
+  {
+    "state": 15,
+    "family": "tilted",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.874153142619872,
+    "mz": 0.714748323971806,
+    "neighbor_alignment": 0.8674582247203114
+  },
+  {
+    "state": 16,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8737820041987344,
+    "mz": -0.3569996060552041,
+    "neighbor_alignment": 0.913645265769317
+  },
+  {
+    "state": 16,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8605897664101552,
+    "mz": -0.26509160376279395,
+    "neighbor_alignment": 0.9056511636147083
+  },
+  {
+    "state": 17,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8290185473576849,
+    "mz": -0.15086813848454644,
+    "neighbor_alignment": 0.8698409437395306
+  },
+  {
+    "state": 17,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.888717836902464,
+    "mz": -0.41721583184544164,
+    "neighbor_alignment": 0.9049859738755164
+  },
+  {
+    "state": 18,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8538398308908555,
+    "mz": -0.16720863393609148,
+    "neighbor_alignment": 0.8694579948355717
+  },
+  {
+    "state": 18,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.867798843897963,
+    "mz": -0.33948517774611564,
+    "neighbor_alignment": 0.9030703884794488
+  },
+  {
+    "state": 19,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8854463148764188,
+    "mz": -0.568661418562048,
+    "neighbor_alignment": 0.8822577470934353
+  },
+  {
+    "state": 19,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9075588487745692,
+    "mz": -0.6231964064161142,
+    "neighbor_alignment": 0.9130936244042762
+  },
+  {
+    "state": 20,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8385242433249106,
+    "mz": 0.20953426104916645,
+    "neighbor_alignment": 0.864255889566565
+  },
+  {
+    "state": 20,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8783753163440242,
+    "mz": 0.09561488543267402,
+    "neighbor_alignment": 0.9091393481052771
+  },
+  {
+    "state": 21,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8445551996764615,
+    "mz": 0.5303602590887133,
+    "neighbor_alignment": 0.8603602426397826
+  },
+  {
+    "state": 21,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8866060132994227,
+    "mz": 0.08900359531127117,
+    "neighbor_alignment": 0.894673633687205
+  },
+  {
+    "state": 22,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8976968882903598,
+    "mz": -0.17604038041045844,
+    "neighbor_alignment": 0.8951062053688287
+  },
+  {
+    "state": 22,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8244889067435046,
+    "mz": -0.11928798874133245,
+    "neighbor_alignment": 0.8398997487379279
+  },
+  {
+    "state": 23,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8739334666232756,
+    "mz": -0.38554623563582296,
+    "neighbor_alignment": 0.8689757507890401
+  },
+  {
+    "state": 23,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8701789402054477,
+    "mz": -0.3080580086316106,
+    "neighbor_alignment": 0.896126167647801
+  },
+  {
+    "state": 24,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8636447172335512,
+    "mz": 0.03521355973620684,
+    "neighbor_alignment": 0.8805316724907544
+  },
+  {
+    "state": 24,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8408425858291344,
+    "mz": -0.07656480854579116,
+    "neighbor_alignment": 0.8820143277184018
+  },
+  {
+    "state": 25,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.883354013297682,
+    "mz": 0.07970790498352137,
+    "neighbor_alignment": 0.8893857986459377
+  },
+  {
+    "state": 25,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.880530930795456,
+    "mz": -0.08996602275082227,
+    "neighbor_alignment": 0.8719115376164749
+  },
+  {
+    "state": 26,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8801514591905147,
+    "mz": 0.32963848953273595,
+    "neighbor_alignment": 0.8962860756718602
+  },
+  {
+    "state": 26,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8852797029686338,
+    "mz": 0.1554279559838065,
+    "neighbor_alignment": 0.9025929946675652
+  },
+  {
+    "state": 27,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8837976399995926,
+    "mz": 0.4969154324493731,
+    "neighbor_alignment": 0.8974837879017022
+  },
+  {
+    "state": 27,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8736019455444471,
+    "mz": 0.326226983914091,
+    "neighbor_alignment": 0.904409041456963
+  },
+  {
+    "state": 28,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8884692360255563,
+    "mz": -0.209859515751736,
+    "neighbor_alignment": 0.920884601002808
+  },
+  {
+    "state": 28,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8484371838617244,
+    "mz": -0.016338397820465204,
+    "neighbor_alignment": 0.856378704056379
+  },
+  {
+    "state": 29,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8703090430992998,
+    "mz": -0.3868032043463213,
+    "neighbor_alignment": 0.8702816343991481
+  },
+  {
+    "state": 29,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8725986820571594,
+    "mz": -0.09304638695649667,
+    "neighbor_alignment": 0.861909138400906
+  },
+  {
+    "state": 30,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8902341354295081,
+    "mz": -0.2574499488780846,
+    "neighbor_alignment": 0.9280602180270007
+  },
+  {
+    "state": 30,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.833147251111709,
+    "mz": -0.46858346062170164,
+    "neighbor_alignment": 0.8534627227625304
+  },
+  {
+    "state": 31,
+    "family": "interior_domain",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9183485078669348,
+    "mz": -0.11353720174298662,
+    "neighbor_alignment": 0.9167854200037631
+  },
+  {
+    "state": 31,
+    "family": "interior_domain",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8087859398954215,
+    "mz": -0.501112563783971,
+    "neighbor_alignment": 0.8043316406147833
+  },
+  {
+    "state": 32,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8554008360600419,
+    "mz": 0.44106306711448595,
+    "neighbor_alignment": 0.8527148564295931
+  },
+  {
+    "state": 32,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9185989333852467,
+    "mz": 0.5249512981134579,
+    "neighbor_alignment": 0.9189907766270771
+  },
+  {
+    "state": 33,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9081935332310855,
+    "mz": 0.7145705633429067,
+    "neighbor_alignment": 0.9013649993379768
+  },
+  {
+    "state": 33,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9094625804315306,
+    "mz": 0.7039511047933414,
+    "neighbor_alignment": 0.9040273491967137
+  },
+  {
+    "state": 34,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9295584513619535,
+    "mz": -0.6639981544265257,
+    "neighbor_alignment": 0.9348554201450643
+  },
+  {
+    "state": 34,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9019283032830834,
+    "mz": -0.7285462561918897,
+    "neighbor_alignment": 0.8998281048966028
+  },
+  {
+    "state": 35,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9557309319697899,
+    "mz": -0.8695718238450998,
+    "neighbor_alignment": 0.9363961428024872
+  },
+  {
+    "state": 35,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.894947916839331,
+    "mz": -0.6521625134832697,
+    "neighbor_alignment": 0.8920560855094749
+  },
+  {
+    "state": 36,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8566835534477717,
+    "mz": 0.31241724452600816,
+    "neighbor_alignment": 0.8581328160093373
+  },
+  {
+    "state": 36,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8589821920408858,
+    "mz": 0.39656797708550906,
+    "neighbor_alignment": 0.8557261867997776
+  },
+  {
+    "state": 37,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8661257845181436,
+    "mz": 0.220775714997626,
+    "neighbor_alignment": 0.8743140258685884
+  },
+  {
+    "state": 37,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9518787026941518,
+    "mz": 0.7455478274674379,
+    "neighbor_alignment": 0.941414220320856
+  },
+  {
+    "state": 38,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8809385077720259,
+    "mz": -0.23625747433947653,
+    "neighbor_alignment": 0.8762066458740019
+  },
+  {
+    "state": 38,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8463929786352241,
+    "mz": -0.1609625052009624,
+    "neighbor_alignment": 0.8444731765641034
+  },
+  {
+    "state": 39,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8890524506893853,
+    "mz": -0.35874936057797535,
+    "neighbor_alignment": 0.8922398236025995
+  },
+  {
+    "state": 39,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.886536563080947,
+    "mz": -0.38164557577755354,
+    "neighbor_alignment": 0.9119643313262564
+  },
+  {
+    "state": 40,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9042236961244533,
+    "mz": -0.22908268984266728,
+    "neighbor_alignment": 0.888791999211081
+  },
+  {
+    "state": 40,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.866224318200985,
+    "mz": -0.24873700129756532,
+    "neighbor_alignment": 0.8818988068970622
+  },
+  {
+    "state": 41,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.87827445016445,
+    "mz": -0.06442198042116415,
+    "neighbor_alignment": 0.8780071448746312
+  },
+  {
+    "state": 41,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8571897019080609,
+    "mz": -0.27508412883237715,
+    "neighbor_alignment": 0.8745646060454864
+  },
+  {
+    "state": 42,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8766162212957925,
+    "mz": -0.16252963721989871,
+    "neighbor_alignment": 0.8701290395145039
+  },
+  {
+    "state": 42,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8886406536127123,
+    "mz": 0.23216662863465026,
+    "neighbor_alignment": 0.9066117498019985
+  },
+  {
+    "state": 43,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8927885724020044,
+    "mz": -0.039039798180432426,
+    "neighbor_alignment": 0.9161147973622108
+  },
+  {
+    "state": 43,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8206149950375574,
+    "mz": 0.3762352820769127,
+    "neighbor_alignment": 0.8212116611397594
+  },
+  {
+    "state": 44,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.886499532596614,
+    "mz": -0.09310246519473189,
+    "neighbor_alignment": 0.8797380078566486
+  },
+  {
+    "state": 44,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.9328599974360936,
+    "mz": -0.2890813737177003,
+    "neighbor_alignment": 0.9153584815692396
+  },
+  {
+    "state": 45,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8156785867149019,
+    "mz": -0.09709829621635944,
+    "neighbor_alignment": 0.8014703280781209
+  },
+  {
+    "state": 45,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.9111349561180675,
+    "mz": -0.03884349050609055,
+    "neighbor_alignment": 0.9151727120895342
+  },
+  {
+    "state": 46,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8925130619101734,
+    "mz": 0.5097669895161608,
+    "neighbor_alignment": 0.900872892301875
+  },
+  {
+    "state": 46,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.30000000000000004,
+    "energy_over_NJ": -0.8842824338161003,
+    "mz": 0.43260724594955546,
+    "neighbor_alignment": 0.869726038444712
+  },
+  {
+    "state": 47,
+    "family": "single_wall",
+    "origin": "llg",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8636165049622518,
+    "mz": 0.2783694546965512,
+    "neighbor_alignment": 0.8673228953396594
+  },
+  {
+    "state": 47,
+    "family": "single_wall",
+    "origin": "model",
+    "source_time_ps": 0.8,
+    "energy_over_NJ": -0.8934142967945714,
+    "mz": 0.7000435038791709,
+    "neighbor_alignment": 0.8915270416009432
+  }
+]

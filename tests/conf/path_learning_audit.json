@@ -1,0 +1,19 @@
+{
+  "seeds": [11, 22, 33],
+  "fixed_pair_steps": 6000,
+  "fixed_pair_relative_mse_target": 0.01,
+  "oracle_max_error": 0.00001,
+  "pending_validation": [
+    "Numerical LLG reference: timestep refinement, noise/damping conventions and saved-time resolution; non-equilibrium data permitted",
+    "Initial-family/noise independence, state coverage and rare-event censoring",
+    "Short-window conditional increment distributions and temporal composition consistency",
+    "Sampling convergence must be repeated for changed models, not inherited from old checkpoints",
+    "Capacity, temporal receptive field, source correlations and symmetry restrictions: conditional follow-up after fixed-pair results",
+    "Withheld-condition response; damping is fixed in present dataset, so damping generalization cannot be assessed",
+    "Predeclare physical tolerances using independent reference uncertainty, not observed model error",
+    "Frozen final model: unseen sizes and longer horizons, event survival, basin weights, energy, spatial/time correlations and mechanisms",
+    "Effective-sample and equal-accuracy cost comparison, three-seed stability"
+  ],
+  "status": "Initial numerical and information-ablation stage only; pending items are NOT passed",
+  "information_ablation": "Remove effective field and coupling/anisotropy features while keeping unweighted chain geometry, initial state, time and theta/lambda. Same backbone; lost vector basis capacity is a caveat, so failure does not rule out data-driven models."
+}

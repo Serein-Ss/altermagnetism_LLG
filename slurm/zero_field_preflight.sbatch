@@ -11,4 +11,4 @@ cd "${1:?project root}"
 export MKL_THREADING_LAYER=GNU OMP_NUM_THREADS=1 OPENBLAS_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1
 export PYTHONDONTWRITEBYTECODE=1
 bash ../run_zrs_mag.sh scripts/config/validate_literature_configs.py
-bash ../run_zrs_mag.sh -m pytest scripts/tests -q
+bash ../run_zrs_mag.sh -m pytest tests/unit -q

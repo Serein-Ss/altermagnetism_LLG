@@ -1,0 +1,9 @@
+{
+  "tests": 4,
+  "physical_sources_verified": 18,
+  "train_parents": 6,
+  "dev_parents": 12,
+  "cpu_forward_backward_loss": 2.8234341144561768,
+  "norm_error": 5.960464477539063e-08,
+  "status": "SOFTWARE_PREFLIGHT_ONLY"
+}

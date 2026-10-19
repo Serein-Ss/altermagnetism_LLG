@@ -1,0 +1,151 @@
+{
+  "model": "w0_11",
+  "selected_step": 2,
+  "teacher": [
+    {
+      "L": 16,
+      "parent": 0,
+      "time_ps": 0.0,
+      "steps": 16,
+      "model_ref_a": {
+        "mean_increment": {
+          "raw_mse": 0.018527467904579906,
+          "sampling_variance": 0.0016663455093759612,
+          "corrected_mse": 0.016861122395203945
+        },
+        "signed_mz_increment": 0.03270448063940542,
+        "signed_power_relative": -0.1127707509982605,
+        "local_covariance_relative": 0.07216920626525933
+      },
+      "model_ref_b": {
+        "mean_increment": {
+          "raw_mse": 0.01888577175187872,
+          "sampling_variance": 0.0016127333544668013,
+          "corrected_mse": 0.01727303839741192
+        },
+        "signed_mz_increment": 0.02343375474793257,
+        "signed_power_relative": -0.11588821914214575,
+        "local_covariance_relative": 0.07825350399084266
+      },
+      "ref_b_ref_a": {
+        "mean_increment": {
+          "raw_mse": 0.0015350354114403953,
+          "sampling_variance": 0.0014713973562709432,
+          "corrected_mse": 6.36380551694521e-05
+        },
+        "signed_mz_increment": 0.009270725891472846,
+        "signed_power_relative": 0.003526101802263426,
+        "local_covariance_relative": 0.04605025599148919
+      }
+    },
+    {
+      "L": 16,
+      "parent": 0,
+      "time_ps": 0.0,
+      "steps": 64,
+      "model_ref_a": {
+        "mean_increment": {
+          "raw_mse": 0.018297242383027452,
+          "sampling_variance": 0.0017655215841498896,
+          "corrected_mse": 0.01653172079887756
+        },
+        "signed_mz_increment": 0.02248460394664683,
+        "signed_power_relative": -0.08093974638733015,
+        "local_covariance_relative": 0.08433473045223405
+      },
+      "model_ref_b": {
+        "mean_increment": {
+          "raw_mse": 0.01871297503128284,
+          "sampling_variance": 0.00171190942924073,
+          "corrected_mse": 0.01700106560204211
+        },
+        "signed_mz_increment": 0.013213878055173984,
+        "signed_power_relative": -0.08416905951713538,
+        "local_covariance_relative": 0.09218733973153394
+      },
+      "ref_b_ref_a": {
+        "mean_increment": {
+          "raw_mse": 0.0015350354114403953,
+          "sampling_variance": 0.0014713973562709432,
+          "corrected_mse": 6.36380551694521e-05
+        },
+        "signed_mz_increment": 0.009270725891472846,
+        "signed_power_relative": 0.003526101802263426,
+        "local_covariance_relative": 0.04605025599148919
+      }
+    }
+  ],
+  "paths": [
+    {
+      "L": 16,
+      "parent": 0,
+      "horizon_ps": 1.0,
+      "raw": {
+        "mz_mean": 0.022584710482038393,
+        "mz_var": 0.0034199332301814303,
+        "energy_mean": 0.009653245445238559,
+        "spatial_corr": 0.03647959573072686,
+        "temporal_corr": 0.03475766568869818,
+        "increment_mean": 0.20314600275308722,
+        "increment_cov": 0.06659930643495762,
+        "endpoint_w1": 0.022433413047110662,
+        "wall_proxy": 0.005892556509887896,
+        "path_energy_distance": 0.015656764593025216
+      },
+      "reference_floor": {
+        "mz_mean": 0.014200954089037852,
+        "mz_var": 0.002595789134991951,
+        "energy_mean": 0.007796089375093595,
+        "spatial_corr": 0.02358233178928688,
+        "temporal_corr": 0.02074545206590166,
+        "increment_mean": 0.12978842212064226,
+        "increment_cov": 0.061758139241524894,
+        "endpoint_w1": 0.016128184885019436,
+        "wall_proxy": 0.0077443364773715434,
+        "path_energy_distance": 0.009818391443391639
+      },
+      "temporal": {
+        "increment_power_relative": 0.08346794760127013,
+        "adjacent_dot_relative": 0.044231243479966126
+      },
+      "generation_seconds_10ps": 25.646328184753656
+    },
+    {
+      "L": 16,
+      "parent": 0,
+      "horizon_ps": 10.0,
+      "raw": {
+        "mz_mean": 0.03291919987066823,
+        "mz_var": 0.011974167522565027,
+        "energy_mean": 0.011341931017143448,
+        "spatial_corr": 0.0382534932023852,
+        "temporal_corr": 0.0351735429243786,
+        "increment_mean": 0.15256708983182934,
+        "increment_cov": 0.0721627175572986,
+        "endpoint_w1": 0.06868415066310263,
+        "wall_proxy": 0.00956277390010171,
+        "path_energy_distance": 0.016837924808648846
+      },
+      "reference_floor": {
+        "mz_mean": 0.0649714053909098,
+        "mz_var": 0.04772015533092741,
+        "energy_mean": 0.01028880489259315,
+        "spatial_corr": 0.04223443817514751,
+        "temporal_corr": 0.06447475055797632,
+        "increment_mean": 0.1454715154994859,
+        "increment_cov": 0.07304197309358426,
+        "endpoint_w1": 0.041849795832604286,
+        "wall_proxy": 0.012691059108605941,
+        "path_energy_distance": 0.019654760365356738
+      },
+      "temporal": {
+        "increment_power_relative": 0.10369978115795009,
+        "adjacent_dot_relative": 0.07016505420417224
+      },
+      "generation_seconds_10ps": 25.646328184753656
+    }
+  ],
+  "checkpoint_sha256": "01aacc6db3dc8475515f882c6640a22ca3e67b59afa7784172e92f592cfc30af",
+  "scientific_certification": false,
+  "note": "Previously inspected diagnostic parents; no final holdout or test selection."
+}

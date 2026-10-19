@@ -1,0 +1,350 @@
+[
+  {
+    "experiment": "auxiliary_frequency_repair",
+    "local_summary": "tests/auxiliary_frequency_repair/assets/summary.json",
+    "bytes": 2619024,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "auxiliary_update_audit",
+    "local_summary": "tests/auxiliary_update_audit/assets/summary.json",
+    "bytes": 465920,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "axial_projection_repair",
+    "local_summary": "tests/axial_projection_repair/assets/summary.json",
+    "bytes": 348715,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "axial_symmetry_repair",
+    "local_summary": "tests/axial_symmetry_repair/assets/summary.json",
+    "bytes": 277063,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "balanced_replay_repair",
+    "local_summary": "tests/balanced_replay_repair/assets/summary.json",
+    "bytes": 380341,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "bauer_comprehensive_20260923",
+    "local_summary": "tests/bauer_comprehensive_20260923/assets/summary.json",
+    "bytes": 124112,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "bauer_flow_probe_20260923",
+    "local_summary": "tests/bauer_flow_probe_20260923/assets/summary.json",
+    "bytes": 85,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "bauer_optimizer_20260923",
+    "local_summary": "tests/bauer_optimizer_20260923/assets/summary.json",
+    "bytes": 16601,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "bauer_p2_diagnostics_20260923",
+    "local_summary": "tests/bauer_p2_diagnostics_20260923/assets/summary.json",
+    "bytes": 85,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "bauer_repair_20260924",
+    "local_summary": "tests/bauer_repair_20260924/assets/summary.json",
+    "bytes": 100700,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "bauer_transport_20260923",
+    "local_summary": "tests/bauer_transport_20260923/assets/summary.json",
+    "bytes": 85,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "branch_coverage_repair",
+    "local_summary": "tests/branch_coverage_repair/assets/summary.json",
+    "bytes": 347340,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "chain_reversal_repair",
+    "local_summary": "tests/chain_reversal_repair/assets/summary.json",
+    "bytes": 1357371,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "condition_time_repair",
+    "local_summary": "tests/condition_time_repair/assets/summary.json",
+    "bytes": 41463827,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "conditional_coupling_repair",
+    "local_summary": "tests/conditional_coupling_repair/assets/summary.json",
+    "bytes": 277742,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "conditional_moment_repair",
+    "local_summary": "tests/conditional_moment_repair/assets/summary.json",
+    "bytes": 161040203,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "conditional_refinement",
+    "local_summary": "tests/conditional_refinement/assets/summary.json",
+    "bytes": 18424750,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "conditional_teacher_repair",
+    "local_summary": "tests/conditional_teacher_repair/assets/summary.json",
+    "bytes": 278331,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "continuous_axial_repair",
+    "local_summary": "tests/continuous_axial_repair/assets/summary.json",
+    "bytes": 1221162,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "cross_dimension_20260924",
+    "local_summary": "tests/cross_dimension_20260924/assets/summary.json",
+    "bytes": 2151740,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "curriculum_repair",
+    "local_summary": "tests/curriculum_repair/assets/summary.json",
+    "bytes": 16491888,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "deployment_moment_repair",
+    "local_summary": "tests/deployment_moment_repair/assets/summary.json",
+    "bytes": 671349,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "depth_capacity_repair",
+    "local_summary": "tests/depth_capacity_repair/assets/summary.json",
+    "bytes": 279852,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "empirical_transport_repair",
+    "local_summary": "tests/empirical_transport_repair/assets/summary.json",
+    "bytes": 2241339,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "family_specialization_repair",
+    "local_summary": "tests/family_specialization_repair/assets/summary.json",
+    "bytes": 466110,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "fixed_state_fit_repair",
+    "local_summary": "tests/fixed_state_fit_repair/assets/summary.json",
+    "bytes": 50173,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "flow_training_repair",
+    "local_summary": "tests/flow_training_repair/assets/summary.json",
+    "bytes": 20637550,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "full_data_decay",
+    "local_summary": "tests/full_data_decay/assets/summary.json",
+    "bytes": 12210097,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "full_training_support",
+    "local_summary": "tests/full_training_support/assets/summary.json",
+    "bytes": 4707279,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "gradient_accumulation_repair",
+    "local_summary": "tests/gradient_accumulation_repair/assets/summary.json",
+    "bytes": 385087,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "intermediate_restart_repair",
+    "local_summary": "tests/intermediate_restart_repair/assets/summary.json",
+    "bytes": 600962524,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "joint_score_repair",
+    "local_summary": "tests/joint_score_repair/assets/summary.json",
+    "bytes": 644675,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "joint_uncertainty_repair",
+    "local_summary": "tests/joint_uncertainty_repair/assets/summary.json",
+    "bytes": 7681459,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "local_condition_repair",
+    "local_summary": "tests/local_condition_repair/assets/summary.json",
+    "bytes": 378879,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "local_support_diagnosis",
+    "local_summary": "tests/local_support_diagnosis/assets/summary.json",
+    "bytes": 8562746,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "local_teacher_repair",
+    "local_summary": "tests/local_teacher_repair/assets/summary.json",
+    "bytes": 1720123,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "lr_continuation_repair",
+    "local_summary": "tests/lr_continuation_repair/assets/summary.json",
+    "bytes": 760854,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "model_state_coverage_repair",
+    "local_summary": "tests/model_state_coverage_repair/assets/summary.json",
+    "bytes": 209329,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "model_state_refresh_repair",
+    "local_summary": "tests/model_state_refresh_repair/assets/summary.json",
+    "bytes": 450319,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "model_state_replay_repair",
+    "local_summary": "tests/model_state_replay_repair/assets/summary.json",
+    "bytes": 341568,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "moment_bias_repair",
+    "local_summary": "tests/moment_bias_repair/assets/summary.json",
+    "bytes": 42779501,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "optimizer_response_repair",
+    "local_summary": "tests/optimizer_response_repair/assets/summary.json",
+    "bytes": 139008,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "readout_activation_repair",
+    "local_summary": "tests/readout_activation_repair/assets/summary.json",
+    "bytes": 420813,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "reference_resolution",
+    "local_summary": "tests/reference_resolution/assets/summary.json",
+    "bytes": 16411239,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "replay_weight_repair",
+    "local_summary": "tests/replay_weight_repair/assets/summary.json",
+    "bytes": 603451,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "sampling_balance_repair",
+    "local_summary": "tests/sampling_balance_repair/assets/summary.json",
+    "bytes": 373580,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "spatial_covariance_repair",
+    "local_summary": "tests/spatial_covariance_repair/assets/summary.json",
+    "bytes": 2614591,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "spatial_gate_repair",
+    "local_summary": "tests/spatial_gate_repair/assets/summary.json",
+    "bytes": 1026549,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "spin_path_transformer",
+    "local_summary": "tests/spin_path_transformer/assets/summary.json",
+    "bytes": 17802856,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "temporal_source_repair",
+    "local_summary": "tests/temporal_source_repair/assets/summary.json",
+    "bytes": 43548799,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "training_restart_from_scratch",
+    "local_summary": "tests/training_restart_from_scratch/assets/summary.json",
+    "bytes": 277587,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "training_restart_repair",
+    "local_summary": "tests/training_restart_repair/assets/summary.json",
+    "bytes": 408594990,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "transition_block_repair",
+    "local_summary": "tests/transition_block_repair/assets/summary.json",
+    "bytes": 153043475,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "transport_audit",
+    "local_summary": "tests/transport_audit/assets/summary.json",
+    "bytes": 3791809,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "transport_path_repair",
+    "local_summary": "tests/transport_path_repair/assets/summary.json",
+    "bytes": 21863528,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "transport_risk_audit",
+    "local_summary": "tests/transport_risk_audit/assets/summary.json",
+    "bytes": 87334,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "transport_time_weight_repair",
+    "local_summary": "tests/transport_time_weight_repair/assets/summary.json",
+    "bytes": 277775,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  },
+  {
+    "experiment": "velocity_target_repair",
+    "local_summary": "tests/velocity_target_repair/assets/summary.json",
+    "bytes": 615811,
+    "evidence": "historical diagnostic; not a certification; raw reports remain local"
+  }
+]

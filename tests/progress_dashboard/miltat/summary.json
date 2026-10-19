@@ -1,0 +1,57 @@
+{
+  "preparation": {
+    "frames": 51,
+    "time_ps": [
+      0.0,
+      50.0
+    ],
+    "max_stored_norm_error": 4.8970030475103954e-08,
+    "max_integrator_saved_norm_error": 2.220446049250313e-16,
+    "zero_core_frames": 0,
+    "min_largest_core_fraction": 1.0
+  },
+  "thermal": {
+    "frames": 1001,
+    "time_ps": [
+      0.0,
+      1000.0
+    ],
+    "max_stored_norm_error": 5.0205826496174666e-08,
+    "max_integrator_saved_norm_error": 3.3306690738754696e-16,
+    "zero_core_frames": 0,
+    "min_largest_core_fraction": 0.9788732394366197,
+    "initial_core_center_nm": [
+      24.964324324324327,
+      24.900886950243887
+    ],
+    "final_core_center_nm": [
+      32.45848333333333,
+      24.199342084445842
+    ],
+    "net_displacement_nm": 7.526923970058309,
+    "min_core_radius_nm": 1.337465885409463,
+    "max_core_radius_nm": 2.2711317340611368,
+    "min_radius_based_edge_clearance_nm": 15.23979954171621
+  },
+  "scope": "Existing single trajectory visualization, not diffusion or topology certification",
+  "core_definition": "Largest six-neighbor triangular connected component with sz>=0.5; ties use first component; no smoothing",
+  "radius_definition": "sqrt(Ncore * sqrt(3)/2 * a\u00b2 / pi); threshold area radius, not fitted wall radius",
+  "motion_warning": "Largest-component tracking may fail on splitting; no topological-charge or diffusion-coefficient claim",
+  "gif": {
+    "frames": 51,
+    "source_stride_ps": 20,
+    "fps": 8,
+    "spatial_maps": "all sites in fixed ROI at true positions",
+    "arrow_stride": 4,
+    "all_statistics_frames": 1001
+  },
+  "source_files": {
+    "thermal.h5": {
+      "bytes": 558591840
+    },
+    "preparation.h5": {
+      "bytes": 29525336
+    }
+  },
+  "parent_report_sha256": "1adeed26ea6dda2c4ac2b3fb70417ba955bdd4b45084ea74e51388686a46753a"
+}

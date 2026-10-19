@@ -26,7 +26,7 @@ TRAIN_FILES=(
 OUT="altermagnetism_LLG/output/production/production_v2/seed_$SEED"
 
 bash run_zrs_mag.sh -c 'import torch; assert torch.cuda.is_available(); print(torch.cuda.get_device_name(0))'
-bash run_zrs_mag.sh -m pytest altermagnetism_LLG/scripts/tests -q
+bash run_zrs_mag.sh -m pytest altermagnetism_LLG/tests/unit -q
 
 for MODEL in deterministic flow; do
   bash run_zrs_mag.sh -m altermagnetism_LLG.scripts.training.train     --model-type "$MODEL"     --input "${TRAIN_FILES[@]}"     --output "$OUT/$MODEL"     --epochs 50     --batch-size 1     --crop-sizes 0 0 48     --gradient-accumulation 4     --hidden 32     --blocks 4     --architecture-version 2     --patience 10     --num-workers 2     --seed "$SEED"     --device cuda

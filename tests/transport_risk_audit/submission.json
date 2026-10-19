@@ -1,0 +1,18 @@
+{
+  "gpu_array": "671614_0-2",
+  "aggregation": "671617",
+  "dependency": "afterok:671614",
+  "mapping": "index0/1/2 ->seed11/22/33; each audits before +4optimizer arms",
+  "job_name": "zrs-mag",
+  "partition": "rtx4090",
+  "estimated_minutes_each": [
+    10,
+    25
+  ],
+  "queue_excluded": true,
+  "no_monitoring_after_submission": true,
+  "result": "tests/transport_risk_audit/assets/index.html",
+  "no_new_training": true,
+  "no_promotion": true,
+  "scientific_certification": false
+}

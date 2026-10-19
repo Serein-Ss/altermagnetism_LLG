@@ -1,0 +1,109 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "restart_high",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "restart_low",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "continue_floor",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "restart_high",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "restart_low",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "continue_floor",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "restart_high",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "restart_low",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "continue_floor",
+      "updates": 6000
+    }
+  ],
+  "checkpoint_audit": [
+    {
+      "seed": 11,
+      "checkpoint": "tests/condition_time_repair/train/05/checkpoint.pt",
+      "step": 24000,
+      "loaded_lr": [
+        3e-06
+      ],
+      "adam_states": 142
+    },
+    {
+      "seed": 22,
+      "checkpoint": "tests/condition_time_repair/train/03/checkpoint.pt",
+      "step": 24000,
+      "loaded_lr": [
+        3e-06
+      ],
+      "adam_states": 142
+    },
+    {
+      "seed": 33,
+      "checkpoint": "tests/condition_time_repair/train/00/checkpoint.pt",
+      "step": 24000,
+      "loaded_lr": [
+        3e-06
+      ],
+      "adam_states": 142
+    }
+  ],
+  "stages": [
+    500,
+    1500,
+    3000,
+    6000
+  ],
+  "scope": "Bauer open L16/25/32, same physics,1ps/.1ps grid, same network/FM-only loss. Reuse native_expanded data and all reference ensembles. No new data or production changes.",
+  "design": "Three seed-blocked concurrent arms: cosine3e-4->3e-6,cosine3e-5->3e-6,constant3e-6. All start unchanged control step24000 weights and142 Adam states, not the degraded step30000 checkpoints. Same original size/parent/window sampling and same branch-refill, source and tau RNG. Only learning-rate schedule changes.6000 updates, not equal integrated learning-rate dose.",
+  "checkpoints": "Save full model,Adam,explicit/global RNG and sampling state at +500,+1500,+3000,+6000; no adaptive early stopping. Evaluate18dev parents256generated per stage with paired latent Euler128 and midpoint128; preserve all paths. Final also24seen128paths and original36dev64paths. Intermediate snapshots do not consume training RNG.",
+  "baseline": "Reuse independently stored step24000 expanded diagnostics from condition_time_repair. Intermediate comparisons use identical latent seeds and reference ensembles. Added evaluation cost reported separately.",
+  "interpretation": "Fixed final6000 result primary; intermediate trajectory is diagnostic, not retroactive final-test selection. No automatic best-model promotion or equivalence tolerance. Low LR may only preserve baseline rather than improve it. Reused dev is not an untouched test; whole-branch bootstrap100 and seed/size-separated physical metrics retained.",
+  "budget": "9GPU jobs estimated35-65min each;9fat per-run reports15-35min each;final aggregation<3min. Paired3-arm smoke1-3min, no long-job monitoring.",
+  "skills": "Karpathy isolated schedule change; experimental-design concurrent paired controls. Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

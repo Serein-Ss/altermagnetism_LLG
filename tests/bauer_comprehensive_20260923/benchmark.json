@@ -1,0 +1,56 @@
+{
+  "rows": [
+    {
+      "arm": "baseline",
+      "seconds_per_update": 0.020117148011922836,
+      "per_parent_evaluation_seconds": 1.0095666460692883,
+      "parameters": 93972
+    },
+    {
+      "arm": "wide",
+      "seconds_per_update": 0.017702663131058217,
+      "per_parent_evaluation_seconds": 1.0908346772193909,
+      "parameters": 359956
+    },
+    {
+      "arm": "local_extra",
+      "seconds_per_update": 0.01998122623190284,
+      "per_parent_evaluation_seconds": 1.07494493201375,
+      "parameters": 103580
+    },
+    {
+      "arm": "temporal",
+      "seconds_per_update": 0.018566299974918366,
+      "per_parent_evaluation_seconds": 1.075998179614544,
+      "parameters": 103580
+    },
+    {
+      "arm": "source",
+      "seconds_per_update": 0.016941159032285213,
+      "per_parent_evaluation_seconds": 0.9852834343910217,
+      "parameters": 93972
+    },
+    {
+      "arm": "temporal_source",
+      "seconds_per_update": 0.02059495560824871,
+      "per_parent_evaluation_seconds": 1.0755061842501163,
+      "parameters": 103580
+    },
+    {
+      "arm": "anchors",
+      "seconds_per_update": 0.016991666704416274,
+      "per_parent_evaluation_seconds": 0.9748268611729145,
+      "parameters": 93972
+    },
+    {
+      "arm": "global_temporal",
+      "seconds_per_update": 0.020038159750401973,
+      "per_parent_evaluation_seconds": 1.075652401894331,
+      "parameters": 103580
+    }
+  ],
+  "cache_load_seconds": 8.388069439679384,
+  "elapsed_seconds": 33.02235593274236,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "peak_cuda_bytes": 131813376
+}

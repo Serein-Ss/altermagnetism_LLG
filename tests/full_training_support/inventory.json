@@ -1,0 +1,15 @@
+{
+  "native_parents": 144,
+  "eligible_states": 1152000,
+  "queries": 72,
+  "query_sources": 18,
+  "extra_branch_states": 15360,
+  "extra_snapshot_states": 96,
+  "native_sizes": [
+    16,
+    25,
+    32
+  ],
+  "reference_lag_ps": 0.1,
+  "scope": "All currently eligible states, not an exposure trace of all historical optimizers. Native weights remain unequal; nearest distance is not probability or physical certification."
+}

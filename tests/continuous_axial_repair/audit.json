@@ -1,0 +1,1897 @@
+{
+  "all_supported": true,
+  "records": [
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent14_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.006994478323096912
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent18_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005183198425694972
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent1_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0007445695455232972
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent17_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0015361893499618968
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent20_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004962328355265726
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent13_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0028530136446120085
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent15_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002152951587469627
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent2_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002655090398560994
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent35_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0074905158140337255
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent27_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004648719382868604
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent36_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003949268795867671
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent41_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0038612833312946506
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent47_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.007558446511774321
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent25_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005039090093611048
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent44_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005219378513307568
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent43_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0036373091586637644
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent60_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002835179930825404
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent71_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.00304526731134993
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent66_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0026552991441799846
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent56_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0038535698277882757
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent49_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0013529500212441058
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent64_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0042690740114336625
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent58_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0010632114233867437
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent50_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0067770641678582344
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent79_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0037955638892451966
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent82_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.00327427666664942
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent75_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.007024098389207787
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent78_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004416305204975215
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent90_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0029419530706139884
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent95_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.006931617214123059
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent72_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.006282171228509094
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent77_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0018226090808280701
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent96_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.001978515949379625
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent107_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0024223625333179392
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent117_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005353824841262311
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent113_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0010291686500408948
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent104_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.006805762794527151
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent97_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0013474340274412418
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent114_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003580833912111764
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent105_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0005172124225512314
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent124_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004643287856974588
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent136_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002875421318191862
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent138_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0016018261718245361
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent132_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.00654045278069192
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent121_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.006326404854447583
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent141_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005642258665108899
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent123_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005163086708121649
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L16/train_parent137_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0017951059500968633
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent21_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004860015465344676
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent9_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002892267690828389
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent17_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003277436934248333
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent20_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.001731144814865258
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent4_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005240920646262433
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent1_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0028230549872070828
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent14_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0020101245144449826
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent3_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.006256818586007152
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent26_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.00045462256762628757
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent24_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004270746590210348
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent27_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004861307531900786
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent45_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005283275054455272
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent32_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.007070584296735242
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent37_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002465869132760418
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent25_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.008109921602428561
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent46_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003719570560542386
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent65_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.001998655877651333
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent70_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002028779464185862
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent53_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004250198410312253
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent55_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0024654475251687435
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent63_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0041366687907882504
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent66_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0009577103309407538
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent64_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0008639133297651311
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent48_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0016251969728417533
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent72_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003270718101963746
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent90_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0018531828014489238
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent73_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0021963358962497383
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent89_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003303282977804683
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent74_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0025498707187643936
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent93_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004272460436585483
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent76_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.001096886482669266
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent78_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004134062752475427
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent106_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003062315171302868
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent109_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0004009859436973156
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent112_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0036440818587769493
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent98_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005000423606175325
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent113_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004460906077647781
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent107_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0013107186700055701
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent101_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004308724648362159
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent116_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0035038275070937634
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent122_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0038790325847359516
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent136_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004667137188349556
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent139_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003357171822438645
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent130_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004162317069145299
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent121_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0056783782200445256
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent127_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004489580090159358
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent137_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002579115463922762
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L25/train_parent135_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003074979813491162
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent18_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0023431358413529635
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent16_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.00954958871007976
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent14_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0035558244824938213
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent17_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004872731422375884
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent12_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.009145250735197053
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent10_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004945540922434523
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent21_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003143160770444374
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent6_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.006600026370999993
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent35_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0018169037358422803
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent41_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0029929351830441132
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent42_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.008899373824257093
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent26_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0057715376139983844
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent46_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.007597107083568075
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent33_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0009969051196849733
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent28_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0023716928021032327
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent32_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0030791475552860333
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent51_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0032563602808349705
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent68_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0006962683365496874
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent60_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0014046151905114613
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent67_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002063975064784368
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent57_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0020243631421551717
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent61_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003924902496373042
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent71_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.005517917500720077
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent54_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004305000115841753
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent82_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.00306451562774355
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent87_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0032862504835924683
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent76_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.00136858379127444
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent88_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0008544277421955503
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent93_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0013872789788084952
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent84_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004022671292951745
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent91_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0038741198177108917
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent74_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004969481710234787
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent111_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0014102533061178591
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent100_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.009961924419284066
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent117_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.003936496479123406
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent110_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0006049854515480801
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent105_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0031778319465655767
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent119_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0072176460560677905
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent109_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0035014956652005998
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent106_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.00219170221694694
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent134_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.00642420271165477
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent127_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0038623162077472553
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent141_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004252085690813334
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent125_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002637761911492527
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent123_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.004135268398967138
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent138_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.002831990126486943
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent124_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.001908464821725673
+    },
+    {
+      "source": "tests/bauer_active_data_20260918/data/L32/train_parent133_base.h5",
+      "states_including_related_duplicates": 8000,
+      "minimum_total_transverse": 0.0022245020029698116
+    },
+    {
+      "source": "train_bank_role0_state0",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.18457781322972672
+    },
+    {
+      "source": "train_bank_role0_state1",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.4021270763985689
+    },
+    {
+      "source": "train_bank_role0_state2",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.37836641083932254
+    },
+    {
+      "source": "train_bank_role0_state3",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.640818904467235
+    },
+    {
+      "source": "train_bank_role0_state4",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.8718039082753921
+    },
+    {
+      "source": "train_bank_role0_state5",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8907347977098523
+    },
+    {
+      "source": "train_bank_role0_state6",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.250332355751952
+    },
+    {
+      "source": "train_bank_role0_state7",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.19595986788530095
+    },
+    {
+      "source": "train_bank_role0_state8",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.3695504522632476
+    },
+    {
+      "source": "train_bank_role0_state9",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.2930774908775664
+    },
+    {
+      "source": "train_bank_role0_state10",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.9846444908380905
+    },
+    {
+      "source": "train_bank_role0_state11",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.49716789854841514
+    },
+    {
+      "source": "train_bank_role0_state12",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.763301128811579
+    },
+    {
+      "source": "train_bank_role0_state13",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.029024399782780208
+    },
+    {
+      "source": "train_bank_role0_state14",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.7674741172361497
+    },
+    {
+      "source": "train_bank_role0_state15",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8497784790951046
+    },
+    {
+      "source": "train_bank_role0_state16",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.7261877570006776
+    },
+    {
+      "source": "train_bank_role0_state17",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.8659576458894291
+    },
+    {
+      "source": "train_bank_role0_state18",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.4665665699680968
+    },
+    {
+      "source": "train_bank_role0_state19",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.7562645233364975
+    },
+    {
+      "source": "train_bank_role0_state20",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.49127440633535735
+    },
+    {
+      "source": "train_bank_role0_state21",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.6579866363515885
+    },
+    {
+      "source": "train_bank_role0_state22",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.4123982664939272
+    },
+    {
+      "source": "train_bank_role0_state23",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.6389381430587158
+    },
+    {
+      "source": "train_bank_role0_state24",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.7984605158343854
+    },
+    {
+      "source": "train_bank_role0_state25",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8083387522482184
+    },
+    {
+      "source": "train_bank_role0_state26",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.233710004624144
+    },
+    {
+      "source": "train_bank_role0_state27",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.6943641968999084
+    },
+    {
+      "source": "train_bank_role0_state28",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.6017941350756182
+    },
+    {
+      "source": "train_bank_role0_state29",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.982774413266708
+    },
+    {
+      "source": "train_bank_role0_state30",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.6123756296390259
+    },
+    {
+      "source": "train_bank_role0_state31",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.08151100003883605
+    },
+    {
+      "source": "train_bank_role0_state32",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.3728337995349311
+    },
+    {
+      "source": "train_bank_role0_state33",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.3756207190010388
+    },
+    {
+      "source": "train_bank_role0_state34",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.07798138846796815
+    },
+    {
+      "source": "train_bank_role0_state35",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.008609414529937647
+    },
+    {
+      "source": "train_bank_role0_state36",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.7969776528590691
+    },
+    {
+      "source": "train_bank_role0_state37",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.9460741203158067
+    },
+    {
+      "source": "train_bank_role0_state38",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.298570092140913
+    },
+    {
+      "source": "train_bank_role0_state39",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.61864134677585
+    },
+    {
+      "source": "train_bank_role0_state40",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.0890589275180676
+    },
+    {
+      "source": "train_bank_role0_state41",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.20410951521798915
+    },
+    {
+      "source": "train_bank_role0_state42",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.2507130190174596
+    },
+    {
+      "source": "train_bank_role0_state43",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8730649883192003
+    },
+    {
+      "source": "train_bank_role0_state44",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.3072774541317423
+    },
+    {
+      "source": "train_bank_role0_state45",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.45093115606605316
+    },
+    {
+      "source": "train_bank_role0_state46",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.851325339234583
+    },
+    {
+      "source": "train_bank_role0_state47",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.25099021892997353
+    },
+    {
+      "source": "train_bank_role1_state0",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.19982252173469583
+    },
+    {
+      "source": "train_bank_role1_state1",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8985427305966263
+    },
+    {
+      "source": "train_bank_role1_state2",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.0385954353484246
+    },
+    {
+      "source": "train_bank_role1_state3",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.2572005199696703
+    },
+    {
+      "source": "train_bank_role1_state4",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8975328381017569
+    },
+    {
+      "source": "train_bank_role1_state5",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.4316284269453041
+    },
+    {
+      "source": "train_bank_role1_state6",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.1099476829836232
+    },
+    {
+      "source": "train_bank_role1_state7",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.9098584940921666
+    },
+    {
+      "source": "train_bank_role1_state8",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8295529854784618
+    },
+    {
+      "source": "train_bank_role1_state9",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.3786945985613104
+    },
+    {
+      "source": "train_bank_role1_state10",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.2421695837822302
+    },
+    {
+      "source": "train_bank_role1_state11",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.3426913923699568
+    },
+    {
+      "source": "train_bank_role1_state12",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.317484524295371
+    },
+    {
+      "source": "train_bank_role1_state13",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.5821140730669372
+    },
+    {
+      "source": "train_bank_role1_state14",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.7013664432830204
+    },
+    {
+      "source": "train_bank_role1_state15",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.6422401901750059
+    },
+    {
+      "source": "train_bank_role1_state16",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.6618566348252344
+    },
+    {
+      "source": "train_bank_role1_state17",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.6090111968864287
+    },
+    {
+      "source": "train_bank_role1_state18",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.3586994146677283
+    },
+    {
+      "source": "train_bank_role1_state19",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.5225351754808363
+    },
+    {
+      "source": "train_bank_role1_state20",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8730880213255887
+    },
+    {
+      "source": "train_bank_role1_state21",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.4197775909433936
+    },
+    {
+      "source": "train_bank_role1_state22",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.0163361644417046
+    },
+    {
+      "source": "train_bank_role1_state23",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.5076191671167756
+    },
+    {
+      "source": "train_bank_role1_state24",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.7083355762346781
+    },
+    {
+      "source": "train_bank_role1_state25",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.9855005586228751
+    },
+    {
+      "source": "train_bank_role1_state26",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.6201092505831494
+    },
+    {
+      "source": "train_bank_role1_state27",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.2232816091112149
+    },
+    {
+      "source": "train_bank_role1_state28",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.42413740671430167
+    },
+    {
+      "source": "train_bank_role1_state29",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.18913109611205559
+    },
+    {
+      "source": "train_bank_role1_state30",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8382810100957254
+    },
+    {
+      "source": "train_bank_role1_state31",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.552704160944626
+    },
+    {
+      "source": "train_bank_role1_state32",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.4306628297418409
+    },
+    {
+      "source": "train_bank_role1_state33",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.3818099110527452
+    },
+    {
+      "source": "train_bank_role1_state34",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.592342366753001
+    },
+    {
+      "source": "train_bank_role1_state35",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.7028969647208827
+    },
+    {
+      "source": "train_bank_role1_state36",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.9984490966241966
+    },
+    {
+      "source": "train_bank_role1_state37",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.9501149301391241
+    },
+    {
+      "source": "train_bank_role1_state38",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.35526386879117616
+    },
+    {
+      "source": "train_bank_role1_state39",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.0293556109079844
+    },
+    {
+      "source": "train_bank_role1_state40",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.11675281819598755
+    },
+    {
+      "source": "train_bank_role1_state41",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.7226370552335306
+    },
+    {
+      "source": "train_bank_role1_state42",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8327871634532678
+    },
+    {
+      "source": "train_bank_role1_state43",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.5503850440437867
+    },
+    {
+      "source": "train_bank_role1_state44",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.30022244403779696
+    },
+    {
+      "source": "train_bank_role1_state45",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.3704831656243137
+    },
+    {
+      "source": "train_bank_role1_state46",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.10746297465401916
+    },
+    {
+      "source": "train_bank_role1_state47",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.5078314814452922
+    },
+    {
+      "source": "train_bank_role2_state0",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.15691579164866498
+    },
+    {
+      "source": "train_bank_role2_state1",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.0307254762005276
+    },
+    {
+      "source": "train_bank_role2_state2",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.020063677294885
+    },
+    {
+      "source": "train_bank_role2_state3",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.2533370553828397
+    },
+    {
+      "source": "train_bank_role2_state4",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.797262612899186
+    },
+    {
+      "source": "train_bank_role2_state5",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.31384933879506616
+    },
+    {
+      "source": "train_bank_role2_state6",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.297279215996423
+    },
+    {
+      "source": "train_bank_role2_state7",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.9083560096674868
+    },
+    {
+      "source": "train_bank_role2_state8",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8741278913956816
+    },
+    {
+      "source": "train_bank_role2_state9",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.2920049456796303
+    },
+    {
+      "source": "train_bank_role2_state10",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.287468972705985
+    },
+    {
+      "source": "train_bank_role2_state11",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.30637764923787536
+    },
+    {
+      "source": "train_bank_role2_state12",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.2500449010772812
+    },
+    {
+      "source": "train_bank_role2_state13",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.625906183201903
+    },
+    {
+      "source": "train_bank_role2_state14",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.7388558847229982
+    },
+    {
+      "source": "train_bank_role2_state15",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.6733896796717058
+    },
+    {
+      "source": "train_bank_role2_state16",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.704341630078205
+    },
+    {
+      "source": "train_bank_role2_state17",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.9782491268423121
+    },
+    {
+      "source": "train_bank_role2_state18",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.515228294497992
+    },
+    {
+      "source": "train_bank_role2_state19",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.4540164304084895
+    },
+    {
+      "source": "train_bank_role2_state20",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.9339907413030168
+    },
+    {
+      "source": "train_bank_role2_state21",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.4360389443304857
+    },
+    {
+      "source": "train_bank_role2_state22",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.8873276474654468
+    },
+    {
+      "source": "train_bank_role2_state23",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.4686384854287065
+    },
+    {
+      "source": "train_bank_role2_state24",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.7424991716196505
+    },
+    {
+      "source": "train_bank_role2_state25",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.5703278739028557
+    },
+    {
+      "source": "train_bank_role2_state26",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.5173911980105409
+    },
+    {
+      "source": "train_bank_role2_state27",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.7265838643413502
+    },
+    {
+      "source": "train_bank_role2_state28",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.3790201955289623
+    },
+    {
+      "source": "train_bank_role2_state29",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.4269907298803879
+    },
+    {
+      "source": "train_bank_role2_state30",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.1102734234021945
+    },
+    {
+      "source": "train_bank_role2_state31",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.6727157973073741
+    },
+    {
+      "source": "train_bank_role2_state32",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.36927358202749105
+    },
+    {
+      "source": "train_bank_role2_state33",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.3558122535214601
+    },
+    {
+      "source": "train_bank_role2_state34",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.6190304694784514
+    },
+    {
+      "source": "train_bank_role2_state35",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.7798312310550743
+    },
+    {
+      "source": "train_bank_role2_state36",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.8706009025208594
+    },
+    {
+      "source": "train_bank_role2_state37",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.978701929881295
+    },
+    {
+      "source": "train_bank_role2_state38",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.41969838452424013
+    },
+    {
+      "source": "train_bank_role2_state39",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.9887964826758715
+    },
+    {
+      "source": "train_bank_role2_state40",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.11832311733332605
+    },
+    {
+      "source": "train_bank_role2_state41",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.7705970137404752
+    },
+    {
+      "source": "train_bank_role2_state42",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.6623442224220266
+    },
+    {
+      "source": "train_bank_role2_state43",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.5709840765734748
+    },
+    {
+      "source": "train_bank_role2_state44",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.3158333958321118
+    },
+    {
+      "source": "train_bank_role2_state45",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 1.4666574061813087
+    },
+    {
+      "source": "train_bank_role2_state46",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.09829722046669888
+    },
+    {
+      "source": "train_bank_role2_state47",
+      "states_including_related_duplicates": 64,
+      "minimum_total_transverse": 0.4987776615769952
+    },
+    {
+      "source": "dev_intermediate0",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.6392403725893623
+    },
+    {
+      "source": "dev_intermediate1",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.7121889571014817
+    },
+    {
+      "source": "dev_intermediate2",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.7119061425293441
+    },
+    {
+      "source": "dev_intermediate3",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.26983868490274104
+    },
+    {
+      "source": "dev_intermediate12",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.19245405509172142
+    },
+    {
+      "source": "dev_intermediate13",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.5447694221861153
+    },
+    {
+      "source": "dev_intermediate14",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.210616599720872
+    },
+    {
+      "source": "dev_intermediate15",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.160356833996788
+    },
+    {
+      "source": "dev_intermediate24",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.9869572998590728
+    },
+    {
+      "source": "dev_intermediate25",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.436066004735504
+    },
+    {
+      "source": "dev_intermediate26",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.9964871023483615
+    },
+    {
+      "source": "dev_intermediate27",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.5297578804152127
+    },
+    {
+      "source": "dev_intermediate36",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.0898886413539526
+    },
+    {
+      "source": "dev_intermediate37",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.14499697534574704
+    },
+    {
+      "source": "dev_intermediate38",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.3758610584153734
+    },
+    {
+      "source": "dev_intermediate39",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.7813684999573358
+    },
+    {
+      "source": "dev_intermediate48",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.1994115825462132
+    },
+    {
+      "source": "dev_intermediate49",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.1646397290966734
+    },
+    {
+      "source": "dev_intermediate50",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.8355182235140566
+    },
+    {
+      "source": "dev_intermediate51",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.14302904767223
+    },
+    {
+      "source": "dev_intermediate60",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.6918675457983355
+    },
+    {
+      "source": "dev_intermediate61",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.20114134797698408
+    },
+    {
+      "source": "dev_intermediate62",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.7321650780792247
+    },
+    {
+      "source": "dev_intermediate63",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.801084828798665
+    },
+    {
+      "source": "dev_intermediate72",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.5957210253012791
+    },
+    {
+      "source": "dev_intermediate73",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.4524733648014634
+    },
+    {
+      "source": "dev_intermediate74",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.8448012697630563
+    },
+    {
+      "source": "dev_intermediate75",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.1956826952971888
+    },
+    {
+      "source": "dev_intermediate84",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.444610843217778
+    },
+    {
+      "source": "dev_intermediate85",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.32113586905767416
+    },
+    {
+      "source": "dev_intermediate86",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.25729568489494686
+    },
+    {
+      "source": "dev_intermediate87",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.6916267786008896
+    },
+    {
+      "source": "dev_intermediate96",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.07723608239499308
+    },
+    {
+      "source": "dev_intermediate97",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.8650996596123524
+    },
+    {
+      "source": "dev_intermediate98",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.08403069551821739
+    },
+    {
+      "source": "dev_intermediate99",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.08025390358879612
+    },
+    {
+      "source": "dev_intermediate108",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.5100025025854921
+    },
+    {
+      "source": "dev_intermediate109",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.5404565001126287
+    },
+    {
+      "source": "dev_intermediate110",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.46247413755155686
+    },
+    {
+      "source": "dev_intermediate111",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.17304797502244462
+    },
+    {
+      "source": "dev_intermediate120",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.7557115717176126
+    },
+    {
+      "source": "dev_intermediate121",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.9418490197214768
+    },
+    {
+      "source": "dev_intermediate122",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.24024936820588907
+    },
+    {
+      "source": "dev_intermediate123",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.41337421980685
+    },
+    {
+      "source": "dev_intermediate132",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.23258813737701772
+    },
+    {
+      "source": "dev_intermediate133",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.951525323917361
+    },
+    {
+      "source": "dev_intermediate134",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.0566742326048146
+    },
+    {
+      "source": "dev_intermediate135",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.0201930029675024
+    },
+    {
+      "source": "dev_intermediate144",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.9198091730033873
+    },
+    {
+      "source": "dev_intermediate145",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.43088775786712014
+    },
+    {
+      "source": "dev_intermediate146",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.20629234748592426
+    },
+    {
+      "source": "dev_intermediate147",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.2666213474581977
+    },
+    {
+      "source": "dev_intermediate156",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.6515849774839397
+    },
+    {
+      "source": "dev_intermediate157",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.9585291762543742
+    },
+    {
+      "source": "dev_intermediate158",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.67370569149558
+    },
+    {
+      "source": "dev_intermediate159",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.6657498519725755
+    },
+    {
+      "source": "dev_intermediate168",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.15663973709178178
+    },
+    {
+      "source": "dev_intermediate169",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.42762878164528784
+    },
+    {
+      "source": "dev_intermediate170",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.839564166580409
+    },
+    {
+      "source": "dev_intermediate171",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.3966822513661164
+    },
+    {
+      "source": "dev_intermediate180",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.18047876573949817
+    },
+    {
+      "source": "dev_intermediate181",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.0419055800758551
+    },
+    {
+      "source": "dev_intermediate182",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.1184265103528348
+    },
+    {
+      "source": "dev_intermediate183",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.4991500994535746
+    },
+    {
+      "source": "dev_intermediate192",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.4267182158518799
+    },
+    {
+      "source": "dev_intermediate193",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.1155707119553682
+    },
+    {
+      "source": "dev_intermediate194",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.24129143412195167
+    },
+    {
+      "source": "dev_intermediate195",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.5397957914248434
+    },
+    {
+      "source": "dev_intermediate204",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.44041652575583
+    },
+    {
+      "source": "dev_intermediate205",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.3145002370050515
+    },
+    {
+      "source": "dev_intermediate206",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.167755366671296
+    },
+    {
+      "source": "dev_intermediate207",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.153722653358422
+    },
+    {
+      "source": "dev_initial_parent00",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.5307888962464125
+    },
+    {
+      "source": "dev_initial_parent01",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.4261665344594034
+    },
+    {
+      "source": "dev_initial_parent02",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.3529206233487803
+    },
+    {
+      "source": "dev_initial_parent03",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.0379613458371433
+    },
+    {
+      "source": "dev_initial_parent04",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.010777706263536732
+    },
+    {
+      "source": "dev_initial_parent05",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.04032231481797902
+    },
+    {
+      "source": "dev_initial_parent06",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.8709991731681765
+    },
+    {
+      "source": "dev_initial_parent07",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.1926681772142325
+    },
+    {
+      "source": "dev_initial_parent08",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.025764058491950792
+    },
+    {
+      "source": "dev_initial_parent09",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.15730920233219325
+    },
+    {
+      "source": "dev_initial_parent10",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.014384939657902693
+    },
+    {
+      "source": "dev_initial_parent11",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.04877639882715773
+    },
+    {
+      "source": "dev_initial_parent12",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.4836254598318881
+    },
+    {
+      "source": "dev_initial_parent13",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 1.4881977784285887
+    },
+    {
+      "source": "dev_initial_parent14",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.2569917116455121
+    },
+    {
+      "source": "dev_initial_parent15",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.007674928355147718
+    },
+    {
+      "source": "dev_initial_parent16",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.012324892709224544
+    },
+    {
+      "source": "dev_initial_parent17",
+      "states_including_related_duplicates": 1,
+      "minimum_total_transverse": 0.07451067351886925
+    }
+  ],
+  "global_minimum": 0.0004009859436973156,
+  "scope": "Eligible native TRAIN frame0:1000,all available extra TRAIN banks and reused DEV initial/LLG states; no untouched test inspected. Duplicate/related states are not independent coverage samples. Future rollout states checked at runtime."
+}

@@ -34,9 +34,9 @@ def main():
     for name in ("scripts","GUIDE"):
         shutil.copytree(ROOT/name,code/name,ignore=shutil.ignore_patterns("__pycache__","*.pyc",".pytest_cache","archive"))
     for name in ("registry.yaml","altermagnet_gomonay2024/protocol.candidate.yaml"):
-        target=code/"data" / "datasets" / "standard_v3"/name
+        target=code/"conf" / "research" / "datasets" / "standard_v3"/name
         target.parent.mkdir(parents=True,exist_ok=True)
-        shutil.copy2(ROOT/"data" / "datasets" / "standard_v3"/name,target)
+        shutil.copy2(ROOT/"conf" / "research" / "datasets" / "standard_v3"/name,target)
     shutil.copy2(ROOT.parent/"run_zrs_mag.sh",snapshot/"run_zrs_mag.sh")
     batch=ROOT/"slurm"/"archive"/output.name/"guide_thermal_audit.sbatch"
     batch.parent.mkdir(parents=True)

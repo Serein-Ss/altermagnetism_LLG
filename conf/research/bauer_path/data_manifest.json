@@ -1,0 +1,32 @@
+{
+  "native": "data/research/datasets/bauer_open_chain/native",
+  "conditional_states_per_origin": 48,
+  "refill_sources": 24,
+  "checkpoints": [
+    {
+      "seed": 11,
+      "step": 130240,
+      "file": "output/development/bauer_path/step130240/seed11/checkpoint.pt",
+      "source": "tests/local_teacher_repair/train/00/checkpoint.pt",
+      "sha256": "b1e6fcde856438ab3235a2bc569389093f49aaf93b0edbe2ec7bc37ee5b9d477",
+      "scientific_certification": false
+    },
+    {
+      "seed": 22,
+      "step": 130240,
+      "file": "output/development/bauer_path/step130240/seed22/checkpoint.pt",
+      "source": "tests/local_teacher_repair/train/02/checkpoint.pt",
+      "sha256": "b5f69ecb96330ff737f88d01a8cd0c965e5fcac6e633fa7c1f5a2229cedf4005",
+      "scientific_certification": false
+    },
+    {
+      "seed": 33,
+      "step": 130240,
+      "file": "output/development/bauer_path/step130240/seed33/checkpoint.pt",
+      "source": "tests/local_teacher_repair/train/04/checkpoint.pt",
+      "sha256": "f8b5808f72329e90d46a569ed59263ff40e53111b2d03df9cdb9a172cd4061b0",
+      "scientific_certification": false
+    }
+  ],
+  "status": "datasets stay local; frozen originals retained as test evidence; active entrypoints use data/ and output/"
+}

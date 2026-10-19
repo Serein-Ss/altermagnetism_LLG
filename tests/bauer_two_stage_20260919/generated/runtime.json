@@ -1,0 +1,580 @@
+{
+  "measurements": [
+    {
+      "stage": "initial",
+      "L": 16,
+      "count": 64,
+      "seconds": 0.18758194893598557,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 16,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 27.512765053659678,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 16,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.671773731708527,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 16,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.69295684993267,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 16,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.676327038556337,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 16,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.714449260383844,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 16,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.68787994980812,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 16,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.694105751812458,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 16,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.687560226768255,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 16,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.716235902160406,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 16,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.694310806691647,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 16,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.681746762245893,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 16,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 26.661478497087955,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "initial",
+      "L": 25,
+      "count": 64,
+      "seconds": 0.2219657562673092,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 25,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.483725745230913,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 25,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.45533910393715,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 25,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.495747819542885,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 25,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.439705312252045,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 25,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.479184698313475,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 25,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.446152728050947,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 25,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.44730207696557,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 25,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.343816209584475,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 25,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.373176369816065,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 25,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.30130783095956,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 25,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.314842395484447,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 25,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 31.284011732786894,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "initial",
+      "L": 32,
+      "count": 64,
+      "seconds": 0.21201838925480843,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 32,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 28.895306833088398,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 32,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 28.942434396594763,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 32,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 29.30401871353388,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 32,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 29.04686749726534,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 32,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 29.007050815969706,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 32,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 28.840610697865486,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 32,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 29.235852785408497,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 32,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 29.052052784711123,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 32,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 29.03783417493105,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 32,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 28.855716854333878,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 32,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 29.214657839387655,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 32,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 29.059216283261776,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "initial",
+      "L": 50,
+      "count": 64,
+      "seconds": 0.2517779991030693,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 50,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.792901150882244,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 50,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.58915949985385,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 50,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.65679856389761,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 50,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.612096190452576,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 50,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.697068370878696,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 50,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.59516233205795,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 50,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.670596454292536,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 50,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.6079636849463,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 50,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.657911989837885,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 50,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.605556182563305,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 50,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.64913468807936,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 50,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 33.609781980514526,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "initial",
+      "L": 100,
+      "count": 64,
+      "seconds": 0.38861843198537827,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 100,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.01270568743348,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 100,
+      "parent": 0,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.0400864854455,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 100,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.03506949171424,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 100,
+      "parent": 1,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.06470625475049,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 100,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.033490996807814,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 100,
+      "parent": 2,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.040270030498505,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 100,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.02641545236111,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 100,
+      "parent": 3,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.039178881794214,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 100,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.02509356290102,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 100,
+      "parent": 4,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.02816719934344,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "RG",
+      "L": 100,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.02403602749109,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    },
+    {
+      "stage": "GG",
+      "L": 100,
+      "parent": 5,
+      "branches": 16,
+      "duration_ps": 100.0,
+      "seconds": 40.0365388058126,
+      "gpu": "NVIDIA GeForce RTX 3090"
+    }
+  ],
+  "speed_scope": "Raw GPU throughput with host transfer, no claim of accuracy-matched speedup"
+}

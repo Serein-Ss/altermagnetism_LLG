@@ -1,0 +1,31 @@
+{
+  "jobs": [
+    {
+      "domain": "miltat",
+      "id": "670678",
+      "array": "1,6,7,8,9,11,13,19,25",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--time=01:30:00",
+        "--array=1,6,7,8,9,11,13,19,25",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/cross_dimension_20260924/job.sh"
+      ]
+    },
+    {
+      "domain": "toy",
+      "id": "670679",
+      "array": "0,2,3,4,5,10,12,14,15,16,17,18,20,21,22,23,24,26",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--time=00:45:00",
+        "--array=0,2,3,4,5,10,12,14,15,16,17,18,20,21,22,23,24,26",
+        "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/cross_dimension_20260924/job.sh"
+      ]
+    }
+  ],
+  "oracle": "670677",
+  "runtime_plan": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/cross_dimension_20260924/runtime_plan.json",
+  "report": "670680"
+}

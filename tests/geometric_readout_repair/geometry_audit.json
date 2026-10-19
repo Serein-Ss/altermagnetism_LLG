@@ -1,0 +1,172 @@
+{
+  "records": [
+    {
+      "seed": 11,
+      "tau": 0.1,
+      "coefficients": [
+        0.009249667932113594,
+        0.0020336807071359322
+      ],
+      "validation_before": 0.020790919769989397,
+      "validation_after": 0.020761939968392908,
+      "fraction_reduced": 0.001393868184625474
+    },
+    {
+      "seed": 11,
+      "tau": 0.3,
+      "coefficients": [
+        0.013600681293748439,
+        0.00028125812219167686
+      ],
+      "validation_before": 0.05192857781741689,
+      "validation_after": 0.051851052112827346,
+      "fraction_reduced": 0.0014929294782946897
+    },
+    {
+      "seed": 11,
+      "tau": 0.5,
+      "coefficients": [
+        0.007959935545106156,
+        -0.001975925943383569
+      ],
+      "validation_before": 0.32108242490906697,
+      "validation_after": 0.3210303188980541,
+      "fraction_reduced": 0.00016228235172825273
+    },
+    {
+      "seed": 11,
+      "tau": 0.7,
+      "coefficients": [
+        0.011898035116137167,
+        -0.001326190923413884
+      ],
+      "validation_before": 0.609033648832195,
+      "validation_after": 0.6089912887194874,
+      "fraction_reduced": 6.955299233279539e-05
+    },
+    {
+      "seed": 11,
+      "tau": 0.9,
+      "coefficients": [
+        -0.0003849402460239916,
+        -0.0013410403790027241
+      ],
+      "validation_before": 0.6561491578692894,
+      "validation_after": 0.6561491110102228,
+      "fraction_reduced": 7.141526597260547e-08
+    },
+    {
+      "seed": 22,
+      "tau": 0.1,
+      "coefficients": [
+        0.0025806665791460095,
+        0.004833559053890834
+      ],
+      "validation_before": 0.020208968044221273,
+      "validation_after": 0.020203577924015958,
+      "fraction_reduced": 0.00026671922057181435
+    },
+    {
+      "seed": 22,
+      "tau": 0.3,
+      "coefficients": [
+        0.007890214896240018,
+        0.0014247989645316112
+      ],
+      "validation_before": 0.05205342118050294,
+      "validation_after": 0.05202530378663795,
+      "fraction_reduced": 0.0005401641857023983
+    },
+    {
+      "seed": 22,
+      "tau": 0.5,
+      "coefficients": [
+        0.008832540734110782,
+        0.0020818834710168246
+      ],
+      "validation_before": 0.3224701082180272,
+      "validation_after": 0.32241926276382193,
+      "fraction_reduced": 0.00015767493764374938
+    },
+    {
+      "seed": 22,
+      "tau": 0.7,
+      "coefficients": [
+        0.002474158403903378,
+        0.0013415175898018237
+      ],
+      "validation_before": 0.61024618780946,
+      "validation_after": 0.6102483825846607,
+      "fraction_reduced": -3.596540616780745e-06
+    },
+    {
+      "seed": 22,
+      "tau": 0.9,
+      "coefficients": [
+        -0.0005795391408981996,
+        0.0017753181681159163
+      ],
+      "validation_before": 0.6563515721654565,
+      "validation_after": 0.6563469471966158,
+      "fraction_reduced": 7.0464809361606725e-06
+    },
+    {
+      "seed": 33,
+      "tau": 0.1,
+      "coefficients": [
+        0.004573106728467944,
+        0.0036489941268539805
+      ],
+      "validation_before": 0.021358302752085192,
+      "validation_after": 0.021346536084393727,
+      "fraction_reduced": 0.0005509177310596793
+    },
+    {
+      "seed": 33,
+      "tau": 0.3,
+      "coefficients": [
+        0.011651333915397511,
+        0.005644615431044951
+      ],
+      "validation_before": 0.05310649059633923,
+      "validation_after": 0.05303825763660127,
+      "fraction_reduced": 0.0012848327760272048
+    },
+    {
+      "seed": 33,
+      "tau": 0.5,
+      "coefficients": [
+        0.016122218612821503,
+        0.008338814591097815
+      ],
+      "validation_before": 0.3229615151110063,
+      "validation_after": 0.32282424772878643,
+      "fraction_reduced": 0.00042502705677697437
+    },
+    {
+      "seed": 33,
+      "tau": 0.7,
+      "coefficients": [
+        0.011216674608902114,
+        0.006658139426435605
+      ],
+      "validation_before": 0.6100321097563042,
+      "validation_after": 0.6099896454418026,
+      "fraction_reduced": 6.960996613534805e-05
+    },
+    {
+      "seed": 33,
+      "tau": 0.9,
+      "coefficients": [
+        0.0009906060894367167,
+        0.003347040265793106
+      ],
+      "validation_before": 0.6560912139330555,
+      "validation_after": 0.6560848353867339,
+      "fraction_reduced": 9.722041975437092e-06
+    }
+  ],
+  "seconds": 26.745479218661785,
+  "estimand": "Empirical TRAIN teacher residual; coefficients fitrep0,testrep1 freshlatents;not unseenparent physics",
+  "scientific_certification": false
+}

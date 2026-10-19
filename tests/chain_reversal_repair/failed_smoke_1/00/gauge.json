@@ -1,0 +1,27 @@
+{
+  "anchor_weight_min": 0.01612633280456066,
+  "selected_total_transverse_min": 0.008609414100646973,
+  "smooth_equal_weight_probe": [
+    {
+      "eps": 0.01,
+      "input_norm": 0.012000572867691517,
+      "velocity_difference": 0.010200698859989643
+    },
+    {
+      "eps": 0.001,
+      "input_norm": 0.001199960708618164,
+      "velocity_difference": 0.001019777380861342
+    },
+    {
+      "eps": 0.0001,
+      "input_norm": 0.0001199722319142893,
+      "velocity_difference": 0.00010219190153293312
+    },
+    {
+      "eps": 1e-05,
+      "input_norm": 1.1992833606200293e-05,
+      "velocity_difference": 1.0213724635832477e-05
+    }
+  ],
+  "scope": "TRAIN anchor coverage and synthetic continuity, not physical-path accuracy or global smoothness certification."
+}

@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-29",
+  "job_name": "zrs-mag",
+  "gpu": {"job_id": 671232, "array": "0-5", "partition": "rtx4090", "estimated_minutes_each": [20, 60]},
+  "coverage": {"job_id": 671233, "array": "0-2", "partition": "fat", "estimated_minutes_each": [10, 30]},
+  "statistics": {"job_id": 671241, "array": "0-5", "partition": "fat", "dependency": "afterok:671232"},
+  "web": {"job_id": 671242, "partition": "fat", "dependency": "afterany:671241:671233"},
+  "gpu_mapping": [[0,11,"low_lr"],[1,11,"higher_lr"],[2,22,"low_lr"],[3,22,"higher_lr"],[4,33,"low_lr"],[5,33,"higher_lr"]],
+  "output_root": "tests/fixed_state_fit_repair",
+  "main_web": "tests/index.html#fixed-state-fit-repair",
+  "monitoring": "Stop long-job monitoring after accepted submissions; wait for user notification.",
+  "scientific_certification": false
+}

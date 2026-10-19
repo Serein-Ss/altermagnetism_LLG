@@ -1,0 +1,45 @@
+{
+  "score": 5.0194514228700875,
+  "parents": [
+    {
+      "parent_id": "L16_parent145",
+      "L": 16,
+      "family": "positive",
+      "mz_mean": 0.13301374032250696,
+      "mz_var": 0.014215312845380535,
+      "energy_mean": 0.09180182071884178,
+      "spatial_corr": 0.20849283953163247,
+      "temporal_corr": 0.12251668687272953,
+      "increment_mean": 0.1975088507583014,
+      "increment_cov": 0.09682422631495109,
+      "endpoint_w1": 0.1737129608518444,
+      "wall_proxy": 0.008238092110201344,
+      "path_energy_distance": 0.24362048381920232,
+      "increment_power_relative": 0.7300695866590532,
+      "adjacent_dot_relative": 0.294338523584564
+    }
+  ],
+  "score_scales": {
+    "mz_mean": 0.05,
+    "mz_var": 0.02,
+    "energy_mean": 0.05,
+    "spatial_corr": 0.05,
+    "temporal_corr": 0.05,
+    "increment_mean": 0.05,
+    "increment_cov": 0.02,
+    "endpoint_w1": 0.1,
+    "wall_proxy": 0.05,
+    "path_energy_distance": 0.15,
+    "increment_power_relative": 0.1,
+    "adjacent_dot_relative": 0.1
+  },
+  "note": "Development ranking heuristic, not a physical equivalence threshold",
+  "single_step_mean": [
+    {
+      "raw_mse": 0.02537067403643865,
+      "sampling_variance": 0.003833463836112893,
+      "corrected_mse": 0.021537210200325757
+    }
+  ],
+  "path_score": 2.8657304028375123
+}

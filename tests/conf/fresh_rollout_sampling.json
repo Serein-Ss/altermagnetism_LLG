@@ -1,0 +1,6 @@
+{
+  "flow_steps": [32, 64],
+  "generation_batch": 64,
+  "latent_base": 1200000000,
+  "scope": "Frozen director24000 EMA checkpoints on fresh initial bank; no fitting. Midpoint32 primary with paired midpoint64 numerical check at full duration0.8. Save all paths. No certification or speedup claim from completion."
+}

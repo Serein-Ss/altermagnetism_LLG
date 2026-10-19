@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-02",
+  "gpu_array": "671465",
+  "statistics_array": "671471",
+  "aggregate": "671472",
+  "array": "0-5",
+  "gpu_partition": "rtx4090",
+  "statistics_partition": "fat",
+  "job_name": "zrs-mag",
+  "runtime_estimate_per_gpu": "2-3h including full generation/evaluation,queue excluded",
+  "monitoring": "Stop after acceptance;user will notify completion",
+  "preflight": {
+    "reference": "671459",
+    "gpu": "671460",
+    "statistics": "671462",
+    "aggregate": "671464",
+    "software_passed": true,
+    "reference_equivalence_certified": false
+  },
+  "formal_results": "tests/axial_symmetry_repair/assets/index.html"
+}

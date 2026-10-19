@@ -1,0 +1,16 @@
+architecture: hierarchical_spin_path_transformer
+width: 64
+depth: 4
+regional_cells: 4
+global_latents: 8
+physical_frames: 2
+frame_times_ps: [0.0, 0.1]
+source: normalize_gaussian_plus_2S0
+source_shift: 2.0
+boundary: [false]
+temperature_K: 63.824849668
+symmetry: joint_SO3_plus_Bauer_axial_SO2_and_chain_order_reversal
+anchor_sites: [0, 1, -2, -1]
+minimum_pair_transverse_weight: 1.0e-12
+checkpoint_contract: chain_reversal_repair
+physical_accuracy_certified: false

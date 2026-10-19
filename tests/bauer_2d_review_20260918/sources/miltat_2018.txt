@@ -1,0 +1,872 @@
+                                                                             Brownian motion of magnetic domain walls and skyrmions,
+                                                                                          and their diffusion constants
+                                                                                      Jacques Miltat,∗ Stanislas Rohart, and Andr´e Thiaville
+                                                                                        Laboratoire de Physique des Solides, Universit´e Paris-Sud,
+                                                                               Universit´e Paris-Saclay, CNRS, UMR 8502, F-91405 Orsay Cedex, France
+                                                                                                         (Dated: October 8, 2018)
+                                                                       Extended numerical simulations enable to ascertain the diffusive behavior at finite temperatures
+                                                                    of chiral walls and skyrmions in ultra-thin model Co layers exhibiting symmetric - Heisenberg - as
+                                                                    well as antisymmetric - Dzyaloshinskii-Moriya - exchange interactions. The Brownian motion of
+                                                                    walls and skyrmions is shown to obey markedly different diffusion laws as a function of the damping
+arXiv:1806.03172v1 [cond-mat.mes-hall] 8 Jun 2018
+
+
+
+
+                                                                    parameter. Topology related skyrmion diffusion suppression with vanishing damping parameter,
+                                                                    albeit already documented, is shown to be restricted to ultra-small skyrmion sizes or, equivalently,
+                                                                    to ultra-low damping coefficients, possibly hampering observation.
+
+
+                                                                        I.    INTRODUCTION                                                             z
+                                                                                                                                                           L
+                                                       The prospect of ultra-small stable information bits in                  wS
+                                                    magnetic layers in presence of the Dzyaloshinskii-Moriya                                                    x
+                                                    (DM) interaction [1] combined to the expectation of their
+                                                    minute current propagation [2], notably under spin-orbit
+                                                                                                                                        tS             q                   a)
+                                                    torques [3], builds up a new paradigm in information
+                                                    technology. In stacks associating a metal with strong                                          q
+                                                    spin-orbit interactions e.g. Pt and a ferromagnetic metal
+                                                    such as Co, that may host isolated skyrmions, large do-
+                                                    main wall velocities have also been forecast [4] and ob-
+                                                    served [5]. The DM interaction induces chiral magnetiza-
+                                                    tion textures, walls or skyrmions, that prove little prone                                                             b)
+                                                    to transformations of their internal structure, hence their
+                                                    extended stability and mobility.                                    FIG. 1. a) Wall within a narrow stripe: wS is the stripe width,
+                                                       In order, however, to achieve low propagation cur-               tS its thickness. The stripe element length L is solely defined
+                                                    rents, steps will need to be taken towards a reduction              for computational purposes. q is the wall displacement; b)
+                                                    of wall- or skyrmion-pinning. Recent experimental stud-             snapshot of the magnetization distribution: color coding after
+                                                    ies indicate that skyrmions fail to propagate for cur-              mx . The wall region mx ≈ 1 appears red. Thermal fluctua-
+                                                    rents below a threshold roughly equal to 2 1011 Am−2 for            tions are visible within domains: T = 25 K, wS = 100 nm,
+                                                    [Pt/Co/Ta]n and [Pt/CoFeB/MgO]n multilayers [6], or                 tS = 0.6 nm, α = 0.5.
+                                                    2.5 1011 Am−2 for [Pt/(Ni/Co/Ni)/Au/(Ni/Co/Ni)/Pt]
+                                                    symmetrical bilayers [7]. Only in one seldom instance did
+                                                    the threshold current fall down to about 2.5 1010 Am−2
+                                                    for a [Ta/CoFeB/TaO] stack, still probably, however, one
+                                                    order of magnitude higher than currents referred to in              law is shown to be valid over a broad range of damp-
+                                                    simulation work applying to perfect samples [8].                    ing parameter values. The thermal diffusion of domain
+                                                       In a wall within a Co stripe 50 nm wide, 3 nm thick, the         walls seems to have attracted very little attention, ex-
+                                                    number of spins remains large, typically 216 for a 5 nm             cept for walls in 1D, double potential, structurally un-
+                                                    wide wall. A skyrmion within a Co monolayer (ML) over               stable, lattices [11], a source of direct inspiration for
+                                                    Pt or Ir, on the other hand, contains a mere 250 spins,             the title of this contribution. Chiral magnetic domain
+                                                    say 28 . Assuming that a sizeable reduction of pinning              walls are found below to behave classically with a mobil-
+                                                    might somehow be achieved, then a tiny structure such               ity inversely proportional to the damping parameter. As
+                                                    as a skyrmion is anticipated to become sensitive, if not            shown earlier [12, 13], such is not the case for skyrmions,
+                                                    extremely sensitive, to thermal fluctuations.                       a behavior shared by magnetic vortices [14]. Vortices and
+                                                       In this work, we show, on the basis of extended nu-              skyrmions in ferromagnetic materials are both charac-
+                                                    merical simulations, that both chiral walls and skyrmions           terized by a definite topological signature. In contradis-
+                                                    within ferromagnets obey a diffusion law in their Brow-             tinction, skyrmions in antiferromagnetic compounds are
+                                                    nian motion at finite temperature [9, 10]. The diffusion            characterized by opposite sign spin textures on each sub-
+                                                                                                                        lattice, with, as a result, a classical, wall-like, dependence
+                                                                                                                        of their diffusion constant [15]. Lastly, ferrimagnets do
+                                                                                                                        display reduced skyrmion Hall angles [16], most likely
+                                                    ∗   jacques.miltat@u-psud.fr                                        conducive to modified diffusion properties.
+                                                                                                                                        2
+
+         II.   DOMAIN WALL DIFFUSION
+                                                                                  Wall Position [nm]
+                                                                                   25
+  We examine here, within the micromagnetic frame-
+work, the Langevin dynamics of an isolated domain wall
+within a ferromagnetic stripe with thickness tS , width                            20
+wS and finite length L (see Fig. 1). The wall is located                                                         Δt
+at mid-position along the stripe at time t = 0. Thermal
+                                           ~ Rd uncorrelated                       15
+noise is introduced via a stochastic field H
+in space, time and component-wise, with zero mean and
+variance η proportional to the Gilbert damping parame-                             10
+ter α and temperature T [17] :                                                             q
+
+                       hH~ Rd i = ~0                                                5
+                 j
+      i
+    hHRd (~r, t)HRd   (r~0 , t0 )i = η δij δ(~r − r~0 )δ(t − t0 )   (1)
+                                 2kB T                                              0
+                             η=          α                                          487                   488                 489
+                                γ0 µ0 MS                                                                               Time [ns]
+
+where, kB is Boltzmann constant, µ0 and γ0 are the vac-
+uum permability and gyromagnetic ratio, respectively,                     FIG. 2. Excerpt of a wall trace displaying wall position fluctu-
+MS the saturation magnetization. Written as such, the                     ations vs time: T = 77 K, α = 0.5, wS = 100 nm, tS = 0.6 nm.
+functions δ(~r − r~0 ) and δ(t − t0 ) have the dimension of               q is the wall displacement during time interval ∆t.
+reciprocal volume and time, respectively. Applied to nu-
+merical simulations, the variance of the stochastic field
+becomes η = γ0 µ2k    BT
+                             α, where V is the computation                fined as the average position owing to :
+                   0 MS V dt
+cell volume and dt the integration time step.                                                          PNx PNy
+                                                                                              L         i=1     j=1mz (i, j)
+                                                                                          q=                                          (2)
+                                                                                             Nx Ny      [hmz iL − hmz iR ]
+                 A.      Simulation results                               where, i and j are the computation cell indices, Nx and
+                                                                          Ny the number of cells along the length and the width
+   The full set of numerical simulations has been per-                    of the stripe, respectively, hmz iL is the fluctuations aver-
+formed by means of an in-house code ported to graph-                      aged value of the z magnetization component far left of
+ical processing units (GPU’s). Double precision has                       the domain wall, hmz iR the average value of mz far right.
+been used throughout and the GPU-specific version of                      Regardless of sign, hmz iR and hmz iL are expected to be
+the ”Mersenne twister” [18] served as a source of long-                   equal in the absence of any Hz field.
+sequence pseudo-random numbers generator.                                    Fig. 2 displays the position as a function of time of a
+   Material parameters have been chosen such as to mimic                  wall within a wS = 100 nm wide stripe immersed in a
+a 3-ML Co layer (thickness tS = 0.6 nm) on top of Pt                      T = 77 K temperature bath. A 2 ns physical time win-
+with an exchange constant equal to A = 10−11 J/m, a                       dow has been extracted from a simulation set to run for
+Ms = 1.09 106 A/m saturation magnetization, a Ku =                        1.5 µs. The figure shows short term wall position fluc-
+1.25 106 J/m3 uniaxial anisotropy constant allowing for                   tuations superimposed onto longer time diffusion. Ac-
+a perpendicular easy magnetization axis within domains,                   cording to Einstein’s theory of Brownian motion [9], the
+and a moderate-to-high DM interaction (DMI) constant                      probability P (x, t) of finding a particle at position x at
+DDM = 2 mJ/m2 . In order to temper the neglect of short                   time t obeys the classical diffusion equation ∂t P (x, t) =
+wavelength excitations [19], the cell size has been kept                  D ∂x22 P (x, t) with, as a√solution, a normal (gaussian) dis-
+down to Lx = Ly = 1 nm, whilst Lz = tS = 0.6 nm.                          tribution P (x, t) = 1/ 4πDt exp(−x2 /4Dt), where D is
+The stripe length has been kept fixed at L = 1 µm,                        the diffusion constant.
+a value compatible with wall excursions within the ex-                       So does the raw probability of finding a (stiff) wall in
+plored temperature range. The latter has, for reasons                     a narrow stripe at position q after a time interval ∆t, as
+to be made clear later, been restricted to ≈ 1/3 of the                   shown in Fig. 3 (see Fig. 2 for variable definition). It
+presumed Curie temperature for this model Co layer. Fi-                   ought to be mentioned that the average wall displace-
+nally, the integration time constant, also the fluctuating                ment hq(∆t)i is always equal to 0, with an excellent ac-
+field refresh time constant, has been set to dt = 25 fs.                  curacy, provided the overall computation time is large
+   As shown by the snapshot displayed in Fig. 1b, the wall                enough. The fit to a normal distribution proves rather
+may acquire some (moderate) curvature and/or slanting                     satisfactory, with, however, as seen in Fig. 3, a slightly
+during its Brownian motion. Because wall diffusion is                     increasing skewness in the distributions as a function of
+treated here as a 1D problem, the wall position q is de-                  increasing ∆t. Skewness, however, 1) remains moderate
+                                                                                                                                                                                                 3
+
+          4                                                4
+  2 10                                             2 10                                                    2   2                                               2   -1
+                                                                                                     < q > [nm ]                                      D [nm ns ]
+  N             Δt = 0.2 ns                        N             Δt = 0.5 ns
+                                                                                                     300
+          4                                                4
+ 1.5 10                                           1.5 10                                                                                              30
+                                                                                                     250
+
+  1 10
+          4
+                                                   1 10
+                                                           4                                                                     150° K
+                                                                                                     200
+                                                                                                                                      120° K          20
+
+          3                                                3                                         150
+  5 10                                             5 10
+                                                                                                                                          77° K
+                                                                                                     100
+                                                                                                                                                      10
+      0                                                0                                                                              50° K
+       -30        -20   -10   0   10    20   30         -30        -20   -10   0   10    20   30      50
+                         q - <q> [nm]                                     q - <q> [nm]                                             25° K
+         4                                                4
+  2 10                                             2 10
+                                                                                                       0                                              0
+  N             Δt = 1.0 ns                        N             Δt = 2.0 ns                               0   1    2        3       4
+                                                                                                                                     Δt [ns]
+                                                                                                                                                  5        0            50        100
+                                                                                                                                                                                        T [K]
+                                                                                                                                                                                                150
+
+ 1.5 10
+         4
+                                                  1.5 10
+                                                          4                                                             a)                                                   b)
+
+
+  1 10
+         4
+                                                   1 10
+                                                          4
+                                                                                                    FIG. 4. a) Variance hq 2 i (nm2 ) of the wall displacement vs
+                                                                                                    time interval ∆t with temperature T as a parameter. Thick
+  5 10
+         3
+                                                   5 10
+                                                          3                                         lines represent a linear fit to data; b) Diffusion constant D
+                                                                                                    as a function of temperature (square full symbols). D is pro-
+      0                                                0
+                                                                                                    portional to the slope of the hq 2 i vs ∆t curves in Fig.4a (see
+          -30     -20   -10   0   10    20   30            -30     -20   -10   0   10    20   30    text for details). The error bars are deduced from the slopes
+                         q - <q> [nm]                                     q - <q> [nm]
+                                                                                                    of straight lines through the origin that encompass all data
+                                                                                                    points in Fig.4a for a given temperature and the fit time
+FIG. 3. Wall within stripe: event statistics with time interval                                     bracket, 1 − 5 ns. For the sake of legibility, the error bars
+∆t as a parameter; α = 0.5, wS = 100 nm, tS = 0.6 nm,                                               have been moved-up by 2.5 units. Continuous line: linear
+T = 25K. The continuous blue lines are fits to a gaussian                                           fit through the origin. The dashed line is the analytical ex-
+distribution, the variance of which increases with ∆t.                                              pectation in the ”low” noise limit. α = 0.5, wS = 100 nm,
+                                                                                                    tS = 0.6 nm.
+
+
+up to ∆t values typically equal to 5 − 10 ns, 2) is seen to                                         ~0. For a 1D wall, the Thiele equation simply reads :
+reverse sign with time interval (compare Fig. 3b and c),
+excluding intrinsic biasing. The distributions standard                                                                            αDxx vx = Fx                                                 (4)
+deviation is clearly seen to increase with increasing ∆t.
+   Alternatively, one may represent the variance hq 2 i                                             where, Dxx = µ0γM
+                                                                                                                           R ∂m
+                                                                                                                       0
+                                                                                                                         S
+                                                                                                                             ( ~ )2 d3 r.
+                                                                                                                            V ∂x
+(hqi = 0) as a function of the time interval ∆t : if diffu-                                           The calculation proceeds in two steps, first evaluate
+sion applies, then a linear dependence is expected, with                                            the force, hence, according to Eqn.4, the velocity auto-
+a 2D slope for a one-dimensional diffusion. Fig.4a shows,                                           correlation functions, then integrate vs time in order to
+for various temperatures, that a linear law is indeed ob-                                           derive hq 2 i. The force, per definition, is equal to minus
+served. Lastly, as shown in Fig.4b, the diffusion constant                                          the partial derivative of the energy E w.r.t.
+increases linearly with increasing temperature. The er-                                                                                          R the displace-
+                                                                                                    ment q, namely Fx = − ∂E        =   −µ 0 M S
+                                                                                                                                                    ∂m
+                                                                                                                                                     ~
+                                                                                                                                                       ·H~ d3 r.
+ror bars measuring the departure from strict linearity in                                                                       ∂q                V ∂x
+
+Fig.4a remain limited in extent. For the stripe width                                               Formally,
+and damping parameter considered here (wS = 100 nm,                                                 hFx (t)Fx (t0 )i = (µ0 MS )2 ×                                 (5)
+α = 0.5), the ratio of diffusion constant to temperature                                            *Z                                                              +
+is found to amount to D/T = 0.187 nm2 ns−1 K−1 .                                                                                         ~ r~0 , t ) ~ ~0 0 3 0
+                                                                                                                                                  0
+                                                                                                                                    Z
+                                                                                                          ∂ m(~
+                                                                                                            ~ r, t) ~            3     ∂ m(
+                                                                                                                     · H(~r, t) d r                 · H(r , t ) d r
+                                                                                                       V     ∂x                      V    ∂x
+
+                 B.      Wall diffusion constant (analytical)                                       As noticed earlier [14], since the random field noise is
+                                                                                                    ”multiplicative” [17], moving the magnetization vector
+                                                                                                    out of the average brackets is, strictly speaking, not al-
+   Thiele’s equation [20] states that a magnetic texture                                            lowed, unless considering the magnetization vector to
+moves at constant velocity ~v provided the equilibrium of                                           only marginally differ from its orientation and modulus
+3 forces be satisfied:                                                                              in the absence of fluctuations (the so-called ”low” noise
+                                                                                                    limit [14]):
+                                   ~ × ~v + αD~v = F~
+                                   G                                                          (3)
+                                                                                                    hFx (t)Fx (t0 )i = (µ0 MS )2 ×                                        (6)
+where, F~ is the applied force, F~G = G×~
+                                      ~ v is the gyrotropic                                         Z X"                                                            #
+                                                                                                             ∂mi (~r, t) ∂mj (r~0 , t0 ) D                         E
+       ~                   ~
+force, G the gyrovector, FD = αD~v the dissipation force,                                                                                  Hi (~r, t)Hj (r~0 , t0 ) d3 r d3 r0
+                                                                                                     V i,j         ∂x       ∂x
+D the dissipation dyadic.
+  For the DMI hardened N´eel wall considered here : G  ~ =                                          If due account is being taken of the fully uncorrelated
+                                                                                                                                                               4
+
+character of the thermal field (Eqn.1), the force auto-                    2
+                                                                  D [nm ns ]
+                                                                               -1                                            2
+                                                                                                                 D /T [nm ns K ]
+                                                                                                                                  -1   -1
+
+correlation function becomes:                                     75                                              1
+                                                                                              w = 25 nm
+                                                                                                  S
+           hFx (t)Fx (t0 )i = 2αkB T Dxx δ(t − t0 )         (7)
+                                                                                                                0.75
+                                                                  50
+The velocity auto-correlation function follows  from                                          w = 50 nm
+                                         Rt                                                       S
+Eqn.4. Lastly, time integration (q(t) = 0 vx (t0 )dt0 )                                                          0.5
+
+yields :                                                          25
+                                                                                                                0.25
+                                               kB T                                          w = 100 nm
+             hq 2 (t)i = 2Dt      ;      D=                 (8)                               S
+
+                                               αDxx
+                                                                   0                                              0
+                                                                       0        50          100           150          0   0.01   0.02        0.03    0.04   0.05
+In order to relate the diffusion constant to a more directly                                      T [K]                                                      -1
+                                                                                                                                                     1/w [nm ]
+                                                                                       a)                                                b)             S
+recognizable wall mobility, Dxx may be expanded as :
+                            µ0 MS 2wS tS                          FIG. 5. a) Diffusion constant D as a function of temperature
+                   Dxx =                                    (9)
+                              γ0   ∆T                             with the stripe width wS as a parameter (full symbols); b)
+                                                                  D/T as a function of the inverse of the stripe width. α = 0.5,
+where, ∆T has been called the Thiele wall width (implic-          tS = 0.6 nm, throughout. Solid blue lines: linear fit through
+itly defined in [21]). D may thus be expressed as :               the origin, dashed line: analytical expectation.
+                        kB T   1 γ 0 ∆T
+                 D=                                        (10)
+                       2µ0 MS wS tS α                             between simulation and theoretical values is found to be
+thus, proportional to the wall mobility γ0 ∆T /α.                 of the order of ≈ 20%.
+   A directly comparable result may be obtained after                Owing to Eqn.10, D is expected to prove inversely pro-
+constructing a full Langevin equation from the (q, φ)             portional to both the stripe width wS and the Gilbert
+equations of domain wall motion (Slonczewski’s equa-              damping parameter α, a behavior confirmed by simula-
+tions [22]), where φ is the azimuthal magnetization angle         tions. Fig.5a displays the computed values of the dif-
+in the wall mid-plane. In this context, the wall mobility         fusion coefficient as a function of temperature with the
+is µW = γ0 ∆/α, where ∆ is the usual wall width, inci-            stripe width as a parameter, whilst Fig.5b states the lin-
+dentally equal to the Thiele wall width in the case of a          ear behavior of D vs wS −1 . The slope proves, however,
+pure Bloch wall. The Langevin equation [10] here reads:           some 13.5% higher than anticipated from Eqn.10. Lastly,
+                                                                  the 1/α dependence is verified in Fig.6 showing the com-
+                                                                  puted variation of D vs temperature with α as a param-
+                  
+                    
+ 
+    mD         d2 q 2   1 2µ0 Ms       d q2
+        w S tS        +          wS tS      = kB T (11)           eter for a narrow stripe (wS = 25 nm) as well as the
+     2           dt2    2 µW             dt
+                                                                  corresponding α dependence of D/T . The dotted line
+              oring’s wall mass density (kg/m2 ):
+where, mD is D¨                                                   represents Eqn.10 without any adjusting parameter. The
+                                                                  relative difference between simulation data and theoret-
+                                         −2
+                                                                  ical expectation is beyond, say α = 0.25, seen to grow
+                            
+                                  γ0               1
+         mD = 1 + α2
+                        
+                                                           (12)   with increasing α but also appears to be smaller for a
+                                2µ0 Ms         π | DDM |
+                                                                  narrow stripe as compared to wider tracks.
+an expression valid in the limit | DDM | KEff =                     Altogether, simulation results only moderately depart
+Ku − 12 µ0 Ms2 . Note that the DMI constant DDM ex-               from theoretical predictions. The Brownian motion of
+plicitly enters the expression of the wall mass, as a con-        a DMI-stiffened wall in a track clearly proves diffusive.
+sequence of the wall structure stiffening by DMI. In the          The diffusion constant is classically proportional to the
+stationary regime, hq 2 i is proportional to time t and the       wall mobility and inversely proportional to the damping
+wall diffusion constant exactly matches Eqn.10, after sub-        parameter. Unsurprisingly, the smaller the track width,
+stitution of ∆T by ∆. Finally, the characteristic time for        the larger the diffusion constant. In order to provide an
+the establishment of stationary motion is:                        order of magnitude,
+                                                                                √        the diffusion induced displacement
+                                                                  expectation, 2D∆t, for a wall sitting in a 100 nm-wide,
+                                  1 γ0 ∆                          pinning-free, track for 25 ns at T = 300 K proves essen-
+                   t0 = m D                                (13)
+                                2µ0 Ms α                          tially equal to ± the stripe width.
+For the parameters of our model 3-ML Co layer on top
+        oring’s mass density is equal to ∼ 3 10−8 kg/m2
+of Pt, D¨
+for α = 0.5, and the characteristic time amounts to                                 III.    SKYRMION DIFFUSION
+t0 ' 25 ps. Still for α = 0.5, wS = 100 nm and
+tS = 0.6 nm, D/T amounts to 0.153 nm2 ns−1 K−1 for                  Outstanding observations, by means of Spin Polarized
+∆T = 4.13 nm, i.e. the value computed from a properly             Scanning Tunneling Microscopy, have revealed the exis-
+converged wall profile at T = 0. The relative difference          tence of isolated, nanometer size, skyrmions in ultra-thin
+                                                                                                                                                                                    5
+
+          2    -1                                                     2       -1    -1
+D [nm ns ]                                                 D /T [nm ns K ]                                    (%)
+200                                                        10
+              α = 0.05
+                                                                                                                  20
+175                      α = 0.075                                                        w = 100 nm
+                                                                                              S
+                                 α = 0.125                 8
+150                                                                  w = 50 nm
+                                                                          S                                       10
+125                                                        6
+                                                                                          w = 25 nm
+                                        α = 0.25                                              S
+100                                                                                                               0
+                                                           4
+ 75                                          α = 0.5
+                                                                                                                  -10
+ 50
+                                                           2
+ 25                                          α = 0.8                                                              -20
+
+  0                                                        0
+      0       20     40          60     80           100        0   0.2       0.4             0.6   0.8       1
+                                             T [K]                                                        α
+                            a)                                                           b)
+
+
+FIG. 6. a) Diffusion constant D as a function of temperature
+with the damping constant α as a parameter (wS = 25 nm,
+tS = 0.6 nm). Solid blue lines: linear fit through the ori-
+gin; b) D/T (large semi-open symbols) as a function of α for
+wS = 25 nm and tS = 0.6 nm; dotted blue curve: analyt-                                                                  FIG. 8. Example of skyrmion trajectory. Distances in atomic
+ical expectation. Full symbols: relative difference between                                                             units (1 at.u. = 2.51 ˚
+                                                                                                                                              A). The trajectory started at the origin
+computational and analytical results (%).                                                                               of coordinates at time t = 0 and stopped at the cross location
+                                                                                                                        at physical time t ≈ 100 ns. T = 25 K, α = 1.
+
+
+
+                                                                                                                        ters are: lattice constant a = 2.51 A     ˚, magnetic mo-
+                                                                                                                        ment µAt = 2.1 µB /atom, Heisenberg exchange nearest
+                                                                                                                        neighbor constant J = 29 meV/bond, Dzyaloshinskii-
+                                                                                                                        Moriya exchange d = −1.5 meV/bond, magnetocrys-
+                                                                                                                        talline anisotropy 0.4 meV/atom. The stochastic field
+                                                                                                                        is still defined by Eqn.1 after substitution of the prod-
+                                                                                                                        uct MS V by the magnetic moment per atom. The code
+                                                                                                                        features full magnetostatic (dipole-dipole) interactions.
+                                                                                                                        Fast Fourier Transforms implementation ensues from the
+                                                                                                                        decomposition of the triangular lattice into two rectangu-
+                                                                                                                        lar sublattices, at the expense of a multiplication of the
+FIG. 7. a) Snapshot of a skyrmion immersed in a 12.5 K
+                                                                                                                        number of dipole-dipole interaction coefficients. Lastly,
+temperature bath (α = 0.5), together with the underlying                                                                the base time step, also the stochastic field refresh time,
+lattice. Red cells: sz ≈ +1, blue cells: sz ≈ −1. The white                                                             has been given a low value in view of the small atomic
+cross indicates the barycenter of lattice site positions satisfy-                                                       volume, namely dt = 2.5 fs for α ≥ 0.1, dt = 1 fs below.
+ing sz ≥ 0.5.                                                                                                           Time steps that small may be deemed little compatible
+                                                                                                                        with the white thermal noise hypothesis [17]. They are in
+                                                                                                                        fact dictated by the requirement for numerical stability,
+films such as a PdFe bilayer on an Ir(1111) single crystal                                                              primarily w.r.t. exchange interactions.
+substrate [23] [24]. We analyse below the thermal motion                                                                   Fig.7 is a snapshot of an isolated skyrmion in the
+of skyrmions in a model system made of a Co ML on top                                                                   model Co ML with a temperature raised to 12.5 K. The
+of Pt(111). We deal with skyrmions with a diameter of                                                                   skyrmion is at the center of a 200 at. u.- i.e. ≈ 50 nm-size
+about 2.5 nm containing at T = 0 about 250 spins.                                                                       square computation window, that contains 46400 spins
+                                                                                                                        and is allowed to move with the diffusing skyrmion. Do-
+                                                                                                                        ing so alleviates the computation load without restricting
+                                 A.     Simulation results                                                              the path followed by the skyrmion. Free boundary con-
+                                                                                                                        ditions (BC’s) apply. The window, however, proves suffi-
+   In order to monitor the Brownian motion of an iso-                                                                   ciently large to render the confining potential created by
+lated skyrmion, rather than micromagnetics, it is pre-                                                                  BC’s ineffective. The skyrmion position as a function of
+ferred to simulate the thermal agitation of classical                                                                   time is defined simply as the (iso)barycenter of the con-
+spins, ~s (| s |= 1), on a triangular lattice. Lat-                                                                     tiguous lattice site positions x(k), y(k), where sz ≥ 0.5:
+tice effects and frequency cutoffs in thermal excitations
+are thus avoided. Such simulations have already been                                                                                         K                 K
+used e.g. for the determination of the barrier to col-                                                                                     1 X               1 X
+                                                                                                                                  qxSk =       x(k) ; qySk =     y(k)            (14)
+lapse of an isolated skyrmion [25, 26]. The parame-                                                                                        K                 K
+                                                                                                                                             k=1                  k=1
+                                                                                                                                                                                                                                 6
+
+ N
+ 8 10
+        4
+
+                                                            4
+                                                                N
+                                                                8 10
+                                                                       4
+
+                                                                                                                           4
+                                                                                                                                       2
+                                                                                                                                < q > [at.u. ]
+                                                                                                                                                 2                                              2
+                                                                                                                                                                                       D [nm ns ]
+                                                                                                                                                                                                     -1
+
+ 7 10
+        4   Δt = 0.2 ns                              7 10
+                                                                7 10
+                                                                       4   Δt = 0.5 ns                              7 10
+                                                            4                                                              4
+                                                                                                                                4000                                                   20
+        4                                            6 10              4                                            6 10
+ 6 10                                                           6 10
+                                                            4                                                              4                                        50° K
+        4                                            5 10              4                                            5 10
+ 5 10                                                           5 10
+                                                            4                                                              4
+        4                                            4 10              4                                            4 10        3000
+ 4 10                                                           4 10
+                                                            4                                                              4
+        4                                            3 10              4                                            3 10
+ 3 10                                                           3 10
+                                                            4                                                              4
+                                                     2 10                                                           2 10
+ 2 10
+        4
+                                                                2 10
+                                                                       4
+                                                                                                                                2000                                                   10
+                                                     1 10
+                                                            4
+                                                                                                                    1 10
+                                                                                                                           4                                           25° K
+        4                                                              4
+ 1 10                                                           1 10
+                                                     0                                                              0
+    0                                                              0                                                                                                   12.5° K
+                                                                                                                                1000
+              -50                  0            50                           -50                  0            50
+                    q         - <q > [at. u.]                                      q         - <q > [at. u.]                                                              4.2° K
+                        x,y       x,y                                                  x,y       x,y
+ N
+ 8 10
+        4
+                                                                N
+                                                                8 10
+                                                                       4
+
+                                                                                                                           4      0                                                     0
+        4   Δt = 1.0 ns                              7 10
+                                                            4
+                                                                7 10
+                                                                       4   Δt = 2.0 ns                              7 10
+                                                                                                                                       0     1         2        3     4            5        0             25        50           75
+ 7 10
+                                                            4                                                              4                                          Δt [ns]                                            T [K]
+                                                     6 10                                                           6 10
+ 6 10
+        4
+                                                                6 10
+                                                                       4                                                                                   a)                                                  b)
+                                                            4                                                              4
+        4                                            5 10              4                                            5 10
+ 5 10                                                           5 10
+                                                            4                                                              4
+        4                                            4 10              4                                            4 10
+ 4 10                                                           4 10
+        4                                            3 10
+                                                            4
+                                                                       4                                            3 10
+                                                                                                                           4   FIG. 10. a) Variance (at.u.2 ) of the skyrmion displacement
+ 3 10                                                           3 10
+        4                                            2 10
+                                                            4
+                                                                       4                                            2 10
+                                                                                                                           4   hq 2 i vs time interval ∆t with temperature T as a parameter.
+ 2 10                                                           2 10
+        4                                            1 10
+                                                            4
+                                                                       4                                            1 10
+                                                                                                                           4   Thick and dashed lines represent a linear fit to data with
+ 1 10                                                           1 10
+                                                     0                                                              0
+                                                                                                                               different time coverage, namely [0.25 − 2.5 ns] and [0 − 5 ns];
+    0                                                              0
+                                                                                                                               b) Diffusion constant D as a function of temperature for a
+              -50                 0             50                           -50                 0             50
+                    q         - <q > [at. u.]                                      q         - <q > [at. u.]                   [0.25 − 2.5 ns]- (open symbols) and [0 − 5 ns]- (full symbols)
+                    x,y           x,y                                              x,y           x,y
+                                                                                                                               linear fit. Solid blue line: linear fit through the origin. Dashed
+                                                                                                                               line: analytical expectation in the ”low” noise limit. In order
+FIG. 9.      Skyrmion: event statistics with time interval ∆t                                                                  to ensure legibility, the error bars as defined in the caption
+as a parameter for the displacement components qx (black                                                                       of Fig.4 and pertaining to the [0.25 − 2.5 ns] fit time bracket
+full symbols) and qy (red open symbols), labeled qx,y in the                                                                   have been moved-up by one unit. α = 0.5.
+figures. In each panel, the curves have been offset vertically
+for legibility. Solid lines: fit to a gaussian distribution. α =
+0.25, T = 25 K
+                                                                                                                               case.
+
+
+where, k is the lattice site index, K the number of lattice                                                                            B.    Skyrmion diffusion constant (analytical)
+sites satisfying the above condition. Such a definition
+proves robust vs thermal disorder such as displayed in
+                                                                                                                                 The gyrovector G~ in Thiele’s equation (Eqn.3) has in
+Fig. 7. Similarly to the case of wall diffusion, we analyze
+first the distributions of the displacement components                                                                         the case of a skyrmion or a vortex, and in many other
+qx , qy . The event statistics for each value of the time                                                                      instances such as lines within walls, a single non-zero
+interval is clearly gaussian (see Fig.9). However, the noise                                                                   component, here Gz . Thiele’s equation, in components
+in the distributions appears larger when compared to the                                                                       form, reads:
+wall case. It also increases faster with ∆t. On the other
+hand, the raw probabilities for hqx2 i and hqy2 i barely differ                                                                                      −Gz vy + α [Dxx vx + Dxy vy ] = Fx
+                                                                                                                                                                                                                            (15)
+as anticipated from a random process. The behavior of                                                                                                +Gz vx + α [Dyx vx + Dyy vy ] = Fy
+hq 2 i (q 2 = qx2 + qy2 ) vs ∆t is displayed in Fig.10a.
+   The range of accessible temperatures is governed by                                                                         Because of the revolution symmetry of a skyrmion at rest,
+the thermal stability of the tiny skyrmion within a Co                                                                         Dxy or Dyx may safely be neglected and Dyy = Dxx .
+ML: with a lifetime of ' 1 µs at 77 K [25–28], tem-                                                                            Accordingly, the velocities may be expressed as:
+peratures have been confined to a ≤ 50 K range. When
+compared to the wall case (Fig.4a), the linear dependence                                                                                            αDFx + GFy       αDFy − GFx
+                                                                                                                                           vx =                 ; vy = 2                                                    (16)
+of hq 2 i with respect to ∆t appears less satisfactory, al-                                                                                          G2 + (αD)2       G + (αD)2
+though, over all cases examined, the curves do not display
+a single curvature, but rather meander gently around a                                                                         where, G = Gz , D = Dxx = Dyy .
+straight line. The slope is defined as the slope of the                                                                           Similarly to the stochastic field, the force components
+linear regression either for time intervals between 0.25                                                                       are necessarily uncorrelated. The velocity autocorrela-
+and 2.5 ns (thick line segments in Fig.10a) or for the full                                                                    tion functions may now be obtained following the same
+range 0 to 5 ns (dashed lines). Then, the ratio of the                                                                         lines as in the wall case, yielding, in the low noise ap-
+diffusion constant to temperature, D/T , for an isolated                                                                       proximation:
+skyrmion within the model Co ML considered here is
+equal to 0.250 and 0.249 nm2 ns−1 K−1 , respectively, for                                                                                                                                              αD
+                                                                                                                               hvx (t)vx (t0 )i = hvy (t)vy (t0 )i = 2kB T                                     δ(t − t0 )
+α = 0.5 (see Fig.10b). The difference proves marginal.                                                                                                                                              G2 + (αD)2
+Lastly, error bars appear even narrower than in the wall                                                                                                                                                           (17)
+                                                                                                                                7
+
+                     2
+          D /T [nm ns K ]
+                             -1   -1
+                                                      (%)            where, µAt is the moment per atom.
+                                                                        The dimensionless product µγ00SµAt   Gz (Eqn.21), where
+          0.35                                          50                                                At
+                                                                     SAt is the surface per atom, amounts to 4π, irrespec-
+           0.3                                          40           tive of the skyrmion size in a perfect material at T = 0.
+                                                                     Stated otherwise, the skyrmion number is 1 [29]. In
+          0.25                                          30
+                                                                     the Belavin-Polyakov profile limit [30], the dimention-
+           0.2                                          20           less product µγ00SµAt
+                                                                                        At
+                                                                                           Dxx (Eqn.21) also amounts to 4π. In
+                                                                     this limit, D is proportional to α/(1 + α2 ). Dxx increases
+          0.15                                          10
+                                                                     with skyrmion radius beyond the Belavin-Polyakov pro-
+           0.1                                          0            file limit (see supplementary material in [7]). For a
+                                                                     skyrmion at rest in the model Co ML considered here,
+          0.05                                          -10          D = Dxx ≈ 14.5 µ0 µAt /(γ0 SAt ). For that value of
+             0                                          -20
+                                                                     Dxx , and for the parameters used in the simulations,
+                 0       2        4      6    8       10             D/T , the ratio of the theoretical skyrmion diffusion con-
+                                                  α                  stant to temperature,                        2 −1 −1
+                                                                                           2
+                                                                                             √ is equal 0.234 nm ns K , for
+                                                                     α = 0.5 (SAt = a 3/2), to be compared to the 0.250
+FIG. 11. Computed values of D/T vs α (large open symbols);           value extracted from simulations. More generally, Fig.11
+black line: guide to the eye; blue (resp. red) solid curves: an-     compares numerical D/T values calculated for a broad
+alytical values with [γ0 SAt /µ0 µAt ]D = 4π (resp. 14.5). The       spectrum of α values with theoretical expectations for
+blue curve thus corresponds to the Belavin-Polyakov profile          D = 14.5 µ0 µAt /(γ0 SAt ) and in the Belavin-Poliakov
+limit. The relative difference between simulation and theory         limit. The average difference between analytical and sim-
+is indicated by small full symbols (% : right scale).                ulation results is, in the α = (0, 1) interval, seen to be of
+                                                                     the order of ' 15%.
+The average values of the displacements squared, hqx2 i
+and hqy2 i follow from time integration:
+                                                                                        IV.   DISCUSSION
+         
+ 2  
+ 2                             αD
+          qx (t) = qy (t) = 2kB T                      t      (18)
+                                             G + (αD)2
+                                              2
+                                                                        In the present study of thermal diffusion characteris-
+As shown previously [12, 13], the diffusion constant for a           tics, satisfactory agreement between simulations and the-
+skyrmion thus reads:                                                 ory has been attained for DMI stiffened magnetic tex-
+                                                                     tures, be it walls in narrow tracks or skyrmions. The
+                                          αD                         α dependence of the diffusion constants has been thor-
+                     D = kB T                                 (19)
+                                       G2 + (αD)2                    oughly investigated, with, as a result, a confirmation of
+The following relations do apply:                                    Brownian motion suppression in the presence of a non-
+                    
+ 2  
+ 2                                       zero gyrovector or, equivalently, a topological signature.
+                     qx (t) = qy (t) = 2Dt                           The theory starts with the Thiele relation applying to
+           
+ 2  
+ 2                                          (20)   a texture moving under rigid translation at constant ve-
+            q (t) = qx (t) + qy2 (t) = 4Dt
+                                    
+                                                                     locity. Furthermore, the chosen values of the components
+   Relation (19) implies a peculiar damping constant de-             of the dissipation dyadic, are those valid for textures at
+pendence with, assuming for the time being D and G to                rest, at T = 0. The α dependence of the diffusion con-
+have comparable values, a gradual drop to zero of the                stants clearly survives these approximations. And, yet, a
+diffusion constant with decreasing α (α ≤ 1), termed                 wall within a narrow stripe or a skyrmion in an ultra-thin
+”diffusion suppression by G” by C. Sch¨       utte et al. [12].      magnetic layer are deformable textures, as obvious from
+Diffusion suppression is actually not a complete surprise            Figs.1,7. Simulations, on the other hand, rely on the
+since, for electrons in a magnetic field, a similar effect is        pioneering analysis of Brownian motion, here meaning
+leading to the classical magnetoresistance. A similar de-            magnetization/spin orientation fluctuations [17], within
+pendence D(α) is also expected for a vortex. Boundary                a particle small enough to prove uniformly magnetized
+conditions, however, add complexity to vortex diffusion.             and then extend the analysis to ultra-small computation
+What nevertheless remains, is a linear dependence of D               cell volumes down to the single spin. Both approaches
+vs α [14], namely, diffusion suppression.                            rely on the hypothesis of a white -uncorrelated- noise at
+   The classical expressions for Gz and Dxx valid for a              finite temperature.
+magnetization continuum need to be adapted when deal-                   The discussion of results is organized in two parts. In
+ing with discrete spins. We obtain:                                  the first, results are analyzed in terms of a sole action of
+              µ0 µAt X                                               structure plasticity on the diagonal elements of the dis-
+       Gz =              [~s(k) · [∂x~s(k) × ∂y ~s(k)]]              sipation dyadic. In the second, we envisage, without fur-
+                γ0
+                      k                                              ther justification, how the present results are amended if,
+              µ0 µAt X h               i                  (21)
+                                     2                               in the diffusion constants of walls and skyrmions (Eqns.8
+      Dxx =                [∂x~s(k)]
+                γ0                                                   and 19), the gyrotropic and dissipation terms are re-
+                             k
+                                                                                                                                                                                                  8
+
+                                                                                                            z	  
+             S
+                                            T = 50 K
+                                                         <r
+                                                                 Eq
+                                                                      > [nm]                                        f	  
+       -10
+2 10
+                                                                                                                                                     1
+                                                         3                                                                                       "
+                                                                                                                                     α	
+        0.8
+
+
+                                                         2                                                                                       0.6
+       -10
+1 10
+                                                  25 K
+                                                                                                                                                 0.4              #D / #" < 0
+                                                         1
+
+                                                12.5 K                                                                                           0.2
+
+                                                                                                                                             #D / #" > 0
+        0                                                0
+                 20   40        60    80    100              0        10   20   30    40   50   60   70                                              0
+                                                                                                                                                         0   10       20        30   40      50
+                                      f (GHz)                                                    T(K)                       R/Δ	
+                                                    R /!
+                           a)                                                        b)
+                                                                                                                                            a)                                            b)
+
+FIG. 12. a) Power spectrum S of the time series rEq (t) for
+three temperatures. The hatched area corresponds to the fre-                                              FIG. 13. Diffusion suppression: a) general shape of function
+quency range where a signature of the fundamental skyrmion                                                f (α, R/∆) with 0 < α < 1, 1 < R/∆ < 50; b) crest line
+breathing mode is anticipated to be observed (≈ 39.3 GHz,                                                 separating the region of diffusion suppression (∂D/∂α > 0)
+in the present case); b) Equivalent skyrmion radius hrEq i as                                             from region ∂D/∂α < 0.
+a function of temperature. Error bars correspond to ±1σ
+of the gaussian distribution, itself a function of temperature.
+α = 0.5, throughout.
+                                                                                                          that the discrepancy between numerical and analytical
+                                                                                                          D values around α = 1 may not be relaxed by a sole
+placed by their time average as deduced from simulations.                                                 variation of D. On the other hand, allowing D to increase
+                                                                                                          with skyrmion radius, itself a function of temperature,
+                                                                                                          leads to an increase (decrease) of the diffusion coefficient
+                                     A.    Size effects                                                   for α < G/D (α > G/D).
+                                                                                                             Likely more important is the reduction, as a function
+   The integral definition of wall position adopted in this                                               of skyrmion size, of the α window where diffusion sup-
+work (Eqn.2) allows for a 1D treatment of wall diffusion,                                                 pression is expected. If including the (R/∆ + ∆/R) de-
+thus ignoring any diffusion characteristics potentially as-                                               pendence of Dxx (see supplementary material in [7]; ∆ is
+sociated with wall swelling, tilting, curving or meander-                                                 the wall width and R the skyrmion radius), the skyrmion
+ing. Additional information is, however, available in the                                                 diffusion constant may be expressed as:
+case of skyrmions. We concentrate here on the number,
+n, of spins within the skyrmion satisfying the condition
+                                                                                                                                     
+                                                                                                                     γ0 SAt 1       R
+sz ≥ 0.5, and its fluctuations as a function of time. The                                                   D = kB T           f α,
+                                                                                                                     µ0 µAt 8π      ∆
+surface of the skyrmion is nSAt and its equivalent radius,                                                                                                                                     (22)
+                                                                                                                         1 1 + η2
+                                                                                                                                  
+                     2                                                                                          R                                     2αξ
+rEq , is defined by rEq  = nSAt /π. The skyrmion radius                                                     η=     ;ξ=                ; f (α, η) =
+rEq is found to fluctuate with time around its average                                                          ∆        2      η                  1 + (αξ)2
+value, according to a gaussian distribution that depends
+on temperature, but becomes independent of the autocor-                                                     The general shape of function f (α, R/∆) is shown in
+relation time interval beyond ≈ 25 ps. The power spec-                                                    Fig.13a. The maximum of f (α, R/∆) is equal to 1 for
+trum of the time series rEq (t), shown in Fig.12a, excludes                                               all values of α and R/∆. The crest line Rα = ∆ is
+the existence of a significant power surge around the                                                     seen to divide the parameter space into two regions (see
+fundamental breathing mode frequency of the skyrmion                                                      Fig.13b), a region close to the axes where ∂D/∂α > 0,
+(≈ 39.3 GHz for the present model Co ML) [31]. The                                                        i.e. the region of diffusion suppression, from the much
+skyrmion radius as defined from the discrete n distribu-                                                  wider region where ∂D/∂α < 0, that is, the region of
+tion is thus subject to white noise. The average radius                                                   wall-like behavior for skyrmion diffusion. Clearly, the α
+hrEq i, on the other hand, varies significantly with tem-                                                 window for diffusion suppression decreases dramatically
+perature, increasing from ≈ 1.6 nm to 2.4 nm when the                                                     with increasing skyrmion size R/∆. A first observation
+temperature is increased from 4.2 K to 50 K (Fig.12b)                                                     of skyrmion Brownian motion at a video recording time
+and the diagonal element of the dissipation dyadic is ex-                                                 scale (25 ms) may be found in the Supplementary Ma-
+pected to increase with increasing skyrmion radius [3, 7].                                                terial of Ref.[32]. Skyrmions are here unusually large
+   Owing to relations (19,21), the maximum of D(α) is                                                     and most likely escape the diffusion suppression window
+found for α = Gz /Dxx = G/D. For α < G/D, resp.                                                           (α < 0.02 for R/∆ = 50). Combining skyrmion thermal
+α > G/D, D increases, resp. decreases, with D, hence                                                      stability with general observability and damping parame-
+the relative positions of the blue and black continuous                                                   ter tailoring may, as a matter of fact, well prove extremely
+curves in Fig.11. At maximum, D is independent of D                                                       challenging for the observation of topology related diffu-
+and amounts to kB T µγ00SµAt  1
+                          At 2G
+                                 = kB T µγ00SµAt  1
+                                              At 8π
+                                                    . It ensues                                           sion suppression.
+                                                                                                                                                                9
+
+                        1                                                       20
+                                                                                                      shown). Its time averaged value for the sole skyrmion
+   < m / m (T=0) >                                                                    VF              may only be obtained by subtraction of values computed
+      z       z                                                                 <D         >
+   < s / s (T=0) >                                                                                    in the presence and absence of the skyrmion.
+      z   z
+                      0.95                                                      18
+                                                                                                                                                             VF
+                                                                                                         For the skyrmion in our model Co monolayer, hDxx       i
+                                                1 ML
+                                                                                                      is found to increase moderately with temperature (see
+                       0.9                                         3 ML : 0.6 nm 16
+                                                                                                      Fig.14), a result also anticipated from an increase with
+                                                                                                      temperature of the skyrmion radius. Besides, both hGz i
+                      0.85                                                      14
+                                                                                                      and hDxx i are expected to decrease with temperature
+                                                                                                      due to their proportionality to hsz i. hDxx i is thus sub-
+                       0.8                                                      12                    ject to two competing effects of temperature T . Present
+                                                                                                      evidence, however, points at a dominating influence of
+                      0.75                                                       10                   hsz (T )i.
+                             0    20       40   60     80   100   120   140   160
+                                                                   T (K)
+
+                                                                                                               V.    SUMMARY AND OUTLOOK
+FIG. 14. Average reduced z magnetization or spin component
+as a function of temperature (left scale) and time averaged                                              Summarizing, it has been shown that the Brownian
+value of the sole vector function, hDVF i, within the diagonal                                        motion of chiral walls and skyrmions in DMI materials
+element of the dissipation tensor in the skyrmion case (right
+                                                                                                      obeys diffusion equations with markedly different damp-
+scale). These results prove independent of the damping pa-
+rameter provided the time step in the integration of the LLG                                          ing parameter (α) dependence. Although not a new re-
+equation be suitably chosen.                                                                          sult, skyrmions Brownian motion suppression with de-
+                                                                                                      creasing α (α < G/D) is substantiated by a wide explo-
+                                                                                                      ration of the damping parameter space. The observation
+                             B.        Time averaging                                                 of this astonishing topological property might, however,
+                                                                                                      be hampered by the restriction to ultra-small skyrmion
+                                                                                                      sizes or ultra-low α values. The discrepancy (up to 20%)
+  One certainly expects from the simulation model a fair                                              between simulation results and theoretical expectations
+prediction of the average magnetization hMz i or hSz i vs                                             could be reduced by the introduction of time averaged
+temperature T , at least for temperatures substantially                                               values for the gyrotropic and dissipation contributions
+lower than the Curie temperature TC . Fig.14 shows the                                                to the analytical diffusion coefficients in the ”low” noise
+variation of hMz i/Mz (T = 0) or hSz i/Sz (T = 0) with                                                limit, at the expense of a tiny upwards curvature in the
+temperature for the two model magnetic layers of this                                                 D(T ) curves. A strong theoretical justification for doing
+work. Although simulation results do not compare unfa-                                                so remains, however, lacking at this stage.
+vorably with published experimental data [33–35], where,                                                 In this work, the sample has been assumed to be per-
+typically, the Curie temperature amounts to ≈ 150K for                                                fect, i.e. devoid of spatial variations of the magnetic
+1 ML, and proves larger than 300K for thicknesses above                                               properties, even though the lifting of such a restriction is
+2 ML, a more detailed analysis, potentially including dis-                                            anticipated to prove mandatory for a proper description
+order, ought to be performed.                                                                         of experiments. Diffusion in the presence of disorder has
+                                                                                                      been theoretically studied for a number of disorder and
+                  µ0 µAt hsz i X
+   hGz i =                    h  [~s(k) · [∂x~s(k) × ∂y ~s(k)]]i                                      random walk types [36, 37]. Generally, disorder changes
+                      γ0                                                                              the linear growth with time of the position variance into
+                                       k
+          µ0 µAt hsz i VF                                                                             a power law, a behavior called superdiffusion if the ex-
+        =             hGz i                                                                           ponent is larger than 1 and subdiffusion if smaller. For
+            γ0 SAt
+                                                                                               (23)   instance, if the skyrmion motion in a disordered system
+          µ0 µAt hsz i X           2
+ hDxx i =             h   [∂x~s(k)] i                                                                 may be mapped onto a 2D random walk with an onsite
+              γ0                                                                                      residence time τ , probability ∝ τ −(1+µ) (µ < 1), then the
+                                       k
+            µ0 µAt hsz i VF                                                                           diffusion exponent will be µ, meaning subdiffusion. Be-
+          =             hDxx i                                                                        sides, choosing a physically realistic disorder model for a
+              γ0 SAt
+                                                                                                      Co monolayer might well prove equally arduous [38]. Al-
+   Let us now, without further justification, substitute in                                           together, skyrmion diffusion in the presence of disorder
+the expression of the skyrmion diffusion coefficient time                                             has been left out for future work.
+averaged values of G and D, owing to relations (23).
+Keeping in mind the geometrical meaning of GVF     z , the
+dimensionless vector function in G, hGz i is anticipated                                                             ACKNOWLEDGMENTS
+                                              VF
+to be a sole function of hsz i. Inversely, Dxx   , the (di-
+mensionless) vector function in hDxx i, a definite posi-                                                Support by the Agence Nationale de la Recherche
+tive quantity, steadily increases with thermal disorder.                                              (France) under Contracts No. ANR-14-CE26-0012 (Ul-
+It is even found to be proportional to temperature (not                                               trasky), No. ANR-17-CE24-0025 (TopSky) is gratefully
+                                                                                                                             10
+
+                                                                  acknowledged.
+
+
+
+
+ [1] S. Heinze, K. von Bergmann, M. Menzel, J. Brede, A. Ku-      [18] M. Saito and M. Matsumoto, ACM Trans. Math. Soft-
+     betzka, R. Wiesendanger, G. Bihlmayer, and S. Bl¨    ugel,        ware 39, 12 (2013)
+     Nat. Phys. 7, 713 (2011)                                     [19] D. V. Berkov, IEEE Trans. Magn. 38, 2489 (2002)
+ [2] F. Jonietz, S. M¨ uhlbauer, C. Pfleiderer, A. Neubauer,      [20] A. Thiele, Phys. Rev. Lett. 30, 230 (1973)
+     W. M¨ unzer, A. Bauer, T. Adams, R. Georgii, P. B¨    oni,   [21] A. Thiele, J. Appl. Phys. 45, 377 (1974)
+     R. A. Duine, K. Everschor, M. Garst, and A. Rosch, Sci-      [22] J. C. Slonczewski, Int. J. Magnetism 2, 85 (1972)
+     ence 330, 1648 (2010)                                        [23] N. Romming, C. Hanneken, M. Menzel, J. E. Bickel,
+ [3] J. Sampaio, V. Cros, S. Rohart, A. Thiaville, and A. Fert,        B. Wolter, K. von Bergmann, A. Kubetzka, and
+     Nat. Nanotech. 8, 839 (2013)                                      R. Wiesendanger, Science 341, 636 (2013)
+ [4] A. Thiaville, S. Rohart, E.´ Ju´e, V. Cros, and A. Fert,     [24] N. Romming, A. Kubetzka, C. Hanneken, K. von
+     EPL 100, 57002 (2012)                                             Bergmann, and R. Wiesendanger, Phys. Rev. Lett. 114,
+     ´ Ju´e, A. Thiaville, S. Pizzini, J. Miltat, J. Sampaio,
+ [5] E.                                                                177203 (2014)
+     L. Buda-Prejbeanu, S. Rohart, J. Vogel, M. Bonfim,           [25] S. Rohart, J. Miltat, and A. Thiaville, Phys. Rev. B 93,
+     O. Boulle, S. Auffret, I. M. Miron, and G. Gaudin, Phys.          214412 (2016)
+     Rev. B 93, 014403 (2016)                                     [26] S. Rohart, J. Miltat, and A. Thiaville, Phys. Rev. B 95,
+ [6] S. Woo, K. Litzius, B. Kr¨   uger, M.-Y. Im, L. Caretta,          136402 (2017)
+     K. Richter, M. Mann, A. Krone, R. M. Reeve,                  [27] I. S. Lobanov, H. J´onsson, and V. M. Uzdin, Phys. Rev.
+     M. Weigand, P. Agrawal, I. Lemesh, M.-A. Mawass,                  B 94, 174418 (2016)
+     P. Fischer, M. Kl¨ aui, and G. S. D. Beach, Nat. Mater.      [28] P. Bessarab, Phys. Rev. B 95, 136401 (2017)
+     15, 501 (2016)                                               [29] N. Nagaosa and Y. Tokura, Nat. Nanotechnol. 8, 899
+ [7] A. Hrabec, J. Sampaio, M. Belmeguenai, I. Gross,                  (2013)
+     R. Weil, S. M. Ch´erif, A. Stashkevitch, V. Jacques,         [30] A. A. Belavin and A. Polyakov, pis’ma Zh. Eksp. Teor.
+     A. Thiaville, and S. Rohart, Nat. Commun. 8, 15765                Fiz. 22, 503 (1975) [Sov. Phys. JETP Lett. 22, 245
+     (2017)                                                            (1975)]
+ [8] W. Jiang, X. Zhang, G. Yu, W. Zhang, M. B. Jungfleisch,      [31] J.-V. Kim, F. Garcia-Sanchez, J. Sampaio, C. Moreau-
+     J. E. Pearson, X. Cheng, O. Heinonen, K. L. Wang,                 Luchaire, V. Cros, and A. Fert, Phys. Rev. B 90, 064410
+     Y. Zhou, A. Hoffmann, and S. G. E. te Velthuis, Nat.              (2014)
+     Phys. 13, 162 (2016)                                         [32] W. Jiang, P. Upadhyaya, W. Zhang, G. Yu, M. B.
+ [9] A. Einstein, Ann. Phys. (Berlin) 17, 549 (1905)                   Jungfleisch, F. Y. Fradin, J. E. Pearson, Y. Tserkovnyak,
+[10] P. Langevin, C. R. Acad. Sci. (Paris) 146, 530 (1908)             K. L. Wang, O. Heinonen, S. G. E. te Velthuis, and
+[11] Y. Wada and J. R. Schrieffer, Phys. Rev. B 18, 3897               A. Hoffmann, Science 349, 283 (2015)
+     (1978)                                                       [33] K. Shimamura, D. Chiba, S. Ono, S. Fukami, N. Ishiwata,
+[12] C. Sch¨utte, J. Iwasaki, A. Rosch, and N. Nagaosa, Phys.          K. Kawaguchi, K. Kobayashi, and T. Ono, Appl. Phys.
+     Rev. B 90, 174434 (2014)                                          Letters 100, 122402 (2012)
+[13] R. E. Troncoso and A. S. N´  un
+                                   ˜ez, Annals of Physics 351,    [34] T. Koyama, A. Obinata, Y. Hibino, A. Hirohata,
+     850 (2014)                                                        B. Kuerbanjiang, V. K. Lazarov, and D. Chiba, Appl.
+[14] T. Kamppeter, F. G. Mertens, E. Moro, A. Sanchez, and             Phys. Letters 106, 132409 (2015)
+     A. R. Bishop, Phys. Rev. B 59, 11349 (1999)                  [35] A. Obinata, Y. Hibino, D. Hayakawa, T. Koyama,
+[15] J. Barker and O. A. Tetriakov, Phys. Rev. Lett. 116,              K. Miwa, S. Ono, and D. Chiba, Scientific Reports 5,
+     147203 (2016)                                                     15594 (2015)
+[16] S. Woo, K. M. Song, X. Zhang, Y. Zhou, M. Ezawa,             [36] J.-P. Bouchaud and A. Georges, Physics Reports 195,
+     X. Liu, S. Finizio, J. Raabe, N. J. Lee, S.-I. Kim, S.-Y.         127 (1990)
+     Park, Y. Kim, J.-Y. Kim, D. Lee, O. Lee, J. W. Choi,         [37] R. Metzler and J. Klafter, Physics Reports 339, 1 (2000)
+     B.-C. Min, H. C. Koo, and J. Chang, Nat. Commun. 9,          [38] F. Meier, K. von Bergmann, P. Ferriani, J. Wiebe,
+     959 (2018)                                                        M. Bode, K. Hashimoto, S. Heinze, and R. Wiesendan-
+[17] W. F. Brown, Jr., Phys. Rev. 130, 1677 (1963)                     ger, Phys. Rev. B 74, 195411 (2006)
+

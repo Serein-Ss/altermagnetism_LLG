@@ -1,0 +1,51 @@
+status: explicit_conventions_and_independent_algebra_tests_not_complete_dataset_certification
+target:
+  doi: 10.1103/PhysRevB.97.214426
+  url: https://arxiv.org/abs/1806.03172
+  local_text: tests/bauer_2d_review_20260918/sources/miltat_2018.txt
+  parameters_location: section_III_A
+  noise_location: equation_1_and_atomic_moment_substitution_in_section_III_A
+  D_meV: -1.5
+  gamma_numeric_value_explicit: false
+related_model_source:
+  doi: 10.1103/PhysRevB.93.214412
+  url: https://arxiv.org/html/1601.02875v2#S2
+  equation: 1
+  energy_DMI: '+sum d_ij dot (s_i cross s_j)'
+  vector_DMI: 'd_ij = d * (u_ij cross z)'
+  d_meV: 1.5
+  caution: related_2016_paper_sign_not_identical_to_2018_scalar_value_do_not_conflate
+implementation:
+  energy_DMI: '-sum D_ij dot (s_i cross s_j)'
+  vector_DMI: 'D_ij = d * (z cross u_ij)'
+  oriented_bond: 'u_ij = (r_j - r_i)/a'
+  d_meV: -1.5
+  algebra: two_minus_signs_cancel_so_code_matches_plus_d_times_u_cross_z_for_the_same_scalar_d
+  physical_source_correspondence: explicit_model_convention_not_independently_verified_2018_chirality
+time_conversion:
+  gamma_B_value: 1.76085963023e11
+  gamma_B_unit: 1/(second*tesla)
+  provenance: conventional_electron_value_explicit_assumption_not_a_quoted_Miltat_number
+  relation: gamma_H_equals_mu0_times_gamma_B
+  field_scale: B0_equals_J_over_mu_s
+  time_scale: t0_equals_mu_s_over_gamma_B_J
+  temperature_scale: theta_equals_kBT_over_J
+  noise_B_variance: 2_alpha_kBT_over_gamma_B_mu_s_dt_physical
+  noise_reduced_increment_variance: 2_alpha_theta_dt_reduced
+  Gilbert_denominator: one_plus_alpha_squared_applied_once_in_torque_not_again_in_time_scale
+sign_symmetry_scope:
+  transformation: reverse_d_and_rotate_all_spins_and_noise_by_pi_about_z
+  preserved: [exchange_energy, easy_axis_anisotropy, planar_full_dipolar_energy, sz, core_position, topology]
+  changed: in_plane_chirality
+  claim: algebraic_equivalence_of_sz_and_core_path_laws_for_rotated_initial_protocols_in_this_model
+  exclusions: [in_plane_external_fields, tilted_film_geometry, spin_torques, unrotated_initial_protocol]
+uncertainty:
+  parameters: paper_model_constants_no_measurement_uncertainties_provided
+  handling: do_not_invent_error_bars_for_source_parameters
+  time_scale: numerical_roundoff_is_not_the_uncertainty_of_the_unreported_material_gamma
+remaining:
+  - Numerical_time_step_convergence
+  - Small_geometry_boundary_sensitivity
+  - Independent_parent_preparation_and_split_integrity
+  - Fixed_window_validity_over_generated_horizon
+  - Full_chirality_claim_requires_direct_2018_convention_confirmation

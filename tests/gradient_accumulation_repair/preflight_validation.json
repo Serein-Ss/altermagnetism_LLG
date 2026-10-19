@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-30",
+  "environment": "zrs-mag",
+  "prior_diagnosis": {
+    "jobs": ["671301", "671304"],
+    "all_completed": true,
+    "batches_per_seed": 8192,
+    "seed_order": [11, 22, 33],
+    "mean_native_restart_cosine": [0.021702254316944548, 0.18680755074850125, 0.03780385580068076],
+    "native_split_half_cosine": [0.8605975023906091, 0.8345214370282651, 0.6939783851723346],
+    "restart_split_half_cosine": [0.9764617268935649, 0.9762007097859938, 0.9879280630783034],
+    "interpretation": "No evidence for persistent mean-gradient opposition as the dominant explanation at these checkpoints. Large minibatch fluctuation motivates an accumulation experiment but does not prove causality. Projection remains inactive."
+  },
+  "unit_regression_tests": 22,
+  "unit_regression_passed": true,
+  "unit_command": "bash ../run_zrs_mag.sh -m unittest tests.gradient_accumulation_repair.test_contract tests.balanced_replay_repair.test_contract tests.gradient_conflict_repair.test_contract tests.transition_block_repair.test_contract",
+  "gpu_smoke": {"job": "671305", "array": "0-2", "all_completed": true, "elapsed_seconds": [52, 52, 58]},
+  "statistics_smoke": {"job": "671308", "array": "0-2", "all_completed": true},
+  "web_smoke": {"job": "671309", "completed": true},
+  "verified_optimizer_steps": [24016, 24002, 24016],
+  "microsteps": [16, 16, 128],
+  "common_prefix_input_schedule_and_extra_rng_paired": true,
+  "maximum_norm_error": 1.1920928955078125e-7,
+  "maximum_initial_frame_error": 0.0,
+  "png_visually_checked": true,
+  "scientific_certification": false,
+  "skill_influence": "Karpathy isolation and executable checks; experimental-design separate matched-data and matched-update controls; matplotlib filled PNG comparisons."
+}

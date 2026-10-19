@@ -1,0 +1,12 @@
+{
+  "checkpoint": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/literature_path_campaign_20260920/bauer/fixed_11/best.pt",
+  "reference": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/bauer_fig2_10ns_20260917/results/trajectory.h5",
+  "seconds_this_invocation": 71735.68736429513,
+  "resumed": false,
+  "total_blocks": 100000,
+  "physical_duration_ps": 10000.0,
+  "branches": 3,
+  "flow_steps": 64,
+  "scientific_certification": false,
+  "max_norm_error": 1.1920928955078125e-07
+}

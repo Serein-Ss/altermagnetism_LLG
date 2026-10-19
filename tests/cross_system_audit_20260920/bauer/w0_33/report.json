@@ -1,0 +1,170 @@
+{
+  "before": [
+    {
+      "parent_id": "L16_parent1",
+      "family": "positive",
+      "mean_increment": {
+        "raw_mse": 0.011265986849645922,
+        "sampling_variance": 0.006363459958484099,
+        "corrected_mse": 0.004902526891161823
+      },
+      "generated_variance": 0.05329204723238945,
+      "reference_variance": 0.04424617812037468
+    },
+    {
+      "parent_id": "L16_parent25",
+      "family": "negative",
+      "mean_increment": {
+        "raw_mse": 0.037376197516206015,
+        "sampling_variance": 0.006462062174083228,
+        "corrected_mse": 0.030914135342122787
+      },
+      "generated_variance": 0.07228963822126389,
+      "reference_variance": 0.042660295963287354
+    },
+    {
+      "parent_id": "L16_parent49",
+      "family": "tilted",
+      "mean_increment": {
+        "raw_mse": 0.009305580465956396,
+        "sampling_variance": 0.006507736459834716,
+        "corrected_mse": 0.0027978440061216794
+      },
+      "generated_variance": 0.04794657230377197,
+      "reference_variance": 0.04606856778264046
+    },
+    {
+      "parent_id": "L16_parent121",
+      "family": "single_wall",
+      "mean_increment": {
+        "raw_mse": 0.012072570190117373,
+        "sampling_variance": 0.006642558780149244,
+        "corrected_mse": 0.005430011409968129
+      },
+      "generated_variance": 0.055629998445510864,
+      "reference_variance": 0.046186719089746475
+    }
+  ],
+  "after": [
+    {
+      "parent_id": "L16_parent1",
+      "family": "positive",
+      "mean_increment": {
+        "raw_mse": 0.006455721015134821,
+        "sampling_variance": 0.006201808258299184,
+        "corrected_mse": 0.00025391275683563693
+      },
+      "generated_variance": 0.04294633865356445,
+      "reference_variance": 0.04424617812037468
+    },
+    {
+      "parent_id": "L16_parent25",
+      "family": "negative",
+      "mean_increment": {
+        "raw_mse": 0.005927815777120045,
+        "sampling_variance": 0.006140135234694644,
+        "corrected_mse": -0.00021231945757459875
+      },
+      "generated_variance": 0.051686305552721024,
+      "reference_variance": 0.042660295963287354
+    },
+    {
+      "parent_id": "L16_parent49",
+      "family": "tilted",
+      "mean_increment": {
+        "raw_mse": 0.007377805422294337,
+        "sampling_variance": 0.006419936599862754,
+        "corrected_mse": 0.0009578688224315826
+      },
+      "generated_variance": 0.042327385395765305,
+      "reference_variance": 0.04606856778264046
+    },
+    {
+      "parent_id": "L16_parent121",
+      "family": "single_wall",
+      "mean_increment": {
+        "raw_mse": 0.003385953980812252,
+        "sampling_variance": 0.006489317957007583,
+        "corrected_mse": -0.003103363976195331
+      },
+      "generated_variance": 0.04582258686423302,
+      "reference_variance": 0.046186719089746475
+    }
+  ],
+  "history": [
+    {
+      "step": 0,
+      "fm": 0.5565036535263062,
+      "moment": 0.0,
+      "grad": 1.0289151668548584
+    },
+    {
+      "step": 100,
+      "fm": 0.5779607892036438,
+      "moment": 0.0,
+      "grad": 0.8909919261932373
+    },
+    {
+      "step": 200,
+      "fm": 0.5769346952438354,
+      "moment": 0.0,
+      "grad": 0.9512887597084045
+    },
+    {
+      "step": 300,
+      "fm": 0.4989968538284302,
+      "moment": 0.0,
+      "grad": 1.2559953927993774
+    },
+    {
+      "step": 400,
+      "fm": 0.47342005372047424,
+      "moment": 0.0,
+      "grad": 1.7330408096313477
+    },
+    {
+      "step": 500,
+      "fm": 0.5686362981796265,
+      "moment": 0.0,
+      "grad": 1.8586710691452026
+    },
+    {
+      "step": 600,
+      "fm": 0.5165294408798218,
+      "moment": 0.0,
+      "grad": 1.7291518449783325
+    },
+    {
+      "step": 700,
+      "fm": 0.5431342124938965,
+      "moment": 0.0,
+      "grad": 2.602138042449951
+    },
+    {
+      "step": 800,
+      "fm": 0.5217291712760925,
+      "moment": 0.0,
+      "grad": 1.342523217201233
+    },
+    {
+      "step": 900,
+      "fm": 0.4474858045578003,
+      "moment": 0.0,
+      "grad": 2.0391645431518555
+    }
+  ],
+  "gradient_probe": null,
+  "step_seconds_median": 0.01257929764688015,
+  "near_cut_fraction": 0.0,
+  "weight": 0.0,
+  "seed": 33,
+  "source_checkpoint_sha256": "3566d2d464914767e5609170bac4b74ff6957c40af52f5c3b03b379a4b2d5a79",
+  "selected_parents": [
+    "L16_parent1",
+    "L16_parent25",
+    "L16_parent49",
+    "L16_parent121"
+  ],
+  "scientific_certification": false,
+  "interpretation": "In-sample fixed-four-parent diagnostic. References reused in fitting; no independent accuracy claim. Weight 10 is a sensitivity intervention, not a selected production recipe. Equal updates, unequal compute."
+}

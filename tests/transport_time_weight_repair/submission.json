@@ -1,0 +1,22 @@
+{
+  "gpu_array": "671624_0-5",
+  "statistics_array": "671630_0-5",
+  "statistics_dependency": "afterok:671624",
+  "web_aggregate": "671631",
+  "web_dependency": "afterok:671630",
+  "mapping": "index=2*seed_index+arm_index;seeds11,22,33;armscontrol,early_tau",
+  "job_name": "zrs-mag",
+  "gpu_partition": "rtx4090",
+  "cpu_partition": "fat",
+  "estimated_hours_per_gpu": [
+    1.5,
+    2.5
+  ],
+  "allocation_hours": 4,
+  "queue_excluded": true,
+  "monitoring_stopped_after_acceptance": true,
+  "result": "tests/transport_time_weight_repair/assets/index.html",
+  "dashboard": "tests/index.html#transport-time-weight-repair",
+  "all_paths": "tests/transport_time_weight_repair/train/00-05",
+  "scientific_certification": false
+}

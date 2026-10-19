@@ -1,0 +1,27 @@
+{
+  "version": "stable_independent_reference_v1",
+  "scope": "Frozen-candidate diagnostic, NOT Gate-F or confirmatory certification. No training or seed selection. Independently generated finite-time trajectories, not equilibrium samples.",
+  "initials": "tests/data/reference_initial_bank/initials.npy",
+  "initial_sha256": "a0e8501c54ef4c4521c69e06c7b54d455adce7f7eac2f0a706addd5923de0b4a",
+  "theta": [0.11, 0.13],
+  "n_per_half": 128,
+  "duration": 16000.0,
+  "save_dt": 80.0,
+  "anisotropy": 0.1,
+  "damping": 0.1,
+  "noise_base": 840000000,
+  "schedule_seed": 20260914,
+  "model_freeze": "tests/conf/stable_candidate_freeze.json",
+  "generated_sampling_steps": 1024,
+  "generated_latent_base": 850000000,
+  "sample_budget_reason": "Fixed diagnostic budget informed by measured CPU rate and tests/results/reference_precision_plan/summary.json: n128 pointwise binomial worst half-width about .090, not a physical tolerance or proof of power. Four initials limit across-initial inference. No automatic top-up.",
+  "analysis": {
+    "look": "One complete-batch descriptive analysis; no partial outcome-driven changes. Failed generation is a failure, never dropped/replaced silently.",
+    "reference_groups": "R1 first128 noise paths, R2 next128; G128 per model, initial and condition. Same initial across conditions, disjoint noise; three trained seeds separately reported.",
+    "primary_diagnostics": "Per-initial magnetization means/variances, spatial dot/connected correlations, temporal dot/connected correlations and increments; compare G-R1 with R1-R2 at prefixes800,4000,16000. Save every trajectory.",
+    "uncertainty": "2000 whole-trajectory bootstrap replicates, fixed seed860000000; initial-wise results first, across-initial summaries cluster by initial with same initial resampling shared across temperatures. Shared R1/R2 resamples across models. Descriptive intervals, no uncalibrated simultaneous pass claims.",
+    "events": "negative_endpoint and crossed_zero descriptive only. No committed-switch claim until basin/dwell calibration; no imported arbitrary .6 threshold certification.",
+    "decision": "No automatic GO or model promotion; separate reference uncertainty, numerical discretization and model mismatch. Integrator control only covers initial0, not all initial families. No large-L or long-horizon extrapolation certification."
+  },
+  "budget": {"tasks": 12, "cpus_each": 8, "wall_minutes_each": 60, "automatic_retries": 0, "total_paths": 3072}
+}

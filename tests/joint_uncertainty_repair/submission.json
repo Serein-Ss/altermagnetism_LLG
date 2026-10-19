@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-07",
+  "previous_campaign": {
+    "gpu": 672004,
+    "statistics": 672012,
+    "web": 672013,
+    "completed_exit0": true,
+    "conclusion": "Closing/attenuating coarse-global branch not supported by current warm-start DEV comparison; keep original baseline. Not a proof against scratch local models."
+  },
+  "preflight": {
+    "unit_tests": 4,
+    "unit_log": "logs/unit.out",
+    "analysis": 672024,
+    "array": "0,6,8",
+    "calibration": 672027,
+    "web": 672028,
+    "all_completed_exit0": true,
+    "point_estimates_unchanged": true
+  },
+  "formal": {
+    "analysis": {
+      "job": 672029,
+      "array": "0-14",
+      "partition": "fat",
+      "estimated_minutes_each": [
+        2,
+        10
+      ]
+    },
+    "calibration": {
+      "job": 672044,
+      "partition": "fat",
+      "trials_per_law": 400,
+      "estimated_minutes": [
+        1,
+        5
+      ]
+    },
+    "web": {
+      "job": 672045,
+      "partition": "fat",
+      "dependency": "afterok:672029:672044",
+      "estimated_minutes": [
+        1,
+        2
+      ]
+    }
+  },
+  "all_submissions_accepted": true,
+  "job_name": "zrs-mag",
+  "new_gpu_jobs": 0,
+  "new_training": false,
+  "monitoring": "Stopped after formal acceptance; await user completion notice.",
+  "result_page": "tests/joint_uncertainty_repair/assets/index.html",
+  "main_page": "tests/index.html#joint-uncertainty-repair",
+  "physical_model_repaired": false
+}

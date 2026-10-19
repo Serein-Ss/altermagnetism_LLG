@@ -1,0 +1,24 @@
+scope: physical_validation_only_not_training_dataset
+production_enabled: false
+seed: 2026091709
+free_spin:
+  samples: 16384
+  steps: 400
+  reduced_dt: 0.0025
+  confidence_sigma: 6
+coupled_integrators:
+  batch: 16
+  coarse_steps: 128
+  shapes: {bauer: [12], miltat: [12, 10], hirst: [4, 4, 4]}
+  levels: [1, 2, 4]
+  midpoint_tolerance: 1.0e-11
+texture_relaxation:
+  duration_ps: 5.0
+  dt_fs: 0.625
+  save_ps: 0.1
+  source: existing_miltat_pilot_final_frame_trajectory_0
+animation:
+  reference_trajectory_id: 0
+  fps: 6
+  dpi: 85
+  interpolate_frames: false

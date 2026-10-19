@@ -1,0 +1,88 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "batch1",
+      "accumulation": 1,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "acc8_equal_data",
+      "accumulation": 8,
+      "updates": 750
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "acc8_equal_updates",
+      "accumulation": 8,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "batch1",
+      "accumulation": 1,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "acc8_equal_data",
+      "accumulation": 8,
+      "updates": 750
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "acc8_equal_updates",
+      "accumulation": 8,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "batch1",
+      "accumulation": 1,
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "acc8_equal_data",
+      "accumulation": 8,
+      "updates": 750
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "acc8_equal_updates",
+      "accumulation": 8,
+      "updates": 6000
+    }
+  ],
+  "question": "Does reducing minibatch gradient noise improve independent conditional dynamics, beyond only increasing data exposure?",
+  "evidence": "Frozen8192batch audit: mean native/restart gradient cosine=.021702,.186808,.037804; persistent opposition not supported at these checkpoints. Native single-batch RMS much larger than mean gradient. Noise limitation is a hypothesis, not proven cause of path bias; do not activate projection.",
+  "controls": "Start perseed balanced_replay sparse_iid step24000 weights AND Adam. Every microbatch original native8 plus balanced48restart weight1. batch1:6000updates/6000microbatches; acc8_equal_data:750updates/6000microbatches; acc8_equal_updates:6000updates/48000microbatches. Divide BOTH FM terms by8 before backward; zero once per group,clip10 once after accumulation,Adam step once pergroup. Different lattice sizes averaged as equal micro-objectives,not concatenated into a single size.",
+  "optimization": "Cosine3e-5->3e-6 over each arms optimizer update count. Same-exposure arm has fewer Adam steps,decay applications and altered moment horizon; cannot isolate noise from all optimizer effects. Same-update arm has8x microbatch exposure/compute. No linear LR scaling or extra moment/energy loss. Same learned2frame.1ps package; unchanged network.",
+  "pairing": "Restore native data/refill/pair/source/tau/cut states; shared extra seed. Common first6000microbatches checked using native,extra-input,schedule hashes; whole-run hashes differ intentionally for48000arm. Track actual update count and perstate exposures. Retained optimizer state verified at source; checkpoint contains update/microstep counters and all RNG.",
+  "data": "Reuse existing train-only64futures per48TRAIN-origin states from24parents plus native windows and72branch refill. No probe/fine/dev samples in loss. No new LLG simulation,split mutation or physical parameter changes.",
+  "evaluation": "Fixed final checkpoint.48train-origin states64generated compared with independent128probe/fine;18dev128full1ps paths midpoint128/512;24oldseen64paths;72trueLLGdev intermediate128futures. Before values from sourceafter_restart with matching latent seeds. Record all paths and independent physical means,covariance,variance,energy,space/time metrics,family and size strata.",
+  "uncertainty": "Whole-branch bootstrap100 within fixedparent,model and reference sampling both included. Cross-state averages descriptive;48states are correlated by24sources. Reuseddev not finalholdout. Three seeds separately. No arbitrary pass thresholds or aggregate score.",
+  "decisions": "Equal-data improvement supports usefulness under fixed exposure but fewer optimizer updates remain part of intervention. Improvement only with8xdata requires explicit compute disclosure. Lower FM or smoother optimization without independent path improvement is not repair. Keep oldanchor and1ps regressions visible. No production promotion.",
+  "physics": "Bauer open,J50meV,kappa.1,alpha.1,theta.11,T63.824849668K;reference dt.25/.125fs,learnedlag.1ps,1ps10freshnoise transitions. No time relabeling.",
+  "budget": "Smoke3GPU jobs1-4min.9formalrtx4090 jobs2-4h each including full evaluation;9fatstats3-6min;web<3min. Submit and stop monitoring long tasks.",
+  "skills": "karpathy-guidelines surgical isolation;experimental-design paired exposure/update controls;matplotlib PNG only."
+}

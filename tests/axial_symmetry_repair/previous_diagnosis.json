@@ -1,0 +1,12 @@
+{
+  "source": "tests/family_specialization_repair/assets/summary.json",
+  "all_jobs_completed": true,
+  "scope": "L16, means across three training seeds and fixed diagnostic states; descriptive, not population confidence intervals",
+  "columns": ["family", "mixed_seen_mean_rmse", "specialist_seen_mean_rmse", "mixed_dev_mean_rmse", "specialist_dev_mean_rmse", "mixed_full_two_time_rmse", "specialist_full_two_time_rmse"],
+  "rows": [
+    ["tilted", 0.05026273, 0.04829846, 0.07605573, 0.07820556, 0.03377818, 0.04216090],
+    ["interior_domain", 0.05161812, 0.04935018, 0.13195773, 0.13248301, 0.04784313, 0.05778329],
+    ["single_wall", 0.04998887, 0.04669370, 0.09445129, 0.09376141, 0.03055630, 0.02364196]
+  ],
+  "conclusion": "Specialization improves seen-family means but not generalization uniformly; single-wall benefits are conditional. Mixed-family interference is not established as the universal failure source."
+}

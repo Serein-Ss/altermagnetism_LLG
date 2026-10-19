@@ -1,0 +1,49 @@
+{
+  "history": [
+    {
+      "step": 1,
+      "fm": 0.48426878452301025,
+      "replay": 0.35335400700569153,
+      "gradient": 0.6042953133583069
+    }
+  ],
+  "seconds": 48.43832742422819,
+  "config": {
+    "checkpoint": "output/development/bauer_path/step130240/seed{seed}/checkpoint.pt",
+    "native_data": "data/research/datasets/bauer_open_chain/native",
+    "real_bank": "data/research/datasets/bauer_open_chain/conditional/real.json",
+    "model_bank": "data/research/datasets/bauer_open_chain/conditional/model.json",
+    "refill_manifest": "data/research/datasets/bauer_open_chain/refill.json",
+    "sizes": [
+      16,
+      25,
+      32
+    ],
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "batch": 8,
+    "updates": 2048,
+    "physical_lag_ps": 0.1,
+    "teacher_weight": 0.25,
+    "moment_frequency": 64,
+    "moment_peak_weight": 0.1,
+    "moment_ramp_updates": 1000,
+    "auxiliary_branches": 64,
+    "auxiliary_flow_steps": 128,
+    "optimizer": "AdamW_reset",
+    "weight_decay": 1e-05,
+    "learning_rate": 0.0003,
+    "learning_rate_floor": 9e-06,
+    "warmup_updates": 200,
+    "gradient_clip": 10.0,
+    "status": "development_recipe_not_physics_certified",
+    "automatic_submission": false
+  },
+  "updates": 1,
+  "balanced_cycles_complete": false,
+  "fresh_rng": true,
+  "scientific_certification": false
+}

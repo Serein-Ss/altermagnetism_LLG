@@ -1,0 +1,31 @@
+{
+  "base_config": "conf/research/runs/bauer_first_loop/20260913_v1/config.json",
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "old_checkpoints": "output/bauer_first_loop/20260913_v1",
+  "budgets": [
+    600,
+    3000,
+    6000
+  ],
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "initials": 2,
+  "latents": 16,
+  "sampling_steps": 128,
+  "loss_draws": 20,
+  "threshold": 0.6,
+  "dwell": 160.0,
+  "output": "tests/output/conditional_source_learning/window11",
+  "raw": "tests/data/conditional_source_learning/window11",
+  "analysis": "tests/results/conditional_source_learning/window11",
+  "scope": "Compare with window_learning/window11 using identical model, training paths, window-start RNG, budgets and conditions. Source is normalize(current_initial + standard Gaussian), independently at free spins/frames, with first frame fixed. Full angular support follows from positive Gaussian density before projection; no confinement to initial hemisphere. Scale1 fixed, not fitted to development data. Each rollout chunk uses its generated initial, never future reference states. Source is an inference construction, NOT physical thermal noise. Training/evaluation loss interpolation differs from uniform-source baseline, so compare generated physical profiles, not raw losses. Development reused; no certification/promotion/size generalization claim.",
+  "controls": "Same Cartesian width64 blocks4 and initial weights per seed; Adam lr.001, batch8, uniform flow matching. Same update budget, unequal frame/compute budget.",
+  "interpretation": "Compare development full-path distributions, not losses across unequal windows; no promotion or scale-up based only on loss.",
+  "model": "cartesian",
+  "window_frames": 11,
+  "compare_legacy": false,
+  "source_scale": 1.0
+}

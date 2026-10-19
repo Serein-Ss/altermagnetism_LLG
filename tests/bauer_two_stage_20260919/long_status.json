@@ -1,0 +1,5 @@
+{
+  "status": "BLOCKED_BY_PREDECLARED_SCREENS",
+  "reason": "Initial, conditional size or time-ladder screen failed; do not promote an unvalidated model",
+  "details": "assessment.json"
+}

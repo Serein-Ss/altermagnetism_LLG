@@ -1,0 +1,59 @@
+{
+  "train_job": "670899",
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "decay",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "decay",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "decay",
+      "updates": 6000
+    }
+  ],
+  "partition": "rtx4090",
+  "job_name": "zrs-mag",
+  "estimated_minutes_per_gpu": [
+    10,
+    25
+  ],
+  "estimated_report_minutes": [
+    5,
+    15
+  ],
+  "monitor_after_submission": false,
+  "report_job": "670900"
+}

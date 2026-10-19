@@ -1,0 +1,16 @@
+system: bauer_open_chain
+exchange_meV: 50.0
+anisotropy_over_J: 0.1
+damping: 0.1
+theta: 0.11
+temperature_K: 63.824849668
+external_field: 0.0
+boundary: [false]
+reference_method: Milstein_Tretyakov_5.9
+reference_dt_fs: 0.25
+reference_fine_dt_fs: 0.125
+saved_interval_ps: 0.1
+model_lag_ps: 0.1
+reported_composed_duration_ps: 1.0
+trained_sizes: [16, 25, 32]
+validated_accuracy: false

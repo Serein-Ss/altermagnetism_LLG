@@ -1,0 +1,78 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "accum4",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "control",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "anchor90",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "anchor90",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "anchor90",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "accum4",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "accum4",
+      "updates": 6000
+    }
+  ],
+  "scope": "Bauer open L16/25/32, 63.824849668K; same1ps/.1ps grid; existing data/splits, Hamiltonian, backbone, source and FM objective unchanged.",
+  "start": "Each seed starts its full_data_decay cosine step12000 checkpoint; Adam/RNG restored. 6000 updates at cosine1e-4 to3e-6 in every arm. Fixed final step18000 primary; not a claim that more budget is sufficient.",
+  "control": "Legacy .5 anchor override plus .5 uniform windows, batch8, one microbatch per optimizer step.",
+  "anchor90": ".9 anchor override plus .1 uniform windows; same RNG draws/branch selections as control. All families retained; no future-outcome filtering. Effective anchor mass is p+(1-p)/number_of_windows.",
+  "accum4": "Same baseline data distribution, average four batch8 gradients before clipping/Adam. Four times training exposure/compute, NOT equal-compute comparison and not pure noise-only identification. Microbatches may use different lattice sizes.",
+  "pairing": "Three seed blocks. Control/anchor90 same base index and branch draws; windows intentionally differ. Control/accum4 share first microbatch stream prefix, but per-update streams differ. Log first32microbatch target/source/tau hashes and actual family/origin exposure.",
+  "diagnostics": "Before/after paired CFM residual per train/dev parent, six transport times and physical frame. Finite empirical stochastic targets contain irreducible target variance: not exact population velocity error. Train18 calibration vsdev36; two probe latent draws.",
+  "evaluation": "Final checkpoint64 paths per parent,128flow plus first train/dev32/256; population variance ddof1, whole-branch bootstrap100. Reused development data; no untouched final test, threshold or certification. Save every generated path. Family/size and temporal-sign diagnostics, not just global means.",
+  "budget": "9GPU jobs estimated control/anchor8-15min,accum4 20-35min; report5-15min; short3arm smoke1-3min. Formal tasks left unmonitored.",
+  "limitations": "Parent/window exposure versus gradient averaging are candidate mechanisms, not established root causes. No claim of independent late-window conditional ensembles, full state coverage, size transfer or universal architecture success.",
+  "skills": "Karpathy isolated code/tests; experimental-design concurrent seed-blocked controls with explicit compute confounding; Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

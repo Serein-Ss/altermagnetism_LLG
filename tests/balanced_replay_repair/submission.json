@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-29",
+  "job_name": "zrs-mag",
+  "gpu": {"job_id": "671255", "array": "0-8", "partition": "rtx4090", "gpus_per_task": 1, "estimated_minutes_per_task": [120, 180], "time_limit_minutes": 240},
+  "statistics": {"job_id": "671264", "array": "0-8", "partition": "fat", "dependency": "aftercorr:671255", "estimated_minutes_per_task": [5, 10]},
+  "web": {"job_id": "671273", "partition": "fat", "dependency": "afterok:671264", "estimated_minutes": [1, 3]},
+  "task_mapping": [
+    [0, 11, "sparse_iid"], [1, 11, "dense_iid"], [2, 11, "dense_balanced"],
+    [3, 22, "sparse_iid"], [4, 22, "dense_iid"], [5, 22, "dense_balanced"],
+    [6, 33, "sparse_iid"], [7, 33, "dense_iid"], [8, 33, "dense_balanced"]
+  ],
+  "submission_accepted": true,
+  "completion_not_checked": true,
+  "monitoring": "Stopped after scheduler acceptance, per user instruction for jobs expected longer than10minutes.",
+  "outputs": {
+    "models_and_trajectories": "tests/balanced_replay_repair/train/00..08/",
+    "reports": "tests/balanced_replay_repair/train/00..08/report.json",
+    "web_after_success": "tests/balanced_replay_repair/assets/index.html",
+    "main_page_after_success": "tests/index.html#balanced-replay-repair",
+    "logs": "tests/balanced_replay_repair/logs/"
+  },
+  "scientific_certification": false,
+  "no_production_promotion": true,
+  "no_remote_push": true
+}

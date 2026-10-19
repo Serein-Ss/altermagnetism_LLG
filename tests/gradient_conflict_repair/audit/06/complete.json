@@ -1,0 +1,14 @@
+{
+  "task": {
+    "domain": "bauer",
+    "arm": "hierarchical",
+    "seed": 33,
+    "repair": "sum",
+    "updates": 6000
+  },
+  "batches": 128,
+  "frozen_weights": true,
+  "model_hash": "e3abadcb2c134d8e06aa5ffa6b033fea1c1e1a21f528faf77148b38164d929c2",
+  "seconds": 12.994033973664045,
+  "scientific_certification": false
+}

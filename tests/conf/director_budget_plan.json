@@ -1,0 +1,9 @@
+{
+  "question": "Does a longer optimization schedule reduce nonuniform-state conditional mean bias with unchanged data and architecture?",
+  "budgets": [6000, 24000],
+  "seeds": [11, 22, 33],
+  "design": "Concurrent seed-blocked paired initialization and training random-stream prefix. Fixed final checkpoints, no development-selected stopping. Both arms use midpoint32 with identical latent seeds and batching.",
+  "changed": "Total updates and proportional cosine learning-rate duration. Compute not matched. This does not isolate update count from learning-rate schedule.",
+  "evaluation": "All 12 anchors, all 8 output times. Primary conditional mean-increment RMSE at t=0.01 and 0.08. Also full spatial covariance, site variance, nearest-neighbor bonds, temporal connected covariance, unit norms and stochastic diversity. Paired arms and independent reference whole-path resampling. No pass decision from training loss or a single seed.",
+  "scope": "Exploratory budget-limited three-seed comparison, not power-sized or independent-test certification. Reused development states. Does not establish larger-size or longer-time transfer. No explicit Hamiltonian force input. No production promotion."
+}

@@ -1,0 +1,253 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "variance",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "fit1",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "fit1",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "fm",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "variance",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "joint",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "fit6",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "fm",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "correlation",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "fit1",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "cross",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "fm",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "fit6",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "joint",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "correlation",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "fit6",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "cross",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "correlation",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "cross",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "variance",
+      "updates": 3000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "joint",
+      "updates": 3000
+    }
+  ],
+  "fit_parents": [
+    {
+      "file": "train_parent14_base.h5",
+      "parent_id": "L16_parent14",
+      "split": "train",
+      "family": "positive",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "e6953aa14e2f4b253f8e9218b24933a63dd86d56ed148482d1d0b01eb7e31297",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent14_base.h5",
+      "candidate_seed": 21860932,
+      "preparation_seed": 21870932
+    },
+    {
+      "file": "train_parent35_base.h5",
+      "parent_id": "L16_parent35",
+      "split": "train",
+      "family": "negative",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "c96754da4a37a9b581af9b5bfae2fa1d17d265ae744de303dcd6bc97f3ff42a1",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent35_base.h5",
+      "candidate_seed": 21860953,
+      "preparation_seed": 21870953
+    },
+    {
+      "file": "train_parent60_base.h5",
+      "parent_id": "L16_parent60",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "5a17264a0febb6b08868710e84833dff14ef9279a841e6eff7de089a93abd046",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent60_base.h5",
+      "candidate_seed": 21860978,
+      "preparation_seed": 21870978
+    },
+    {
+      "file": "train_parent79_base.h5",
+      "parent_id": "L16_parent79",
+      "split": "train",
+      "family": "edge_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "6c7483515d483950053aec344094e7391681d756d046b3c4463ec9b3502f6192",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent79_base.h5",
+      "candidate_seed": 21860997,
+      "preparation_seed": 21870997
+    },
+    {
+      "file": "train_parent96_base.h5",
+      "parent_id": "L16_parent96",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "214b7e724b9b4e7d1a7b140202c8c84f9a8cba99676513180e0e58c23e7ba7fc",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent96_base.h5",
+      "candidate_seed": 21861014,
+      "preparation_seed": 21871014
+    },
+    {
+      "file": "train_parent124_base.h5",
+      "parent_id": "L16_parent124",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "2edd9fadb86e2a682a4e1ca52ab78f16daffee16e63492f373e77208c44b28a8",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent124_base.h5",
+      "candidate_seed": 21861042,
+      "preparation_seed": 21871042
+    }
+  ],
+  "scope": "Bauer open L16/25/32,63.824849668K,1ps block,0.1ps grid; no reference or backbone change",
+  "start": "Original FM-only6000 checkpoint per seed, optimizer/RNG restored,3000 more updates. Not continuation of chosen best curriculum arm.",
+  "controls": "Full-data FM,var-only,corr-only,joint-plugin,joint-cross: shared data/latent/aux draws; fixed0.06684491978609611 every16updates,8 generated/8 train reference branches,32-step sampling.",
+  "estimator": "Cross uses two disjoint independent generated groups of4. E[(mA-t)(mB-t)]=(E[m]-t)^2 conditional on fixed empirical reference t and its normalization. Removes generated-estimator variance penalty, not reference error or finite-step error. Can be negative; not clamped.",
+  "limitations": "Splitting into4+4 can increase gradient variance. No claim of total unbiased physical loss; reference8 remains noisy, scales depend on reference. Component removal changes total auxiliary strength; gradients logged.",
+  "fit": "One fixed L16 train parent or first6 L16 family parents,all8 empirical branches,FM only. Restricted fine-tuning/memorization diagnostic, not independent physical certification; failure at3000 updates does not prove architecture impossibility.",
+  "evaluation": "Frozen final checkpoint.18 train calibration parents (one per size/family) +36 independent dev parents;64 generated each,128flow; first train/dev parent32/128/256. Fit parents labelled separately. No new final holdout.",
+  "metrics": "Physical energy,magnetization,space,increment covariance,two-time statistics; whole-branch bootstrap100. Empirical train agreement cannot prove unseen-future physics.",
+  "budget": "21GPU tasks (15 component/estimator controls+6 restricted-fit),3seeds, estimated10-20min/task; report5-15min. No monitoring after long submission.",
+  "skills": "Karpathy isolation/regression; experimental-design seed blocks and paired controls. Scientific Agent Skills DOI10.48550/arXiv.2609.00065"
+}

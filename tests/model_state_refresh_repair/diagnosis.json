@@ -1,0 +1,36 @@
+{
+  "source": "tests/model_state_replay_repair/assets/summary.json",
+  "previous_jobs_all_completed": true,
+  "pairing_errors": [],
+  "dev_mean_RMSE": {
+    "before": 0.07749157,
+    "control": 0.0751975,
+    "replay": 0.07356681
+  },
+  "full_increment_variance_RMSE": {
+    "before": 0.03382626,
+    "control": 0.03682994,
+    "replay": 0.03283892
+  },
+  "full_two_time_RMSE": {
+    "before": 0.02340437,
+    "control": 0.02359363,
+    "replay": 0.02257138
+  },
+  "old_model_state_increment_mean_RMSE": {
+    "control": 0.0711827,
+    "replay": 0.05813169
+  },
+  "interpretation": "Descriptive improvement from replay on full1ps and short model-state statistics; residual biases and real-state calibration tradeoff remain. Not a new physical pass or statistically proven effect.",
+  "state_change": {
+    "mean_site_angle_rad_averaged48_states": 0.17932323426025398,
+    "maximum_state_average_site_angle_rad": 0.928319244174065
+  },
+  "finite_bank_mean_errors_model_state": {
+    "G_vs_fine": 0.05813169,
+    "G_vs_train": 0.05730488,
+    "train_vs_fine": 0.03435897,
+    "probe_vs_fine": 0.02848841
+  },
+  "next": "Refresh TRAIN-origin snapshots after the first replay intervention, obtain independent LLG futures, compare fresh-state-bank versus stale-state-bank continuation with matched budget; retain independentDEV and full1ps regressions."
+}

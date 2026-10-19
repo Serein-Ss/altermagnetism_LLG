@@ -19,7 +19,7 @@ def main():
     args.output.mkdir(parents=True, exist_ok=False)
     env = dict(os.environ, GATE_F_TEST_DEVICE=args.device, OMP_NUM_THREADS='1',
                MKL_NUM_THREADS='1', OPENBLAS_NUM_THREADS='1', PYTHONDONTWRITEBYTECODE='1')
-    command = [sys.executable, '-m', 'pytest', 'scripts/tests/test_gate_f.py', '-q',
+    command = [sys.executable, '-m', 'pytest', 'tests/unit/test_gate_f.py', '-q',
                '-p', 'no:cacheprovider', '--junitxml='+str(args.output/'junit.xml')]
     started = time.monotonic()
     with (args.output/'pytest.log').open('x') as stream:

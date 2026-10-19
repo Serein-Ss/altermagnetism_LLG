@@ -1,0 +1,124 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "warm_decay",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "fresh_decay",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "warm_constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "fresh_constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "warm_decay",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "warm_decay",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "fresh_constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "fresh_decay",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "fresh_constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "warm_constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "warm_constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "fresh_decay",
+      "updates": 6000
+    }
+  ],
+  "parent": {
+    "file": "train_parent14_base.h5",
+    "parent_id": "L16_parent14",
+    "split": "train",
+    "family": "positive",
+    "arm": "base",
+    "branches": 8,
+    "frames": 1001,
+    "dt_fs": 0.25,
+    "sha256": "e6953aa14e2f4b253f8e9218b24933a63dd86d56ed148482d1d0b01eb7e31297",
+    "L": 16,
+    "path": "tests/bauer_active_data_20260918/data/L16/train_parent14_base.h5",
+    "candidate_seed": 21860932,
+    "preparation_seed": 21870932
+  },
+  "scope": "Bauer L16 one fixed TRAIN parent,8 empirical future paths. Physical1ps/0.1ps unchanged. No auxiliary statistics losses. Not generalization or full LLG-law certification.",
+  "training": "6000 CFM updates,uniform tau0..1,shifted normal source2*S0,8branches per batch. Fresh vs original full-dataFM6000 warm-start with Adam state; constant1e-3 vs cosine1e-3 to3e-5. Warm arms have extra prior compute/data. New paired source/tau RNG streams perseed, not full historical RNG continuation.",
+  "oracle": "Projected-normal spherical source density times inverse-contraction Jacobian; sum all8 equal-weight whole-path modes. Numerically verified. No real future as extra network input. Oracle itself accesses targets only for diagnosis.",
+  "evaluation": "256sources,empirical smoothed law at transport tau0.95; network128/512Euler and256midpoint. Teacher-law velocity error grid; restarts.03/.1/.25/.5/.75 use true targets and are NOT deployable. Separate tau1 output versus empirical8. Never relabel tau0.95 as fully generated original law.",
+  "numerical": "Oracle512/2048Euler vs1024midpoint; float64 solver state/oracle with float32 network. Outside-support nearest extension counted, not silently certified. Seed-matched same sources across all arms.",
+  "uncertainty": "Nearest-path counts are empirical labels, not physical mechanism weights. No hard physical thresholds. Directlaw stratified32perempiricalpath. Seed variation separate; no new holdout.",
+  "estimates_minutes": {
+    "training": [
+      10,
+      20
+    ],
+    "oracle": [
+      1,
+      5
+    ],
+    "report": [
+      1,
+      5
+    ]
+  },
+  "skills": "Karpathy isolated changes; experimental-design paired2x2 controls/3seeds; Scientific Agent Skills DOI10.48550/arXiv.2609.00065"
+}

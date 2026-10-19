@@ -1,0 +1,17 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 11
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 11
+    }
+  ],
+  "controls": {
+    "baseline": "test fixture only"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "cpu": {
+    "parent": {
+      "file": "dev_parent152_base.h5",
+      "parent_id": "L16_parent152",
+      "split": "dev",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 16,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "ce35c1ed83dadedbf9fe53db248f251fe69555710b62dbc730bd91c5d0c7ebe3",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/dev_parent152_base.h5",
+      "candidate_seed": 21861070,
+      "preparation_seed": 21871070
+    },
+    "branches_per_dt": 2,
+    "seconds": 0.8037895485758781
+  },
+  "gpu": {
+    "task": {
+      "seed": 11,
+      "L": 16
+    },
+    "seconds": 4.199541132897139,
+    "records": [
+      {
+        "parent_index": 0,
+        "method": "euler",
+        "steps": 8,
+        "nfe": 8,
+        "seconds": 2.6356743909418583
+      },
+      {
+        "parent_index": 0,
+        "method": "midpoint",
+        "steps": 8,
+        "nfe": 16,
+        "seconds": 0.18248625099658966
+      }
+    ],
+    "scientific_certification": false
+  },
+  "report_interface_passed": true,
+  "scientific_certification": false
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "physical audit and visualization only",
+  "initial_attempt": {"array": 670080, "status": "FAILED", "reason": "NumPy boolean JSON serialization; fixed explicitly with bool()"},
+  "successful_audit": {"array": 670083, "tasks": ["670083_0", "670083_1", "670083_2"], "status": "COMPLETED"},
+  "hirst_matched_replay": {"job": 670086, "status": "COMPLETED"},
+  "partition": "rtx4090",
+  "name": "zrs-mag",
+  "unit_tests": {"passed": 13, "failed": 0},
+  "production_enabled": false,
+  "model_training_started": false,
+  "original_data_preserved": true,
+  "release": "HOLD pending user review and unresolved physical checks"
+}

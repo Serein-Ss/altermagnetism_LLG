@@ -1,0 +1,506 @@
+[
+  {
+    "parent_id": "L16_parent168",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007705911417064455
+  },
+  {
+    "parent_id": "L16_parent168",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0025914786670597346
+  },
+  {
+    "parent_id": "L16_parent169",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.00753258393610404
+  },
+  {
+    "parent_id": "L16_parent169",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0025356738325771045
+  },
+  {
+    "parent_id": "L16_parent172",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007515729029703751
+  },
+  {
+    "parent_id": "L16_parent172",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002531479417925696
+  },
+  {
+    "parent_id": "L16_parent174",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007469530923909831
+  },
+  {
+    "parent_id": "L16_parent174",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002511538205795198
+  },
+  {
+    "parent_id": "L16_parent178",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0075618747131194
+  },
+  {
+    "parent_id": "L16_parent178",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002549586847596789
+  },
+  {
+    "parent_id": "L16_parent177",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007579003035293304
+  },
+  {
+    "parent_id": "L16_parent177",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0025508030893807783
+  },
+  {
+    "parent_id": "L16_parent181",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.008176261054662225
+  },
+  {
+    "parent_id": "L16_parent181",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002758924112104479
+  },
+  {
+    "parent_id": "L16_parent183",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.008201949107589243
+  },
+  {
+    "parent_id": "L16_parent183",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0027675381847661997
+  },
+  {
+    "parent_id": "L16_parent184",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.009256987722977275
+  },
+  {
+    "parent_id": "L16_parent184",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.003129465047711164
+  },
+  {
+    "parent_id": "L16_parent186",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.011238907774351804
+  },
+  {
+    "parent_id": "L16_parent186",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.00378735932553866
+  },
+  {
+    "parent_id": "L16_parent190",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007926233841190252
+  },
+  {
+    "parent_id": "L16_parent190",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0026743259792629055
+  },
+  {
+    "parent_id": "L16_parent188",
+    "L": 16,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007530348333402713
+  },
+  {
+    "parent_id": "L16_parent188",
+    "L": 16,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002531596801497197
+  },
+  {
+    "parent_id": "L25_parent170",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0074617775577167636
+  },
+  {
+    "parent_id": "L25_parent170",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002510559729319339
+  },
+  {
+    "parent_id": "L25_parent169",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007537061323554471
+  },
+  {
+    "parent_id": "L25_parent169",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0025407801148187494
+  },
+  {
+    "parent_id": "L25_parent172",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.008139542104059929
+  },
+  {
+    "parent_id": "L25_parent172",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0027507389217637044
+  },
+  {
+    "parent_id": "L25_parent174",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007331201992619603
+  },
+  {
+    "parent_id": "L25_parent174",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0024708896430717534
+  },
+  {
+    "parent_id": "L25_parent178",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007302575312434215
+  },
+  {
+    "parent_id": "L25_parent178",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002458281247631799
+  },
+  {
+    "parent_id": "L25_parent176",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007380453365497407
+  },
+  {
+    "parent_id": "L25_parent176",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002483582116147938
+  },
+  {
+    "parent_id": "L25_parent182",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007844902204913646
+  },
+  {
+    "parent_id": "L25_parent182",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002647004509145244
+  },
+  {
+    "parent_id": "L25_parent180",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007665201788604258
+  },
+  {
+    "parent_id": "L25_parent180",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0025765907518184635
+  },
+  {
+    "parent_id": "L25_parent184",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.009220268299303358
+  },
+  {
+    "parent_id": "L25_parent184",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0031111383165364484
+  },
+  {
+    "parent_id": "L25_parent186",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.008429314018839583
+  },
+  {
+    "parent_id": "L25_parent186",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0028436056926405356
+  },
+  {
+    "parent_id": "L25_parent189",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.00796688310285858
+  },
+  {
+    "parent_id": "L25_parent189",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002692108785720889
+  },
+  {
+    "parent_id": "L25_parent190",
+    "L": 25,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.00792106257961396
+  },
+  {
+    "parent_id": "L25_parent190",
+    "L": 25,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002666137976895324
+  },
+  {
+    "parent_id": "L32_parent171",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007801685257189072
+  },
+  {
+    "parent_id": "L32_parent171",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0026313647554989795
+  },
+  {
+    "parent_id": "L32_parent168",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007344255085279084
+  },
+  {
+    "parent_id": "L32_parent168",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002471086099491501
+  },
+  {
+    "parent_id": "L32_parent175",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007418690918488173
+  },
+  {
+    "parent_id": "L32_parent175",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0024958894596712926
+  },
+  {
+    "parent_id": "L32_parent172",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007288018573139426
+  },
+  {
+    "parent_id": "L32_parent172",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002454442712116022
+  },
+  {
+    "parent_id": "L32_parent178",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007722287771300895
+  },
+  {
+    "parent_id": "L32_parent178",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0026230728348946406
+  },
+  {
+    "parent_id": "L32_parent179",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.008190170029253256
+  },
+  {
+    "parent_id": "L32_parent179",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002759711810193698
+  },
+  {
+    "parent_id": "L32_parent181",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007484236342324718
+  },
+  {
+    "parent_id": "L32_parent181",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.002512380411109989
+  },
+  {
+    "parent_id": "L32_parent182",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007138183193558473
+  },
+  {
+    "parent_id": "L32_parent182",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.00239858749863549
+  },
+  {
+    "parent_id": "L32_parent186",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007878284183554903
+  },
+  {
+    "parent_id": "L32_parent186",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0026523367553790062
+  },
+  {
+    "parent_id": "L32_parent184",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.008259664694789972
+  },
+  {
+    "parent_id": "L32_parent184",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0027903040314390427
+  },
+  {
+    "parent_id": "L32_parent191",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007193749173331836
+  },
+  {
+    "parent_id": "L32_parent191",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.0024215172800137698
+  },
+  {
+    "parent_id": "L32_parent188",
+    "L": 32,
+    "coarse_steps": 32,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.007552942798662803
+  },
+  {
+    "parent_id": "L32_parent188",
+    "L": 32,
+    "coarse_steps": 64,
+    "fine_steps": 128,
+    "paired_spin_rmse": 0.00254502735230159
+  }
+]

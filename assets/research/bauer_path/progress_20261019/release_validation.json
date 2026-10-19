@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-19",
+  "purpose": "Software migration validation, not physical accuracy certification",
+  "environment": "zrs-mag, CPU only, no Slurm submissions",
+  "migration": {
+    "passed": 12,
+    "failed": 0,
+    "report": "tests/release_20261019/migration_final.xml",
+    "coverage": ["three checkpoint velocities exactly match frozen implementation", "source and spherical sampling", "resumable RNG and deduplicated composition", "actual S0 and unit norm", "whole teacher and spatial loss", "three-size lazy windows", "energy and spatial metrics", "canonical modules do not import tests", "differentiable sampler and energy gradient", "schedule and native batch equality"]
+  },
+  "related_contracts": {
+    "passed": 23,
+    "failed": 0,
+    "deselected": 1,
+    "report": "tests/release_20261019/contracts_bounded.xml",
+    "deselected_reason": "Duplicate eight-step, eight-branch historical network gradient check exceeded the short local budget; not reported as passed. The migrated sampler gradient is independently covered at a smaller software-test scale."
+  },
+  "interfaces": {
+    "cpu_generation_and_evaluation_cli": "passed",
+    "scope": "4 generated branches,4 flow steps,0.1ps,TRAIN reference; interface smoke only,not a converged physical comparison",
+    "cpu_one_update_training": "passed: forward,teacher replay,backward,finite gradient,optimizer and checkpoint save; one update only,not a balanced16-update experimental cycle",
+    "cpu_one_update_training_seconds": 48.43832742422819
+  },
+  "interrupted_checks": ["16-update CPU smoke stopped when it exceeded its short-run estimate", "unbounded historical gradient repetition stopped; remaining23 checks rerun successfully"],
+  "migration_repairs": ["restored missing math import", "restored original float32 conversion for refill futures", "explicit fresh RNG for CPU smoke instead of pretending to resume CUDA RNG"],
+  "syntax": {"new_python_modules": "passed", "slurm_template": "passed,not submitted"},
+  "scientific_certification": false
+}

@@ -1,0 +1,74 @@
+{
+  "rows": [
+    {
+      "arm": "baseline",
+      "seconds_per_update": 0.020611214637756347,
+      "parent_eval_seconds": 1.0237753093242645,
+      "residual_rms": 0.0,
+      "residual_gradient_norms": {}
+    },
+    {
+      "arm": "local_fixed",
+      "seconds_per_update": 0.018230057060718535,
+      "parent_eval_seconds": 1.0874465890228748,
+      "residual_rms": 0.05886765569448471,
+      "residual_gradient_norms": {
+        "residual_input.0.weight": 0.021031249314546585,
+        "residual_input.2.weight": 0.0032992707565426826,
+        "residual_qk.weight": 0.008947516791522503,
+        "residual_gate.weight": 0.09054359793663025
+      }
+    },
+    {
+      "arm": "temporal_fixed",
+      "seconds_per_update": 0.018217814937233925,
+      "parent_eval_seconds": 1.082990888506174,
+      "residual_rms": 0.18312782049179077,
+      "residual_gradient_norms": {
+        "residual_input.0.weight": 0.16207069158554077,
+        "residual_input.2.weight": 0.027260156348347664,
+        "residual_qk.weight": 0.01097711268812418,
+        "residual_gate.weight": 1.3092049360275269
+      }
+    },
+    {
+      "arm": "relational_global",
+      "seconds_per_update": 0.018821444064378738,
+      "parent_eval_seconds": 1.0932139866054058,
+      "residual_rms": 0.22736907005310059,
+      "residual_gradient_norms": {
+        "residual_input.0.weight": 0.2383093386888504,
+        "residual_input.2.weight": 0.04943482577800751,
+        "residual_qk.weight": 0.053264327347278595,
+        "residual_gate.weight": 3.0747475624084473
+      }
+    },
+    {
+      "arm": "temporal_shared",
+      "seconds_per_update": 0.02085312806069851,
+      "parent_eval_seconds": 1.0926904305815697,
+      "residual_rms": 0.24657182395458221,
+      "residual_gradient_norms": {
+        "residual_input.0.weight": 0.20633789896965027,
+        "residual_input.2.weight": 0.030422111973166466,
+        "residual_qk.weight": 0.024137655273079872,
+        "residual_gate.weight": 2.0193915367126465
+      }
+    },
+    {
+      "arm": "relational_shared",
+      "seconds_per_update": 0.019684893563389778,
+      "parent_eval_seconds": 1.085707064718008,
+      "residual_rms": 0.3143840730190277,
+      "residual_gradient_norms": {
+        "residual_input.0.weight": 0.39826199412345886,
+        "residual_input.2.weight": 0.05052901804447174,
+        "residual_qk.weight": 0.1141190379858017,
+        "residual_gate.weight": 6.145068168640137
+      }
+    }
+  ],
+  "cache_load_seconds": 8.451568216085434,
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "software_smoke_only": true
+}

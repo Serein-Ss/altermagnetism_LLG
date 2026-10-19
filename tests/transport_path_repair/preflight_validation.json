@@ -1,0 +1,23 @@
+{
+  "unit_tests": "python -m unittest tests.transport_path_repair.test_sampler tests.velocity_target_repair.test_target",
+  "environment": "zrs-mag via ../run_zrs_mag.sh",
+  "unit_tests_passed": 6,
+  "unit_test_seconds": 0.290,
+  "checks": ["uniform-grid bitwise regression", "analytic rotation convergence", "joint rotation covariance of integrator", "unit sphere", "initial-frame anchoring", "restart composition", "invalid grids", "existing finite-mixture target tests"],
+  "smoke_gpu_job": "671067_0",
+  "smoke_gpu_state": "COMPLETED",
+  "smoke_gpu_elapsed_seconds": 31,
+  "smoke_report_job": "671068",
+  "smoke_report_state": "COMPLETED",
+  "smoke_report_elapsed_seconds": 14,
+  "smoke_device": "NVIDIA GeForce RTX 3090",
+  "requested_gpu_partition": "rtx4090",
+  "smoke_branches": 4,
+  "smoke_sampler_arms": 7,
+  "smoke_intermediate_stages": 4,
+  "max_norm_error": 1.7881393432617188e-7,
+  "anchor_error": 0.0,
+  "html_and_json_generated": true,
+  "scientific_certification": false,
+  "production_promoted": false
+}

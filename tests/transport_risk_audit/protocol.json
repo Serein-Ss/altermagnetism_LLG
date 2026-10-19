@@ -1,0 +1,9 @@
+{
+  "reason": "All optimizer trials completed. Reset nearly identical to restored Adam.10xLR increases weight change from.0038 to.0296 but worsens DEVmean/energy. No successful optimizer repair.",
+  "evaluation_repair": "Old risk uses first8 TRAINbranches with deterministic one-to-one tau mapping .05-.85, omits late tau and augmentation. New audit uses all64branches in every one of10 uniform tau bins with independent jitter,2fresh latent repeats; original and common-angle-augmented versions paired. No archived result overwritten.",
+  "models": "3seeds,source54000 +4optimizer arms54512. Paired identical probes across15checkpoints. No new training,reference generation,modelselection,promotion or threshold adjustment.",
+  "domain": "Same Bauer openL16 .1ps transition fixedT63.824849668K.48TRAINrestartstates from24correlated sourcegroups. TRAINbankonly,do not load probe/fine orDEVfuture as teacher.",
+  "estimand": "Restart empiricalhybrid-label risk stratified bytau,augmentation,state andseed. This is not totalnative+restart objective,not physicalpath accuracy. Teacher<=.9,ordinarysampledCFM>.9. Report residual and cross-term; finite empirical conditionalteacher nottrueLLG.",
+  "runtime": "One GPU smoke estimate1-4min. Three formalGPU jobs estimate10-25min each,60min allocations; no monitoring after acceptance. CPU aggregation <2min. No concurrencylimit.",
+  "next_decision": "If only unaugmentedrisk worsens, investigate symmetry/augmentation tradeoff; if late-time strata regress, investigate time weighting. If all supported risk declines without physical improvement, investigate objective-to-dynamics mismatch. These are clues,not unique causal diagnoses."
+}

@@ -1,0 +1,12 @@
+{
+  "base_experiment": "tests/conf/bauer_training_budget_20260913.json",
+  "experiment": "global_context_overfit",
+  "model": "cartesian",
+  "global_context": true,
+  "seeds": [11, 22, 33],
+  "arms": {"mixed_eight": [96, 97, 98, 99, 100, 101, 102, 103]},
+  "budgets": [600, 3000, 6000],
+  "latents": 32,
+  "sampling_steps": 128,
+  "scope": "Exploratory global-context control against cartesian_overfit/mixed_eight. Add zero-initialized learned per-path mean-feature broadcasts to four residual blocks, keeping local convolutions and shared parameter initialization unchanged. No Hamiltonian, target endpoint, path identity or other batch samples provided. Adds 16640 parameters; cannot isolate connectivity from added capacity. Same train examples, source RNG, Adam and steps, three robustness seeds. Report all milestones/seeds, magnetization mean/variance, temporal/spatial connected correlations, not only loss. Selected eight paths diagnose empirical learning, not physical probabilities, independent generalization or size transfer. No production promotion."
+}

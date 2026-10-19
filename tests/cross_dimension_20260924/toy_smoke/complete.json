@@ -1,0 +1,43 @@
+{
+  "task": {
+    "domain": "toy",
+    "arm": "oracle_supervision",
+    "modes": 2,
+    "seed": 11,
+    "updates": 8
+  },
+  "rows": [
+    {
+      "parent": 0,
+      "steps": 16,
+      "conditional_velocity_mse": 1.6169408559799194,
+      "outside_support_evaluations": 0,
+      "final_outside_support": 16,
+      "transport_stop": 0.95,
+      "oracle_positive_posterior": 0.3125,
+      "generated": {
+        "positive_fraction": 0.4375,
+        "direction_coherence": 0.2557291666666667,
+        "rotation_amplitude": 0.0978619012434595,
+        "signed_rotation": -0.0005663988923480384,
+        "valid_projection_fraction": 0.98828125,
+        "unresolved_projection": 0.0,
+        "direction_persistence": 0.59375
+      },
+      "reference": {
+        "positive_fraction": 0.625,
+        "direction_coherence": 1.0,
+        "rotation_amplitude": 0.4699221117631355,
+        "signed_rotation": 0.11692095045233619,
+        "valid_projection_fraction": 0.9375,
+        "unresolved_projection": 0.0,
+        "direction_persistence": 1.0
+      }
+    }
+  ],
+  "history": [],
+  "warm_step_seconds": 0.02501508966088295,
+  "device": "NVIDIA GeForce RTX 3090",
+  "scientific_certification": false,
+  "fresh_interpolant_support_failures": 0
+}

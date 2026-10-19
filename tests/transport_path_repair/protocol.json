@@ -1,0 +1,48 @@
+{
+  "tasks": [
+    {
+      "seed": 11,
+      "L": 16
+    },
+    {
+      "seed": 11,
+      "L": 25
+    },
+    {
+      "seed": 11,
+      "L": 32
+    },
+    {
+      "seed": 22,
+      "L": 16
+    },
+    {
+      "seed": 22,
+      "L": 25
+    },
+    {
+      "seed": 22,
+      "L": 32
+    },
+    {
+      "seed": 33,
+      "L": 16
+    },
+    {
+      "seed": 33,
+      "L": 25
+    },
+    {
+      "seed": 33,
+      "L": 32
+    }
+  ],
+  "scope": "Frozen control step24000, seeds11/22/33. Bauer open L16/25/32, 18 existing dev parents;1ps,11frames,0.1ps saved grid. No training, no physics changes.",
+  "sampling": "128 latent paths/parent. Paired projected midpoint uniform128, late128, uniform512, late512. late grid tau(u)=1-(1-u)^2. Same-step arms match network evaluations, not guaranteed wall cost. Model seed blocked; sampler order randomized per parent using seed937500+parent_index.",
+  "diagnosis": "Save normal uniform128 transport states at tau=.125,.25,.5,.75 and geodesic source/base-reference interpolations at same tau. Restart from reference interpolation at .25,.5,.75 with ceil(128*(1-tau)) uniform midpoint steps. Reference restarts are oracle-informed diagnostics, NOT deployable generated samples. Shorter remaining transport and access to future confound improvement; cannot alone establish distribution-shift causality.",
+  "comparison": "Final outputs compared separately to base128 and independent fine128; teacher uses base128. Intermediate states are transport geometry, NOT physical LLG-time marginals. Report S0 overlap, neighbor alignment, cross-frame alignment and whole-branch uncertainty. Normal final metrics: increment variance, two-time spin correlation, energy mean plus existing full evaluator. No paired model-to-LLG trajectory error.",
+  "uncertainty": "Fixed-parent whole-branch bootstrap100, reference and model independent for normal inference; base comparison of teacher restart is descriptive only. Fine reference independent of teacher. Latent arms paired. Reused development parents, not untouched test. Reference-reference differences are not tolerances. No automatic pass or promotion.",
+  "decision": "If nonuniform and uniform high-resolution outputs agree while physical error persists, integration is not sufficient explanation. If teacher-informed restarts improve, locate accumulated transport mismatch without claiming a deployable repair. Report tradeoffs across all seeds and sizes.",
+  "budget": "Nine GPU tasks estimated10-25min each; nine fat statistics tasks5-15min each; aggregation<3min. Smoke<5min. Queue time excluded. No long monitoring.",
+  "skills": "Karpathy isolated regression and experimental-design paired/blocked controls; Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

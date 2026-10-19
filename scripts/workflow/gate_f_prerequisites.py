@@ -34,7 +34,7 @@ SOURCE_FILES = [
     'scripts/literature/gomonay_2024/model.py', 'scripts/generation/generate_zero_field_gomonay.py',
     'scripts/validation/gomonay_static_reference.py', 'scripts/analysis/zero_field_equilibrium.py',
     'conf/literature_reproduction/physics/gomonay_2024.yaml', 'conf/research/experiments/gate_f/prerequisites.yaml',
-    'slurm/gate_f_prerequisites.sbatch', 'scripts/tests/test_gate_f_prerequisites.py',
+    'slurm/gate_f_prerequisites.sbatch', 'tests/unit/test_gate_f_prerequisites.py',
 ]
 
 

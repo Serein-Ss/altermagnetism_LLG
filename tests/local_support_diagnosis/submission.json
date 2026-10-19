@@ -1,0 +1,17 @@
+{
+  "job": 671943,
+  "partition": "fat",
+  "job_name": "zrs-mag",
+  "estimated_minutes": [1, 5],
+  "allocation_minutes": 15,
+  "gpu_jobs": 0,
+  "training": false,
+  "new_reference_generation": false,
+  "preflight": {"unit_tests_passed": 2, "real_states": 2, "sites": 32, "seconds": 1.4921931494027376},
+  "physical_repair_certified": false,
+  "state": "COMPLETED",
+  "exit_code": "0:0",
+  "elapsed_seconds": 32,
+  "evaluated_model_state_pairs": 648,
+  "site_records": 15768
+}

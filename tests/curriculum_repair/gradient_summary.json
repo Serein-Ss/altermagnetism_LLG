@@ -1,0 +1,110 @@
+[
+  {
+    "seed": 11,
+    "checkpoint": "baseline",
+    "steps": 32,
+    "n": 12,
+    "median_ratio": 2.313966989517212,
+    "median_cosine": 0.028079785406589508,
+    "negative_cosines": 6
+  },
+  {
+    "seed": 11,
+    "checkpoint": "baseline",
+    "steps": 64,
+    "n": 12,
+    "median_ratio": 2.2378305196762085,
+    "median_cosine": -0.0074377357959747314,
+    "negative_cosines": 6
+  },
+  {
+    "seed": 11,
+    "checkpoint": "joint",
+    "steps": 32,
+    "n": 12,
+    "median_ratio": 2.334224581718445,
+    "median_cosine": 0.2584938257932663,
+    "negative_cosines": 5
+  },
+  {
+    "seed": 11,
+    "checkpoint": "joint",
+    "steps": 64,
+    "n": 12,
+    "median_ratio": 2.4269731044769287,
+    "median_cosine": 0.23684917390346527,
+    "negative_cosines": 5
+  },
+  {
+    "seed": 22,
+    "checkpoint": "baseline",
+    "steps": 32,
+    "n": 12,
+    "median_ratio": 8.065420150756836,
+    "median_cosine": 0.062593137845397,
+    "negative_cosines": 5
+  },
+  {
+    "seed": 22,
+    "checkpoint": "baseline",
+    "steps": 64,
+    "n": 12,
+    "median_ratio": 8.994044780731201,
+    "median_cosine": 0.0458134226500988,
+    "negative_cosines": 5
+  },
+  {
+    "seed": 22,
+    "checkpoint": "joint",
+    "steps": 32,
+    "n": 12,
+    "median_ratio": 4.403149604797363,
+    "median_cosine": 0.22623030841350555,
+    "negative_cosines": 2
+  },
+  {
+    "seed": 22,
+    "checkpoint": "joint",
+    "steps": 64,
+    "n": 12,
+    "median_ratio": 4.182308197021484,
+    "median_cosine": 0.2404363453388214,
+    "negative_cosines": 2
+  },
+  {
+    "seed": 33,
+    "checkpoint": "baseline",
+    "steps": 32,
+    "n": 12,
+    "median_ratio": 3.0190958976745605,
+    "median_cosine": 0.01817963318899274,
+    "negative_cosines": 5
+  },
+  {
+    "seed": 33,
+    "checkpoint": "baseline",
+    "steps": 64,
+    "n": 12,
+    "median_ratio": 4.679782390594482,
+    "median_cosine": 0.018979744287207723,
+    "negative_cosines": 5
+  },
+  {
+    "seed": 33,
+    "checkpoint": "joint",
+    "steps": 32,
+    "n": 12,
+    "median_ratio": 2.0973702669143677,
+    "median_cosine": 0.06203712709248066,
+    "negative_cosines": 4
+  },
+  {
+    "seed": 33,
+    "checkpoint": "joint",
+    "steps": 64,
+    "n": 12,
+    "median_ratio": 2.395089864730835,
+    "median_cosine": 0.041543628089129925,
+    "negative_cosines": 4
+  }
+]

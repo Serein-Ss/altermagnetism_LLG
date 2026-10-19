@@ -1,0 +1,4804 @@
+{
+  "seed": 11,
+  "batches": 8192,
+  "code_sha256": "237028f865531e4791310e2205737d5ce50ea5f2795dc50f4b4c99085b676794",
+  "frozen_weights": true,
+  "model_hash": "99bf30ab9a0309afc572d6918331509dc391f25fe4a80ee07d4d493f05e2d52f",
+  "blocks": [
+    {
+      "batches": 16,
+      "start_batch": 0,
+      "cosine": 0.13818624716194294,
+      "native_norm": 0.3045103240949116,
+      "replay_norm": 0.15113647473635575
+    },
+    {
+      "batches": 16,
+      "start_batch": 16,
+      "cosine": 0.040609057654369875,
+      "native_norm": 0.35499717578988255,
+      "replay_norm": 0.11614491031199602
+    },
+    {
+      "batches": 16,
+      "start_batch": 32,
+      "cosine": -0.15722562502011522,
+      "native_norm": 0.2718567785782778,
+      "replay_norm": 0.13743452774165815
+    },
+    {
+      "batches": 16,
+      "start_batch": 48,
+      "cosine": 0.3287520142252344,
+      "native_norm": 0.2656335775470036,
+      "replay_norm": 0.17723782775784194
+    },
+    {
+      "batches": 16,
+      "start_batch": 64,
+      "cosine": -0.20493409411224794,
+      "native_norm": 0.23892559494627721,
+      "replay_norm": 0.15570514622122253
+    },
+    {
+      "batches": 16,
+      "start_batch": 80,
+      "cosine": 0.1602992968009767,
+      "native_norm": 0.24358700761477162,
+      "replay_norm": 0.139459444030544
+    },
+    {
+      "batches": 16,
+      "start_batch": 96,
+      "cosine": 0.059862214736592645,
+      "native_norm": 0.37414260805444577,
+      "replay_norm": 0.1352326698822729
+    },
+    {
+      "batches": 16,
+      "start_batch": 112,
+      "cosine": 0.05954287943752992,
+      "native_norm": 0.24636900078599552,
+      "replay_norm": 0.14954774017396072
+    },
+    {
+      "batches": 16,
+      "start_batch": 128,
+      "cosine": -0.20820580033236685,
+      "native_norm": 0.3449194761764076,
+      "replay_norm": 0.15493633918188818
+    },
+    {
+      "batches": 16,
+      "start_batch": 144,
+      "cosine": -0.16425283225804788,
+      "native_norm": 0.33753250000850377,
+      "replay_norm": 0.13959139343876703
+    },
+    {
+      "batches": 16,
+      "start_batch": 160,
+      "cosine": 0.12963445595181336,
+      "native_norm": 0.2455299199754592,
+      "replay_norm": 0.15444434817733818
+    },
+    {
+      "batches": 16,
+      "start_batch": 176,
+      "cosine": -0.009049893219829717,
+      "native_norm": 0.3076357164919003,
+      "replay_norm": 0.15770393464476243
+    },
+    {
+      "batches": 16,
+      "start_batch": 192,
+      "cosine": 0.00866868636678716,
+      "native_norm": 0.2753829773219279,
+      "replay_norm": 0.17490802335453656
+    },
+    {
+      "batches": 16,
+      "start_batch": 208,
+      "cosine": 0.03757086926242248,
+      "native_norm": 0.31429584395705573,
+      "replay_norm": 0.10566816396002846
+    },
+    {
+      "batches": 16,
+      "start_batch": 224,
+      "cosine": -0.11715687797128893,
+      "native_norm": 0.3798004085883625,
+      "replay_norm": 0.14954299299866955
+    },
+    {
+      "batches": 16,
+      "start_batch": 240,
+      "cosine": 0.1495555473086371,
+      "native_norm": 0.23586938221559747,
+      "replay_norm": 0.1264073506171973
+    },
+    {
+      "batches": 16,
+      "start_batch": 256,
+      "cosine": 0.08670405514073108,
+      "native_norm": 0.2824602861892281,
+      "replay_norm": 0.1491831265042689
+    },
+    {
+      "batches": 16,
+      "start_batch": 272,
+      "cosine": -0.23527408680492914,
+      "native_norm": 0.29262633235950697,
+      "replay_norm": 0.1843694837573657
+    },
+    {
+      "batches": 16,
+      "start_batch": 288,
+      "cosine": -0.15340888968911104,
+      "native_norm": 0.2934779926460393,
+      "replay_norm": 0.1773658878301615
+    },
+    {
+      "batches": 16,
+      "start_batch": 304,
+      "cosine": 0.03135406533124344,
+      "native_norm": 0.2476467627576291,
+      "replay_norm": 0.15104057333728133
+    },
+    {
+      "batches": 16,
+      "start_batch": 320,
+      "cosine": -0.21808435851692362,
+      "native_norm": 0.33184277345776186,
+      "replay_norm": 0.12821832827749793
+    },
+    {
+      "batches": 16,
+      "start_batch": 336,
+      "cosine": 0.08769465052501135,
+      "native_norm": 0.2590435939373199,
+      "replay_norm": 0.11642102330571116
+    },
+    {
+      "batches": 16,
+      "start_batch": 352,
+      "cosine": -0.013157227115622677,
+      "native_norm": 0.3771270442080153,
+      "replay_norm": 0.12598612517876273
+    },
+    {
+      "batches": 16,
+      "start_batch": 368,
+      "cosine": -0.4065495105869948,
+      "native_norm": 0.36245116861981297,
+      "replay_norm": 0.17540809251587516
+    },
+    {
+      "batches": 16,
+      "start_batch": 384,
+      "cosine": 0.07582510013589673,
+      "native_norm": 0.25439469942565773,
+      "replay_norm": 0.12507326309712963
+    },
+    {
+      "batches": 16,
+      "start_batch": 400,
+      "cosine": 0.469011150325558,
+      "native_norm": 0.342124460684842,
+      "replay_norm": 0.17226274621220802
+    },
+    {
+      "batches": 16,
+      "start_batch": 416,
+      "cosine": 0.034769340744530634,
+      "native_norm": 0.23987708970311655,
+      "replay_norm": 0.17213364849560583
+    },
+    {
+      "batches": 16,
+      "start_batch": 432,
+      "cosine": 0.1803440607955962,
+      "native_norm": 0.20000566576842754,
+      "replay_norm": 0.156283882583175
+    },
+    {
+      "batches": 16,
+      "start_batch": 448,
+      "cosine": -0.0018345610476825512,
+      "native_norm": 0.2718471435972934,
+      "replay_norm": 0.15580483811786802
+    },
+    {
+      "batches": 16,
+      "start_batch": 464,
+      "cosine": -0.027704339209370175,
+      "native_norm": 0.42286914592768177,
+      "replay_norm": 0.16276192749193
+    },
+    {
+      "batches": 16,
+      "start_batch": 480,
+      "cosine": -0.05674468085395394,
+      "native_norm": 0.2813583732678289,
+      "replay_norm": 0.15003439691945075
+    },
+    {
+      "batches": 16,
+      "start_batch": 496,
+      "cosine": 0.17315282269169255,
+      "native_norm": 0.20985849540418153,
+      "replay_norm": 0.15817041514608293
+    },
+    {
+      "batches": 16,
+      "start_batch": 512,
+      "cosine": 0.1313502806334161,
+      "native_norm": 0.3002171793166345,
+      "replay_norm": 0.1888729272681936
+    },
+    {
+      "batches": 16,
+      "start_batch": 528,
+      "cosine": 0.04237959992602969,
+      "native_norm": 0.28207865091605044,
+      "replay_norm": 0.1573184566566192
+    },
+    {
+      "batches": 16,
+      "start_batch": 544,
+      "cosine": 0.4153806109041391,
+      "native_norm": 0.24619462615885204,
+      "replay_norm": 0.18077186080097896
+    },
+    {
+      "batches": 16,
+      "start_batch": 560,
+      "cosine": 0.35704552377601917,
+      "native_norm": 0.37167563947823434,
+      "replay_norm": 0.12644178691397573
+    },
+    {
+      "batches": 16,
+      "start_batch": 576,
+      "cosine": 0.16878148666586593,
+      "native_norm": 0.2829457136064726,
+      "replay_norm": 0.16571969721590435
+    },
+    {
+      "batches": 16,
+      "start_batch": 592,
+      "cosine": -0.0923516111604146,
+      "native_norm": 0.2610149632585966,
+      "replay_norm": 0.17442523064821644
+    },
+    {
+      "batches": 16,
+      "start_batch": 608,
+      "cosine": -0.162737409447509,
+      "native_norm": 0.36301975371699063,
+      "replay_norm": 0.16748259948793118
+    },
+    {
+      "batches": 16,
+      "start_batch": 624,
+      "cosine": 0.06671465825740307,
+      "native_norm": 0.26940020072304366,
+      "replay_norm": 0.18249564174202118
+    },
+    {
+      "batches": 16,
+      "start_batch": 640,
+      "cosine": 0.1736925786115121,
+      "native_norm": 0.3072242980332615,
+      "replay_norm": 0.16466092886260864
+    },
+    {
+      "batches": 16,
+      "start_batch": 656,
+      "cosine": -0.31210188692805313,
+      "native_norm": 0.2597080539539336,
+      "replay_norm": 0.15884214246489822
+    },
+    {
+      "batches": 16,
+      "start_batch": 672,
+      "cosine": 0.0028693486294810167,
+      "native_norm": 0.22927366236295,
+      "replay_norm": 0.17116413251689372
+    },
+    {
+      "batches": 16,
+      "start_batch": 688,
+      "cosine": 0.008084211842274485,
+      "native_norm": 0.2553999569686757,
+      "replay_norm": 0.15999654986199754
+    },
+    {
+      "batches": 16,
+      "start_batch": 704,
+      "cosine": -0.009046407562211325,
+      "native_norm": 0.28615664155023796,
+      "replay_norm": 0.14427503926985896
+    },
+    {
+      "batches": 16,
+      "start_batch": 720,
+      "cosine": 0.03072620445481966,
+      "native_norm": 0.2443983103652578,
+      "replay_norm": 0.1583726959517866
+    },
+    {
+      "batches": 16,
+      "start_batch": 736,
+      "cosine": -0.017273056634650553,
+      "native_norm": 0.22982900673110887,
+      "replay_norm": 0.16497683587939202
+    },
+    {
+      "batches": 16,
+      "start_batch": 752,
+      "cosine": -0.19372744769103684,
+      "native_norm": 0.3772549107527222,
+      "replay_norm": 0.1465259876686781
+    },
+    {
+      "batches": 16,
+      "start_batch": 768,
+      "cosine": 0.03577654272772802,
+      "native_norm": 0.2824985115159952,
+      "replay_norm": 0.1657373833737514
+    },
+    {
+      "batches": 16,
+      "start_batch": 784,
+      "cosine": -0.0871190222492326,
+      "native_norm": 0.2320461270812019,
+      "replay_norm": 0.12945841980293316
+    },
+    {
+      "batches": 16,
+      "start_batch": 800,
+      "cosine": 0.07865466818633776,
+      "native_norm": 0.33777779266964336,
+      "replay_norm": 0.12221743054774056
+    },
+    {
+      "batches": 16,
+      "start_batch": 816,
+      "cosine": -0.19200321063328465,
+      "native_norm": 0.39689032938246815,
+      "replay_norm": 0.16862751778209936
+    },
+    {
+      "batches": 16,
+      "start_batch": 832,
+      "cosine": 0.10131327646232607,
+      "native_norm": 0.27974532540290264,
+      "replay_norm": 0.16818465815584394
+    },
+    {
+      "batches": 16,
+      "start_batch": 848,
+      "cosine": -0.004954537064843545,
+      "native_norm": 0.339179899041865,
+      "replay_norm": 0.1633231780081752
+    },
+    {
+      "batches": 16,
+      "start_batch": 864,
+      "cosine": 0.10529291124965481,
+      "native_norm": 0.29265943509257775,
+      "replay_norm": 0.14059694468081166
+    },
+    {
+      "batches": 16,
+      "start_batch": 880,
+      "cosine": -0.14522309974550834,
+      "native_norm": 0.3076353691102972,
+      "replay_norm": 0.1602630312055352
+    },
+    {
+      "batches": 16,
+      "start_batch": 896,
+      "cosine": -0.27280734704065795,
+      "native_norm": 0.3261633661175594,
+      "replay_norm": 0.1520523197433324
+    },
+    {
+      "batches": 16,
+      "start_batch": 912,
+      "cosine": 0.5037387874944963,
+      "native_norm": 0.290448652665313,
+      "replay_norm": 0.1687365778210907
+    },
+    {
+      "batches": 16,
+      "start_batch": 928,
+      "cosine": 0.14496139592226695,
+      "native_norm": 0.40577612478549113,
+      "replay_norm": 0.1259464351641835
+    },
+    {
+      "batches": 16,
+      "start_batch": 944,
+      "cosine": 0.2942469892771793,
+      "native_norm": 0.33904416814264837,
+      "replay_norm": 0.13917670758647763
+    },
+    {
+      "batches": 16,
+      "start_batch": 960,
+      "cosine": -0.1466672530369321,
+      "native_norm": 0.23584555876128452,
+      "replay_norm": 0.1234520960362887
+    },
+    {
+      "batches": 16,
+      "start_batch": 976,
+      "cosine": -0.1631164331969783,
+      "native_norm": 0.34515690092709655,
+      "replay_norm": 0.14937462645632987
+    },
+    {
+      "batches": 16,
+      "start_batch": 992,
+      "cosine": -0.016565493150826595,
+      "native_norm": 0.3205970930105606,
+      "replay_norm": 0.11091134588313732
+    },
+    {
+      "batches": 16,
+      "start_batch": 1008,
+      "cosine": -0.14206699165881773,
+      "native_norm": 0.2586864225958142,
+      "replay_norm": 0.2002536110671502
+    },
+    {
+      "batches": 16,
+      "start_batch": 1024,
+      "cosine": 0.0808355789950361,
+      "native_norm": 0.334485723612351,
+      "replay_norm": 0.1365275890115349
+    },
+    {
+      "batches": 16,
+      "start_batch": 1040,
+      "cosine": 0.2436701417964257,
+      "native_norm": 0.29201789908097886,
+      "replay_norm": 0.1739384729279302
+    },
+    {
+      "batches": 16,
+      "start_batch": 1056,
+      "cosine": -0.3288280845958823,
+      "native_norm": 0.30393424051836954,
+      "replay_norm": 0.1749303603890945
+    },
+    {
+      "batches": 16,
+      "start_batch": 1072,
+      "cosine": 0.12465822892898977,
+      "native_norm": 0.2578338326048265,
+      "replay_norm": 0.16430055128283563
+    },
+    {
+      "batches": 16,
+      "start_batch": 1088,
+      "cosine": -0.01197299826518616,
+      "native_norm": 0.32032968906849674,
+      "replay_norm": 0.13435291953038217
+    },
+    {
+      "batches": 16,
+      "start_batch": 1104,
+      "cosine": 0.3836159761632416,
+      "native_norm": 0.2168224223034628,
+      "replay_norm": 0.15805852860779973
+    },
+    {
+      "batches": 16,
+      "start_batch": 1120,
+      "cosine": 0.3845992556147053,
+      "native_norm": 0.27823122871230604,
+      "replay_norm": 0.1645412842341335
+    },
+    {
+      "batches": 16,
+      "start_batch": 1136,
+      "cosine": 0.22153842745432856,
+      "native_norm": 0.2845405662945682,
+      "replay_norm": 0.15874049515654357
+    },
+    {
+      "batches": 16,
+      "start_batch": 1152,
+      "cosine": 0.2235625301082629,
+      "native_norm": 0.25012907005029367,
+      "replay_norm": 0.18372614758211062
+    },
+    {
+      "batches": 16,
+      "start_batch": 1168,
+      "cosine": -0.13024698224531903,
+      "native_norm": 0.22492429191631721,
+      "replay_norm": 0.13012396047710442
+    },
+    {
+      "batches": 16,
+      "start_batch": 1184,
+      "cosine": -0.15283788714274155,
+      "native_norm": 0.2538910427234604,
+      "replay_norm": 0.12680272659126435
+    },
+    {
+      "batches": 16,
+      "start_batch": 1200,
+      "cosine": -0.18057622487784042,
+      "native_norm": 0.46008523170793,
+      "replay_norm": 0.13478503152607488
+    },
+    {
+      "batches": 16,
+      "start_batch": 1216,
+      "cosine": 0.16579806019615706,
+      "native_norm": 0.3204856438295615,
+      "replay_norm": 0.14804307522631602
+    },
+    {
+      "batches": 16,
+      "start_batch": 1232,
+      "cosine": 0.013650948636066078,
+      "native_norm": 0.3037776012305298,
+      "replay_norm": 0.1533237218405895
+    },
+    {
+      "batches": 16,
+      "start_batch": 1248,
+      "cosine": 0.07456286894571582,
+      "native_norm": 0.23594397725203062,
+      "replay_norm": 0.17014254735231343
+    },
+    {
+      "batches": 16,
+      "start_batch": 1264,
+      "cosine": -0.210589026689705,
+      "native_norm": 0.2604029985869715,
+      "replay_norm": 0.1517824863677438
+    },
+    {
+      "batches": 16,
+      "start_batch": 1280,
+      "cosine": 0.1846779551688979,
+      "native_norm": 0.24565147239597984,
+      "replay_norm": 0.13328975252906447
+    },
+    {
+      "batches": 16,
+      "start_batch": 1296,
+      "cosine": -0.26336434966346467,
+      "native_norm": 0.26226291622262965,
+      "replay_norm": 0.12870037467265033
+    },
+    {
+      "batches": 16,
+      "start_batch": 1312,
+      "cosine": 0.23576593299488718,
+      "native_norm": 0.32732639434771055,
+      "replay_norm": 0.19431087906820066
+    },
+    {
+      "batches": 16,
+      "start_batch": 1328,
+      "cosine": 0.13320368641161157,
+      "native_norm": 0.2250301236303791,
+      "replay_norm": 0.14141475112910878
+    },
+    {
+      "batches": 16,
+      "start_batch": 1344,
+      "cosine": 0.16406531423183537,
+      "native_norm": 0.2947992922568923,
+      "replay_norm": 0.16271127713393413
+    },
+    {
+      "batches": 16,
+      "start_batch": 1360,
+      "cosine": 0.13413849315803997,
+      "native_norm": 0.29914086141299095,
+      "replay_norm": 0.15346922916365124
+    },
+    {
+      "batches": 16,
+      "start_batch": 1376,
+      "cosine": -0.09076115140189275,
+      "native_norm": 0.3065832578585673,
+      "replay_norm": 0.12404650441672017
+    },
+    {
+      "batches": 16,
+      "start_batch": 1392,
+      "cosine": 0.02260884130178321,
+      "native_norm": 0.2751987869734485,
+      "replay_norm": 0.1354758032044395
+    },
+    {
+      "batches": 16,
+      "start_batch": 1408,
+      "cosine": -0.04194388175894507,
+      "native_norm": 0.21689420154358885,
+      "replay_norm": 0.15575505901242576
+    },
+    {
+      "batches": 16,
+      "start_batch": 1424,
+      "cosine": 0.07038713959807538,
+      "native_norm": 0.3110669125773742,
+      "replay_norm": 0.11787796063557329
+    },
+    {
+      "batches": 16,
+      "start_batch": 1440,
+      "cosine": 0.1710129047170798,
+      "native_norm": 0.24123526447082536,
+      "replay_norm": 0.14927344383130103
+    },
+    {
+      "batches": 16,
+      "start_batch": 1456,
+      "cosine": -0.026329147474234985,
+      "native_norm": 0.2708262138211979,
+      "replay_norm": 0.130723023506557
+    },
+    {
+      "batches": 16,
+      "start_batch": 1472,
+      "cosine": -0.22816962586243078,
+      "native_norm": 0.29330654275331686,
+      "replay_norm": 0.16887955961271867
+    },
+    {
+      "batches": 16,
+      "start_batch": 1488,
+      "cosine": -0.06776987415977943,
+      "native_norm": 0.39089539742718155,
+      "replay_norm": 0.14800733170411412
+    },
+    {
+      "batches": 16,
+      "start_batch": 1504,
+      "cosine": -0.06925972801853081,
+      "native_norm": 0.2702783385874814,
+      "replay_norm": 0.15460239642535428
+    },
+    {
+      "batches": 16,
+      "start_batch": 1520,
+      "cosine": -0.05418193948639691,
+      "native_norm": 0.27989354994045756,
+      "replay_norm": 0.13175861926521906
+    },
+    {
+      "batches": 16,
+      "start_batch": 1536,
+      "cosine": -0.08273277480282118,
+      "native_norm": 0.2947869747477302,
+      "replay_norm": 0.13323875337138755
+    },
+    {
+      "batches": 16,
+      "start_batch": 1552,
+      "cosine": -0.17690497975948602,
+      "native_norm": 0.2749898051771117,
+      "replay_norm": 0.12423971727875992
+    },
+    {
+      "batches": 16,
+      "start_batch": 1568,
+      "cosine": -0.26501458644117015,
+      "native_norm": 0.35803649786336383,
+      "replay_norm": 0.18038127377513627
+    },
+    {
+      "batches": 16,
+      "start_batch": 1584,
+      "cosine": -0.05065959817085805,
+      "native_norm": 0.3852532673572387,
+      "replay_norm": 0.14268966680466297
+    },
+    {
+      "batches": 16,
+      "start_batch": 1600,
+      "cosine": -0.057891826039455814,
+      "native_norm": 0.25033418139716507,
+      "replay_norm": 0.17505620113188966
+    },
+    {
+      "batches": 16,
+      "start_batch": 1616,
+      "cosine": -0.03237094368037648,
+      "native_norm": 0.26890995958347297,
+      "replay_norm": 0.13924291542126477
+    },
+    {
+      "batches": 16,
+      "start_batch": 1632,
+      "cosine": -0.22089038930821117,
+      "native_norm": 0.37532658125092666,
+      "replay_norm": 0.17614234585325333
+    },
+    {
+      "batches": 16,
+      "start_batch": 1648,
+      "cosine": -0.2065459298364756,
+      "native_norm": 0.2539901793313998,
+      "replay_norm": 0.13144590836274936
+    },
+    {
+      "batches": 16,
+      "start_batch": 1664,
+      "cosine": 0.0851443589261824,
+      "native_norm": 0.2837165440861233,
+      "replay_norm": 0.14881359311779938
+    },
+    {
+      "batches": 16,
+      "start_batch": 1680,
+      "cosine": 0.17659058210302694,
+      "native_norm": 0.3732690454511259,
+      "replay_norm": 0.13650678622097248
+    },
+    {
+      "batches": 16,
+      "start_batch": 1696,
+      "cosine": 0.12593614414264048,
+      "native_norm": 0.23539897289031134,
+      "replay_norm": 0.17232670824521035
+    },
+    {
+      "batches": 16,
+      "start_batch": 1712,
+      "cosine": 0.19804570881157238,
+      "native_norm": 0.23718379737135786,
+      "replay_norm": 0.1866462472088202
+    },
+    {
+      "batches": 16,
+      "start_batch": 1728,
+      "cosine": 0.04429443620935329,
+      "native_norm": 0.2916544410710576,
+      "replay_norm": 0.11801215123311638
+    },
+    {
+      "batches": 16,
+      "start_batch": 1744,
+      "cosine": 0.07338753159011722,
+      "native_norm": 0.24697434140892152,
+      "replay_norm": 0.16595906573217672
+    },
+    {
+      "batches": 16,
+      "start_batch": 1760,
+      "cosine": -0.07237723115147955,
+      "native_norm": 0.26795193132394707,
+      "replay_norm": 0.13781771125362477
+    },
+    {
+      "batches": 16,
+      "start_batch": 1776,
+      "cosine": 0.2153768269533984,
+      "native_norm": 0.24299427768619777,
+      "replay_norm": 0.15351910281370998
+    },
+    {
+      "batches": 16,
+      "start_batch": 1792,
+      "cosine": 0.17384588739243712,
+      "native_norm": 0.2715836341706141,
+      "replay_norm": 0.1607846489131822
+    },
+    {
+      "batches": 16,
+      "start_batch": 1808,
+      "cosine": -0.18450003704900417,
+      "native_norm": 0.30927437722483603,
+      "replay_norm": 0.15783344898065987
+    },
+    {
+      "batches": 16,
+      "start_batch": 1824,
+      "cosine": -0.1682823052235346,
+      "native_norm": 0.28753641673097974,
+      "replay_norm": 0.1359728136866471
+    },
+    {
+      "batches": 16,
+      "start_batch": 1840,
+      "cosine": 0.014756985588856113,
+      "native_norm": 0.2658843001676954,
+      "replay_norm": 0.13629254823600623
+    },
+    {
+      "batches": 16,
+      "start_batch": 1856,
+      "cosine": 0.0493926470907953,
+      "native_norm": 0.2889103614483597,
+      "replay_norm": 0.1624240120948648
+    },
+    {
+      "batches": 16,
+      "start_batch": 1872,
+      "cosine": -0.028994445272504537,
+      "native_norm": 0.313913493288923,
+      "replay_norm": 0.14924079472276822
+    },
+    {
+      "batches": 16,
+      "start_batch": 1888,
+      "cosine": 0.2802507207044636,
+      "native_norm": 0.3179290707445353,
+      "replay_norm": 0.1416881115320015
+    },
+    {
+      "batches": 16,
+      "start_batch": 1904,
+      "cosine": 0.17056195660892798,
+      "native_norm": 0.24771584862725454,
+      "replay_norm": 0.17483713789780594
+    },
+    {
+      "batches": 16,
+      "start_batch": 1920,
+      "cosine": 0.2619084366944964,
+      "native_norm": 0.273927559944859,
+      "replay_norm": 0.1518690906907853
+    },
+    {
+      "batches": 16,
+      "start_batch": 1936,
+      "cosine": 0.20449970724924435,
+      "native_norm": 0.1880375938712059,
+      "replay_norm": 0.17145385461499385
+    },
+    {
+      "batches": 16,
+      "start_batch": 1952,
+      "cosine": -0.014904206035532505,
+      "native_norm": 0.28310037675448535,
+      "replay_norm": 0.14426454776703357
+    },
+    {
+      "batches": 16,
+      "start_batch": 1968,
+      "cosine": 0.10564124336933706,
+      "native_norm": 0.32110607771411426,
+      "replay_norm": 0.2180311216829846
+    },
+    {
+      "batches": 16,
+      "start_batch": 1984,
+      "cosine": -0.08597690356433026,
+      "native_norm": 0.28641580601028144,
+      "replay_norm": 0.13290378158394264
+    },
+    {
+      "batches": 16,
+      "start_batch": 2000,
+      "cosine": -0.008654860744063369,
+      "native_norm": 0.2673860698354426,
+      "replay_norm": 0.12770597800391
+    },
+    {
+      "batches": 16,
+      "start_batch": 2016,
+      "cosine": -0.16265296789159278,
+      "native_norm": 0.2517163731851782,
+      "replay_norm": 0.133540064042684
+    },
+    {
+      "batches": 16,
+      "start_batch": 2032,
+      "cosine": -0.03507198880888976,
+      "native_norm": 0.30004979321929776,
+      "replay_norm": 0.159183609089249
+    },
+    {
+      "batches": 16,
+      "start_batch": 2048,
+      "cosine": -0.0509260454044577,
+      "native_norm": 0.34701884574283165,
+      "replay_norm": 0.15537332772390025
+    },
+    {
+      "batches": 16,
+      "start_batch": 2064,
+      "cosine": 0.33452016053642936,
+      "native_norm": 0.30206480148947495,
+      "replay_norm": 0.18071175477648443
+    },
+    {
+      "batches": 16,
+      "start_batch": 2080,
+      "cosine": 0.06981177221255301,
+      "native_norm": 0.25567282319298223,
+      "replay_norm": 0.12556965995424904
+    },
+    {
+      "batches": 16,
+      "start_batch": 2096,
+      "cosine": -0.05809955800944523,
+      "native_norm": 0.255465417007112,
+      "replay_norm": 0.14332234407050445
+    },
+    {
+      "batches": 16,
+      "start_batch": 2112,
+      "cosine": 0.05979856159343492,
+      "native_norm": 0.27523967515053677,
+      "replay_norm": 0.1489007962493182
+    },
+    {
+      "batches": 16,
+      "start_batch": 2128,
+      "cosine": -0.06678623468050096,
+      "native_norm": 0.2710204195675829,
+      "replay_norm": 0.13484315702410987
+    },
+    {
+      "batches": 16,
+      "start_batch": 2144,
+      "cosine": -0.16068743788564258,
+      "native_norm": 0.3180269352507377,
+      "replay_norm": 0.14221670308525744
+    },
+    {
+      "batches": 16,
+      "start_batch": 2160,
+      "cosine": -0.19551575751012454,
+      "native_norm": 0.29651591649128056,
+      "replay_norm": 0.11086102503105308
+    },
+    {
+      "batches": 16,
+      "start_batch": 2176,
+      "cosine": -0.01695070899293862,
+      "native_norm": 0.2553749133693749,
+      "replay_norm": 0.1430004579672958
+    },
+    {
+      "batches": 16,
+      "start_batch": 2192,
+      "cosine": 0.21804093157671506,
+      "native_norm": 0.21205737847038333,
+      "replay_norm": 0.18527672906742212
+    },
+    {
+      "batches": 16,
+      "start_batch": 2208,
+      "cosine": 0.11172510086658147,
+      "native_norm": 0.25335908439766863,
+      "replay_norm": 0.17638267975756625
+    },
+    {
+      "batches": 16,
+      "start_batch": 2224,
+      "cosine": -0.04416360733669049,
+      "native_norm": 0.26692949352038237,
+      "replay_norm": 0.11948557872640125
+    },
+    {
+      "batches": 16,
+      "start_batch": 2240,
+      "cosine": 0.03817674458786607,
+      "native_norm": 0.21942402331192754,
+      "replay_norm": 0.1239694854414406
+    },
+    {
+      "batches": 16,
+      "start_batch": 2256,
+      "cosine": -0.0229664308397982,
+      "native_norm": 0.27477964759943796,
+      "replay_norm": 0.1371143153006944
+    },
+    {
+      "batches": 16,
+      "start_batch": 2272,
+      "cosine": -0.044680810211006,
+      "native_norm": 0.29844700690149445,
+      "replay_norm": 0.16743674849599055
+    },
+    {
+      "batches": 16,
+      "start_batch": 2288,
+      "cosine": -0.15090687579594758,
+      "native_norm": 0.2977460823130791,
+      "replay_norm": 0.13778830878969192
+    },
+    {
+      "batches": 16,
+      "start_batch": 2304,
+      "cosine": -0.30889357565108094,
+      "native_norm": 0.35706190326233084,
+      "replay_norm": 0.15866976064928812
+    },
+    {
+      "batches": 16,
+      "start_batch": 2320,
+      "cosine": -0.004137668752961368,
+      "native_norm": 0.3295708335892266,
+      "replay_norm": 0.14895137013256793
+    },
+    {
+      "batches": 16,
+      "start_batch": 2336,
+      "cosine": 0.06964375202410938,
+      "native_norm": 0.2254185782681921,
+      "replay_norm": 0.12754618599841094
+    },
+    {
+      "batches": 16,
+      "start_batch": 2352,
+      "cosine": 0.3529651918038501,
+      "native_norm": 0.3261999009699549,
+      "replay_norm": 0.15331390027568892
+    },
+    {
+      "batches": 16,
+      "start_batch": 2368,
+      "cosine": 0.025957792665782072,
+      "native_norm": 0.3203130085347669,
+      "replay_norm": 0.12814463465482645
+    },
+    {
+      "batches": 16,
+      "start_batch": 2384,
+      "cosine": -0.17890924148512188,
+      "native_norm": 0.2893785755211837,
+      "replay_norm": 0.14572663001682323
+    },
+    {
+      "batches": 16,
+      "start_batch": 2400,
+      "cosine": 0.018368656557044675,
+      "native_norm": 0.36898464371952455,
+      "replay_norm": 0.1405193333360208
+    },
+    {
+      "batches": 16,
+      "start_batch": 2416,
+      "cosine": 0.0006559867074555994,
+      "native_norm": 0.30463771250812405,
+      "replay_norm": 0.14362753930492775
+    },
+    {
+      "batches": 16,
+      "start_batch": 2432,
+      "cosine": 0.19796627120145965,
+      "native_norm": 0.19752331263786485,
+      "replay_norm": 0.20206995792894333
+    },
+    {
+      "batches": 16,
+      "start_batch": 2448,
+      "cosine": 0.2928734110378743,
+      "native_norm": 0.2684705743300431,
+      "replay_norm": 0.11971273765914299
+    },
+    {
+      "batches": 16,
+      "start_batch": 2464,
+      "cosine": 0.1792944074555503,
+      "native_norm": 0.3563651731909371,
+      "replay_norm": 0.13917697463170528
+    },
+    {
+      "batches": 16,
+      "start_batch": 2480,
+      "cosine": -0.1257845154475443,
+      "native_norm": 0.4293243050128219,
+      "replay_norm": 0.14243977870633617
+    },
+    {
+      "batches": 16,
+      "start_batch": 2496,
+      "cosine": 0.24715152899968018,
+      "native_norm": 0.20457574421357147,
+      "replay_norm": 0.14859534042720526
+    },
+    {
+      "batches": 16,
+      "start_batch": 2512,
+      "cosine": 0.00028515164359616744,
+      "native_norm": 0.32801756823664413,
+      "replay_norm": 0.14203333934768636
+    },
+    {
+      "batches": 16,
+      "start_batch": 2528,
+      "cosine": 0.15414144598174892,
+      "native_norm": 0.34255191021760756,
+      "replay_norm": 0.1273197318747872
+    },
+    {
+      "batches": 16,
+      "start_batch": 2544,
+      "cosine": -0.1421936844359429,
+      "native_norm": 0.2893025229988527,
+      "replay_norm": 0.15091359919362224
+    },
+    {
+      "batches": 16,
+      "start_batch": 2560,
+      "cosine": 0.18169323903137322,
+      "native_norm": 0.2708935462969011,
+      "replay_norm": 0.17842726543831552
+    },
+    {
+      "batches": 16,
+      "start_batch": 2576,
+      "cosine": 0.09351773662753804,
+      "native_norm": 0.2915536973613551,
+      "replay_norm": 0.15150403851789385
+    },
+    {
+      "batches": 16,
+      "start_batch": 2592,
+      "cosine": 0.06906413872496861,
+      "native_norm": 0.3190467252506829,
+      "replay_norm": 0.13690370606899774
+    },
+    {
+      "batches": 16,
+      "start_batch": 2608,
+      "cosine": -0.1146688757198035,
+      "native_norm": 0.2635493697424771,
+      "replay_norm": 0.1396383310500213
+    },
+    {
+      "batches": 16,
+      "start_batch": 2624,
+      "cosine": -0.10562339024612209,
+      "native_norm": 0.3335440095607483,
+      "replay_norm": 0.16553400444391303
+    },
+    {
+      "batches": 16,
+      "start_batch": 2640,
+      "cosine": 0.00898384159533997,
+      "native_norm": 0.32686095520431563,
+      "replay_norm": 0.15216783827296998
+    },
+    {
+      "batches": 16,
+      "start_batch": 2656,
+      "cosine": 0.23857898577736508,
+      "native_norm": 0.27268515241033636,
+      "replay_norm": 0.14170576705621582
+    },
+    {
+      "batches": 16,
+      "start_batch": 2672,
+      "cosine": 0.2211114297007392,
+      "native_norm": 0.21707415650799036,
+      "replay_norm": 0.11799918583005652
+    },
+    {
+      "batches": 16,
+      "start_batch": 2688,
+      "cosine": -0.1396744634024386,
+      "native_norm": 0.40947282420457326,
+      "replay_norm": 0.17318375182989765
+    },
+    {
+      "batches": 16,
+      "start_batch": 2704,
+      "cosine": 0.1269543436499592,
+      "native_norm": 0.3463313155845181,
+      "replay_norm": 0.17857039649447295
+    },
+    {
+      "batches": 16,
+      "start_batch": 2720,
+      "cosine": 0.190001389511131,
+      "native_norm": 0.2964920631407255,
+      "replay_norm": 0.13268908967229784
+    },
+    {
+      "batches": 16,
+      "start_batch": 2736,
+      "cosine": 0.25875185481469976,
+      "native_norm": 0.4087446002650331,
+      "replay_norm": 0.15415504446791767
+    },
+    {
+      "batches": 16,
+      "start_batch": 2752,
+      "cosine": 0.1285569680478629,
+      "native_norm": 0.23747803799112954,
+      "replay_norm": 0.16190337595763793
+    },
+    {
+      "batches": 16,
+      "start_batch": 2768,
+      "cosine": 0.2431286442643971,
+      "native_norm": 0.30307291344364207,
+      "replay_norm": 0.16253953864673423
+    },
+    {
+      "batches": 16,
+      "start_batch": 2784,
+      "cosine": -0.00043692783897207225,
+      "native_norm": 0.1858399988586416,
+      "replay_norm": 0.14637996756400642
+    },
+    {
+      "batches": 16,
+      "start_batch": 2800,
+      "cosine": -0.015421820045935605,
+      "native_norm": 0.2885105698168763,
+      "replay_norm": 0.13128744575118806
+    },
+    {
+      "batches": 16,
+      "start_batch": 2816,
+      "cosine": -0.2388210122220123,
+      "native_norm": 0.2827291756636368,
+      "replay_norm": 0.14464411492222173
+    },
+    {
+      "batches": 16,
+      "start_batch": 2832,
+      "cosine": -0.19014400239844023,
+      "native_norm": 0.25108481196536586,
+      "replay_norm": 0.13005945193906782
+    },
+    {
+      "batches": 16,
+      "start_batch": 2848,
+      "cosine": -0.2895208706733364,
+      "native_norm": 0.325685922646014,
+      "replay_norm": 0.12927927882678467
+    },
+    {
+      "batches": 16,
+      "start_batch": 2864,
+      "cosine": -0.18641918182066702,
+      "native_norm": 0.28863020229167596,
+      "replay_norm": 0.1546697896799606
+    },
+    {
+      "batches": 16,
+      "start_batch": 2880,
+      "cosine": -0.207008264022577,
+      "native_norm": 0.2517455928394242,
+      "replay_norm": 0.10446347256685941
+    },
+    {
+      "batches": 16,
+      "start_batch": 2896,
+      "cosine": -0.21063843257448087,
+      "native_norm": 0.20910576859922977,
+      "replay_norm": 0.14699021397636922
+    },
+    {
+      "batches": 16,
+      "start_batch": 2912,
+      "cosine": -0.21717926944681512,
+      "native_norm": 0.26087355037956156,
+      "replay_norm": 0.1396792732429802
+    },
+    {
+      "batches": 16,
+      "start_batch": 2928,
+      "cosine": 0.0732381045271981,
+      "native_norm": 0.18530945335634585,
+      "replay_norm": 0.13973100029100158
+    },
+    {
+      "batches": 16,
+      "start_batch": 2944,
+      "cosine": -0.22624718432642935,
+      "native_norm": 0.38249611422285096,
+      "replay_norm": 0.15701437680513122
+    },
+    {
+      "batches": 16,
+      "start_batch": 2960,
+      "cosine": -0.16271993238627394,
+      "native_norm": 0.2978488161296287,
+      "replay_norm": 0.12385831165596747
+    },
+    {
+      "batches": 16,
+      "start_batch": 2976,
+      "cosine": 0.09086101845901916,
+      "native_norm": 0.2664092307903315,
+      "replay_norm": 0.124170337468305
+    },
+    {
+      "batches": 16,
+      "start_batch": 2992,
+      "cosine": 0.021776687811318328,
+      "native_norm": 0.25480080006799277,
+      "replay_norm": 0.17759180997240445
+    },
+    {
+      "batches": 16,
+      "start_batch": 3008,
+      "cosine": -0.20828862830102088,
+      "native_norm": 0.24460878064693684,
+      "replay_norm": 0.18520964391637681
+    },
+    {
+      "batches": 16,
+      "start_batch": 3024,
+      "cosine": 0.004157612861264683,
+      "native_norm": 0.21584369710080684,
+      "replay_norm": 0.14794513770383733
+    },
+    {
+      "batches": 16,
+      "start_batch": 3040,
+      "cosine": -0.1262620204944781,
+      "native_norm": 0.2825097853879526,
+      "replay_norm": 0.13311359164469427
+    },
+    {
+      "batches": 16,
+      "start_batch": 3056,
+      "cosine": -0.06658718611202084,
+      "native_norm": 0.263262418392107,
+      "replay_norm": 0.16091816238794762
+    },
+    {
+      "batches": 16,
+      "start_batch": 3072,
+      "cosine": 0.31024714629370753,
+      "native_norm": 0.23905492734114372,
+      "replay_norm": 0.1492804320132736
+    },
+    {
+      "batches": 16,
+      "start_batch": 3088,
+      "cosine": -0.07589744940458605,
+      "native_norm": 0.2778415451508453,
+      "replay_norm": 0.15799592653766276
+    },
+    {
+      "batches": 16,
+      "start_batch": 3104,
+      "cosine": -0.24566296823297942,
+      "native_norm": 0.34413992427968404,
+      "replay_norm": 0.1574177643813141
+    },
+    {
+      "batches": 16,
+      "start_batch": 3120,
+      "cosine": -0.13157948279499918,
+      "native_norm": 0.19566180005898362,
+      "replay_norm": 0.15421021966906212
+    },
+    {
+      "batches": 16,
+      "start_batch": 3136,
+      "cosine": -0.08860202062179978,
+      "native_norm": 0.32049634511697456,
+      "replay_norm": 0.15613215821120402
+    },
+    {
+      "batches": 16,
+      "start_batch": 3152,
+      "cosine": 0.1749201274016239,
+      "native_norm": 0.20365344554385653,
+      "replay_norm": 0.18003692544621527
+    },
+    {
+      "batches": 16,
+      "start_batch": 3168,
+      "cosine": 0.13195087300451425,
+      "native_norm": 0.31362243924017524,
+      "replay_norm": 0.15320800176689725
+    },
+    {
+      "batches": 16,
+      "start_batch": 3184,
+      "cosine": -0.3083698457890445,
+      "native_norm": 0.23234079907464805,
+      "replay_norm": 0.20498363184672383
+    },
+    {
+      "batches": 16,
+      "start_batch": 3200,
+      "cosine": 0.2740927492603607,
+      "native_norm": 0.29280790600589,
+      "replay_norm": 0.18383357579912923
+    },
+    {
+      "batches": 16,
+      "start_batch": 3216,
+      "cosine": -0.022129545332421893,
+      "native_norm": 0.37271432614622796,
+      "replay_norm": 0.1131943393278844
+    },
+    {
+      "batches": 16,
+      "start_batch": 3232,
+      "cosine": -0.007764271829166006,
+      "native_norm": 0.2873517543830474,
+      "replay_norm": 0.14398009177797388
+    },
+    {
+      "batches": 16,
+      "start_batch": 3248,
+      "cosine": 0.13554488104754472,
+      "native_norm": 0.2370409873454156,
+      "replay_norm": 0.14191108519353712
+    },
+    {
+      "batches": 16,
+      "start_batch": 3264,
+      "cosine": 0.142571789741096,
+      "native_norm": 0.3320757269667734,
+      "replay_norm": 0.14576197451959103
+    },
+    {
+      "batches": 16,
+      "start_batch": 3280,
+      "cosine": -0.03129699304675622,
+      "native_norm": 0.2631855175376265,
+      "replay_norm": 0.15161998647329747
+    },
+    {
+      "batches": 16,
+      "start_batch": 3296,
+      "cosine": 0.02289547954007768,
+      "native_norm": 0.3100572923206408,
+      "replay_norm": 0.13815645205515004
+    },
+    {
+      "batches": 16,
+      "start_batch": 3312,
+      "cosine": 0.26238164666103286,
+      "native_norm": 0.2708314444940371,
+      "replay_norm": 0.19501529472062668
+    },
+    {
+      "batches": 16,
+      "start_batch": 3328,
+      "cosine": 0.07535076756132852,
+      "native_norm": 0.20721554406780104,
+      "replay_norm": 0.13185994526305164
+    },
+    {
+      "batches": 16,
+      "start_batch": 3344,
+      "cosine": -0.13533436419256115,
+      "native_norm": 0.24712144181816922,
+      "replay_norm": 0.1539223371309166
+    },
+    {
+      "batches": 16,
+      "start_batch": 3360,
+      "cosine": 0.12927569288417273,
+      "native_norm": 0.22374767537937182,
+      "replay_norm": 0.1318514985675897
+    },
+    {
+      "batches": 16,
+      "start_batch": 3376,
+      "cosine": -0.10717679241229852,
+      "native_norm": 0.22433820847822905,
+      "replay_norm": 0.19177006845321878
+    },
+    {
+      "batches": 16,
+      "start_batch": 3392,
+      "cosine": -0.3292646106669011,
+      "native_norm": 0.27171918058040784,
+      "replay_norm": 0.17942293109986074
+    },
+    {
+      "batches": 16,
+      "start_batch": 3408,
+      "cosine": -0.09841358396813281,
+      "native_norm": 0.28676182443279313,
+      "replay_norm": 0.15890709172277856
+    },
+    {
+      "batches": 16,
+      "start_batch": 3424,
+      "cosine": 0.04675197602520654,
+      "native_norm": 0.34328199066291665,
+      "replay_norm": 0.14867192364767964
+    },
+    {
+      "batches": 16,
+      "start_batch": 3440,
+      "cosine": -0.2891601557855772,
+      "native_norm": 0.2807616900870284,
+      "replay_norm": 0.13057222792568512
+    },
+    {
+      "batches": 16,
+      "start_batch": 3456,
+      "cosine": 0.05032998074995999,
+      "native_norm": 0.27712414984158157,
+      "replay_norm": 0.12214121752658225
+    },
+    {
+      "batches": 16,
+      "start_batch": 3472,
+      "cosine": 0.3238808434089877,
+      "native_norm": 0.29223271458484423,
+      "replay_norm": 0.17898531226403616
+    },
+    {
+      "batches": 16,
+      "start_batch": 3488,
+      "cosine": -0.05588803154587695,
+      "native_norm": 0.31282061872786254,
+      "replay_norm": 0.17771780206089483
+    },
+    {
+      "batches": 16,
+      "start_batch": 3504,
+      "cosine": -0.06904424628508526,
+      "native_norm": 0.26848239941845853,
+      "replay_norm": 0.14439957287093874
+    },
+    {
+      "batches": 16,
+      "start_batch": 3520,
+      "cosine": 0.07937935461593765,
+      "native_norm": 0.2618312129126095,
+      "replay_norm": 0.14376783483197078
+    },
+    {
+      "batches": 16,
+      "start_batch": 3536,
+      "cosine": -0.040690567418162994,
+      "native_norm": 0.31172101174663475,
+      "replay_norm": 0.12884301608020482
+    },
+    {
+      "batches": 16,
+      "start_batch": 3552,
+      "cosine": -0.15806404046896338,
+      "native_norm": 0.29164574683273586,
+      "replay_norm": 0.12820955699983114
+    },
+    {
+      "batches": 16,
+      "start_batch": 3568,
+      "cosine": 0.22911016715080107,
+      "native_norm": 0.27913708025142164,
+      "replay_norm": 0.13962713165586785
+    },
+    {
+      "batches": 16,
+      "start_batch": 3584,
+      "cosine": 0.43642361986919026,
+      "native_norm": 0.3750297191412806,
+      "replay_norm": 0.1885714138901833
+    },
+    {
+      "batches": 16,
+      "start_batch": 3600,
+      "cosine": -0.15275213385485537,
+      "native_norm": 0.27555139482922897,
+      "replay_norm": 0.14933570290928044
+    },
+    {
+      "batches": 16,
+      "start_batch": 3616,
+      "cosine": -0.22443328453306619,
+      "native_norm": 0.24375703546786198,
+      "replay_norm": 0.1505495934497804
+    },
+    {
+      "batches": 16,
+      "start_batch": 3632,
+      "cosine": 0.020306735833039494,
+      "native_norm": 0.2550004270536988,
+      "replay_norm": 0.15581851438908315
+    },
+    {
+      "batches": 16,
+      "start_batch": 3648,
+      "cosine": -0.04736096718235375,
+      "native_norm": 0.2101998687290769,
+      "replay_norm": 0.12257776968677998
+    },
+    {
+      "batches": 16,
+      "start_batch": 3664,
+      "cosine": 0.16040232914110758,
+      "native_norm": 0.2343412744903197,
+      "replay_norm": 0.1361228216392693
+    },
+    {
+      "batches": 16,
+      "start_batch": 3680,
+      "cosine": -0.09656488336827161,
+      "native_norm": 0.25498511262831763,
+      "replay_norm": 0.1244918922382535
+    },
+    {
+      "batches": 16,
+      "start_batch": 3696,
+      "cosine": 0.10667171904278802,
+      "native_norm": 0.23122161467144633,
+      "replay_norm": 0.15026368624272504
+    },
+    {
+      "batches": 16,
+      "start_batch": 3712,
+      "cosine": -0.23782657208317842,
+      "native_norm": 0.3575228372006534,
+      "replay_norm": 0.17165761239491373
+    },
+    {
+      "batches": 16,
+      "start_batch": 3728,
+      "cosine": 0.4637982937374027,
+      "native_norm": 0.32434314465334696,
+      "replay_norm": 0.17661599968597486
+    },
+    {
+      "batches": 16,
+      "start_batch": 3744,
+      "cosine": -0.34264006283151544,
+      "native_norm": 0.29303830174210227,
+      "replay_norm": 0.19568548262883526
+    },
+    {
+      "batches": 16,
+      "start_batch": 3760,
+      "cosine": 0.10762188372802182,
+      "native_norm": 0.28241810804609563,
+      "replay_norm": 0.14036750156928446
+    },
+    {
+      "batches": 16,
+      "start_batch": 3776,
+      "cosine": 0.016615113563510097,
+      "native_norm": 0.29638727668871984,
+      "replay_norm": 0.12932452875369715
+    },
+    {
+      "batches": 16,
+      "start_batch": 3792,
+      "cosine": 0.24710547883718742,
+      "native_norm": 0.32251369000343794,
+      "replay_norm": 0.15243284636135973
+    },
+    {
+      "batches": 16,
+      "start_batch": 3808,
+      "cosine": -0.0073447866553196205,
+      "native_norm": 0.3935014456552688,
+      "replay_norm": 0.15198713437983585
+    },
+    {
+      "batches": 16,
+      "start_batch": 3824,
+      "cosine": 0.0756540079803826,
+      "native_norm": 0.3564424695014798,
+      "replay_norm": 0.15704244839487116
+    },
+    {
+      "batches": 16,
+      "start_batch": 3840,
+      "cosine": -0.2602181765300382,
+      "native_norm": 0.2732415343305507,
+      "replay_norm": 0.15201055490713236
+    },
+    {
+      "batches": 16,
+      "start_batch": 3856,
+      "cosine": -0.08119655365599729,
+      "native_norm": 0.23009927719844828,
+      "replay_norm": 0.13715110741262768
+    },
+    {
+      "batches": 16,
+      "start_batch": 3872,
+      "cosine": 0.0021771828979036565,
+      "native_norm": 0.3107443779660532,
+      "replay_norm": 0.1461806640199663
+    },
+    {
+      "batches": 16,
+      "start_batch": 3888,
+      "cosine": 0.07680283829970151,
+      "native_norm": 0.29201725920491706,
+      "replay_norm": 0.14579151787510725
+    },
+    {
+      "batches": 16,
+      "start_batch": 3904,
+      "cosine": 0.1863633550079789,
+      "native_norm": 0.24651496119702168,
+      "replay_norm": 0.1734956848050492
+    },
+    {
+      "batches": 16,
+      "start_batch": 3920,
+      "cosine": -0.061849316332135335,
+      "native_norm": 0.3124169971351998,
+      "replay_norm": 0.1206541669073416
+    },
+    {
+      "batches": 16,
+      "start_batch": 3936,
+      "cosine": 0.16332416302033972,
+      "native_norm": 0.25772749263943023,
+      "replay_norm": 0.15171163833640136
+    },
+    {
+      "batches": 16,
+      "start_batch": 3952,
+      "cosine": 0.10145853200160597,
+      "native_norm": 0.3232451078609219,
+      "replay_norm": 0.17720896487333004
+    },
+    {
+      "batches": 16,
+      "start_batch": 3968,
+      "cosine": -0.06721856318372958,
+      "native_norm": 0.2160516938525226,
+      "replay_norm": 0.13081741345829392
+    },
+    {
+      "batches": 16,
+      "start_batch": 3984,
+      "cosine": 0.2277969709924629,
+      "native_norm": 0.4246846190881421,
+      "replay_norm": 0.14578803882631886
+    },
+    {
+      "batches": 16,
+      "start_batch": 4000,
+      "cosine": 0.31276186897513136,
+      "native_norm": 0.21277018058121033,
+      "replay_norm": 0.1509590620642798
+    },
+    {
+      "batches": 16,
+      "start_batch": 4016,
+      "cosine": 0.13035372933558834,
+      "native_norm": 0.28651562586077056,
+      "replay_norm": 0.16041750284658418
+    },
+    {
+      "batches": 16,
+      "start_batch": 4032,
+      "cosine": -0.13215194492094076,
+      "native_norm": 0.2521545250588011,
+      "replay_norm": 0.13578267424593
+    },
+    {
+      "batches": 16,
+      "start_batch": 4048,
+      "cosine": -0.08745469717302969,
+      "native_norm": 0.24342076245697525,
+      "replay_norm": 0.1714756720543447
+    },
+    {
+      "batches": 16,
+      "start_batch": 4064,
+      "cosine": 0.18946727177164996,
+      "native_norm": 0.37427481220263803,
+      "replay_norm": 0.139040931798771
+    },
+    {
+      "batches": 16,
+      "start_batch": 4080,
+      "cosine": 0.10524774276334321,
+      "native_norm": 0.3075743762964732,
+      "replay_norm": 0.17660985109936717
+    },
+    {
+      "batches": 16,
+      "start_batch": 4096,
+      "cosine": -0.10202153199584606,
+      "native_norm": 0.30147926820005383,
+      "replay_norm": 0.15022161862741415
+    },
+    {
+      "batches": 16,
+      "start_batch": 4112,
+      "cosine": -0.145185103097141,
+      "native_norm": 0.28257951710442997,
+      "replay_norm": 0.1410751063708515
+    },
+    {
+      "batches": 16,
+      "start_batch": 4128,
+      "cosine": -0.2283745367101035,
+      "native_norm": 0.2805294795464004,
+      "replay_norm": 0.14242864313206505
+    },
+    {
+      "batches": 16,
+      "start_batch": 4144,
+      "cosine": -0.11214483637312724,
+      "native_norm": 0.22727443996608138,
+      "replay_norm": 0.1225254808818233
+    },
+    {
+      "batches": 16,
+      "start_batch": 4160,
+      "cosine": 0.3583969209942191,
+      "native_norm": 0.3372413906661361,
+      "replay_norm": 0.1515931635953679
+    },
+    {
+      "batches": 16,
+      "start_batch": 4176,
+      "cosine": -0.13213934971839164,
+      "native_norm": 0.23013728348906623,
+      "replay_norm": 0.1363597225739575
+    },
+    {
+      "batches": 16,
+      "start_batch": 4192,
+      "cosine": -0.05815021226348502,
+      "native_norm": 0.23709212145107464,
+      "replay_norm": 0.15629931894692842
+    },
+    {
+      "batches": 16,
+      "start_batch": 4208,
+      "cosine": -0.2923494529367915,
+      "native_norm": 0.3576882852243571,
+      "replay_norm": 0.15602029244936896
+    },
+    {
+      "batches": 16,
+      "start_batch": 4224,
+      "cosine": 0.045596022610816356,
+      "native_norm": 0.18899780888120513,
+      "replay_norm": 0.15390232212286403
+    },
+    {
+      "batches": 16,
+      "start_batch": 4240,
+      "cosine": 0.09371414582215273,
+      "native_norm": 0.3122140457020891,
+      "replay_norm": 0.1435059629685343
+    },
+    {
+      "batches": 16,
+      "start_batch": 4256,
+      "cosine": -0.34892831161947563,
+      "native_norm": 0.3145985742630634,
+      "replay_norm": 0.17541556280041365
+    },
+    {
+      "batches": 16,
+      "start_batch": 4272,
+      "cosine": -0.045329367212648276,
+      "native_norm": 0.3644626504637206,
+      "replay_norm": 0.15420360829358834
+    },
+    {
+      "batches": 16,
+      "start_batch": 4288,
+      "cosine": -0.1823398860168146,
+      "native_norm": 0.4202025534375246,
+      "replay_norm": 0.14403433447400069
+    },
+    {
+      "batches": 16,
+      "start_batch": 4304,
+      "cosine": 0.016557124274894315,
+      "native_norm": 0.3337906247013585,
+      "replay_norm": 0.15271349700622117
+    },
+    {
+      "batches": 16,
+      "start_batch": 4320,
+      "cosine": -0.18926994849572618,
+      "native_norm": 0.24255627501588356,
+      "replay_norm": 0.1453486271119274
+    },
+    {
+      "batches": 16,
+      "start_batch": 4336,
+      "cosine": -0.20234212686332148,
+      "native_norm": 0.24169371397813014,
+      "replay_norm": 0.14156660774773874
+    },
+    {
+      "batches": 16,
+      "start_batch": 4352,
+      "cosine": -0.17480964786980221,
+      "native_norm": 0.29639774619520526,
+      "replay_norm": 0.13036475229720026
+    },
+    {
+      "batches": 16,
+      "start_batch": 4368,
+      "cosine": 0.18067712062753793,
+      "native_norm": 0.2215006224617015,
+      "replay_norm": 0.18455627998849156
+    },
+    {
+      "batches": 16,
+      "start_batch": 4384,
+      "cosine": -0.030513901352397184,
+      "native_norm": 0.27059867546423266,
+      "replay_norm": 0.15445335511414274
+    },
+    {
+      "batches": 16,
+      "start_batch": 4400,
+      "cosine": -0.229598273297399,
+      "native_norm": 0.3721389704226106,
+      "replay_norm": 0.13560721716106974
+    },
+    {
+      "batches": 16,
+      "start_batch": 4416,
+      "cosine": -0.03971177250011784,
+      "native_norm": 0.28857250137337925,
+      "replay_norm": 0.12603325115558617
+    },
+    {
+      "batches": 16,
+      "start_batch": 4432,
+      "cosine": 0.14736721914312495,
+      "native_norm": 0.2965420328733842,
+      "replay_norm": 0.12369363420726195
+    },
+    {
+      "batches": 16,
+      "start_batch": 4448,
+      "cosine": 0.04775451097655656,
+      "native_norm": 0.17916869808804248,
+      "replay_norm": 0.13742140624528157
+    },
+    {
+      "batches": 16,
+      "start_batch": 4464,
+      "cosine": 0.04054923127547183,
+      "native_norm": 0.22975660617180027,
+      "replay_norm": 0.14984306948831075
+    },
+    {
+      "batches": 16,
+      "start_batch": 4480,
+      "cosine": -0.026535033640711143,
+      "native_norm": 0.22787713882211166,
+      "replay_norm": 0.15215747774923324
+    },
+    {
+      "batches": 16,
+      "start_batch": 4496,
+      "cosine": -0.2127694238206198,
+      "native_norm": 0.29707465720479653,
+      "replay_norm": 0.1315911034491894
+    },
+    {
+      "batches": 16,
+      "start_batch": 4512,
+      "cosine": -0.04423781234923009,
+      "native_norm": 0.28880978104652877,
+      "replay_norm": 0.17226678608099408
+    },
+    {
+      "batches": 16,
+      "start_batch": 4528,
+      "cosine": 0.18231752288263625,
+      "native_norm": 0.3855505179712812,
+      "replay_norm": 0.16144545335611543
+    },
+    {
+      "batches": 16,
+      "start_batch": 4544,
+      "cosine": 0.08432757240121368,
+      "native_norm": 0.2641320262989347,
+      "replay_norm": 0.14616390831466752
+    },
+    {
+      "batches": 16,
+      "start_batch": 4560,
+      "cosine": -0.1316375496278546,
+      "native_norm": 0.2820797430621315,
+      "replay_norm": 0.18113538552294908
+    },
+    {
+      "batches": 16,
+      "start_batch": 4576,
+      "cosine": -0.13327517371938488,
+      "native_norm": 0.24261890398254285,
+      "replay_norm": 0.1396546236794272
+    },
+    {
+      "batches": 16,
+      "start_batch": 4592,
+      "cosine": 0.19590999824481609,
+      "native_norm": 0.28943593340324286,
+      "replay_norm": 0.10906867594168393
+    },
+    {
+      "batches": 16,
+      "start_batch": 4608,
+      "cosine": -0.03806285226293285,
+      "native_norm": 0.2624930323618657,
+      "replay_norm": 0.14527456359595545
+    },
+    {
+      "batches": 16,
+      "start_batch": 4624,
+      "cosine": 0.3063741036927284,
+      "native_norm": 0.31322924533049296,
+      "replay_norm": 0.1680770127620582
+    },
+    {
+      "batches": 16,
+      "start_batch": 4640,
+      "cosine": -0.02663524182853876,
+      "native_norm": 0.3055881930053596,
+      "replay_norm": 0.15109349447499404
+    },
+    {
+      "batches": 16,
+      "start_batch": 4656,
+      "cosine": 0.09807544131023667,
+      "native_norm": 0.30698151120979933,
+      "replay_norm": 0.14038664754344368
+    },
+    {
+      "batches": 16,
+      "start_batch": 4672,
+      "cosine": 0.175278143746279,
+      "native_norm": 0.23664649310314445,
+      "replay_norm": 0.133375353593027
+    },
+    {
+      "batches": 16,
+      "start_batch": 4688,
+      "cosine": -0.07394750734751683,
+      "native_norm": 0.26681809949232577,
+      "replay_norm": 0.12479577056338784
+    },
+    {
+      "batches": 16,
+      "start_batch": 4704,
+      "cosine": -0.16290480956439962,
+      "native_norm": 0.19302541609013876,
+      "replay_norm": 0.1664586391412609
+    },
+    {
+      "batches": 16,
+      "start_batch": 4720,
+      "cosine": 0.24399538795490155,
+      "native_norm": 0.2396574346391869,
+      "replay_norm": 0.14121457229743897
+    },
+    {
+      "batches": 16,
+      "start_batch": 4736,
+      "cosine": -0.08917060241529376,
+      "native_norm": 0.3745101021800494,
+      "replay_norm": 0.13578730470898465
+    },
+    {
+      "batches": 16,
+      "start_batch": 4752,
+      "cosine": 0.10002406486212795,
+      "native_norm": 0.23449329860450932,
+      "replay_norm": 0.1369575979671699
+    },
+    {
+      "batches": 16,
+      "start_batch": 4768,
+      "cosine": -0.1141004810709606,
+      "native_norm": 0.2893842785117468,
+      "replay_norm": 0.14869001980223565
+    },
+    {
+      "batches": 16,
+      "start_batch": 4784,
+      "cosine": 0.08299580060555822,
+      "native_norm": 0.2140853216537507,
+      "replay_norm": 0.18052154760840514
+    },
+    {
+      "batches": 16,
+      "start_batch": 4800,
+      "cosine": -0.22125215026165596,
+      "native_norm": 0.30279093843255983,
+      "replay_norm": 0.15053466588316083
+    },
+    {
+      "batches": 16,
+      "start_batch": 4816,
+      "cosine": -0.18408189403711425,
+      "native_norm": 0.3101339949564329,
+      "replay_norm": 0.1533128406994096
+    },
+    {
+      "batches": 16,
+      "start_batch": 4832,
+      "cosine": 0.2000934339444629,
+      "native_norm": 0.22582401224091145,
+      "replay_norm": 0.14710126540957152
+    },
+    {
+      "batches": 16,
+      "start_batch": 4848,
+      "cosine": 0.12574898159600628,
+      "native_norm": 0.31922669458738295,
+      "replay_norm": 0.13168664226924817
+    },
+    {
+      "batches": 16,
+      "start_batch": 4864,
+      "cosine": -0.22624171216190525,
+      "native_norm": 0.3566869251702383,
+      "replay_norm": 0.14875814524694617
+    },
+    {
+      "batches": 16,
+      "start_batch": 4880,
+      "cosine": -0.13253610902253254,
+      "native_norm": 0.2603552447005357,
+      "replay_norm": 0.11251189260726371
+    },
+    {
+      "batches": 16,
+      "start_batch": 4896,
+      "cosine": 0.3378128207526208,
+      "native_norm": 0.25365145238319486,
+      "replay_norm": 0.14750615421357466
+    },
+    {
+      "batches": 16,
+      "start_batch": 4912,
+      "cosine": -0.07142699132339565,
+      "native_norm": 0.24048098031588974,
+      "replay_norm": 0.11743374725534364
+    },
+    {
+      "batches": 16,
+      "start_batch": 4928,
+      "cosine": -0.10720946440153994,
+      "native_norm": 0.25738775813308695,
+      "replay_norm": 0.1297453101451101
+    },
+    {
+      "batches": 16,
+      "start_batch": 4944,
+      "cosine": 0.33962206228846137,
+      "native_norm": 0.25204680269122676,
+      "replay_norm": 0.18230203395334893
+    },
+    {
+      "batches": 16,
+      "start_batch": 4960,
+      "cosine": 0.17611578070972117,
+      "native_norm": 0.2578427469278074,
+      "replay_norm": 0.15528273254755054
+    },
+    {
+      "batches": 16,
+      "start_batch": 4976,
+      "cosine": 0.016062276252066264,
+      "native_norm": 0.3301912614420493,
+      "replay_norm": 0.1337566932241119
+    },
+    {
+      "batches": 16,
+      "start_batch": 4992,
+      "cosine": -0.14416194482978323,
+      "native_norm": 0.2752823461511191,
+      "replay_norm": 0.1478469825153176
+    },
+    {
+      "batches": 16,
+      "start_batch": 5008,
+      "cosine": -0.25822687294491226,
+      "native_norm": 0.26586083468527744,
+      "replay_norm": 0.1263114686306917
+    },
+    {
+      "batches": 16,
+      "start_batch": 5024,
+      "cosine": 0.1320410717941026,
+      "native_norm": 0.2738467829325592,
+      "replay_norm": 0.1752126865225602
+    },
+    {
+      "batches": 16,
+      "start_batch": 5040,
+      "cosine": -0.04994753338384759,
+      "native_norm": 0.2655944944474776,
+      "replay_norm": 0.19216983961648076
+    },
+    {
+      "batches": 16,
+      "start_batch": 5056,
+      "cosine": 0.24424685738686805,
+      "native_norm": 0.28890225711708817,
+      "replay_norm": 0.12532357792570636
+    },
+    {
+      "batches": 16,
+      "start_batch": 5072,
+      "cosine": -0.07699672872076047,
+      "native_norm": 0.2339768905623825,
+      "replay_norm": 0.15230743923802384
+    },
+    {
+      "batches": 16,
+      "start_batch": 5088,
+      "cosine": 0.15640615994072607,
+      "native_norm": 0.28722169556291116,
+      "replay_norm": 0.1729084988846264
+    },
+    {
+      "batches": 16,
+      "start_batch": 5104,
+      "cosine": 0.16392776264520537,
+      "native_norm": 0.3229034659155241,
+      "replay_norm": 0.16448096830706715
+    },
+    {
+      "batches": 16,
+      "start_batch": 5120,
+      "cosine": 0.10913677036083162,
+      "native_norm": 0.31169850440721525,
+      "replay_norm": 0.15523622287825892
+    },
+    {
+      "batches": 16,
+      "start_batch": 5136,
+      "cosine": 0.008425496091752091,
+      "native_norm": 0.3725467095322043,
+      "replay_norm": 0.14398341963502573
+    },
+    {
+      "batches": 16,
+      "start_batch": 5152,
+      "cosine": 0.09791670873660076,
+      "native_norm": 0.2669581144116401,
+      "replay_norm": 0.14667819674903682
+    },
+    {
+      "batches": 16,
+      "start_batch": 5168,
+      "cosine": 0.07273933729393002,
+      "native_norm": 0.25865232285342205,
+      "replay_norm": 0.1329470703401821
+    },
+    {
+      "batches": 16,
+      "start_batch": 5184,
+      "cosine": 0.01986905684438668,
+      "native_norm": 0.35811923360098324,
+      "replay_norm": 0.1310126941621525
+    },
+    {
+      "batches": 16,
+      "start_batch": 5200,
+      "cosine": -0.16363203599026782,
+      "native_norm": 0.3396476055884135,
+      "replay_norm": 0.12603662454190767
+    },
+    {
+      "batches": 16,
+      "start_batch": 5216,
+      "cosine": -0.21884664282311608,
+      "native_norm": 0.310056165119018,
+      "replay_norm": 0.13746477666811938
+    },
+    {
+      "batches": 16,
+      "start_batch": 5232,
+      "cosine": -0.2871084856392794,
+      "native_norm": 0.3569325683749738,
+      "replay_norm": 0.1484726774302806
+    },
+    {
+      "batches": 16,
+      "start_batch": 5248,
+      "cosine": 0.11405140155642896,
+      "native_norm": 0.28070223014072854,
+      "replay_norm": 0.12404762185825013
+    },
+    {
+      "batches": 16,
+      "start_batch": 5264,
+      "cosine": 0.32827396252552243,
+      "native_norm": 0.35879858781458196,
+      "replay_norm": 0.13913039068872124
+    },
+    {
+      "batches": 16,
+      "start_batch": 5280,
+      "cosine": 0.11417167735133124,
+      "native_norm": 0.2156579478593007,
+      "replay_norm": 0.12506729229676053
+    },
+    {
+      "batches": 16,
+      "start_batch": 5296,
+      "cosine": 0.1942121253292482,
+      "native_norm": 0.3036236827217999,
+      "replay_norm": 0.17327329819268172
+    },
+    {
+      "batches": 16,
+      "start_batch": 5312,
+      "cosine": 0.2705472876205807,
+      "native_norm": 0.36326734882390305,
+      "replay_norm": 0.1294545614049161
+    },
+    {
+      "batches": 16,
+      "start_batch": 5328,
+      "cosine": -0.05432725179724564,
+      "native_norm": 0.3141362072909588,
+      "replay_norm": 0.17278313719572055
+    },
+    {
+      "batches": 16,
+      "start_batch": 5344,
+      "cosine": 0.19345135647145983,
+      "native_norm": 0.26152312400122507,
+      "replay_norm": 0.17628839618796052
+    },
+    {
+      "batches": 16,
+      "start_batch": 5360,
+      "cosine": 0.016741635724955756,
+      "native_norm": 0.2513846573958959,
+      "replay_norm": 0.14384786635505573
+    },
+    {
+      "batches": 16,
+      "start_batch": 5376,
+      "cosine": -0.5771825909513314,
+      "native_norm": 0.36745259718513035,
+      "replay_norm": 0.16860069279902254
+    },
+    {
+      "batches": 16,
+      "start_batch": 5392,
+      "cosine": -0.16139533131273695,
+      "native_norm": 0.24757052219099784,
+      "replay_norm": 0.12975579325038944
+    },
+    {
+      "batches": 16,
+      "start_batch": 5408,
+      "cosine": -0.25122650701747024,
+      "native_norm": 0.2516850779229971,
+      "replay_norm": 0.16916176799333096
+    },
+    {
+      "batches": 16,
+      "start_batch": 5424,
+      "cosine": 0.39154081262819773,
+      "native_norm": 0.27045580589212626,
+      "replay_norm": 0.15486653860387298
+    },
+    {
+      "batches": 16,
+      "start_batch": 5440,
+      "cosine": -0.20729005567825365,
+      "native_norm": 0.25658344223666013,
+      "replay_norm": 0.1613153851560298
+    },
+    {
+      "batches": 16,
+      "start_batch": 5456,
+      "cosine": 0.15908440987411845,
+      "native_norm": 0.2824473525076011,
+      "replay_norm": 0.1465394655550606
+    },
+    {
+      "batches": 16,
+      "start_batch": 5472,
+      "cosine": 0.2884785811328846,
+      "native_norm": 0.3222796235312067,
+      "replay_norm": 0.19356990571324545
+    },
+    {
+      "batches": 16,
+      "start_batch": 5488,
+      "cosine": -0.27205731287043744,
+      "native_norm": 0.3244350522906538,
+      "replay_norm": 0.13935133861897028
+    },
+    {
+      "batches": 16,
+      "start_batch": 5504,
+      "cosine": -0.17066343109325718,
+      "native_norm": 0.26089578434280336,
+      "replay_norm": 0.19601541556739
+    },
+    {
+      "batches": 16,
+      "start_batch": 5520,
+      "cosine": -0.006172539143028571,
+      "native_norm": 0.2530837702772012,
+      "replay_norm": 0.13816368556779893
+    },
+    {
+      "batches": 16,
+      "start_batch": 5536,
+      "cosine": 0.008494929979799812,
+      "native_norm": 0.26767976300858626,
+      "replay_norm": 0.16683804743461464
+    },
+    {
+      "batches": 16,
+      "start_batch": 5552,
+      "cosine": -0.05712010865692554,
+      "native_norm": 0.3145289210718401,
+      "replay_norm": 0.13605418486825366
+    },
+    {
+      "batches": 16,
+      "start_batch": 5568,
+      "cosine": 0.1216437997468688,
+      "native_norm": 0.3064940393999524,
+      "replay_norm": 0.14778163172509096
+    },
+    {
+      "batches": 16,
+      "start_batch": 5584,
+      "cosine": 0.08381260957628289,
+      "native_norm": 0.2332829660948999,
+      "replay_norm": 0.15882916069179007
+    },
+    {
+      "batches": 16,
+      "start_batch": 5600,
+      "cosine": 0.08426042040328144,
+      "native_norm": 0.2421337812474666,
+      "replay_norm": 0.16134785362084242
+    },
+    {
+      "batches": 16,
+      "start_batch": 5616,
+      "cosine": 0.5095201686314199,
+      "native_norm": 0.4222296908124775,
+      "replay_norm": 0.13740657178955962
+    },
+    {
+      "batches": 16,
+      "start_batch": 5632,
+      "cosine": 0.2587153175579639,
+      "native_norm": 0.3118909920488628,
+      "replay_norm": 0.159231953702493
+    },
+    {
+      "batches": 16,
+      "start_batch": 5648,
+      "cosine": -0.20940513708812836,
+      "native_norm": 0.2058073209129607,
+      "replay_norm": 0.17223268606590034
+    },
+    {
+      "batches": 16,
+      "start_batch": 5664,
+      "cosine": 0.1587890077497714,
+      "native_norm": 0.2609373695494764,
+      "replay_norm": 0.1302756806956967
+    },
+    {
+      "batches": 16,
+      "start_batch": 5680,
+      "cosine": 0.011333055286831716,
+      "native_norm": 0.281271943740136,
+      "replay_norm": 0.12070426783259536
+    },
+    {
+      "batches": 16,
+      "start_batch": 5696,
+      "cosine": -0.5065589208648285,
+      "native_norm": 0.31862615646882364,
+      "replay_norm": 0.1542956899317474
+    },
+    {
+      "batches": 16,
+      "start_batch": 5712,
+      "cosine": 0.1170468141543522,
+      "native_norm": 0.25586109958176345,
+      "replay_norm": 0.13559625437762118
+    },
+    {
+      "batches": 16,
+      "start_batch": 5728,
+      "cosine": -0.09103348741388971,
+      "native_norm": 0.24722281354615816,
+      "replay_norm": 0.13773738393463353
+    },
+    {
+      "batches": 16,
+      "start_batch": 5744,
+      "cosine": -0.21284227126885483,
+      "native_norm": 0.31014647394259653,
+      "replay_norm": 0.18352065426599048
+    },
+    {
+      "batches": 16,
+      "start_batch": 5760,
+      "cosine": 0.20331431787616078,
+      "native_norm": 0.26486624339995846,
+      "replay_norm": 0.16430370777637027
+    },
+    {
+      "batches": 16,
+      "start_batch": 5776,
+      "cosine": -0.12408722338723863,
+      "native_norm": 0.24608329561854056,
+      "replay_norm": 0.16799832135354817
+    },
+    {
+      "batches": 16,
+      "start_batch": 5792,
+      "cosine": -0.0955726691595352,
+      "native_norm": 0.38458817612084173,
+      "replay_norm": 0.129189616531354
+    },
+    {
+      "batches": 16,
+      "start_batch": 5808,
+      "cosine": 0.10876454754364565,
+      "native_norm": 0.24158469273288408,
+      "replay_norm": 0.16448075402641754
+    },
+    {
+      "batches": 16,
+      "start_batch": 5824,
+      "cosine": 0.031010532658312117,
+      "native_norm": 0.2752870726794276,
+      "replay_norm": 0.2188606726335107
+    },
+    {
+      "batches": 16,
+      "start_batch": 5840,
+      "cosine": -0.1349010143760441,
+      "native_norm": 0.31495190523533434,
+      "replay_norm": 0.11339138755854107
+    },
+    {
+      "batches": 16,
+      "start_batch": 5856,
+      "cosine": -0.04115298849827182,
+      "native_norm": 0.23621550074448894,
+      "replay_norm": 0.1610386258382524
+    },
+    {
+      "batches": 16,
+      "start_batch": 5872,
+      "cosine": 0.4707609366545958,
+      "native_norm": 0.3588726179044803,
+      "replay_norm": 0.19409211953961428
+    },
+    {
+      "batches": 16,
+      "start_batch": 5888,
+      "cosine": 0.018575640659120023,
+      "native_norm": 0.21517464364219419,
+      "replay_norm": 0.14571200852775656
+    },
+    {
+      "batches": 16,
+      "start_batch": 5904,
+      "cosine": -0.2548845194081847,
+      "native_norm": 0.29146611299968744,
+      "replay_norm": 0.1423098930551141
+    },
+    {
+      "batches": 16,
+      "start_batch": 5920,
+      "cosine": -0.16439157701527907,
+      "native_norm": 0.252392301912472,
+      "replay_norm": 0.16144476582483727
+    },
+    {
+      "batches": 16,
+      "start_batch": 5936,
+      "cosine": -0.3236943267370254,
+      "native_norm": 0.36374577502071415,
+      "replay_norm": 0.14929315418469516
+    },
+    {
+      "batches": 16,
+      "start_batch": 5952,
+      "cosine": 0.2461998810269394,
+      "native_norm": 0.2784483222404939,
+      "replay_norm": 0.14914311547625658
+    },
+    {
+      "batches": 16,
+      "start_batch": 5968,
+      "cosine": 0.24398069593948798,
+      "native_norm": 0.24622317069196883,
+      "replay_norm": 0.22809949719638142
+    },
+    {
+      "batches": 16,
+      "start_batch": 5984,
+      "cosine": -0.035761949891769965,
+      "native_norm": 0.21865730222304391,
+      "replay_norm": 0.14469407259923472
+    },
+    {
+      "batches": 16,
+      "start_batch": 6000,
+      "cosine": -0.02142194102312048,
+      "native_norm": 0.33000443329809,
+      "replay_norm": 0.15898318015033433
+    },
+    {
+      "batches": 16,
+      "start_batch": 6016,
+      "cosine": 0.13712781323420287,
+      "native_norm": 0.26803776677549956,
+      "replay_norm": 0.1261707498363638
+    },
+    {
+      "batches": 16,
+      "start_batch": 6032,
+      "cosine": -0.09642617149348084,
+      "native_norm": 0.32369394488254455,
+      "replay_norm": 0.1363469004303722
+    },
+    {
+      "batches": 16,
+      "start_batch": 6048,
+      "cosine": -0.31838571308612057,
+      "native_norm": 0.38842687714949176,
+      "replay_norm": 0.1310035457785415
+    },
+    {
+      "batches": 16,
+      "start_batch": 6064,
+      "cosine": 0.0005083173319017765,
+      "native_norm": 0.31916985631646577,
+      "replay_norm": 0.1689580711206457
+    },
+    {
+      "batches": 16,
+      "start_batch": 6080,
+      "cosine": 0.19341517030011576,
+      "native_norm": 0.2994164742423267,
+      "replay_norm": 0.15415371510758893
+    },
+    {
+      "batches": 16,
+      "start_batch": 6096,
+      "cosine": -0.17261174224681386,
+      "native_norm": 0.24639719998425186,
+      "replay_norm": 0.1581702217551247
+    },
+    {
+      "batches": 16,
+      "start_batch": 6112,
+      "cosine": -0.061862915635799355,
+      "native_norm": 0.2413766776058234,
+      "replay_norm": 0.13758803994503155
+    },
+    {
+      "batches": 16,
+      "start_batch": 6128,
+      "cosine": 0.19545212382963786,
+      "native_norm": 0.37194579540067496,
+      "replay_norm": 0.12921697233225887
+    },
+    {
+      "batches": 16,
+      "start_batch": 6144,
+      "cosine": -0.18274854072202032,
+      "native_norm": 0.37071791606330146,
+      "replay_norm": 0.1399066883955816
+    },
+    {
+      "batches": 16,
+      "start_batch": 6160,
+      "cosine": 0.026585403821329644,
+      "native_norm": 0.2885729884737237,
+      "replay_norm": 0.1221275679697296
+    },
+    {
+      "batches": 16,
+      "start_batch": 6176,
+      "cosine": 0.33225258076669556,
+      "native_norm": 0.267743378815919,
+      "replay_norm": 0.14706517000679165
+    },
+    {
+      "batches": 16,
+      "start_batch": 6192,
+      "cosine": -0.11031459483553739,
+      "native_norm": 0.27519835878525395,
+      "replay_norm": 0.1421999367773019
+    },
+    {
+      "batches": 16,
+      "start_batch": 6208,
+      "cosine": -0.2774191210433817,
+      "native_norm": 0.2905442504553528,
+      "replay_norm": 0.12909957909629124
+    },
+    {
+      "batches": 16,
+      "start_batch": 6224,
+      "cosine": 0.1942416919817044,
+      "native_norm": 0.2580825562714037,
+      "replay_norm": 0.14601231521355662
+    },
+    {
+      "batches": 16,
+      "start_batch": 6240,
+      "cosine": 0.07373450286525837,
+      "native_norm": 0.23315584686604995,
+      "replay_norm": 0.11224556633808157
+    },
+    {
+      "batches": 16,
+      "start_batch": 6256,
+      "cosine": 0.03325475125870808,
+      "native_norm": 0.2752400672104216,
+      "replay_norm": 0.11377621996642255
+    },
+    {
+      "batches": 16,
+      "start_batch": 6272,
+      "cosine": -0.0865179285514963,
+      "native_norm": 0.3371337903814494,
+      "replay_norm": 0.13393281205484536
+    },
+    {
+      "batches": 16,
+      "start_batch": 6288,
+      "cosine": -0.10936041901931878,
+      "native_norm": 0.27496403069004477,
+      "replay_norm": 0.11282180554549366
+    },
+    {
+      "batches": 16,
+      "start_batch": 6304,
+      "cosine": 0.12413732722714253,
+      "native_norm": 0.2469956577158764,
+      "replay_norm": 0.13781726517286844
+    },
+    {
+      "batches": 16,
+      "start_batch": 6320,
+      "cosine": 0.07605226751083156,
+      "native_norm": 0.39453249821093095,
+      "replay_norm": 0.1273695475201689
+    },
+    {
+      "batches": 16,
+      "start_batch": 6336,
+      "cosine": 0.04748527310852064,
+      "native_norm": 0.21843066009267767,
+      "replay_norm": 0.19674575507765
+    },
+    {
+      "batches": 16,
+      "start_batch": 6352,
+      "cosine": 0.12862312081029384,
+      "native_norm": 0.23209916670927871,
+      "replay_norm": 0.12999686484503364
+    },
+    {
+      "batches": 16,
+      "start_batch": 6368,
+      "cosine": 0.07920313951498686,
+      "native_norm": 0.2947633074657077,
+      "replay_norm": 0.12496876487458805
+    },
+    {
+      "batches": 16,
+      "start_batch": 6384,
+      "cosine": -0.05880622075272515,
+      "native_norm": 0.23724758953352892,
+      "replay_norm": 0.12663998428488038
+    },
+    {
+      "batches": 16,
+      "start_batch": 6400,
+      "cosine": -0.017566847825703846,
+      "native_norm": 0.32286477622172643,
+      "replay_norm": 0.13867050434368614
+    },
+    {
+      "batches": 16,
+      "start_batch": 6416,
+      "cosine": 0.11018217212546672,
+      "native_norm": 0.24371841453378526,
+      "replay_norm": 0.17252781077874818
+    },
+    {
+      "batches": 16,
+      "start_batch": 6432,
+      "cosine": -0.0967656038553246,
+      "native_norm": 0.2728949965598437,
+      "replay_norm": 0.11645775733147015
+    },
+    {
+      "batches": 16,
+      "start_batch": 6448,
+      "cosine": 0.25436392236362976,
+      "native_norm": 0.2689627021351614,
+      "replay_norm": 0.13841819690647303
+    },
+    {
+      "batches": 16,
+      "start_batch": 6464,
+      "cosine": -0.1636458074282277,
+      "native_norm": 0.22404861967494083,
+      "replay_norm": 0.18826551336720201
+    },
+    {
+      "batches": 16,
+      "start_batch": 6480,
+      "cosine": 0.16375461702607272,
+      "native_norm": 0.33122636839929176,
+      "replay_norm": 0.1369702104932726
+    },
+    {
+      "batches": 16,
+      "start_batch": 6496,
+      "cosine": -0.024895227345803496,
+      "native_norm": 0.2777541512166811,
+      "replay_norm": 0.16721149669764818
+    },
+    {
+      "batches": 16,
+      "start_batch": 6512,
+      "cosine": 0.185076741830528,
+      "native_norm": 0.21153764059056832,
+      "replay_norm": 0.15726160212927967
+    },
+    {
+      "batches": 16,
+      "start_batch": 6528,
+      "cosine": -0.1538544108340222,
+      "native_norm": 0.3576721237676726,
+      "replay_norm": 0.15806146310810112
+    },
+    {
+      "batches": 16,
+      "start_batch": 6544,
+      "cosine": 0.23189774139559205,
+      "native_norm": 0.31972286921890325,
+      "replay_norm": 0.15148302640627773
+    },
+    {
+      "batches": 16,
+      "start_batch": 6560,
+      "cosine": 0.1375457821017593,
+      "native_norm": 0.3643789673394941,
+      "replay_norm": 0.13579517171809488
+    },
+    {
+      "batches": 16,
+      "start_batch": 6576,
+      "cosine": -0.2398252194163576,
+      "native_norm": 0.33889128221714043,
+      "replay_norm": 0.15414325776873444
+    },
+    {
+      "batches": 16,
+      "start_batch": 6592,
+      "cosine": -0.27029158613172527,
+      "native_norm": 0.2950533703205334,
+      "replay_norm": 0.15524876825386794
+    },
+    {
+      "batches": 16,
+      "start_batch": 6608,
+      "cosine": 0.027294832229213212,
+      "native_norm": 0.2423997432105958,
+      "replay_norm": 0.1650698307166548
+    },
+    {
+      "batches": 16,
+      "start_batch": 6624,
+      "cosine": 0.05756239594144679,
+      "native_norm": 0.3507452569869741,
+      "replay_norm": 0.16096579034963734
+    },
+    {
+      "batches": 16,
+      "start_batch": 6640,
+      "cosine": 0.0531254026110791,
+      "native_norm": 0.2655766396731308,
+      "replay_norm": 0.13685457557803296
+    },
+    {
+      "batches": 16,
+      "start_batch": 6656,
+      "cosine": -0.1523779423618728,
+      "native_norm": 0.2118209959286968,
+      "replay_norm": 0.1579821993483149
+    },
+    {
+      "batches": 16,
+      "start_batch": 6672,
+      "cosine": 0.18977553232920125,
+      "native_norm": 0.3076603543976102,
+      "replay_norm": 0.13064274259047257
+    },
+    {
+      "batches": 16,
+      "start_batch": 6688,
+      "cosine": -0.35876186082093914,
+      "native_norm": 0.27892282013676933,
+      "replay_norm": 0.1432252460561726
+    },
+    {
+      "batches": 16,
+      "start_batch": 6704,
+      "cosine": -0.1446703529878322,
+      "native_norm": 0.21524125650774215,
+      "replay_norm": 0.1538121079330268
+    },
+    {
+      "batches": 16,
+      "start_batch": 6720,
+      "cosine": 0.20386245068856496,
+      "native_norm": 0.3608870062976191,
+      "replay_norm": 0.145739051002025
+    },
+    {
+      "batches": 16,
+      "start_batch": 6736,
+      "cosine": -0.10514719142862887,
+      "native_norm": 0.2554027123005573,
+      "replay_norm": 0.1702812942468973
+    },
+    {
+      "batches": 16,
+      "start_batch": 6752,
+      "cosine": 0.017144947803598775,
+      "native_norm": 0.3383460926644456,
+      "replay_norm": 0.1292295905173745
+    },
+    {
+      "batches": 16,
+      "start_batch": 6768,
+      "cosine": 0.02429377254704665,
+      "native_norm": 0.2780541873953796,
+      "replay_norm": 0.14522963725998256
+    },
+    {
+      "batches": 16,
+      "start_batch": 6784,
+      "cosine": 0.08985110179648123,
+      "native_norm": 0.3172501365950531,
+      "replay_norm": 0.13155616773334866
+    },
+    {
+      "batches": 16,
+      "start_batch": 6800,
+      "cosine": 0.2324101798339159,
+      "native_norm": 0.35272762639880145,
+      "replay_norm": 0.17838951790778146
+    },
+    {
+      "batches": 16,
+      "start_batch": 6816,
+      "cosine": -0.005012215406507995,
+      "native_norm": 0.3974724583161158,
+      "replay_norm": 0.14916318931403452
+    },
+    {
+      "batches": 16,
+      "start_batch": 6832,
+      "cosine": 0.5544096748388619,
+      "native_norm": 0.2531575070083164,
+      "replay_norm": 0.1817457323582765
+    },
+    {
+      "batches": 16,
+      "start_batch": 6848,
+      "cosine": 0.16884280378506103,
+      "native_norm": 0.28026540870359834,
+      "replay_norm": 0.11931668696723913
+    },
+    {
+      "batches": 16,
+      "start_batch": 6864,
+      "cosine": 0.17678075867252016,
+      "native_norm": 0.31717711831068895,
+      "replay_norm": 0.13571594596117048
+    },
+    {
+      "batches": 16,
+      "start_batch": 6880,
+      "cosine": 0.4034285032400732,
+      "native_norm": 0.3004178126987411,
+      "replay_norm": 0.14088602408888998
+    },
+    {
+      "batches": 16,
+      "start_batch": 6896,
+      "cosine": -0.06006416347668714,
+      "native_norm": 0.2990365848103189,
+      "replay_norm": 0.1531886208588134
+    },
+    {
+      "batches": 16,
+      "start_batch": 6912,
+      "cosine": -0.05122612172558485,
+      "native_norm": 0.2491431588427794,
+      "replay_norm": 0.16209138308716955
+    },
+    {
+      "batches": 16,
+      "start_batch": 6928,
+      "cosine": 0.10743672626236894,
+      "native_norm": 0.2717702530880404,
+      "replay_norm": 0.1404136190570772
+    },
+    {
+      "batches": 16,
+      "start_batch": 6944,
+      "cosine": 0.021038586817318836,
+      "native_norm": 0.2827652374647235,
+      "replay_norm": 0.15708518116595235
+    },
+    {
+      "batches": 16,
+      "start_batch": 6960,
+      "cosine": -0.22606500134085,
+      "native_norm": 0.25174017695103357,
+      "replay_norm": 0.1589283215712878
+    },
+    {
+      "batches": 16,
+      "start_batch": 6976,
+      "cosine": -0.14399369157218397,
+      "native_norm": 0.23311124955015589,
+      "replay_norm": 0.17056291660346587
+    },
+    {
+      "batches": 16,
+      "start_batch": 6992,
+      "cosine": 0.09983482577439204,
+      "native_norm": 0.29773027640968197,
+      "replay_norm": 0.13895351409123494
+    },
+    {
+      "batches": 16,
+      "start_batch": 7008,
+      "cosine": -0.029350191378547223,
+      "native_norm": 0.25838087810316135,
+      "replay_norm": 0.13774322839317438
+    },
+    {
+      "batches": 16,
+      "start_batch": 7024,
+      "cosine": 0.22934285957996126,
+      "native_norm": 0.2848191948316169,
+      "replay_norm": 0.15687899816134313
+    },
+    {
+      "batches": 16,
+      "start_batch": 7040,
+      "cosine": -0.009680037720404428,
+      "native_norm": 0.20262282392846764,
+      "replay_norm": 0.12608191678045946
+    },
+    {
+      "batches": 16,
+      "start_batch": 7056,
+      "cosine": -0.17367646349840538,
+      "native_norm": 0.23366778176142242,
+      "replay_norm": 0.13807882734394217
+    },
+    {
+      "batches": 16,
+      "start_batch": 7072,
+      "cosine": -0.20477954680325614,
+      "native_norm": 0.22203226128645084,
+      "replay_norm": 0.16200536554656733
+    },
+    {
+      "batches": 16,
+      "start_batch": 7088,
+      "cosine": 0.13058741594700365,
+      "native_norm": 0.2076500125343622,
+      "replay_norm": 0.1362727148578793
+    },
+    {
+      "batches": 16,
+      "start_batch": 7104,
+      "cosine": -0.2059637562235378,
+      "native_norm": 0.2995085921951978,
+      "replay_norm": 0.11302671493132208
+    },
+    {
+      "batches": 16,
+      "start_batch": 7120,
+      "cosine": 0.27805350325541783,
+      "native_norm": 0.298865457262553,
+      "replay_norm": 0.12698049423582136
+    },
+    {
+      "batches": 16,
+      "start_batch": 7136,
+      "cosine": -0.006756106951038002,
+      "native_norm": 0.18513369606008576,
+      "replay_norm": 0.14149287834587143
+    },
+    {
+      "batches": 16,
+      "start_batch": 7152,
+      "cosine": 0.31124286436005955,
+      "native_norm": 0.2866131466154866,
+      "replay_norm": 0.14645099322160549
+    },
+    {
+      "batches": 16,
+      "start_batch": 7168,
+      "cosine": -0.33820104902165443,
+      "native_norm": 0.2548783031795311,
+      "replay_norm": 0.1694566623485758
+    },
+    {
+      "batches": 16,
+      "start_batch": 7184,
+      "cosine": -0.06734699518737616,
+      "native_norm": 0.25152080130317805,
+      "replay_norm": 0.136737404169634
+    },
+    {
+      "batches": 16,
+      "start_batch": 7200,
+      "cosine": -0.21906500349108593,
+      "native_norm": 0.35036405403302995,
+      "replay_norm": 0.14541303576390802
+    },
+    {
+      "batches": 16,
+      "start_batch": 7216,
+      "cosine": 0.11468220969407962,
+      "native_norm": 0.2816435464996986,
+      "replay_norm": 0.11561977260029954
+    },
+    {
+      "batches": 16,
+      "start_batch": 7232,
+      "cosine": 0.2803003337728372,
+      "native_norm": 0.33112671204876964,
+      "replay_norm": 0.12168452154573875
+    },
+    {
+      "batches": 16,
+      "start_batch": 7248,
+      "cosine": -0.3039570994503982,
+      "native_norm": 0.20499513836273367,
+      "replay_norm": 0.1816958089912917
+    },
+    {
+      "batches": 16,
+      "start_batch": 7264,
+      "cosine": -0.15458234067237575,
+      "native_norm": 0.408221677002918,
+      "replay_norm": 0.17055175078094445
+    },
+    {
+      "batches": 16,
+      "start_batch": 7280,
+      "cosine": 0.2917428009102192,
+      "native_norm": 0.38062628167970525,
+      "replay_norm": 0.16838064844324882
+    },
+    {
+      "batches": 16,
+      "start_batch": 7296,
+      "cosine": 0.4495219267342016,
+      "native_norm": 0.31597776242223885,
+      "replay_norm": 0.13359316029029658
+    },
+    {
+      "batches": 16,
+      "start_batch": 7312,
+      "cosine": -0.018189519966643364,
+      "native_norm": 0.22013081269690854,
+      "replay_norm": 0.142333036404026
+    },
+    {
+      "batches": 16,
+      "start_batch": 7328,
+      "cosine": 0.3872365842409908,
+      "native_norm": 0.2743883775161491,
+      "replay_norm": 0.17049301127015865
+    },
+    {
+      "batches": 16,
+      "start_batch": 7344,
+      "cosine": -0.32511736783500805,
+      "native_norm": 0.258320812098221,
+      "replay_norm": 0.14224035068145885
+    },
+    {
+      "batches": 16,
+      "start_batch": 7360,
+      "cosine": 0.022368418772692897,
+      "native_norm": 0.24531967056678952,
+      "replay_norm": 0.14350835871315568
+    },
+    {
+      "batches": 16,
+      "start_batch": 7376,
+      "cosine": -0.3613212315520328,
+      "native_norm": 0.23471101567140318,
+      "replay_norm": 0.15776436928101228
+    },
+    {
+      "batches": 16,
+      "start_batch": 7392,
+      "cosine": -0.3172924227611093,
+      "native_norm": 0.24652881241717586,
+      "replay_norm": 0.1385659161120643
+    },
+    {
+      "batches": 16,
+      "start_batch": 7408,
+      "cosine": 0.014917290301223202,
+      "native_norm": 0.3037829982679866,
+      "replay_norm": 0.13693285853778395
+    },
+    {
+      "batches": 16,
+      "start_batch": 7424,
+      "cosine": 0.32355179424596725,
+      "native_norm": 0.2769703375272775,
+      "replay_norm": 0.156820310647514
+    },
+    {
+      "batches": 16,
+      "start_batch": 7440,
+      "cosine": -0.08696455105487073,
+      "native_norm": 0.2865126986482936,
+      "replay_norm": 0.1580765181516317
+    },
+    {
+      "batches": 16,
+      "start_batch": 7456,
+      "cosine": 0.008136033642023945,
+      "native_norm": 0.2186273480338651,
+      "replay_norm": 0.17623775126257893
+    },
+    {
+      "batches": 16,
+      "start_batch": 7472,
+      "cosine": 0.030004392235706688,
+      "native_norm": 0.28988337760194216,
+      "replay_norm": 0.18167605657495145
+    },
+    {
+      "batches": 16,
+      "start_batch": 7488,
+      "cosine": -0.010590759650898406,
+      "native_norm": 0.2366323114508227,
+      "replay_norm": 0.11711044610472707
+    },
+    {
+      "batches": 16,
+      "start_batch": 7504,
+      "cosine": 0.29296827191326014,
+      "native_norm": 0.3042561979493464,
+      "replay_norm": 0.1560525790446121
+    },
+    {
+      "batches": 16,
+      "start_batch": 7520,
+      "cosine": -0.4170223183993473,
+      "native_norm": 0.2823003834995875,
+      "replay_norm": 0.14886050134304413
+    },
+    {
+      "batches": 16,
+      "start_batch": 7536,
+      "cosine": -0.06437755416695748,
+      "native_norm": 0.23165979155239774,
+      "replay_norm": 0.13576062332777075
+    },
+    {
+      "batches": 16,
+      "start_batch": 7552,
+      "cosine": 0.5301793189176945,
+      "native_norm": 0.3508101903995121,
+      "replay_norm": 0.1743333411966612
+    },
+    {
+      "batches": 16,
+      "start_batch": 7568,
+      "cosine": 0.05895680153216001,
+      "native_norm": 0.2239848219824481,
+      "replay_norm": 0.16218546912080828
+    },
+    {
+      "batches": 16,
+      "start_batch": 7584,
+      "cosine": -0.08572066989879733,
+      "native_norm": 0.24432772310205236,
+      "replay_norm": 0.1553460949439179
+    },
+    {
+      "batches": 16,
+      "start_batch": 7600,
+      "cosine": 0.16955873663173104,
+      "native_norm": 0.26219940515852896,
+      "replay_norm": 0.15467615295588544
+    },
+    {
+      "batches": 16,
+      "start_batch": 7616,
+      "cosine": -0.01005951386911338,
+      "native_norm": 0.2924270029686919,
+      "replay_norm": 0.15695038898481645
+    },
+    {
+      "batches": 16,
+      "start_batch": 7632,
+      "cosine": -0.180911054304611,
+      "native_norm": 0.294870697516721,
+      "replay_norm": 0.13031956537253295
+    },
+    {
+      "batches": 16,
+      "start_batch": 7648,
+      "cosine": -0.35507938929602817,
+      "native_norm": 0.3095889296030248,
+      "replay_norm": 0.1333783835591386
+    },
+    {
+      "batches": 16,
+      "start_batch": 7664,
+      "cosine": -0.1944127949791385,
+      "native_norm": 0.30985452429867805,
+      "replay_norm": 0.13919268086293188
+    },
+    {
+      "batches": 16,
+      "start_batch": 7680,
+      "cosine": 0.10790295965548283,
+      "native_norm": 0.2845074703030867,
+      "replay_norm": 0.14554136051185862
+    },
+    {
+      "batches": 16,
+      "start_batch": 7696,
+      "cosine": 0.14310457207723618,
+      "native_norm": 0.19468919296600287,
+      "replay_norm": 0.13285167664651523
+    },
+    {
+      "batches": 16,
+      "start_batch": 7712,
+      "cosine": 0.25745049349115456,
+      "native_norm": 0.236966349277141,
+      "replay_norm": 0.14148653466321817
+    },
+    {
+      "batches": 16,
+      "start_batch": 7728,
+      "cosine": -0.1357851295002099,
+      "native_norm": 0.2457875244522537,
+      "replay_norm": 0.10946140643121151
+    },
+    {
+      "batches": 16,
+      "start_batch": 7744,
+      "cosine": 0.3913277274120163,
+      "native_norm": 0.29001708689158484,
+      "replay_norm": 0.19080397903967974
+    },
+    {
+      "batches": 16,
+      "start_batch": 7760,
+      "cosine": 0.1640738035344693,
+      "native_norm": 0.32499716681836943,
+      "replay_norm": 0.1682389364788348
+    },
+    {
+      "batches": 16,
+      "start_batch": 7776,
+      "cosine": 0.06745219059986082,
+      "native_norm": 0.2841239589267007,
+      "replay_norm": 0.13449854443683554
+    },
+    {
+      "batches": 16,
+      "start_batch": 7792,
+      "cosine": 0.042874951320543836,
+      "native_norm": 0.3581153433302656,
+      "replay_norm": 0.13850140672830766
+    },
+    {
+      "batches": 16,
+      "start_batch": 7808,
+      "cosine": 0.17807892713857856,
+      "native_norm": 0.2233101803032973,
+      "replay_norm": 0.16267973295152838
+    },
+    {
+      "batches": 16,
+      "start_batch": 7824,
+      "cosine": 0.0321845768218009,
+      "native_norm": 0.29750580452793074,
+      "replay_norm": 0.1573217634727287
+    },
+    {
+      "batches": 16,
+      "start_batch": 7840,
+      "cosine": 0.15312029941682576,
+      "native_norm": 0.3506725758103498,
+      "replay_norm": 0.16048967408987005
+    },
+    {
+      "batches": 16,
+      "start_batch": 7856,
+      "cosine": 0.11854925028294211,
+      "native_norm": 0.29385532009987025,
+      "replay_norm": 0.13933287745294584
+    },
+    {
+      "batches": 16,
+      "start_batch": 7872,
+      "cosine": -0.14522136509821035,
+      "native_norm": 0.38679911989389215,
+      "replay_norm": 0.15656568904281234
+    },
+    {
+      "batches": 16,
+      "start_batch": 7888,
+      "cosine": 0.16119262066784554,
+      "native_norm": 0.23381504697280686,
+      "replay_norm": 0.12444661243023297
+    },
+    {
+      "batches": 16,
+      "start_batch": 7904,
+      "cosine": 0.1572200007645218,
+      "native_norm": 0.2097053236123193,
+      "replay_norm": 0.16535415004355206
+    },
+    {
+      "batches": 16,
+      "start_batch": 7920,
+      "cosine": -0.15538815051199997,
+      "native_norm": 0.32872290402494103,
+      "replay_norm": 0.13577634436447308
+    },
+    {
+      "batches": 16,
+      "start_batch": 7936,
+      "cosine": 0.20163748956694927,
+      "native_norm": 0.2965889054331924,
+      "replay_norm": 0.14943739374998583
+    },
+    {
+      "batches": 16,
+      "start_batch": 7952,
+      "cosine": 0.006980274873245671,
+      "native_norm": 0.17287061503206638,
+      "replay_norm": 0.1272346887691339
+    },
+    {
+      "batches": 16,
+      "start_batch": 7968,
+      "cosine": 0.09197135082241711,
+      "native_norm": 0.33252414538250674,
+      "replay_norm": 0.15135037912672827
+    },
+    {
+      "batches": 16,
+      "start_batch": 7984,
+      "cosine": 0.16486602827609154,
+      "native_norm": 0.28739654771239265,
+      "replay_norm": 0.15577165404815918
+    },
+    {
+      "batches": 16,
+      "start_batch": 8000,
+      "cosine": -0.007234752899351283,
+      "native_norm": 0.2859014387855676,
+      "replay_norm": 0.1377092080688946
+    },
+    {
+      "batches": 16,
+      "start_batch": 8016,
+      "cosine": -0.007400288455519265,
+      "native_norm": 0.33431339773988056,
+      "replay_norm": 0.14992245863173642
+    },
+    {
+      "batches": 16,
+      "start_batch": 8032,
+      "cosine": -0.33777687628427805,
+      "native_norm": 0.24950091395069993,
+      "replay_norm": 0.13038172175884338
+    },
+    {
+      "batches": 16,
+      "start_batch": 8048,
+      "cosine": 0.088695417310953,
+      "native_norm": 0.3681389036568964,
+      "replay_norm": 0.12640806803289883
+    },
+    {
+      "batches": 16,
+      "start_batch": 8064,
+      "cosine": 0.01805258993895619,
+      "native_norm": 0.22701271100198128,
+      "replay_norm": 0.14856432842009928
+    },
+    {
+      "batches": 16,
+      "start_batch": 8080,
+      "cosine": -0.26617056751269325,
+      "native_norm": 0.264473380459561,
+      "replay_norm": 0.14219419804291988
+    },
+    {
+      "batches": 16,
+      "start_batch": 8096,
+      "cosine": 0.10118249549676576,
+      "native_norm": 0.2818089981813146,
+      "replay_norm": 0.15316428704803295
+    },
+    {
+      "batches": 16,
+      "start_batch": 8112,
+      "cosine": -0.3311041948023339,
+      "native_norm": 0.31119797401657634,
+      "replay_norm": 0.1629098117617822
+    },
+    {
+      "batches": 16,
+      "start_batch": 8128,
+      "cosine": -0.18134883897397497,
+      "native_norm": 0.2474459352777107,
+      "replay_norm": 0.1288357846185829
+    },
+    {
+      "batches": 16,
+      "start_batch": 8144,
+      "cosine": 0.10325331342311937,
+      "native_norm": 0.3234291607374148,
+      "replay_norm": 0.16073045110316345
+    },
+    {
+      "batches": 16,
+      "start_batch": 8160,
+      "cosine": 0.08593902797443531,
+      "native_norm": 0.2689094595835531,
+      "replay_norm": 0.14579819859608883
+    },
+    {
+      "batches": 16,
+      "start_batch": 8176,
+      "cosine": 0.2885066410345617,
+      "native_norm": 0.27189233707483296,
+      "replay_norm": 0.13046823425083148
+    },
+    {
+      "batches": 64,
+      "start_batch": 0,
+      "cosine": 0.05762671094960259,
+      "native_norm": 0.1588717285656769,
+      "replay_norm": 0.0710592981699781
+    },
+    {
+      "batches": 64,
+      "start_batch": 64,
+      "cosine": 0.06880295740040376,
+      "native_norm": 0.12250433615173678,
+      "replay_norm": 0.095428927344457
+    },
+    {
+      "batches": 64,
+      "start_batch": 128,
+      "cosine": -0.26021072151642777,
+      "native_norm": 0.14382472305749566,
+      "replay_norm": 0.09680273308679813
+    },
+    {
+      "batches": 64,
+      "start_batch": 192,
+      "cosine": 0.12208284435988452,
+      "native_norm": 0.1461752051257432,
+      "replay_norm": 0.08718528410981553
+    },
+    {
+      "batches": 64,
+      "start_batch": 256,
+      "cosine": -0.0405830559365058,
+      "native_norm": 0.11625718980811281,
+      "replay_norm": 0.10824624743684197
+    },
+    {
+      "batches": 64,
+      "start_batch": 320,
+      "cosine": -0.17670973077984004,
+      "native_norm": 0.15545213393352716,
+      "replay_norm": 0.0745011447788883
+    },
+    {
+      "batches": 64,
+      "start_batch": 384,
+      "cosine": 0.2898861530630324,
+      "native_norm": 0.12603923209763077,
+      "replay_norm": 0.09357043921903624
+    },
+    {
+      "batches": 64,
+      "start_batch": 448,
+      "cosine": -0.020683840879799742,
+      "native_norm": 0.1251584858137991,
+      "replay_norm": 0.07845222801066554
+    },
+    {
+      "batches": 64,
+      "start_batch": 512,
+      "cosine": 0.07350106031710979,
+      "native_norm": 0.1662205684505359,
+      "replay_norm": 0.10352189064622846
+    },
+    {
+      "batches": 64,
+      "start_batch": 576,
+      "cosine": -1.2611786099414813e-06,
+      "native_norm": 0.15390337289004546,
+      "replay_norm": 0.10641865308303218
+    },
+    {
+      "batches": 64,
+      "start_batch": 640,
+      "cosine": -0.06965412079899343,
+      "native_norm": 0.14189791466622775,
+      "replay_norm": 0.1054583208856452
+    },
+    {
+      "batches": 64,
+      "start_batch": 704,
+      "cosine": 0.05150914867538099,
+      "native_norm": 0.13099457508547815,
+      "replay_norm": 0.08467682804907874
+    },
+    {
+      "batches": 64,
+      "start_batch": 768,
+      "cosine": -0.1876705426055825,
+      "native_norm": 0.1614776683757402,
+      "replay_norm": 0.08558883671196947
+    },
+    {
+      "batches": 64,
+      "start_batch": 832,
+      "cosine": -0.1084640764911995,
+      "native_norm": 0.1462090098139619,
+      "replay_norm": 0.08355183256080814
+    },
+    {
+      "batches": 64,
+      "start_batch": 896,
+      "cosine": 0.21243426686445013,
+      "native_norm": 0.18877236167233855,
+      "replay_norm": 0.0844775308709958
+    },
+    {
+      "batches": 64,
+      "start_batch": 960,
+      "cosine": 0.17986459347716144,
+      "native_norm": 0.12144068358164012,
+      "replay_norm": 0.08649183757838014
+    },
+    {
+      "batches": 64,
+      "start_batch": 1024,
+      "cosine": -0.027096816233174694,
+      "native_norm": 0.10927608174126224,
+      "replay_norm": 0.08800628752557045
+    },
+    {
+      "batches": 64,
+      "start_batch": 1088,
+      "cosine": 0.2500964840676246,
+      "native_norm": 0.14568232374486365,
+      "replay_norm": 0.09634288670571872
+    },
+    {
+      "batches": 64,
+      "start_batch": 1152,
+      "cosine": -0.09787548722138353,
+      "native_norm": 0.1667978063034212,
+      "replay_norm": 0.0746901904702185
+    },
+    {
+      "batches": 64,
+      "start_batch": 1216,
+      "cosine": 0.18833726188802055,
+      "native_norm": 0.13005258850703896,
+      "replay_norm": 0.0919726841977931
+    },
+    {
+      "batches": 64,
+      "start_batch": 1280,
+      "cosine": 0.08507799293220082,
+      "native_norm": 0.09712914518265872,
+      "replay_norm": 0.08030324122294447
+    },
+    {
+      "batches": 64,
+      "start_batch": 1344,
+      "cosine": -0.02304076459369743,
+      "native_norm": 0.14968039190372767,
+      "replay_norm": 0.07915225776213555
+    },
+    {
+      "batches": 64,
+      "start_batch": 1408,
+      "cosine": -0.11041424918896633,
+      "native_norm": 0.14356453246264342,
+      "replay_norm": 0.07935682514114004
+    },
+    {
+      "batches": 64,
+      "start_batch": 1472,
+      "cosine": -0.21285768468396662,
+      "native_norm": 0.1898289440303449,
+      "replay_norm": 0.10614223768261165
+    },
+    {
+      "batches": 64,
+      "start_batch": 1536,
+      "cosine": -0.430343550024231,
+      "native_norm": 0.19684404954366308,
+      "replay_norm": 0.07683990605342994
+    },
+    {
+      "batches": 64,
+      "start_batch": 1600,
+      "cosine": -0.22537372638108868,
+      "native_norm": 0.17131167720920254,
+      "replay_norm": 0.09919631778598419
+    },
+    {
+      "batches": 64,
+      "start_batch": 1664,
+      "cosine": 0.015379277907100877,
+      "native_norm": 0.10637338166998876,
+      "replay_norm": 0.08873643179800797
+    },
+    {
+      "batches": 64,
+      "start_batch": 1728,
+      "cosine": 0.15387391671051454,
+      "native_norm": 0.11166532177283676,
+      "replay_norm": 0.07228930800311562
+    },
+    {
+      "batches": 64,
+      "start_batch": 1792,
+      "cosine": 0.017700401646834868,
+      "native_norm": 0.1185760781287973,
+      "replay_norm": 0.086502967380788
+    },
+    {
+      "batches": 64,
+      "start_batch": 1856,
+      "cosine": -0.05024171293712928,
+      "native_norm": 0.12137214635236215,
+      "replay_norm": 0.0855801370200083
+    },
+    {
+      "batches": 64,
+      "start_batch": 1920,
+      "cosine": 0.17878489499069555,
+      "native_norm": 0.16029653178385295,
+      "replay_norm": 0.10480763304382949
+    },
+    {
+      "batches": 64,
+      "start_batch": 1984,
+      "cosine": 0.043831018978596044,
+      "native_norm": 0.16095673999533516,
+      "replay_norm": 0.09119026636310969
+    },
+    {
+      "batches": 64,
+      "start_batch": 2048,
+      "cosine": 0.22222218887820336,
+      "native_norm": 0.15348888678088093,
+      "replay_norm": 0.08428385084217972
+    },
+    {
+      "batches": 64,
+      "start_batch": 2112,
+      "cosine": -0.16953555241795537,
+      "native_norm": 0.1847910675575303,
+      "replay_norm": 0.07641917961414013
+    },
+    {
+      "batches": 64,
+      "start_batch": 2176,
+      "cosine": 0.016339554525626864,
+      "native_norm": 0.12386525860548392,
+      "replay_norm": 0.09401942531910201
+    },
+    {
+      "batches": 64,
+      "start_batch": 2240,
+      "cosine": 0.018265120963794176,
+      "native_norm": 0.12898269785975797,
+      "replay_norm": 0.08416942042191529
+    },
+    {
+      "batches": 64,
+      "start_batch": 2304,
+      "cosine": 0.2937086344037051,
+      "native_norm": 0.13998420455852661,
+      "replay_norm": 0.08055618532859787
+    },
+    {
+      "batches": 64,
+      "start_batch": 2368,
+      "cosine": 0.047954843902990624,
+      "native_norm": 0.21123502703403488,
+      "replay_norm": 0.0779083914396688
+    },
+    {
+      "batches": 64,
+      "start_batch": 2432,
+      "cosine": 0.26924285165243844,
+      "native_norm": 0.17292250544838325,
+      "replay_norm": 0.08497880450335936
+    },
+    {
+      "batches": 64,
+      "start_batch": 2496,
+      "cosine": 0.05524173033167865,
+      "native_norm": 0.1610038885075443,
+      "replay_norm": 0.08612976017748772
+    },
+    {
+      "batches": 64,
+      "start_batch": 2560,
+      "cosine": 0.010638787141305861,
+      "native_norm": 0.14535724239299477,
+      "replay_norm": 0.09209684161192776
+    },
+    {
+      "batches": 64,
+      "start_batch": 2624,
+      "cosine": -0.011245194314427606,
+      "native_norm": 0.159426723251478,
+      "replay_norm": 0.07772444181185574
+    },
+    {
+      "batches": 64,
+      "start_batch": 2688,
+      "cosine": -0.06013521592599015,
+      "native_norm": 0.1745199508295363,
+      "replay_norm": 0.08703195159325842
+    },
+    {
+      "batches": 64,
+      "start_batch": 2752,
+      "cosine": 0.031137620888717975,
+      "native_norm": 0.14155774975830038,
+      "replay_norm": 0.08812637916537196
+    },
+    {
+      "batches": 64,
+      "start_batch": 2816,
+      "cosine": -0.25567153412079185,
+      "native_norm": 0.1753864270754856,
+      "replay_norm": 0.08500541711806497
+    },
+    {
+      "batches": 64,
+      "start_batch": 2880,
+      "cosine": -0.24186079975459565,
+      "native_norm": 0.13775325227471694,
+      "replay_norm": 0.08232286837003028
+    },
+    {
+      "batches": 64,
+      "start_batch": 2944,
+      "cosine": -0.13956942378415685,
+      "native_norm": 0.14243807631025343,
+      "replay_norm": 0.07453742526439709
+    },
+    {
+      "batches": 64,
+      "start_batch": 3008,
+      "cosine": 0.019717996558596254,
+      "native_norm": 0.15290513848006507,
+      "replay_norm": 0.0754717374798986
+    },
+    {
+      "batches": 64,
+      "start_batch": 3072,
+      "cosine": 0.020003737938734733,
+      "native_norm": 0.12331257876611919,
+      "replay_norm": 0.1010919695206464
+    },
+    {
+      "batches": 64,
+      "start_batch": 3136,
+      "cosine": 0.022091160601359912,
+      "native_norm": 0.1363885211143044,
+      "replay_norm": 0.10441828935814884
+    },
+    {
+      "batches": 64,
+      "start_batch": 3200,
+      "cosine": 0.20486672976662704,
+      "native_norm": 0.15140413694963192,
+      "replay_norm": 0.07548149518302169
+    },
+    {
+      "batches": 64,
+      "start_batch": 3264,
+      "cosine": 0.004719861844981097,
+      "native_norm": 0.1342279094369882,
+      "replay_norm": 0.0989545970498538
+    },
+    {
+      "batches": 64,
+      "start_batch": 3328,
+      "cosine": 0.0800649652641437,
+      "native_norm": 0.11634433266059366,
+      "replay_norm": 0.07390626269464802
+    },
+    {
+      "batches": 64,
+      "start_batch": 3392,
+      "cosine": -0.23601759306214423,
+      "native_norm": 0.13246951268755017,
+      "replay_norm": 0.08675530118241985
+    },
+    {
+      "batches": 64,
+      "start_batch": 3456,
+      "cosine": 0.15246516861021306,
+      "native_norm": 0.12485833578913413,
+      "replay_norm": 0.08619876845724121
+    },
+    {
+      "batches": 64,
+      "start_batch": 3520,
+      "cosine": 0.03973063238711535,
+      "native_norm": 0.13554791997487833,
+      "replay_norm": 0.08787120141998804
+    },
+    {
+      "batches": 64,
+      "start_batch": 3584,
+      "cosine": 0.14489887944992672,
+      "native_norm": 0.1609920741439885,
+      "replay_norm": 0.09906754190501255
+    },
+    {
+      "batches": 64,
+      "start_batch": 3648,
+      "cosine": 0.0073108448224617805,
+      "native_norm": 0.14188577993649718,
+      "replay_norm": 0.07608649905297096
+    },
+    {
+      "batches": 64,
+      "start_batch": 3712,
+      "cosine": 0.08971963384480681,
+      "native_norm": 0.15575055596579646,
+      "replay_norm": 0.12860096033886145
+    },
+    {
+      "batches": 64,
+      "start_batch": 3776,
+      "cosine": -0.021453768652638334,
+      "native_norm": 0.15336623567137436,
+      "replay_norm": 0.08604977333006289
+    },
+    {
+      "batches": 64,
+      "start_batch": 3840,
+      "cosine": -0.13092987021821334,
+      "native_norm": 0.15234096712219622,
+      "replay_norm": 0.07767025912508546
+    },
+    {
+      "batches": 64,
+      "start_batch": 3904,
+      "cosine": -0.04927862748553137,
+      "native_norm": 0.1515365046941646,
+      "replay_norm": 0.08777757946189485
+    },
+    {
+      "batches": 64,
+      "start_batch": 3968,
+      "cosine": 0.08109586250299311,
+      "native_norm": 0.1491213210707891,
+      "replay_norm": 0.0812255905126529
+    },
+    {
+      "batches": 64,
+      "start_batch": 4032,
+      "cosine": -0.09519993343490464,
+      "native_norm": 0.15868921285137172,
+      "replay_norm": 0.1031806918642965
+    },
+    {
+      "batches": 64,
+      "start_batch": 4096,
+      "cosine": -0.08604566306997745,
+      "native_norm": 0.12855818597845936,
+      "replay_norm": 0.09206283381545803
+    },
+    {
+      "batches": 64,
+      "start_batch": 4160,
+      "cosine": -0.17250780678677963,
+      "native_norm": 0.1475184315432919,
+      "replay_norm": 0.07415643527874569
+    },
+    {
+      "batches": 64,
+      "start_batch": 4224,
+      "cosine": -0.18720030760003367,
+      "native_norm": 0.10934771879316935,
+      "replay_norm": 0.08953742276794051
+    },
+    {
+      "batches": 64,
+      "start_batch": 4288,
+      "cosine": -0.12180357520320195,
+      "native_norm": 0.1765631465795055,
+      "replay_norm": 0.08346632167137731
+    },
+    {
+      "batches": 64,
+      "start_batch": 4352,
+      "cosine": -0.20471094936470796,
+      "native_norm": 0.1647557264857279,
+      "replay_norm": 0.08844371111430922
+    },
+    {
+      "batches": 64,
+      "start_batch": 4416,
+      "cosine": -0.10215172846727362,
+      "native_norm": 0.1377168346733218,
+      "replay_norm": 0.06945061030142831
+    },
+    {
+      "batches": 64,
+      "start_batch": 4480,
+      "cosine": -0.03860339550553363,
+      "native_norm": 0.13668697362561175,
+      "replay_norm": 0.08272797696818388
+    },
+    {
+      "batches": 64,
+      "start_batch": 4544,
+      "cosine": -0.06913598888531733,
+      "native_norm": 0.1321610004919237,
+      "replay_norm": 0.08890232363292788
+    },
+    {
+      "batches": 64,
+      "start_batch": 4608,
+      "cosine": -0.19283646940760846,
+      "native_norm": 0.13955764391038827,
+      "replay_norm": 0.09893145019747199
+    },
+    {
+      "batches": 64,
+      "start_batch": 4672,
+      "cosine": 0.08005224021800217,
+      "native_norm": 0.12485253223415381,
+      "replay_norm": 0.09213429049681766
+    },
+    {
+      "batches": 64,
+      "start_batch": 4736,
+      "cosine": -0.0027884926642099037,
+      "native_norm": 0.16816409030593854,
+      "replay_norm": 0.07998184083367797
+    },
+    {
+      "batches": 64,
+      "start_batch": 4800,
+      "cosine": -0.21438187772928452,
+      "native_norm": 0.16962196822565828,
+      "replay_norm": 0.0742138471254847
+    },
+    {
+      "batches": 64,
+      "start_batch": 4864,
+      "cosine": -0.14654005175757326,
+      "native_norm": 0.11057380990724394,
+      "replay_norm": 0.08134081853577028
+    },
+    {
+      "batches": 64,
+      "start_batch": 4928,
+      "cosine": 0.21367996902571446,
+      "native_norm": 0.12176471754173895,
+      "replay_norm": 0.08228815322105679
+    },
+    {
+      "batches": 64,
+      "start_batch": 4992,
+      "cosine": 0.07076075557588993,
+      "native_norm": 0.11539449587119784,
+      "replay_norm": 0.07994018108503785
+    },
+    {
+      "batches": 64,
+      "start_batch": 5056,
+      "cosine": 0.36204679491373165,
+      "native_norm": 0.12771966854669917,
+      "replay_norm": 0.091107251203254
+    },
+    {
+      "batches": 64,
+      "start_batch": 5120,
+      "cosine": 0.10870978827052905,
+      "native_norm": 0.1603895332543734,
+      "replay_norm": 0.09120421935349472
+    },
+    {
+      "batches": 64,
+      "start_batch": 5184,
+      "cosine": -0.2636880500681607,
+      "native_norm": 0.1573674922610014,
+      "replay_norm": 0.06875850713038947
+    },
+    {
+      "batches": 64,
+      "start_batch": 5248,
+      "cosine": 0.07139985797140212,
+      "native_norm": 0.15206692341553646,
+      "replay_norm": 0.08252343459949993
+    },
+    {
+      "batches": 64,
+      "start_batch": 5312,
+      "cosine": 0.4198326351190117,
+      "native_norm": 0.17935399030111704,
+      "replay_norm": 0.08439322334140678
+    },
+    {
+      "batches": 64,
+      "start_batch": 5376,
+      "cosine": -0.3028040139897548,
+      "native_norm": 0.1393002007424328,
+      "replay_norm": 0.07851829257220777
+    },
+    {
+      "batches": 64,
+      "start_batch": 5440,
+      "cosine": 0.07193451111071171,
+      "native_norm": 0.15504126037322952,
+      "replay_norm": 0.09300125405214335
+    },
+    {
+      "batches": 64,
+      "start_batch": 5504,
+      "cosine": -0.14250097500715195,
+      "native_norm": 0.12604382878084922,
+      "replay_norm": 0.09009627449594176
+    },
+    {
+      "batches": 64,
+      "start_batch": 5568,
+      "cosine": 0.20595964698638694,
+      "native_norm": 0.14240128200564414,
+      "replay_norm": 0.08522856370422137
+    },
+    {
+      "batches": 64,
+      "start_batch": 5632,
+      "cosine": 0.15644918141321176,
+      "native_norm": 0.16188742546565407,
+      "replay_norm": 0.0779805955352278
+    },
+    {
+      "batches": 64,
+      "start_batch": 5696,
+      "cosine": -0.12367949116124118,
+      "native_norm": 0.14777998465125847,
+      "replay_norm": 0.0896216061312017
+    },
+    {
+      "batches": 64,
+      "start_batch": 5760,
+      "cosine": -0.16455745262524415,
+      "native_norm": 0.14270086574722776,
+      "replay_norm": 0.09377948909473133
+    },
+    {
+      "batches": 64,
+      "start_batch": 5824,
+      "cosine": 0.18122519774832616,
+      "native_norm": 0.14146105668846393,
+      "replay_norm": 0.1005438247521281
+    },
+    {
+      "batches": 64,
+      "start_batch": 5888,
+      "cosine": 0.013923866952762983,
+      "native_norm": 0.13767126934361432,
+      "replay_norm": 0.08700707536515744
+    },
+    {
+      "batches": 64,
+      "start_batch": 5952,
+      "cosine": 0.007442403171260117,
+      "native_norm": 0.1327171529581033,
+      "replay_norm": 0.10108448818591208
+    },
+    {
+      "batches": 64,
+      "start_batch": 6016,
+      "cosine": -0.29664496713227306,
+      "native_norm": 0.1808486560282593,
+      "replay_norm": 0.07338557145121964
+    },
+    {
+      "batches": 64,
+      "start_batch": 6080,
+      "cosine": -0.15816369307958789,
+      "native_norm": 0.15561069442080935,
+      "replay_norm": 0.09191334600309738
+    },
+    {
+      "batches": 64,
+      "start_batch": 6144,
+      "cosine": 0.009638532280375157,
+      "native_norm": 0.16840330266723746,
+      "replay_norm": 0.0720323263501656
+    },
+    {
+      "batches": 64,
+      "start_batch": 6208,
+      "cosine": 0.1117416608460847,
+      "native_norm": 0.12616538978340275,
+      "replay_norm": 0.07612111209667423
+    },
+    {
+      "batches": 64,
+      "start_batch": 6272,
+      "cosine": -0.1788725018251788,
+      "native_norm": 0.18266110436930585,
+      "replay_norm": 0.06821464891828659
+    },
+    {
+      "batches": 64,
+      "start_batch": 6336,
+      "cosine": -0.033580135181370124,
+      "native_norm": 0.10915383668368446,
+      "replay_norm": 0.08900133110530965
+    },
+    {
+      "batches": 64,
+      "start_batch": 6400,
+      "cosine": 0.08573061306507415,
+      "native_norm": 0.18775997034112518,
+      "replay_norm": 0.07766077055219278
+    },
+    {
+      "batches": 64,
+      "start_batch": 6464,
+      "cosine": 0.3059426410439651,
+      "native_norm": 0.1209887023749147,
+      "replay_norm": 0.09292321101781918
+    },
+    {
+      "batches": 64,
+      "start_batch": 6528,
+      "cosine": -0.1080359388311049,
+      "native_norm": 0.1754908398834212,
+      "replay_norm": 0.08195302721169632
+    },
+    {
+      "batches": 64,
+      "start_batch": 6592,
+      "cosine": -0.187475650252223,
+      "native_norm": 0.14014101179192998,
+      "replay_norm": 0.09385111417920905
+    },
+    {
+      "batches": 64,
+      "start_batch": 6656,
+      "cosine": -0.41357225870880576,
+      "native_norm": 0.14242796052340762,
+      "replay_norm": 0.0870533647182318
+    },
+    {
+      "batches": 64,
+      "start_batch": 6720,
+      "cosine": -0.0477511795562287,
+      "native_norm": 0.18645070918934106,
+      "replay_norm": 0.07549421920050411
+    },
+    {
+      "batches": 64,
+      "start_batch": 6784,
+      "cosine": 0.3207479697746133,
+      "native_norm": 0.192522874729873,
+      "replay_norm": 0.08510779831043384
+    },
+    {
+      "batches": 64,
+      "start_batch": 6848,
+      "cosine": -0.0853500811096737,
+      "native_norm": 0.15642406552398513,
+      "replay_norm": 0.08348984695834274
+    },
+    {
+      "batches": 64,
+      "start_batch": 6912,
+      "cosine": -0.0005203538152758548,
+      "native_norm": 0.14922830579405622,
+      "replay_norm": 0.09519475252278925
+    },
+    {
+      "batches": 64,
+      "start_batch": 6976,
+      "cosine": 0.1624260788886471,
+      "native_norm": 0.15606544782775117,
+      "replay_norm": 0.09555036657014208
+    },
+    {
+      "batches": 64,
+      "start_batch": 7040,
+      "cosine": -0.3033069232112231,
+      "native_norm": 0.10271577421793013,
+      "replay_norm": 0.0663270048646828
+    },
+    {
+      "batches": 64,
+      "start_batch": 7104,
+      "cosine": 0.04678747934994283,
+      "native_norm": 0.13586076882413478,
+      "replay_norm": 0.08074605189197108
+    },
+    {
+      "batches": 64,
+      "start_batch": 7168,
+      "cosine": -0.1331368935709292,
+      "native_norm": 0.18478075654543827,
+      "replay_norm": 0.08415249568721338
+    },
+    {
+      "batches": 64,
+      "start_batch": 7232,
+      "cosine": -0.04067007190406407,
+      "native_norm": 0.17626952565401496,
+      "replay_norm": 0.09543777477521574
+    },
+    {
+      "batches": 64,
+      "start_batch": 7296,
+      "cosine": 0.32295806841613595,
+      "native_norm": 0.15616172058684433,
+      "replay_norm": 0.0875440316442377
+    },
+    {
+      "batches": 64,
+      "start_batch": 7360,
+      "cosine": -0.07061815131929361,
+      "native_norm": 0.12923631315140982,
+      "replay_norm": 0.09403638934631162
+    },
+    {
+      "batches": 64,
+      "start_batch": 7424,
+      "cosine": 0.042429866493290704,
+      "native_norm": 0.13796318831265944,
+      "replay_norm": 0.11224724473152102
+    },
+    {
+      "batches": 64,
+      "start_batch": 7488,
+      "cosine": -0.24026397712896544,
+      "native_norm": 0.14768708450470328,
+      "replay_norm": 0.09389527584176313
+    },
+    {
+      "batches": 64,
+      "start_batch": 7552,
+      "cosine": 0.3986138354884872,
+      "native_norm": 0.1797676449361216,
+      "replay_norm": 0.11285979887693658
+    },
+    {
+      "batches": 64,
+      "start_batch": 7616,
+      "cosine": -0.335162834364593,
+      "native_norm": 0.14231174851191902,
+      "replay_norm": 0.08219334191190249
+    },
+    {
+      "batches": 64,
+      "start_batch": 7680,
+      "cosine": 0.09390900068577716,
+      "native_norm": 0.1045323908648244,
+      "replay_norm": 0.0731816106803779
+    },
+    {
+      "batches": 64,
+      "start_batch": 7744,
+      "cosine": 0.45147534529200656,
+      "native_norm": 0.12596219686073526,
+      "replay_norm": 0.10539978657954453
+    },
+    {
+      "batches": 64,
+      "start_batch": 7808,
+      "cosine": -0.07967923478212184,
+      "native_norm": 0.13406584869584293,
+      "replay_norm": 0.09517116208125141
+    },
+    {
+      "batches": 64,
+      "start_batch": 7872,
+      "cosine": -0.05166999337659161,
+      "native_norm": 0.1376390821516457,
+      "replay_norm": 0.0778483882624163
+    },
+    {
+      "batches": 64,
+      "start_batch": 7936,
+      "cosine": -0.07682558818762941,
+      "native_norm": 0.13159592513527402,
+      "replay_norm": 0.09963078655952405
+    },
+    {
+      "batches": 64,
+      "start_batch": 8000,
+      "cosine": -0.18852162198198075,
+      "native_norm": 0.1314106628623644,
+      "replay_norm": 0.08341669117676227
+    },
+    {
+      "batches": 64,
+      "start_batch": 8064,
+      "cosine": -0.32888165323001617,
+      "native_norm": 0.1413818011634053,
+      "replay_norm": 0.08315611279306555
+    },
+    {
+      "batches": 64,
+      "start_batch": 8128,
+      "cosine": 0.2818401679879632,
+      "native_norm": 0.16766303206470365,
+      "replay_norm": 0.07762939436178708
+    },
+    {
+      "batches": 256,
+      "start_batch": 0,
+      "cosine": -0.1266825867045711,
+      "native_norm": 0.06617549516310561,
+      "replay_norm": 0.05997684741028016
+    },
+    {
+      "batches": 256,
+      "start_batch": 256,
+      "cosine": 0.06881704306497613,
+      "native_norm": 0.06514283233079066,
+      "replay_norm": 0.06616696008630853
+    },
+    {
+      "batches": 256,
+      "start_batch": 512,
+      "cosine": 0.1642764583009403,
+      "native_norm": 0.09257229102896487,
+      "replay_norm": 0.07564650631097891
+    },
+    {
+      "batches": 256,
+      "start_batch": 768,
+      "cosine": 0.09102988755121709,
+      "native_norm": 0.08206404552853369,
+      "replay_norm": 0.057737616875829505
+    },
+    {
+      "batches": 256,
+      "start_batch": 1024,
+      "cosine": 0.4312482551306499,
+      "native_norm": 0.08009087401986427,
+      "replay_norm": 0.06338560981949094
+    },
+    {
+      "batches": 256,
+      "start_batch": 1280,
+      "cosine": -0.1758091013375453,
+      "native_norm": 0.09840041699099357,
+      "replay_norm": 0.06153358443932181
+    },
+    {
+      "batches": 256,
+      "start_batch": 1536,
+      "cosine": -0.35282596683693906,
+      "native_norm": 0.06109900757437268,
+      "replay_norm": 0.06430293513547373
+    },
+    {
+      "batches": 256,
+      "start_batch": 1792,
+      "cosine": -0.18348616878162496,
+      "native_norm": 0.0614566471283068,
+      "replay_norm": 0.0681587457197047
+    },
+    {
+      "batches": 256,
+      "start_batch": 2048,
+      "cosine": 0.07690961310377728,
+      "native_norm": 0.08088874924098796,
+      "replay_norm": 0.06219748275607669
+    },
+    {
+      "batches": 256,
+      "start_batch": 2304,
+      "cosine": 0.2506124482236713,
+      "native_norm": 0.10300225302038266,
+      "replay_norm": 0.05828775409098978
+    },
+    {
+      "batches": 256,
+      "start_batch": 2560,
+      "cosine": 0.03162273159344342,
+      "native_norm": 0.07720629233642216,
+      "replay_norm": 0.06684858500777502
+    },
+    {
+      "batches": 256,
+      "start_batch": 2816,
+      "cosine": -0.02387569967843049,
+      "native_norm": 0.08390847298094453,
+      "replay_norm": 0.05459035268635006
+    },
+    {
+      "batches": 256,
+      "start_batch": 3072,
+      "cosine": 0.0803923168607983,
+      "native_norm": 0.07929123860379068,
+      "replay_norm": 0.07478763325868129
+    },
+    {
+      "batches": 256,
+      "start_batch": 3328,
+      "cosine": -0.08632387139281313,
+      "native_norm": 0.05827883960793506,
+      "replay_norm": 0.06250013914832414
+    },
+    {
+      "batches": 256,
+      "start_batch": 3584,
+      "cosine": -0.10828808215967545,
+      "native_norm": 0.07145853008334338,
+      "replay_norm": 0.06982805872162336
+    },
+    {
+      "batches": 256,
+      "start_batch": 3840,
+      "cosine": 0.09807356122349521,
+      "native_norm": 0.06681281076861444,
+      "replay_norm": 0.062460488452741963
+    },
+    {
+      "batches": 256,
+      "start_batch": 4096,
+      "cosine": -0.04744897421139491,
+      "native_norm": 0.07189454976925586,
+      "replay_norm": 0.06281682237766671
+    },
+    {
+      "batches": 256,
+      "start_batch": 4352,
+      "cosine": -0.1243847460842456,
+      "native_norm": 0.09523219688682458,
+      "replay_norm": 0.06332721001473292
+    },
+    {
+      "batches": 256,
+      "start_batch": 4608,
+      "cosine": -0.07487814866541807,
+      "native_norm": 0.06880503905992225,
+      "replay_norm": 0.0655876866284263
+    },
+    {
+      "batches": 256,
+      "start_batch": 4864,
+      "cosine": 0.04236657399358589,
+      "native_norm": 0.04762828025201909,
+      "replay_norm": 0.061329286909781656
+    },
+    {
+      "batches": 256,
+      "start_batch": 5120,
+      "cosine": 0.2605680791473756,
+      "native_norm": 0.08287353897333995,
+      "replay_norm": 0.0616908781150291
+    },
+    {
+      "batches": 256,
+      "start_batch": 5376,
+      "cosine": -0.11760969515047992,
+      "native_norm": 0.07154010693697074,
+      "replay_norm": 0.05864969039067946
+    },
+    {
+      "batches": 256,
+      "start_batch": 5632,
+      "cosine": 0.0222900354641953,
+      "native_norm": 0.0955589145745644,
+      "replay_norm": 0.062246696438620325
+    },
+    {
+      "batches": 256,
+      "start_batch": 5888,
+      "cosine": -0.1342908985819471,
+      "native_norm": 0.07341144776301532,
+      "replay_norm": 0.0690402809571815
+    },
+    {
+      "batches": 256,
+      "start_batch": 6144,
+      "cosine": 0.003574231584530513,
+      "native_norm": 0.08296032208243749,
+      "replay_norm": 0.055422048547980905
+    },
+    {
+      "batches": 256,
+      "start_batch": 6400,
+      "cosine": 0.12804228825741168,
+      "native_norm": 0.10038913059897418,
+      "replay_norm": 0.0674546856212292
+    },
+    {
+      "batches": 256,
+      "start_batch": 6656,
+      "cosine": 0.15418749728284592,
+      "native_norm": 0.07635966216783488,
+      "replay_norm": 0.056458932311576275
+    },
+    {
+      "batches": 256,
+      "start_batch": 6912,
+      "cosine": 0.09330974177076767,
+      "native_norm": 0.09209355855196145,
+      "replay_norm": 0.057536082199511174
+    },
+    {
+      "batches": 256,
+      "start_batch": 7168,
+      "cosine": -0.035814983975246274,
+      "native_norm": 0.08477832150557213,
+      "replay_norm": 0.06163465994501564
+    },
+    {
+      "batches": 256,
+      "start_batch": 7424,
+      "cosine": 0.06853219250745884,
+      "native_norm": 0.05340199093641476,
+      "replay_norm": 0.07836213567685328
+    },
+    {
+      "batches": 256,
+      "start_batch": 7680,
+      "cosine": -0.012762868372825661,
+      "native_norm": 0.06723884931132482,
+      "replay_norm": 0.0642528934819758
+    },
+    {
+      "batches": 256,
+      "start_batch": 7936,
+      "cosine": -0.2628053288692323,
+      "native_norm": 0.07528621774867836,
+      "replay_norm": 0.05820525470843662
+    },
+    {
+      "batches": 1024,
+      "start_batch": 0,
+      "cosine": 0.10960230238938014,
+      "native_norm": 0.038523919154714585,
+      "replay_norm": 0.056620303808283375
+    },
+    {
+      "batches": 1024,
+      "start_batch": 1024,
+      "cosine": -0.060615080767940616,
+      "native_norm": 0.03822174510927655,
+      "replay_norm": 0.057924421284924484
+    },
+    {
+      "batches": 1024,
+      "start_batch": 2048,
+      "cosine": 0.07786972289877106,
+      "native_norm": 0.053014284387923945,
+      "replay_norm": 0.05409191007546783
+    },
+    {
+      "batches": 1024,
+      "start_batch": 3072,
+      "cosine": -0.038153537745987655,
+      "native_norm": 0.03843660521745949,
+      "replay_norm": 0.058736654042479
+    },
+    {
+      "batches": 1024,
+      "start_batch": 4096,
+      "cosine": -0.21714308371191537,
+      "native_norm": 0.040882567795933744,
+      "replay_norm": 0.056417646774993335
+    },
+    {
+      "batches": 1024,
+      "start_batch": 5120,
+      "cosine": 0.09995587937016046,
+      "native_norm": 0.05194424712610069,
+      "replay_norm": 0.05742100699851814
+    },
+    {
+      "batches": 1024,
+      "start_batch": 6144,
+      "cosine": 0.19001964779690245,
+      "native_norm": 0.048550567884513826,
+      "replay_norm": 0.05054646293022109
+    },
+    {
+      "batches": 1024,
+      "start_batch": 7168,
+      "cosine": -0.07325366147145126,
+      "native_norm": 0.04264504232397917,
+      "replay_norm": 0.05679852489658227
+    },
+    {
+      "batches": 4096,
+      "start_batch": 0,
+      "cosine": 0.021965498319374454,
+      "native_norm": 0.03516573107213864,
+      "replay_norm": 0.05486998229876995
+    },
+    {
+      "batches": 4096,
+      "start_batch": 4096,
+      "cosine": 0.026652500122061048,
+      "native_norm": 0.035787794056849766,
+      "replay_norm": 0.05306785098859718
+    },
+    {
+      "batches": 8192,
+      "start_batch": 0,
+      "cosine": 0.021702254316944548,
+      "native_norm": 0.03421814410092294,
+      "replay_norm": 0.05365048196188504
+    }
+  ],
+  "same_objective_half_cosine": {
+    "0": [
+      0.8605975023906091
+    ],
+    "1": [
+      0.9764617268935649
+    ]
+  },
+  "rms_individual_gradient": [
+    1.1462781852356831,
+    0.5680754831194388
+  ],
+  "seconds": 557.3209578320384,
+  "interpretation": "TRAIN-only diagnostic. Block means correlated within each checkpoint; no physical certification, formal pvalues or independent-parent claims."
+}

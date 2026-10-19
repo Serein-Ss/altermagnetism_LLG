@@ -1,0 +1,653 @@
+{
+  "rows": [
+    {
+      "seed": 11,
+      "family": "interior_domain",
+      "tau": 0.1,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.1018596962094307,
+      "relative_rms": 0.20151563704071002
+    },
+    {
+      "seed": 11,
+      "family": "single_wall",
+      "tau": 0.1,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.07863577455282211,
+      "relative_rms": 0.15933217566076044
+    },
+    {
+      "seed": 11,
+      "family": "tilted",
+      "tau": 0.1,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.056742697954177856,
+      "relative_rms": 0.10744388307612783
+    },
+    {
+      "seed": 11,
+      "family": "interior_domain",
+      "tau": 0.1,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.12593328952789307,
+      "relative_rms": 0.2491419865583299
+    },
+    {
+      "seed": 11,
+      "family": "single_wall",
+      "tau": 0.1,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.10247430205345154,
+      "relative_rms": 0.20763391202469433
+    },
+    {
+      "seed": 11,
+      "family": "tilted",
+      "tau": 0.1,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.08015140146017075,
+      "relative_rms": 0.15176891683629043
+    },
+    {
+      "seed": 11,
+      "family": "interior_domain",
+      "tau": 0.1,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.11428006738424301,
+      "relative_rms": 0.22608766211752
+    },
+    {
+      "seed": 11,
+      "family": "single_wall",
+      "tau": 0.1,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.09867367148399353,
+      "relative_rms": 0.199933056517666
+    },
+    {
+      "seed": 11,
+      "family": "tilted",
+      "tau": 0.1,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.07578665763139725,
+      "relative_rms": 0.1435041525141093
+    },
+    {
+      "seed": 11,
+      "family": "interior_domain",
+      "tau": 0.5,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.09802506119012833,
+      "relative_rms": 0.23011047862668094
+    },
+    {
+      "seed": 11,
+      "family": "single_wall",
+      "tau": 0.5,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.07572712004184723,
+      "relative_rms": 0.19462080361468984
+    },
+    {
+      "seed": 11,
+      "family": "tilted",
+      "tau": 0.5,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.061178915202617645,
+      "relative_rms": 0.13487958712921438
+    },
+    {
+      "seed": 11,
+      "family": "interior_domain",
+      "tau": 0.5,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.12330178171396255,
+      "relative_rms": 0.2894467155770547
+    },
+    {
+      "seed": 11,
+      "family": "single_wall",
+      "tau": 0.5,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.09853893518447876,
+      "relative_rms": 0.2532478026675433
+    },
+    {
+      "seed": 11,
+      "family": "tilted",
+      "tau": 0.5,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.08542435616254807,
+      "relative_rms": 0.1883328897190131
+    },
+    {
+      "seed": 11,
+      "family": "interior_domain",
+      "tau": 0.5,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.11233040690422058,
+      "relative_rms": 0.26369178843892527
+    },
+    {
+      "seed": 11,
+      "family": "single_wall",
+      "tau": 0.5,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.0988093912601471,
+      "relative_rms": 0.2539428823003084
+    },
+    {
+      "seed": 11,
+      "family": "tilted",
+      "tau": 0.5,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.08092235773801804,
+      "relative_rms": 0.17840744911997805
+    },
+    {
+      "seed": 11,
+      "family": "interior_domain",
+      "tau": 0.9,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.02052321657538414,
+      "relative_rms": 0.05841842092895694
+    },
+    {
+      "seed": 11,
+      "family": "single_wall",
+      "tau": 0.9,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.019275426864624023,
+      "relative_rms": 0.059485453804492536
+    },
+    {
+      "seed": 11,
+      "family": "tilted",
+      "tau": 0.9,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.018852166831493378,
+      "relative_rms": 0.04893805960819458
+    },
+    {
+      "seed": 11,
+      "family": "interior_domain",
+      "tau": 0.9,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.027248617261648178,
+      "relative_rms": 0.0775619741221393
+    },
+    {
+      "seed": 11,
+      "family": "single_wall",
+      "tau": 0.9,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.027973167598247528,
+      "relative_rms": 0.08632735246889889
+    },
+    {
+      "seed": 11,
+      "family": "tilted",
+      "tau": 0.9,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.024968011304736137,
+      "relative_rms": 0.06481408935380513
+    },
+    {
+      "seed": 11,
+      "family": "interior_domain",
+      "tau": 0.9,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.030030837282538414,
+      "relative_rms": 0.08548143936289897
+    },
+    {
+      "seed": 11,
+      "family": "single_wall",
+      "tau": 0.9,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.028061067685484886,
+      "relative_rms": 0.0865986189168739
+    },
+    {
+      "seed": 11,
+      "family": "tilted",
+      "tau": 0.9,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.026200421154499054,
+      "relative_rms": 0.06801328376092604
+    },
+    {
+      "seed": 22,
+      "family": "interior_domain",
+      "tau": 0.1,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.09791313111782074,
+      "relative_rms": 0.1922930307388424
+    },
+    {
+      "seed": 22,
+      "family": "single_wall",
+      "tau": 0.1,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.07324643433094025,
+      "relative_rms": 0.14748856408800481
+    },
+    {
+      "seed": 22,
+      "family": "tilted",
+      "tau": 0.1,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.0604284442961216,
+      "relative_rms": 0.11464757600276379
+    },
+    {
+      "seed": 22,
+      "family": "interior_domain",
+      "tau": 0.1,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.13115175068378448,
+      "relative_rms": 0.2575708420083388
+    },
+    {
+      "seed": 22,
+      "family": "single_wall",
+      "tau": 0.1,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.10333678126335144,
+      "relative_rms": 0.20807829930869345
+    },
+    {
+      "seed": 22,
+      "family": "tilted",
+      "tau": 0.1,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.07347718626260757,
+      "relative_rms": 0.13940423909030203
+    },
+    {
+      "seed": 22,
+      "family": "interior_domain",
+      "tau": 0.1,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.12537972629070282,
+      "relative_rms": 0.24623507885407284
+    },
+    {
+      "seed": 22,
+      "family": "single_wall",
+      "tau": 0.1,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.10347992926836014,
+      "relative_rms": 0.20836654124024473
+    },
+    {
+      "seed": 22,
+      "family": "tilted",
+      "tau": 0.1,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.0770212709903717,
+      "relative_rms": 0.14612823683539458
+    },
+    {
+      "seed": 22,
+      "family": "interior_domain",
+      "tau": 0.5,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.08773230761289597,
+      "relative_rms": 0.2048047486358445
+    },
+    {
+      "seed": 22,
+      "family": "single_wall",
+      "tau": 0.5,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.0687798261642456,
+      "relative_rms": 0.17630636893530224
+    },
+    {
+      "seed": 22,
+      "family": "tilted",
+      "tau": 0.5,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.06381206959486008,
+      "relative_rms": 0.13925077789588797
+    },
+    {
+      "seed": 22,
+      "family": "interior_domain",
+      "tau": 0.5,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.11835865676403046,
+      "relative_rms": 0.27629975327208084
+    },
+    {
+      "seed": 22,
+      "family": "single_wall",
+      "tau": 0.5,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.09371208399534225,
+      "relative_rms": 0.240216327606359
+    },
+    {
+      "seed": 22,
+      "family": "tilted",
+      "tau": 0.5,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.08031047880649567,
+      "relative_rms": 0.1752536270645661
+    },
+    {
+      "seed": 22,
+      "family": "interior_domain",
+      "tau": 0.5,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.11767493933439255,
+      "relative_rms": 0.2747036642129307
+    },
+    {
+      "seed": 22,
+      "family": "single_wall",
+      "tau": 0.5,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.09851739555597305,
+      "relative_rms": 0.2525339951566451
+    },
+    {
+      "seed": 22,
+      "family": "tilted",
+      "tau": 0.5,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.0794815793633461,
+      "relative_rms": 0.1734448016654077
+    },
+    {
+      "seed": 22,
+      "family": "interior_domain",
+      "tau": 0.9,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.018517671152949333,
+      "relative_rms": 0.05283616658287936
+    },
+    {
+      "seed": 22,
+      "family": "single_wall",
+      "tau": 0.9,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.01468013133853674,
+      "relative_rms": 0.0453879192902735
+    },
+    {
+      "seed": 22,
+      "family": "tilted",
+      "tau": 0.9,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.015509403310716152,
+      "relative_rms": 0.04055410219998211
+    },
+    {
+      "seed": 22,
+      "family": "interior_domain",
+      "tau": 0.9,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.025278551504015923,
+      "relative_rms": 0.0721268753078248
+    },
+    {
+      "seed": 22,
+      "family": "single_wall",
+      "tau": 0.9,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.02117197960615158,
+      "relative_rms": 0.0654593667739698
+    },
+    {
+      "seed": 22,
+      "family": "tilted",
+      "tau": 0.9,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.020510759204626083,
+      "relative_rms": 0.05363168448968663
+    },
+    {
+      "seed": 22,
+      "family": "interior_domain",
+      "tau": 0.9,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.026070648804306984,
+      "relative_rms": 0.07438695350893067
+    },
+    {
+      "seed": 22,
+      "family": "single_wall",
+      "tau": 0.9,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.02095373533666134,
+      "relative_rms": 0.06478460078851947
+    },
+    {
+      "seed": 22,
+      "family": "tilted",
+      "tau": 0.9,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.02060571312904358,
+      "relative_rms": 0.053879970711791375
+    },
+    {
+      "seed": 33,
+      "family": "interior_domain",
+      "tau": 0.1,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.10038314014673233,
+      "relative_rms": 0.19698914398510128
+    },
+    {
+      "seed": 33,
+      "family": "single_wall",
+      "tau": 0.1,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.07659956812858582,
+      "relative_rms": 0.15474184005916933
+    },
+    {
+      "seed": 33,
+      "family": "tilted",
+      "tau": 0.1,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.0664399117231369,
+      "relative_rms": 0.12638150095420195
+    },
+    {
+      "seed": 33,
+      "family": "interior_domain",
+      "tau": 0.1,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.12859995663166046,
+      "relative_rms": 0.25236105720903346
+    },
+    {
+      "seed": 33,
+      "family": "single_wall",
+      "tau": 0.1,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.10777486860752106,
+      "relative_rms": 0.21772030688824864
+    },
+    {
+      "seed": 33,
+      "family": "tilted",
+      "tau": 0.1,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.08327379822731018,
+      "relative_rms": 0.15840279339895436
+    },
+    {
+      "seed": 33,
+      "family": "interior_domain",
+      "tau": 0.1,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.11810620874166489,
+      "relative_rms": 0.2317684117605639
+    },
+    {
+      "seed": 33,
+      "family": "single_wall",
+      "tau": 0.1,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.10193370282649994,
+      "relative_rms": 0.20592033512432756
+    },
+    {
+      "seed": 33,
+      "family": "tilted",
+      "tau": 0.1,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.08591273427009583,
+      "relative_rms": 0.1634225577147045
+    },
+    {
+      "seed": 33,
+      "family": "interior_domain",
+      "tau": 0.5,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.09075331687927246,
+      "relative_rms": 0.21362371946295647
+    },
+    {
+      "seed": 33,
+      "family": "single_wall",
+      "tau": 0.5,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.06791812181472778,
+      "relative_rms": 0.17523357515388419
+    },
+    {
+      "seed": 33,
+      "family": "tilted",
+      "tau": 0.5,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.0666048675775528,
+      "relative_rms": 0.14713661483446766
+    },
+    {
+      "seed": 33,
+      "family": "interior_domain",
+      "tau": 0.5,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.11932670325040817,
+      "relative_rms": 0.28088245208177787
+    },
+    {
+      "seed": 33,
+      "family": "single_wall",
+      "tau": 0.5,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.10399360954761505,
+      "relative_rms": 0.2683108941660113
+    },
+    {
+      "seed": 33,
+      "family": "tilted",
+      "tau": 0.5,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.08341724425554276,
+      "relative_rms": 0.18427678614163334
+    },
+    {
+      "seed": 33,
+      "family": "interior_domain",
+      "tau": 0.5,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.11123668402433395,
+      "relative_rms": 0.26183940156826524
+    },
+    {
+      "seed": 33,
+      "family": "single_wall",
+      "tau": 0.5,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.0977381244301796,
+      "relative_rms": 0.25217129854467846
+    },
+    {
+      "seed": 33,
+      "family": "tilted",
+      "tau": 0.5,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.0830724686384201,
+      "relative_rms": 0.18351514335146002
+    },
+    {
+      "seed": 33,
+      "family": "interior_domain",
+      "tau": 0.9,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.017392348498106003,
+      "relative_rms": 0.04954238962098683
+    },
+    {
+      "seed": 33,
+      "family": "single_wall",
+      "tau": 0.9,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.017163971439003944,
+      "relative_rms": 0.05342515758468144
+    },
+    {
+      "seed": 33,
+      "family": "tilted",
+      "tau": 0.9,
+      "angle": 0.7853981633974483,
+      "absolute_rms": 0.017467064782977104,
+      "relative_rms": 0.04525425050919941
+    },
+    {
+      "seed": 33,
+      "family": "interior_domain",
+      "tau": 0.9,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.02483654022216797,
+      "relative_rms": 0.07074729169887273
+    },
+    {
+      "seed": 33,
+      "family": "single_wall",
+      "tau": 0.9,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.025165334343910217,
+      "relative_rms": 0.07833047018124267
+    },
+    {
+      "seed": 33,
+      "family": "tilted",
+      "tau": 0.9,
+      "angle": 1.5707963267948966,
+      "absolute_rms": 0.023728610947728157,
+      "relative_rms": 0.0614768718960919
+    },
+    {
+      "seed": 33,
+      "family": "interior_domain",
+      "tau": 0.9,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.02757927216589451,
+      "relative_rms": 0.0785600085724349
+    },
+    {
+      "seed": 33,
+      "family": "single_wall",
+      "tau": 0.9,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.024074671790003777,
+      "relative_rms": 0.07493563705528263
+    },
+    {
+      "seed": 33,
+      "family": "tilted",
+      "tau": 0.9,
+      "angle": 3.141592653589793,
+      "absolute_rms": 0.023436101153492928,
+      "relative_rms": 0.06071902782388028
+    }
+  ],
+  "scope": "TRAIN fixed transport probes only;path-distribution accuracy not established"
+}

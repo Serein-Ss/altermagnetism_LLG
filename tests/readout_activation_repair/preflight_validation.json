@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-01",
+  "environment": "zrs-mag",
+  "cpu_regression": {"tests": 14, "seconds": 3.116, "passed": true},
+  "smoke_gpu": "671357_0-2",
+  "smoke_statistics": "671360_0-2",
+  "smoke_web": "671363",
+  "all_smoke_jobs_completed_exit_zero": true,
+  "summary_missing": [],
+  "summary_pairing_errors": [],
+  "parameter_count_each_arm": 685065,
+  "old_adam_steps_after_smoke": 30016,
+  "new_head_adam_steps_after_smoke": 16,
+  "unit_norm_max_error": 1.1920928955078125e-7,
+  "initial_frame_max_error": 0.0,
+  "head_relative_rms_smoke": {
+    "neighbor_low": [0.0004116578679308968, 0.0005800594541107242],
+    "neighbor_fast": [0.003751597174954742, 0.00525632813131925],
+    "pointwise_fast": [0.003941904148350372, 0.004795291593007826]
+  },
+  "low_control_vs_historical_smoke_max_parameter_difference": 1.9728904590010643e-6,
+  "historical_comparison_note": "Matching input hashes but not bitwise identical GPU optimization; new concurrent low control retained.",
+  "png_visually_checked": true,
+  "physical_certification": false,
+  "formal_estimate": "9 GPU tasks, each 2-3 hours including generation/evaluation; 9 fat statistics tasks each 3-6 minutes; aggregate below 3 minutes. Queue time excluded. No monitoring after acceptance."
+}

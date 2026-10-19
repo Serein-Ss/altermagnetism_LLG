@@ -1,8 +1,8 @@
 # 交错磁模型、热扩展与资源附录
 
-版本：2026-09-13，配套主协议修订4。[返回主协议](PUBLICATION_GRADE_RESEARCH_PROTOCOL_20260911.md#am)；[参考文献](RESEARCH_PROTOCOL_REFERENCES.md)。
+版本：2026-09-14，范围与主协议修订6同步；以下物理推导保留既有版本，未在本轮重新逐项认证。[返回主协议](PUBLICATION_GRADE_RESEARCH_PROTOCOL_20260911.md#am)；[核心主线](CORE_RESEARCH_MAINLINE.md)；[参考文献](RESEARCH_PROTOCOL_REFERENCES.md)。
 
-本附录只在主协议P6启用，当前不冻结AM生产矩阵。原条件复现、均匀热扩展与有驱动复现使用不同protocol_id；经典链GO不替代AM认证。
+本附录只在主协议P6启用，当前不冻结AM生产矩阵。Bauer的小体系学习、尺寸及长时间推广、文献统计与成本为当前工作重点；不为等待AM而延后这些任务。原条件复现、均匀热扩展与有驱动复现使用不同protocol_id；经典链GO不替代AM认证。
 
 ## 1. Hamiltonian与晶胞
 

@@ -1,0 +1,29 @@
+{
+  "task": {
+    "domain": "miltat",
+    "arm": "global",
+    "seed": 11,
+    "updates": 8
+  },
+  "device": "NVIDIA GeForce RTX 3090",
+  "warm_step_seconds": 0.1853677947074175,
+  "peak_bytes": 2095260160,
+  "generation": [
+    {
+      "parent_id": "parent_000",
+      "steps": 16,
+      "branches": 2,
+      "seconds": 0.8931698575615883,
+      "shape": [
+        64,
+        38
+      ],
+      "split": "dev",
+      "scope": "same_size"
+    }
+  ],
+  "history": [],
+  "parameters": 95582,
+  "scientific_certification": false,
+  "total_seconds": 11.77127817645669
+}

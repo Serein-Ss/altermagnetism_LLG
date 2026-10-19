@@ -1,0 +1,30 @@
+{
+  "formal": {
+    "scan_job": 671945,
+    "array": "0-2",
+    "radii": [1, 2, 4],
+    "partition": "fat",
+    "cpus_per_task": 4,
+    "estimated_minutes_per_scan": [20, 90],
+    "allocated_minutes_per_scan": 120,
+    "report_job": 671948,
+    "report_dependency": "afterok:671945",
+    "estimated_report_minutes": [1, 3]
+  },
+  "job_name": "zrs-mag",
+  "all_submissions_accepted": true,
+  "monitoring": "Stopped after formal submission acceptance; await user completion notice.",
+  "preflight": {
+    "passed_tests": 5,
+    "radius": 4,
+    "train_candidates": 8000,
+    "local_patches": 128000,
+    "query_states": 4,
+    "scan_seconds": 0.4042977839708328,
+    "physical_certification": false
+  },
+  "scope": "Repair incomplete training-coverage diagnostic; no network modification or new LLG data.",
+  "gpu_training_jobs": 0,
+  "result_page": "tests/full_training_support/assets/index.html",
+  "main_page": "tests/index.html#full-training-support"
+}

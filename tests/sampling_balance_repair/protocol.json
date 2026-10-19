@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "native_old",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "native_expanded",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "native_old",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "native_expanded",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "native_old",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "native_expanded",
+      "updates": 6000
+    }
+  ],
+  "scope": "Bauer open L16/25/32, J50meV,kappa0.1,alpha0.1,theta0.11,zero field. No new data, no architecture/physics/loss changes. Supported1ps/.1ps grid.",
+  "design": "Two concurrent native-sampling arms x three seeds, same control step24000 weights and Adam,6000 FM-only cosine3e-4->3e-6 updates. Native_old is bitwise identical in input selections to original batch(). Native_expanded changes only eligible original t0 windows of the24 L16 parents to uniform draws from existing72 branches. Original size,parent,family,origin-window frequencies and all other windows unchanged. Independent refill RNG, drawn in both arms.",
+  "caveat": "Restoring original probabilities reduces expanded-branch exposures versus previous targeted experiment; dose is not matched. Cross-campaign targeted comparisons are contextual, not concurrent causal controls. No unseen L25/L32 branches fabricated. No claim that original weighting is universally optimal.",
+  "evaluation": "Frozen before metrics reused from branch_coverage_repair at step24000. After:24seen parents128generated,36independent dev64generated,18expanded dev256generated. Euler128 and midpoint128 as before. Seen-parent unseen-noise references remain diagnosis-only; train/probe files kept separate. Whole-branch bootstrap100; report seeds and sizes separately, no composite acceptance score.",
+  "decision": "Improvement must retain seen-parent temporal benefit and not degrade L25/L32 relative to native-old and pre-repair. Tradeoffs reported rather than automatic certification; reused dev is not final holdout. No arbitrary new tolerance.",
+  "budget": "6rtx4090 jobs15-30min each;fat report25-60min. Smoke paired arms1-3min; no long monitoring.",
+  "skills": "Karpathy minimal isolated sampler adapter; experimental-design concurrent paired controls. Scientific Agent Skills https://doi.org/10.48550/arXiv.2609.00065"
+}

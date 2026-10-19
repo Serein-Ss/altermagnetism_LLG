@@ -1,0 +1,20 @@
+{
+  "cpu_tests": {"passed":15,"seconds":2.129,"command":"bash ../run_zrs_mag.sh -m unittest tests.conditional_coupling_repair.test_contract tests.axial_projection_repair.test_contract tests.axial_symmetry_repair.test_contract -v"},
+  "shell_syntax":"passed",
+  "training_data_geometry_audit":"coupling_audit.json;randomcost1.02160691548,assignmentcost0.85819094971",
+  "gpu_smoke":"671523_0-1 COMPLETED exit0;49seconds each",
+  "smoke_statistics":"671525_0-1 COMPLETED exit0;14seconds each",
+  "smoke_web":"671526 COMPLETED exit0;10seconds;PNG visually checked",
+  "model_and_optimizer_step":42016,
+  "max_norm_error":1.1920928955078125e-7,
+  "max_anchor_error":0.0,
+  "exposure_total":768,
+  "min_and_max_exposure_per_state":[16,16],
+  "paired_input_hash":"c4884d37033f81b038061ea29a85d8688ba944842e72d9b10b42225dfed62dca",
+  "extra_noise_hash":"c83ff9843c97aea821b039aece608854507b4da6abc2d2de5a30eb4831384652",
+  "group_schedule_hash":"2fa3b14360c4fc58d0dda10cf9ff1713176aa63f1a7add09cf6122972c6b3914",
+  "native_refill_schedule_hash":"21106b334b2283a67ea25270a8a44d38222076a3d6f2ec6fd7e0c168c50644ce",
+  "both_arms_hashes_match":true,
+  "smoke_train_seconds_random_assignment":[6.998576078563929,6.99058336392045],
+  "physical_certification":false
+}

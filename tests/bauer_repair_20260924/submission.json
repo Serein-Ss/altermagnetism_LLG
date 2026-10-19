@@ -1,0 +1,13 @@
+{
+  "training_array": "670626",
+  "tasks": 36,
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--array=0-35",
+    "--time=45:00",
+    "--partition=rtx4090",
+    "tests/bauer_repair_20260924/job.sh"
+  ],
+  "report": "670627"
+}

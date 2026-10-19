@@ -1,0 +1,263 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "relational_global",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "local_fixed",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_shared",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_shared",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "local_fixed",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_fixed",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_shared",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_fixed",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_shared",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_global",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_shared",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_global",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "local_fixed",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_shared",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_global",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_shared",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_global",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_global",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_fixed",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "local_fixed",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "local_fixed",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_fixed",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "mixture",
+      "arm": "relational_shared",
+      "seed": 33,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_fixed",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_shared",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "baseline",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "local_fixed",
+      "seed": 11,
+      "updates": 12000
+    },
+    {
+      "domain": "mixture",
+      "arm": "temporal_shared",
+      "seed": 22,
+      "updates": 12000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 22,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "baseline",
+      "seed": 33,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_shared",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "relational_shared",
+      "seed": 11,
+      "updates": 24000
+    },
+    {
+      "domain": "bauer",
+      "arm": "temporal_fixed",
+      "seed": 22,
+      "updates": 24000
+    }
+  ],
+  "controls": {
+    "baseline": "unchanged local graph; independent source normalize(eps+2*S0)",
+    "local_fixed": "active local residual with anchor-containing vector values",
+    "temporal_fixed": "same parameters, temporal vector-value mixing",
+    "relational_global": "temporal residual plus mean(S0 cross current draft), and global scalar context",
+    "temporal_shared": "temporal_fixed with correlated source, unchanged one-site/frame marginal",
+    "relational_shared": "relational_global with correlated source, full 2x2 interaction with above"
+  },
+  "source": {
+    "shift": 2.0,
+    "rho_independent": 0.0,
+    "rho_shared": 0.7,
+    "formula": "normalize(2*S0 + sqrt(1-rho^2)*eps + rho*(g cross S0 + h*S0))",
+    "draws": "eps independent per branch/frame/site; g isotropic 3D Gaussian and h scalar Gaussian shared ONLY within each branch across future frames/sites",
+    "derivation": "For unit s: Cov(g cross s+h*s)=(I-ss^T)+ss^T=I. Each marginal is unchanged; rho<1 retains full joint support.",
+    "semantics": "transport latent only, not physical LLG thermal noise; no known mode labels or Hamiltonian are inputs"
+  },
+  "physical": {
+    "sizes": [
+      16,
+      25,
+      32
+    ],
+    "boundary": "open",
+    "temperature_K": 63.824849668,
+    "block_ps": 1.0,
+    "output_dt_ps": 0.1,
+    "reference_dt_ps": 0.00025,
+    "data": "unchanged frozen parent/split library"
+  },
+  "synthetic": "same frozen train/dev parent configurations and analytic mixture law; synthetic coordinate 0..1 has NO ps meaning; dev reused and not a final holdout",
+  "budgets": "Bauer 24000, mixture 12000 updates for EVERY arm, 3 seeds each; parameters/wall time reported separately; equal updates are not equal compute",
+  "checkpoints": "quarter, half, final; final fixed update primary, no retrospective best selection",
+  "inference": "128 steps x64 generated branches per parent; 256 steps shares first16 sources; reference16 Bauer/128 synthetic; train calibration separately",
+  "uncertainty": "100 whole-branch bootstrap draws per fixed parent, independent generated/reference draws, pointwise intervals; seed differences separately; no physics-equivalence threshold",
+  "diagnostics": [
+    "Bauer increment variance/covariance, full two-time correlation, energy, magnetization and spatial statistics",
+    "synthetic mixture branch signed rotation score, directional coherence, amplitude, temporal persistence; valid projection thresholds .05/.1/.2, diagnostic only, never Bauer acceptance events",
+    "new residual RMS and gradient norms, paired input-stream hashes, 128/256 sampler sensitivity"
+  ],
+  "erratum": "20260923 local_extra residual projects to zero and is INVALID as an effective-capacity control. Old files/results remain frozen; other arms remain separately interpretable.",
+  "limitations": "No hierarchy/large-size transfer, no new temperature, no physical event labels; global relational path is a diagnostic candidate, not completed multiscale physics.",
+  "skill_use": "Karpathy Guidelines: surgical versioned repair and regression; Experimental Design: common random numbers, blocked seeds, 2x2 interaction and concurrent controls"
+}

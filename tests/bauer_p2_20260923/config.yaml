@@ -1,0 +1,27 @@
+data: tests/bauer_active_data_20260918/data
+sizes: [16, 25, 32]
+duration_ps: 1.0
+save_ps: 0.1
+temperature_K: 63.824849668
+theta: 0.11
+exchange_meV: 50.0
+anisotropy_over_J: 0.1
+damping: 0.1
+boundary: open
+width: 64
+depth: 3
+batch: 8
+updates: 6000
+validate_every: 1000
+learning_rate: 0.001
+seeds: [11, 22, 33]
+branches: 16
+dev_flow_steps: 64
+flow_steps: [16, 32, 64, 128]
+bootstrap_repeats: 400
+selection: minimum_dev_conditional_increment_covariance_RMSE_then_energy_mean_RMSE
+selection_note: Primary kinetic statistic; no composite score and no automatic physical pass.
+acceptance: physical_tolerances_not_yet_confirmed_report_estimates_and_uncertainty_only
+test_status: historical_test_reused_as_diagnostic_not_untouched_final_test
+training_windows: half_original_anchors_half_uniform_windows_grouped_before_windowing
+scope: single_temperature_local_graph_FM_only_no_multiscale_or_transfer_claim

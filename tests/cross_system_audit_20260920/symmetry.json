@@ -1,0 +1,126 @@
+{
+  "rows": [
+    {
+      "seed": 11,
+      "L": 16,
+      "reflection_max": 0.0,
+      "reflection_relative_rms": 0.0,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "04cf1b6dd64bfd7ab50092703eee977af681e3fb0665c9fcf661a1ede5e6f423"
+    },
+    {
+      "seed": 11,
+      "L": 25,
+      "reflection_max": 1.2323639392852783,
+      "reflection_relative_rms": 0.6106959581375122,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "04cf1b6dd64bfd7ab50092703eee977af681e3fb0665c9fcf661a1ede5e6f423"
+    },
+    {
+      "seed": 11,
+      "L": 32,
+      "reflection_max": 0.0,
+      "reflection_relative_rms": 0.0,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "04cf1b6dd64bfd7ab50092703eee977af681e3fb0665c9fcf661a1ede5e6f423"
+    },
+    {
+      "seed": 11,
+      "L": 50,
+      "reflection_max": 0.8689393401145935,
+      "reflection_relative_rms": 0.28088632225990295,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "04cf1b6dd64bfd7ab50092703eee977af681e3fb0665c9fcf661a1ede5e6f423"
+    },
+    {
+      "seed": 11,
+      "L": 100,
+      "reflection_max": 0.45395684242248535,
+      "reflection_relative_rms": 0.12266185134649277,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "04cf1b6dd64bfd7ab50092703eee977af681e3fb0665c9fcf661a1ede5e6f423"
+    },
+    {
+      "seed": 22,
+      "L": 16,
+      "reflection_max": 0.0,
+      "reflection_relative_rms": 0.0,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "c8c5d446f53409a556f77df7d526225960883ed941a757c66c40e63c3fbe7d16"
+    },
+    {
+      "seed": 22,
+      "L": 25,
+      "reflection_max": 1.0519856214523315,
+      "reflection_relative_rms": 0.48047155141830444,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "c8c5d446f53409a556f77df7d526225960883ed941a757c66c40e63c3fbe7d16"
+    },
+    {
+      "seed": 22,
+      "L": 32,
+      "reflection_max": 0.0,
+      "reflection_relative_rms": 0.0,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "c8c5d446f53409a556f77df7d526225960883ed941a757c66c40e63c3fbe7d16"
+    },
+    {
+      "seed": 22,
+      "L": 50,
+      "reflection_max": 0.7024210691452026,
+      "reflection_relative_rms": 0.20066381990909576,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "c8c5d446f53409a556f77df7d526225960883ed941a757c66c40e63c3fbe7d16"
+    },
+    {
+      "seed": 22,
+      "L": 100,
+      "reflection_max": 0.5122933983802795,
+      "reflection_relative_rms": 0.1010914221405983,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "c8c5d446f53409a556f77df7d526225960883ed941a757c66c40e63c3fbe7d16"
+    },
+    {
+      "seed": 33,
+      "L": 16,
+      "reflection_max": 0.0,
+      "reflection_relative_rms": 0.0,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "3566d2d464914767e5609170bac4b74ff6957c40af52f5c3b03b379a4b2d5a79"
+    },
+    {
+      "seed": 33,
+      "L": 25,
+      "reflection_max": 0.9500125646591187,
+      "reflection_relative_rms": 0.4115278124809265,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "3566d2d464914767e5609170bac4b74ff6957c40af52f5c3b03b379a4b2d5a79"
+    },
+    {
+      "seed": 33,
+      "L": 32,
+      "reflection_max": 0.0,
+      "reflection_relative_rms": 0.0,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "3566d2d464914767e5609170bac4b74ff6957c40af52f5c3b03b379a4b2d5a79"
+    },
+    {
+      "seed": 33,
+      "L": 50,
+      "reflection_max": 0.9362846612930298,
+      "reflection_relative_rms": 0.2624684274196625,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "3566d2d464914767e5609170bac4b74ff6957c40af52f5c3b03b379a4b2d5a79"
+    },
+    {
+      "seed": 33,
+      "L": 100,
+      "reflection_max": 0.5197175741195679,
+      "reflection_relative_rms": 0.10533352196216583,
+      "candidate_operator_reflection_max": 0.0,
+      "checkpoint_sha256": "3566d2d464914767e5609170bac4b74ff6957c40af52f5c3b03b379a4b2d5a79"
+    }
+  ],
+  "scientific_certification": false,
+  "note": "Synthetic random states with fixed seed. Tests an exact structural symmetry of the open exchange/uniaxial chain, not model distribution error. Bidirectional pooling is an untrained candidate; frozen models unchanged."
+}

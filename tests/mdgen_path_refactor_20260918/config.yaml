@@ -1,0 +1,26 @@
+status: INTERFACE_ONLY_NOT_TRAINED
+data:
+  source: tests/bauer_active_data_20260918/data
+  train_sizes: [16, 25, 32]
+  held_out_sizes: [50, 100]
+  arm: base
+  duration_candidates_ps: [1, 10, 100]
+  save_ps: 0.1
+  selected_duration_ps: null
+  split_unit: parent
+  fine_arm_use: numerical_diagnostic_only
+models:
+  A: local_single_step
+  B: local_joint_path
+  C: multiscale_joint_path
+training:
+  seeds: [11, 22, 33]
+  budget: null
+  normalize_time_by: fixed_training_scale_with_physical_duration_retained
+  hamiltonian_as_network_input: false
+  initial_frame: hard_constraint
+  temperature_scaler_fit: train_only
+evaluation:
+  order: [small_single_block, spatial_transfer, temporal_continuation, combined]
+  threshold_source: reference_R1_R2_and_predeclared_physical_tolerances
+  baselines: [deterministic, conditional_random]

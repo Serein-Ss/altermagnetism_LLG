@@ -1,0 +1,41 @@
+scope: bauer_figure2_two_stage_pilot_not_full_paper_lifetime_certification
+source_doi: 10.1088/0953-8984/23/39/394204
+source_url: https://arxiv.org/html/1010.4730v2#S2.F2
+train_sizes: [16, 25, 32]
+transfer_sizes: [50, 100]
+physics:
+  exchange_meV: 50.0
+  anisotropy_over_J: 0.1
+  damping: 0.1
+  theta: 0.11
+  external_field: 0.0
+  boundary: open
+numerics:
+  dt_fs: 0.25
+  save_ps: 0.1
+  preparation_ps: 20.0
+  method: projected_Milstein_Tretyakov_5.9
+initial_protocol: all_plus_z_then_20ps_independent_thermal_preparation
+protocol_note: Project-defined non-equilibrium preparation matching the existing Figure-2 demo, not paper-specified or certified equilibrium.
+initial_counts: {train: 256, dev: 64, test: 64}
+evaluation_parents: 6
+branches: 16
+calibration_branches: 64
+reference_horizons_ps: [1.0, 10.0, 100.0]
+path_window_ps: 1.0
+long_duration_ps: 10000.0
+long_paths: 3
+seeds: [11, 22, 33]
+updates: 6000
+validate_every: 1500
+batch: 16
+learning_rate: 0.0003
+width: 64
+depth: 3
+flow_steps: 64
+dev_flow_steps: 32
+anchored_sigma: 0.7
+anchored_time_rho: 0.8
+bootstrap_repeats: 1000
+initial_margin: 0.05
+gate_note: Predeclared engineering screen using paired excess over matched-size reference discrepancy; not an equivalence test or physical certification.

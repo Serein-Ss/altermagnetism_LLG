@@ -1,0 +1,5474 @@
+[
+  {
+    "index": 0,
+    "parent_index": 0,
+    "parent": {
+      "file": "train_parent60_base.h5",
+      "parent_id": "L16_parent60",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "5a17264a0febb6b08868710e84833dff14ef9279a841e6eff7de089a93abd046",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent60_base.h5",
+      "candidate_seed": 21860978,
+      "preparation_seed": 21870978
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent00/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent60",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "cdb1b35cb2cdffe5196d2c617184f2dd13767938cef1cd02436aaf86fcf44752",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 1,
+    "parent_index": 0,
+    "parent": {
+      "file": "train_parent60_base.h5",
+      "parent_id": "L16_parent60",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "5a17264a0febb6b08868710e84833dff14ef9279a841e6eff7de089a93abd046",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent60_base.h5",
+      "candidate_seed": 21860978,
+      "preparation_seed": 21870978
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent00/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent60",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "847485a08c94d3303f3d7110df1a2dbcb6972b53e003eae06057794a2cc9fde7",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 2,
+    "parent_index": 1,
+    "parent": {
+      "file": "train_parent71_base.h5",
+      "parent_id": "L16_parent71",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "82404a67c955d9f84a7a42e66c8a8131a43946a0bd3451b3af860934c9f8fa2d",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent71_base.h5",
+      "candidate_seed": 21860989,
+      "preparation_seed": 21870989
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent01/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent71",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "1bc064fac1fa147fc9c196cacde230bc63af52aae92ff5b124a18d1d747c3147",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 3,
+    "parent_index": 1,
+    "parent": {
+      "file": "train_parent71_base.h5",
+      "parent_id": "L16_parent71",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "82404a67c955d9f84a7a42e66c8a8131a43946a0bd3451b3af860934c9f8fa2d",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent71_base.h5",
+      "candidate_seed": 21860989,
+      "preparation_seed": 21870989
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent01/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent71",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "3f2c947556bfc265286a378e91fc75495065a0e79c9276caa4e9282989eba45d",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 4,
+    "parent_index": 2,
+    "parent": {
+      "file": "train_parent66_base.h5",
+      "parent_id": "L16_parent66",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "581bf1b4cf4244283c1af202f9e396072999092609503b4a12917ea4df367f4e",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent66_base.h5",
+      "candidate_seed": 21860984,
+      "preparation_seed": 21870984
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent02/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent66",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "62e6adedf19f55c428f2af4d0e72706f7c66db0fa261b148ec7d4c2c86f0ec5b",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 5,
+    "parent_index": 2,
+    "parent": {
+      "file": "train_parent66_base.h5",
+      "parent_id": "L16_parent66",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "581bf1b4cf4244283c1af202f9e396072999092609503b4a12917ea4df367f4e",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent66_base.h5",
+      "candidate_seed": 21860984,
+      "preparation_seed": 21870984
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent02/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent66",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "e10121db8778582488f030c524db7096eb147d44eeec324ae7ec6b0324277dbf",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 6,
+    "parent_index": 3,
+    "parent": {
+      "file": "train_parent56_base.h5",
+      "parent_id": "L16_parent56",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "ee275b29c7e6ab827b90e773f88b2f09bfacc69fc537bfb7c9d7da015be85932",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent56_base.h5",
+      "candidate_seed": 21860974,
+      "preparation_seed": 21870974
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent03/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent56",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "111c18a67dd4480cd192f58d9bba851f6797ebdf3204171a8cc634af996221ec",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 7,
+    "parent_index": 3,
+    "parent": {
+      "file": "train_parent56_base.h5",
+      "parent_id": "L16_parent56",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "ee275b29c7e6ab827b90e773f88b2f09bfacc69fc537bfb7c9d7da015be85932",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent56_base.h5",
+      "candidate_seed": 21860974,
+      "preparation_seed": 21870974
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent03/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent56",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "39ca21c8d951f03424f69f6103181eed6e813d58816845bfa877a84b3bf35357",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 8,
+    "parent_index": 4,
+    "parent": {
+      "file": "train_parent49_base.h5",
+      "parent_id": "L16_parent49",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "8bec8d6b33277201f8fe41b20c7c3bdb77ec4c28a96561a9b439e4e68968dee9",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent49_base.h5",
+      "candidate_seed": 21860967,
+      "preparation_seed": 21870967
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent04/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent49",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "630d4fd15df1853287ddc5f782e2b87960b6fa1bae1bbb03d5ad32dca4c338b3",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 9,
+    "parent_index": 4,
+    "parent": {
+      "file": "train_parent49_base.h5",
+      "parent_id": "L16_parent49",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "8bec8d6b33277201f8fe41b20c7c3bdb77ec4c28a96561a9b439e4e68968dee9",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent49_base.h5",
+      "candidate_seed": 21860967,
+      "preparation_seed": 21870967
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent04/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent49",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "0f578a5f5cdb319ccec4a52e311e2548b806436471f35e325ff735bb8e358af2",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 10,
+    "parent_index": 5,
+    "parent": {
+      "file": "train_parent64_base.h5",
+      "parent_id": "L16_parent64",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "b1a12748a58e91e32ca1c54d3346dd341bd295ae98cf17f231de62e90eff0db9",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent64_base.h5",
+      "candidate_seed": 21860982,
+      "preparation_seed": 21870982
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent05/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent64",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "2840110702db1f79f9918ec13c08043ff7760a5657b5e2892e27fc65b4c97561",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 11,
+    "parent_index": 5,
+    "parent": {
+      "file": "train_parent64_base.h5",
+      "parent_id": "L16_parent64",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "b1a12748a58e91e32ca1c54d3346dd341bd295ae98cf17f231de62e90eff0db9",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent64_base.h5",
+      "candidate_seed": 21860982,
+      "preparation_seed": 21870982
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent05/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent64",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "0a5fec553d248171ffa63fbee5e6db517bbe29fb49539a8eaa0f0e7bd6724649",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 12,
+    "parent_index": 6,
+    "parent": {
+      "file": "train_parent58_base.h5",
+      "parent_id": "L16_parent58",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "1c1dfb3b5ce9be573019fa945aa55d0bb96b40e98abff27676fc291de82e161c",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent58_base.h5",
+      "candidate_seed": 21860976,
+      "preparation_seed": 21870976
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent06/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent58",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "d8c942f87df08dac6d856e74845d689f3e0bee781a95a40ffb6e384f2c3d9415",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 13,
+    "parent_index": 6,
+    "parent": {
+      "file": "train_parent58_base.h5",
+      "parent_id": "L16_parent58",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "1c1dfb3b5ce9be573019fa945aa55d0bb96b40e98abff27676fc291de82e161c",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent58_base.h5",
+      "candidate_seed": 21860976,
+      "preparation_seed": 21870976
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent06/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent58",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "9e71672f817841198162ec83127ea49ff6bb87241c1716dd5e099956b0568bcf",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 14,
+    "parent_index": 7,
+    "parent": {
+      "file": "train_parent50_base.h5",
+      "parent_id": "L16_parent50",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "a767343ce0880f9a82065e0cea513d7becaed91749354d474d414c6f91c73b2b",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent50_base.h5",
+      "candidate_seed": 21860968,
+      "preparation_seed": 21870968
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent07/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent50",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "25e6a422c15aa8c6b579974a399f3f020e98ed779559f79a0a8c8d6e858526d5",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 15,
+    "parent_index": 7,
+    "parent": {
+      "file": "train_parent50_base.h5",
+      "parent_id": "L16_parent50",
+      "split": "train",
+      "family": "tilted",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "a767343ce0880f9a82065e0cea513d7becaed91749354d474d414c6f91c73b2b",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent50_base.h5",
+      "candidate_seed": 21860968,
+      "preparation_seed": 21870968
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent07/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent50",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "642a6fba1d6fbf6045f3e295c7e7088e76ec9c65feb70b3a821bd2444d30b58b",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 16,
+    "parent_index": 8,
+    "parent": {
+      "file": "train_parent96_base.h5",
+      "parent_id": "L16_parent96",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "214b7e724b9b4e7d1a7b140202c8c84f9a8cba99676513180e0e58c23e7ba7fc",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent96_base.h5",
+      "candidate_seed": 21861014,
+      "preparation_seed": 21871014
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent08/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent96",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "2cfa20d64e1d3b3a41302176465da55cb634a6a6019562f5dc3bb2fb63c27ff1",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 17,
+    "parent_index": 8,
+    "parent": {
+      "file": "train_parent96_base.h5",
+      "parent_id": "L16_parent96",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "214b7e724b9b4e7d1a7b140202c8c84f9a8cba99676513180e0e58c23e7ba7fc",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent96_base.h5",
+      "candidate_seed": 21861014,
+      "preparation_seed": 21871014
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent08/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent96",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "a5fcf4fe80a28bceeb9300255956f17ca878e147c8aa15357720ed4c6d337bfe",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 18,
+    "parent_index": 9,
+    "parent": {
+      "file": "train_parent107_base.h5",
+      "parent_id": "L16_parent107",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "26f162ac6dde741c66a2fefc586cc5cfad989c191c6911d41bb2f626cc6c3e5e",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent107_base.h5",
+      "candidate_seed": 21861025,
+      "preparation_seed": 21871025
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent09/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent107",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "721aafde669c41556702b5b334cf4230c5e97f393bea000a7c58507b481d7965",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 19,
+    "parent_index": 9,
+    "parent": {
+      "file": "train_parent107_base.h5",
+      "parent_id": "L16_parent107",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "26f162ac6dde741c66a2fefc586cc5cfad989c191c6911d41bb2f626cc6c3e5e",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent107_base.h5",
+      "candidate_seed": 21861025,
+      "preparation_seed": 21871025
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent09/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent107",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "03b9c86e1ec50b78beb69ede5ad8774967edc85d1324b06d2a9ddf7e38f584ed",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 20,
+    "parent_index": 10,
+    "parent": {
+      "file": "train_parent117_base.h5",
+      "parent_id": "L16_parent117",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "6b6dad86ea2b25a5d9cc7ad5f69101ffba8884124bcc91450b97eaf970c7ec48",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent117_base.h5",
+      "candidate_seed": 21861035,
+      "preparation_seed": 21871035
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent10/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent117",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "ec832facd8e0610dd1fdbe1df9482845e52a2f44b6890bd9ce1f1acaa556bf85",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 21,
+    "parent_index": 10,
+    "parent": {
+      "file": "train_parent117_base.h5",
+      "parent_id": "L16_parent117",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "6b6dad86ea2b25a5d9cc7ad5f69101ffba8884124bcc91450b97eaf970c7ec48",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent117_base.h5",
+      "candidate_seed": 21861035,
+      "preparation_seed": 21871035
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent10/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent117",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "d4fad797041724c0a2437161d1735c5c4e19dbbad19ab4b8fc53872fa0e80e00",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 22,
+    "parent_index": 11,
+    "parent": {
+      "file": "train_parent113_base.h5",
+      "parent_id": "L16_parent113",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "537726a906e24876dbc5108fe17f544fbc93519f2f0201c85292cc8ce4557b42",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent113_base.h5",
+      "candidate_seed": 21861031,
+      "preparation_seed": 21871031
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent11/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent113",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "445a9be62abbce1c153eaca67e9ecb38ab796cac32f55b3c50ff07a0e1392997",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 23,
+    "parent_index": 11,
+    "parent": {
+      "file": "train_parent113_base.h5",
+      "parent_id": "L16_parent113",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "537726a906e24876dbc5108fe17f544fbc93519f2f0201c85292cc8ce4557b42",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent113_base.h5",
+      "candidate_seed": 21861031,
+      "preparation_seed": 21871031
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent11/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent113",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "246146ffad9b7be527f45e57b8d7c0ffdbff831e0dcc0c8e77acf5c32066f1b3",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 24,
+    "parent_index": 12,
+    "parent": {
+      "file": "train_parent104_base.h5",
+      "parent_id": "L16_parent104",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "fc6d71d2a76563881826107ff946961d9eb8d510837bd3334099abed1c2a6422",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent104_base.h5",
+      "candidate_seed": 21861022,
+      "preparation_seed": 21871022
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent12/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent104",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "c8cee2c93ef8917f335269b3cc87ab1362794d334d1d2c6ee413739a03585eb4",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 25,
+    "parent_index": 12,
+    "parent": {
+      "file": "train_parent104_base.h5",
+      "parent_id": "L16_parent104",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "fc6d71d2a76563881826107ff946961d9eb8d510837bd3334099abed1c2a6422",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent104_base.h5",
+      "candidate_seed": 21861022,
+      "preparation_seed": 21871022
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent12/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent104",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "6e639bbc4a6564d02dcc012dc6e873dc2e0ca3a96c7ea937f3d852846bb80ee5",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 26,
+    "parent_index": 13,
+    "parent": {
+      "file": "train_parent97_base.h5",
+      "parent_id": "L16_parent97",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "15b434ea5381239e608e6e5d8328d6a6b1a22a26369009dd5389b1bad4ef06ee",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent97_base.h5",
+      "candidate_seed": 21861015,
+      "preparation_seed": 21871015
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent13/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent97",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "778f4b33ce955a19f2938dfb6de312771ae00cdb557edeb561f1d97b895bf438",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 27,
+    "parent_index": 13,
+    "parent": {
+      "file": "train_parent97_base.h5",
+      "parent_id": "L16_parent97",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "15b434ea5381239e608e6e5d8328d6a6b1a22a26369009dd5389b1bad4ef06ee",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent97_base.h5",
+      "candidate_seed": 21861015,
+      "preparation_seed": 21871015
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent13/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent97",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "318292199973fb546358a89659841f78e93aa833c37875a3c64eac0302df6533",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 28,
+    "parent_index": 14,
+    "parent": {
+      "file": "train_parent114_base.h5",
+      "parent_id": "L16_parent114",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "1ff34dcfedd22c1bcea5002881a2950e8963078f4ef264dd8eeb0c035de53f7f",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent114_base.h5",
+      "candidate_seed": 21861032,
+      "preparation_seed": 21871032
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent14/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent114",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "895d6966b057ec7621ebf843a3434e2990c47416a3b35a901ab8b1958917fa36",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 29,
+    "parent_index": 14,
+    "parent": {
+      "file": "train_parent114_base.h5",
+      "parent_id": "L16_parent114",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "1ff34dcfedd22c1bcea5002881a2950e8963078f4ef264dd8eeb0c035de53f7f",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent114_base.h5",
+      "candidate_seed": 21861032,
+      "preparation_seed": 21871032
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent14/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent114",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "3683b11a8ce64e051ebd0f53d68cebdd5151732ca253ba4cc436611702fe1dd9",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 30,
+    "parent_index": 15,
+    "parent": {
+      "file": "train_parent105_base.h5",
+      "parent_id": "L16_parent105",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "a1e69cbd26e4fa1beb3faa137b0e8898c219a78e2e3dba3ff2596406c05e0dac",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent105_base.h5",
+      "candidate_seed": 21861023,
+      "preparation_seed": 21871023
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent15/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent105",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "f61901cd9be17c806fb47f55cd75497b1b20f04509297827250bd899f1008769",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 31,
+    "parent_index": 15,
+    "parent": {
+      "file": "train_parent105_base.h5",
+      "parent_id": "L16_parent105",
+      "split": "train",
+      "family": "interior_domain",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "a1e69cbd26e4fa1beb3faa137b0e8898c219a78e2e3dba3ff2596406c05e0dac",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent105_base.h5",
+      "candidate_seed": 21861023,
+      "preparation_seed": 21871023
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent15/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent105",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "0bf7c29424f64f1527405e8cfde52d4e3cf982b000cd024f73bdf65590f1330f",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 32,
+    "parent_index": 16,
+    "parent": {
+      "file": "train_parent124_base.h5",
+      "parent_id": "L16_parent124",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "2edd9fadb86e2a682a4e1ca52ab78f16daffee16e63492f373e77208c44b28a8",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent124_base.h5",
+      "candidate_seed": 21861042,
+      "preparation_seed": 21871042
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent16/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent124",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "f8d4879ff496b141ef4e0583e0752f1656b0a44dd5d1b6ae4c4d4d6bbd27c27c",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 33,
+    "parent_index": 16,
+    "parent": {
+      "file": "train_parent124_base.h5",
+      "parent_id": "L16_parent124",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "2edd9fadb86e2a682a4e1ca52ab78f16daffee16e63492f373e77208c44b28a8",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent124_base.h5",
+      "candidate_seed": 21861042,
+      "preparation_seed": 21871042
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent16/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent124",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "8141f5402f248beb057869956468fe93acf7813302775d0cf2eeed7f7052c2a6",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 34,
+    "parent_index": 17,
+    "parent": {
+      "file": "train_parent136_base.h5",
+      "parent_id": "L16_parent136",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "fbc8ed02689cf8007fae1e9b5eb5053a8809f2fdca3f9cd944eccf1da7a642a2",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent136_base.h5",
+      "candidate_seed": 21861054,
+      "preparation_seed": 21871054
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent17/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent136",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "7637082f805332876ba07eabc3c8517a2e059bfbc0fa83de07cf12920b8d8736",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 35,
+    "parent_index": 17,
+    "parent": {
+      "file": "train_parent136_base.h5",
+      "parent_id": "L16_parent136",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "fbc8ed02689cf8007fae1e9b5eb5053a8809f2fdca3f9cd944eccf1da7a642a2",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent136_base.h5",
+      "candidate_seed": 21861054,
+      "preparation_seed": 21871054
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent17/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent136",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "111c6a72a8208d6dd91b3c3098130755e5febfe6655e0c91d0bd92dfcde147e4",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 36,
+    "parent_index": 18,
+    "parent": {
+      "file": "train_parent138_base.h5",
+      "parent_id": "L16_parent138",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "26b054c616cef2fb048a2039827b74506f0c7136c69c3d491080458a75364641",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent138_base.h5",
+      "candidate_seed": 21861056,
+      "preparation_seed": 21871056
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent18/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent138",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "b93eed55999b7910afc2b180e25e149066b6ca1ff50cbb7c2c0dfeea7f3a916d",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 37,
+    "parent_index": 18,
+    "parent": {
+      "file": "train_parent138_base.h5",
+      "parent_id": "L16_parent138",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "26b054c616cef2fb048a2039827b74506f0c7136c69c3d491080458a75364641",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent138_base.h5",
+      "candidate_seed": 21861056,
+      "preparation_seed": 21871056
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent18/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent138",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "245b5aebaa21fcc3152f6894177f6d159722e8e0d0b426723e6e25b9aa35c7d7",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 38,
+    "parent_index": 19,
+    "parent": {
+      "file": "train_parent132_base.h5",
+      "parent_id": "L16_parent132",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "5b9534570c93c6706d5e5e3cff78405ffa2a74307e938f6ba58d8266746f43ee",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent132_base.h5",
+      "candidate_seed": 21861050,
+      "preparation_seed": 21871050
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent19/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent132",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "49705d4f1b9e5c332821e4683d54180585a99dbd2e54fd2b9af1fe9efba37091",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 39,
+    "parent_index": 19,
+    "parent": {
+      "file": "train_parent132_base.h5",
+      "parent_id": "L16_parent132",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "5b9534570c93c6706d5e5e3cff78405ffa2a74307e938f6ba58d8266746f43ee",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent132_base.h5",
+      "candidate_seed": 21861050,
+      "preparation_seed": 21871050
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent19/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent132",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "6ea598664e75c773c8e2ba6979d5186cc59eab45e742ba5da5901a5efcbba510",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 40,
+    "parent_index": 20,
+    "parent": {
+      "file": "train_parent121_base.h5",
+      "parent_id": "L16_parent121",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "f8d2507e4efb3e17d10987beeac4ce22b33aa1d028eb0b50a77a1e4fcb220d89",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent121_base.h5",
+      "candidate_seed": 21861039,
+      "preparation_seed": 21871039
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent20/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent121",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "3e0beda3f562b7d5402456e725872ed47dd9823b374ac3ce07e11d8302c89a41",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 41,
+    "parent_index": 20,
+    "parent": {
+      "file": "train_parent121_base.h5",
+      "parent_id": "L16_parent121",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "f8d2507e4efb3e17d10987beeac4ce22b33aa1d028eb0b50a77a1e4fcb220d89",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent121_base.h5",
+      "candidate_seed": 21861039,
+      "preparation_seed": 21871039
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent20/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent121",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "18de5aa5db8670f422b8ec055444097cdbbd19325fe8867db97e20971d62d05b",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 42,
+    "parent_index": 21,
+    "parent": {
+      "file": "train_parent141_base.h5",
+      "parent_id": "L16_parent141",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "296b13fc67dc6d0e33a379941059e425f7cdca5988f628a140cb4ddb445d96b2",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent141_base.h5",
+      "candidate_seed": 21861059,
+      "preparation_seed": 21871059
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent21/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent141",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "dc68d51624844060e781976bfdc327ab44e382ee98a1e35bf9d1cb50695c71b0",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 43,
+    "parent_index": 21,
+    "parent": {
+      "file": "train_parent141_base.h5",
+      "parent_id": "L16_parent141",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "296b13fc67dc6d0e33a379941059e425f7cdca5988f628a140cb4ddb445d96b2",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent141_base.h5",
+      "candidate_seed": 21861059,
+      "preparation_seed": 21871059
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent21/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent141",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "164d32de6dc5471c6552a1bd2bef590b619cbf8ad5a9a3c11ed050157b6e1748",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 44,
+    "parent_index": 22,
+    "parent": {
+      "file": "train_parent123_base.h5",
+      "parent_id": "L16_parent123",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "8e87635acba37b8241957dd7a94744a36b5fb8b834c8f016e673cf16c94000a0",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent123_base.h5",
+      "candidate_seed": 21861041,
+      "preparation_seed": 21871041
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent22/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent123",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "dc2903328386d6d73a21ebc40a6b3f1a3fdcca3636781f10158317a08319eee4",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 45,
+    "parent_index": 22,
+    "parent": {
+      "file": "train_parent123_base.h5",
+      "parent_id": "L16_parent123",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "8e87635acba37b8241957dd7a94744a36b5fb8b834c8f016e673cf16c94000a0",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent123_base.h5",
+      "candidate_seed": 21861041,
+      "preparation_seed": 21871041
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent22/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent123",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "7ad0f0557a8acd620ad4d2bb4151846048215fc996f34b132076121d8e2139de",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 46,
+    "parent_index": 23,
+    "parent": {
+      "file": "train_parent137_base.h5",
+      "parent_id": "L16_parent137",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "dca8bfdfd2e5316d18ac7c2e728225e070e0f1a0cca017fcdae0ae56013a654d",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent137_base.h5",
+      "candidate_seed": 21861055,
+      "preparation_seed": 21871055
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent23/midpoint128",
+    "branch": 0,
+    "frame": 3,
+    "source_time_ps": 0.30000000000000004,
+    "source_group": "L16_parent137",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "2cafe9ef7e169d63acd1a9d8bcf349bbc2c5595d3e8a63ee56d463beb3afa169",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  },
+  {
+    "index": 47,
+    "parent_index": 23,
+    "parent": {
+      "file": "train_parent137_base.h5",
+      "parent_id": "L16_parent137",
+      "split": "train",
+      "family": "single_wall",
+      "arm": "base",
+      "branches": 8,
+      "frames": 1001,
+      "dt_fs": 0.25,
+      "sha256": "dca8bfdfd2e5316d18ac7c2e728225e070e0f1a0cca017fcdae0ae56013a654d",
+      "L": 16,
+      "path": "tests/bauer_active_data_20260918/data/L16/train_parent137_base.h5",
+      "candidate_seed": 21861055,
+      "preparation_seed": 21871055
+    },
+    "source_path": "tests/model_state_replay_repair/train/01/paths.h5",
+    "source_key": "seen/parent23/midpoint128",
+    "branch": 0,
+    "frame": 8,
+    "source_time_ps": 0.8,
+    "source_group": "L16_parent137",
+    "split": "train",
+    "config": {
+      "scope": "bounded_round0_data_pilot_not_distribution_certified",
+      "physics": {
+        "sizes": [
+          16,
+          25,
+          32
+        ],
+        "boundary": "open",
+        "exchange_meV": 50.0,
+        "anisotropy_over_J": 0.1,
+        "damping": 0.1,
+        "theta": 0.11,
+        "external_field": 0.0
+      },
+      "numerics": {
+        "dt_fs": 0.25,
+        "fine_dt_fs": 0.125,
+        "preparation_ps": 20.0,
+        "duration_ps": 100.0,
+        "save_ps": 0.1,
+        "diagnostic_windows_ps": [
+          1.0,
+          10.0,
+          100.0
+        ],
+        "method": "projected_Milstein_Tretyakov_5.9"
+      },
+      "sampling": {
+        "families": [
+          "positive",
+          "negative",
+          "tilted",
+          "edge_domain",
+          "interior_domain",
+          "single_wall"
+        ],
+        "candidates_per_family": {
+          "train": 24,
+          "dev": 4,
+          "test": 4
+        },
+        "selected_per_family": {
+          "train": 8,
+          "dev": 2,
+          "test": 2
+        },
+        "branches": {
+          "train": 8,
+          "dev": 16,
+          "test": 16
+        },
+        "seed": 20260918,
+        "fine_control_split": "dev",
+        "jitter_range": [
+          0.02,
+          0.15
+        ],
+        "wall_width_sites": [
+          1.5,
+          4.0
+        ],
+        "tilt_radians": [
+          0.2,
+          1.2
+        ]
+      },
+      "selection": {
+        "method": "stratified_farthest_point_on_train_fitted_descriptors",
+        "descriptor": "z_quantiles_bond_dot_quantiles_edge_z_spatial_gradient_multiscale_z",
+        "heldout_selection": "seeded_uniform_without_future_outcomes",
+        "use_target_size_data": false,
+        "preserve_all_futures": true
+      },
+      "limitations": [
+        "Budgeted pilot sizes, not a statistical-power claim.",
+        "Single temperature and open boundary only; no temperature or PBC transfer claim.",
+        "Balanced families are not natural state occupancy frequencies.",
+        "Natural families use fixed 20 ps preparation, not certified equilibrium.",
+        "No future-outcome selection; no model-generated supervision.",
+        "dev branches 0:8 and 8:16 are independent conditional reference replicates.",
+        "100 ps prefixes allow window diagnostics, not a claim that 100 ps is optimal.",
+        "No large-system final test, training, or uncertainty committee in round zero."
+      ]
+    },
+    "state_sha256": "fb55aacf0ef156e3a95d44545a96424b3487592dba570b29d87bf473a154b550",
+    "origin": "replay_seed11_step78144_model",
+    "generating_checkpoint": "tests/model_state_replay_repair/train/01/checkpoint.pt"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-18",
+  "user_instruction": "停止已提交的任务",
+  "status": "all active altermagnetism_LLG jobs cancelled and verified absent from queue",
+  "cancelled": {
+    "gpu_preflight": "672358_0-1",
+    "statistics": "672359_0-1",
+    "aggregate": "672360",
+    "automatic_formal_submission": "672361"
+  },
+  "scheduler_confirmation": "CANCELLED for all four job/array IDs",
+  "remaining_project_jobs": [],
+  "other_user_project_preserved": "672338 belongs to an unrelated workspace",
+  "data_and_results_deleted": false,
+  "resubmission": "requires a new user instruction; earlier submission/execution records are historical, not authorization to resume"
+}

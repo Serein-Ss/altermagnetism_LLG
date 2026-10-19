@@ -1,0 +1,15 @@
+{
+  "jobs": {
+    "smoke": "670298",
+    "cold": "670299",
+    "cold_gate": "670300",
+    "parent": "670301",
+    "finalize": "670302",
+    "status": "670303"
+  },
+  "monitor": false,
+  "parents": 60,
+  "branches": 480,
+  "cold_gate_required": true,
+  "scientific_certification": false
+}

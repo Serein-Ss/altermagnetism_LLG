@@ -1,0 +1,17 @@
+scope: coupled_noise_short_time_step_diagnostic_not_dataset_certification
+source_config: tests/literature_preflight_20260917/config.yaml
+initial_checkpoint: tests/miltat_1ns_20260919/results/preparation_final.pt
+temperature_K: 12.5
+alpha: 0.5
+coarse_dt_fs: 2.5
+refinement_factors: [1, 2, 4]
+duration_ps: 10.0
+save_ps: 0.1
+branch_seeds: [260920301, 260920302, 260920303, 260920304]
+noise_coupling: four_fine_Wiener_increments_sum_to_one_coarse_increment
+initial_protocol: same_saved_zero_temperature_preparation_for_all_branches
+limits:
+  - Four_noise_branches_from_one_parent_are_not_four_independent_preparations
+  - No_diffusion_coefficient_claim_from_10ps
+  - Strong_path_error_may_grow_even_when_weak_statistics_converge
+  - Open_boundaries_and_DMI_gamma_source_holds_remain

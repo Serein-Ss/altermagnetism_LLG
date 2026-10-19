@@ -1,0 +1,24 @@
+checkpoint: output/development/bauer_path/step130240/seed{seed}/checkpoint.pt
+native_data: data/research/datasets/bauer_open_chain/native
+real_bank: data/research/datasets/bauer_open_chain/conditional/real.json
+model_bank: data/research/datasets/bauer_open_chain/conditional/model.json
+refill_manifest: data/research/datasets/bauer_open_chain/refill.json
+sizes: [16, 25, 32]
+seeds: [11, 22, 33]
+batch: 8
+updates: 2048
+physical_lag_ps: 0.1
+teacher_weight: 0.25
+moment_frequency: 64
+moment_peak_weight: 0.1
+moment_ramp_updates: 1000
+auxiliary_branches: 64
+auxiliary_flow_steps: 128
+optimizer: AdamW_reset
+weight_decay: 0.00001
+learning_rate: 0.0003
+learning_rate_floor: 0.000009
+warmup_updates: 200
+gradient_clip: 10.0
+status: development_recipe_not_physics_certified
+automatic_submission: false

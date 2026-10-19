@@ -1,0 +1,13 @@
+{
+  "smoke": false,
+  "jobs": {
+    "gpu": "672122",
+    "statistics": "672123",
+    "aggregate": "672124"
+  },
+  "status": "accepted; no formal monitoring",
+  "estimated_gpu_hours": [
+    3,
+    5
+  ]
+}

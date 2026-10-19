@@ -1,0 +1,160 @@
+{
+  "jobs": [
+    {
+      "name": "\u4e00\u7ef4old/fixed\u914d\u5bf9\u8bad\u7ec3\u00d73 seed",
+      "id": "670419",
+      "estimate": "\u6bcf\u4efb\u52a115\u201345\u5206\u949f",
+      "note": "\u5df2\u63d0\u4ea4\uff1b\u6570\u7ec46\u4efb\u52a1\uff0c\u4e0d\u76d1\u63a7",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--array=0-5",
+        "--time=02:00:00",
+        "tests/literature_path_campaign_20260920/job.sh",
+        "train_bauer"
+      ]
+    },
+    {
+      "name": "\u4e8c\u7ef4local/full\u914d\u5bf9\u8bad\u7ec3\u00d73 seed",
+      "id": "670420",
+      "estimate": "\u6bcf\u4efb\u52a14\u201312\u5206\u949f",
+      "note": "\u5df2\u63d0\u4ea4\uff1b\u6570\u7ec46\u4efb\u52a1\uff0c\u6309\u4e0a\u754c\u89c6\u4e3a\u957f\u4efb\u52a1",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--array=0-5",
+        "--time=01:00:00",
+        "tests/literature_path_campaign_20260920/job.sh",
+        "train_miltat"
+      ]
+    },
+    {
+      "name": "\u4e00\u7ef4\u4fee\u6b63\u7248L16/25/32/50/100\u8bc4\u4f30",
+      "id": "670427",
+      "estimate": "40\u201390\u5206\u949f",
+      "note": "\u4f9d\u8d56\u4e00\u7ef4\u5168\u90e8\u8bad\u7ec3\u6210\u529f\uff0c\u8bca\u65ad1ps\u548c10ps",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--kill-on-invalid-dep=yes",
+        "--dependency=afterok:670419",
+        "--time=03:00:00",
+        "tests/literature_path_campaign_20260920/job.sh",
+        "evaluate_bauer"
+      ]
+    },
+    {
+      "name": "\u4e8c\u7ef4\u9009\u5b9a\u6a21\u578b\u5f00\u53d1/\u6d4b\u8bd5\u53ca\u79ef\u5206\u6536\u655b",
+      "id": "670428",
+      "estimate": "10\u201325\u5206\u949f",
+      "note": "\u4f9d\u8d56\u4e8c\u7ef4\u8bad\u7ec3\u6210\u529f\uff1b\u542b16/32/64/128\u6b65\u8bca\u65ad",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--kill-on-invalid-dep=yes",
+        "--dependency=afterok:670420",
+        "--time=01:30:00",
+        "tests/literature_path_campaign_20260920/job.sh",
+        "evaluate"
+      ]
+    },
+    {
+      "name": "Bauer L100\u4e09\u676110ns\u6a21\u578b\u751f\u6210",
+      "id": "670429",
+      "estimate": "20\u201324\u5c0f\u65f6",
+      "note": "64 flow\u6b65\u30010.1ps\u5757\uff1b\u9884\u755932h\uff0c\u53ef\u6062\u590d\uff1b\u5c1a\u4e0d\u5177\u5907\u52a0\u901f\u4f18\u52bf",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--kill-on-invalid-dep=yes",
+        "--dependency=afterok:670419",
+        "--time=32:00:00",
+        "tests/literature_path_campaign_20260920/job.sh",
+        "long",
+        "--system",
+        "bauer"
+      ]
+    },
+    {
+      "name": "\u4e8c\u7ef4\u5b8c\u6574\u6a21\u578b\u6587\u732e\u51e0\u4f551ns\u751f\u6210",
+      "id": "670430",
+      "estimate": "65\u201390\u5206\u949f",
+      "note": "200\u00d7116\u539f\u80de\u3001\u5355\u6761\uff1b\u56fa\u5b9a\u5f00\u653e\u7a97\u53e3\u4e0e\u539f\u6587\u6709\u5dee\u5f02",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--kill-on-invalid-dep=yes",
+        "--dependency=afterok:670420",
+        "--time=03:00:00",
+        "tests/literature_path_campaign_20260920/job.sh",
+        "long",
+        "--system",
+        "miltat",
+        "--kind",
+        "full"
+      ]
+    },
+    {
+      "name": "\u4e8c\u7ef4\u5c40\u90e8\u6a21\u578b\u6587\u732e\u51e0\u4f551ns\u751f\u6210",
+      "id": "670431",
+      "estimate": "10\u201320\u5206\u949f",
+      "note": "\u4e0e\u5b8c\u6574\u6a21\u578b\u76f8\u540c\u521d\u6001\u3001seed\u548c\u8f93\u51fa\u65f6\u95f4",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--kill-on-invalid-dep=yes",
+        "--dependency=afterok:670420",
+        "--time=01:00:00",
+        "tests/literature_path_campaign_20260920/job.sh",
+        "long",
+        "--system",
+        "miltat",
+        "--kind",
+        "local"
+      ]
+    },
+    {
+      "name": "\u8bad\u7ec3/\u77ed\u65f6\u8bc4\u4f30\u5b8c\u6210\u540e\u5237\u65b0\u7f51\u9875",
+      "id": "670432",
+      "estimate": "2\u20138\u5206\u949f",
+      "note": "afterany\uff1a\u5931\u8d25\u65f6\u4ecd\u4fdd\u7559\u771f\u5b9e\u72b6\u6001\u3001\u4e0d\u4f2a\u9020\u7ed3\u679c",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--kill-on-invalid-dep=yes",
+        "--dependency=afterany:670427:670428",
+        "tests/literature_path_campaign_20260920/report.sh"
+      ]
+    },
+    {
+      "name": "\u5168\u90e8\u751f\u6210\u7ed3\u675f\u540e\u5237\u65b0\u7f51\u9875\u4e0e\u79bb\u7ebfZIP",
+      "id": "670433",
+      "estimate": "5\u201315\u5206\u949f",
+      "note": "afterany\uff1b\u5305\u542b1D\u5b8c\u6574\u8f68\u8ff9\u30012D\u52a8\u6001\u56fe\uff0c\u672a\u5b8c\u6210\u90e8\u5206\u660e\u786e\u6807\u8bb0",
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--kill-on-invalid-dep=yes",
+        "--dependency=afterany:670429:670430:670431:670432",
+        "tests/literature_path_campaign_20260920/report.sh"
+      ]
+    }
+  ],
+  "scientific_certification": false,
+  "policy": "No monitoring for >10 minute jobs. afterok for computations, afterany for honest reporting.",
+  "hashes": {
+    "tests/literature_path_campaign_20260920/__init__.py": "ce762e7b59e7c5b49258deb2e0cf4c21950bd094f51ac119424edd2db23354b1",
+    "tests/literature_path_campaign_20260920/evaluate.py": "30a5a39ca3f541d20e4b3a10f8f2dcd6183dd2889f600d294329487323a3fc97",
+    "tests/literature_path_campaign_20260920/evaluate_bauer.py": "b7c04811090dc49804b37085c5470f080f1d36c2b46b8c9de43f858eef7cd517",
+    "tests/literature_path_campaign_20260920/long.py": "366107e6cd27295e4de99d3ea826e0b5b2296ccd5f8915b16be1d3c98656319e",
+    "tests/literature_path_campaign_20260920/models.py": "3035ec937df6e56b8d4bf0470c99ee383a4793595c5046ed5bc5927aaae2984f",
+    "tests/literature_path_campaign_20260920/report.py": "c579f650ef809efed7758a0d2f1bd491f6bca0e13b717d08cd059f598df5829c",
+    "tests/literature_path_campaign_20260920/submit.py": "d5ac42f2274b30484e0d4b6af5ecc71570abf4d16d0704363f804fb00bdd69ef",
+    "tests/literature_path_campaign_20260920/test_models.py": "08e8db3160ffac4f38ceabbe8c40d0943f36e0c7209df35e8f48e352047dc894",
+    "tests/literature_path_campaign_20260920/test_stream.py": "67ccfbf0e65792789eb29633b91f845ef60c010a2300e3631d2c0173da6be0d9",
+    "tests/literature_path_campaign_20260920/train_bauer.py": "af287377403b6f560d4204973f6d840afbd2c498e48dd9e49de7afe7b19005d5",
+    "tests/literature_path_campaign_20260920/train_miltat.py": "070b771cf9f590c31b46c4bcb402d8eda73013fe6f079afb75c10fc3025bb300",
+    "tests/literature_path_campaign_20260920/job.sh": "0bf8d2350b201fc7536666666357210d410c98a31bf5a8f1d57be5434c527281",
+    "tests/literature_path_campaign_20260920/report.sh": "a89667e329a9322f00b8595ef3b75b579530654907bde0ecdf602ff1103fc746"
+  }
+}

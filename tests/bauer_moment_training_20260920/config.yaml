@@ -1,0 +1,16 @@
+scope: controlled_mean_constraint_finetuning_not_publication_certification
+weights: [0.0, 1.0]
+seeds: [11, 22, 33]
+updates: 1500
+validate_every: 500
+learning_rate: 0.0001
+moment_steps: 16
+moment_branches_per_group: 4
+moment_parents_per_update: 2
+mean_score_scale: 0.01
+selection: development_path_score_plus_development_single_step_corrected_mean_mse_scaled
+budget: equal_updates_and_flow_matching_batches_not_equal_compute
+limitations:
+  - Moment supervision uses training parent anchors only, not unrelated later branch states.
+  - Diagnostic test data are excluded from training and selection.
+  - Integration fidelity at 64 steps must be checked after training.

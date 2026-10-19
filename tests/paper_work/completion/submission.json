@@ -1,0 +1,91 @@
+{
+  "status": "SUBMITTED_NOT_MONITORED",
+  "jobs": [
+    {
+      "label": "GPU preflight",
+      "job_id": "669798",
+      "array_tasks": 1,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "tests/paper_work/completion/gpu.sbatch",
+        "smoke"
+      ]
+    },
+    {
+      "label": "MT/Heun and core calibration",
+      "job_id": "669799",
+      "array_tasks": 56,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--array=0-55",
+        "tests/paper_work/completion/cpu.sbatch",
+        "reference"
+      ]
+    },
+    {
+      "label": "Gaussian baseline",
+      "job_id": "669800",
+      "array_tasks": 22,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--array=0-21",
+        "tests/paper_work/completion/cpu.sbatch",
+        "baseline"
+      ]
+    },
+    {
+      "label": "Data fractions and deterministic training",
+      "job_id": "669801",
+      "array_tasks": 12,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--array=0-11",
+        "--dependency=afterok:669798",
+        "tests/paper_work/completion/gpu.sbatch",
+        "train"
+      ]
+    },
+    {
+      "label": "Size/time conditional paths",
+      "job_id": "669802",
+      "array_tasks": 66,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--array=0-65",
+        "--dependency=afterok:669798:669801",
+        "tests/paper_work/completion/gpu.sbatch",
+        "generate"
+      ]
+    },
+    {
+      "label": "Same GPU timing",
+      "job_id": "669803",
+      "array_tasks": 1,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--dependency=afterok:669798",
+        "tests/paper_work/completion/gpu.sbatch",
+        "benchmark"
+      ]
+    },
+    {
+      "label": "Six-figure analysis",
+      "job_id": "669804",
+      "array_tasks": 1,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--dependency=afterok:669799:669800:669801:669802:669803",
+        "tests/paper_work/completion/cpu.sbatch",
+        "analysis"
+      ]
+    }
+  ],
+  "manifest_sha256": "6b8f8d8e447c41116388c1e94b57a2c8124591bf97d315c760e7c7ee5235e654"
+}

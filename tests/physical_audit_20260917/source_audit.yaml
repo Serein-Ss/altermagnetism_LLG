@@ -1,0 +1,24 @@
+review_date: '2026-09-17'
+release: HOLD_FOR_USER_REVIEW_AND_UNRESOLVED_PHYSICS
+sources:
+  bauer: https://arxiv.org/html/1010.4730v2
+  miltat: https://arxiv.org/pdf/1806.03172
+  hirst: https://shura.shu.ac.uk/30728/1/PhysRevB.106.094402.pdf
+bauer:
+  verified: 'Section IV: J=50 meV, low/high barriers=0.8/1 meV, lambda=0.1; Eq.2 and Appendix A give LL precession-only noise and hbar/J time scale.'
+  axis_mapping: 'Code medium axis is x whereas paper uses y: proper rotation x_code -> y_paper, y_code -> -x_paper, z unchanged; not an energy-barrier error.'
+  difference: 'Paper uses weak stochastic Runge-Kutta; old pilot uses projected-corrector Heun. New tests compare normalized-predictor Heun with implicit midpoint, not a recreation of paper RK.'
+  unresolved: '50 K, 2 ps are diagnostic choices. No lifetime/Arrhenius validation. Sparse saved frames cannot validate white-noise increments directly.'
+miltat:
+  verified: 'Section III A: triangular Co monolayer, J=29 meV/bond, d=-1.5 meV/bond, K=0.4 meV/atom, moment=2.1 mu_B, a=2.51 A; full dipoles, 46400 spins, open boundary, 2.5 fs for alpha>=0.1. Fig.10 includes 25 K and alpha=0.5.'
+  difference: 'Paper uses a moving window and evaluates diffusion on ns scales; pilot has fixed window and 1 ps. Threshold core-site count is not the approximately 250 total texture spins described in the paper.'
+  unresolved: 'Main paper does not explicitly resolve the implemented bond-directed DMI sign convention or numerical gyromagnetic ratio. Topological charge/texture radius and further relaxation are diagnostics, not diffusion certification.'
+hirst:
+  verified: 'Published Table I agrees with configured constants; site neighbor counts 4/4/4/1 agree with text. Eq.1-4 agree with Gilbert noise convention. Fig.7 uses ordered AFM initial state and lambda=0.01.'
+  difference: 'Section II explicitly normalizes BOTH Heun predictor and corrector; old pilot only normalized corrector. New cross-integrator checks use the paper-style variant without overwriting old data.'
+  unresolved: '30^3 PBC is explicit for equilibrium calculations, not explicitly specified for Fig.7. Internal Mn coordinates/bond shell mapping require independent crystallographic audit. Gamma numeric value not found in the cited main paper. Pilot 0.1 ps cannot certify full relaxation.'
+interpretation:
+  - 'PASS of equation limiting cases is necessary, not sufficient for literature reproduction.'
+  - 'No Monte Carlo certification is imposed: checks here target dynamics, thermal noise and numerical integration.'
+  - 'Topology for an open sample need not be an exact integer; interior and full-domain charges are reported separately.'
+  - 'No automatic full-dataset generation or model training is authorized at this stage.'

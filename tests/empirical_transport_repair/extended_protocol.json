@@ -1,0 +1,65 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "exact_velocity",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "exact_velocity",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "exact_velocity",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "paired_cfm",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "paired_cfm",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "paired_cfm",
+      "updates": 6000
+    }
+  ],
+  "supervision": "Matched fresh paired-CFM versus exact empirical conditional velocity;float64 interpolation and oracle,float32 neural network;both uniform tau[0,.95),6000 updates,cosine1e-3 to3e-5;three seeds",
+  "important": "Only tau.95 is in the supported transport domain for supplemental networks. tau1 outputs are explicitly unsupported extrapolation. Oracle targets use empirical8,not true LLG law.",
+  "resampling": "For each of18 models,3 independent latent draws512paths at tau.95;128Euler all3,512Euler firstrep. All paths saved. Same latent streams paired acrossmodels; reference direct interpolation uses separate seeds. No new physical trajectories.",
+  "estimates_minutes": {
+    "supervision": [
+      10,
+      20
+    ],
+    "resampling_per_training_seed": [
+      15,
+      30
+    ],
+    "report": [
+      1,
+      5
+    ]
+  },
+  "monitoring": "No monitoring after formal acceptance",
+  "scientific_certification": false
+}

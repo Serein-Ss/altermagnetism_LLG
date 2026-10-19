@@ -1,0 +1,675 @@
+{
+  "tasks": [
+    {
+      "index": 0,
+      "task": {
+        "domain": "bauer",
+        "arm": "global_temporal",
+        "seed": 11,
+        "updates": 6000
+      },
+      "minutes_estimate": 5.047878617482881,
+      "minutes_with_margin": 9.086181511469187
+    },
+    {
+      "index": 1,
+      "task": {
+        "domain": "gaussian",
+        "arm": "temporal",
+        "seed": 22,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.359313971611361,
+      "minutes_with_margin": 4.246765148900449
+    },
+    {
+      "index": 2,
+      "task": {
+        "domain": "mixture",
+        "arm": "temporal",
+        "seed": 33,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.359313971611361,
+      "minutes_with_margin": 4.246765148900449
+    },
+    {
+      "index": 3,
+      "task": {
+        "domain": "gaussian",
+        "arm": "temporal",
+        "seed": 33,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.359313971611361,
+      "minutes_with_margin": 4.246765148900449
+    },
+    {
+      "index": 4,
+      "task": {
+        "domain": "bauer",
+        "arm": "global_temporal_long",
+        "seed": 33,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.704717983740071,
+      "minutes_with_margin": 21.06849237073213
+    },
+    {
+      "index": 5,
+      "task": {
+        "domain": "bauer",
+        "arm": "baseline_long",
+        "seed": 22,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.518230294125775,
+      "minutes_with_margin": 20.732814529426395
+    },
+    {
+      "index": 6,
+      "task": {
+        "domain": "deterministic",
+        "arm": "temporal",
+        "seed": 22,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.359313971611361,
+      "minutes_with_margin": 4.246765148900449
+    },
+    {
+      "index": 7,
+      "task": {
+        "domain": "deterministic",
+        "arm": "temporal",
+        "seed": 33,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.359313971611361,
+      "minutes_with_margin": 4.246765148900449
+    },
+    {
+      "index": 8,
+      "task": {
+        "domain": "deterministic",
+        "arm": "global_temporal",
+        "seed": 22,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.4324920271212855,
+      "minutes_with_margin": 4.378485648818314
+    },
+    {
+      "index": 9,
+      "task": {
+        "domain": "bauer",
+        "arm": "local_extra",
+        "seed": 22,
+        "updates": 6000
+      },
+      "minutes_estimate": 5.040275096955399,
+      "minutes_with_margin": 9.07249517451972
+    },
+    {
+      "index": 10,
+      "task": {
+        "domain": "bauer",
+        "arm": "local_extra",
+        "seed": 33,
+        "updates": 6000
+      },
+      "minutes_estimate": 5.040275096955399,
+      "minutes_with_margin": 9.07249517451972
+    },
+    {
+      "index": 11,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal",
+        "seed": 22,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.901626239779095,
+      "minutes_with_margin": 8.822927231602371
+    },
+    {
+      "index": 12,
+      "task": {
+        "domain": "bauer",
+        "arm": "baseline_long",
+        "seed": 11,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.518230294125775,
+      "minutes_with_margin": 20.732814529426395
+    },
+    {
+      "index": 13,
+      "task": {
+        "domain": "bauer",
+        "arm": "baseline",
+        "seed": 11,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.877345902907352,
+      "minutes_with_margin": 8.779222625233235
+    },
+    {
+      "index": 14,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal",
+        "seed": 11,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.901626239779095,
+      "minutes_with_margin": 8.822927231602371
+    },
+    {
+      "index": 15,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_source_long",
+        "seed": 33,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.926953808652858,
+      "minutes_with_margin": 21.468516855575146
+    },
+    {
+      "index": 16,
+      "task": {
+        "domain": "bauer",
+        "arm": "global_temporal_long",
+        "seed": 22,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.704717983740071,
+      "minutes_with_margin": 21.06849237073213
+    },
+    {
+      "index": 17,
+      "task": {
+        "domain": "deterministic",
+        "arm": "temporal",
+        "seed": 11,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.359313971611361,
+      "minutes_with_margin": 4.246765148900449
+    },
+    {
+      "index": 18,
+      "task": {
+        "domain": "gaussian",
+        "arm": "global_temporal",
+        "seed": 33,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.4324920271212855,
+      "minutes_with_margin": 4.378485648818314
+    },
+    {
+      "index": 19,
+      "task": {
+        "domain": "mixture",
+        "arm": "global_temporal",
+        "seed": 11,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.4324920271212855,
+      "minutes_with_margin": 4.378485648818314
+    },
+    {
+      "index": 20,
+      "task": {
+        "domain": "bauer",
+        "arm": "wide",
+        "seed": 22,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.855321098926167,
+      "minutes_with_margin": 8.7395779780671
+    },
+    {
+      "index": 21,
+      "task": {
+        "domain": "mixture",
+        "arm": "global_temporal",
+        "seed": 33,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.4324920271212855,
+      "minutes_with_margin": 4.378485648818314
+    },
+    {
+      "index": 22,
+      "task": {
+        "domain": "mixture",
+        "arm": "temporal",
+        "seed": 11,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.359313971611361,
+      "minutes_with_margin": 4.246765148900449
+    },
+    {
+      "index": 23,
+      "task": {
+        "domain": "gaussian",
+        "arm": "temporal",
+        "seed": 11,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.359313971611361,
+      "minutes_with_margin": 4.246765148900449
+    },
+    {
+      "index": 24,
+      "task": {
+        "domain": "bauer",
+        "arm": "anchors",
+        "seed": 11,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.471000352936486,
+      "minutes_with_margin": 8.047800635285675
+    },
+    {
+      "index": 25,
+      "task": {
+        "domain": "deterministic",
+        "arm": "baseline",
+        "seed": 33,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.3571385332072774,
+      "minutes_with_margin": 4.2428493597731
+    },
+    {
+      "index": 26,
+      "task": {
+        "domain": "gaussian",
+        "arm": "global_temporal",
+        "seed": 11,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.4324920271212855,
+      "minutes_with_margin": 4.378485648818314
+    },
+    {
+      "index": 27,
+      "task": {
+        "domain": "bauer",
+        "arm": "anchors",
+        "seed": 22,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.471000352936486,
+      "minutes_with_margin": 8.047800635285675
+    },
+    {
+      "index": 28,
+      "task": {
+        "domain": "bauer",
+        "arm": "anchors",
+        "seed": 33,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.471000352936486,
+      "minutes_with_margin": 8.047800635285675
+    },
+    {
+      "index": 29,
+      "task": {
+        "domain": "bauer",
+        "arm": "global_temporal",
+        "seed": 22,
+        "updates": 6000
+      },
+      "minutes_estimate": 5.047878617482881,
+      "minutes_with_margin": 9.086181511469187
+    },
+    {
+      "index": 30,
+      "task": {
+        "domain": "mixture",
+        "arm": "global_temporal",
+        "seed": 22,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.4324920271212855,
+      "minutes_with_margin": 4.378485648818314
+    },
+    {
+      "index": 31,
+      "task": {
+        "domain": "gaussian",
+        "arm": "baseline",
+        "seed": 22,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.3571385332072774,
+      "minutes_with_margin": 4.2428493597731
+    },
+    {
+      "index": 32,
+      "task": {
+        "domain": "bauer",
+        "arm": "source",
+        "seed": 22,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.49418233341227,
+      "minutes_with_margin": 8.089528200142086
+    },
+    {
+      "index": 33,
+      "task": {
+        "domain": "bauer",
+        "arm": "source",
+        "seed": 33,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.49418233341227,
+      "minutes_with_margin": 8.089528200142086
+    },
+    {
+      "index": 34,
+      "task": {
+        "domain": "gaussian",
+        "arm": "baseline",
+        "seed": 33,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.3571385332072774,
+      "minutes_with_margin": 4.2428493597731
+    },
+    {
+      "index": 35,
+      "task": {
+        "domain": "mixture",
+        "arm": "baseline",
+        "seed": 11,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.3571385332072774,
+      "minutes_with_margin": 4.2428493597731
+    },
+    {
+      "index": 36,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_source_long",
+        "seed": 22,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.926953808652858,
+      "minutes_with_margin": 21.468516855575146
+    },
+    {
+      "index": 37,
+      "task": {
+        "domain": "bauer",
+        "arm": "global_temporal",
+        "seed": 33,
+        "updates": 6000
+      },
+      "minutes_estimate": 5.047878617482881,
+      "minutes_with_margin": 9.086181511469187
+    },
+    {
+      "index": 38,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_source",
+        "seed": 33,
+        "updates": 6000
+      },
+      "minutes_estimate": 5.103163415628175,
+      "minutes_with_margin": 9.185694148130716
+    },
+    {
+      "index": 39,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal",
+        "seed": 33,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.901626239779095,
+      "minutes_with_margin": 8.822927231602371
+    },
+    {
+      "index": 40,
+      "task": {
+        "domain": "bauer",
+        "arm": "local_extra",
+        "seed": 11,
+        "updates": 6000
+      },
+      "minutes_estimate": 5.040275096955399,
+      "minutes_with_margin": 9.07249517451972
+    },
+    {
+      "index": 41,
+      "task": {
+        "domain": "bauer",
+        "arm": "global_temporal_long",
+        "seed": 11,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.704717983740071,
+      "minutes_with_margin": 21.06849237073213
+    },
+    {
+      "index": 42,
+      "task": {
+        "domain": "deterministic",
+        "arm": "baseline",
+        "seed": 22,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.3571385332072774,
+      "minutes_with_margin": 4.2428493597731
+    },
+    {
+      "index": 43,
+      "task": {
+        "domain": "gaussian",
+        "arm": "baseline",
+        "seed": 11,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.3571385332072774,
+      "minutes_with_margin": 4.2428493597731
+    },
+    {
+      "index": 44,
+      "task": {
+        "domain": "bauer",
+        "arm": "baseline",
+        "seed": 22,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.877345902907352,
+      "minutes_with_margin": 8.779222625233235
+    },
+    {
+      "index": 45,
+      "task": {
+        "domain": "mixture",
+        "arm": "temporal",
+        "seed": 22,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.359313971611361,
+      "minutes_with_margin": 4.246765148900449
+    },
+    {
+      "index": 46,
+      "task": {
+        "domain": "deterministic",
+        "arm": "global_temporal",
+        "seed": 33,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.4324920271212855,
+      "minutes_with_margin": 4.378485648818314
+    },
+    {
+      "index": 47,
+      "task": {
+        "domain": "gaussian",
+        "arm": "global_temporal",
+        "seed": 22,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.4324920271212855,
+      "minutes_with_margin": 4.378485648818314
+    },
+    {
+      "index": 48,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_source_long",
+        "seed": 11,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.926953808652858,
+      "minutes_with_margin": 21.468516855575146
+    },
+    {
+      "index": 49,
+      "task": {
+        "domain": "bauer",
+        "arm": "baseline",
+        "seed": 33,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.877345902907352,
+      "minutes_with_margin": 8.779222625233235
+    },
+    {
+      "index": 50,
+      "task": {
+        "domain": "bauer",
+        "arm": "source",
+        "seed": 11,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.49418233341227,
+      "minutes_with_margin": 8.089528200142086
+    },
+    {
+      "index": 51,
+      "task": {
+        "domain": "bauer",
+        "arm": "wide",
+        "seed": 11,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.855321098926167,
+      "minutes_with_margin": 8.7395779780671
+    },
+    {
+      "index": 52,
+      "task": {
+        "domain": "mixture",
+        "arm": "baseline",
+        "seed": 22,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.3571385332072774,
+      "minutes_with_margin": 4.2428493597731
+    },
+    {
+      "index": 53,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_source",
+        "seed": 22,
+        "updates": 6000
+      },
+      "minutes_estimate": 5.103163415628175,
+      "minutes_with_margin": 9.185694148130716
+    },
+    {
+      "index": 54,
+      "task": {
+        "domain": "bauer",
+        "arm": "temporal_source",
+        "seed": 11,
+        "updates": 6000
+      },
+      "minutes_estimate": 5.103163415628175,
+      "minutes_with_margin": 9.185694148130716
+    },
+    {
+      "index": 55,
+      "task": {
+        "domain": "mixture",
+        "arm": "baseline",
+        "seed": 33,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.3571385332072774,
+      "minutes_with_margin": 4.2428493597731
+    },
+    {
+      "index": 56,
+      "task": {
+        "domain": "bauer",
+        "arm": "baseline_long",
+        "seed": 33,
+        "updates": 24000
+      },
+      "minutes_estimate": 11.518230294125775,
+      "minutes_with_margin": 20.732814529426395
+    },
+    {
+      "index": 57,
+      "task": {
+        "domain": "bauer",
+        "arm": "wide",
+        "seed": 33,
+        "updates": 6000
+      },
+      "minutes_estimate": 4.855321098926167,
+      "minutes_with_margin": 8.7395779780671
+    },
+    {
+      "index": 58,
+      "task": {
+        "domain": "deterministic",
+        "arm": "global_temporal",
+        "seed": 11,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.4324920271212855,
+      "minutes_with_margin": 4.378485648818314
+    },
+    {
+      "index": 59,
+      "task": {
+        "domain": "deterministic",
+        "arm": "baseline",
+        "seed": 11,
+        "updates": 3000
+      },
+      "minutes_estimate": 2.3571385332072774,
+      "minutes_with_margin": 4.2428493597731
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 3090",
+  "time_limit_minutes": 45,
+  "aggregate_gpu_hours": 4.769376437018318,
+  "aggregate_gpu_hours_with_margin": 8.584877586632967,
+  "report_estimate_minutes": [
+    3,
+    10
+  ],
+  "report_limit_minutes": 30,
+  "qualification": "benchmark-based estimate, not queue-inclusive promise; array has no user concurrency cap",
+  "monitoring": "record sbatch receipts only; no post-submission long-task monitoring"
+}

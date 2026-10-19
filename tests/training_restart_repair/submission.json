@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-29",
+  "job_name": "zrs-mag",
+  "reference": {"job_id": 671184, "array": "1-23", "partition": "fat", "completed_first_parent_job": "671177_0"},
+  "data_audit": {"job_id": 671207, "partition": "fat", "dependency": "afterok:671184"},
+  "gpu": {"job_id": 671208, "array": "0-8", "partition": "rtx4090", "dependency": "afterok:671207", "time_limit_hours": 6},
+  "statistics": {"job_id": 671217, "array": "0-8", "partition": "fat", "dependency": "afterok:671208"},
+  "web_aggregate": {"job_id": 671218, "partition": "fat", "dependency": "afterany:671217"},
+  "gpu_index_mapping": [
+    [0, 11, "native"], [1, 11, "restart_fm"], [2, 11, "restart_moments"],
+    [3, 22, "native"], [4, 22, "restart_fm"], [5, 22, "restart_moments"],
+    [6, 33, "native"], [7, 33, "restart_fm"], [8, 33, "restart_moments"]
+  ],
+  "monitoring": "Formal jobs submitted only; wait for user notification. Failed prerequisites prevent downstream training/statistics; do not bypass checks.",
+  "output_root": "tests/training_restart_repair",
+  "main_web": "tests/index.html#training-restart-repair",
+  "scientific_certification": false
+}

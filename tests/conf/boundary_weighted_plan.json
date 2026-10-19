@@ -1,0 +1,12 @@
+{
+  "seeds": [11, 22, 33],
+  "updates": 24000,
+  "data": "tests/results/coverage_intervention_data/verification.json",
+  "control": "tests/results/coverage_intervention_training",
+  "sites": 25,
+  "end_width": 3,
+  "end_total_weight_fraction": 0.5,
+  "interior_total_weight_fraction": 0.5,
+  "weight_mean": 1.0,
+  "scope": "Exploratory positive spatial loss metric. End six sites share half the total weight, interior nineteen share half. Same mixed pairs, optimizer, schedule, initialization and RNG streams, frozen latent scale and midpoint32. No inference reflection projection in either arm; only training loss weights change. Evaluate all 12 diagnostic conditions and three seeds, including interior tradeoffs; no validation checkpoint selection or automatic certification."
+}

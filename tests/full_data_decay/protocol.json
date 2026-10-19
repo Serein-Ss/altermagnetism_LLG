@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "decay",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "constant",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "decay",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "decay",
+      "updates": 6000
+    }
+  ],
+  "scope": "Existing Bauer open L16/25/32 full training windows; 63.824849668K; 1ps, .1ps saved grid; unchanged Hamiltonian/backbone/data/loss.",
+  "design": "Three training-seed blocks, paired original FM6000 checkpoint and optimizer/data/source/tau RNG. 6000 additional FM-only updates. Constant .001 versus cosine .001 to .00003. No auxiliary losses. Shuffled task order seed93001.",
+  "evaluation": "Fixed final step12000; 18 train calibration and36 independent dev parents,64 generated per parent;128flow steps, first train/dev parent32/256 additionally. Whole-branch bootstrap100. Reused dev is not untouched final holdout. No auto pass threshold or composite score.",
+  "estimands": "Full-data evaluation estimates independent physical population: ddof1 both ensembles. Historical eight-path empirical-fit reanalysis uses fixed reference ddof0, generated ddof1, bootstrap generated only. No correction of physical reference variance.",
+  "budget": "6GPU jobs estimated10-25min each; CPU report5-15min. GPU smoke estimated1-3min. Stop monitoring formal jobs after submission.",
+  "skills": "Karpathy surgical regression; experimental-design seed-blocked concurrent paired controls; Scientific Agent Skills DOI10.48550/arXiv.2609.00065",
+  "limitations": "Optimization diagnostic, not size transfer or proof of full path-law fidelity; three seeds cannot establish universal effectiveness. Train calibration reuse is descriptive."
+}

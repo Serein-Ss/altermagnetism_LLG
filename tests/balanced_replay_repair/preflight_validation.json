@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-29",
+  "environment": "zrs-mag",
+  "unit_regression": {
+    "command": "bash ../run_zrs_mag.sh -m unittest tests.balanced_replay_repair.test_contract tests.training_restart_repair.test_contract tests.fixed_state_fit_repair.test_contract tests.transition_block_repair.test_contract",
+    "tests": 19,
+    "passed": true,
+    "seconds": 1.700
+  },
+  "smoke_gpu": {"job": "671248", "array": "0-2", "states": ["COMPLETED", "COMPLETED", "COMPLETED"], "elapsed_seconds": [53, 52, 53]},
+  "smoke_statistics": {"job": "671251", "array": "0-2", "states": ["COMPLETED", "COMPLETED", "COMPLETED"]},
+  "smoke_web": {"job": "671252", "state": "COMPLETED", "elapsed_seconds": 10},
+  "native_input_and_schedule_paired": true,
+  "dense_extra_random_streams_paired": true,
+  "maximum_norm_error": 1.7881393432617188e-7,
+  "maximum_actual_initial_frame_error": 0.0,
+  "balanced_exposures_per_state": 16,
+  "summary_missing": [],
+  "summary_errors": [],
+  "png_visually_checked": true,
+  "scientific_certification": false,
+  "limitations": "Only16updates,4generatedfutures per smoke evaluation; before-source64paths not comparable precision. No inference about physical repair from smoke. Formal training/evaluation remains pending.",
+  "skill_influence": "Paired controls and confound disclosure from experimental-design; isolated tests-only edits from karpathy-guidelines; filled PNG charts with seed points and separate panels using matplotlib."
+}

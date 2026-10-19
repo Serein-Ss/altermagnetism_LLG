@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-02",
+  "gpu_array": "671494_0-8",
+  "statistics_array": "671503_0-8",
+  "statistics_dependency": "afterok:671494",
+  "web_aggregate": "671504",
+  "web_dependency": "afterok:671503",
+  "results_directory": "tests/axial_projection_repair/assets/",
+  "generated_paths": "tests/axial_projection_repair/runs/00-08/paths.h5",
+  "dashboard_anchor": "tests/index.html#axial-projection-repair",
+  "partition": "rtx4090",
+  "job_name": "zrs-mag",
+  "action": "frozen-checkpoint generation and symmetry-projection repair validation; no training",
+  "mapping": "index=3*seed_index+order_index;seeds[11,22,33],orders[1,4,8]",
+  "estimate_minutes_per_checkpoint_C1_C4_C8": [20,75,153],
+  "allocation_hours": 4,
+  "queue_time_excluded": true,
+  "long_tasks_not_monitored_after_acceptance": true,
+  "physical_certification": false
+}

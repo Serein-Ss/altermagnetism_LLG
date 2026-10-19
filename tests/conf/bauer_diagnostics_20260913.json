@@ -1,0 +1,29 @@
+{
+  "scope": "Exploratory checkpoint diagnostics, not certification or model selection",
+  "training_seeds": [11, 22, 33],
+  "theta": [0.11, 0.13],
+  "lambda": 0.1,
+  "initials": 2,
+  "latent_seeds": 16,
+  "latent_seed_base": 913000,
+  "integration_steps": [16, 32, 64, 128],
+  "physical_window": 16000.0,
+  "frames": 201,
+  "threshold": 0.6,
+  "dwell": 160.0,
+  "interface_lengths": [25, 50, 100],
+  "interface_steps": 2,
+  "rollout_chunks": 2,
+  "rollout_steps": 32,
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "checkpoints": "output/bauer_first_loop/20260913_v1",
+  "raw_output": "tests/data/bauer_20260913",
+  "analysis_output": "tests/results/checkpoint_diagnostics_20260913",
+  "limitations": [
+    "Development paths only; same initial and latent source paired across integration steps and theta interventions",
+    "Sixteen latent seeds per initial are diagnostic replicates, not a power calculation",
+    "Threshold and dwell are legacy exploratory definitions, not newly certified basin boundaries",
+    "Variable shape and chunk continuity are software checks, not evidence of physical extrapolation",
+    "No training, no large-system reference generation, no automatic scale-up"
+  ]
+}

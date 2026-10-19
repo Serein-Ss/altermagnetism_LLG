@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_SINGLE_FACTOR_EXPERIMENT",
+  "training_seeds": [
+    11,
+    22,
+    33
+  ],
+  "augmentation_probability": 0.5,
+  "augmentation_rng_seed_base": 1004000000,
+  "source_model": "tests/output/sample_tangent_baseline/model.json",
+  "scope": "Change only the conditional source law, learned from the same training samples. No analytic LLG force input. Same DirectorTransition, reflection augmentation, optimizer, 24000 updates, paired RNG and midpoint32. All 12 development conditions and three seeds. Do not tune on independent-candidate validation bank. No final certification."
+}

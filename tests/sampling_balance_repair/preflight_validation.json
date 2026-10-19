@@ -1,0 +1,29 @@
+{
+  "unit_and_regression_checks": 15,
+  "unit_and_regression_passed": true,
+  "unit_log": "logs/preflight.out",
+  "sampling_audit": "sampling_audit.json",
+  "sampling_audit_updates_per_seed": 6000,
+  "sampling_audit_samples_per_seed": 48000,
+  "checks": [
+    "Native-old inputs and sampler RNG exactly match legacy batch on regression fixtures",
+    "Paired arms retain original parent and window selections",
+    "Later windows and ineligible parents unchanged",
+    "Eligible branch replacements preserve initial state",
+    "Existing checkpoint restore, LLG replay, training/probe separation and statistical regressions pass"
+  ],
+  "gpu_smoke_job": "671013",
+  "gpu_smoke_indices": [0, 1],
+  "gpu_smoke_seconds_each": 45,
+  "gpu_smoke_updates_each": 32,
+  "gpu_smoke_eligible_samples_each": 25,
+  "gpu_smoke_expanded_new_branch_samples": 22,
+  "paired_schedule_hash_equal": true,
+  "paired_source_tau_hash_equal": true,
+  "report_smoke_job": "671015",
+  "report_smoke_seconds": 8,
+  "report_results": 2,
+  "report_missing": [],
+  "report_errors": [],
+  "smoke_not_physical_accuracy_certification": true
+}

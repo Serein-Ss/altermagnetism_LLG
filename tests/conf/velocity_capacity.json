@@ -1,0 +1,7 @@
+{
+  "variants": ["table", "wide", "cartesian"],
+  "seeds": [11, 22, 33],
+  "iterations": 6000,
+  "relative_mse_target": 0.01,
+  "scope": "Fixed four input-target interpolation states, same data, taus, optimizer and steps. Table is a memorization-only optimizer control; wide changes width only; Cartesian changes features and representation jointly, so does not identify a single architectural cause. None certifies random-path generalization."
+}

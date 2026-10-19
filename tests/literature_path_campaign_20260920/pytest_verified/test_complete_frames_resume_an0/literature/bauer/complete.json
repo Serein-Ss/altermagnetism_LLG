@@ -1,0 +1,12 @@
+{
+  "checkpoint": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/literature_path_campaign_20260920/pytest_verified/test_complete_frames_resume_an0/checkpoint",
+  "reference": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG/tests/literature_path_campaign_20260920/pytest_verified/test_complete_frames_resume_an0/reference",
+  "seconds_this_invocation": 0.002734420821070671,
+  "resumed": true,
+  "total_blocks": 3,
+  "physical_duration_ps": 0.30000000000000004,
+  "branches": 2,
+  "flow_steps": 64,
+  "scientific_certification": false,
+  "max_norm_error": 0.0
+}

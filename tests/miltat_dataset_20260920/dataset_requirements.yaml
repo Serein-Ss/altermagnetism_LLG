@@ -1,0 +1,45 @@
+status: preflight_only_not_released_as_training_dataset
+source:
+  doi: 10.1103/PhysRevB.97.214426
+  section: III_A
+  figures: [7, 10]
+  local_full_text: tests/bauer_2d_review_20260918/sources/miltat_2018.txt
+physics:
+  lattice: triangular_Co_monolayer_two_site_rectangular_cell
+  lattice_constant_angstrom: 2.51
+  moment_muB: 2.1
+  J_meV_per_bond: 29
+  D_paper_meV_per_bond: -1.5
+  K_meV_per_atom: 0.4
+  dipoles: full_finite_sample_pair_interactions
+  temperature_K: 12.5
+  Gilbert_damping: 0.5
+  boundary: open
+existing_demo:
+  source: tests/miltat_1ns_20260919/results
+  cell_shape: [200, 116]
+  spins: 46400
+  independent_thermal_trajectories: 1
+  zero_temperature_preparation_ps: 50
+  thermal_duration_ps: 1000
+  integration_dt_fs: 2.5
+  saved_dt_ps: 1
+  new_topology_audit: results/topology.json
+required_before_release:
+  - Resolve_source_DMI_vector_and_energy_sign_mapping
+  - Document_assumed_gyromagnetic_ratio_and_physical_time_conversion
+  - Compare_independent_ensembles_at_2.5fs_and_1.25fs
+  - Determine_small_geometry_from_core_size_and_boundary_sensitivity_not_arbitrary_crops
+  - Record_fixed_window_difference_from_published_moving_window
+  - Validate_topology_core_center_radius_energy_and_spin_norm
+dataset_design:
+  parent: independently_prepared_magnetic_configuration
+  child: independent_thermal_noise_future_from_one_parent
+  split_unit: parent_preparation_seed_and_all_descendant_branches
+  forbidden: random_frame_split_of_one_trajectory_into_train_dev_test
+  training: small_geometries_only_after_boundary_control
+  large_geometry: independent_size_generalization_reference_not_training
+  retain: [spins, physical_time_ps, parent_id, noise_seed, split, physical_parameters, reduced_parameters, solver_metadata]
+  probability_weights: preserve_sampling_protocol_do_not_discard_collapses_or_unusual_trajectories
+  temperature_expansion: only_after_single_condition_physics_and_training_pipeline_validation
+claim_limit: One_1ns_trajectory_and_stable_visual_texture_do_not_establish_diffusion_statistics

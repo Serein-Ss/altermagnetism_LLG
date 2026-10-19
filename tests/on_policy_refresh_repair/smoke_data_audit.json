@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "smoke": true,
+  "states": 6,
+  "source_groups": 1,
+  "trajectories": 1920,
+  "hashes": {
+    "tests/on_policy_refresh_repair/reference/seed11/00/state000_train.h5": "a35e7fa2ff092291cc07966e204cebaee8a26f57599ac8cfea0d013fb643ff27",
+    "tests/on_policy_refresh_repair/reference/seed11/00/state001_train.h5": "68fb5f29acca293680e0de7d6e8668ccd593620b72e115c03b8b97a883a16f5a",
+    "tests/on_policy_refresh_repair/reference/seed11/00/state000_probe.h5": "8a09e22da6927f87a970d7dde1acde72e7f56675231fcf887cd30a9cf3832811",
+    "tests/on_policy_refresh_repair/reference/seed11/00/state000_fine.h5": "581f629e38c1666b03a3c81c8af6fe06198639ab75b6859a3983a540dd1795a9",
+    "tests/on_policy_refresh_repair/reference/seed11/00/state001_probe.h5": "0879aff0af0c0b271b94b97964be99191ae09830b574c29200bd11631948a9c0",
+    "tests/on_policy_refresh_repair/reference/seed11/00/state001_fine.h5": "581c42a5f9eb51a531ee70f17ab1a1243545aac171a9f871e8a8ad223369f48a",
+    "tests/on_policy_refresh_repair/reference/seed22/00/state000_train.h5": "6be0d9b12d9cd7eabaeaae4af111efaaf5049a2e8bd698e5e1d097c8257a3dcc",
+    "tests/on_policy_refresh_repair/reference/seed22/00/state001_train.h5": "1bfa55b73dc184f2616dc7aabb6c2793a3c79ae709252c9ebf05175c1141acc0",
+    "tests/on_policy_refresh_repair/reference/seed22/00/state000_probe.h5": "4a206238f17722ef723d3c08cebf0b58c6c396e18de8c2a42c5790e45be9ee07",
+    "tests/on_policy_refresh_repair/reference/seed22/00/state000_fine.h5": "33384150f2db29c63a1f46c418b4f4f2760fac0098a7621be42b879fc77c204f",
+    "tests/on_policy_refresh_repair/reference/seed22/00/state001_probe.h5": "60a8d169130bd0bc3507136ea4d498774d625e80d18e9543c3d9d9baab1637ad",
+    "tests/on_policy_refresh_repair/reference/seed22/00/state001_fine.h5": "fe8f4e90fa2c6114f27e94d7bb6c0be1347b0260f7d56d429b53a9fe2a5f4637",
+    "tests/on_policy_refresh_repair/reference/seed33/00/state000_train.h5": "1f9b9a5a0365288a733bb8e0d5bf4b6af07e85cd5bc23486bb1e9b0971ab722b",
+    "tests/on_policy_refresh_repair/reference/seed33/00/state001_train.h5": "bc873db89a4fdfbf29eff64dd2eb5d7cc5c82f589c2dc118c0e010e8f36959ed",
+    "tests/on_policy_refresh_repair/reference/seed33/00/state000_probe.h5": "93da509cd5964e609201b8e7bdb91db722dad5cdd7a85c72f22aa3e5b3e4341d",
+    "tests/on_policy_refresh_repair/reference/seed33/00/state000_fine.h5": "b89293499412d2896ccad733248cdc04c06abba35ba7a2113f04bac82ddfa9e7",
+    "tests/on_policy_refresh_repair/reference/seed33/00/state001_probe.h5": "fcea4df6c0496d545f1fed96dc3a6a2a82190e1ef38dd70c79f41a77e0f986b2",
+    "tests/on_policy_refresh_repair/reference/seed33/00/state001_fine.h5": "e31e6d320bc768560fc113f539532e68e92acef0bc2b4367456a910cb7690dc5"
+  },
+  "scientific_certification": false
+}

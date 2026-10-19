@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-28",
+  "gpu": {"job_id": 671162, "array": "0-5", "partition": "rtx4090", "name": "zrs-mag", "action": "train"},
+  "statistics": {"job_id": 671168, "array": "0-5", "partition": "fat", "dependency": "afterok:671162", "action": "analyze"},
+  "web_aggregate": {"job_id": 671169, "partition": "fat", "dependency": "afterany:671168", "action": "aggregate"},
+  "monitoring": "No formal long-job monitoring after submission; user will notify completion.",
+  "outputs": ["tests/conditional_moment_repair/train", "tests/conditional_moment_repair/assets", "tests/conditional_moment_repair/logs"],
+  "primary_web": "tests/index.html#conditional-moment-repair",
+  "scientific_certification": false
+}

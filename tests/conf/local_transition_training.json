@@ -1,0 +1,16 @@
+{
+  "seeds": [11, 22, 33],
+  "updates": 6000,
+  "batch_size": 128,
+  "width": 64,
+  "learning_rate": 0.001,
+  "final_learning_rate": 0.00001,
+  "ema_decay": 0.999,
+  "lag": 0.01,
+  "axis": [0.0, 0.0, 1.0],
+  "flow_steps": 64,
+  "rollout_steps": 8,
+  "generated_paths": 256,
+  "generation_batch": 64,
+  "scope": "Exploratory fine-time prototype. Train and development parent families disjoint. No independent test or large-system certification. Fixed budget, no validation-selected checkpoint. Latent scale estimated from training increments only."
+}

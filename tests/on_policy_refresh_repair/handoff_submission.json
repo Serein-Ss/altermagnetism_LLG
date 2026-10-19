@@ -1,0 +1,12 @@
+{
+  "job": "672361",
+  "job_name": "zrs-mag",
+  "partition": "fat",
+  "dependency": "afterok:672360",
+  "allocation_limit_minutes": 10,
+  "command": "env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 bash ../run_zrs_mag.sh -m tests.on_policy_refresh_repair.submit",
+  "working_directory": "/share/home/xlzou/WORKSPACE/rszhong/workspace/test_new_project/altermagnetism_LLG",
+  "purpose": "Invoke frozen formal submission only after smoke GPU/report aggregate succeeds; submit() rechecks source hashes and software gates",
+  "formal_submission_record_after_execution": "submission.json",
+  "status": "accepted, not monitored; formal GPU array not yet submitted"
+}

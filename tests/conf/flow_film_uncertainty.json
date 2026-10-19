@@ -1,0 +1,6 @@
+{
+  "replicates": 2000,
+  "bootstrap_seed": 910000000,
+  "chunk": 64,
+  "scope": "Exploratory after viewing development results. Whole-path paired-generated bootstrap, independent reference resampling, fixed initials and trained seeds. Pointwise percentile intervals, not simultaneous or calibrated near-zero RMSE intervals; no equivalence or certification. All existing moment metrics, both prefixes, all three pairwise arm contrasts."
+}

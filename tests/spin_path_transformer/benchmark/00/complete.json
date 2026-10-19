@@ -1,0 +1,60 @@
+{
+  "task": {
+    "domain": "bauer",
+    "arm": "latent",
+    "seed": 11,
+    "updates": 6000,
+    "supervision": "fm"
+  },
+  "metadata": {
+    "version": 1,
+    "domain": "bauer",
+    "architecture": "latent",
+    "width": 64,
+    "depth": 4,
+    "periodic": [
+      false
+    ],
+    "temperature_K": 63.824849668,
+    "source_shift": 2.0,
+    "time_unit": "ps",
+    "frames": 11,
+    "frame_interval": 0.1,
+    "transport_stop": 1.0,
+    "crystal_frame": "registered orthonormal triad",
+    "symmetry": "joint SO(3), not reflection or spin-only symmetry",
+    "region_cells": 4,
+    "latents": 8
+  },
+  "history": [],
+  "evaluation": [
+    {
+      "parent": {
+        "file": "dev_parent145_base.h5",
+        "parent_id": "L16_parent145",
+        "split": "dev",
+        "family": "positive",
+        "arm": "base",
+        "branches": 16,
+        "frames": 1001,
+        "dt_fs": 0.25,
+        "sha256": "ec99c80d5b1252d54c272aa85407b2b22d6d0b59ef02db0ae23ce5de1bafaeff",
+        "L": 16,
+        "path": "tests/bauer_active_data_20260918/data/L16/dev_parent145_base.h5",
+        "candidate_seed": 21861063,
+        "preparation_seed": 21871063
+      },
+      "steps": 16,
+      "branches": 2,
+      "seconds": 0.1369599625468254
+    }
+  ],
+  "warm_step_seconds": 0.03772643208503723,
+  "train_seconds": 0.6914458610117435,
+  "parameters": 659206,
+  "peak_bytes": 166274048,
+  "device": "NVIDIA GeForce RTX 3090",
+  "first8_input_hash": "93776ff3ad4846aa28698200ef81ca910525e9f4c6f107c3d6e8feb8ea727263",
+  "scientific_certification": false,
+  "total_seconds": 19.05632894858718
+}

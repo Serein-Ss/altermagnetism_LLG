@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-01",
+  "gpu_array": "671392",
+  "statistics_array": "671401",
+  "aggregate": "671402",
+  "array": "0-11",
+  "job_name": "zrs-mag",
+  "gpu_partition": "rtx4090",
+  "cpu_partition": "fat",
+  "runtime_estimate_per_gpu": "2-3h including evaluation, excluding queue",
+  "monitoring": "No monitoring after formal acceptance; user will notify completion",
+  "smoke": {
+    "gpu": "671383",
+    "statistics": "671387",
+    "aggregate": "671391",
+    "passed": true
+  },
+  "formal_results": "tests/family_specialization_repair/assets/index.html"
+}

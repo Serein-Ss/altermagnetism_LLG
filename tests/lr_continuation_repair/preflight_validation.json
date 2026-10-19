@@ -1,0 +1,22 @@
+{
+  "unit_and_regression_checks": 20,
+  "unit_and_regression_passed": true,
+  "unit_log": "logs/preflight.out",
+  "gpu_smoke_job": "671023",
+  "gpu_smoke_indices": [0, 1, 2],
+  "gpu_smoke_seconds_each": 48,
+  "gpu_smoke_updates_each": 32,
+  "gpu_smoke_checkpoint_steps": [24016, 24032],
+  "checkpoints_readable": 6,
+  "optimizer_states_per_checkpoint": 142,
+  "intermediate_evaluation_preserves_training_rng": true,
+  "paired_stage_schedule_and_source_tau_hashes_equal": true,
+  "statistics_smoke_job": "671026",
+  "statistics_smoke_seconds_each": 12,
+  "aggregate_smoke_job": "671027",
+  "aggregate_smoke_seconds": 5,
+  "report_results": 3,
+  "report_missing": [],
+  "report_errors": [],
+  "smoke_not_physical_accuracy_certification": true
+}

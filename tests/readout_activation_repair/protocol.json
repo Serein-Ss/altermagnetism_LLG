@@ -1,0 +1,76 @@
+{
+  "tasks": [
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "neighbor_low",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "neighbor_fast",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 11,
+      "repair": "pointwise_fast",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "neighbor_low",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "neighbor_fast",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 22,
+      "repair": "pointwise_fast",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "neighbor_low",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "neighbor_fast",
+      "updates": 6000
+    },
+    {
+      "domain": "bauer",
+      "arm": "hierarchical",
+      "seed": 33,
+      "repair": "pointwise_fast",
+      "updates": 6000
+    }
+  ],
+  "hypothesis": "Previous heads changed TRAIN-probe velocity by only0.074-0.308percent. Test fresh-head optimization, not assume neighborhood information useless.",
+  "arms": "neighbor_low readout3e-5->3e-6;neighbor_fast and pointwise_fast readout3e-4->3e-5. Backbone all3e-5->3e-6. Paired equal6403readoutparameters. No inference gain or post-hoc temperature change.",
+  "controls": "Same gradient_accumulation batch1 step30000 source,originalAdamretained,newheadzerooutput/newAdam. Exact previous local_condition data/source/pair/tau streams,6000updates,native8+balanced48TRAINrestart weight1. NewheadLRonly changes neighborlow/fast. Fastpointwise controls localneighborfeatures at sameLR.",
+  "physics": "Bauer open,J50meV,kappa.1,alpha.1,theta.11,T63.824849668K. Reference dt.25/.125fs;trainedlag.1ps,10freshnoise transitions1ps. No new data,loss,physics or time relabel.",
+  "diagnostics": "Fixed TRAIN transport probes at tau.1/.5/.9 report head/base RMS and head-off FM. On/off generation on six L16 independent DEV states (two per family),same latent seeds;checkpoint backbone unchanged during ablation. Full existing72intermediate and18dev1ps128/512 evaluator retained;allpaths saved.",
+  "evaluation": "Freeze final36000checkpoint,three trainingseeds. Wholebranchbootstrap100,reference and generated samplingerror;fixedparent diagnostics,reuseddev not finalholdout. Report family,size,time strata,energy/space/time separately. No arbitrary universal pass score.",
+  "limitations": "Stronger head activity is manipulation evidence,not physicalaccuracy. If neither fastcandidate improves,do not declare general locality ineffective. HighLR may worsen variance or timecorrelation. Familystratification diagnoses failures but does not byitself identify causality;no specialized-family model claim.",
+  "budget": "3smokeGPU estimated1-4min each.9formalGPU estimated2-3h each including evaluations;9fatstats3-6min;web<3min. Partitionrtx4090,zrs-mag. Stopmonitoring formaljobs afteracceptance.",
+  "skills": "karpathy-guidelines;experimental-design pairedcontrols;matplotlib PNG. No productionpromotion."
+}

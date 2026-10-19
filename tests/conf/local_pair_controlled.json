@@ -1,0 +1,23 @@
+{
+  "data": "data/research/runs/bauer_first_loop/20260913_v1/development.npz",
+  "data_sha256": "67fd62fa1261be36c69ceb5ee5ab7a21bcc59d12fe2dfb3ec11e78626574909c",
+  "freeze": "tests/conf/stable_candidate_freeze.json",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "arms": [
+    "control",
+    "local_pair"
+  ],
+  "steps": 6000,
+  "batch_size": 8,
+  "window_frames": 11,
+  "learning_rate": 0.0001,
+  "min_lr": 0.00001,
+  "ema_decay": 0.999,
+  "random_seed": 890000000,
+  "scope": "Exploratory concurrent paired three-seed comparison. Same frozen EMA, fresh Adam, data and training RNG, 6000 updates. Zero-initialized data-derived local dot/mask input. No Hamiltonian or new loss penalty. Equal updates, not equal FLOPs. No best-seed choice or promotion.",
+  "evaluation": "After all six training tasks complete, evaluate all seeds on fixed development initial families with paired latent seeds, 128 paths/family, 1024 steps, first800 and full16000. Compare spatial/temporal moments, magnetization diversity, sign events and runtime. Reused development is not final certification. No GO from loss."
+}

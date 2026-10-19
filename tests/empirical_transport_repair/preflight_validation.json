@@ -1,0 +1,28 @@
+{
+  "smoke": [
+    {
+      "index": 0,
+      "seconds": 13.092567298561335,
+      "peak_bytes": 94956032
+    },
+    {
+      "index": 1,
+      "seconds": 13.08744202554226,
+      "peak_bytes": 94956032
+    },
+    {
+      "index": 2,
+      "seconds": 13.032427936792374,
+      "peak_bytes": 94956032
+    },
+    {
+      "index": 8,
+      "seconds": 13.007236808538437,
+      "peak_bytes": 94956032
+    }
+  ],
+  "paired_sources": true,
+  "oracle_no_extensions": true,
+  "oracle_counts_converged_for_this_seed": true,
+  "scientific_certification": false
+}

@@ -1,0 +1,23 @@
+{
+  "sites": 25,
+  "theta": [0.11, 0.13],
+  "families_per_kind": 4,
+  "kinds": ["aligned", "tilted", "wall"],
+  "initial_seed": 1006000000,
+  "noise_base": 1600000000,
+  "schedule_seed": 1006001000,
+  "aligned_noise": 0.05,
+  "texture_noise": 0.15,
+  "tilt_radians": 0.8,
+  "wall_width_sites": 3.0,
+  "paths_per_anchor": 512,
+  "duration": 0.8,
+  "save_dt": 0.01,
+  "anisotropy": 0.1,
+  "damping": 0.1,
+  "cases": [{"method":"mt", "dt":0.0025}, {"method":"mt", "dt":0.00125}, {"method":"heun", "dt":0.00125}],
+  "sampling": {"flow_steps": [32], "generation_batch": 64, "latent_base": 1700000000},
+  "candidate_freeze": "tests/results/reflection_augmentation_analysis/candidate_freeze.json",
+  "metrics": ["mean trajectory", "on-site variance", "neighbor correlations", "temporal connected correlations", "joint distribution at fixed times 0.01,0.08,0.2,0.4,0.8"],
+  "scope": "Twelve new initial families crossed with two temperatures, independent numerical noise. Freeze all three candidates before generating initial states. No retraining, seed selection or tuning on this validation bank. Whole noise paths are conditional sampling units; temperatures share initial families and model seeds share reference samples. 512 paths is a bounded precision increase, not power-sized equivalence certification. All conditions must be reported, with pointwise and multiplicity limitations explicit. Same L25 and duration0.8; not size-transfer, long-switching-time or continuum certification."
+}
