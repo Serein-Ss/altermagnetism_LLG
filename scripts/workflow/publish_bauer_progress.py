@@ -81,7 +81,7 @@ def build_report():
             if not rows:continue
             dest=ASSETS/f'{campaign["name"]}_{key}.csv';dest.parent.mkdir(parents=True,exist_ok=True)
             with dest.open('w',newline='') as stream:
-                writer=csv.writer(stream);writer.writerow(headers);writer.writerows(rows)
+                writer=csv.writer(stream,lineterminator='\n');writer.writerow(headers);writer.writerows(rows)
             body+='<h3>'+key+'</h3><table><thead><tr>'+''.join('<th>'+html.escape(x)+'</th>' for x in headers)+'</tr></thead><tbody>'
             for row in rows:body+='<tr>'+''.join('<td>'+html.escape(f'{x:.7g}' if isinstance(x,float) else str(x))+'</td>' for x in row)+'</tr>'
             body+='</tbody></table><a href="'+dest.name+'">CSV</a>'
